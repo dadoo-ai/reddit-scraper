@@ -12,9 +12,9 @@ async def list_posts():
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-async def search_posts(theme: str):
+async def search_posts(theme: str, filter:str):
     data = await scrape_subreddit(
-        subreddit_id="salesforce", sort="new", query=theme, max_pages=2
+        subreddit_id=theme, sort="new", query=filter, max_pages=2
     )
     with open("results/subreddit_search.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
@@ -27,15 +27,22 @@ async def list_post_comments(url: str):
 
 
 if __name__ == "__main__":
-    theme = "agentforce"
+    theme: str = "salesforce"
+    filter: str = "agentforce"
+
     url = "https://www.reddit.com/r/salesforce/comments/1mo8oni/how_effective_is_salesforce_agentforce_for/"
     model = "gpt-4.1"
 
-    # asyncio.run(search_posts(theme))
+    # permet de scrappper tous les subreddits du theme avec le filtre
+    # asyncio.run(search_posts(theme, filter)) 
+
+    # permet de scrappper tous les commentaires d'un post a partir de son url
     # asyncio.run(list_post_comments(url))
-    run_pipeline(
-        input_json_path="results/post_comments.json",
-        output_users_csv="results/users_agentforce.csv",
-        model=model,
-        max_workers=1
-    )
+    
+    # pipeline permettant d'analyser les commentaires d'un post
+    # run_pipeline(
+    #     input_json_path="results/post_comments.json",
+    #     output_users_csv="results/users_agentforce.csv",
+    #     model=model,
+    #     max_workers=1
+    # )
