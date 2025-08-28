@@ -1,0 +1,16 @@
+[project]
+name = "reddit-scraper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "httpx[http2]>=0.28.1",
+    "loguru>=0.7.3",
+    "openai>=1.102.0",
+    "orjson>=3.11.3",
+    "pandas>=2.3.2",
+    "parsel>=1.10.0",
+    "tqdm>=4.67.1",
+]
