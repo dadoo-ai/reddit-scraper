@@ -1,0 +1,122 @@
+{
+  "info": {
+    "authorId": "t2_1uhvlt1spq",
+    "author": "Effective-Egg2385",
+    "authorProfile": "https://www.reddit.com/user/Effective-Egg2385",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mzn3hc",
+    "postLabel": null,
+    "publishingDate": "2025-08-25T10:44:54+00:00",
+    "postTitle": "How are you optimizing opportunity stages for consulting sales?",
+    "postMessage": "Hi all, I'm a business owner of a global consulting services company. As our team is ramping up I want to start training them to use Salesforce for the various deal stages through to customer success or nurturing. I've been working to finetune our Opportunity stages in Salesforce to better reflect long enterprise cycles, including processes like RFPs and operational verifications. Anyone willing to share how you've structured your stages, the reports/dashboards you use the most, and any \"aha\" moments you encountered. Any insights, sample configs, or horror stories will be nodded to and appreciated!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mzn3hc/how_are_you_optimizing_opportunity_stages_for/",
+    "commentCount": 8,
+    "upvoteCount": 25,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Adventurous_Sky_4850",
+      "authorProfile": "https://www.reddit.com/user/Adventurous_Sky_4850",
+      "commentId": "t1_naxw8qn",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzn3hc/how_are_you_optimizing_opportunity_stages_for/naxw8qn/",
+      "publishingDate": 1756299835.0,
+      "commentBody": "With our current stage setup we tried to balance 'less is more' vs. detailed pipeline tracking. We acquired a small marketing agency (they had a pretty impressive pipeline on a basic CRM,) and just used a Rapidi template to quickly migrate to our Salesforce CRM. Because there were obvs some missing/non-existent fields (specifically: vendor docs, vendor application status, and operational verification) we could pre-populate these by pulling data from an external database. It sounds complicated but it really worked. Hope this helps?",
+      "upvotes": 7,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Effective-Egg2385",
+          "authorProfile": "https://www.reddit.com/user/Effective-Egg2385",
+          "commentId": "t1_nb4upve",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mzn3hc/how_are_you_optimizing_opportunity_stages_for/nb4upve/",
+          "publishingDate": 1756389748.0,
+          "commentBody": "Super helpful, thanks so much!",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_nake2t6",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzn3hc/how_are_you_optimizing_opportunity_stages_for/nake2t6/",
+      "publishingDate": 1756121299.0,
+      "commentBody": "Hey! \n\n  \nStart with process first :)\n\n  \nThis is how I optimize design of stages and anything else relevant to a cycle. \n\n  \nDo you have clear process mapping of your sales motions? \n\n  \nIf yes, share with us and we can give better guidance :)",
+      "upvotes": 4,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "BradCraeb",
+      "authorProfile": "https://www.reddit.com/user/BradCraeb",
+      "commentId": "t1_nakih3l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzn3hc/how_are_you_optimizing_opportunity_stages_for/nakih3l/",
+      "publishingDate": 1756123192.0,
+      "commentBody": "You're a business owner. You know your business. Talk to your Salesforce admin(s) and work with them to figure a set of stages that adequately reflects your business processes.\n\nThere's no best practice for opportunity stages that anyone here is going to be able to give you. Each business is different and the universe of potential solutions is enormous.",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Effective-Egg2385",
+          "authorProfile": "https://www.reddit.com/user/Effective-Egg2385",
+          "commentId": "t1_naswkf2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mzn3hc/how_are_you_optimizing_opportunity_stages_for/naswkf2/",
+          "publishingDate": 1756230395.0,
+          "commentBody": "Thanks mate, I'm the Admin and looking for more ideas here besides my own.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "jimmy13_d",
+      "authorProfile": "https://www.reddit.com/user/jimmy13_d",
+      "commentId": "t1_navfi8s",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzn3hc/how_are_you_optimizing_opportunity_stages_for/navfi8s/",
+      "publishingDate": 1756258615.0,
+      "commentBody": "As a general rule I like to set Opportunity Stage names to reflect things that *actually* happened. Some ideas are “First call scheduled”, “discovery held”, “demo held”, “proposal sent”, and other similar values\n\nThis helps standardize so much downstream. For example it’s easy to create a Flow based on these Stages changing, to automatically stamp key fields along the way. Also it’s easier to clearly define required Fields at each stage using validation rules. So many reasons this strategy has worked for me",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Effective-Egg2385",
+          "authorProfile": "https://www.reddit.com/user/Effective-Egg2385",
+          "commentId": "t1_naxhdp1",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mzn3hc/how_are_you_optimizing_opportunity_stages_for/naxhdp1/",
+          "publishingDate": 1756294324.0,
+          "commentBody": "Thanks jimmy, this is helpful. Your suggested flow is a bit too simplistic for us but I'll take your advice on \"reflect things that actually happened\" - obviously having observed our funnel over a couple of years we have a good idea of the main \"if\" values we need before the prospect is qualified to go to the next stage in the cycle. Could you share your cycle stages with me?",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "moopie45",
+      "authorProfile": "https://www.reddit.com/user/moopie45",
+      "commentId": "t1_namouui",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzn3hc/how_are_you_optimizing_opportunity_stages_for/namouui/",
+      "publishingDate": 1756147642.0,
+      "commentBody": "DM me",
+      "upvotes": -1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

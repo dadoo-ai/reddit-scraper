@@ -1,0 +1,140 @@
+{
+  "info": {
+    "authorId": "t2_1u7fushlwg",
+    "author": "LetRelative2422",
+    "authorProfile": "https://www.reddit.com/user/LetRelative2422",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mzo3ds",
+    "postLabel": null,
+    "publishingDate": "2025-08-25T11:38:32+00:00",
+    "postTitle": "Should I continue in CRM after my multinational internship?",
+    "postMessage": "Hi everyone, I’m currently completing a Master’s in International Strategic Marketing  and did my internship at multinational in Data & CRM Marketing. During my time there, I:\n    • Worked on Salesforce Marketing Cloud, Adobe Campaign, and Mailchimp for CRM campaigns.\n    • Built data-driven segmentations and analyzed performance with Power BI & Looker Studio.\n    • Helped re-engage unsubscribed customers through retargeting flows.\n    • Created automated journeys, newsletters, and optimized campaigns using Einstein AI. Now I’m wondering:\n    • Do you think it’s a good idea to continue my career path in CRM & Marketing Automation?\n    • Which certifications would you recommend (Salesforce, Adobe, or others)?\n    • Should I focus more on email marketing & automation or broaden into other CRM-related areas? I’d love to hear your thoughts from people already working in CRM/Salesforce/Marketing Automation. Thanks a lot!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mzo3ds/should_i_continue_in_crm_after_my_multinational/",
+    "commentCount": 9,
+    "upvoteCount": 1,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_nakh2ie",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzo3ds/should_i_continue_in_crm_after_my_multinational/nakh2ie/",
+      "publishingDate": 1756122615.0,
+      "commentBody": "Sounds like you built real and tangible experience! \n\n  \nDid you like the work?",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "LetRelative2422",
+          "authorProfile": "https://www.reddit.com/user/LetRelative2422",
+          "commentId": "t1_nakxkmp",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mzo3ds/should_i_continue_in_crm_after_my_multinational/nakxkmp/",
+          "publishingDate": 1756128764.0,
+          "commentBody": "Yes, i like it, but starting a career in it seems impossible…",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Jkazz21",
+              "authorProfile": "https://www.reddit.com/user/Jkazz21",
+              "commentId": "t1_nal0t8y",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mzo3ds/should_i_continue_in_crm_after_my_multinational/nal0t8y/",
+              "publishingDate": 1756129845.0,
+              "commentBody": "Starting off in the Salesforce ecosystem these days is incredibly difficult. However, that's usually because people are transitioning out of a different industry and trying to get into Salesforce with zero experience and just a cert. Given that you have experience with the platform, it will still be tough landing a first job but you already have a leg up. I'd recommend getting your admin cert but you should still apply to jobs to see what kind of traction you get",
+              "upvotes": 2,
+              "dislikes": null,
+              "downvotes": null
+            },
+            {
+              "authorId": null,
+              "author": "Interesting_Button60",
+              "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+              "commentId": "t1_nalcnd2",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mzo3ds/should_i_continue_in_crm_after_my_multinational/nalcnd2/",
+              "publishingDate": 1756133535.0,
+              "commentBody": "You are ahead of most already with your experience! \n\n  \nMake sure you ask for references for LinkedIn from your boss and colleagues.\n\n  \nCertification is an option but not a mandatory one. \n\n  \nDo you have an opportunity to continue employment with that company? \n\n  \nThis is a great springboard for your career if you enjoyed Salesforce!",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "LetRelative2422",
+                  "authorProfile": "https://www.reddit.com/user/LetRelative2422",
+                  "commentId": "t1_nalhhyg",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1mzo3ds/should_i_continue_in_crm_after_my_multinational/nalhhyg/",
+                  "publishingDate": 1756134989.0,
+                  "commentBody": "They don’t want to engage me due to paper and visa sponsoring as i’m not European",
+                  "upvotes": 1,
+                  "dislikes": null,
+                  "downvotes": null,
+                  "replies": [
+                    {
+                      "authorId": null,
+                      "author": "Interesting_Button60",
+                      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+                      "commentId": "t1_nalj5ev",
+                      "link": "https://www.reddit.com/r/salesforce/comments/1mzo3ds/should_i_continue_in_crm_after_my_multinational/nalj5ev/",
+                      "publishingDate": 1756135483.0,
+                      "commentBody": "That's tough, I'm sorry.",
+                      "upvotes": 1,
+                      "dislikes": null,
+                      "downvotes": null,
+                      "replies": [
+                        {
+                          "authorId": null,
+                          "author": "LetRelative2422",
+                          "authorProfile": "https://www.reddit.com/user/LetRelative2422",
+                          "commentId": "t1_naljan3",
+                          "link": "https://www.reddit.com/r/salesforce/comments/1mzo3ds/should_i_continue_in_crm_after_my_multinational/naljan3/",
+                          "publishingDate": 1756135526.0,
+                          "commentBody": "Yes but we keep hope…",
+                          "upvotes": 1,
+                          "dislikes": null,
+                          "downvotes": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "authorId": null,
+              "author": "boingmydoing",
+              "authorProfile": "https://www.reddit.com/user/boingmydoing",
+              "commentId": "t1_nam3obs",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mzo3ds/should_i_continue_in_crm_after_my_multinational/nam3obs/",
+              "publishingDate": 1756141513.0,
+              "commentBody": "You are already light years ahead of those who have nothing but certifications or went through programs like Talent Stacker.",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "LetRelative2422",
+                  "authorProfile": "https://www.reddit.com/user/LetRelative2422",
+                  "commentId": "t1_naqqd4e",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1mzo3ds/should_i_continue_in_crm_after_my_multinational/naqqd4e/",
+                  "publishingDate": 1756205824.0,
+                  "commentBody": "What should i do to maximize my chances…",
+                  "upvotes": 1,
+                  "dislikes": null,
+                  "downvotes": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

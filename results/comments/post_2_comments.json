@@ -1,0 +1,766 @@
+{
+  "info": {
+    "authorId": "t2_pwrhoxapc",
+    "author": "adamerstelle",
+    "authorProfile": "https://www.reddit.com/user/adamerstelle",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1myg87y",
+    "postLabel": null,
+    "publishingDate": "2025-08-23T23:21:20+00:00",
+    "postTitle": "Introducing Renameforce: Because Salesforce Renames Everything",
+    "postMessage": "You know how Salesforce has a slight habit of renaming products every other year (or quarter 😅)? I put together Renameforce, a site that: Lets you search old names to see what they’re called today Check out the rapidly changing Leaderboard A few fun things (quiz, name generator) 👉 Check it out: renameforce.com I’d love your help: Did I miss any infamous renames? I tried to find a good list, and put together what I could...I'm sure I'm missing stuff Features you’d want to see? Was this the worst spend of my Saturday time? This is meant to be both helpful (because consultants/admins need this) and a little hilarious (because… c’mon, it’s Salesforce). I'd love your input!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/",
+    "commentCount": 59,
+    "upvoteCount": 262,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "zerofalks",
+      "authorProfile": "https://www.reddit.com/user/zerofalks",
+      "commentId": "t1_nacaefv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nacaefv/",
+      "publishingDate": 1755998007.0,
+      "commentBody": "As someone who works for Salesforce I bookmarked this.",
+      "upvotes": 88,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "theodenanyoh",
+      "authorProfile": "https://www.reddit.com/user/theodenanyoh",
+      "commentId": "t1_nabz4oa",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nabz4oa/",
+      "publishingDate": 1755993656.0,
+      "commentBody": "Add a feature to allow us to suggest new names of existing Salesforce products and the community to vote on what we think Salesforce should name some products.",
+      "upvotes": 46,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nac8yq4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nac8yq4/",
+          "publishingDate": 1755997442.0,
+          "commentBody": "Ooo I like this idea. RenameExchange!",
+          "upvotes": 52,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "agent674253",
+              "authorProfile": "https://www.reddit.com/user/agent674253",
+              "commentId": "t1_nahlz9q",
+              "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nahlz9q/",
+              "publishingDate": 1756074524.0,
+              "commentBody": "So how long will it take for another company to come along that has a need for that trademark/domain and gives you a call?\n\nI still find it funny, and a bit sad, how much Salesforce brags about how they had the rights to the appstore before Steve Apple called up Benioff, \"Please sir, may I have your domain name sir?\"\n\nMarc has brought this story up at least of couple of times at previous Dreamforce conferences.",
+              "upvotes": 4,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "singeblanc",
+      "authorProfile": "https://www.reddit.com/user/singeblanc",
+      "commentId": "t1_nae0szj",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nae0szj/",
+      "publishingDate": 1756029617.0,
+      "commentBody": "Great stuff! \n\nIt would be nice to have a graveyard too, similar to https://killedbygoogle.com/",
+      "upvotes": 20,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "KitchenPreferences",
+      "authorProfile": "https://www.reddit.com/user/KitchenPreferences",
+      "commentId": "t1_nacf204",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nacf204/",
+      "publishingDate": 1755999870.0,
+      "commentBody": "How long until OP gets a cease and desist on using “force” in the name?",
+      "upvotes": 15,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nacimeo",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nacimeo/",
+          "publishingDate": 1756001289.0,
+          "commentBody": "I guess I'd have to rename. Love the irony!",
+          "upvotes": 43,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Spatulakoenig",
+              "authorProfile": "https://www.reddit.com/user/Spatulakoenig",
+              "commentId": "t1_nafsdy1",
+              "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nafsdy1/",
+              "publishingDate": 1756053941.0,
+              "commentBody": "*Renamefarce*",
+              "upvotes": 10,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "nishant299",
+                  "authorProfile": "https://www.reddit.com/user/nishant299",
+                  "commentId": "t1_nagfuyo",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nagfuyo/",
+                  "publishingDate": 1756061019.0,
+                  "commentBody": "*Renamefacade*",
+                  "upvotes": 3,
+                  "dislikes": null,
+                  "downvotes": null
+                }
+              ]
+            },
+            {
+              "authorId": null,
+              "author": "grimview",
+              "authorProfile": "https://www.reddit.com/user/grimview",
+              "commentId": "t1_naks0ch",
+              "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/naks0ch/",
+              "publishingDate": 1756126831.0,
+              "commentBody": "Try remane-for-salesforce. The branding guidelines allow anything to end with \"for salesforce.\" Of couse, using force in the name is only if you build a app for salesforce. Parody fair-use laws allow for review / criticism  purposes.",
+              "upvotes": 2,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "n4s0",
+      "authorProfile": "https://www.reddit.com/user/n4s0",
+      "commentId": "t1_nabup3l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nabup3l/",
+      "publishingDate": 1755992034.0,
+      "commentBody": "Wonder how much would Salesforce charge for something similar 😂",
+      "upvotes": 21,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "bibibethy",
+          "authorProfile": "https://www.reddit.com/user/bibibethy",
+          "commentId": "t1_nacmw1x",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nacmw1x/",
+          "publishingDate": 1756003039.0,
+          "commentBody": "Available to Premier Support customers only",
+          "upvotes": 20,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Puzzled-Mycologist61",
+              "authorProfile": "https://www.reddit.com/user/Puzzled-Mycologist61",
+              "commentId": "t1_nahbzpq",
+              "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nahbzpq/",
+              "publishingDate": 1756071131.0,
+              "commentBody": "You mean signature, premier customers get nada",
+              "upvotes": 2,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Annie-Hero",
+      "authorProfile": "https://www.reddit.com/user/Annie-Hero",
+      "commentId": "t1_nac9f79",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nac9f79/",
+      "publishingDate": 1755997622.0,
+      "commentBody": "This is hilarious!",
+      "upvotes": 7,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Ok-Strawberry345",
+      "authorProfile": "https://www.reddit.com/user/Ok-Strawberry345",
+      "commentId": "t1_nacaw5k",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nacaw5k/",
+      "publishingDate": 1755998204.0,
+      "commentBody": "I LOVE THIS! Sorry if im just overlooking, but what’s the link? I will def check it out and let you know my thoughts! At the very least, its hilarious and helpful",
+      "upvotes": 8,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nacbfgw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nacbfgw/",
+          "publishingDate": 1755998417.0,
+          "commentBody": "It's in the OP: https://renameforce.com",
+          "upvotes": 6,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": null,
+          "author": "sfGuacGuy",
+          "authorProfile": "https://www.reddit.com/user/sfGuacGuy",
+          "commentId": "t1_nacbhod",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nacbhod/",
+          "publishingDate": 1755998442.0,
+          "commentBody": "Same here. Looks like the link was removed. Sounds like a great idea.",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "adamerstelle",
+              "authorProfile": "https://www.reddit.com/user/adamerstelle",
+              "commentId": "t1_nacijv5",
+              "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nacijv5/",
+              "publishingDate": 1756001261.0,
+              "commentBody": "It is renameforce dot com",
+              "upvotes": 2,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Dilfaikadmi",
+      "authorProfile": "https://www.reddit.com/user/Dilfaikadmi",
+      "commentId": "t1_nadhph1",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nadhph1/",
+      "publishingDate": 1756018259.0,
+      "commentBody": "If it gets any popular Salesforce’s gonna buy and rebrand it to \n\nAgents of Force - The Renameforce 😎\n\nReally cool site though",
+      "upvotes": 6,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_nadqi9l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nadqi9l/",
+      "publishingDate": 1756023351.0,
+      "commentBody": "I can't tell you how much I need this, thank you. \n\nI immediately went to search \"Einstein 1\"",
+      "upvotes": 7,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "pernunz",
+      "authorProfile": "https://www.reddit.com/user/pernunz",
+      "commentId": "t1_nacm44g",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nacm44g/",
+      "publishingDate": 1756002717.0,
+      "commentBody": "Omni studio Data Raptors became Data Mappers",
+      "upvotes": 5,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "brilliant-gallivant",
+          "authorProfile": "https://www.reddit.com/user/brilliant-gallivant",
+          "commentId": "t1_nai86s0",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nai86s0/",
+          "publishingDate": 1756082620.0,
+          "commentBody": "RIP the coolest product name",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nacp7vt",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nacp7vt/",
+          "publishingDate": 1756004012.0,
+          "commentBody": "Thanks, will add this",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "agent674253",
+      "authorProfile": "https://www.reddit.com/user/agent674253",
+      "commentId": "t1_nahmdi4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nahmdi4/",
+      "publishingDate": 1756074666.0,
+      "commentBody": "\"Marketing Cloud Customer Data Platform\"\n\nAh, a name that only Microsoft could love 😂",
+      "upvotes": 6,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Steady_Ri0t",
+      "authorProfile": "https://www.reddit.com/user/Steady_Ri0t",
+      "commentId": "t1_nadkzhg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nadkzhg/",
+      "publishingDate": 1756020118.0,
+      "commentBody": "I love this. \n\nYou should make the leaderboards product names hyperlinks so we can easily see the list of old names for them",
+      "upvotes": 4,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nae12cs",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nae12cs/",
+          "publishingDate": 1756029768.0,
+          "commentBody": "Ooo, great idea",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Oleg_Dobriy",
+      "authorProfile": "https://www.reddit.com/user/Oleg_Dobriy",
+      "commentId": "t1_naea8o4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/naea8o4/",
+      "publishingDate": 1756034812.0,
+      "commentBody": "Please add a list of all current names with the option to see their renames without the need to look them up first",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nago5pa",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nago5pa/",
+          "publishingDate": 1756063641.0,
+          "commentBody": "Yea, I like this",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "zudnic",
+      "authorProfile": "https://www.reddit.com/user/zudnic",
+      "commentId": "t1_nacnttk",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nacnttk/",
+      "publishingDate": 1756003428.0,
+      "commentBody": "Can you use a Wave front end?",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nacpdz5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nacpdz5/",
+          "publishingDate": 1756004082.0,
+          "commentBody": "that would be on par, but I want to keep this easily maintainable. I also thought of using LWR...but want to make sure this stays obviously satire and not closely related in styles etc",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "SnooDoughnuts3687",
+      "authorProfile": "https://www.reddit.com/user/SnooDoughnuts3687",
+      "commentId": "t1_nacquec",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nacquec/",
+      "publishingDate": 1756004708.0,
+      "commentBody": "Looking for newly named products is one of the steps in our release review, so this is great.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "NaiveHighlight6011",
+      "authorProfile": "https://www.reddit.com/user/NaiveHighlight6011",
+      "commentId": "t1_nafp2r4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nafp2r4/",
+      "publishingDate": 1756052918.0,
+      "commentBody": "This is so great! I love the live rename ticker on the site. Very clever! Made me lol. Well done!",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Recent_Rub_8125",
+      "authorProfile": "https://www.reddit.com/user/Recent_Rub_8125",
+      "commentId": "t1_nagn800",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nagn800/",
+      "publishingDate": 1756063343.0,
+      "commentBody": "Love it 👍 Great job. Bookmarked 🙌.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "SpikeyBenn",
+      "authorProfile": "https://www.reddit.com/user/SpikeyBenn",
+      "commentId": "t1_nacr7bt",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nacr7bt/",
+      "publishingDate": 1756004862.0,
+      "commentBody": "Wait I am confused 🤔",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "SpatulaCitizen",
+      "authorProfile": "https://www.reddit.com/user/SpatulaCitizen",
+      "commentId": "t1_nadcgy7",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nadcgy7/",
+      "publishingDate": 1756015353.0,
+      "commentBody": "Sorry, did OP actually post the URL?",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nae0ym9",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nae0ym9/",
+          "publishingDate": 1756029708.0,
+          "commentBody": "I did, but some aren't seeing it. It is renameforce dot com",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "East-Selection-4897",
+      "authorProfile": "https://www.reddit.com/user/East-Selection-4897",
+      "commentId": "t1_nafgdsq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nafgdsq/",
+      "publishingDate": 1756050257.0,
+      "commentBody": "Do the different outlook integrations count lmao",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "grimview",
+      "authorProfile": "https://www.reddit.com/user/grimview",
+      "commentId": "t1_nakv9vn",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nakv9vn/",
+      "publishingDate": 1756127977.0,
+      "commentBody": "Is there a complete list or do we just need to search 1 at a time? Some things you may have missed:\n\nPackages - Used to be called Managed &amp; Un-managed Packages. Not to be confused with \"packages\" for visual studio, despite Salesforce docs &amp; blogs not knowing there is a difference. I think they are now called locked &amp; unlocked packages. \n\nMultiforce - that drop down in classic to change the app or a collection of tabs. Now just called apps.\n\n\"Safe harbor\" many think it means your data is safe. However, it really means the presentation you are about to see is marketing that no reasonable person should believe, \"may not be delivered on time or at all\" &amp; should \"not be used for purchasing decisions.\"\n\nCustomer Success portal,  Success Community, Community, Trailhead, trail blazer,  Primarily Marketing Activities (Stock docs- only place salaesforce can't lie).",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nakwudk",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nakwudk/",
+          "publishingDate": 1756128516.0,
+          "commentBody": "Packages weren't really renamed. There are still Managed, Unmanaged, Unlocked. They are all different types, and those are still the current names. (the difference being 1gp and 2gp)\n\nWith that said, maybe there's a place for generally confusing names, where some might think its a rename but really it's just a new tech for a similar purpose? kinda like Visualforce -&gt; Aura -&gt; LWC?\n\nA couple others have pointed out a complete list. I like the idea, just gotta wrap my head around how to present it in a good way.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "grimview",
+              "authorProfile": "https://www.reddit.com/user/grimview",
+              "commentId": "t1_namun2t",
+              "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/namun2t/",
+              "publishingDate": 1756149336.0,
+              "commentBody": "A glossary might work for a complete list, since they often say see these other topics.\n\n As for g 1gp and 2gp packages, that may not different tech. From my understanding the goal of 2gp, is to pull from source control so we can get a folder structure that will be ignored when uploading to Salesforce. 1gp is using a developer org as source control. Now in both cases Managed packages can only be deployed from a dev org which has unique name space / prefix add to each component. Also the VS code has a feature called package which tells VS code what meta data to pull &amp; by default only pulls code without objects from salesforce. Now we may wonder why anyone would do this &amp; the answer is large apps like Veeva &amp;  I think Industry cloud, are Un-managed, so they don't have a name space / prefix &amp; therefor can use source control &amp; tools like auto rabbit &amp; other tools to deploy VS code Packages (NOT sf packages or change sets) to hundreds of orgs. However, the majority of apps &amp; and customer admins don't need something this complex, but try explaining this SF &amp; its biggest vendors.",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Defofmeh",
+      "authorProfile": "https://www.reddit.com/user/Defofmeh",
+      "commentId": "t1_namhtz0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/namhtz0/",
+      "publishingDate": 1756145561.0,
+      "commentBody": "You are missing marketing cloud. You have a few flavors of it, but not the NEW product with the old name.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nami7sp",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nami7sp/",
+          "publishingDate": 1756145673.0,
+          "commentBody": "Marketing Cloud Engagement is there, with all the names. Curious, what did you search?",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Defofmeh",
+              "authorProfile": "https://www.reddit.com/user/Defofmeh",
+              "commentId": "t1_namj8v1",
+              "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/namj8v1/",
+              "publishingDate": 1756145975.0,
+              "commentBody": "Marketing Cloud engagement is there, but there know a new product that's taken the name \"Marketing Cloud\". So Marketing cloud is still in use, its just been added to a new product.  \n\nI guess thats not renaming is reproduting.",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "adamerstelle",
+                  "authorProfile": "https://www.reddit.com/user/adamerstelle",
+                  "commentId": "t1_namjs63",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/namjs63/",
+                  "publishingDate": 1756146134.0,
+                  "commentBody": "I think you are talking about \"Marketing Cloud Next\", which is mostly a GTM / Umbrella term (there is no product). SF tried this 3 years ago by having \"Marketing Cloud\" be the umbrella term for the suite of products (causing SFMC to be renamed to MCE). Maybe it will go better the 2nd time?\n\nI think its worth calling out the Product Suite renaming, as it is confusing to say the least. Just gotta figure out how to do that in the site without adding more confusion!",
+                  "upvotes": 1,
+                  "dislikes": null,
+                  "downvotes": null,
+                  "replies": [
+                    {
+                      "authorId": null,
+                      "author": "Defofmeh",
+                      "authorProfile": "https://www.reddit.com/user/Defofmeh",
+                      "commentId": "t1_namthby",
+                      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/namthby/",
+                      "publishingDate": 1756148993.0,
+                      "commentBody": "Yeah, Marketing Cloud now has a number of flavors (starter, pro suite,  growth, and Advanced) you could call this a product suite, all based on the same data cloud tech. As a marketing solution this is new product as compared to MCAE and MCE. \n\nNext will open things up for Engagement customers,  but for MC its branding and selling assets to a new group.",
+                      "upvotes": 1,
+                      "dislikes": null,
+                      "downvotes": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Fit_Engineering_2427",
+      "authorProfile": "https://www.reddit.com/user/Fit_Engineering_2427",
+      "commentId": "t1_namp2me",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/namp2me/",
+      "publishingDate": 1756147705.0,
+      "commentBody": "This is great! Expecting the ultimate rename of the company itself to Agentforce any day.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "jretrogaming",
+      "authorProfile": "https://www.reddit.com/user/jretrogaming",
+      "commentId": "t1_nan1uv2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nan1uv2/",
+      "publishingDate": 1756151410.0,
+      "commentBody": "Love it. Nice work. Especially enjoy the Salesforce Name Generator. Be sure to share it with the Marketing Cloud reddit.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Sotall",
+      "authorProfile": "https://www.reddit.com/user/Sotall",
+      "commentId": "t1_nanip4q",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nanip4q/",
+      "publishingDate": 1756156192.0,
+      "commentBody": "This is great! I think you missed a short lived mouthful: Salesforce ExactTarget Marketing Cloud, in between Exacttarget Marketing Cloud and Salesforce Marketing Cloud.  \n\nhttps://preview.redd.it/2tlkwy2zd8lf1.png?width=343&amp;format=png&amp;auto=webp&amp;s=6f31268118c765679bd7cf4a923b365f8c0b064a",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nao7n65",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nao7n65/",
+          "publishingDate": 1756164635.0,
+          "commentBody": "got it now!",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "faldo",
+      "authorProfile": "https://www.reddit.com/user/faldo",
+      "commentId": "t1_nanz4b2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nanz4b2/",
+      "publishingDate": 1756161402.0,
+      "commentBody": "Lawl",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Upstairs_Light6528",
+      "authorProfile": "https://www.reddit.com/user/Upstairs_Light6528",
+      "commentId": "t1_nb05zpv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nb05zpv/",
+      "publishingDate": 1756323485.0,
+      "commentBody": "If your site crashes it's because I shared it with everyone I know that knows salesforce. sorry not sorry.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nb0c56z",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nb0c56z/",
+          "publishingDate": 1756325222.0,
+          "commentBody": "I was wondering why the power was flickering in my basement! JK, though it is getting more visitors and attention than I would have anticipated.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Upstairs_Light6528",
+      "authorProfile": "https://www.reddit.com/user/Upstairs_Light6528",
+      "commentId": "t1_nb06pz4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nb06pz4/",
+      "publishingDate": 1756323694.0,
+      "commentBody": "Marketing Cloud used to be ExactTarget, except for Marketing Cloud Engagement, which was Pardot.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nb0c8ct",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nb0c8ct/",
+          "publishingDate": 1756325246.0,
+          "commentBody": "This is already in the tool, what did you search for that didn't show up? (also, ExactTarget...who purchased Pardot (now MC Account Engagement) as a 2nd tool is indeed MC Engagement)",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Upstairs_Light6528",
+      "authorProfile": "https://www.reddit.com/user/Upstairs_Light6528",
+      "commentId": "t1_nb06yi0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nb06yi0/",
+      "publishingDate": 1756323763.0,
+      "commentBody": "Communities/Experience was also called Alumni Cloud or Customer Portal or Partner Portal.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nb0dacw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nb0dacw/",
+          "publishingDate": 1756325540.0,
+          "commentBody": "ooo good one, thanks!",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Upstairs_Light6528",
+      "authorProfile": "https://www.reddit.com/user/Upstairs_Light6528",
+      "commentId": "t1_nb09yva",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nb09yva/",
+      "publishingDate": 1756324616.0,
+      "commentBody": "Einstein Prediction Builder / AI / Einstein Next Best Action / Einstein Forecasting / Einstein Recommendations / Einstein Vision / Einstein Search / AI Insights / Einstein Scoring",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "adamerstelle",
+          "authorProfile": "https://www.reddit.com/user/adamerstelle",
+          "commentId": "t1_nb0co6o",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myg87y/introducing_renameforce_because_salesforce/nb0co6o/",
+          "publishingDate": 1756325368.0,
+          "commentBody": "I'm not really sure what to do with this",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    }
+  ]
+}

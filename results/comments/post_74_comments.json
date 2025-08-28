@@ -1,0 +1,86 @@
+{
+  "info": {
+    "authorId": "t2_3g7lqr9x",
+    "author": "Gyrokos97",
+    "authorProfile": "https://www.reddit.com/user/Gyrokos97",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mzug3q",
+    "postLabel": null,
+    "publishingDate": "2025-08-25T15:59:28+00:00",
+    "postTitle": "Bulk Moving Tasks in Salesforce Classic",
+    "postMessage": "We’ve recently had an issue with product assigning 10,000 tasks to one person. Is there a way to mass complete these/move them? Or does this need to be done individually",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mzug3q/bulk_moving_tasks_in_salesforce_classic/",
+    "commentCount": 5,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "TheSauce___",
+      "authorProfile": "https://www.reddit.com/user/TheSauce___",
+      "commentId": "t1_naood9l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzug3q/bulk_moving_tasks_in_salesforce_classic/naood9l/",
+      "publishingDate": 1756170492.0,
+      "commentBody": "I think you just want to use data loader tbh, you sound like an admin.\n\nJust export the tasks into a csv file, in excel change the OwnerId field to whoever you want it to be (send it to the dumb ass product guy who assigned them all lmao), then run an update job in data loader.\n\nAlternatively, after exporting, you can use the csv + data loader to mass delete the tasks also.",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Caveat53",
+          "authorProfile": "https://www.reddit.com/user/Caveat53",
+          "commentId": "t1_naoq3u7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mzug3q/bulk_moving_tasks_in_salesforce_classic/naoq3u7/",
+          "publishingDate": 1756171097.0,
+          "commentBody": "Yeah exactly this. It's good to get some practice with Data Loader as it's a very useful tool",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "LessRabbit9072",
+      "authorProfile": "https://www.reddit.com/user/LessRabbit9072",
+      "commentId": "t1_nalrn0l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzug3q/bulk_moving_tasks_in_salesforce_classic/nalrn0l/",
+      "publishingDate": 1756137964.0,
+      "commentBody": "Lookup salesforce navigator reloaded. \n\nYou'll want to export a list of the task id's for all 10k. Then you can upload the list back into salesforce with the changed task status or changed owner id.\n\nThis is a minute task for most admins so reach out to the people who run your org.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "SP4CEM4N_SPIFF",
+          "authorProfile": "https://www.reddit.com/user/SP4CEM4N_SPIFF",
+          "commentId": "t1_nalyoqa",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mzug3q/bulk_moving_tasks_in_salesforce_classic/nalyoqa/",
+          "publishingDate": 1756140058.0,
+          "commentBody": "Inspector?",
+          "upvotes": 4,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Longjumping-Poet4322",
+              "authorProfile": "https://www.reddit.com/user/Longjumping-Poet4322",
+              "commentId": "t1_nam0krq",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mzug3q/bulk_moving_tasks_in_salesforce_classic/nam0krq/",
+              "publishingDate": 1756140619.0,
+              "commentBody": "Yeah SF Inspector Reloaded is what he means",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

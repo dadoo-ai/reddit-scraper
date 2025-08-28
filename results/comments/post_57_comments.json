@@ -1,0 +1,112 @@
+{
+  "info": {
+    "authorId": "t2_ejg3oqr74",
+    "author": "cottage_cheese_fan",
+    "authorProfile": "https://www.reddit.com/user/cottage_cheese_fan",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mxhu5i",
+    "postLabel": null,
+    "publishingDate": "2025-08-22T20:41:36+00:00",
+    "postTitle": "Sub cross filter confusion",
+    "postMessage": "I’m trying to create an accounts without certain opportunities report. I used an Account report type with a cross filter Accounts without opportunities. Because there is a lot of data, i only want it to exclude certain users with open opps (so my sub filters are Opp Owner=those people, Open Opp=True). However, i created another report (Accounts with or without opportunities) to check myself, and somehow the cross filter or sub cross filters aren’t working. It is still pulling in Accounts with open opportunities owned by the users I specified. My brain is mush. Please help!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mxhu5i/sub_cross_filter_confusion/",
+    "commentCount": 8,
+    "upvoteCount": 2,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Oleg_Dobriy",
+      "authorProfile": "https://www.reddit.com/user/Oleg_Dobriy",
+      "commentId": "t1_na55uof",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxhu5i/sub_cross_filter_confusion/na55uof/",
+      "publishingDate": 1755897275.0,
+      "commentBody": "Can you post a screenshot of the filters? ",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "cottage_cheese_fan",
+          "authorProfile": "https://www.reddit.com/user/cottage_cheese_fan",
+          "commentId": "t1_na5q1od",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxhu5i/sub_cross_filter_confusion/na5q1od/",
+          "publishingDate": 1755904184.0,
+          "commentBody": "https://preview.redd.it/q3zt9wbmknkf1.jpeg?width=367&amp;format=pjpg&amp;auto=webp&amp;s=05bdca71539b64c2a46a9dbdc70d3b9fb53e6e9e\n\nYes! Sorry on mobile.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Oleg_Dobriy",
+              "authorProfile": "https://www.reddit.com/user/Oleg_Dobriy",
+              "commentId": "t1_na7pq0l",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mxhu5i/sub_cross_filter_confusion/na7pq0l/",
+              "publishingDate": 1755935991.0,
+              "commentBody": "The list of users in the Opp Owner field should contain their full names, not their IDs, and the delimiter is a comma.",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "cottage_cheese_fan",
+                  "authorProfile": "https://www.reddit.com/user/cottage_cheese_fan",
+                  "commentId": "t1_na8rwrb",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1mxhu5i/sub_cross_filter_confusion/na8rwrb/",
+                  "publishingDate": 1755955296.0,
+                  "commentBody": "Thank you! Yes, it is full names separated by commas! I ran another report, accounts with or without opportunities, using similar filters and it does work. It pulls some of these accounts showing they have open opportunities by those specific users.",
+                  "upvotes": 1,
+                  "dislikes": null,
+                  "downvotes": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "kygei",
+      "authorProfile": "https://www.reddit.com/user/kygei",
+      "commentId": "t1_na5afpk",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxhu5i/sub_cross_filter_confusion/na5afpk/",
+      "publishingDate": 1755898756.0,
+      "commentBody": "It might be that your cross filter should be accounts WITHOUT opportunities where open = true and owner = users",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "cottage_cheese_fan",
+          "authorProfile": "https://www.reddit.com/user/cottage_cheese_fan",
+          "commentId": "t1_na5t4e8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxhu5i/sub_cross_filter_confusion/na5t4e8/",
+          "publishingDate": 1755905267.0,
+          "commentBody": "Yes that is what i tried. Here is a screenshot. I think the sub cross filters are confusing me but i feel like this should work.\n\nhttps://preview.redd.it/689gb33vnnkf1.jpeg?width=367&amp;format=pjpg&amp;auto=webp&amp;s=d5dd2993096088fbba3424c496251a033c16bbf1",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "cottage_cheese_fan",
+      "authorProfile": "https://www.reddit.com/user/cottage_cheese_fan",
+      "commentId": "t1_na5pzu0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxhu5i/sub_cross_filter_confusion/na5pzu0/",
+      "publishingDate": 1755904166.0,
+      "commentBody": "Here is a screenshot of the filters!\n\nhttps://preview.redd.it/q09ex8ykknkf1.jpeg?width=367&amp;format=pjpg&amp;auto=webp&amp;s=688fb09aadc00a3f20429421bc6a5de5cf0b43a0",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

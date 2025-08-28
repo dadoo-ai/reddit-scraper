@@ -1,0 +1,44 @@
+{
+  "info": {
+    "authorId": "t2_mylzc",
+    "author": "Black_Swords_Man",
+    "authorProfile": "https://www.reddit.com/user/Black_Swords_Man",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mzs2qa",
+    "postLabel": null,
+    "publishingDate": "2025-08-25T14:31:34+00:00",
+    "postTitle": "Would anyone know how to handle a related list of project roles in reporting?",
+    "postMessage": "Scenario: Projects have up to 15 roles. The roles are defined on a related list. ( Project Team Member ) The people in the roles want to be able to see their projects in reports. Managers want to see a report of all the projects and the people working on them. I have been able to manage individual reports for people using cross filters. However the report never displays the peoples names in the rows/columns. How can I build a manager report to show all the projects with the project team member names? A Project with Project Team Member report is repeating rows like crazy. A joined report is border line unreadable. Cross filters gets me a report for a Manager with 5 people but I can't show in the report who is on what projects. All I can show is that the project has 1 of the 5 people.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mzs2qa/would_anyone_know_how_to_handle_a_related_list_of/",
+    "commentCount": 2,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Suspicious-Nerve-487",
+      "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+      "commentId": "t1_nalrre0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzs2qa/would_anyone_know_how_to_handle_a_related_list_of/nalrre0/",
+      "publishingDate": 1756137999.0,
+      "commentBody": "Can’t you just group by project or project team member? \n\nIt seems like just grouping by project would solve this issue, if there are dupes at that point then that means you have the same person tied to the same project multiple times, which is a data issue \n\nI don’t have the data model built out but to me it’s no different than any other related object (I.e contacts with multiple accounts)",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Appropriate_Coat6235",
+      "authorProfile": "https://www.reddit.com/user/Appropriate_Coat6235",
+      "commentId": "t1_napkdvj",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzs2qa/would_anyone_know_how_to_handle_a_related_list_of/napkdvj/",
+      "publishingDate": 1756182799.0,
+      "commentBody": "When you say \"repeating rows like crazy\", is it showing the same project and person multiple times or something else? I second the other suggestion here; create a report for projects with members and group by project",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

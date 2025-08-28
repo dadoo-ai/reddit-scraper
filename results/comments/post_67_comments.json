@@ -1,0 +1,60 @@
+{
+  "info": {
+    "authorId": "t2_1cfzhu6gq5",
+    "author": "FantasticDevice3000",
+    "authorProfile": "https://www.reddit.com/user/FantasticDevice3000",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mxi5zl",
+    "postLabel": null,
+    "publishingDate": "2025-08-22T20:54:37+00:00",
+    "postTitle": "Has anyone encountered the iOS bug for LWC date fields, and is there a solution aside from creating a custom input",
+    "postMessage": "When using a lightning-input field with the date type, the input width is not aligned with the rest of the fields but instead appears to contain extra padding which causes it to extend out beyond the width of the form. It is a major eyesore when trying to create a clean mobile web experience for iOS and I'm wondering if anyone has found a CSS-based solution to resolving this issue. I'm able to target the slds-input CSS class for all other input types, but this one looks wonky no matter what I try. Any help or insight would be greatly appreciated 🙏 EDIT: Crickets... 🦗🦗🦗",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mxi5zl/has_anyone_encountered_the_ios_bug_for_lwc_date/",
+    "commentCount": 3,
+    "upvoteCount": 1,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "mrdanmarks",
+      "authorProfile": "https://www.reddit.com/user/mrdanmarks",
+      "commentId": "t1_naix1y8",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxi5zl/has_anyone_encountered_the_ios_bug_for_lwc_date/naix1y8/",
+      "publishingDate": 1756092409.0,
+      "commentBody": "are you talking about a web page viewed on mobile chrome, an internal app page using the salesforce app, or mobile publisher field in native ios app?",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "FantasticDevice3000",
+          "authorProfile": "https://www.reddit.com/user/FantasticDevice3000",
+          "commentId": "t1_naj0fd0",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxi5zl/has_anyone_encountered_the_ios_bug_for_lwc_date/naj0fd0/",
+          "publishingDate": 1756093939.0,
+          "commentBody": "I've only noticed the problem in iOS web browsers, which all use the native webkit rendering engine. Android and all desktop browsers I've tested look fine.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "mrdanmarks",
+              "authorProfile": "https://www.reddit.com/user/mrdanmarks",
+              "commentId": "t1_naj9g5u",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mxi5zl/has_anyone_encountered_the_ios_bug_for_lwc_date/naj9g5u/",
+              "publishingDate": 1756098369.0,
+              "commentBody": "Perhaps you can add some css specific to mobile view and platform specific to adjust padding, if it is padding. Can you replicate on desktop chrome using dev tools mobile viewer?",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "info": {
+    "authorId": "t2_139xeyv8rx",
+    "author": "Haunting-Constant973",
+    "authorProfile": "https://www.reddit.com/user/Haunting-Constant973",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1n0jyiv",
+    "postLabel": null,
+    "publishingDate": "2025-08-26T12:04:15+00:00",
+    "postTitle": "Agentforce issue. I am not managing to train it to behave in a certain way.",
+    "postMessage": "Hi guys, I am building my Agentforce, specifically the Default Agent. I am also building a Field Generation prompt template to automatically generate a summary on the account and opportunity layout field. Currently, I am training the Agent to simply provide me with a summary of the opportunity and account based on the Field Generation Prompt template that I have linked as an Action. However, it's returning the output in this format: \"Here is the detailed summary of the opportunity. Let me know if you need further insights or assistance. <p><strong>Opportunity Overview</strong></p> <p><a href=\"/006JW00000UXW6IZXC\">New Opportunity</a> is a new opportunity that should be pursued. It is in the Trial and Evaluation phase, with a potential value of GBP 555,000.00 and a current amount of GBP 138,750.00. The expected close date is September 15, 2025, and it is owned by <a href=\"/005JW00000Toe4sQWE\">Someone's Name</a>. The opportunity has been open for 25 days and is currently on track. The customer’s need is clear, and the proposed solution aligns with their requirements, indicating a strong potential for successful outcomes.</p> <p><strong>Account Context Reditus</strong></p> <p><a href=\"/001JW00000rGHj7OIU\">Account Name</a>, managed by <a href=\"/005JW00000Toe4sNBV\">Someone's Name</a>, is classified as <a href=\"/Provide:{ACCOUNT TYPE}\">Account Type</a>. Historical data indicates a mix of past opportunities, with both wins and losses. Recent activity has been noted, suggesting engagement with the account. The analysis of account performance trends reveals opportunities for growth, while also highlighting potential risks due to previous losses at similar stages. Continued monitoring of account interactions will be essential for maintaining positive momentum.</p> I believe there is conflict between Topic instructions and Prompt Template. I gave instructions in the Topic and Action instructions not to do that, but I'm stuck and can't figure out what I'm missing. Can someone give me a hint and pinpoint the issue, please? Worth mentioning that my Field Generation Prompt Template has instructions as: but this is for the field generation on the layout and not for agent? i am confused. Formatting Guidelines: \"\"\" 1. Display fields with \"hyperlink\" information as links. Example: \"value\": \"Dorothy Gale\", \"hyperlink\": \"<a href='/001XXXXXXXXXXXXXXX'>Dorothy Gale</a>\" should be mentioned in the summary as: <a href='/001XXXXXXXXXXXXXXX'>Dorothy Gale</a> 2. Each section name should be in bold and inline in the paragraph: \"<p><strong>Opportunities</strong> Top opportunities show...</p>\" 3. Italicize up to 2–3 important adjective + noun or verb + object combinations. 4. Always link Opportunity, Account, Product, and Case names. \"\"\" HTML Generation Guidelines: \"\"\" When generating the HTML, you must use semantic elements whenever possible: 1. <p> for paragraphs 2. <a> for links 3. <strong> for bolded content 4. <em> for italicized content 5. Don't use any heading tags. 6. Make sure the final Response is in HTML format as the Response will be displayed on a Rich text Field 7. For every place where Hyperlink needs to be added use the Anchor tag \"\"\" Thank you",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1n0jyiv/agentforce_issue_i_am_not_managing_to_train_it_to/",
+    "commentCount": 8,
+    "upvoteCount": 5,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "312to630",
+      "authorProfile": "https://www.reddit.com/user/312to630",
+      "commentId": "t1_nar238p",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0jyiv/agentforce_issue_i_am_not_managing_to_train_it_to/nar238p/",
+      "publishingDate": 1756210575.0,
+      "commentBody": "The agent is following the most specific instructions it's been given, which are the HTML formatting rules in your prompt template. The confusion arises because a single prompt template is being used for two different purposes: generating HTML for a rich text field and providing a conversational summary through an agent. The best practice is to separate these functionalities into distinct prompt templates.",
+      "upvotes": 6,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Haunting-Constant973",
+          "authorProfile": "https://www.reddit.com/user/Haunting-Constant973",
+          "commentId": "t1_nar2dg1",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n0jyiv/agentforce_issue_i_am_not_managing_to_train_it_to/nar2dg1/",
+          "publishingDate": 1756210678.0,
+          "commentBody": "So it is better I create another new template to attach it to the agent. I will try now and will keep you updated",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": null,
+          "author": "Haunting-Constant973",
+          "authorProfile": "https://www.reddit.com/user/Haunting-Constant973",
+          "commentId": "t1_narjb6o",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n0jyiv/agentforce_issue_i_am_not_managing_to_train_it_to/narjb6o/",
+          "publishingDate": 1756216342.0,
+          "commentBody": "I have created new prompt and removed HTML things. But now it is not returning me the hyperlinks.",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "big-blue-balls",
+      "authorProfile": "https://www.reddit.com/user/big-blue-balls",
+      "commentId": "t1_nar25vt",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0jyiv/agentforce_issue_i_am_not_managing_to_train_it_to/nar25vt/",
+      "publishingDate": 1756210602.0,
+      "commentBody": "What happens when you just run the prompt without using Agentforce? Is it returning what you expect?",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Haunting-Constant973",
+          "authorProfile": "https://www.reddit.com/user/Haunting-Constant973",
+          "commentId": "t1_nar2m9m",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n0jyiv/agentforce_issue_i_am_not_managing_to_train_it_to/nar2m9m/",
+          "publishingDate": 1756210769.0,
+          "commentBody": "It is returning well on the layout field. It generates an answer with HTML, blah blah, in the Einstein thinking box, and then returns a correct, clean answer. But the thing is, I need it to function in an agent as well",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "big-blue-balls",
+              "authorProfile": "https://www.reddit.com/user/big-blue-balls",
+              "commentId": "t1_nar35vj",
+              "link": "https://www.reddit.com/r/salesforce/comments/1n0jyiv/agentforce_issue_i_am_not_managing_to_train_it_to/nar35vj/",
+              "publishingDate": 1756210968.0,
+              "commentBody": "I think you need another prompt template for Agentforce usage. It looks like it’s doing exactly what you’re telling it to do.",
+              "upvotes": 2,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Strict-Crab-4189",
+      "authorProfile": "https://www.reddit.com/user/Strict-Crab-4189",
+      "commentId": "t1_nara7mb",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0jyiv/agentforce_issue_i_am_not_managing_to_train_it_to/nara7mb/",
+      "publishingDate": 1756213402.0,
+      "commentBody": "The instructions are to help the decision engine choose the right topic or action. All of your prompting should be in prompt templates. Instructions should help the decision engine make choices, and be simple things like verify the user by email, ask clarifying questions if you need more info, etc.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Oleg_Dobriy",
+      "authorProfile": "https://www.reddit.com/user/Oleg_Dobriy",
+      "commentId": "t1_nawaa5s",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0jyiv/agentforce_issue_i_am_not_managing_to_train_it_to/nawaa5s/",
+      "publishingDate": 1756271156.0,
+      "commentBody": "In your agent action, choose the rich text option for the prompt output variable",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

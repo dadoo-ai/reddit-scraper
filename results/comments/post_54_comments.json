@@ -1,0 +1,156 @@
+{
+  "info": {
+    "authorId": "t2_7anlt",
+    "author": "hydrowarz",
+    "authorProfile": "https://www.reddit.com/user/hydrowarz",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mxjd70",
+    "postLabel": null,
+    "publishingDate": "2025-08-22T21:42:41+00:00",
+    "postTitle": "Event Monitoring",
+    "postMessage": "Looking for more information on event monitoring.  I looked into it directly from Salesforce, but I'm still not confident I have all the answers. If I purchase this addon (which looks like 10% of net spend), will I be able to track and see what users are doing inside the org?  For example, will I know exactly which objects they are interacting with, and the exact data they are pulling if any?  Thank you for the help!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mxjd70/event_monitoring/",
+    "commentCount": 12,
+    "upvoteCount": 2,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Material-Draw4587",
+      "authorProfile": "https://www.reddit.com/user/Material-Draw4587",
+      "commentId": "t1_na5rxh0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxjd70/event_monitoring/na5rxh0/",
+      "publishingDate": 1755904856.0,
+      "commentBody": "There are some edge cases where you can't, but generally yes. And yes it's 10% of your user license spend",
+      "upvotes": 6,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "armed_octopus",
+      "authorProfile": "https://www.reddit.com/user/armed_octopus",
+      "commentId": "t1_na6uy87",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxjd70/event_monitoring/na6uy87/",
+      "publishingDate": 1755919784.0,
+      "commentBody": "You mostly have to query yourself. There are some CRM Analytics templates for some stuff",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "hydrowarz",
+          "authorProfile": "https://www.reddit.com/user/hydrowarz",
+          "commentId": "t1_na6wpd1",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxjd70/event_monitoring/na6wpd1/",
+          "publishingDate": 1755920560.0,
+          "commentBody": "I don't mind querying, but I want to make sure I \\*can\\* access the information if I needed to.  A lot of times I'm not sure what the product even does.",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "armed_octopus",
+              "authorProfile": "https://www.reddit.com/user/armed_octopus",
+              "commentId": "t1_na6y1fw",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mxjd70/event_monitoring/na6y1fw/",
+              "publishingDate": 1755921159.0,
+              "commentBody": "They include a couple of logs types with your licensing that you can download and look at to get a feel for it",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            },
+            {
+              "authorId": null,
+              "author": "ReelNerdyinFl",
+              "authorProfile": "https://www.reddit.com/user/ReelNerdyinFl",
+              "commentId": "t1_nalko5g",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mxjd70/event_monitoring/nalko5g/",
+              "publishingDate": 1756135932.0,
+              "commentBody": "There’s also a free set of CRMA dashboard that go with EM called “Value Analytics” that may be worth checking out. It has some user journey tracking. On the App Exchange.",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "OlcasersM",
+      "authorProfile": "https://www.reddit.com/user/OlcasersM",
+      "commentId": "t1_na7mf8s",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxjd70/event_monitoring/na7mf8s/",
+      "publishingDate": 1755934049.0,
+      "commentBody": "There are a bunch of log types. You can see about report views, exports, queries, api events. You can download cabs of logs. You can send event monitoring stream to another tool. With all of the hacker focus on Salesforce data, it would be helpful to see what they might have queried",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Brief-Principle9040",
+      "authorProfile": "https://www.reddit.com/user/Brief-Principle9040",
+      "commentId": "t1_na8hx5h",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxjd70/event_monitoring/na8hx5h/",
+      "publishingDate": 1755951428.0,
+      "commentBody": "You could buy event monitoring and then use tools like Elements.cloud adoption centre to view object usage.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "sdry__",
+      "authorProfile": "https://www.reddit.com/user/sdry__",
+      "commentId": "t1_na9s3ka",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxjd70/event_monitoring/na9s3ka/",
+      "publishingDate": 1755967214.0,
+      "commentBody": "\nBe mindful of limited default retention periods.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "First_Construction15",
+      "authorProfile": "https://www.reddit.com/user/First_Construction15",
+      "commentId": "t1_nacscws",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxjd70/event_monitoring/nacscws/",
+      "publishingDate": 1756005359.0,
+      "commentBody": "Yes all of that and a lot more. Event monitoring is one of the best addons I’ve ever purchased from sfdc. Very complicated but extremely powerful.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Any_Piglet6877",
+      "authorProfile": "https://www.reddit.com/user/Any_Piglet6877",
+      "commentId": "t1_nafglbo",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxjd70/event_monitoring/nafglbo/",
+      "publishingDate": 1756050320.0,
+      "commentBody": "Talk to SF account manager and get a demo from them.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Loud_Boysenberry1780",
+      "authorProfile": "https://www.reddit.com/user/Loud_Boysenberry1780",
+      "commentId": "t1_nahjq25",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxjd70/event_monitoring/nahjq25/",
+      "publishingDate": 1756073729.0,
+      "commentBody": "If i am not wrong there will be log files avaulablr as part of it. We did discovery call in 2020 i think and found that it was not of much help in error logging.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

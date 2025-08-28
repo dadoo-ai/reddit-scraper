@@ -1,0 +1,134 @@
+{
+  "info": {
+    "authorId": "t2_681vzs65",
+    "author": "dennismullen12",
+    "authorProfile": "https://www.reddit.com/user/dennismullen12",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mzcxsd",
+    "postLabel": null,
+    "publishingDate": "2025-08-25T01:00:34+00:00",
+    "postTitle": "Difficulty of a Refund",
+    "postMessage": "I am a single user of SF and opted not to renew my subscription to the most basic of SF editions.  Told my sales guy in advance and that I wasn't going to do this and never heard back.  Suddenly on August 6 I sent an email to their billing department asking not to be renewed and I was anyway. Re-explained my decision to their billing department and was told on August 12 they would absolutely refund my money, even showed me a credit memo had been issued. Today August 24, 12 days AFTER the fact still no refund.  While I realize refunds anywhere are slow to happen does this seem excessive? Edit.. an update. I am pleased to report that my money was refunded today. So if you are scoring at home it's 13 days to get the money I told them NOT to take back.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mzcxsd/difficulty_of_a_refund/",
+    "commentCount": 9,
+    "upvoteCount": 25,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "MowAlon",
+      "authorProfile": "https://www.reddit.com/user/MowAlon",
+      "commentId": "t1_naidkr5",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzcxsd/difficulty_of_a_refund/naidkr5/",
+      "publishingDate": 1756084633.0,
+      "commentBody": "At the last big SF conference, I asked Parker (co-founder of SF) if they could maybe not be so shitty about how they handle financial situations like what you’ve described. This was on a mic in front of an audience. He said to just email him. So, if you think it’s been too long, I’d either email Parker directly (he gave a long list of email addresses, one of which I’m pretty sure was parker@salesforce.com) or tell the people you’ve been talking to that you WILL email Parker about it. You can reference the 2025 Trailhead DX “True to the Core” session where he expressly said to contact him directly for refund issues that aren’t being handled reasonably.",
+      "upvotes": 59,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "billardsnshots",
+          "authorProfile": "https://www.reddit.com/user/billardsnshots",
+          "commentId": "t1_nap71ie",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mzcxsd/difficulty_of_a_refund/nap71ie/",
+          "publishingDate": 1756177145.0,
+          "commentBody": "That’s not his legitimate email. That’s a public facing one being managed by others.",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "MowAlon",
+              "authorProfile": "https://www.reddit.com/user/MowAlon",
+              "commentId": "t1_nap7ea4",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mzcxsd/difficulty_of_a_refund/nap7ea4/",
+              "publishingDate": 1756177284.0,
+              "commentBody": "Whatever. I don’t think for even a second that he’s the one who’ll fix the problem, but if it gets to the right people, excellent. And if it goes nowhere, OP should tell me, and I’ll ask Parker about it at Dreamforce in a couple months. I would LOVE to get up there and me like “hey, last time, you told me to email you, but it didn’t help… wanna give me a real answer this time?”",
+              "upvotes": 3,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "ear_tickler",
+      "authorProfile": "https://www.reddit.com/user/ear_tickler",
+      "commentId": "t1_naijoyh",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzcxsd/difficulty_of_a_refund/naijoyh/",
+      "publishingDate": 1756086948.0,
+      "commentBody": "SF really needs CSATs for their sales because then they’d know how much everyone hates their sales practices. \n\nSF is famously terrible with all billing matters. And I’ve never actually seen them issue a refund. The best they’ll do is a credit. But if you have proof you requested that billing canceled prior to their renewal then they really should honor that.",
+      "upvotes": 20,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "-YourMomGoes2College",
+          "authorProfile": "https://www.reddit.com/user/-YourMomGoes2College",
+          "commentId": "t1_nakf7li",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mzcxsd/difficulty_of_a_refund/nakf7li/",
+          "publishingDate": 1756121808.0,
+          "commentBody": "My sales team is the biggest bunch of morons and liars I've worked with.",
+          "upvotes": 7,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Puzzled-Mycologist61",
+      "authorProfile": "https://www.reddit.com/user/Puzzled-Mycologist61",
+      "commentId": "t1_nal1hzu",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzcxsd/difficulty_of_a_refund/nal1hzu/",
+      "publishingDate": 1756130076.0,
+      "commentBody": "So I worked at Salesforce for 17 years and their renewals process is convoluted at best. When stuff like this happens likely you will be refunded but you’ll have to prove you gave notice etc. you’re AE will be a useless piece of garbage who wants you to renew for his commission payments and his manager likely the same. They have this concept of a red account which is when someone threatens to escalate to Marc or a senior executive. You can bang on about that. Your best bet is threaten to escalate to Zahra Bahrololoumi, Salesforce UK&amp;I CEO obvs if you are in the UK or Marc or Parker (or US equivalent) but it won’t be them that gets it. They will want it all to go away so threaten to stick it on social media and that you want it escalated to Sales Ops asap.",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Holiday-Platypus5708",
+      "authorProfile": "https://www.reddit.com/user/Holiday-Platypus5708",
+      "commentId": "t1_naibsdr",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzcxsd/difficulty_of_a_refund/naibsdr/",
+      "publishingDate": 1756083966.0,
+      "commentBody": "Did you threaten them with a charge back? That is the easiest way I deal with things like this. If they don't respond contact CC.",
+      "upvotes": 7,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "big-blue-balls",
+      "authorProfile": "https://www.reddit.com/user/big-blue-balls",
+      "commentId": "t1_naj6510",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzcxsd/difficulty_of_a_refund/naj6510/",
+      "publishingDate": 1756096673.0,
+      "commentBody": "What licence are you using??",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Mammoth_Warning3847",
+      "authorProfile": "https://www.reddit.com/user/Mammoth_Warning3847",
+      "commentId": "t1_nb1b6y4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzcxsd/difficulty_of_a_refund/nb1b6y4/",
+      "publishingDate": 1756335698.0,
+      "commentBody": "Once in the middle of renewal negotiations, we got a 30 day extension as we were in the middle of a buy sell.  Our rep “forgot” about the extension and turned off our org right at the end of the day. Bad move on his part - he lost his job and we ended up with the best discount we could ever want.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

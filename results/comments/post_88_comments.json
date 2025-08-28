@@ -1,0 +1,96 @@
+{
+  "info": {
+    "authorId": "t2_cxm2c06l",
+    "author": "EarOdd5244",
+    "authorProfile": "https://www.reddit.com/user/EarOdd5244",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1ms4coy",
+    "postLabel": null,
+    "publishingDate": "2025-08-16T19:00:15+00:00",
+    "postTitle": "Platform Event Flow Triggered by Queueable Apex Runs as 'Automated Process User'",
+    "postMessage": "I've encountered a user context issue that I'm trying to debug. The process is designed to switch from a community user to a Special User to handle backend processing, but at a certain point, the context incorrectly shifts to the \"Automated Process User\" (autoproc). Here is the intended execution flow: Start: A Community User interacts with a Lightning Web Component. Context Switch #1 (Correct): The LWC calls an Apex Controller, which then makes a secure REST callout via a Named Credential to an internal RestService. The execution context correctly switches to a Special User. Async Handoff #1: The RestService, now running as the Special User, correctly enqueues a Queueable Apex job to continue processing. Async Processing (Correct): The Queueable job runs as the Special User. It performs an API callout. Based on the response, it needs to trigger another asynchronous action. Async Handoff #2: To do this, the Queueable job publishes a Platform Event (AsyncFrameworkRequest__e). The Problem Point: A record-triggered Flow is configured to listen for this AsyncFrameworkRequest__e event. This Flow's only purpose is to call an Invocable Apex method (AsyncFrameworkRequestFlowInvoker) to continue the framework's logic. The Issue: When the Flow in Step 6 is triggered, the debug logs show that the transaction is initiated by the Automated Process User (autoproc), not the Special User who published the platform event. This is causing subsequent actions to run in the wrong context, breaking security and logic that depends on the Special User's permissions. Question: My record-triggered Flow on AsyncFrameworkRequest__e event is configured to Run As \"User that triggered the event\", and not as \"Default Workflow User\". Given that the platform event was published from a Queueable job that was explicitly running as Special user, why does the system consider the \"triggering user\" of the Flow to be the autoproc user? Seems like the Flow setting <flowRunAsUser>TriggeringUser</flowRunAsUser> doesn't work as expected for platform events",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1ms4coy/platform_event_flow_triggered_by_queueable_apex/",
+    "commentCount": 7,
+    "upvoteCount": 5,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "dadading_dadadoom",
+      "authorProfile": "https://www.reddit.com/user/dadading_dadadoom",
+      "commentId": "t1_n969jgi",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ms4coy/platform_event_flow_triggered_by_queueable_apex/n969jgi/",
+      "publishingDate": 1755437227.0,
+      "commentBody": "There is a metadata called platformeventsubscriberconfig, that you can specify/deploy which user you want to run platform event triggers on.",
+      "upvotes": 5,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "CatGlass5234",
+      "authorProfile": "https://www.reddit.com/user/CatGlass5234",
+      "commentId": "t1_n92gs2j",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ms4coy/platform_event_flow_triggered_by_queueable_apex/n92gs2j/",
+      "publishingDate": 1755376830.0,
+      "commentBody": "Maybe add another field in the platform event to help you identify the source that triggered the platform event \nThat way if the source matches then you can call the apex class",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "greenplasticron",
+      "authorProfile": "https://www.reddit.com/user/greenplasticron",
+      "commentId": "t1_n92xth4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ms4coy/platform_event_flow_triggered_by_queueable_apex/n92xth4/",
+      "publishingDate": 1755382728.0,
+      "commentBody": "Can you just chain another queueable or use a finalizer instead of publishing a platform event?",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Far_Swordfish5729",
+      "authorProfile": "https://www.reddit.com/user/Far_Swordfish5729",
+      "commentId": "t1_n92qp6j",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ms4coy/platform_event_flow_triggered_by_queueable_apex/n92qp6j/",
+      "publishingDate": 1755380203.0,
+      "commentBody": "By default all platform event apex triggers run as the Automated Process user. This is usually what you want for events running in system context. If for some reason you want the handler to run as another specific user you can set it using the tooling api\n\nhttps://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_platformeventsubscriberconfig.htm\n\nIf you want to execute the handler as a variable user (e.g. the user who enqueued the job), you have to pass that user as a parameter to the platform event and use System.runas within the apex trigger.\n\nhttps://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_testing_tools_runas.htm",
+      "upvotes": -3,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "greenplasticron",
+          "authorProfile": "https://www.reddit.com/user/greenplasticron",
+          "commentId": "t1_n92xiap",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ms4coy/platform_event_flow_triggered_by_queueable_apex/n92xiap/",
+          "publishingDate": 1755382614.0,
+          "commentBody": "System.runAs only works in test contexts.",
+          "upvotes": 6,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Far_Swordfish5729",
+              "authorProfile": "https://www.reddit.com/user/Far_Swordfish5729",
+              "commentId": "t1_n933qvr",
+              "link": "https://www.reddit.com/r/salesforce/comments/1ms4coy/platform_event_flow_triggered_by_queueable_apex/n933qvr/",
+              "publishingDate": 1755384903.0,
+              "commentBody": "It’s likely not supported then",
+              "upvotes": -1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

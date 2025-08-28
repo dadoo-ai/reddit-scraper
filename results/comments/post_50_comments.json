@@ -1,0 +1,68 @@
+{
+  "info": {
+    "authorId": "t2_1m6jxa9a",
+    "author": "DarylJohnSP",
+    "authorProfile": "https://www.reddit.com/user/DarylJohnSP",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1n0ki4h",
+    "postLabel": null,
+    "publishingDate": "2025-08-26T12:29:37+00:00",
+    "postTitle": "SF Field Service Management Customer Service Portal",
+    "postMessage": "Does SF Field Service Management feature have a customer service portal? It appears that it requires setting up Experience Cloud, but I am not sure if it's linked to SF Field Service Management objects like work orders, etc. Anyone has an idea what features are available with it? Thanks.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1n0ki4h/sf_field_service_management_customer_service/",
+    "commentCount": 4,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Waitin4Godot",
+      "authorProfile": "https://www.reddit.com/user/Waitin4Godot",
+      "commentId": "t1_nar53ch",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0ki4h/sf_field_service_management_customer_service/nar53ch/",
+      "publishingDate": 1756211659.0,
+      "commentBody": "Yes, FSL uses Experience Cloud: [https://help.salesforce.com/s/articleView?id=service.fs\\_set\\_up\\_communities.htm&amp;language=en\\_US&amp;type=5](https://help.salesforce.com/s/articleView?id=service.fs_set_up_communities.htm&amp;language=en_US&amp;type=5)\n\nLike pretty much everything, what external users can do depends upon the license they have and how it's configured.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "MrMoneyWhale",
+      "authorProfile": "https://www.reddit.com/user/MrMoneyWhale",
+      "commentId": "t1_narabv3",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0ki4h/sf_field_service_management_customer_service/narabv3/",
+      "publishingDate": 1756213442.0,
+      "commentBody": "Experience cloud is just a portal. You would still need to create the pages, permissions, sharing rules, etc for the site users and then they can see/access and edit/update records depending on the permissions given.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_narboxj",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0ki4h/sf_field_service_management_customer_service/narboxj/",
+      "publishingDate": 1756213892.0,
+      "commentBody": "Are you wanting for the clients to see their upcoming appointments, or what is the exact use case for the customer service portal?\n\n  \nWhat is the expected userbase count?\n\n  \nHonestly, Experience Cloud is clunky at best and expensive at worse. Not the best solution for every situation.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Swimming_Plastic1533",
+      "authorProfile": "https://www.reddit.com/user/Swimming_Plastic1533",
+      "commentId": "t1_narkdw0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0ki4h/sf_field_service_management_customer_service/narkdw0/",
+      "publishingDate": 1756216664.0,
+      "commentBody": "Yes, Salesforce Field Service doesn’t come with a standalone customer-facing portal out of the box. If you want customers to log in and see things like work orders, appointments, or service requests, you’ll need to set it up using Experience Cloud. The good part is that you can expose Field Service objects (like Work Orders, Service Appointments, Assets, etc.) in the portal, so customers can track status, book/reschedule visits, or raise cases depending on how you configure it. Basically, Experience Cloud acts as the front-end, and Field Service provides the data.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "info": {
+    "authorId": "t2_1cwvbsygm6",
+    "author": "No-Reception-2268",
+    "authorProfile": "https://www.reddit.com/user/No-Reception-2268",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mvl1j4",
+    "postLabel": null,
+    "publishingDate": "2025-08-20T17:17:54+00:00",
+    "postTitle": "Data cleanup",
+    "postMessage": "Newbie question : I hear people complaining that their CRM data needs to be cleaned up before meaningful reports can be made from it. What sort of cleanup are we typically talking about and how do people do this today?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mvl1j4/data_cleanup/",
+    "commentCount": 11,
+    "upvoteCount": 1,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "KingB408",
+      "authorProfile": "https://www.reddit.com/user/KingB408",
+      "commentId": "t1_n9qvkc2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mvl1j4/data_cleanup/n9qvkc2/",
+      "publishingDate": 1755710609.0,
+      "commentBody": "Tl;Dr: Duplicates (of everything) and all the problems associated with them.",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "No-Reception-2268",
+          "authorProfile": "https://www.reddit.com/user/No-Reception-2268",
+          "commentId": "t1_n9qw80r",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mvl1j4/data_cleanup/n9qw80r/",
+          "publishingDate": 1755710791.0,
+          "commentBody": "Doesn't Salesforce have a built-in way to prevent duplication at entry time ? Don't people turn it on?",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "KingB408",
+              "authorProfile": "https://www.reddit.com/user/KingB408",
+              "commentId": "t1_n9qxrd6",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mvl1j4/data_cleanup/n9qxrd6/",
+              "publishingDate": 1755711217.0,
+              "commentBody": "There's often valid reasons Intentional duplicates need to be created to follow some sort of internal workflow process. And/or Sales is often too busy/rushed to care whether they're entering a duplicate record. Or maybe they're using a different office location. Or maybe a different email address. Maybe they filled out a form and got ingested that way. Then there's cases where if your environment is too open you'll have duplicate workflows created, or maybe a flow needs to be created for a specific event but then never gets turned off, etc etc etc. Depending on the size and accessibility of your instance, there's several reasons why duplicate leads/contacts/opps/accounts will be created, and my experience is that SFs duplicate management is relatively weak.",
+              "upvotes": 4,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "No-Reception-2268",
+                  "authorProfile": "https://www.reddit.com/user/No-Reception-2268",
+                  "commentId": "t1_n9qyfyf",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1mvl1j4/data_cleanup/n9qyfyf/",
+                  "publishingDate": 1755711406.0,
+                  "commentBody": "Ok that makes sense. Thanks \n\nBut of course, follow up question :-) .  So if I have a CRM with duplicates and I address them before I produce some report, what's the common way to go about .. by hand in excel?",
+                  "upvotes": 1,
+                  "dislikes": null,
+                  "downvotes": null,
+                  "replies": [
+                    {
+                      "authorId": null,
+                      "author": "KingB408",
+                      "authorProfile": "https://www.reddit.com/user/KingB408",
+                      "commentId": "t1_n9r0k69",
+                      "link": "https://www.reddit.com/r/salesforce/comments/1mvl1j4/data_cleanup/n9r0k69/",
+                      "publishingDate": 1755711994.0,
+                      "commentBody": "Lol...you don't. You never know what the reasons are for having them, and the second you do something about it you'll have people screaming at you about why you did something with a dupe they created 3 years ago and haven't accessed in 27 months but they were still \"using\" that record and how dare you mess with their pipeline. 🤣🤣🤣\n\nI'm exaggerating, of course, BUT the point still remains. You want to be real careful about what you're doing with people's data in Salesforce. I would say no matter what, don't change anything until you've had meetings and have assessed and communicated your plans to the entire team multiple times and given them warnings and deadlines with upper management signoff.\n\nThat said, I think you're on the right path in terms of downloading it into Excel and manually adjusting that way. As long as you know you're not re-uploading the data after. It would be a completely offline exercise, which couldn't be updated without another download and adjustment.\n\nALL THAT SAID, this is solely my opinion and experience. I would definitely get more feedback from others before you do anything.",
+                      "upvotes": 2,
+                      "dislikes": null,
+                      "downvotes": null,
+                      "replies": [
+                        {
+                          "authorId": null,
+                          "author": "No-Reception-2268",
+                          "authorProfile": "https://www.reddit.com/user/No-Reception-2268",
+                          "commentId": "t1_n9r125i",
+                          "link": "https://www.reddit.com/r/salesforce/comments/1mvl1j4/data_cleanup/n9r125i/",
+                          "publishingDate": 1755712133.0,
+                          "commentBody": "Super. Thanks so much",
+                          "upvotes": 2,
+                          "dislikes": null,
+                          "downvotes": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "DirectionLast2550",
+      "authorProfile": "https://www.reddit.com/user/DirectionLast2550",
+      "commentId": "t1_n9w6p17",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mvl1j4/data_cleanup/n9w6p17/",
+      "publishingDate": 1755784315.0,
+      "commentBody": "Yeah, “data cleanup” in CRM usually means dealing with duplicates, missing or inconsistent fields, outdated info, or values entered in different formats (like “CA” vs “California”). Without that, reports can get messy or misleading. Most teams handle it through a mix of built-in duplicate rules, validation rules, bulk updates with tools like Data Loader, and sometimes third-party data cleansing apps. Some also set up automation to keep future entries clean so it’s not a constant headache.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "No-Reception-2268",
+          "authorProfile": "https://www.reddit.com/user/No-Reception-2268",
+          "commentId": "t1_n9wfznk",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mvl1j4/data_cleanup/n9wfznk/",
+          "publishingDate": 1755787141.0,
+          "commentBody": "thnx",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Match_Data_Pro",
+      "authorProfile": "https://www.reddit.com/user/Match_Data_Pro",
+      "commentId": "t1_nav6pk3",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mvl1j4/data_cleanup/nav6pk3/",
+      "publishingDate": 1756255552.0,
+      "commentBody": "Most CRM “data cleanup” boils down to fixing the stuff that makes reports unreliable: duplicates, outdated contacts, missing fields, inconsistent formatting (like phone numbers and addresses), and junk values people typed in to get around required fields.\n\nIn Salesforce, people usually tackle this by running data profiling reports, using built-in deduplication/matching rules, or leaning on third-party tools that automate things like email validation, standardizing formats, and merging records. Some teams also set up ongoing rules or automations so the cleanup isn’t just a one-time fire drill.\n\nThe short version: cleanup = making sure your data is accurate, consistent, and not full of duplicates before you try to base decisions on it.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "4yush01",
+      "authorProfile": "https://www.reddit.com/user/4yush01",
+      "commentId": "t1_nb61lm5",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mvl1j4/data_cleanup/nb61lm5/",
+      "publishingDate": 1756401858.0,
+      "commentBody": "The biggest cleanup issues are usually duplicates, outdated contacts who’ve changed jobs, and missing fields that make reporting useless. Most teams try to fix it by enriching automatically with an external solution. In my previous company (scale-up with 50+ reps), we used LoneScale to keep the data enriched continuously, so we didn’t have to spend time on manual cleanup.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

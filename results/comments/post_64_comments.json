@@ -1,0 +1,336 @@
+{
+  "info": {
+    "authorId": "t2_1j7emisbcf",
+    "author": "Creative-Lobster3601",
+    "authorProfile": "https://www.reddit.com/user/Creative-Lobster3601",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1n00o9m",
+    "postLabel": "apps/products",
+    "publishingDate": "2025-08-25T19:50:15+00:00",
+    "postTitle": "Automate Data entry to Salesforce",
+    "postMessage": "Would you like to have a way to automate all the data entry in Salesforce? Update Records and activites based on Emails, Calls, Calendar, documents, etc.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/",
+    "commentCount": 24,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "wostmardin",
+      "authorProfile": "https://www.reddit.com/user/wostmardin",
+      "commentId": "t1_nan54sy",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/nan54sy/",
+      "publishingDate": 1756152343.0,
+      "commentBody": "I mean. This is one of the main features of Salesforce. See: Flows, Apex",
+      "upvotes": 5,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Creative-Lobster3601",
+          "authorProfile": "https://www.reddit.com/user/Creative-Lobster3601",
+          "commentId": "t1_nan5moz",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/nan5moz/",
+          "publishingDate": 1756152482.0,
+          "commentBody": "Let me clarify, users need to create and update records and activities in Salesforce CRM manually.\n\nIf I talk to a lead and I need to put the details Salesforce, I need to put it manually right?\n\nHow can I can automate this ? Is this even desirable?",
+          "upvotes": -7,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "SFAdminLife",
+              "authorProfile": "https://www.reddit.com/user/SFAdminLife",
+              "commentId": "t1_napdt0o",
+              "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/napdt0o/",
+              "publishingDate": 1756179871.0,
+              "commentBody": "No. They already gave features for this. Sales Engagement, Inbox, Einstein Activity Capture, Agentforce for Sales.",
+              "upvotes": 4,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "Creative-Lobster3601",
+                  "authorProfile": "https://www.reddit.com/user/Creative-Lobster3601",
+                  "commentId": "t1_napxacd",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/napxacd/",
+                  "publishingDate": 1756189504.0,
+                  "commentBody": "The reason I am researching this is that everyone tells me the reason for bad Salesforce Adoption by their Sales team is manual data entry.\n\nSo I thought of building something similar to [gong.io](http://gong.io) and Oliv.ai.",
+                  "upvotes": 2,
+                  "dislikes": null,
+                  "downvotes": null
+                }
+              ]
+            },
+            {
+              "authorId": null,
+              "author": "wostmardin",
+              "authorProfile": "https://www.reddit.com/user/wostmardin",
+              "commentId": "t1_nan6kxc",
+              "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/nan6kxc/",
+              "publishingDate": 1756152747.0,
+              "commentBody": "Yeah there's like a million ways to handle stuff like this, it's virtually the whole selling point of SF - If you want to do something like this at your place of work talk to your Salesforce team/admins or whatever - if you don't have any maybe talk to your account exec see if they can hook you up with support",
+              "upvotes": 3,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "Creative-Lobster3601",
+                  "authorProfile": "https://www.reddit.com/user/Creative-Lobster3601",
+                  "commentId": "t1_nan7pqv",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/nan7pqv/",
+                  "publishingDate": 1756153073.0,
+                  "commentBody": "Can you give me Couple of ways to do this?\nA couple of scenarios where you might have implemented this?\n\nI think manual data entry is the most painful aspect of any CRM",
+                  "upvotes": -6,
+                  "dislikes": null,
+                  "downvotes": null,
+                  "replies": [
+                    {
+                      "authorId": null,
+                      "author": "wostmardin",
+                      "authorProfile": "https://www.reddit.com/user/wostmardin",
+                      "commentId": "t1_nanabq1",
+                      "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/nanabq1/",
+                      "publishingDate": 1756153810.0,
+                      "commentBody": "We use how the calls are qualified on the CTI to automate record updates - I imagine the majority of companies that dial out from SF do this... Some other data entry is done via API after customers make changes on the platform with no agent actions... Like I say it's such a general thing your posting, like the main selling point of SF is that you can automate entire business processes and SF admins/devs can set this up easily",
+                      "upvotes": 3,
+                      "dislikes": null,
+                      "downvotes": null,
+                      "replies": [
+                        {
+                          "authorId": null,
+                          "author": "Creative-Lobster3601",
+                          "authorProfile": "https://www.reddit.com/user/Creative-Lobster3601",
+                          "commentId": "t1_nanir0s",
+                          "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/nanir0s/",
+                          "publishingDate": 1756156207.0,
+                          "commentBody": "Ok here's the thing, \nI've seen the manual data entry being the biggest painpoint in adoption of Salesforce,  so I was hoping if I can create an app kind of becomes a connector that integrates with your Calling system, the calendar the email and kind of updates, all the activities and records automatically with minimal manual interference needed. \n\nThis is also gonna have some AI added to it so that the unstructured data can be structured and insights can be taken out of that Data,\n\nwhat do you think? Is this something that is needed in the market or have you seen any alternatives that already do this?",
+                          "upvotes": -4,
+                          "dislikes": null,
+                          "downvotes": null,
+                          "replies": [
+                            {
+                              "authorId": null,
+                              "author": "Caveat53",
+                              "authorProfile": "https://www.reddit.com/user/Caveat53",
+                              "commentId": "t1_nanjvgz",
+                              "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/nanjvgz/",
+                              "publishingDate": 1756156534.0,
+                              "commentBody": "Einstein Activity Capture is an out of the box feature that does most of what you are describing ",
+                              "upvotes": 7,
+                              "dislikes": null,
+                              "downvotes": null
+                            },
+                            {
+                              "authorId": null,
+                              "author": "wostmardin",
+                              "authorProfile": "https://www.reddit.com/user/wostmardin",
+                              "commentId": "t1_nanqjs9",
+                              "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/nanqjs9/",
+                              "publishingDate": 1756158580.0,
+                              "commentBody": "No not really. It seems you maybe don't want to hear this but to repeat it a different way: Salesforce give you the tools to set this kinda stuff up yourself in a very standard way, it's like an expected use of the platform.\n\nI'd recommend taking a deeper look at SF and learning about the ecosystem before trying to build an app for it. That's not a dig either, it just will set you up a lot better to build something useful",
+                              "upvotes": 5,
+                              "dislikes": null,
+                              "downvotes": null
+                            },
+                            {
+                              "authorId": null,
+                              "author": "Steady_Ri0t",
+                              "authorProfile": "https://www.reddit.com/user/Steady_Ri0t",
+                              "commentId": "t1_naownmz",
+                              "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/naownmz/",
+                              "publishingDate": 1756173362.0,
+                              "commentBody": "Einstein Activity Capture, Outreach, Chorus, Gong, Clari Copilot, Salesloft, Avoma and probably most other calling/emailing tools can do stuff like this now, often with AI involved to automatically create summaries of calls based on the transcripts.",
+                              "upvotes": 5,
+                              "dislikes": null,
+                              "downvotes": null,
+                              "replies": [
+                                {
+                                  "authorId": null,
+                                  "author": "Creative-Lobster3601",
+                                  "authorProfile": "https://www.reddit.com/user/Creative-Lobster3601",
+                                  "commentId": "t1_napxkoi",
+                                  "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/napxkoi/",
+                                  "publishingDate": 1756189664.0,
+                                  "commentBody": "yes, I was thinking of building something on the lines of Gong and Avoma, but it seems they already take care of most of the cases :(\n\nI won't be able to build any differentiator.",
+                                  "upvotes": 1,
+                                  "dislikes": null,
+                                  "downvotes": null
+                                }
+                              ]
+                            },
+                            {
+                              "authorId": null,
+                              "author": "Remote-Computer-9602",
+                              "authorProfile": "https://www.reddit.com/user/Remote-Computer-9602",
+                              "commentId": "t1_naoqnqo",
+                              "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/naoqnqo/",
+                              "publishingDate": 1756171287.0,
+                              "commentBody": "Soooo it’s easier for them to enter info into a separate app vs into Salesforce app? 🤨 🙉🤦‍♀️",
+                              "upvotes": 3,
+                              "dislikes": null,
+                              "downvotes": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "SFAdminLife",
+      "authorProfile": "https://www.reddit.com/user/SFAdminLife",
+      "commentId": "t1_napdm1v",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/napdm1v/",
+      "publishingDate": 1756179790.0,
+      "commentBody": "That's Einstein Activity Capture.",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "rikkiprince",
+          "authorProfile": "https://www.reddit.com/user/rikkiprince",
+          "commentId": "t1_nb39h0o",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/nb39h0o/",
+          "publishingDate": 1756364282.0,
+          "commentBody": "Is it much better now than a year ago?\n\nhttps://www.reddit.com/r/salesforce/comments/1ecsin2/einstein_activity_capture_is_terrible/",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": null,
+          "author": "Creative-Lobster3601",
+          "authorProfile": "https://www.reddit.com/user/Creative-Lobster3601",
+          "commentId": "t1_napq5jk",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/napq5jk/",
+          "publishingDate": 1756185639.0,
+          "commentBody": "Yes EAC sync emails.",
+          "upvotes": 0,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "TechSoft-Player",
+      "authorProfile": "https://www.reddit.com/user/TechSoft-Player",
+      "commentId": "t1_nap62i4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/nap62i4/",
+      "publishingDate": 1756176773.0,
+      "commentBody": "Salesforce doesn’t natively automate data entry from calls, emails, or documents beyond things like Einstein Activity Capture. For more advanced automation, you usually need to build a custom integration.\n\nIn one of my projects, the customer wanted to auto-fill details in a custom object from sales call recordings. Since the recordings were already stored in Salesforce, we kicked off an API call directly from Salesforce to a Django middleware. The Django server ran an AI model on Azure to transcribe and extract key details, then returned the structured JSON back to Salesforce through REST API endpoints. Salesforce updated the relevant records automatically, and managers could review/approve the auto-filled details through the standard approval process.\n\nSo yes, it’s definitely possible but usually requires a middleware + AI service + Salesforce APIs. The same approach can be applied to emails, calendars, or documents depending on the use case.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Reddit_Account__c",
+          "authorProfile": "https://www.reddit.com/user/Reddit_Account__c",
+          "commentId": "t1_nap7zuk",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/nap7zuk/",
+          "publishingDate": 1756177520.0,
+          "commentBody": "You can just do this with flow and prompt builder.",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "TechSoft-Player",
+              "authorProfile": "https://www.reddit.com/user/TechSoft-Player",
+              "commentId": "t1_nap99jg",
+              "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/nap99jg/",
+              "publishingDate": 1756178021.0,
+              "commentBody": "Flow + Prompt Builder are definitely useful, but they still depend on someone providing input to the prompt. The main challenge here is cutting down manual data entry — and that’s where these tools can fall a bit short.\n\nIn my case, since the recordings were already in Salesforce, we automated it by calling out to a Django middleware running an Azure AI model. The transcription and field extraction happened automatically, and Salesforce updated the records without any manual keying.\n\nSo I see Flow/Prompt Builder as great for guided input, but if the goal is “zero manual entry,” an external AI/middleware usually has to handle the heavy lifting.\n\nIf you’ve managed to achieve the same kind of automation purely with Flow + Prompt Builder, I’d love to hear how you set that up that would really help me understand your scenario better.",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "Reddit_Account__c",
+                  "authorProfile": "https://www.reddit.com/user/Reddit_Account__c",
+                  "commentId": "t1_napmmd0",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/napmmd0/",
+                  "publishingDate": 1756183863.0,
+                  "commentBody": "This almost reads like an AI generated response designed to sell Django. Flow can be invoked from any process, data being updated in salesforce through activity capture/other systems, and even on a regular schedule. Middleware for this use case is an extra, unnecessary layer.",
+                  "upvotes": 2,
+                  "dislikes": null,
+                  "downvotes": null,
+                  "replies": [
+                    {
+                      "authorId": null,
+                      "author": "wostmardin",
+                      "authorProfile": "https://www.reddit.com/user/wostmardin",
+                      "commentId": "t1_napphdo",
+                      "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/napphdo/",
+                      "publishingDate": 1756185292.0,
+                      "commentBody": "It's ai 100%, check the em dash",
+                      "upvotes": 2,
+                      "dislikes": null,
+                      "downvotes": null
+                    },
+                    {
+                      "authorId": null,
+                      "author": "TechSoft-Player",
+                      "authorProfile": "https://www.reddit.com/user/TechSoft-Player",
+                      "commentId": "t1_napqr1e",
+                      "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/napqr1e/",
+                      "publishingDate": 1756185948.0,
+                      "commentBody": "Just to clarify — I’m not advertising Django 🙂 I’m a Salesforce Developer, and I only mentioned Django because that happened to be the middleware we used. I actually implemented this, I just polished my wording with AI so it came across politely, not because I didn’t know what I was talking about.\n\nThe real requirement was zero manual data entry from audio recordings. That’s where Flow/Prompt Builder/Agentforce on their own fall short.\n\nWhy middleware was necessary in our case:\n\nAudio transcription: Flow doesn’t natively handle binary audio or live speech-to-text. We needed Azure STT for that.\n\nStructured extraction: NLP converted transcripts into a strict JSON schema that mapped directly to Salesforce fields.\n\nAsync + size/time limits: Long calls needed chunking, retries, and async handling — not feasible inside a single Flow run.\n\nGovernance &amp; ops: Middleware gave us logging, PII redaction, error handling, versioning, and cost control.\n\nIdempotency &amp; scale: Middleware ensured reliable updates back into Salesforce via REST/Platform Events.\n\nFor live calls: If the customer wants values captured while the call is happening, middleware is even more critical. Streaming audio → real-time transcription → NLP → Salesforce updates is simply outside the scope of Flow/Prompt Builder today.\n\nOur flow looked like:\n\n1. Recording (stored in Salesforce) triggered an API call.\n\n2. Middleware (Django in our case) sent audio to Azure STT → transcript.\n\n3. NLP extracted structured data → JSON.\n\n4. JSON sent back into Salesforce → records updated automatically → managers could approve.\n\nSo yes, Flow and Prompt Builder are fantastic for guided/manual entry and orchestrating processes. But if the goal is fully automated, no-touch data entry from audio (especially live calls), an external AI/middleware layer is essential.\n\nIf you’ve managed to achieve end-to-end transcription + JSON field mapping purely with Flow/Prompt Builder, I’d genuinely love to learn how you did it — especially how you handled audio ingestion and structured extraction. That would be really insightful.",
+                      "upvotes": -1,
+                      "dislikes": null,
+                      "downvotes": null,
+                      "replies": [
+                        {
+                          "authorId": null,
+                          "author": "wostmardin",
+                          "authorProfile": "https://www.reddit.com/user/wostmardin",
+                          "commentId": "t1_napvtsx",
+                          "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/napvtsx/",
+                          "publishingDate": 1756188696.0,
+                          "commentBody": "I haven't done this because we get everything we need from our telephony provider (yes agents click probably 3 clicks for a call but unless you're integrating with neuralink you won't save much more anyway) but Service cloud voice has transcription tools so that + flow/prompt builder can't see why that couldn't do exactly what you're describing",
+                          "upvotes": 1,
+                          "dislikes": null,
+                          "downvotes": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "authorId": null,
+          "author": "Creative-Lobster3601",
+          "authorProfile": "https://www.reddit.com/user/Creative-Lobster3601",
+          "commentId": "t1_napxuvb",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n00o9m/automate_data_entry_to_salesforce/napxuvb/",
+          "publishingDate": 1756189823.0,
+          "commentBody": "I think tools like gong already do this and people are aware abou them.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    }
+  ]
+}

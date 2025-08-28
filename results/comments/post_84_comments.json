@@ -1,0 +1,58 @@
+{
+  "info": {
+    "authorId": "t2_1kba885s08",
+    "author": "ThisOperation532",
+    "authorProfile": "https://www.reddit.com/user/ThisOperation532",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mwe8lr",
+    "postLabel": null,
+    "publishingDate": "2025-08-21T15:31:02+00:00",
+    "postTitle": "How to study Salesforce Personalization?",
+    "postMessage": "Hi everyone, how are you? I've been a Salesforce Marketing Cloud Consultant for 6 years, but I've never touched the Personalization module because it's not widely used in my country (Brazil). An opportunity to work with this came up, and they're offering a lot of money. I have 1 month to prepare as much as possible about Personalization for the client. What do you recommend? I have basic knowledge of Javascript and Node.js, and I need to understand Personalization as much as possible to be interviewed. What do you recommend?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mwe8lr/how_to_study_salesforce_personalization/",
+    "commentCount": 3,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "HispidaAtheris",
+      "authorProfile": "https://www.reddit.com/user/HispidaAtheris",
+      "commentId": "t1_n9wwjz8",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mwe8lr/how_to_study_salesforce_personalization/n9wwjz8/",
+      "publishingDate": 1755791898.0,
+      "commentBody": "Marketing Cloud Personalization is on its way out jus fyi.\n\nIn any case, there are some Trails available, but since you're a consultant, you too can access Partner Learning Camp. You'll have hands-on exercises there for your demo MC org. \n\nSalesforce Personalization, aka Einstein Personalization is the new product - it's now part of Data Cloud feature set.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "_Winter__Soldier_",
+          "authorProfile": "https://www.reddit.com/user/_Winter__Soldier_",
+          "commentId": "t1_n9x454r",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mwe8lr/how_to_study_salesforce_personalization/n9x454r/",
+          "publishingDate": 1755794080.0,
+          "commentBody": "How to access MC demo org from PLC?",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "omgwtfishsticks",
+      "authorProfile": "https://www.reddit.com/user/omgwtfishsticks",
+      "commentId": "t1_na04lr4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mwe8lr/how_to_study_salesforce_personalization/na04lr4/",
+      "publishingDate": 1755828251.0,
+      "commentBody": "The partner enablement for personalization are the best resources you will be able to find. https://sfdc.co/mcppocketguide\n\nThe new one doesn't look to have a pocket guide but most other products do: https://cloud.mail.salesforce.com/partnerpocketguides",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

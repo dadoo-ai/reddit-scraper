@@ -1,0 +1,250 @@
+{
+  "info": {
+    "authorId": "t2_l0y3w",
+    "author": "Squidsters",
+    "authorProfile": "https://www.reddit.com/user/Squidsters",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1n1wvtk",
+    "postLabel": null,
+    "publishingDate": "2025-08-27T23:39:21+00:00",
+    "postTitle": "Role responsibilities outside of Salesforce?",
+    "postMessage": "Curious if any other admins have responsibilities in their role that have nothing to do with Salesforce. If so, what are they? One thing probably worth mentioning… I’m a solo admin at a 130 person company.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/",
+    "commentCount": 18,
+    "upvoteCount": 13,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "BlackorDewBerryPie",
+      "authorProfile": "https://www.reddit.com/user/BlackorDewBerryPie",
+      "commentId": "t1_nb1tcvi",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb1tcvi/",
+      "publishingDate": 1756341894.0,
+      "commentBody": "I’m at a SaaS company. My team is part of Operations and helps manage all things process (tools and what the processes are) across all the teams within our division. So that covers sales, product, professional services, customer success, etc.  \n\nThat means we ‘own’ the platform tools used by those teams (including Salesforce). I’d say the tech stack is close to 5 or 6 tools we admin/run.\n\nIt also means I am in so.many.meetings.",
+      "upvotes": 17,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Squidsters",
+          "authorProfile": "https://www.reddit.com/user/Squidsters",
+          "commentId": "t1_nb1w7tr",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb1w7tr/",
+          "publishingDate": 1756342886.0,
+          "commentBody": "I think I’m quickly becoming you. SaaS company, Operations team (I started as more of a “system admin” then Salesforce Admin got rolled into that). Curious how the tech stack is only 5-6 items for that many teams? I feel like our Sales team alone has 5-6 tools that only they use.",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "BlackorDewBerryPie",
+              "authorProfile": "https://www.reddit.com/user/BlackorDewBerryPie",
+              "commentId": "t1_nb1wgrh",
+              "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb1wgrh/",
+              "publishingDate": 1756342972.0,
+              "commentBody": "We mad them consolidate at one point to only a handful; also some of our offerings are ~self serve on our own hosted platform so they aren’t needed for every contract. It was a hot mess before, and honestly it still kinda is.",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "Squidsters",
+                  "authorProfile": "https://www.reddit.com/user/Squidsters",
+                  "commentId": "t1_nb1x0ay",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb1x0ay/",
+                  "publishingDate": 1756343160.0,
+                  "commentBody": "Couple other questions for you out of curiosity:\n\n1. How many people are in your ops team, do they all work with Salesforce?\n2. How many people make up Sales, product, professional services, customer success, etc that “ops” supports and are all those other departments in Salesforce?",
+                  "upvotes": 1,
+                  "dislikes": null,
+                  "downvotes": null,
+                  "replies": [
+                    {
+                      "authorId": null,
+                      "author": "BlackorDewBerryPie",
+                      "authorProfile": "https://www.reddit.com/user/BlackorDewBerryPie",
+                      "commentId": "t1_nb1yuqi",
+                      "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb1yuqi/",
+                      "publishingDate": 1756343802.0,
+                      "commentBody": "Sure my team is now 3 people (me and 2 direct reports) and at one time I had two interns as well  but those heady days are gone. \n\nOnly one of them is also doing Salesforce admin work the other is more of a BA + some documentation management. \n\nWe’ve got about 300-325 active users in our instance. Spread across all the different teams who might use it. We do a fair amount of project/lifecycle management in SF, so it’s not *just* a CRM for us. We even manage some implementations there! \n\nEveryone works at least a part of their job in Salesforce where we track so much about our customer and their various products and statuses. It has taken a lot of work but across our approx. 1000 customers I can tell you from Salesforce at a glance where they are in their lifecycle, what they have, what we’re actively working on, and what’s next! \n\nBy setting Salesforce as our system of record for Customer, it means we committed to a lot of data quality work - AND integration with various systems/tools so that they all feed updates back into Salesforce.",
+                      "upvotes": 2,
+                      "dislikes": null,
+                      "downvotes": null,
+                      "replies": [
+                        {
+                          "authorId": null,
+                          "author": "kextron33",
+                          "authorProfile": "https://www.reddit.com/user/kextron33",
+                          "commentId": "t1_nb1zvdf",
+                          "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb1zvdf/",
+                          "publishingDate": 1756344155.0,
+                          "commentBody": "Wow, my head is spinning thinking about all the details you need to keep straight with. I’m a solo admin, 2 months into our new SF instance.  Trying to learn as quick as possible to support and keep myself from going crazy with not knowing what I’m doing.",
+                          "upvotes": 2,
+                          "dislikes": null,
+                          "downvotes": null,
+                          "replies": [
+                            {
+                              "authorId": null,
+                              "author": "BlackorDewBerryPie",
+                              "authorProfile": "https://www.reddit.com/user/BlackorDewBerryPie",
+                              "commentId": "t1_nb23hdh",
+                              "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb23hdh/",
+                              "publishingDate": 1756345418.0,
+                              "commentBody": "For me, I always come back to the core of WHY and then remember what your customer journey is. \n\nFrom their first interaction to their last, what is the point of the records about each step. It helps a lot to use it as a good reset when things get overwhelming.",
+                              "upvotes": 1,
+                              "dislikes": null,
+                              "downvotes": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "authorId": null,
+          "author": "PeterJsonQuill",
+          "authorProfile": "https://www.reddit.com/user/PeterJsonQuill",
+          "commentId": "t1_nb22zge",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb22zge/",
+          "publishingDate": 1756345241.0,
+          "commentBody": "Same",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": null,
+          "author": "heyitscharley",
+          "authorProfile": "https://www.reddit.com/user/heyitscharley",
+          "commentId": "t1_nb2et2d",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb2et2d/",
+          "publishingDate": 1756349547.0,
+          "commentBody": "This is me. Tack on sales enablement, rev ops and PM our consultant relationships",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "opopanax820",
+      "authorProfile": "https://www.reddit.com/user/opopanax820",
+      "commentId": "t1_nb1m4dq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb1m4dq/",
+      "publishingDate": 1756339348.0,
+      "commentBody": "I used to. This was a few jobs ago but I used to be the admin and the primary custom report creator. Not salesforce reports nut querying our software databases and building summaries in excel for customers.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Squidsters",
+          "authorProfile": "https://www.reddit.com/user/Squidsters",
+          "commentId": "t1_nb1we0i",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb1we0i/",
+          "publishingDate": 1756342946.0,
+          "commentBody": "This is becoming more of my day to day, creating reports in our ETL tool.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "maxwellcawfeehaus",
+      "authorProfile": "https://www.reddit.com/user/maxwellcawfeehaus",
+      "commentId": "t1_nb1r2zc",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb1r2zc/",
+      "publishingDate": 1756341087.0,
+      "commentBody": "Along with sole SF admin I manage our sales team indirectly, as I manage their KPIs which flow through Salesforce. And I also run our ecom channel and ecom accounts, which is entirely siloed from Salesforce",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Ambitious-Ad-6873",
+      "authorProfile": "https://www.reddit.com/user/Ambitious-Ad-6873",
+      "commentId": "t1_nb1qbio",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb1qbio/",
+      "publishingDate": 1756340817.0,
+      "commentBody": "I had a sf admin job in the past where I ended up being more of a hubspot and 3rd party admin.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Mightemouce",
+      "authorProfile": "https://www.reddit.com/user/Mightemouce",
+      "commentId": "t1_nb1uwtq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb1uwtq/",
+      "publishingDate": 1756342432.0,
+      "commentBody": "All roles because you have one role and get nothing from it.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "DirectionLast2550",
+      "authorProfile": "https://www.reddit.com/user/DirectionLast2550",
+      "commentId": "t1_nb2v6su",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb2v6su/",
+      "publishingDate": 1756356619.0,
+      "commentBody": "If I were a solo admin at a mid-sized company, I could totally see my role stretching beyond Salesforce. Outside of managing the platform, I’d probably end up handling things like general IT troubleshooting, onboarding/offboarding software accounts, cleaning up data across different tools, and even running internal trainings or reports. Feels like in that setup, the “admin” title really turns into a catch-all for anything tech or process related.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "traumaticoverthink",
+      "authorProfile": "https://www.reddit.com/user/traumaticoverthink",
+      "commentId": "t1_nb3bd8m",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb3bd8m/",
+      "publishingDate": 1756365339.0,
+      "commentBody": "I’m an admin/developer at a 20-person company with 13 Salesforce users. I was hired without prior Salesforce experience, and my role has grown into a mix of responsibilities. Alongside Salesforce, I also work on our SaaS platform, handle support escalations, handle AWS infrastructure tasks (patching, provisioning, monitoring, upgrades), address security vulnerabilities, and manage UEM. I’m glad my job isn’t limited to Salesforce. It keeps things interesting and gives me a chance to work across different areas.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_nb3dt4r",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb3dt4r/",
+      "publishingDate": 1756366728.0,
+      "commentBody": "Hey! \n\n  \nWhen I first started I was the admin/analyst solo. Managing large implementations with external providers. \n\n  \nOn top of that I managed a stock equipment program importing from our Chinese manufacturing partner and selling equipment to our north American clients.\n\n  \nAnd I was the sales engineer, assisting new sales with site layout drawings of the equipment being quoted by our main AEs.\n\n  \nLoved the multiple hats!",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "SpikeyBenn",
+      "authorProfile": "https://www.reddit.com/user/SpikeyBenn",
+      "commentId": "t1_nb25gmm",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1wvtk/role_responsibilities_outside_of_salesforce/nb25gmm/",
+      "publishingDate": 1756346133.0,
+      "commentBody": "Each morning I had to make coffee. Once a week I would also have to clean the bathrooms. Additionally after each time I spoke was required to repeat the phrase \"this is the way\".",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

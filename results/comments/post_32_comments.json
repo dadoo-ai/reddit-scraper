@@ -1,0 +1,72 @@
+{
+  "info": {
+    "authorId": "t2_alax3f329",
+    "author": "MoleManMattG",
+    "authorProfile": "https://www.reddit.com/user/MoleManMattG",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mvnx83",
+    "postLabel": "apps/products",
+    "publishingDate": "2025-08-20T19:00:29+00:00",
+    "postTitle": "Follow up on my FoF alternative",
+    "postMessage": "Big thanks to everyone who checked out my last post on my FocusOnForce alternative Cert++ . The feedback’s been super helpful and I fixed a bunch of bugs and accuracy issues people pointed out. Updates since then: 100+ new questions Platform App Builder exam questions are live free AI helper that can answer cert/study questions (no one asked for this but it’s kinda fun) it works great on mobile now! Appreciate everyone who’s tried it out so far. If you’re studying or just took an exam, I would love if you gave it a try and let me know how it feels. I'm hoping to continue growing my question-base for certs that I've completed or that I'm studying for.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mvnx83/follow_up_on_my_fof_alternative/",
+    "commentCount": 4,
+    "upvoteCount": 22,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "walters954",
+      "authorProfile": "https://www.reddit.com/user/walters954",
+      "commentId": "t1_n9s0qhv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mvnx83/follow_up_on_my_fof_alternative/n9s0qhv/",
+      "publishingDate": 1755722590.0,
+      "commentBody": "We should totally team up. [certifyforce](https://www.certifyforce.com/) created unlimited practice exams based on topics you want and explore concepts deeper. \n\n\nOriginally made this for myself when I was procrastinating a certification and then I shared it with my students and they really like it.\nBasically a combination of notebookLM and FOF",
+      "upvotes": 5,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "MoleManMattG",
+          "authorProfile": "https://www.reddit.com/user/MoleManMattG",
+          "commentId": "t1_n9temju",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mvnx83/follow_up_on_my_fof_alternative/n9temju/",
+          "publishingDate": 1755739130.0,
+          "commentBody": "I took a look at your site - it’s really interesting!  We should hop on a call sometime to talk about what the future of certification prep will look like :)",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "walters954",
+              "authorProfile": "https://www.reddit.com/user/walters954",
+              "commentId": "t1_n9z4dh2",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mvnx83/follow_up_on_my_fof_alternative/n9z4dh2/",
+              "publishingDate": 1755815313.0,
+              "commentBody": "hit me up [linkedin.com/in/walters954](http://linkedin.com/in/walters954)",
+              "upvotes": 0,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "GeeSlim1",
+      "authorProfile": "https://www.reddit.com/user/GeeSlim1",
+      "commentId": "t1_n9unxo2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mvnx83/follow_up_on_my_fof_alternative/n9unxo2/",
+      "publishingDate": 1755758767.0,
+      "commentBody": "Thanks this is super helpful for exam prep!",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

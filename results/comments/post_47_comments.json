@@ -1,0 +1,146 @@
+{
+  "info": {
+    "authorId": "t2_8f9zjok7",
+    "author": "Bitter-Lead-3358",
+    "authorProfile": "https://www.reddit.com/user/Bitter-Lead-3358",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1n0vgaz",
+    "postLabel": null,
+    "publishingDate": "2025-08-26T19:32:30+00:00",
+    "postTitle": "Parsing took",
+    "postMessage": "Hello,\nMy manager asked me to create an apex class or to find an app that would parse inbound emails and would check if there’s a phone number in it (email body, signature). If the email does have, it should be populated on the related contact in case it’s empty.\nI found CTK but looks like it doesn’t match our criteria. Maybe you can recommend something.\nThank you!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1n0vgaz/parsing_took/",
+    "commentCount": 10,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "TheCannings",
+      "authorProfile": "https://www.reddit.com/user/TheCannings",
+      "commentId": "t1_natqowj",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0vgaz/parsing_took/natqowj/",
+      "publishingDate": 1756239065.0,
+      "commentBody": "It’s a pretty easy reflex match, I’ve done something like it however I definitely wouldn’t be auto populating contacts with any number found, what if you find 2, how do you distinguish phone and mobile what if the email is replying with the number of their mom in the body, world of issues imo",
+      "upvotes": 8,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "gmsd90",
+          "authorProfile": "https://www.reddit.com/user/gmsd90",
+          "commentId": "t1_nav8gas",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n0vgaz/parsing_took/nav8gas/",
+          "publishingDate": 1756256150.0,
+          "commentBody": "Regex*",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "MindCompetitive6475",
+      "authorProfile": "https://www.reddit.com/user/MindCompetitive6475",
+      "commentId": "t1_nauez2k",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0vgaz/parsing_took/nauez2k/",
+      "publishingDate": 1756246154.0,
+      "commentBody": "A prompt template can do that. You'd need to call it from a flow and use a flex template. With the proper instructions it would figure out the various phone types. You will have to parse the response to get out the values. Use the || as the delimiter and a formula to sort it all out.\n\nProbably one of the true use case for AI that I have come across. We did something similar to extract relevant information from an email. Worked well, IMO.",
+      "upvotes": 4,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Suspicious-Nerve-487",
+          "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+          "commentId": "t1_navg1a5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n0vgaz/parsing_took/navg1a5/",
+          "publishingDate": 1756258804.0,
+          "commentBody": "The simplest and most straight forward out of any of the comments here. \n\nOP - here’s your answer",
+          "upvotes": 3,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "jerry_brimsley",
+      "authorProfile": "https://www.reddit.com/user/jerry_brimsley",
+      "commentId": "t1_nb1wn8l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0vgaz/parsing_took/nb1wn8l/",
+      "publishingDate": 1756343034.0,
+      "commentBody": "Man I don’t know why “AI” has to be involved and I love ai, but there’s literally native functionality to use an EmailService and it gives you an email and you supply it a class.  \n\nThe InboundEmailHandler will give you access to the message bodies and you can do the needful.  Don’t reinvent the wheel and just google apex regex phone number, and it’s up to you what you do with it.  You’d probably be collecting up the emails and senders and querying for them and then updating those ID matches in the Phone field (or MobilePhone or there are a few)\n\nAI should not be used to do a string check like that because you get charged per token on that stuff and I still don’t know what a Levinshtein is (jk but that’s more non “AI” apex)… I am kinda fried and don’t remember the exact terms but if it’s something deterministic and doesn’t need inferred from natural language it breaks down, you can slice and dice some stuff up in apex",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "MatchaGaucho",
+      "authorProfile": "https://www.reddit.com/user/MatchaGaucho",
+      "commentId": "t1_nauin0a",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0vgaz/parsing_took/nauin0a/",
+      "publishingDate": 1756247336.0,
+      "commentBody": "That's a good [GPT use case](https://www.idialogue.app/contentcloud.html). Give an agent a prompt to extract phone numbers then match / update a Contact.",
+      "upvotes": -1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "urmomisfun",
+          "authorProfile": "https://www.reddit.com/user/urmomisfun",
+          "commentId": "t1_nawjxmi",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n0vgaz/parsing_took/nawjxmi/",
+          "publishingDate": 1756276350.0,
+          "commentBody": "These fucking guys just spouting off about ChatGPT as if OP owns the data and can fucking just submit it to an LLM.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Vibecodingdeluxe",
+      "authorProfile": "https://www.reddit.com/user/Vibecodingdeluxe",
+      "commentId": "t1_natqpmk",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0vgaz/parsing_took/natqpmk/",
+      "publishingDate": 1756239071.0,
+      "commentBody": "This is easy, I’ve implemented something similar where it reads emails and creates leads  or updated contacts in salesforce. Can be implemented in 20-30 mins. DM me, can show you how it works",
+      "upvotes": 0,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "MaesterTuan",
+      "authorProfile": "https://www.reddit.com/user/MaesterTuan",
+      "commentId": "t1_naylrtj",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0vgaz/parsing_took/naylrtj/",
+      "publishingDate": 1756307538.0,
+      "commentBody": "Try apex InboundEmailHandler with a regular expression on the plainTetBody to search for email addresses. You can get bonus points for phone numbers too.",
+      "upvotes": 0,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Similar_Advice8089",
+      "authorProfile": "https://www.reddit.com/user/Similar_Advice8089",
+      "commentId": "t1_nau1r7l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0vgaz/parsing_took/nau1r7l/",
+      "publishingDate": 1756242171.0,
+      "commentBody": "Hey there! My company is working on building an app for exactly this, along with parsing documents into records. I sent you a dm since we’re in beta at the moment.",
+      "upvotes": -3,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

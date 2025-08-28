@@ -1,0 +1,68 @@
+{
+  "info": {
+    "authorId": "t2_uy9uzwk0b",
+    "author": "Delicious-Ad9511",
+    "authorProfile": "https://www.reddit.com/user/Delicious-Ad9511",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mqvhmy",
+    "postLabel": "career question",
+    "publishingDate": "2025-08-15T11:48:32+00:00",
+    "postTitle": "Need suggestions to upskill in Salesforce",
+    "postMessage": "Hi, I am working as a Salesforce Developer/BA for an Indian MNC. Currently, I have 7 years of experience in IT, out of which 3.5 years are in Salesforce development. I want to ask you how I can upskill myself to be equipped to work as or transition into an architect role in the incoming 2–3 years. I want to plan, learn, and get relevant opportunities. That being said, here is my experience so far: Initially, I worked in Sales Cloud for a couple of years, mostly developing LWC components and Apex triggers. I then got the opportunity to switch to more challenging projects, which involved Service Cloud, but my role was as a BA/Developer. However, I did get a chance to work on service features like assignment rules, Omni-Channel, and integrations with other systems. One thing I consider a mistake during my initial years, and even now, is that instead of upskilling, I would always dwell on issues my teammates were facing, even outside office hours. It did help me to debug better, but I didn’t upskill much through Trailhead. Thanks in advance for all the answers! :D",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mqvhmy/need_suggestions_to_upskill_in_salesforce/",
+    "commentCount": 4,
+    "upvoteCount": 5,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "BoogerSugarSovereign",
+      "authorProfile": "https://www.reddit.com/user/BoogerSugarSovereign",
+      "commentId": "t1_n8tln6y",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mqvhmy/need_suggestions_to_upskill_in_salesforce/n8tln6y/",
+      "publishingDate": 1755261311.0,
+      "commentBody": "Work towards the Architect cert. You don't have to go so far as to get it but pick up 70-80% of the certs and start firing off applications. As a developer you know the hard part, just make sure you understand the low/no-code tools and don't just do everything in apex.",
+      "upvotes": 5,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Deep-Regular4915",
+      "authorProfile": "https://www.reddit.com/user/Deep-Regular4915",
+      "commentId": "t1_n8u95mn",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mqvhmy/need_suggestions_to_upskill_in_salesforce/n8u95mn/",
+      "publishingDate": 1755268874.0,
+      "commentBody": "Read Advanced Apex by Dan Appleman and geek out about efficiency.",
+      "upvotes": 5,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "BeingHuman30",
+      "authorProfile": "https://www.reddit.com/user/BeingHuman30",
+      "commentId": "t1_n8uxoqz",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mqvhmy/need_suggestions_to_upskill_in_salesforce/n8uxoqz/",
+      "publishingDate": 1755276004.0,
+      "commentBody": "Just a warning ...being a solution architect or into architect role is stressful ..lot of meetings / minimal coding ...so if you enjoy coding and don't want to get out of touch then I won't suggest it ....but if you enjoy thriving in pressure , working late hours , answering stakeholders questions , don't enjoy coding , like being in meetings , managing team...then sure.",
+      "upvotes": 5,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "DirectionLast2550",
+      "authorProfile": "https://www.reddit.com/user/DirectionLast2550",
+      "commentId": "t1_n9byofe",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mqvhmy/need_suggestions_to_upskill_in_salesforce/n9byofe/",
+      "publishingDate": 1755517038.0,
+      "commentBody": "You’re already on a solid path. To move toward an architect role in the next 2–3 years, focus on architect-track certifications like Integration, Data, Identity, and Sharing &amp; Visibility, since they build toward the System/Application Architect credentials. At the same time, broaden your exposure by working on integrations and cross-cloud implementations such as Experience Cloud, Marketing Cloud, or MuleSoft. Most importantly, start shifting your mindset from pure coding to designing scalable, secure, and business-oriented solutions. This combination of certifications, cross-cloud experience, and solution design will position you well for the architect journey.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

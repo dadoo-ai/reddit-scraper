@@ -1,0 +1,114 @@
+type,title,created,body_text,link
+comment,Agentforce issue. I am not managing to train it to behave in a certain way.,,"The agent is following the most specific instructions it's been given, which are the HTML formatting rules in your prompt template. The confusion arises because a single prompt template is being used for two different purposes: generating HTML for a rich text field and providing a conversational summary through an agent. The best practice is to separate these functionalities into distinct prompt templates.",https://old.reddit.com/r/salesforce/comments/1n0jyiv/agentforce_issue_i_am_not_managing_to_train_it_to/nar238p/
+comment,How much money do you think a small ice cream shop would make in a small town (100k people),,"Gross revenue.... You might as well work a regular job after tax, expenses etc for the stress you'll encounter.",https://old.reddit.com/r/Businessideas/comments/1mxlo37/how_much_money_do_you_think_a_small_ice_cream/naenyqo/
+comment,Go to URL action pops up Unexpected Server Error,,"Here's an (assisted) take Quick triage (2‑minute checks)
+    1.  Try a direct URL in a fresh tab. Copy one failing Site B link, paste it into a brand‑new browser window (not inside the landing page).
+    • If it loads → the link text is valid; the issue is how you’re opening it from the landing page (URL action + web page object, or wrong path format).
+    • If it doesn’t load → it’s permissions/auth or the URL path is wrong.
+    2.  Confirm you actually have access to Site B. Open Site B’s home page and a known‑good view directly. If you get prompted or blocked, it’s an access/SSO issue (see #5–#6 below). The usual culprits & fixes
+    1.  Wrong path for Site B (missing the site slug).
+Each site has a “content URL” (aka site slug). Your links to Site B must include it:
+    • Modern style: https://yourserver/#/site/<site-b>/views/<Workbook>/<View>
+    • Legacy style: https://yourserver/t/<site-b>/views/<Workbook>/<View>
+If the link looks like /views/... (no /site/<site-b> or /t/<site-b>), the server tries to load it on Site A and throws a server error.
+    2.  Relative links inside a Web Page object.
+If your landing dashboard contains a Web Page object and your URL action uses a relative path (e.g., /t/site-b/...), Tableau will resolve it relative to the current view’s site (Site A). Use absolute URLs starting with https://… for Site B.
+    3.  Web Page object vs. new tab.
+By design, URL actions load into a Web Page object if one exists on the dashboard; otherwise they open a new tab. Loading a view from Site B inside a Web Page object hosted by a view from Site A can fail (session/switch‑site quirks). Two simple fixes:
+    • Remove/Hide the Web Page object so links open in a new browser tab; or
+    • Keep the Web Page object but set the URL action to open a neutral page (preview), and add Navigation Buttons configured to open URL targets in a new tab (no Web Page object).
+    4.  Default site vs. named site mismatch.
+If Site A is the default site and Site B is named, links copied from the address bar sometimes drop the site segment when pasted/templated. Verify the exact Site B slug in Settings → General → Content URL and mirror that in all links.
+    5.  Permissions on Site B content.
+Even with SSO, permissions are per site. Ensure your audience has at least Viewer on the target workbooks/views in Site B. Quick test: impersonate with a test Viewer account or use “View as User” if available. If direct URL works for admins but not end‑users, it’s permissions.
+    6.  SSO / IdP differences between sites.
+When sites use different SAML configs or group mappings, switching sites mid‑session can error out inside the Web Page object. Test by opening a Site B view directly in a new window (not from the landing page). If you land on an IdP error or a loop, fix the SSO mapping for those users on Site B.
+    7.  Workbook/View names with spaces & parameters.
+Make sure the URL‑encoded path is clean (spaces, special chars) and any parameters you append (e.g., ?Region=<Param>) resolve on the Site B view. A typo in the workbook or view segment returns a generic server error. How I’d fix it, step‑by‑step
+    1.  Pick one failing link and reconstruct it in the modern pattern:
+https://yourserver/#/site/<site-b>/views/<Workbook>/<View>?:showAppBanner=false
+Open it in a new browser tab. If OK, proceed.
+    2.  In the landing dashboard:
+    • If you have a Web Page object, remove it (or move it to a hidden container).
+    • Convert your link mechanism to Navigation Buttons → Navigate to: URL, or keep URL Actions but ensure no Web Page object exists so it opens in a new tab.
+    3.  Make all Site B links absolute URLs (fully qualified https://… including /site/<site-b> or /t/<site-b>).
+    4.  Re‑publish the landing workbook to Site A (or wherever it lives), then test with a non‑admin Viewer account.
+    5.  If it still errors:
+    • Confirm user’s license/role on Site B and permissions on the workbooks/views.
+    • Check SSO: can the user open Site B home and a view directly?",https://old.reddit.com/r/tableau/comments/1myroie/go_to_url_action_pops_up_unexpected_server_error/naej3te/
+comment,chicago,,"Hopefully it's as serious as cancer, cause rhythm is a dancer.",https://old.reddit.com/r/chicago/comments/1mxeygm/trump_threatens_to_deploy_the_us_military_into/na4wxsw/
+comment,My car is accelerating slowly after an oil change and safety inspection,,"The answer is in the first 6 words.... 😅 But, most likely something was disturbed/disconnected during the service (air intake hose, MAF sensor, etc)",https://old.reddit.com/r/AskMechanics/comments/1mwbi8o/my_car_is_accelerating_slowly_after_an_oil_change/n9w7gw2/
+comment,tableau,,No risk whatsoever.,https://old.reddit.com/r/tableau/comments/1mqaesd/ceo_of_microsoft_satya_nadella_rates_the_future/n8pkuj4/
+comment,whatcarshouldIbuy,,5.4L 3v? It's a ticking time bomb,https://old.reddit.com/r/whatcarshouldIbuy/comments/1mmj4i7/is_a_2006_expedition_with_280000_for_200_a_bad/n8d2kcj/
+comment,"Does anyone know if we can resell Salesforce? I have 6 licenses and paid over £30,000+. My team doesn't use it, and I don't know what to do with it now.",,Swap the licenses for tableau or mulesoft,https://old.reddit.com/r/salesforce/comments/1mog6j5/does_anyone_know_if_we_can_resell_salesforce_i/n8csai8/
+comment,What to look for,,"5K oil changes, transmission fluid should be changed around 70,000. If not very, very soon. Coolant flush also. I just did this recently took three hours, including prep and cleanup",https://old.reddit.com/r/Rav4/comments/1mms7zq/what_to_look_for/n83rrhl/
+comment,CringeTikToks,,Especially the Harley riders and the pack assholes that swarm the roads and expect everyone to let them go first/give all priorities.,https://old.reddit.com/r/CringeTikToks/comments/1mhv7o3/infuriating_to_watch/n72n1o4/
+comment,Any good new food places open up around Naperville in the last 5 years? Used to live in Aurora but moved. I’ll be in the area around lunchtime tomorrow.,,Lazy dog has been there for years - although it is good!,https://old.reddit.com/r/Naperville/comments/1mhz1zj/any_good_new_food_places_open_up_around/n72m6x2/
+comment,My (M25) gf(F23) got upset that an ex sent me inappropriate pics. What does this mean for our relationship?,,Ehhh - can you trust either of them ever again - especially your gf? If she can emotionally cheat…. Maybe put that proposal off for a while… quite a while,https://old.reddit.com/r/Advice/comments/1meioca/my_m25_gff23_got_upset_that_an_ex_sent_me/n6dbbna/
+comment,Tableau Crashing Mac,,Which version?,https://old.reddit.com/r/tableau/comments/1mdjkwk/tableau_crashing_mac/n62h6sb/
+comment,Can I use my own LLM as a copilot inside Tableau?,,"You would use Langchain + tableau VDS - but to be honest, you’re making a notation of molehill and more work for yourselves then you probably realize.",https://old.reddit.com/r/tableau/comments/1mbtwm7/can_i_use_my_own_llm_as_a_copilot_inside_tableau/n5t44cs/
+comment,Can I use my own LLM as a copilot inside Tableau?,,This,https://old.reddit.com/r/tableau/comments/1mbtwm7/can_i_use_my_own_llm_as_a_copilot_inside_tableau/n5t3rww/
+comment,nextfuckinglevel,,"You can't park there, mate.",https://old.reddit.com/r/nextfuckinglevel/comments/1maimir/the_most_expensive_plane_crash_of_all_time_2/n5f5h83/
+comment,law,,Are these the files that don't exist - or the ones the democrats made up? I can't decide....,https://old.reddit.com/r/law/comments/1m925dm/republicans_subpoena_bill_and_hillary_clinton_in/n56qsac/
+comment,ChicagoSuburbs,,Spot the fellow Brit in one sentence.,https://old.reddit.com/r/ChicagoSuburbs/comments/1m6ejd4/metra_riders_have_you_used_the_new_seats_yet/n4jf2m4/
+comment,Tableau on-prem renewal--why are they pushing Premier Success Plan,,Ask them? Your AE should be able to walk you through that.,https://old.reddit.com/r/tableau/comments/1m3ecf0/tableau_onprem_renewalwhy_are_they_pushing/n3w3rmy/
+comment,Chicago,,It wasn't that long ago university village was shady AF,https://old.reddit.com/r/Naperville/comments/1lzb8nu/chicago/n30wqd3/
+comment,chicago,,We can them curb crawlers,https://old.reddit.com/r/chicago/comments/1lz2lwb/jeep_jagoffs/n2zkfss/
+comment,facepalm,,Of the younger sort,https://old.reddit.com/r/facepalm/comments/1lyuv0f/the_fact_that_this_weird_dude_was_nominated_the/n2x4433/
+comment,Is the 2018 RAV4 still the best?,,Very boring but totally functional and reliable,https://old.reddit.com/r/Rav4/comments/1lu3ars/is_the_2018_rav4_still_the_best/n1vvnxx/
+comment,Crazy high water bill?,,American Water is one of the worst - exceptionally high water bills. Bolingbrook is not alone btw  https://www.cbsnews.com/chicago/news/huge-bills-illinois-american-water-bolingbrook/,https://old.reddit.com/r/Bolingbrook/comments/1l5dhs5/crazy_high_water_bill/n1vvg3g/
+comment,huntingtonbeach,,Keeping the IE in HB,https://old.reddit.com/r/huntingtonbeach/comments/1ltk2rr/keeping_hb_hb/n1skbb4/
+comment,beer,,I've been out of the UK for atoo long to know what constitutes a decent British her these days but it's nice to have a malt forward beer with that flavour profile in the US.,https://old.reddit.com/r/beer/comments/1l8swrz/newcastle_brown_ale_returns_to_america_as_an/n1glyna/
+comment,conspiracy,,Sample of one is sound reasoning /s Correlation vs. causation,https://old.reddit.com/r/conspiracy/comments/1ln7gju/chatgpt_is_driving_people_into_psychosis/n0g0hz4/
+comment,gettoknowtheothers,,I think it's either the next XBox or Top Gun 3,https://old.reddit.com/r/gettoknowtheothers/comments/1lhfrg5/former_cia_officer_john_ramirez_claims_that/n023z59/
+comment,conspiracy,,Economy is in the shitter? Start a war. Now we're all fucked.,https://old.reddit.com/r/conspiracy/comments/1lhadyc/we_just_bombed_iran/mz31hs5/
+comment,salesengineers,,A good SE will sell the product,https://old.reddit.com/r/salesengineers/comments/1lep15j/thoughts_about_ses_and_commission/myjhkil/
+comment,beer,,"Check out ""old speckled hen"" - you'll thank me. Also, don't serve too cold",https://old.reddit.com/r/beer/comments/1l8swrz/newcastle_brown_ale_returns_to_america_as_an/mxgl5zx/
+comment,Anyone using Agentforce yet? Curious how the pricing is playing out in the real world,,Yes and... They still have a cost,https://old.reddit.com/r/salesforce/comments/1l6sxzv/anyone_using_agentforce_yet_curious_how_the/mwtl8hh/
+comment,Anyone using Agentforce yet? Curious how the pricing is playing out in the real world,,You need to factor in The cost of the data science team and everything that supports them... Not saying it's a SF win but....,https://old.reddit.com/r/salesforce/comments/1l6sxzv/anyone_using_agentforce_yet_curious_how_the/mwrr25j/
+comment,RepsneakersDogs,,i got the same pair - they are amazing and get lots of great compliments!,https://old.reddit.com/r/RepsneakersDogs/comments/1joaurb/in_hand_jumpman_jack_university_red_from_owf/mwr6fur/
+comment,Got a parking ticket at the metra wondering if there is anything I can do.,,"Right?! Also""route 59"" - you ain't from round these parts, are ya boy?",https://old.reddit.com/r/Naperville/comments/1l5bvg9/got_a_parking_ticket_at_the_metra_wondering_if/mwhrt9a/
+comment,Rav4,,Coming up to 100k - I switched to Valvoline protect &. restore 4 oil changes ago and the engine just seems to purr. I seafoam every six months too.,https://old.reddit.com/r/Rav4/comments/1l1irwl/whats_your_mileage/mvrco8s/
+comment,What do you think about Orijen?,,"OK, take away the FDA ruling, and do we see continued press or legal cases against this company? No. The whole thing went away because there was no causation proven. Grain free products continue to be sold at high quantities. I’ve got many friends whose pets are on grain free and no issues. Beliefs versus facts.",https://old.reddit.com/r/catfood/comments/1eu7zql/what_do_you_think_about_orijen/mv8w1tg/
+comment,Planning my escape to Southern California,,Let’s not mention the people that stop a car’s length from a traffic light stop sign…,https://old.reddit.com/r/socal/comments/1kvb5fz/planning_my_escape_to_southern_california/mug89j0/
+comment,All CosMc’s to close next month,,They all sheep’d to 7 brew,https://old.reddit.com/r/ChicagoSuburbs/comments/1kubpnc/all_cosmcs_to_close_next_month/mu18qrl/
+comment,Oil change interval - 3500 or 7500 miles,,"Not a mechanic but other mechanics say between 3-5k. There are some that say just stick to the OEM recommendations, but oil is cheap and engines are not. Valvoline protect and restore looks to be promising for cleaning the oil gum",https://old.reddit.com/r/AskMechanics/comments/1kub4el/oil_change_interval_3500_or_7500_miles/mu054re/
+comment,Tableau performance troubleshooting,,"2025.2 has something too: (Performance Insights Dashboard) 
+ https://www.tableau.com/products/coming-soon#item-104500",https://old.reddit.com/r/tableau/comments/1ksklkl/tableau_performance_troubleshooting/mtp2tis/
+comment,Is anyone worried about the trouble these browns are causing?,,Jings! Help m’a Bob!,https://old.reddit.com/r/Scotland/comments/1ksoei5/is_anyone_worried_about_the_trouble_these_browns/mtnfdz2/
+comment,Is the Rav 4 the most reliable suv?,,2016 XLE reporting in. What they said.,https://old.reddit.com/r/Rav4/comments/1kqrv3t/is_the_rav_4_the_most_reliable_suv/mtf3hji/
+comment,sonata,,Be wary of anything with a GDI,https://old.reddit.com/r/sonata/comments/1kmu3gc/potential_buyer/mssylnm/
+comment,Rear inner tail light clear lens fell off,,Thinking clear silicone caulk next time it happens.,https://old.reddit.com/r/Rav4/comments/15rsy4c/rear_inner_tail_light_clear_lens_fell_off/msntii8/
+comment,usenet,,Yesss,https://old.reddit.com/r/usenet/comments/1km9pxw/easyusenet_now_with_us_platform_50_trial_accounts/msa97qv/
+comment,Can Agentic AI replace Salesforce?,,"This comment is so understated and dripping with sarcasm at the same time! PE = Load you up with debt, offshore everything including the filings in your teeth, take the winnings and spin you off",https://old.reddit.com/r/salesforce/comments/1km0d5x/can_agentic_ai_replace_salesforce/ms6yz2y/
+comment,How to update input channels,,Totally solved - midi input and Scarlett we’re on the same input. Updated the Scarlett and problem solved,https://old.reddit.com/r/Logic_Studio/comments/1kifzna/how_to_update_input_channels/mrs7a5y/
+comment,How to update input channels,,<image> Have oxygen 49 MIDI keyboard via USB2 port and Scarlett via USB c,https://old.reddit.com/r/Logic_Studio/comments/1kifzna/how_to_update_input_channels/mrh1gga/
+comment,Best burnt ends,,Mmmmeh. Wasn’t impressed the 3 times I’ve been,https://old.reddit.com/r/ChicagoSuburbs/comments/1kiknt7/best_burnt_ends/mrfx2ly/
+post,Checked out Corned Beef Hideout,2025-07-08T17:46:52+00:00,,https://www.reddit.com/r/Bolingbrook/comments/1luv6tk/checked_out_corned_beef_hideout/
+post,How to update input channels,2025-05-09T11:18:34+00:00,,https://www.reddit.com/r/Logic_Studio/comments/1kifzna/how_to_update_input_channels/
+post,Humidifier pipe makes loud noise when shutting off,2025-03-23T14:23:50+00:00,,https://www.reddit.com/r/askaplumber/comments/1ji0efn/humidifier_pipe_makes_loud_noise_when_shutting_off/
+post,Locker security pro tip,2025-03-16T15:20:44+00:00,,https://www.reddit.com/r/PlanetFitnessMembers/comments/1jcns80/locker_security_pro_tip/
+post,Old school dive bars,2025-03-11T21:18:24+00:00,,https://www.reddit.com/r/Naperville/comments/1j91y2y/old_school_dive_bars/
+post,Illinois American Water Monopoly,2025-02-17T23:39:44+00:00,,https://www.reddit.com/r/Bolingbrook/comments/1iryj4z/illinois_american_water_monopoly/
+post,Solo performer - need to use backing tracks,2025-02-09T03:37:59+00:00,,https://www.reddit.com/r/musicians/comments/1il5qsg/solo_performer_need_to_use_backing_tracks/
+post,USB ports in lockers,2024-12-05T15:12:44+00:00,,https://www.reddit.com/r/PlanetFitnessMembers/comments/1h7bcw7/usb_ports_in_lockers/
+post,Tattoo Recommendations,2024-09-25T18:13:11+00:00,,https://www.reddit.com/r/Naperville/comments/1fpb8r1/tattoo_recommendations/
+post,Dell XPS 9000 / 935 desktop Orange light of death,2024-09-15T00:42:06+00:00,,https://www.reddit.com/r/DellXPS/comments/1fh0egj/dell_xps_9000_935_desktop_orange_light_of_death/
+post,bad control arms?,2024-09-05T01:05:54+00:00,,https://www.reddit.com/r/Rav4/comments/1f99yuq/bad_control_arms/
+post,Nice Weather = speed checks,2024-03-07T21:42:01+00:00,,https://www.reddit.com/r/ChicagoSuburbs/comments/1b96b4w/nice_weather_speed_checks/
+post,Tax specialist recommendation,2023-09-06T23:53:54+00:00,,https://www.reddit.com/r/Naperville/comments/16c0d26/tax_specialist_recommendation/
+post,Rear inner tail light clear lens fell off,2023-08-15T13:35:50+00:00,,https://www.reddit.com/r/Rav4/comments/15rsy4c/rear_inner_tail_light_clear_lens_fell_off/
+post,2016 XLE tepid air unless on “Hi” setting,2023-07-21T05:06:23+00:00,,https://www.reddit.com/r/Rav4/comments/155e2do/2016_xle_tepid_air_unless_on_hi_setting/
+post,Acoustic open nights 🎸,2023-05-27T03:03:55+00:00,,https://www.reddit.com/r/Naperville/comments/13swbta/acoustic_open_nights/
+post,Is there a spate of catalytic converters being stolen in Naperville?,2023-01-11T00:18:00+00:00,,https://www.reddit.com/r/Naperville/comments/108pxlj/is_there_a_spate_of_catalytic_converters_being/
+post,FDA ends DCM updates; No causality data with dog foods,2022-12-28T16:37:59+00:00,,https://www.reddit.com/r/DogFood/comments/zxe4tn/fda_ends_dcm_updates_no_causality_data_with_dog/
+post,Practical questions on 37s,2022-12-05T13:12:27+00:00,,https://www.reddit.com/r/Wrangler/comments/zd6fpz/practical_questions_on_37s/
+post,How do you have a smooth transition to silence from a looped sample?,2022-10-17T12:31:11+00:00,,https://www.reddit.com/r/Logic_Studio/comments/y69ztd/how_do_you_have_a_smooth_transition_to_silence/
+post,Trying to find 20MM Sway bar bushings for S197,2022-09-28T19:54:45+00:00,,https://www.reddit.com/r/Mustang/comments/xqml0k/trying_to_find_20mm_sway_bar_bushings_for_s197/
+post,LiveHR suddenly stopped working - how to enable?,2022-09-19T04:20:29+00:00,,https://www.reddit.com/r/AppleWatch/comments/xi1npz/livehr_suddenly_stopped_working_how_to_enable/
+post,Car Mechanic Recommendation,2022-07-29T15:39:04+00:00,,https://www.reddit.com/r/Naperville/comments/wb7zg0/car_mechanic_recommendation/
+post,Black mustang hood top coat cloudiness reappeared,2022-07-04T03:13:38+00:00,,https://www.reddit.com/r/cardetailingtips/comments/vqxvmm/black_mustang_hood_top_coat_cloudiness_reappeared/
+post,Scare House 2 Speaker Audio,2022-05-14T19:13:14+00:00,,https://www.reddit.com/r/creepyaudio/comments/upo6d1/scare_house_2_speaker_audio/
+post,"RROD H3 system. Sell for parts, or..?",2022-02-27T03:53:30+00:00,,https://www.reddit.com/r/xbox360/comments/t2f7to/rrod_h3_system_sell_for_parts_or/
+post,LA Location matters - still?,2021-09-01T02:20:37+00:00,,https://www.reddit.com/r/FilmIndustryLA/comments/pfkfrh/la_location_matters_still/
+post,Crash on Springdale and royalist,2021-05-22T17:16:06+00:00,,https://www.reddit.com/r/huntingtonbeach/comments/ninc65/crash_on_springdale_and_royalist/

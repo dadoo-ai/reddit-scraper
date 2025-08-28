@@ -1,0 +1,80 @@
+{
+  "info": {
+    "authorId": "t2_5azpyar0",
+    "author": "Dirtbk80cc",
+    "authorProfile": "https://www.reddit.com/user/Dirtbk80cc",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mzg4u0",
+    "postLabel": null,
+    "publishingDate": "2025-08-25T03:38:39+00:00",
+    "postTitle": "What should I learn for backend \"development\"?",
+    "postMessage": "I’ve been working with Devana and Salesforce for about 6 years. Compared to most Salesforce users, I’d say I’m a bit more savvy... I understand Objects, Datasets, how things connect, workflows, reporting etc. Back when we used Devana, I would map out what needed to be built, and they handled the actual implementation. Now, at my current company, we use Salesforce with two admins handling builds and configurations. The issue is, they don’t fully understand the company workflows. They can technically build things, but there are always a lot of simple errors, so everything ends up taking 2–4 iterations to get right. It feels like one of those classic “engineer vs user” disconnects. For context: I know basic Python and a little SQL. I’ve worked with several BI tools for analytics and queries. I’ve never really gotten to see or learn how Salesforce works on the backend. A couple of questions: Is Salesforce Lightning more like coding or is it drag-and-drop configuration? What should I study if I eventually want to take over the Salesforce admin role myself? Are there practice environments or sandboxes I can use to learn backend Salesforce admin work?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mzg4u0/what_should_i_learn_for_backend_development/",
+    "commentCount": 5,
+    "upvoteCount": 7,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "_ipointoutthings",
+      "authorProfile": "https://www.reddit.com/user/_ipointoutthings",
+      "commentId": "t1_naj3xcm",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzg4u0/what_should_i_learn_for_backend_development/naj3xcm/",
+      "publishingDate": 1756095573.0,
+      "commentBody": "So Salesforce Lightning the experience type. \nIt contains drag and drop features like flows or lightning app builder.\nIt also supports lightning web components(LWC) which those use js and html. Lwcs can call apex controllers which is the backend using the Apex programming language. Apex is very similar to Java. \n\nTo be a certified Salesforce Admin you do not need to know how to code. The closest you get is on the exam you have to identify situations where a pragmatic solution is needed. Depending on business I would follow and Administrator trailhead along with learning flows and lightning app builder\n\nI don't think Apex as a language is difficult to learn in terms of syntax, but using it efficiently can take a long time of learning. Understanding a trigger framework, governance limits(Never use a dml statement in a for loop) and controllers can take a good amount of time.",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "mnz321",
+      "authorProfile": "https://www.reddit.com/user/mnz321",
+      "commentId": "t1_naj4djo",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzg4u0/what_should_i_learn_for_backend_development/naj4djo/",
+      "publishingDate": 1756095792.0,
+      "commentBody": "A Is Salesforce Lightning more like coding or is it drag-and-drop configuration?  \n\n- More like configuration and customization with code if configuration doesn't achieve the requirement. Drag and drop is more of an UX add-on via app exchange product or code customizations. Its not very common in configurations although you might see it here and there..\n\nB What should I study if I eventually want to take over the Salesforce admin role myself?\n\n- Salesforce provides trailhead that are free and self learning. I can recommend few yt channnel too if you are interested. Salesforce also provides corporate certificate and training and courses. There are plenty of very good freelancers/trainers who are very good at what they do. I used to train too a decade back because I love teaching.\n\nC Are there practice environments or sandboxes I can use to learn backend Salesforce admin work?\n\n- Yes. You can create multiple personal developer sandboxes. Infact trailhead lets you create it for hands-on exercises.\n\nI hope I answered all of your queries and excuse my grammar 🧐",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "bhh32",
+      "authorProfile": "https://www.reddit.com/user/bhh32",
+      "commentId": "t1_naj769d",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzg4u0/what_should_i_learn_for_backend_development/naj769d/",
+      "publishingDate": 1756097193.0,
+      "commentBody": "1.) Salesforce Lightning Web Components are web dev straight up, HTML, JavaScript, and CSS with a little Apex flare. You can do Apex and SOQL for backend things if you want. They also have flows and such for backend, but I don’t find them as much fun.\n\n2.) For the Admin role, just learn where everything is for your companies apps. It’s all mostly point and click. Very little actual dev work.\n\n3.) Yes, get a developer Trailhead account and go at it.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "OneCatch",
+      "authorProfile": "https://www.reddit.com/user/OneCatch",
+      "commentId": "t1_nakafyk",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzg4u0/what_should_i_learn_for_backend_development/nakafyk/",
+      "publishingDate": 1756119615.0,
+      "commentBody": "Do the [Admin Beginner trailhead](https://trailhead.salesforce.com/content/learn/trails/force_com_admin_beginner) before anything else, in particular the Lightning Experience Customization module.  \n\nTrailhead also sets you up with sandboxes which let you try things out, so that ticks your third point.  \n\nGiven where you're trying to get, I'd then do Admin Intermediate and Dev Beginner trailheads. From there, you should know enough to make your own decisions of what to prioritise and what not to.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "DirectionLast2550",
+      "authorProfile": "https://www.reddit.com/user/DirectionLast2550",
+      "commentId": "t1_napt8qw",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mzg4u0/what_should_i_learn_for_backend_development/napt8qw/",
+      "publishingDate": 1756187291.0,
+      "commentBody": "I'd recommend focusing on Salesforce Lightning, which blends drag-and-drop configuration with coding (Apex, JavaScript) for custom solutions start with Trailhead’s Lightning Component Basics. To take over the admin role, study Salesforce Admin certification topics (Platform App Builder, Process Automation, Data Modeling) and learn Apex and SOQL for backend work, leveraging your Python/SQL skills. Practice in a free Salesforce Developer Edition sandbox to build and test configurations safely. Check Trailhead and Salesforce’s Admin certification path for structured learning.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "info": {
+    "authorId": "t2_kgd0pk2d",
+    "author": "Sensitive-Bee3803",
+    "authorProfile": "https://www.reddit.com/user/Sensitive-Bee3803",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1myh6l3",
+    "postLabel": null,
+    "publishingDate": "2025-08-24T00:05:26+00:00",
+    "postTitle": "type mismatch",
+    "postMessage": "I'm working on a formula where I'm checking the value of a picklist. chatGPT is telling me I should convert the picklist value to text so that the system is checking text against text. I have never heard of a type mismatch. should I really change picklist values to text?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1myh6l3/type_mismatch/",
+    "commentCount": 8,
+    "upvoteCount": 2,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Waitin4Godot",
+      "authorProfile": "https://www.reddit.com/user/Waitin4Godot",
+      "commentId": "t1_nac12mp",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myh6l3/type_mismatch/nac12mp/",
+      "publishingDate": 1755994388.0,
+      "commentBody": "You can use the Text function ...\n\nText function for picklist fields | Salesforce Trailblazer Community https://trailhead.salesforce.com/trailblazer-community/feed/0D54S00000A7S8tSAF\n\nOr you can use the Ispickval function.\n\nFormula to check a picklist field | Salesforce Trailblazer Community https://trailhead.salesforce.com/trailblazer-community/feed/0D54V00007T4U3iSAF",
+      "upvotes": 6,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "semicolonshitter",
+      "authorProfile": "https://www.reddit.com/user/semicolonshitter",
+      "commentId": "t1_nac0v5j",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myh6l3/type_mismatch/nac0v5j/",
+      "publishingDate": 1755994307.0,
+      "commentBody": "There are 3 functions that can be used for different purpose to work with picklists in formula field.\n\n1. ISPICKVAL()\n2. CASE()\n3. TEXT()\n\n1. **ISPICKVAL(**)\n\n**Syntax:**\n\n||\n||\n|1|`ISPICKVAL(&lt;Picklist_Field&gt;, ‘Text Value To Compare’)`|\n\n**Return Type:** Boolean",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "[deleted]",
+      "authorProfile": "https://www.reddit.com/user/[deleted]",
+      "commentId": "t1_nac0h6g",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myh6l3/type_mismatch/nac0h6g/",
+      "publishingDate": 1755994159.0,
+      "commentBody": "[deleted]",
+      "upvotes": 0,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Sensitive-Bee3803",
+          "authorProfile": "https://www.reddit.com/user/Sensitive-Bee3803",
+          "commentId": "t1_nada3ms",
+          "link": "https://www.reddit.com/r/salesforce/comments/1myh6l3/type_mismatch/nada3ms/",
+          "publishingDate": 1756014046.0,
+          "commentBody": "Thank you. I was working on a formula and I asked ChatGPT and it keeps telling me to change the value to text because otherwise I'm at risk of type mismatch. I've been working as an admin for years and have never heard of type mismatch.",
+          "upvotes": -2,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "urmomisfun",
+              "authorProfile": "https://www.reddit.com/user/urmomisfun",
+              "commentId": "t1_nawn6a2",
+              "link": "https://www.reddit.com/r/salesforce/comments/1myh6l3/type_mismatch/nawn6a2/",
+              "publishingDate": 1756278162.0,
+              "commentBody": "If you’ve been an admin for years why are you using ChatGPT to write a formula? SteveMo knows more than ChatGPT about Salesforce formulas. Use Google (not the AI horseshit) and you’ll find whatever help you need there from the community and documentation.",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "Sensitive-Bee3803",
+                  "authorProfile": "https://www.reddit.com/user/Sensitive-Bee3803",
+                  "commentId": "t1_naytl49",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1myh6l3/type_mismatch/naytl49/",
+                  "publishingDate": 1756309792.0,
+                  "commentBody": "I was checking the formula I had written",
+                  "upvotes": 1,
+                  "dislikes": null,
+                  "downvotes": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "semicolonshitter",
+      "authorProfile": "https://www.reddit.com/user/semicolonshitter",
+      "commentId": "t1_nac0wi4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myh6l3/type_mismatch/nac0wi4/",
+      "publishingDate": 1755994321.0,
+      "commentBody": "There are 3 functions that can be used for different purpose to work with picklists in formula field.\n\n1. ISPICKVAL()\n2. CASE()\n3. TEXT()\n\n1. **ISPICKVAL(**)\n\n**Syntax:**\n\n||\n||\n|1|`ISPICKVAL(&lt;Picklist_Field&gt;, ‘Text Value To Compare’)`|\n\n**Return Type:** Boolean",
+      "upvotes": -2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "semicolonshitter",
+      "authorProfile": "https://www.reddit.com/user/semicolonshitter",
+      "commentId": "t1_nac125k",
+      "link": "https://www.reddit.com/r/salesforce/comments/1myh6l3/type_mismatch/nac125k/",
+      "publishingDate": 1755994383.0,
+      "commentBody": "There are 3 functions that can be used for different purpose to work with picklists in formula field.\n\n1. ISPICKVAL()\n2. CASE()\n3. TEXT()\n\n1. **ISPICKVAL(**)\n\nsyntax\n\n`ISPICKVAL(&lt;Picklist_Field&gt;, ‘Text Value To Compare’)`",
+      "upvotes": -2,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "info": {
+    "authorId": "t2_t2p3p2uv",
+    "author": "Legitimate-Glass148",
+    "authorProfile": "https://www.reddit.com/user/Legitimate-Glass148",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1n0r3gt",
+    "postLabel": null,
+    "publishingDate": "2025-08-26T16:49:20+00:00",
+    "postTitle": "I need help with some crazy account to account relationship structures",
+    "postMessage": "I have very little salesforce experience but have been tasked as our admin/developer and have reached an issue with the basic affiliate structure. This is what the company wants to accomplish Mount Sinai Data Science Hub Affiliated to Google DeepMind (Tech Company) and IEEE (Professional Association) Affiliated to NYC Machine Learning Consortium (Consortium) Affiliated to National AI Research Alliance (Governing Body) Affiliated to DataWorks - QuantEdge (Partner) Use Case We want to be able to set up this type of affiliation so that we can run reports for each of these affiliations individually. It will also help us understand if we have 6/12 consortium members and who the current customers are, so we can use those current customers as referrals or testimonials to get introductions into the remaining members.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1n0r3gt/i_need_help_with_some_crazy_account_to_account/",
+    "commentCount": 1,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "V1ld0r_",
+      "authorProfile": "https://www.reddit.com/user/V1ld0r_",
+      "commentId": "t1_nasraoz",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0r3gt/i_need_help_with_some_crazy_account_to_account/nasraoz/",
+      "publishingDate": 1756228972.0,
+      "commentBody": "Not sure if this is a parent\\\\child relation or Account to Account relationship where you have a many to many relation. \n\n  \nParent\\\\Child is just account hierarchy and should be there.\n\n A many-to-many relation though will depend on the exact products you have. Most (if not all) of the Industries Solutions do have a junction object for AccountAccountRelationship (exact name may change depending on the exact Industry Cloud). \n\nIf you don't have anything that suits, just build your own custom junction object. [https://help.salesforce.com/s/articleView?id=platform.relationships\\_manytomany.htm&amp;language=en\\_US&amp;type=5](https://help.salesforce.com/s/articleView?id=platform.relationships_manytomany.htm&amp;language=en_US&amp;type=5)\n\n  \nIf however this is more of a partnership relation, you may want to look at this: [https://help.salesforce.com/s/articleView?id=sales.partners\\_edit.htm&amp;type=5](https://help.salesforce.com/s/articleView?id=sales.partners_edit.htm&amp;type=5)",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

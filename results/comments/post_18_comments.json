@@ -1,0 +1,148 @@
+{
+  "info": {
+    "authorId": "t2_k3vu2efw",
+    "author": "rubberduck153",
+    "authorProfile": "https://www.reddit.com/user/rubberduck153",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1n1jpw0",
+    "postLabel": "career question",
+    "publishingDate": "2025-08-27T15:11:28+00:00",
+    "postTitle": "Career Advice",
+    "postMessage": "I've been in the ecosystem for nearly 8 years mpw. I started off as an Admin, then became a Dev, and a BA ultimately being a being a SF product manager for the last few years. I find myself wanting a change and wanting to get into sales the side of things. Any ideas on how I can make this transition?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1n1jpw0/career_advice/",
+    "commentCount": 10,
+    "upvoteCount": 4,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "DesignerEmploy5936",
+      "authorProfile": "https://www.reddit.com/user/DesignerEmploy5936",
+      "commentId": "t1_nazem7k",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1jpw0/career_advice/nazem7k/",
+      "publishingDate": 1756315776.0,
+      "commentBody": "If it’s about software sales / pre-sales, you can try consulting, supporting sales deals from data mapping, value mapping, discovery project phases and answering RfPs for clients. Sounds like something you’d enjoy?",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "rubberduck153",
+          "authorProfile": "https://www.reddit.com/user/rubberduck153",
+          "commentId": "t1_nb0dm2c",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n1jpw0/career_advice/nb0dm2c/",
+          "publishingDate": 1756325630.0,
+          "commentBody": "This is exactly what I'm looking for",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Suspicious-Nerve-487",
+      "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+      "commentId": "t1_nazu9ky",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1jpw0/career_advice/nazu9ky/",
+      "publishingDate": 1756320101.0,
+      "commentBody": "Solution Engineering is probably a fit. I switched after quite a few years in implementation over to SE",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "MinShuka1993",
+          "authorProfile": "https://www.reddit.com/user/MinShuka1993",
+          "commentId": "t1_nb3t3y9",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n1jpw0/career_advice/nb3t3y9/",
+          "publishingDate": 1756375541.0,
+          "commentBody": "But the Question is how. There are very few Solution engineering jobs, which are most of the time occupied in-house. And even less when it comes to an SF solution Engineer.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Suspicious-Nerve-487",
+              "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+              "commentId": "t1_nb5y422",
+              "link": "https://www.reddit.com/r/salesforce/comments/1n1jpw0/career_advice/nb5y422/",
+              "publishingDate": 1756400904.0,
+              "commentBody": "The only how is to find an open role and apply / get a referral. \n\nThere unfortunately isn’t some magical way to just land an SE role at Salesforce",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Panthers_PB",
+      "authorProfile": "https://www.reddit.com/user/Panthers_PB",
+      "commentId": "t1_naysrp0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1jpw0/career_advice/naysrp0/",
+      "publishingDate": 1756309561.0,
+      "commentBody": "Ironically, most sales people are trying to get to your position right now lol.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_nb08s6p",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1jpw0/career_advice/nb08s6p/",
+      "publishingDate": 1756324283.0,
+      "commentBody": "Hmmm maybe stick to your skills and find a way to sell yourself!\n\n  \nI moved from engineering equipment - to selling that equipment - to administrating Salesforce - to selling Salesforce implementations for a large partner - to running my own small salesforce practice (selling and building) for the last 5 years.\n\n  \nFeels like I landed at the perfect intersection of the 2!",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Middle_Manager_Karen",
+      "authorProfile": "https://www.reddit.com/user/Middle_Manager_Karen",
+      "commentId": "t1_nb0m2x0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1jpw0/career_advice/nb0m2x0/",
+      "publishingDate": 1756327983.0,
+      "commentBody": "![gif](giphy|RKMm7X3HGKZMuoZlMF|downsized)\n\nHave you considered data integration engineering for the likelihood of much fewer people to interact with?",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "MinShuka1993",
+      "authorProfile": "https://www.reddit.com/user/MinShuka1993",
+      "commentId": "t1_nazmv7k",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1jpw0/career_advice/nazmv7k/",
+      "publishingDate": 1756318012.0,
+      "commentBody": "Dude DM me I guess I can help you out",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "rubberduck153",
+          "authorProfile": "https://www.reddit.com/user/rubberduck153",
+          "commentId": "t1_nb3nqvp",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n1jpw0/career_advice/nb3nqvp/",
+          "publishingDate": 1756372549.0,
+          "commentBody": "Dm sent",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    }
+  ]
+}

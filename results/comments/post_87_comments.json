@@ -1,0 +1,70 @@
+{
+  "info": {
+    "authorId": "t2_4yv06kbd",
+    "author": "ShroomHog",
+    "authorProfile": "https://www.reddit.com/user/ShroomHog",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mvwbwv",
+    "postLabel": null,
+    "publishingDate": "2025-08-21T00:31:42+00:00",
+    "postTitle": "AI analysis of Case communication",
+    "postMessage": "We have an internal LLM that I can upload pdf’s or csv’s to and prompt it to give me an exec summary.  I am attempting to do this with SF cases, but the data is pretty messy when there are multiple emails or discussions.  Is there an easier way to capture this data for LLM use?  API or something like that?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mvwbwv/ai_analysis_of_case_communication/",
+    "commentCount": 4,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Suspicious-Nerve-487",
+      "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+      "commentId": "t1_n9tf9q6",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mvwbwv/ai_analysis_of_case_communication/n9tf9q6/",
+      "publishingDate": 1755739350.0,
+      "commentBody": "Can do this OOTB with Agentforce to summarize records. Can also leverage a prompt template to do the same. You can connect your LLM via BYO LLM",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "bobx11",
+      "authorProfile": "https://www.reddit.com/user/bobx11",
+      "commentId": "t1_n9tdckx",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mvwbwv/ai_analysis_of_case_communication/n9tdckx/",
+      "publishingDate": 1755738690.0,
+      "commentBody": "\nYou want an executive summary of the case for what purpose? \n\nTo start, I would query all related records (chatter, comment, email) and put them in order into one big prompt and have it then give you a summary.\n\nThis can be done with jsforce in node pretty easily (or Python simple-salesforce). \n\nI’ve got a similar program that pipes all history into OpenAI and uses their vector store to keep it easy. My volume is low (&lt;1k messages a day) so costs are not insane. ",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "ShroomHog",
+          "authorProfile": "https://www.reddit.com/user/ShroomHog",
+          "commentId": "t1_n9w19ci",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mvwbwv/ai_analysis_of_case_communication/n9w19ci/",
+          "publishingDate": 1755782563.0,
+          "commentBody": "Man, I wish I knew python or coding well enough to be useful.  It seems daunting to try to get to a level of competence.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "ShroomHog",
+      "authorProfile": "https://www.reddit.com/user/ShroomHog",
+      "commentId": "t1_n9tl9re",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mvwbwv/ai_analysis_of_case_communication/n9tl9re/",
+      "publishingDate": 1755741443.0,
+      "commentBody": "Idea is to get a summary of the activities we are doing, including what customers or sellers are asking.  Categorize the issues/requests for function leaders to ensure action is being taken or addressing issues.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

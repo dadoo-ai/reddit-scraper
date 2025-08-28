@@ -1,0 +1,56 @@
+{
+  "info": {
+    "authorId": "t2_1if9mt15uf",
+    "author": "LilienneCarter",
+    "authorProfile": "https://www.reddit.com/user/LilienneCarter",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mwwtlb",
+    "postLabel": null,
+    "publishingDate": "2025-08-22T04:21:29+00:00",
+    "postTitle": "Looking for ~60 seconds of help understanding (at a high level) how NPSP uses information from Stripe",
+    "postMessage": "Non-expert in Salesforce here so please be gentle! Working with a small non-profit that uses NPSP and its standard donation form, integrated with Stripe. They're looking to replace the NPSP form with a Gravity Form that is a bit more customisable. I'm looking to help them replicate the out-of-box NPSP functionality, particularly the two-way sync of Recurring Donations with Stripe. Looking at relevant Stripe events (for a successful new subscription), the only metadata I can see is something like: \"metadata\": {\n    \"payload\": \"{\"submissionId\":\"abc12345\"}\",\n}, Am I understanding correctly that when Stripe sends an event to Salesforce, it's really just saying \"hey this payment/subscription/update is related [donation form] submissionId abc12345\", and then Salesforce goes and creates the Recurring Donation etc. primarily using information already in Salesforce? (As opposed to the donation form giving everything to Stripe, and then Stripe giving everything to Salesforce, and then Salesforce/NPSP creating everything using ONLY information it just received directly from the Stripe webhook) I appreciate your help!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mwwtlb/looking_for_60_seconds_of_help_understanding_at_a/",
+    "commentCount": 3,
+    "upvoteCount": 1,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "ConsciousBandicoot53",
+      "authorProfile": "https://www.reddit.com/user/ConsciousBandicoot53",
+      "commentId": "t1_na0t9hv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mwwtlb/looking_for_60_seconds_of_help_understanding_at_a/na0t9hv/",
+      "publishingDate": 1755838523.0,
+      "commentBody": "I’m building this right now. You’ve gotta pick the stripe event up and construct the data that you want via automation. NPSP isn’t going to just run with it like you’re thinking. \n\nThe metadata parsing classes that come along with the stripe package aren’t able to really extract out the key/value pairs inside of the metadata objects so you have to write your own json parser that allows you to map the metadata in flows, if you want to use flows.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "gmsd90",
+      "authorProfile": "https://www.reddit.com/user/gmsd90",
+      "commentId": "t1_na0q8tb",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mwwtlb/looking_for_60_seconds_of_help_understanding_at_a/na0q8tb/",
+      "publishingDate": 1755837118.0,
+      "commentBody": "Not specific to NPSP, but I have used Stripe for other Salesforce features.   \n  \nYes, Stripe pushes data into Salesforce using Stripe events; you need to write any automation on the Stripe event object (NPSP may ship some automation, I am not sure). Different events have different requests/data, and you can configure them in the installed app [https://docs.stripe.com/use-stripe-apps/stripe-app-for-salesforce/configure-events](https://docs.stripe.com/use-stripe-apps/stripe-app-for-salesforce/configure-events) \n\nTo see the list of events: [https://docs.stripe.com/api/events/types](https://docs.stripe.com/api/events/types) \n\nThe payment should go to Stripe so you don't have to store any payment data in Salesforce.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "FunImprovement2089",
+      "authorProfile": "https://www.reddit.com/user/FunImprovement2089",
+      "commentId": "t1_na1rc9b",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mwwtlb/looking_for_60_seconds_of_help_understanding_at_a/na1rc9b/",
+      "publishingDate": 1755857392.0,
+      "commentBody": "Or just use a native app like payment connector part of Ardn Clouds products.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

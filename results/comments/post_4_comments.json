@@ -1,0 +1,182 @@
+{
+  "info": {
+    "authorId": "t2_cqexo",
+    "author": "nomiras",
+    "authorProfile": "https://www.reddit.com/user/nomiras",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1n0x0hl",
+    "postLabel": "venting 😤",
+    "publishingDate": "2025-08-26T20:31:31+00:00",
+    "postTitle": "Rant about Certifications",
+    "postMessage": "I'm doing a practice certification and a great majority of the questions are : 'Which of the methods is correct for x scenario?' isDeletable canDelete Deleteable canDelete from another class of a similar name. How in the world does this test me?  This is literally pure memorization. I've been developing for over 11 years in SF and still reference the API docs.  I've been holding off on these tests because I cannot stand trying to memorize things and consider it a waste of time. What is the purpose of the questions like these?  Knowing a name of a method and class that I -might- use off the top of my head is a waste of a question on a test when in the real world, google can answer it in two seconds. I'd much rather have a test where I program something up, or a test that allows us to use the API docs, as that is much closer to real world work. On a random note - I've had coworkers get hired with high level certifications under their name not know how to do the most basic thing.  They couldn't even google it, they directly asked other coworkers. (IE: Creating a field.. WHAT?) /rant",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1n0x0hl/rant_about_certifications/",
+    "commentCount": 13,
+    "upvoteCount": 47,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "tet3",
+      "authorProfile": "https://www.reddit.com/user/tet3",
+      "commentId": "t1_naty09k",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0x0hl/rant_about_certifications/naty09k/",
+      "publishingDate": 1756241108.0,
+      "commentBody": "Advanced Developer, the predecessor to Platform Developer II, had a programming exercise that was human-evaluated, and it was a good test of programming skill. The assignment changed every release. \n\nThe Advanced Apex Superbadge is the replacement, because they couldn't scale the human evaluations. \n\nBut for PD1, yes, it's a lot of memorizations. Are you doing a Trailhead sample exam, or a 3rd party? If 3rd party, it likely doesn't match the actual questions very well.",
+      "upvotes": 17,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "SFSpex1980",
+          "authorProfile": "https://www.reddit.com/user/SFSpex1980",
+          "commentId": "t1_nau2kl1",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n0x0hl/rant_about_certifications/nau2kl1/",
+          "publishingDate": 1756242404.0,
+          "commentBody": "I thought the Advanced Developer assignment was awesome. Really ensured you knew what you were doing, could write accurate test classes etc.\n\nWould/might be less valuable if they reinstated it now due to Ai, but when I did it a decade or so ago it was awesome.",
+          "upvotes": 4,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "EnvironmentalTap2413",
+              "authorProfile": "https://www.reddit.com/user/EnvironmentalTap2413",
+              "commentId": "t1_navvqbm",
+              "link": "https://www.reddit.com/r/salesforce/comments/1n0x0hl/rant_about_certifications/navvqbm/",
+              "publishingDate": 1756264608.0,
+              "commentBody": "Thanks, this made my day! Not only was I a judge for submissions, but I wrote at least a dozen of the assignments.\n\nMultiple new ones were created several times a year to ensure that anyone taking a repeat would not get the same scenario and that you couldn't use a solution from a past round. The concepts we tested were consistent but I had to come up with different stories for fake companies and their use cases that could only be solved by implementing a solution covering those concepts.\n\nIn general judges could immediately tell how experienced someone was from a quick look at their code, but we followed a very strict rubric and scoring process that involved two judges and a facilitator for every submission. This was why the process was so costly and why the decision to go to Trailhead was made.\n\nIncidentally, I was hired to build the original version of the Superbadge. I knew I was putting myself out of a job, but it was going to happen with or without me. I actually pushed for a much harder Superbadge that had dynamic variables that changed per candidate but the backend didn't support it.\n\nGood times!",
+              "upvotes": 7,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        },
+        {
+          "authorId": null,
+          "author": "nomiras",
+          "authorProfile": "https://www.reddit.com/user/nomiras",
+          "commentId": "t1_naz4rmr",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n0x0hl/rant_about_certifications/naz4rmr/",
+          "publishingDate": 1756312992.0,
+          "commentBody": "It's a sample exam from 'focus on force' website.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Inner-Sundae-8669",
+      "authorProfile": "https://www.reddit.com/user/Inner-Sundae-8669",
+      "commentId": "t1_nauw3rr",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0x0hl/rant_about_certifications/nauw3rr/",
+      "publishingDate": 1756251858.0,
+      "commentBody": "It's funny,  I don't specifically recall that superbadge, I had to quickly do 5 to get my pd2, but as a whole I thought those 5 superbadges were the highest quality learning resources I had come across in all my salesforce education.   A platform who's ability to educate was one of it's likely largest market differentiators.   \n\nOk let me put it this way,  what do you know about salesforce that isn't memorized?  All that experience,  it's sticking with you somehow.   Why is knowing these things valuable,  especially in an ai age?  We can work with things we don't have memorized by opening up the docs, but the more we recall,  the more we're able to understand what someone means when they're talking,  to remember what we did because our memory has all that context to fit nicely into,  visualize what this next system might be in ever higher definition.   I think earning pd2 is an excellent education that will make you a better developer.   But I also get the frustration.  All certs are a pain,  and others don't at all imagine how much work they were.   It feels life the boss for example thinks ok,  he worked 4 hours to earn a cert.  It's like,  for sins of these, try more like 200hrs!  That one in particular took me about that is think.  6 months of pretty much every night.  That's an enormous investment for so far no real pay off in my life,  other than maybe a little more respect at the office,  because it did make me better.",
+      "upvotes": 5,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_nauem35",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0x0hl/rant_about_certifications/nauem35/",
+      "publishingDate": 1756246038.0,
+      "commentBody": "This is why I put little weight on the multiple choice certs when hiring.",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "wangmobile",
+      "authorProfile": "https://www.reddit.com/user/wangmobile",
+      "commentId": "t1_nauj53c",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0x0hl/rant_about_certifications/nauj53c/",
+      "publishingDate": 1756247502.0,
+      "commentBody": "Ya I’m studying for PD1 right now, these types of questions are killing me",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "omgwtfishsticks",
+      "authorProfile": "https://www.reddit.com/user/omgwtfishsticks",
+      "commentId": "t1_naxs0hi",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0x0hl/rant_about_certifications/naxs0hi/",
+      "publishingDate": 1756298379.0,
+      "commentBody": "Hi! I contribute to Salesforce certifications. This is a terrible question on all accounts and it does not belong in the exam. However, certifications are at the mercy of the SME who got picked to write them, and some people write lazy low effort questions that perform really well. If it discriminates well, as in the people that typically pass get it right and the people that fail typically get it wrong, then it may never pop up on the radar for review.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Patrickm8888",
+      "authorProfile": "https://www.reddit.com/user/Patrickm8888",
+      "commentId": "t1_nay1r6h",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0x0hl/rant_about_certifications/nay1r6h/",
+      "publishingDate": 1756301623.0,
+      "commentBody": "The reason I failed PD1 a couple times was because of questions about specific Visualforce and Aura code syntax. 4 options that all look the same except for a minor difference. Didn't realize I was taking a code debugging test!",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "rafahuel",
+      "authorProfile": "https://www.reddit.com/user/rafahuel",
+      "commentId": "t1_nauo5ad",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0x0hl/rant_about_certifications/nauo5ad/",
+      "publishingDate": 1756249205.0,
+      "commentBody": "100% agree",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Dry_Weekend_2536",
+      "authorProfile": "https://www.reddit.com/user/Dry_Weekend_2536",
+      "commentId": "t1_naz5gvm",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0x0hl/rant_about_certifications/naz5gvm/",
+      "publishingDate": 1756313193.0,
+      "commentBody": "Tried (and failed) my admin exam. What do you recommend ? I got 36/ 39 required and I felt like I was well prepped. But the way the questions were prhased threw me off completely and ended up second guessing myself. \n\nAny advice, docs or tests I could you use to better prep ? Thx",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "nomiras",
+          "authorProfile": "https://www.reddit.com/user/nomiras",
+          "commentId": "t1_naz6lm7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n0x0hl/rant_about_certifications/naz6lm7/",
+          "publishingDate": 1756313516.0,
+          "commentBody": "I'm brand new to the cert scene as well.  I've been avoiding it for over 11 years!",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Icy-Smell-1343",
+      "authorProfile": "https://www.reddit.com/user/Icy-Smell-1343",
+      "commentId": "t1_nb6bs06",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n0x0hl/rant_about_certifications/nb6bs06/",
+      "publishingDate": 1756404691.0,
+      "commentBody": "I’ve been a Salesforce dev for less than 5 months and picked isDeletable. It’s just standard syntax dude… I passed the pd1 &amp; pd2, just memorize the stuff it’s not that hard tbh. The super badges were a lot harder than the exam itself. I’m sure you are 10 times a better dev, but just grind and practice",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

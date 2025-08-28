@@ -1,0 +1,288 @@
+{
+  "info": {
+    "authorId": "t2_3tvs6s2c",
+    "author": "Zealousideal-Ad-2473",
+    "authorProfile": "https://www.reddit.com/user/Zealousideal-Ad-2473",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mw06fx",
+    "postLabel": null,
+    "publishingDate": "2025-08-21T03:33:45+00:00",
+    "postTitle": "PMs on complex Salesforce projects: Is it common to feel more like a Project Coordinator than a Manager?",
+    "postMessage": "Hey r/salesforce , I need a serious reality check from the community. I'm a PM with over 15 years in the trenches, and I’m genuinely starting to wonder if my entire career experience is irrelevant in the Salesforce world. I've managed technical projects in the past—ERP and SAP implementations, infrastructure overhauls, cybersecurity, network builds, custom app dev, etc. In every single one of those, the PM was the central point of leadership. I was the glue that brought everyone together—stakeholders, engineers, architects, vendors—whether they liked it or not, and we got shit done. It’s a model that works. I would listen, engage, build consensus and collaborate with everyone. But my experience on Salesforce projects is proving to be... different. And I need to know if it's just me. The Troubling Pattern This is now the second time I've been a PM on a Salesforce implementation where the governance model feels completely upside down (or rather a lack thereof). My First Salesforce Gig : I was pretty much the Salesforce PM at the company. I supported the Salesforce team (I did not report into this team but I reported to the lead Architect's boss (we're peers). The lead Architect was brilliant, but he ran the entire show. My role was basically to be his coordinator. Eventually, I left, assuming it was a one-off cultural issue because all the other projects I've worked on at that company were like the opposite. My Last Salesforce Gig : I was a PM for a small Salesforce SI where the model was exactly what I’d expect. The PM called the shots, we ran a proper process. There wasn't an architect, there were many, and they were our key technical partner, not our boss. We had our share of problems, of course—mostly presales underselling the work and killing our margins—but that’s a business challenge, not a fundamental breakdown of project governance. My Current Salesforce Gig : Now I'm at a Salesforce SI that specializes in Salesforce industries and Telco and I was working on a complex Comms Cloud project, and it's déjà vu from my first experience. The Enterprise Architect (who is an expert on the platform and telco industry) defines the plan, assigns the resources (including pulling them off from other PM's projects on a whim; they got mad at her), and even made major changes to their roadmap with minimal communication. And... PMs own all the accountability for delivery but zero actual authority to manage it. I haven't been assigned to a full-sized implementation project. We just recently finished a discovery project, and we finished everything on time and under budget. I noticed during this brief time that the EA would have meetings with pretty much everyone on the team without me and delegated tasks to them. The dev lead was nice enough to let me know and I was pretty upset. It seems that these team members don't even know what to do without the EA telling them what to do. For example, I had a meeting with a BA (not a traditional BA) and I asked them what are his activities and outputs and he got so flustered because he couldn't answer me and essentially told me that he's been told to do X because EA told him to but doesn't know what's the endgame. WOWW... When I set up a meeting to establish a high-level plan, she was making a fuss and didn't contribute. I only got substance when I connected with the Technical Architect but the list of tasks were still incomplete cuz that's just from one perspective. The PMs and Account managers even tried to give evidence on why she should not pull people off randomly without a heads up because they had to defuse upset clients on the lack of progress in their respective projects. EA will not own the allocation that she provides us and doesn't care for utilization or forecasts, e.g. BA can do 15 hours but BA ends up submitting 25-35 hours per week even though I originally suggested 50% but she downgraded me to 38%. My project was under budget because I was diligent enough to put in contingencies. After all, her estimates don't make sense to me from my past exp. So after 15+ years of success, I’m in a role where what I'm witnessing goes against everything I preach. I'm being pushed into a passive, administrative role, and it's maddening. This brings me to my blunt question for you all: What is it about the Salesforce ecosystem that allows this \"Architect-run\" delivery model to take hold? As experienced PMs, are we really expected to just chuck our best practices at the door and follow the architect's lead on all delivery matters? For those of you who have seen both functional and dysfunctional models, what was the key difference? Is it the complexity of the platform? The company culture? A lack of strong program leadership? I'm genuinely trying to understand this dynamic. I am finding myself losing patience and wanting to interrupt whenever she tries to talk about delivery-related matters. Then she pulls the \"I've worked at Accenture\" card. I don't care!! =n=;; TL;DR : I'm a 15+ year veteran PM (SAP, ERP, AWS, etc.) finding that my standard, successful \"PM-led\" model of delivery is being ignored on my second Salesforce project. The Architect runs everything, leaving me as an admin. I've seen functional Salesforce projects before, so I'm trying to figure out why this dysfunctional pattern keeps happening. Is this common?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/",
+    "commentCount": 21,
+    "upvoteCount": 28,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "steezy13312",
+      "authorProfile": "https://www.reddit.com/user/steezy13312",
+      "commentId": "t1_n9uealh",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9uealh/",
+      "publishingDate": 1755753577.0,
+      "commentBody": "Been consulting in the SF space (and only SF) for ~10 years, as an architect, not PM.\n\nMy experience has been close to your first. A lot of PMs come into roles that are not technically experienced and are more expectation managers, budget watchers, and meeting schedulers than \"leads\".\n\nIn my experience there are those who can hold their own technically, but are the minority. Or their technical skills have varying limits.\n\nIt's also tough when you roll in Data Cloud, Marketing Cloud, Tableau/CRMA, etc, on top of the \"core\" CRM product. Very, very few people across any kind of role have competencies in *all* those areas.",
+      "upvotes": 15,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Zealousideal-Ad-2473",
+          "authorProfile": "https://www.reddit.com/user/Zealousideal-Ad-2473",
+          "commentId": "t1_n9wzgsm",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9wzgsm/",
+          "publishingDate": 1755792740.0,
+          "commentBody": "Yes, that's fair, but the question is about delivery, not technical prowess or design capabilities. Architects should be consulted and informed, and they are responsible for design but not the project plan. If there are logical dependencies, then PMs need to map that into the timelines based on their and the team's inputs. The concern is that the EA is micromanaging.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Vicariously___i",
+      "authorProfile": "https://www.reddit.com/user/Vicariously___i",
+      "commentId": "t1_n9u6crs",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9u6crs/",
+      "publishingDate": 1755749784.0,
+      "commentBody": "I’m an architect. I am nowhere near as bad as the EA you mentioned, but I definitely get deeper than some might into the management side of things, but I do it without stepping on the PMs toes and let them own what they should own. However, I’ve had a fair share of weak PMs and/or resources who just want to do told what to do, which is why I’ve gone a bit further in that direction.",
+      "upvotes": 14,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "8mdeebe",
+      "authorProfile": "https://www.reddit.com/user/8mdeebe",
+      "commentId": "t1_n9u9dl3",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9u9dl3/",
+      "publishingDate": 1755751208.0,
+      "commentBody": "I’ve led SF enterprise-level projects as a project manager and as a delivery lead. Never had any architect run the show. However I absolutely elicited and incorporated their input into the project plan. And I trust their estimates. They were the POC for design and all things technical (assuming a tech lead was not also staffed on the project). They shouldn’t be driving the chains of any project. If nothing else, they shouldn’t have the bandwidth to take it on.",
+      "upvotes": 8,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "4ArgumentsSake",
+      "authorProfile": "https://www.reddit.com/user/4ArgumentsSake",
+      "commentId": "t1_n9u41iu",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9u41iu/",
+      "publishingDate": 1755748753.0,
+      "commentBody": "I’ve seen this in all kind of tech. Typically the biggest personalities are the executives paying for the project and the architects designing the system. Either one can take over if you’re not careful. If you never saw it in your other tech projects, I think you just got lucky.",
+      "upvotes": 6,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Few-Impact3986",
+      "authorProfile": "https://www.reddit.com/user/Few-Impact3986",
+      "commentId": "t1_n9u3nh3",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9u3nh3/",
+      "publishingDate": 1755748584.0,
+      "commentBody": "Some of it is egos, perverse incentives and billable hours. The Accenture card is weird and I have rarely met someone from any of the large consulting firms and been like this person is actually good at their job.\n\nMy guess is the EA sees you as some who doesn't understand SF and it's weird quirks. This is a farse I see all the time. I have had clients go to multiple consulting firms and be told xyz can't be done for whatever reason. Most of the time it isn't hard. \n\nOn the technical side of Salesforce it is often difficult to get people with strong technical skills. I feel like SF tends to attract people who got CS degrees, but suck at programming and like the low code no code. It also actively repulses most good devs, maybe it is just survivor bias. You have to find good engineers who are business value oriented to get good devs who like working on SF. Most of those could make more elsewhere. \n\nMy guess with this EA is used to being responsible and having teams (that might even be subcontracted) phone it in.  Offshoring also causes this sort of micromanaging. \n\nSetup time with the EA once a day to sink. Get actual action items. Don't let info get silo'd. Many large projects have been derailed by someone like the EA quitting. Call this out as a risk to leadership.",
+      "upvotes": 6,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Steady_Ri0t",
+      "authorProfile": "https://www.reddit.com/user/Steady_Ri0t",
+      "commentId": "t1_n9xmx8b",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9xmx8b/",
+      "publishingDate": 1755799394.0,
+      "commentBody": "What is your experience and level of technical knowledge with Salesforce? How familiar are you with all of the tools integrated into Salesforce at your company? I think that is an important bit of info here. \n\nI have only had a few different Salesforce jobs so far, but the only truly helpful PM I worked with was also a certified Salesforce admin and developer. At my current company we have some PMs that don't have a Salesforce background. I've found they usually show up to meetings, step on the toes of people who know what they're talking about, attempt to commit to deadlines that are not feasible, misunderstand what we're talking about when laying out our design plan, document things differently than agreed upon due to that misunderstanding, and/or talk over everyone else all the time. It usually feels like they're actually slowing down progress because they're inserting themselves between our stakeholders and our systems team without really being familiar with either side of the business. They've only been helpful when putting their foot down against scope creep. \n\nI'm not trying to say that you're that person, but maybe your coworkers have only worked with people like that in the past so they're hesitant to let you take over. It may be worth having a direct convo with your architect and see what their concerns are.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Zealousideal-Ad-2473",
+          "authorProfile": "https://www.reddit.com/user/Zealousideal-Ad-2473",
+          "commentId": "t1_na4x5y8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/na4x5y8/",
+          "publishingDate": 1755894608.0,
+          "commentBody": "Hi, I'm not sure why you think PMs need to have technical knowledge of the technology that the project touches. This is why SMEs exist. Do you know the common expression to never be your own lawyer? Well, I feel it is true for a PM, even if they are technical, I think they should stay in their lane and help out where they can when others cannot. We encourage everyone to be \"T\"-shaped people, or generalizing specialists. We have broad knowledge across different functions or areas, but we would specialize in one domain. For us PMs, we specialize in project management (at least in theory). I'm a bit well-rounded: I've worn many hats, including designer, BA, QA, configurator, technical writer, proposal writer, etc., usually not always by choice cuz we had gaps in our resources, lol.   \n\nA good PM should have an open mind, ask questions (even dumb ones because I would rather that they understand and are clear so they don't misinform stakeholders), have a willingness to learn, and understand the nuances of the technology that they are working with. When it comes to delivery, PMs should be at the forefront; however, I've seen PMs who are weak and would rather be told what to do. Sometimes this may be the case in the beginning, but eventually they build muscle memory and establish a Way of Working (WoW) in the team. Some PMs are generally just not good, and they go through attrition. \n\nI believe that if a PM is working with technology, they should have an affinity for technical matters and good technical and business acumen and learn through osmosis learning. \n\nAt the end of the day, we are all a team and we work together; it's not a competition to see who can lead the project better. This is how destructive conflict ensues. EA should not be playing the role of delivery lead, as we all have roles to play. We have the PM for that or a team lead (but in my case, it's just me). EA can advise and consult with PM on what needs to go in, elaborate on the interdependencies, etc., and PM translates it into tangible artifacts that can be digested by stakeholders.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Steady_Ri0t",
+              "authorProfile": "https://www.reddit.com/user/Steady_Ri0t",
+              "commentId": "t1_na69tmu",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/na69tmu/",
+              "publishingDate": 1755911371.0,
+              "commentBody": "Well I think a lot of what you said points to why PMs need to have technical knowledge of the tools involved in the project. \"Understand the nuances of the technology\", \"they should have an affinity for technical matters and good technical and business acumen\", and \"translate things into tangible artifacts that can be digested\". \n\nDo you know the difference between a Flow and a Workflow? A report and a list view? A report and a dashboard? A record and an object? I often see little mixups happen from specifics like this in meetings. Someone from the Salesforce side will say something and the PM will write down what they think is a more clear way to word things to stakeholders. Or a stakeholder will say one thing and mean another, but the PM doesn't realize they're asking for something by the wrong name, which causes confusion down the road. Can it be ironed out easily? Yeah, sure. But if you had a Salesforce background, these mixups wouldn't happen. Time could be saved and reworks could be avoided. Stakeholders wouldn't feel like they're getting the wrong thing delivered and systems wouldn't be confused or annoyed. \n\nDo I expect a PM to know how to build automation or what the limitations are of multi select picklists? No. But I do expect that they understand what I'm talking about when I'm using a specific phrase, and I expect them to know when they can reword something VS when they need to use specific terminology to keep things clear.",
+              "upvotes": 2,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "Ice-Clean",
+                  "authorProfile": "https://www.reddit.com/user/Ice-Clean",
+                  "commentId": "t1_naypu9x",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/naypu9x/",
+                  "publishingDate": 1756308707.0,
+                  "commentBody": "u/Steady_Ri0t is correct here, and they're shining a bright light on why you're experiencing what you're experiencing.\n\nDisclaimer: I'm an SF arch and have been for a very long time. I've also ran a lot of SF projects that didn't have a PM and even some that did. I'm a mid-level PM at best in terms of managing action items and the typical PM reporting duties.\n\nCan a pure play PM be successful in the Salesforce world? Sure they can, as you saw in your #2 experience. \n\nWill having a pure play PM be seen as an asset to someone who is a SME and who the client will immediately look to for all of the answers when they realize that they have them? No, not really. You'll be relegated to setting up meetings, keeping track of action items, and handling the reports, and any other menial tasks the SME doesn't want to do.\n\nMost SMEs I've known are similar to me in that they would prefer to NOT run the project because they have enough on their plate and they are probably the one who requested the PM in the first place because they needed help. They just wanted one who knew something other than how to speak Agile/PMP.\n\nIf they're still running the project, then it's because they can't (or don't) trust you as PM enough to handle that. It's a lot easier to maintain control of a project than it is to give it up and need to wrestle it back because the PM just pissed off the client by showing they don't know anything about Salesforce at all.\n\nLook, you don't need to be a technical expert. But if you want to excel at being a \"Salesforce PM\" who wants to run Salesforce projects at the project, engagement, portfolio or higher level, then go get your Salesforce Admin Cert. That'll give you enough background to at least be present at the table and able to wrangle things properly. \n\nDon't think of it as trying to be a SME. You won't be with just an admin cert. Think of it as base-level domain knowledge that will help you have the vernacular / vocabulary able to talk the talk. \n\nBesides, a REALLY good Salesforce PM is practically a backup BA/QA, and while it's not their role, they'd have the ability to roll up their sleeves and help out during UAT, demos, story grooming, bug triage, etc.\n\nIt'll also help you personally because pure play PMs are the first people let go when times get tough. So know more.",
+                  "upvotes": 2,
+                  "dislikes": null,
+                  "downvotes": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "authorId": null,
+          "author": "Patrickm8888",
+          "authorProfile": "https://www.reddit.com/user/Patrickm8888",
+          "commentId": "t1_n9y470h",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9y470h/",
+          "publishingDate": 1755804362.0,
+          "commentBody": "I've never worked with a PM who did anything more than schedule meetings that could be emails or Slack messages, to ask questions that could easily be answered by reading the ticket, and to take credit for work that was done by the people OP is maligning.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Zealousideal-Ad-2473",
+              "authorProfile": "https://www.reddit.com/user/Zealousideal-Ad-2473",
+              "commentId": "t1_na4xj8z",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/na4xj8z/",
+              "publishingDate": 1755894720.0,
+              "commentBody": "I feel bad for that PM and for you having to experience a mindless PM.",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "alexrada",
+      "authorProfile": "https://www.reddit.com/user/alexrada",
+      "commentId": "t1_n9uqzi7",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9uqzi7/",
+      "publishingDate": 1755760525.0,
+      "commentBody": "it depends on the type of project/technology and also the experience of the architect, personality, etc\n\nIf you feel more like a PMO, then have a discussion with him and discuss a separation of concerns. Maybe is less work to do by you.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "doireallyneedonemore",
+      "authorProfile": "https://www.reddit.com/user/doireallyneedonemore",
+      "commentId": "t1_n9zr3ja",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9zr3ja/",
+      "publishingDate": 1755823364.0,
+      "commentBody": "Okay, anyone interested in a Salesforce PM Role, message me. It is a full time role on a complex program.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Real_Calligrapher360",
+      "authorProfile": "https://www.reddit.com/user/Real_Calligrapher360",
+      "commentId": "t1_najywb9",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/najywb9/",
+      "publishingDate": 1756113352.0,
+      "commentBody": "Salesforce people are pretty T-shaped professionals. The traditional roles are overlapping in Salesforce and Architect is not only a tech guy, but also needs to have strong business knowledge.\nEA is also a manager, so running planning, resource allocations, expectation management, risk management, delivery or stakeholder management is pretty in scope. I can even say that these are essential for success as an architect in Salesforce.\n\nUltimately, the most senior architects hold the power of making decisions.\n\nWhether an architect is good at those is a different story.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Kitchen_Ad_605",
+      "authorProfile": "https://www.reddit.com/user/Kitchen_Ad_605",
+      "commentId": "t1_n9ucs74",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9ucs74/",
+      "publishingDate": 1755752841.0,
+      "commentBody": "Damn I hated being a SF pm it was the same shit everyday. Standup, status reports, budget updates, follow ups X 1000",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "dumbkent1337",
+          "authorProfile": "https://www.reddit.com/user/dumbkent1337",
+          "commentId": "t1_n9uk4wf",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9uk4wf/",
+          "publishingDate": 1755756641.0,
+          "commentBody": "This. PMs are just glorified coordinators for many of our engineering teams. It's a really limited career track within the Salesforce world unless you dive deeper but many don't.",
+          "upvotes": 8,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Zealousideal-Ad-2473",
+              "authorProfile": "https://www.reddit.com/user/Zealousideal-Ad-2473",
+              "commentId": "t1_n9wzym9",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9wzym9/",
+              "publishingDate": 1755792882.0,
+              "commentBody": "So I should get out of the game? I was originally planning to go into cloud engineering (had a whole action plan) before I got poached by this SI.",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            },
+            {
+              "authorId": null,
+              "author": "Kitchen_Ad_605",
+              "authorProfile": "https://www.reddit.com/user/Kitchen_Ad_605",
+              "commentId": "t1_n9umee3",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9umee3/",
+              "publishingDate": 1755757901.0,
+              "commentBody": "Agreed that’s why I pivoted to an entrepreneur 😂",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Patrickm8888",
+      "authorProfile": "https://www.reddit.com/user/Patrickm8888",
+      "commentId": "t1_n9vnpgw",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9vnpgw/",
+      "publishingDate": 1755777735.0,
+      "commentBody": "&gt;I'm a PM with over 15 years in the trenches\n\nLol",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Zealousideal-Ad-2473",
+          "authorProfile": "https://www.reddit.com/user/Zealousideal-Ad-2473",
+          "commentId": "t1_n9wupa0",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mw06fx/pms_on_complex_salesforce_projects_is_it_common/n9wupa0/",
+          "publishingDate": 1755791369.0,
+          "commentBody": ":D",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    }
+  ]
+}

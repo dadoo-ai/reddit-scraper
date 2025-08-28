@@ -1,48 +1,163 @@
-from scrap.reddit_subreddits import scrape_subreddit
-from scrap.reddit_post import scrape_post
+from __future__ import annotations
 import json
 import asyncio
+import os
+from typing import List, Literal, Dict
+from scrap.user_profile import RedditUserScraper
+from scrap.reddit_subreddits import scrape_subreddit
+from scrap.reddit_post import scrape_post
+from scrap.user_extractor import RedditUserExtractor
+from loguru import logger as log
 from analyze.run import run_pipeline
 
 
-# liste des subreddits
-async def list_posts():
-    data = await scrape_subreddit(subreddit_id="salesforce", sort="new", max_pages=2)
-    with open("results/subreddit_posts.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-
-
-async def search_posts(theme: str, filter:str):
+async def search_posts(theme: str, filter: str, max_posts: int = 10):
     data = await scrape_subreddit(
-        subreddit_id=theme, sort="new", query=filter, max_pages=2
+        subreddit_id=theme, sort="", query=filter, max_posts=max_posts
     )
-    with open("results/subreddit_search.json", "w", encoding="utf-8") as f:
+    with open("results/posts/post_search.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-async def list_post_comments(url: str):
+async def list_post_comments_from_url(url: str):
     post_data = await scrape_post(url=url, sort="")
     with open("results/post_comments.json", "w", encoding="utf-8") as file:
         json.dump(post_data, file, indent=2, ensure_ascii=False)
 
 
+async def list_post_comments_from_file(path_file: str, limit: int = 5):
+    with open(path_file, "r", encoding="utf-8") as file:
+        data = json.load(file)
+        urls: List[str] = []
+        tasks: List[asyncio.Task] = []
+        count: int = 0
+        for post in data["posts"]:
+            if post["link"] not in urls:
+                urls.append(post["link"])
+                tasks.append(
+                    asyncio.create_task(scrape_post(url=post["link"], sort="", require_comments=True))
+                )
+        comments = await asyncio.gather(*tasks[:limit])
+
+    for comment in comments:
+        count += 1
+        with open(
+            f"results/comments/post_{count}_comments.json", "w", encoding="utf-8"
+        ) as file:
+            json.dump(comment, file, indent=2, ensure_ascii=False)
+
+
+def scrap_user_from_post(
+    folder_path: str,
+    output_format: Literal["csv", "json"],
+    output_dir: str = "results/users",
+):
+    """
+    Extrait les utilisateurs des posts dans le dossier et les sauvegarde dans le dossier output_dir
+    """
+    file_name = folder_path.split("/")[-1]
+    extractor = RedditUserExtractor()
+    files = os.listdir(folder_path)
+
+    for file in files[:3]:
+        if file.endswith(".json"):
+            continue
+        file_path = os.path.join(folder_path, file)
+        with open(file_path, "r", encoding="utf-8") as f:
+            raw = json.load(f)
+        extractor.ingest_json(raw)
+
+    if output_format == "csv":
+        output = extractor.to_csv(f"{output_dir}/{file_name}_users.csv")
+    elif output_format == "json":
+        output = extractor.to_json(f"{output_dir}/{file_name}_users.json")
+
+    print("Extraction terminée :", extractor.to_dataframe().shape[0], "utilisateurs")
+    return output
+
+
+async def scrap_user_profile_from_json_file(
+    file_path: str,
+    output_format: Literal["csv", "json"] = "json",
+    output_dir: str = "results/users",
+    max_pages: int = 3,
+):
+    """
+    1) Extraire les authorProfile depuis un JSON.
+    2) Scraper en parallèle comments + submitted pour chaque profil.
+    3) Exporter les résultats par auteur dans <output_dir>/<author>_post_comments.(json|csv).
+    """
+
+    scraper = RedditUserScraper(
+        output_format=output_format, output_dir=output_dir, concurrency=6
+    )
+
+    # lance le scraping + export
+    export_paths = await scraper.export_from_json(file_path, max_pages=max_pages)
+
+    await scraper.aclose()
+
+    log.success(
+        f"Export terminé : {len(export_paths)} fichiers générés dans {output_dir}"
+    )
+    return export_paths
+
+
+def analyze_posts_by_users(
+    model: str, input_dir: str, output_dir: str, max_workers: int = 1, limit: int = 1
+):
+    filenames: List[str] = [
+        file for file in os.listdir(input_dir) if file.endswith(".json")
+    ]
+    for file in filenames[75:limit]:
+        input_json_path = os.path.join(input_dir, file)
+
+        print(f"Processing file: {input_json_path}")
+        with open(input_json_path, "r", encoding="utf-8") as f:
+            output_csv_path = os.path.join(
+                output_dir, file.split(".")[0] + "_analyze.csv"
+            )
+
+            run_pipeline(
+                input_json_path=input_json_path,
+                output_users_csv=output_csv_path,
+                model=model,
+                max_workers=max_workers
+            )
+
+        # Exécuter le pipeline d'analyse qui génère automatiquement le CSV
+        # run_pipeline(input_json_path, output_csv_path, model)
+        print(f"Résultats sauvegardés dans: {output_csv_path}")
+
+
 if __name__ == "__main__":
     theme: str = "salesforce"
     filter: str = "agentforce"
-
-    url = "https://www.reddit.com/r/salesforce/comments/1mo8oni/how_effective_is_salesforce_agentforce_for/"
     model = "gpt-4.1"
 
     # permet de scrappper tous les subreddits du theme avec le filtre
-    # asyncio.run(search_posts(theme, filter)) 
+    # asyncio.run(search_posts(theme, filter, max_posts=100))
 
-    # permet de scrappper tous les commentaires d'un post a partir de son url
-    # asyncio.run(list_post_comments(url))
-    
+    # permet de scrappper tous les commentaires d'un post a partir de la liste des posts dans le fichier results/posts/post_search.json
+    # asyncio.run(list_post_comments_from_file(path_file="results/posts/post_search.json", limit=100))
+
+    # extraction des users des posts 
+    # scrap_user_from_post(folder_path="results/comments", output_format="json")
+
+    # extraction des posts et comments d'un utilisateur
+    # scrap_user_profile_from_json_file(file_path="results/comments/post_5_comments.json", output_format="json")
+    # asyncio.run(scrap_user_profile_from_json_file(
+    #     "results/users/post_0_comments_users.json",
+    #     output_format="csv",
+    #     output_dir="results/users",
+    #     max_pages=2
+    # ))
+
     # pipeline permettant d'analyser les commentaires d'un post
-    # run_pipeline(
-    #     input_json_path="results/post_comments.json",
-    #     output_users_csv="results/users_agentforce.csv",
-    #     model=model,
-    #     max_workers=1
-    # )
+    analyze_posts_by_users(
+        model,
+        input_dir="results/comments",
+        output_dir="results/analyze/posts",
+        max_workers=6,
+        limit=100,
+    )

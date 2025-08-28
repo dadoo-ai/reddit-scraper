@@ -1,0 +1,250 @@
+{
+  "info": {
+    "authorId": "t2_8u1sgxzx",
+    "author": "Puzzleheaded-Ad9121",
+    "authorProfile": "https://www.reddit.com/user/Puzzleheaded-Ad9121",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mxabed",
+    "postLabel": null,
+    "publishingDate": "2025-08-22T15:55:23+00:00",
+    "postTitle": "Cant decide between udemy salesforce admin course withe francis pindar and mike wheeler",
+    "postMessage": "SO I plan to take exam in 2 months or 8 weeks and now Im decide which udemy course to do. Mike wheelers course has 165k students and a 4.6 rating but its 40 hours long. Francis Pindars course has 96k students and a  4.6 rating but its 22 hours long. Don't want to do shortcuts but 40 hour course is long but still doable of course but im thinking if i do the shorter course, I may have more time to take exams and do practice trailhead. But if im missing out with mike wheelers course than maybe I shouldn't skip it. Need help deciding.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/",
+    "commentCount": 18,
+    "upvoteCount": 1,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "AccountNumeroThree",
+      "authorProfile": "https://www.reddit.com/user/AccountNumeroThree",
+      "commentId": "t1_na4h8en",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na4h8en/",
+      "publishingDate": 1755889867.0,
+      "commentBody": "Don’t give Mike anymore money or attention. Look at Dave Massey’s GetForceCertified content.",
+      "upvotes": 7,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "E_boiii",
+          "authorProfile": "https://www.reddit.com/user/E_boiii",
+          "commentId": "t1_na70odt",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na70odt/",
+          "publishingDate": 1755922372.0,
+          "commentBody": "+1 here David cuts out the bs and goes over testable material took his course around 3-4 years ago",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "oneWeek2024",
+      "authorProfile": "https://www.reddit.com/user/oneWeek2024",
+      "commentId": "t1_na3ukll",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na3ukll/",
+      "publishingDate": 1755883125.0,
+      "commentBody": "imho  the courses are largely worthless.       they mainly teach baseline user interface and features.   not prep for the exams.\n\nit's also almost a given that even the 40hr course won't have the detail/granular info that the exam is going to test on.     the format of the cert exam is  multi-choice gotcha questions and spot feature answers.      ---where \"easy\" gimme questions will be straight up yes/no feature elements   ie... if a concept has a specific limitation  that will be a very black/white answer.    but then there will be very nebulous  scenario questions  and often the test format is.  pick 3 of 5  of these responses that are things this feature does.        none of which is really covered in any of these courses  to the degree that it truly prepares you for the exam.\n\nso... for the \"learning\" salesforce part.   do the trailheads.   for exam prep.  buy practice tests.   drill those.  memorize terminology (this helps with the black/white questions)    like... you need to know the definition/use case of the field relationships .   the security structure.  the meaning of the bullshit terms like  \"record type\"\n\nin the courses they're going to show you what a record type is,  how to access it via the setup menu/loosely configure it.       and little else.    when you get to the cert exam  it's going to be  \"which of these 5 options is not a default field on a standard record type\"\n\nimho.  do the trailheads for the functional exposure to the software     ...and study practice tests/dumps to prepare for the exam.\n\nthe salesforce exam.  and using salesforce as a software are utterly not connected.\n\nspend money on the focus on force practice exam pack.  drill that.    after you have a baseline comfort/have done the trailhead admin mix.   and or have general exp in salesforce (or sandbox configuring stuff)   ---ie spend your money actually prepping for the exam.   not paying for a slightly more indepth  trailhead.",
+      "upvotes": 6,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Puzzleheaded-Ad9121",
+          "authorProfile": "https://www.reddit.com/user/Puzzleheaded-Ad9121",
+          "commentId": "t1_na9ia4x",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na9ia4x/",
+          "publishingDate": 1755964096.0,
+          "commentBody": "Is there a order which I need to do the trailheads in? I want to cover all exam trailheads in the right order",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Bnuck8709",
+      "authorProfile": "https://www.reddit.com/user/Bnuck8709",
+      "commentId": "t1_na9hu3v",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na9hu3v/",
+      "publishingDate": 1755963956.0,
+      "commentBody": "I did the Mike Wheeler course in 2020 and it was so slow and boring that I literally fell asleep sometimes! I was doing it in the evenings after work, but still it was a waste of money on top of other issues from him recently. \n\nI recommend focus on force for learning and awesome practice tests.",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Puzzleheaded-Ad9121",
+          "authorProfile": "https://www.reddit.com/user/Puzzleheaded-Ad9121",
+          "commentId": "t1_na9imtd",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na9imtd/",
+          "publishingDate": 1755964208.0,
+          "commentBody": "Yeh I did 10 hours but I took so many pauses because it just feels so boring which makes me sleepier",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "salesforce_trainer",
+      "authorProfile": "https://www.reddit.com/user/salesforce_trainer",
+      "commentId": "t1_na3fu1t",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na3fu1t/",
+      "publishingDate": 1755878718.0,
+      "commentBody": "It depends a bit on the style you like, they both over all key learnings. It’s more important to check for latest updates. Some key things have changed over the last 6-9 months - so if one course is last updated year ago and one more recent. That’s a choice to make.\n\nI would say try to watch a short free clip to see which person you like",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "tagicledger",
+      "authorProfile": "https://www.reddit.com/user/tagicledger",
+      "commentId": "t1_na3h5bg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na3h5bg/",
+      "publishingDate": 1755879115.0,
+      "commentBody": "Just get both",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Puzzleheaded-Ad9121",
+          "authorProfile": "https://www.reddit.com/user/Puzzleheaded-Ad9121",
+          "commentId": "t1_na3hrrt",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na3hrrt/",
+          "publishingDate": 1755879303.0,
+          "commentBody": "I have both but cant decide which one to commit too",
+          "upvotes": 0,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Acceptable-Body3180",
+      "authorProfile": "https://www.reddit.com/user/Acceptable-Body3180",
+      "commentId": "t1_na3qnpg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na3qnpg/",
+      "publishingDate": 1755881955.0,
+      "commentBody": "Use Shrey Sharma's free course.  It's the best of any of them. I don't think I would have passed without him. I sent him a thank you on LinkedIn after I passed.\n\nI also used Focus on Force and Trailhead. His is better.\n\nhttps://s2-labs.com/free-salesforce-administrator-tutorials/",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "KingB408",
+      "authorProfile": "https://www.reddit.com/user/KingB408",
+      "commentId": "t1_na4pgye",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na4pgye/",
+      "publishingDate": 1755892310.0,
+      "commentBody": "I recently completed a 20 hour Agentforce course on Udemy and walked away wondering if I learned anything. \n\nThat said, I just completed the AgentBlazer Champion course, which was much more hands on (even though the course had exercises as well), it seemed pretty simple, and I think I have the course to thank. Everything was familiar.\n\nMoral of the story? Use multiple methods/mediums.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "v1c182",
+      "authorProfile": "https://www.reddit.com/user/v1c182",
+      "commentId": "t1_na4ruj7",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na4ruj7/",
+      "publishingDate": 1755893019.0,
+      "commentBody": "Pindars",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "HandyStan",
+      "authorProfile": "https://www.reddit.com/user/HandyStan",
+      "commentId": "t1_na6n1hu",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na6n1hu/",
+      "publishingDate": 1755916458.0,
+      "commentBody": "My employer purchased me Mike wheelers randomly and I used it prior to writing my admin exam. \n\nIt was okay, listen to it at 1.5 speed lol. I find he didn't go into the specifics that will actually challenge you on the exam. Like he barely talks flow and the exam felt like 59% flow.  By the end I wish I spent more time doing FoF practice exams. That's where I learned the most.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "sdry__",
+      "authorProfile": "https://www.reddit.com/user/sdry__",
+      "commentId": "t1_na83xm9",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na83xm9/",
+      "publishingDate": 1755944603.0,
+      "commentBody": "Just know that trailhead is for introduction and not well suited for certification preparation. It is too time consuming and not detailed enough. You’re better off going through the documentation and implementation guides.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Puzzleheaded-Ad9121",
+          "authorProfile": "https://www.reddit.com/user/Puzzleheaded-Ad9121",
+          "commentId": "t1_na9iigh",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na9iigh/",
+          "publishingDate": 1755964170.0,
+          "commentBody": "Any recommendations for documentation?",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "sdry__",
+              "authorProfile": "https://www.reddit.com/user/sdry__",
+              "commentId": "t1_na9nkpf",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/na9nkpf/",
+              "publishingDate": 1755965774.0,
+              "commentBody": "The salesforce documentation of the product you want to get certified on … learn it by head.",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "yohosse",
+      "authorProfile": "https://www.reddit.com/user/yohosse",
+      "commentId": "t1_nac8st3",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/nac8st3/",
+      "publishingDate": 1755997376.0,
+      "commentBody": "Don't buy neither.\nGet on focusOnForce. ",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Severe-Milk-6728",
+          "authorProfile": "https://www.reddit.com/user/Severe-Milk-6728",
+          "commentId": "t1_nacdpnl",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxabed/cant_decide_between_udemy_salesforce_admin_course/nacdpnl/",
+          "publishingDate": 1755999334.0,
+          "commentBody": "So… buy both?",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    }
+  ]
+}

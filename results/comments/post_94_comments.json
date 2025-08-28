@@ -1,0 +1,70 @@
+{
+  "info": {
+    "authorId": "t2_42k65z05",
+    "author": "anonymouschile",
+    "authorProfile": "https://www.reddit.com/user/anonymouschile",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mrriy2",
+    "postLabel": null,
+    "publishingDate": "2025-08-16T10:36:08+00:00",
+    "postTitle": "Looking to upskill into Salesforce Administration. What’s your advice?",
+    "postMessage": "Hi! 👋 I’ve been lurking in this space and wanted some advice on how to get into Salesforce Administration. I am currently an Office Manager in the public sector where I process information on the database my company uses and raise purchase orders, manage the office and answer queries via email and liaise with stakeholders. It’s a care related database, nothing to do with salesforce. I’m looking to up-skill and increase my salary since I’m at risk of redundancy and wanted to know more about Salesforce Administration. What does your day to day look like? What advice would you recommend to get into it? Is there a qualification? If so, what’s the exam process like? All advice really appreciated, thanks in advance!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mrriy2/looking_to_upskill_into_salesforce_administration/",
+    "commentCount": 4,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Suspicious-Nerve-487",
+      "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+      "commentId": "t1_n8zskwm",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mrriy2/looking_to_upskill_into_salesforce_administration/n8zskwm/",
+      "publishingDate": 1755344988.0,
+      "commentBody": "If you’ve been lurking on this sub, there’s a 100% chance you’ve seen the other posts that pop up multiple times daily with this question, along with the sticky explicitly titled “getting started”",
+      "upvotes": 14,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "AccountNumeroThree",
+      "authorProfile": "https://www.reddit.com/user/AccountNumeroThree",
+      "commentId": "t1_n8zo6m7",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mrriy2/looking_to_upskill_into_salesforce_administration/n8zo6m7/",
+      "publishingDate": 1755342913.0,
+      "commentBody": "There are so many posts basically asking this same thing. Getting a Salesforce admin job with no background in the platform is difficult.",
+      "upvotes": 6,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "capngrandan",
+          "authorProfile": "https://www.reddit.com/user/capngrandan",
+          "commentId": "t1_n903o90",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mrriy2/looking_to_upskill_into_salesforce_administration/n903o90/",
+          "publishingDate": 1755349432.0,
+          "commentBody": "Especially in the current job market.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_n8zzpnk",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mrriy2/looking_to_upskill_into_salesforce_administration/n8zzpnk/",
+      "publishingDate": 1755347933.0,
+      "commentBody": "I wrote a post for exactly people like you - if you have not seen it yet look here: [https://www.reddit.com/r/salesforce/comments/1mgpwyi/my\\_guide\\_for\\_salesforce\\_beginners/](https://www.reddit.com/r/salesforce/comments/1mgpwyi/my_guide_for_salesforce_beginners/)",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

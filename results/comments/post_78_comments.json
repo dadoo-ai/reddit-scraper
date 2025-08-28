@@ -1,0 +1,44 @@
+{
+  "info": {
+    "authorId": "t2_1n32s106m6",
+    "author": "Born-Increase-6019",
+    "authorProfile": "https://www.reddit.com/user/Born-Increase-6019",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mwy2b3",
+    "postLabel": null,
+    "publishingDate": "2025-08-22T05:31:01+00:00",
+    "postTitle": "Help: Field Service",
+    "postMessage": "I would like to add a custom Gant icon apart from the managed field. I have created the necessary fields. How do I add it?. I couldn't find the option in Field Service admin settings.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mwy2b3/help_field_service/",
+    "commentCount": 2,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "hra_gleb",
+      "authorProfile": "https://www.reddit.com/user/hra_gleb",
+      "commentId": "t1_na1dlls",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mwy2b3/help_field_service/na1dlls/",
+      "publishingDate": 1755849466.0,
+      "commentBody": "I think the help article is pretty clear. Does you field work in the first place, i.e. do you see the icon on Service Appointment? AFAIK Gantt Icon and Gantt Color logic is built-in, as long as the fields are set up correctly, they are used.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Glock17",
+      "authorProfile": "https://www.reddit.com/user/Glock17",
+      "commentId": "t1_na4aino",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mwy2b3/help_field_service/na4aino/",
+      "publishingDate": 1755887895.0,
+      "commentBody": "Not sure what you’re trying to do from your comment, but if you’re just trying to add fields - a lot of what you see on the Gantt component is controlled by field sets on the service appointment object",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

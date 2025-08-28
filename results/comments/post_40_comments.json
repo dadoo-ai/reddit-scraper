@@ -1,0 +1,108 @@
+{
+  "info": {
+    "authorId": "t2_4pimg9zkg",
+    "author": "Gullible_Strain8331",
+    "authorProfile": "https://www.reddit.com/user/Gullible_Strain8331",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mvioyd",
+    "postLabel": null,
+    "publishingDate": "2025-08-20T15:54:23+00:00",
+    "postTitle": "Looking for feedback on a SF app (AI Salesforce Admin)",
+    "postMessage": "I’ve been working with Salesforce for awhile and noticed how much time/admin cost goes into configuration tasks (dashboards, workflows, migrations, etc.). I’m exploring an idea to automate parts of this process using AI by having users describe what they want in plain English, and having the system configure it in Salesforce. Before I build anything serious, I’d love to hear directly from people here: • Which admin/config tasks are the most repetitive/painful in your day-to-day?\n\n• Are there tasks you think could never be automated? Open to any feedback at all including hearing “this is a terrible idea and here’s why.” 🙏 If you really like the idea I’ll leave the landing page below so people can join the interest list. Would love to talk more and start building with some early users. Thanks in advance!!! https://getadmin.io",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mvioyd/looking_for_feedback_on_a_sf_app_ai_salesforce/",
+    "commentCount": 7,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Kitchen_Ad_605",
+      "authorProfile": "https://www.reddit.com/user/Kitchen_Ad_605",
+      "commentId": "t1_n9t9gce",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mvioyd/looking_for_feedback_on_a_sf_app_ai_salesforce/n9t9gce/",
+      "publishingDate": 1755737333.0,
+      "commentBody": "Someone is already doing this. Called ressl.ai",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Gullible_Strain8331",
+          "authorProfile": "https://www.reddit.com/user/Gullible_Strain8331",
+          "commentId": "t1_n9tc33x",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mvioyd/looking_for_feedback_on_a_sf_app_ai_salesforce/n9tc33x/",
+          "publishingDate": 1755738250.0,
+          "commentBody": "Thank you! I’ll look into them. Have you used their product before?",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Kitchen_Ad_605",
+      "authorProfile": "https://www.reddit.com/user/Kitchen_Ad_605",
+      "commentId": "t1_n9tdnmj",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mvioyd/looking_for_feedback_on_a_sf_app_ai_salesforce/n9tdnmj/",
+      "publishingDate": 1755738797.0,
+      "commentBody": "I have not. Would love to chat offline of Reddit sometime though.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Gullible_Strain8331",
+          "authorProfile": "https://www.reddit.com/user/Gullible_Strain8331",
+          "commentId": "t1_n9tgke0",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mvioyd/looking_for_feedback_on_a_sf_app_ai_salesforce/n9tgke0/",
+          "publishingDate": 1755739801.0,
+          "commentBody": "Sure love to as well! I’ll DM you",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "arooshig",
+      "authorProfile": "https://www.reddit.com/user/arooshig",
+      "commentId": "t1_na1a73u",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mvioyd/looking_for_feedback_on_a_sf_app_ai_salesforce/na1a73u/",
+      "publishingDate": 1755847471.0,
+      "commentBody": "We do this too - happy to chat!",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "EnnWhyCee",
+      "authorProfile": "https://www.reddit.com/user/EnnWhyCee",
+      "commentId": "t1_naaocum",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mvioyd/looking_for_feedback_on_a_sf_app_ai_salesforce/naaocum/",
+      "publishingDate": 1755977377.0,
+      "commentBody": "Have seen lots of these already",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "GriffinNowak",
+      "authorProfile": "https://www.reddit.com/user/GriffinNowak",
+      "commentId": "t1_naeruub",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mvioyd/looking_for_feedback_on_a_sf_app_ai_salesforce/naeruub/",
+      "publishingDate": 1756042254.0,
+      "commentBody": "“$5,000+ per custom report” yeah you’re off your rocker buddy. Also there’s a YouTube video on how to do this with cursor. Is this product somehow different than that YouTube video?",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "info": {
+    "authorId": "t2_4gmjf676",
+    "author": "_talals_",
+    "authorProfile": "https://www.reddit.com/user/_talals_",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mxy02u",
+    "postLabel": null,
+    "publishingDate": "2025-08-23T10:34:18+00:00",
+    "postTitle": "Did I make the right choice ?",
+    "postMessage": "I graduated CS in Nov 2024 with 3.8 GPA and have been working in Salesforce ever since. I wanted to know if y’all had multiple thoughts about continuing in Salesforce or switching to fullstack / full development. I am pretty good at Salesforce and can handle everything from config to dev by my own and work on multiple projects simultaneously, but I always keep overthinking that the longer I stay the longer it will be hard to switch to other fields like AI/ML eng as I’ll have to start again. However I also know many fullstack developers who switched to Salesforce after a few years in their field. So I am stuck and don’t really know what to do and what’s the best option.\n( also I get paid $800 a month which is very low for me but is considered average in my country, so I was thinking of relocating somewhere my skills will be appreciated)",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/",
+    "commentCount": 21,
+    "upvoteCount": 4,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "jcarmona86",
+      "authorProfile": "https://www.reddit.com/user/jcarmona86",
+      "commentId": "t1_na87e0k",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/na87e0k/",
+      "publishingDate": 1755946489.0,
+      "commentBody": "Hey there! I understand your concerns about getting stuck in Salesforce. However, it’s not a dead end. Your skills are transferable to any tech field, and Salesforce is constantly evolving, offering growth opportunities.\n\nIf you’re passionate about AI/ML engineering, explore that path. But your Salesforce experience will give you a head start. Keep crushing it in Salesforce and learning new things. Take on challenging projects and consider taking a machine learning course.\n\nRegarding pay, $800 a month is challenging given your skills. Have you thought about remote work? With your skills, you could potentially land a remote Salesforce gig with better pay without relocating.\n\nYour Salesforce skills are valuable and will only grow with time. But don’t limit yourself to one interest. Trust your instincts, keep learning, and advocate for your worth.\n\nYou’ve got this! If you want to chat more about Salesforce career stuff, reach out.",
+      "upvotes": 7,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "_talals_",
+          "authorProfile": "https://www.reddit.com/user/_talals_",
+          "commentId": "t1_na8bl2b",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/na8bl2b/",
+          "publishingDate": 1755948596.0,
+          "commentBody": "Hey thanks. Check your PM",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": null,
+          "author": "SignificantInsect305",
+          "authorProfile": "https://www.reddit.com/user/SignificantInsect305",
+          "commentId": "t1_na8jeqo",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/na8jeqo/",
+          "publishingDate": 1755952024.0,
+          "commentBody": "I am looking for a start in Salesforce. Can we connect",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Leroy-McGillicuddy",
+      "authorProfile": "https://www.reddit.com/user/Leroy-McGillicuddy",
+      "commentId": "t1_naa0il2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/naa0il2/",
+      "publishingDate": 1755969866.0,
+      "commentBody": "The truth of the matter is that the job market for developers and IT consultants is constantly changing. I switched to Salesforce development work about ten years ago and had a good run. (In the US, by the way.) But currently the market for Salesforce dev work in the US is absolutely terrible. My suggestion is to take a look at other platforms and technologies and think about what will be a good match for your skill set and demand over the next ten years. Keep your current job but figure out what technology you want to jump to next and start preparing and moving toward your next career goal. Also, don't limit your thinking to technology careers, and stay open to all kinds of opportunities and entrepreneurial possibilities. Wishing you the best of luck!",
+      "upvotes": 6,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "_talals_",
+          "authorProfile": "https://www.reddit.com/user/_talals_",
+          "commentId": "t1_naa7ipc",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/naa7ipc/",
+          "publishingDate": 1755971999.0,
+          "commentBody": "Gotcha. Thanks a lot.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Realistic_Hornet_125",
+      "authorProfile": "https://www.reddit.com/user/Realistic_Hornet_125",
+      "commentId": "t1_na9bk31",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/na9bk31/",
+      "publishingDate": 1755961956.0,
+      "commentBody": "I'm a Salesforce developer with 4 years of experience. If you're interested in Salesforce, it offers high packages and strong career growth, especially if you understand how valuable Salesforce is as one of the best CRMs out there. However, if you truly want to move into AI or full-stack development and you're confident in your skills, I’d suggest learning and mastering those areas. Until you land a full-stack role, you can continue working in Salesforce to gain experience and maintain income.",
+      "upvotes": 4,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "_talals_",
+          "authorProfile": "https://www.reddit.com/user/_talals_",
+          "commentId": "t1_na9zm1a",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/na9zm1a/",
+          "publishingDate": 1755969586.0,
+          "commentBody": "Thanks. I don’t hate Salesforce infact I am enjoying it as I’ve gotten so much better in it. I think I should switch to remote roles or relocate to the US for Salesforce jobs that will pay me better. if you know any companies hiring remote workers, feel free to let me know",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_na85vxi",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/na85vxi/",
+      "publishingDate": 1755945691.0,
+      "commentBody": "Where are you located?",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "_talals_",
+          "authorProfile": "https://www.reddit.com/user/_talals_",
+          "commentId": "t1_na8bcnw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/na8bcnw/",
+          "publishingDate": 1755948483.0,
+          "commentBody": "Mauritius",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Interesting_Button60",
+              "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+              "commentId": "t1_na8lmcf",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/na8lmcf/",
+              "publishingDate": 1755952903.0,
+              "commentBody": "wow that's awesome! I really don't have any knowledge and the ecosystem there or industry limits or potential moves to leave the country for work. \n\n  \nBut Salesforce is not a dead end. If you want to build additional skills for dev on the side I encourage you. That salary does sound a bit low but I know nothing about your countries economic situation. \n\n  \nThe important thing is you have employment :) fresh out of school. If you stay on this sub a bit you will see that there is a lot of people wanting to be where you're at. So don't look back, look forward and keep learning :)",
+              "upvotes": 3,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "_talals_",
+                  "authorProfile": "https://www.reddit.com/user/_talals_",
+                  "commentId": "t1_na9yzwq",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/na9yzwq/",
+                  "publishingDate": 1755969396.0,
+                  "commentBody": "Hey thanks I appreciate it. It’s a small island so not many businesses adopt Salesforce here. That’s why the salary is low. But I’ve learnt so much in Salesforce in a short amount of time that it’s making me doubtful to switch fields. But I’d def be open to continue in Salesforce if I get better salaries and opportunities",
+                  "upvotes": 1,
+                  "dislikes": null,
+                  "downvotes": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Exciting-Weekend-671",
+      "authorProfile": "https://www.reddit.com/user/Exciting-Weekend-671",
+      "commentId": "t1_na9cybq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/na9cybq/",
+      "publishingDate": 1755962405.0,
+      "commentBody": "This is a sales force community, so most of your reviews would be biased",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "_talals_",
+          "authorProfile": "https://www.reddit.com/user/_talals_",
+          "commentId": "t1_na9zrui",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/na9zrui/",
+          "publishingDate": 1755969636.0,
+          "commentBody": "Haha that’s true. But I think many freshers can also relate to this post",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Jamm-Rek",
+      "authorProfile": "https://www.reddit.com/user/Jamm-Rek",
+      "commentId": "t1_naa40dn",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/naa40dn/",
+      "publishingDate": 1755970946.0,
+      "commentBody": "If I were you, I would expand to cover other CRMs especially Zoho which is huge in the global south.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Jamm-Rek",
+      "authorProfile": "https://www.reddit.com/user/Jamm-Rek",
+      "commentId": "t1_na87d98",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/na87d98/",
+      "publishingDate": 1755946478.0,
+      "commentBody": "I was in a similar situation where I was wondering if I made the right choice. I went so far as to acquire an entirely new skill. I completely changed my resume and LinkedIn profile and applied for jobs exclusively in my new field. Tried my hardest to move on from Salesforce. But as chance would have it there was actually a high demand for my new skills within Salesforce. So I merged the two and now that’s my specialty.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Sullen_And_Sordid",
+          "authorProfile": "https://www.reddit.com/user/Sullen_And_Sordid",
+          "commentId": "t1_na8899t",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/na8899t/",
+          "publishingDate": 1755946945.0,
+          "commentBody": "what's the new skill you learned?",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Jamm-Rek",
+              "authorProfile": "https://www.reddit.com/user/Jamm-Rek",
+              "commentId": "t1_naa3fno",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/naa3fno/",
+              "publishingDate": 1755970773.0,
+              "commentBody": "Cyber risk and compliance",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        },
+        {
+          "authorId": null,
+          "author": "_talals_",
+          "authorProfile": "https://www.reddit.com/user/_talals_",
+          "commentId": "t1_naa06yw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/naa06yw/",
+          "publishingDate": 1755969765.0,
+          "commentBody": "That’s nice. Can you elaborate about the new skill",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Jamm-Rek",
+              "authorProfile": "https://www.reddit.com/user/Jamm-Rek",
+              "commentId": "t1_naa3kpu",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/naa3kpu/",
+              "publishingDate": 1755970816.0,
+              "commentBody": "Cyber risk and compliance",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "elideli",
+      "authorProfile": "https://www.reddit.com/user/elideli",
+      "commentId": "t1_na8w207",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/na8w207/",
+      "publishingDate": 1755956767.0,
+      "commentBody": "Salesforce is a shitty ecosystem. I also don’t understand where this company is heading. The time of capitalizing on hype to drive growth in a low interest environment is over. They are putting all their eggs in AgentForce and I doubt they will gain any traction. They simply suck at innovating and all the past growth was through acquisitions. Look at what they have done to Slack, Mulesoft, Tableau etc. And all the the good paying jobs are now shipped offshore.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Automatic_Carry4979",
+          "authorProfile": "https://www.reddit.com/user/Automatic_Carry4979",
+          "commentId": "t1_naa1su3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxy02u/did_i_make_the_right_choice/naa1su3/",
+          "publishingDate": 1755970270.0,
+          "commentBody": "I agree. The ecosystem is changing a lot and not in good way!",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    }
+  ]
+}

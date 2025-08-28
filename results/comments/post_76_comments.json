@@ -1,0 +1,84 @@
+{
+  "info": {
+    "authorId": "t2_nrropiyj",
+    "author": "PineappleMangoIce",
+    "authorProfile": "https://www.reddit.com/user/PineappleMangoIce",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mtjk76",
+    "postLabel": null,
+    "publishingDate": "2025-08-18T11:38:29+00:00",
+    "postTitle": "Exam results? Pending score",
+    "postMessage": "Hello! I just completed my admin exam, upon submission a page flashed up saying ‘pass’ and listed percentages - I was excited so didn’t really read it but I’ve gone to see my certificate on the trailhead academy website and it is saying pending score. Now I’m questioning if I just saw a page that explains what you need to pass and got excited for no reason. Please can someone confirm their experience if it told them straight away if they passed or failed when they submitted the exam?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mtjk76/exam_results_pending_score/",
+    "commentCount": 5,
+    "upvoteCount": 4,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Waitin4Godot",
+      "authorProfile": "https://www.reddit.com/user/Waitin4Godot",
+      "commentId": "t1_n9byz36",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mtjk76/exam_results_pending_score/n9byz36/",
+      "publishingDate": 1755517170.0,
+      "commentBody": "It takes a bit for emails to go out and things to update... or used w/the old system.",
+      "upvotes": 5,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "jharkness09",
+      "authorProfile": "https://www.reddit.com/user/jharkness09",
+      "commentId": "t1_n9bzexq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mtjk76/exam_results_pending_score/n9bzexq/",
+      "publishingDate": 1755517362.0,
+      "commentBody": "Same thing. Took about an hour for the email to come and for status to flip to Passed. I’m going to guess the delay is due to review of the recordings to make sure nothing raises a flag. That’s just my guess but the delay is the new normal \n\nAnd congrats on passing the test!",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "PineappleMangoIce",
+          "authorProfile": "https://www.reddit.com/user/PineappleMangoIce",
+          "commentId": "t1_n9c0e1o",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mtjk76/exam_results_pending_score/n9c0e1o/",
+          "publishingDate": 1755517780.0,
+          "commentBody": "Thank you! It’s showing now as passed but on my profile it says “salesforce certified platform foundations” instead of admin, is yours the same?",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "jharkness09",
+              "authorProfile": "https://www.reddit.com/user/jharkness09",
+              "commentId": "t1_n9c0m9b",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mtjk76/exam_results_pending_score/n9c0m9b/",
+              "publishingDate": 1755517876.0,
+              "commentBody": "It looks like they’re changing the names again so not sure what the admin test is now called but if it’s on your profile you should be all set",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            },
+            {
+              "authorId": null,
+              "author": "Rajin1",
+              "authorProfile": "https://www.reddit.com/user/Rajin1",
+              "commentId": "t1_n9coxcn",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mtjk76/exam_results_pending_score/n9coxcn/",
+              "publishingDate": 1755526470.0,
+              "commentBody": "Foundations is the base (associate) level -- are you sure you registered for the correct exam? If you did register for the platform administrator exam, open a case with Salesforce.",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "info": {
+    "authorId": "t2_77laj",
+    "author": "zinczinczinc",
+    "authorProfile": "https://www.reddit.com/user/zinczinczinc",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mrrp1h",
+    "postLabel": null,
+    "publishingDate": "2025-08-16T10:45:03+00:00",
+    "postTitle": "Preventing scope creep",
+    "postMessage": "This recent (hilarious) post https://www.reddit.com/r/salesforce/s/J687hX4Gfk made me wonder… What do you do to prevent scope creep during a project? Obviously the best answer is to not take on clients like that 😅 but for those of you who aren’t solo/don’t get to choose your clients… what are your strategies for minimizing scope creep and/or keeping your sanity? When I was a consultant I used the “spreadsheet of truth” that tracked requirements but that was like ten years ago and also it didn’t always work. What are yall doing instead?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mrrp1h/preventing_scope_creep/",
+    "commentCount": 7,
+    "upvoteCount": 10,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Sagemel",
+      "authorProfile": "https://www.reddit.com/user/Sagemel",
+      "commentId": "t1_n8zzy3i",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mrrp1h/preventing_scope_creep/n8zzy3i/",
+      "publishingDate": 1755348024.0,
+      "commentBody": "If you work for a consultancy you should have a dedicated Project Manager whose entire job is preventing scope creep.",
+      "upvotes": 15,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "slow_marathon",
+          "authorProfile": "https://www.reddit.com/user/slow_marathon",
+          "commentId": "t1_n94o3jb",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mrrp1h/preventing_scope_creep/n94o3jb/",
+          "publishingDate": 1755407234.0,
+          "commentBody": "If you work for a consultancy, you should have a dedicated Project Manager whose entire job is to work out what magnitude of change request we can submit and how we can use this as an excuse as to why the project is late\n\nFTFY.",
+          "upvotes": 6,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_n900ugw",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mrrp1h/preventing_scope_creep/n900ugw/",
+      "publishingDate": 1755348374.0,
+      "commentBody": "You did say what happens after it is signed if you have no control so I will tackle that first.\n\nIf you are the lead consultant on a project, or have a weak project manager, then you need to compartmentalize everything. Phasing is key.\n\nIn the initial phase of the engagement work as hard as you can to have mutual agreement on what is IN SCOPE. In even more depth than the statement of work that was signed.\n\nWhen they try to go outside of it, refer back to the agreement.\n\nIf the client is still pushing past those boundaries then there is not much else you can do but charge them more and delay the project.\n\nBUT the reality is that this is all controlled by a clear SOW - without that it's never going to be easy.\n\nIf you are able to affect the signing, then do this: every engagement I sign has a page dedicated to this - see the exact verbiage below.  \n\n\nhttps://preview.redd.it/8ih40qx3ndjf1.png?width=538&amp;format=png&amp;auto=webp&amp;s=3f2ef1073fb83b8f2613a2cd4cfa189f4187cddb\n\nThe funny part? In 5 years I have never had to rely on this to push a client into being fair.\n\nI only work with people I know are going to be good partners.\n\nIt's not easy, it means you need to say no sometimes - but the reality is it's better for their success.\n\nGreat topic :)",
+      "upvotes": 4,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "linguist_turned_SAHM",
+      "authorProfile": "https://www.reddit.com/user/linguist_turned_SAHM",
+      "commentId": "t1_n94a1dr",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mrrp1h/preventing_scope_creep/n94a1dr/",
+      "publishingDate": 1755401017.0,
+      "commentBody": "If it’s not in the contract, it doesn’t get done. Oh? You need us to build out all of your annual reports in the system for you since you’re switching to Salesforce and won’t have your old (shitty) reporting process? Great idea. Love it. Put it in the backlog and let’s talk about it in the next contract phase. It’s not in this one. Document EVERYTHING. Record ALL discovery. Send post meeting calls and weekly updates. I work in a very controlled sector anyway. But CYA all day long.",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "semicolonshitter",
+      "authorProfile": "https://www.reddit.com/user/semicolonshitter",
+      "commentId": "t1_n99ox4k",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mrrp1h/preventing_scope_creep/n99ox4k/",
+      "publishingDate": 1755476945.0,
+      "commentBody": "I learned very early never to do “fixed fee” projects. If the work is all hourly, no such thing as scope creep.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "00110001-00110001",
+      "authorProfile": "https://www.reddit.com/user/00110001-00110001",
+      "commentId": "t1_n9btu32",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mrrp1h/preventing_scope_creep/n9btu32/",
+      "publishingDate": 1755514811.0,
+      "commentBody": "Change orders mainly. \n\nAt the start of each project, I always state what the capacity of each team member is and their skill set. We have a fully fleshed backlog that the client can see. If they want to add something in, they need to deprioritize something else OR get change ordered. Hit them with that a couple of times and they start to learn this isn’t a singly priced buffet.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "mansard216",
+      "authorProfile": "https://www.reddit.com/user/mansard216",
+      "commentId": "t1_n9d8oa2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mrrp1h/preventing_scope_creep/n9d8oa2/",
+      "publishingDate": 1755532350.0,
+      "commentBody": "I used to rely on the “spreadsheet of truth” too, but it always broke down once things got messy. These days I’ve been playing around with some tools like Glossa - it pulls requirements from calls, docs, and email and keeps a live record that updates as projects evolve. It’s been useful for catching contradictions early and avoiding the endless “wait, didn’t we already decide this?” loops.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

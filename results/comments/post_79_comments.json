@@ -1,0 +1,146 @@
+{
+  "info": {
+    "authorId": "t2_alax3f329",
+    "author": "MoleManMattG",
+    "authorProfile": "https://www.reddit.com/user/MoleManMattG",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1msz5wo",
+    "postLabel": "apps/products",
+    "publishingDate": "2025-08-17T18:51:23+00:00",
+    "postTitle": "I made a FocusOnForce alternative",
+    "postMessage": "It's that time of the year again when my employer is asking me to take another Salesforce certification. While studying for the PD1 exam using FoF's website, I got so frustrated with their clunky user experience that I built my own platform for building and running exams: Cert++ ! All it has right now is an Admin exam that and AI lovingly clanked out which I personally reviewed for accuracy. I’d love for some people to try using it and give feedback, especially if you’re currently studying for the Admin exam or just recently passed it. Up next for me will probably be developing some PD1 exams since the whole reason I took this detour to code up a website was that I wanted a better way to study for the PD1 exam.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1msz5wo/i_made_a_focusonforce_alternative/",
+    "commentCount": 10,
+    "upvoteCount": 58,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "bbibad",
+      "authorProfile": "https://www.reddit.com/user/bbibad",
+      "commentId": "t1_n983jw8",
+      "link": "https://www.reddit.com/r/salesforce/comments/1msz5wo/i_made_a_focusonforce_alternative/n983jw8/",
+      "publishingDate": 1755457598.0,
+      "commentBody": "Looks pretty neat but just did the first 13ish questions of the admin exam 1 and all answers are A so far. Do you have a test setting enabled still?",
+      "upvotes": 23,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "MoleManMattG",
+          "authorProfile": "https://www.reddit.com/user/MoleManMattG",
+          "commentId": "t1_n983u5p",
+          "link": "https://www.reddit.com/r/salesforce/comments/1msz5wo/i_made_a_focusonforce_alternative/n983u5p/",
+          "publishingDate": 1755457688.0,
+          "commentBody": "GUH the answer to everything is A right now lol.  I'm accidentally sorting my database query for test answers to return the correct answer first lol.  Thanks for catching that I'll go fix it, lol.",
+          "upvotes": 39,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_n984tru",
+      "link": "https://www.reddit.com/r/salesforce/comments/1msz5wo/i_made_a_focusonforce_alternative/n984tru/",
+      "publishingDate": 1755458001.0,
+      "commentBody": "Looks clean and simple, any free practice tests are good for the community. \n\nVery vibe code energy.\n\nPlease make sure that this is aligned with the certification code of conduct.",
+      "upvotes": 20,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Able_Armadillo_2347",
+      "authorProfile": "https://www.reddit.com/user/Able_Armadillo_2347",
+      "commentId": "t1_n98jxfw",
+      "link": "https://www.reddit.com/r/salesforce/comments/1msz5wo/i_made_a_focusonforce_alternative/n98jxfw/",
+      "publishingDate": 1755462778.0,
+      "commentBody": "I think we need an open source FoF. The only problem is the hand-curated amount of material they have. All linked with screenshots and links.\n\nIt’s take an enormous amount of resources. And hence only possible bu investing and hiring some people or to rely on crazy amount of free work.",
+      "upvotes": 10,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "SalesforceManiac",
+          "authorProfile": "https://www.reddit.com/user/SalesforceManiac",
+          "commentId": "t1_n9900g4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1msz5wo/i_made_a_focusonforce_alternative/n9900g4/",
+          "publishingDate": 1755467994.0,
+          "commentBody": "I don’t mind making and reading some questions. Go setup a wik!",
+          "upvotes": 5,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "cadetwhocode",
+      "authorProfile": "https://www.reddit.com/user/cadetwhocode",
+      "commentId": "t1_n9adh80",
+      "link": "https://www.reddit.com/r/salesforce/comments/1msz5wo/i_made_a_focusonforce_alternative/n9adh80/",
+      "publishingDate": 1755486426.0,
+      "commentBody": "Looking nice . Is it built with AI😉",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "DaveTheNGVet",
+      "authorProfile": "https://www.reddit.com/user/DaveTheNGVet",
+      "commentId": "t1_na8mn43",
+      "link": "https://www.reddit.com/r/salesforce/comments/1msz5wo/i_made_a_focusonforce_alternative/na8mn43/",
+      "publishingDate": 1755953308.0,
+      "commentBody": "My first time to the site and it is asking me to resume my test at question 12/30. When I submitted the exam I didn't get my result. I am seeing everyone's results not only my own.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "MoleManMattG",
+          "authorProfile": "https://www.reddit.com/user/MoleManMattG",
+          "commentId": "t1_na8qaw7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1msz5wo/i_made_a_focusonforce_alternative/na8qaw7/",
+          "publishingDate": 1755954705.0,
+          "commentBody": "Oops! Yesterday I added the ability for unauthenticated users to save exams… i overlooked that if all unauthenticated users are treated as user with id = anonymous, that means all unauthenticated users would also share exam progress and exam results. \n\nI’ll code up a fix in the next hour or so - thank you for the bug report!!",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "marzella88_new",
+      "authorProfile": "https://www.reddit.com/user/marzella88_new",
+      "commentId": "t1_n9a2c02",
+      "link": "https://www.reddit.com/r/salesforce/comments/1msz5wo/i_made_a_focusonforce_alternative/n9a2c02/",
+      "publishingDate": 1755481999.0,
+      "commentBody": "This is really nice. I’m going to use it to supplement my pd1 studying.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Bricks4Shits",
+      "authorProfile": "https://www.reddit.com/user/Bricks4Shits",
+      "commentId": "t1_n983g19",
+      "link": "https://www.reddit.com/r/salesforce/comments/1msz5wo/i_made_a_focusonforce_alternative/n983g19/",
+      "publishingDate": 1755457564.0,
+      "commentBody": "That's pretty neat - I really like how you have the ? highlighted knowledge terms in the test!",
+      "upvotes": 0,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

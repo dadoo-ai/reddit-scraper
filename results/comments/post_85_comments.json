@@ -1,0 +1,128 @@
+{
+  "info": {
+    "authorId": "t2_6r9e5",
+    "author": "kygei",
+    "authorProfile": "https://www.reddit.com/user/kygei",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mwb6sg",
+    "postLabel": null,
+    "publishingDate": "2025-08-21T13:38:18+00:00",
+    "postTitle": "Is anyone familiar with a solution that shows record date fields on a timeline-esque component?",
+    "postMessage": "I’m familiar with Timewarp and AnyCalendar, but those show related records on the timeline/calendar component. I’m hoping to represent date fields native to the record itself on some sort of timeline/calendar. Thanks!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mwb6sg/is_anyone_familiar_with_a_solution_that_shows/",
+    "commentCount": 8,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "DirectionLast2550",
+      "authorProfile": "https://www.reddit.com/user/DirectionLast2550",
+      "commentId": "t1_n9w6k25",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mwb6sg/is_anyone_familiar_with_a_solution_that_shows/n9w6k25/",
+      "publishingDate": 1755784271.0,
+      "commentBody": "Salesforce doesn’t natively show record date fields on a timeline most tools like Timewarp or AnyCalendar only handle related records. The usual workaround is either building a simple LWC to plot the record’s date fields on a timeline (using something like vis.js) or creating milestone records via Flow/Apex that mirror those dates and then displaying them in a timeline view.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "kygei",
+          "authorProfile": "https://www.reddit.com/user/kygei",
+          "commentId": "t1_n9w7yz1",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mwb6sg/is_anyone_familiar_with_a_solution_that_shows/n9w7yz1/",
+          "publishingDate": 1755784713.0,
+          "commentBody": "Yeah that’s what I’m learning. I like the related milestone records idea… wishing there was another Salesforce labs product that handled this. I’d love to just simply provide date field API names and have them placed on a Timewarp style component. \n\nThanks for the ideas though!",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "HandyStan",
+      "authorProfile": "https://www.reddit.com/user/HandyStan",
+      "commentId": "t1_na6yujk",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mwb6sg/is_anyone_familiar_with_a_solution_that_shows/na6yujk/",
+      "publishingDate": 1755921523.0,
+      "commentBody": "Do you mean something like Timeline?\n\nhttps://help.salesforce.com/s/articleView?id=ind.timeline_client_information.htm&amp;type=5",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "kygei",
+          "authorProfile": "https://www.reddit.com/user/kygei",
+          "commentId": "t1_na8nxj5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mwb6sg/is_anyone_familiar_with_a_solution_that_shows/na8nxj5/",
+          "publishingDate": 1755953805.0,
+          "commentBody": "I’m not well versed in timeline, but that also seems to only show related records. I was hoping to display a record’a own date field values on a timeline. \n\nBasically I’m wanting to show various dates relevant to say a contract on a timeline component on that contract record. Start date, end date, expected RFP date, etc. it would just be a more attractive way to visualize dates then a bunch of them clumped in a field section.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "HandyStan",
+              "authorProfile": "https://www.reddit.com/user/HandyStan",
+              "commentId": "t1_na8vxrf",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mwb6sg/is_anyone_familiar_with_a_solution_that_shows/na8vxrf/",
+              "publishingDate": 1755956725.0,
+              "commentBody": "You can choose field specific events with timeline. The date associated has to be indexed which is the biggest hurdle but you could event map multiple fields on the same object. It's also an industry product and requires a license so I'm willing to bet the sell is going to be tough.",
+              "upvotes": 2,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "kygei",
+                  "authorProfile": "https://www.reddit.com/user/kygei",
+                  "commentId": "t1_na9knwz",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1mwb6sg/is_anyone_familiar_with_a_solution_that_shows/na9knwz/",
+                  "publishingDate": 1755964855.0,
+                  "commentBody": "I know we have the ability to turn on timelines, as I very briefly messed around with it in my sandbox. I’d have to learn more about indexing my custom date fields though. That’s not a process I’m familiar with.",
+                  "upvotes": 1,
+                  "dislikes": null,
+                  "downvotes": null,
+                  "replies": [
+                    {
+                      "authorId": null,
+                      "author": "HandyStan",
+                      "authorProfile": "https://www.reddit.com/user/HandyStan",
+                      "commentId": "t1_na9yaf2",
+                      "link": "https://www.reddit.com/r/salesforce/comments/1mwb6sg/is_anyone_familiar_with_a_solution_that_shows/na9yaf2/",
+                      "publishingDate": 1755969172.0,
+                      "commentBody": "There isn't an easy option to do it other than to mark the custom date fields as external Id. This automatically indexes the field, it's a little hacky but generally accepted as a solution. The alternative is that you can contact support to have them index the field in the backend through a skinny table or by marking the field as such independently. Unless your org is hundreds to thousands of users and you have a full dev ops pipeline, making the field external id is going to be the easiest, most controllable method. \n\nIf you have timeline (feature license version) you're doing better than most and can absolutely achieve this.",
+                      "upvotes": 1,
+                      "dislikes": null,
+                      "downvotes": null,
+                      "replies": [
+                        {
+                          "authorId": null,
+                          "author": "kygei",
+                          "authorProfile": "https://www.reddit.com/user/kygei",
+                          "commentId": "t1_naa39zy",
+                          "link": "https://www.reddit.com/r/salesforce/comments/1mwb6sg/is_anyone_familiar_with_a_solution_that_shows/naa39zy/",
+                          "publishingDate": 1755970728.0,
+                          "commentBody": "I actually do work for a pretty large company with thousands of users. I’ll reach out to my dev team and see how they can help me out!",
+                          "upvotes": 1,
+                          "dislikes": null,
+                          "downvotes": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "info": {
+    "authorId": "t2_q6pfyks",
+    "author": "vcyfan1324",
+    "authorProfile": "https://www.reddit.com/user/vcyfan1324",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mwiemo",
+    "postLabel": null,
+    "publishingDate": "2025-08-21T18:02:51+00:00",
+    "postTitle": "Turn Production into Training",
+    "postMessage": "RESOLVED - Sounds like I was trying to make it more complicated.  Sounds like using Sandbox is the best bet.  And I agree that automating would be ideal, but right now is not possible.  Thanks everyone! I was asked if this was possible. I haven't been able to find anything, but wanted to see if anyone had heard of anything that would achieve this. We have a very customized selling process. It's been very challenging for our agents to pick up the process. Is there some form of app or plugin that someone could activate that would allow them to work through the ordering process inside of Production without actually entering a order? Almost some form of sandbox without setting up the users in the sandbox. TIA",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mwiemo/turn_production_into_training/",
+    "commentCount": 7,
+    "upvoteCount": 5,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "SquirrelMcSmash",
+      "authorProfile": "https://www.reddit.com/user/SquirrelMcSmash",
+      "commentId": "t1_n9xw9dt",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mwiemo/turn_production_into_training/n9xw9dt/",
+      "publishingDate": 1755802070.0,
+      "commentBody": "Don’t do this, get a full copy sandbox from Salesforce and use that for your training ground. Your data is gonna be messy with “training orders” and something will fall thru the cracks and customers will be upset.",
+      "upvotes": 25,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Affectionate-Act-719",
+      "authorProfile": "https://www.reddit.com/user/Affectionate-Act-719",
+      "commentId": "t1_n9y4bcw",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mwiemo/turn_production_into_training/n9y4bcw/",
+      "publishingDate": 1755804397.0,
+      "commentBody": "In app guidance might be worth looking at for the training part but I would get some power users setup in a sandbox so they can nail it and make it less of your problem",
+      "upvotes": 5,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Thanaz156",
+          "authorProfile": "https://www.reddit.com/user/Thanaz156",
+          "commentId": "t1_na1url5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mwiemo/turn_production_into_training/na1url5/",
+          "publishingDate": 1755859133.0,
+          "commentBody": "+1 for in app guidance.\n\nSales path could be helpful too. I've seen screen flows conditionally displayed based on the opportunity status too to help highlight what data is required",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Affectionate-Act-719",
+              "authorProfile": "https://www.reddit.com/user/Affectionate-Act-719",
+              "commentId": "t1_na4prhq",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mwiemo/turn_production_into_training/na4prhq/",
+              "publishingDate": 1755892396.0,
+              "commentBody": "Great call - conditional screenflows and lightning pages are underrated -just remove everything that isn’t required",
+              "upvotes": 2,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "UmpireFabulous1380",
+      "authorProfile": "https://www.reddit.com/user/UmpireFabulous1380",
+      "commentId": "t1_na2d4w8",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mwiemo/turn_production_into_training/na2d4w8/",
+      "publishingDate": 1755866661.0,
+      "commentBody": "This is what sandboxes are for.",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "AccountNumeroThree",
+      "authorProfile": "https://www.reddit.com/user/AccountNumeroThree",
+      "commentId": "t1_n9xw64x",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mwiemo/turn_production_into_training/n9xw64x/",
+      "publishingDate": 1755802044.0,
+      "commentBody": "This sounds like a people and process issue. Are people having to do a lot of manual steps? If so, figure out how to move things into screen flows and automate more parts.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "vcyfan1324",
+          "authorProfile": "https://www.reddit.com/user/vcyfan1324",
+          "commentId": "t1_na2fe0k",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mwiemo/turn_production_into_training/na2fe0k/",
+          "publishingDate": 1755867445.0,
+          "commentBody": "Completely agree, some of that is unfortuantely out of my control.  But the long term plan is a screen flow, just trying to eliminate mistakes in the mean time",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    }
+  ]
+}

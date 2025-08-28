@@ -1,0 +1,184 @@
+{
+  "info": {
+    "authorId": "t2_c7pafi1p",
+    "author": "BlueGreenStoneHero",
+    "authorProfile": "https://www.reddit.com/user/BlueGreenStoneHero",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mw49ag",
+    "postLabel": null,
+    "publishingDate": "2025-08-21T07:26:08+00:00",
+    "postTitle": "First time Dreamforce exhibitor - how to nail it?",
+    "postMessage": "We are a SaaS platform focused on life sciences and we are exhibiting at Dreamforce for the first time this year. Pretty excited but also want to make sure we nail it. If you have been to DF before (either as attendees or exhibitors), what are some of the most memorable or effective exhibits you have seen? What made them stand out? (context: we have a standard booth, not a condo) Looking for insights on: Creative booth designs that actually drew people in Interactive demos or activities that worked well Swag that people actually kept (beyond the usual suspects) Any particularly clever ways companies showcased their integrations with Salesforce We want to create something that resonates with the Salesforce ecosystem while highlighting how our platform helps life sciences companies streamline their operations. Any tips from seasoned DF veterans would be hugely appreciated! Thanks",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mw49ag/first_time_dreamforce_exhibitor_how_to_nail_it/",
+    "commentCount": 13,
+    "upvoteCount": 3,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "kuldiph",
+      "authorProfile": "https://www.reddit.com/user/kuldiph",
+      "commentId": "t1_n9wsrzt",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw49ag/first_time_dreamforce_exhibitor_how_to_nail_it/n9wsrzt/",
+      "publishingDate": 1755790824.0,
+      "commentBody": "Having spent $100K on Dreamforce, I can tell you the ROI is mixed. You will get tons of traffic, but when you reach out after the event, many folks would have forgot you. Moreover all the other partners and salesforce are bombarding them as well. It's called the \"Ohana Embrace\". \n\nBest use the booth to meet your partners &amp; customers and to build awareness. \n\nAs for swag, be true to your brand and budget. There was one company back in the days that had a raffle on the hour, every hour, of an Apple product. Their booth was crazy packed. But that company is long gone. \n\nYou might have a mix of high quality swag for customers &amp; partners and cheapie stuff for random visitors. \n\nAs for demos, just have a YouTube video on repeat playing. This is what most partners do. \n\nDo have your booth staff wear a t-shirts / jackets of a bright color to easily spot your booth.",
+      "upvotes": 4,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "kuldiph",
+          "authorProfile": "https://www.reddit.com/user/kuldiph",
+          "commentId": "t1_n9wtds6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mw49ag/first_time_dreamforce_exhibitor_how_to_nail_it/n9wtds6/",
+          "publishingDate": 1755790995.0,
+          "commentBody": "In your signage, do prominently mention \"Life Science\" so the attendee knows if your booth is applicable or not.",
+          "upvotes": 3,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": null,
+          "author": "BlueGreenStoneHero",
+          "authorProfile": "https://www.reddit.com/user/BlueGreenStoneHero",
+          "commentId": "t1_n9xms4h",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mw49ag/first_time_dreamforce_exhibitor_how_to_nail_it/n9xms4h/",
+          "publishingDate": 1755799354.0,
+          "commentBody": "Super helpful thank you (can you spend less than $100k? This feels like the entry prize)",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "_ImACat",
+      "authorProfile": "https://www.reddit.com/user/_ImACat",
+      "commentId": "t1_n9z55p4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw49ag/first_time_dreamforce_exhibitor_how_to_nail_it/n9z55p4/",
+      "publishingDate": 1755815572.0,
+      "commentBody": "Real talk: I’m an obnoxious attendee who tries to get as much swag as possible (work in nonprofit so I don’t get a lot of free things from work on the regular). Edible swag goes a long way and is a great convo starter. I don’t mind being hit up by an AE if I’m eating a free cookie 😂",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "quirk-s",
+      "authorProfile": "https://www.reddit.com/user/quirk-s",
+      "commentId": "t1_n9wzdsu",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw49ag/first_time_dreamforce_exhibitor_how_to_nail_it/n9wzdsu/",
+      "publishingDate": 1755792716.0,
+      "commentBody": "For the past few years I've run multi-session Dreamforce cohorts to help ISVs with these very questions. This is a blog I wrote last year that SFDC ISVs have found helpful [https://invisory.co/resources/blog/making-the-most-of-salesforce-dreamforce-conference-2024-for-marketing-sales-alliance-teams-isvs-moscone-center-san-francisco/](https://invisory.co/resources/blog/making-the-most-of-salesforce-dreamforce-conference-2024-for-marketing-sales-alliance-teams-isvs-moscone-center-san-francisco/)",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Twenty7B_6",
+      "authorProfile": "https://www.reddit.com/user/Twenty7B_6",
+      "commentId": "t1_naboods",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw49ag/first_time_dreamforce_exhibitor_how_to_nail_it/naboods/",
+      "publishingDate": 1755989802.0,
+      "commentBody": "High quality candy seems to be very effective.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "MeridianNZ",
+      "authorProfile": "https://www.reddit.com/user/MeridianNZ",
+      "commentId": "t1_nabzy4s",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw49ag/first_time_dreamforce_exhibitor_how_to_nail_it/nabzy4s/",
+      "publishingDate": 1755993960.0,
+      "commentBody": "As others have said ROI on booths can be really mixed.  A few years ago we did something creative that was an absolute home run.  It was a funny idea but really went off.  We literally had queues for our booth from one end of the hall to the other non stop.  I think we scanned like 5000 badges.   Problem is while all could remember the booth,  not many could remember the company,  a large number just ignored the outreach as others have said because you get overwhelmed with people contacting you post Dreamforce.   In your case your industry specific as well - so that will be even worse,  if you do something amazing you cant easily filter out the masses vs who you want.  \n\nUnless your just looking for brand recognition,  my suggestion is rather than having some amazing booth,  try to figure out how to attract life sciences people to your booth in particular.   Target the people you want,  filter out the others.  What's the point in giving your tshirts to an admin from a school in rural Arkansas, quite an expensive way to advertise.   Try to do something that any random industry people wandering past will go - hey lets look at that.    SF dont make it easy with not giving you any attendee info - but you can get it if you try and then use it to target people.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "BlueGreenStoneHero",
+          "authorProfile": "https://www.reddit.com/user/BlueGreenStoneHero",
+          "commentId": "t1_nam37w3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mw49ag/first_time_dreamforce_exhibitor_how_to_nail_it/nam37w3/",
+          "publishingDate": 1756141380.0,
+          "commentBody": "Laser focus targeting to filter out - will go with that advice, thanks",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "slow_marathon",
+      "authorProfile": "https://www.reddit.com/user/slow_marathon",
+      "commentId": "t1_nacq6ab",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw49ag/first_time_dreamforce_exhibitor_how_to_nail_it/nacq6ab/",
+      "publishingDate": 1756004418.0,
+      "commentBody": "Dreamforce is a 4 day party, and if a vendor was offering a hangover kit such as Gatorade or canned ice coffee or anything else that can help with a hangover, they would be my first booth, I hit up.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "DirectionLast2550",
+      "authorProfile": "https://www.reddit.com/user/DirectionLast2550",
+      "commentId": "t1_naptnm7",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw49ag/first_time_dreamforce_exhibitor_how_to_nail_it/naptnm7/",
+      "publishingDate": 1756187516.0,
+      "commentBody": "For your first Dreamforce 2025 booth as a life sciences SaaS platform to standout standard booth, use a clean, lab-inspired design with digital screens showing patient journey workflows. Engage attendees with touch-screen demos of Salesforce Health Cloud integrations, simulating clinical trial efficiency, and offer reusable branded water bottles with QR codes for follow-ups. Ksolves, a IT leader, nails this with sleek Odoo-Salesforce sync demos, inspiring effective integration showcases. Highlight your platform’s life sciences impact with clear, interactive messaging.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "[deleted]",
+      "authorProfile": "https://www.reddit.com/user/[deleted]",
+      "commentId": "t1_n9w9nfb",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mw49ag/first_time_dreamforce_exhibitor_how_to_nail_it/n9w9nfb/",
+      "publishingDate": 1755785235.0,
+      "commentBody": "[removed]",
+      "upvotes": 0,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "kuldiph",
+          "authorProfile": "https://www.reddit.com/user/kuldiph",
+          "commentId": "t1_n9wqvyb",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mw49ag/first_time_dreamforce_exhibitor_how_to_nail_it/n9wqvyb/",
+          "publishingDate": 1755790287.0,
+          "commentBody": "Nice app, i would love a demo",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "g_apostolov",
+              "authorProfile": "https://www.reddit.com/user/g_apostolov",
+              "commentId": "t1_n9xhip1",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mw49ag/first_time_dreamforce_exhibitor_how_to_nail_it/n9xhip1/",
+              "publishingDate": 1755797885.0,
+              "commentBody": "That is great.  \nYou can install the Chrome extension and record your application and a demo will be generated for you.\n\nIf you have a free-trial of your application please send me a link,   \nAnd I can try to build a demo for you  \nThanks",
+              "upvotes": 3,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

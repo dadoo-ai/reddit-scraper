@@ -1,0 +1,202 @@
+{
+  "info": {
+    "authorId": "t2_1w0qo5jnix",
+    "author": "Sharp-Impression-416",
+    "authorProfile": "https://www.reddit.com/user/Sharp-Impression-416",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1n226br",
+    "postLabel": null,
+    "publishingDate": "2025-08-28T03:52:59+00:00",
+    "postTitle": "Just started prepping for Salesforce Admin? Read this before you waste time like I did",
+    "postMessage": "I’m currently studying for the Salesforce Administrator Certification, and honestly, even though Salesforce provides a clear guide (Trailheads and exam outline), it still took me a while to figure out the best way to study, practice, stay disciplined, and feel confident about passing. So to save you some time, if you’re in the same boat, here’s what I found super helpful: Trailheads (obviously): Here Free YouTube Course: Here Paid Udemy Course: Salesforce Certified Administrator Training (Jan 2025) by Francis Pindar Practice Exams: Focus on Force (prepares you well, aim to score 80% min. on these) Here Salesforce Official Practice Questions: Here I have also created a discord server for networking/help/studying, if anyone wants to join, you are more than welcome: https://discord.gg/trjdwSCG5R",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/",
+    "commentCount": 15,
+    "upvoteCount": 56,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "BoogerSugarSovereign",
+      "authorProfile": "https://www.reddit.com/user/BoogerSugarSovereign",
+      "commentId": "t1_nb2vd4c",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb2vd4c/",
+      "publishingDate": 1756356704.0,
+      "commentBody": "If you follow the Beginner Admin trail on Trailhead and read every single word as you complete each trail you'll have encountered everything you need to pass the Salesforce Admin certification without engaging with any paid material. If you read through 100% of that text twice you will very likely pass, though once is enough for many.",
+      "upvotes": 29,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "ear_tickler",
+          "authorProfile": "https://www.reddit.com/user/ear_tickler",
+          "commentId": "t1_nb3rgee",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb3rgee/",
+          "publishingDate": 1756374653.0,
+          "commentBody": "You’ll also unalive yourself halfway through.",
+          "upvotes": 21,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": null,
+          "author": "MoreEspresso",
+          "authorProfile": "https://www.reddit.com/user/MoreEspresso",
+          "commentId": "t1_nb4caqh",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb4caqh/",
+          "publishingDate": 1756383762.0,
+          "commentBody": "I get your point but I'll also push back on this idea... You can read the thing 100 times it doesn't matter unless you truly understand what you are reading.  On top of that, some of the modules are basically garbage but the resources linked at the bottom is where the good stuff is stored - and also where most of these paid courses are based on.  Essentially thats what the paid courses are, a collection of re written documentation, often with a voice over or some palatable way of teaching.",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Tratius",
+      "authorProfile": "https://www.reddit.com/user/Tratius",
+      "commentId": "t1_nb2tts7",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb2tts7/",
+      "publishingDate": 1756355971.0,
+      "commentBody": "Thanks for the links!\n\nWhat part of your journey was a waste of time? What traps could we avoid that caught you? What did you discover about how you learn? I am interested to know if it works to share.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Competitive_March347",
+      "authorProfile": "https://www.reddit.com/user/Competitive_March347",
+      "commentId": "t1_nb34o32",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb34o32/",
+      "publishingDate": 1756361574.0,
+      "commentBody": "https://youtube.com/playlist?list=PLWgzSrReOBh4P7kQyCJVH7mdmCWw0HXfi&amp;si=AbFvHWu1O6ZHwIDH. I have gone through this playlist it helped me a lot in admin journey.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "FigureFar9699",
+      "authorProfile": "https://www.reddit.com/user/FigureFar9699",
+      "commentId": "t1_nb3aknb",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb3aknb/",
+      "publishingDate": 1756364895.0,
+      "commentBody": "Nice list, thanks for sharing! Trailheads and Focus on Force seem to be the most recommended combo by almost everyone I’ve seen. I’d also add that hands-on practice in a Salesforce dev org helps a ton, it makes the concepts from Trailhead stick way better.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Strict-Stand9769",
+      "authorProfile": "https://www.reddit.com/user/Strict-Stand9769",
+      "commentId": "t1_nb3brum",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb3brum/",
+      "publishingDate": 1756365569.0,
+      "commentBody": "Thank you for sharing.\n\nI am also on that journey, but have a guided modules and lectures.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Leading-Toe-4970",
+      "authorProfile": "https://www.reddit.com/user/Leading-Toe-4970",
+      "commentId": "t1_nb3noiv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb3noiv/",
+      "publishingDate": 1756372512.0,
+      "commentBody": "u/Sharp-Impression-416 how much time did it take you for the preparation?",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "George_David_S",
+      "authorProfile": "https://www.reddit.com/user/George_David_S",
+      "commentId": "t1_nb3peqv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb3peqv/",
+      "publishingDate": 1756373518.0,
+      "commentBody": "i am in the same boat, lets connect",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "illuminatughty",
+      "authorProfile": "https://www.reddit.com/user/illuminatughty",
+      "commentId": "t1_nb46a8d",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb46a8d/",
+      "publishingDate": 1756381523.0,
+      "commentBody": "Good to know that I'm not the only one who is learning admin",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "kingrocks1",
+      "authorProfile": "https://www.reddit.com/user/kingrocks1",
+      "commentId": "t1_nb4dsnl",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb4dsnl/",
+      "publishingDate": 1756384290.0,
+      "commentBody": "But why to learn now when there are hardly any openings? Just wondering",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "maestro-5838",
+      "authorProfile": "https://www.reddit.com/user/maestro-5838",
+      "commentId": "t1_nb4pu46",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb4pu46/",
+      "publishingDate": 1756388248.0,
+      "commentBody": "When are you taking it",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "therealsugar27",
+      "authorProfile": "https://www.reddit.com/user/therealsugar27",
+      "commentId": "t1_nb4qbh6",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb4qbh6/",
+      "publishingDate": 1756388402.0,
+      "commentBody": "I love trailhead for a couple modules here and there, but for deeper cert prep I had to go with Udemy videos for the audio/visual explanations. \n\nThere is so much good content on YouTube as well so I used that to supplement for topics I needed more help on.\n\nMy fave of the udemy content is Mike Wheeler, he has a hilariously dry sense of humor and is VERY thorough.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "LawzE23",
+      "authorProfile": "https://www.reddit.com/user/LawzE23",
+      "commentId": "t1_nb64n4p",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb64n4p/",
+      "publishingDate": 1756402697.0,
+      "commentBody": "Highly recommend u/radnipuk course on Udemy. Helped me understand and pass first time. Focus on Force for exam practice as well.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "DJL_techylabcapt",
+      "authorProfile": "https://www.reddit.com/user/DJL_techylabcapt",
+      "commentId": "t1_nb3edqe",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n226br/just_started_prepping_for_salesforce_admin_read/nb3edqe/",
+      "publishingDate": 1756367050.0,
+      "commentBody": "I would add the following on your list:\n\n1) [https://forcedigest.com](https://forcedigest.com)   \n2) [https://forcewise.org](https://forcewise.org)   \n3) [https://www.saasguru.co](https://www.saasguru.co)",
+      "upvotes": 0,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

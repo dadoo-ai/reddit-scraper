@@ -1,0 +1,58 @@
+{
+  "info": {
+    "authorId": "t2_8e38kxw5",
+    "author": "Forsaken_Seaweed_166",
+    "authorProfile": "https://www.reddit.com/user/Forsaken_Seaweed_166",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mukokh",
+    "postLabel": null,
+    "publishingDate": "2025-08-19T14:52:48+00:00",
+    "postTitle": "Data Loader Device Flow vs Web Server Flow",
+    "postMessage": "Salesforce is getting rid of Device Flow to login to the Data Loader app, how can I switch to Web Server Flow to test it will work okay with my SSO? We don't use passwords at my organization. My only login options through the app are OAuth or Password Authentication. It automatically defaults to Device Flow.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mukokh/data_loader_device_flow_vs_web_server_flow/",
+    "commentCount": 3,
+    "upvoteCount": 1,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Apprehensive-Tea3888",
+      "authorProfile": "https://www.reddit.com/user/Apprehensive-Tea3888",
+      "commentId": "t1_n9lk0xh",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mukokh/data_loader_device_flow_vs_web_server_flow/n9lk0xh/",
+      "publishingDate": 1755637123.0,
+      "commentBody": "To disable OAuth Device Flow you need to uncheck \"Enable OAuth Login from browser\" in your Data Loader settings. Once unchecked, data loader will default to oauth web server flow when using OAuth to login. Or, you can update to the new version of Data Loader once it is released by Salesforce. The new version will not allow Oauth device flow. \n\n[https://help.salesforce.com/s/articleView?id=005132367&amp;type=1](https://help.salesforce.com/s/articleView?id=005132367&amp;type=1)",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Plane_Parsley9669",
+          "authorProfile": "https://www.reddit.com/user/Plane_Parsley9669",
+          "commentId": "t1_n9rsucn",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mukokh/data_loader_device_flow_vs_web_server_flow/n9rsucn/",
+          "publishingDate": 1755720274.0,
+          "commentBody": "I tried disabling the check box and it's still generating the device code.  \nI ended up making an external client app to get around it but curious why device flow didn't disable.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "DirectionLast2550",
+      "authorProfile": "https://www.reddit.com/user/DirectionLast2550",
+      "commentId": "t1_n9otews",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mukokh/data_loader_device_flow_vs_web_server_flow/n9otews/",
+      "publishingDate": 1755686570.0,
+      "commentBody": "Salesforce is deprecating Device Flow, so you’ll need to switch to OAuth (Web Server Flow) with a connected app. In Data Loader, pick OAuth, hit Advanced, and point it to your custom domain (so it routes through SSO). Make sure your admin has a connected app set up with the callback URL sfdc://success and that it’s allowed in your IdP. Once that’s in place and you’re on the latest Data Loader version, it should redirect you to your SSO login instead of using Device Flow.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

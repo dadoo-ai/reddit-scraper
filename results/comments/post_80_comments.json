@@ -1,0 +1,98 @@
+{
+  "info": {
+    "authorId": "t2_j3po9",
+    "author": "kindadistracted",
+    "authorProfile": "https://www.reddit.com/user/kindadistracted",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mtp9xb",
+    "postLabel": null,
+    "publishingDate": "2025-08-18T15:29:42+00:00",
+    "postTitle": "Quick Login As alternative...?",
+    "postMessage": "This tool used to be one of the greatest tools in my toolbelt, and now it's gone. Does anyone know of any alternatives?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mtp9xb/quick_login_as_alternative/",
+    "commentCount": 6,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Front_Accountant_278",
+      "authorProfile": "https://www.reddit.com/user/Front_Accountant_278",
+      "commentId": "t1_n9d5i5c",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mtp9xb/quick_login_as_alternative/n9d5i5c/",
+      "publishingDate": 1755531423.0,
+      "commentBody": "Salesforce Inspector Reloaded",
+      "upvotes": 13,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "kindadistracted",
+          "authorProfile": "https://www.reddit.com/user/kindadistracted",
+          "commentId": "t1_n9enrm2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mtp9xb/quick_login_as_alternative/n9enrm2/",
+          "publishingDate": 1755547091.0,
+          "commentBody": "OMG - I have &amp; use this already. I had no idea that it had Log In As ability. Thank you!!!",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Front_Accountant_278",
+              "authorProfile": "https://www.reddit.com/user/Front_Accountant_278",
+              "commentId": "t1_n9eon22",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mtp9xb/quick_login_as_alternative/n9eon22/",
+              "publishingDate": 1755547344.0,
+              "commentBody": "The login incognito is real nice",
+              "upvotes": 2,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "coreyperryisasaint",
+      "authorProfile": "https://www.reddit.com/user/coreyperryisasaint",
+      "commentId": "t1_n9d5iin",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mtp9xb/quick_login_as_alternative/n9d5iin/",
+      "publishingDate": 1755531426.0,
+      "commentBody": "SF Inspector Reloaded",
+      "upvotes": 4,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "kextron33",
+      "authorProfile": "https://www.reddit.com/user/kextron33",
+      "commentId": "t1_n9dcclt",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mtp9xb/quick_login_as_alternative/n9dcclt/",
+      "publishingDate": 1755533444.0,
+      "commentBody": "Is that a Chrome extension?",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Sagemel",
+          "authorProfile": "https://www.reddit.com/user/Sagemel",
+          "commentId": "t1_n9drigc",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mtp9xb/quick_login_as_alternative/n9drigc/",
+          "publishingDate": 1755537816.0,
+          "commentBody": "It is/was",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    }
+  ]
+}

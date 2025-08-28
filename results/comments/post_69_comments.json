@@ -1,0 +1,248 @@
+{
+  "info": {
+    "authorId": "t2_cxm2c06l",
+    "author": "EarOdd5244",
+    "authorProfile": "https://www.reddit.com/user/EarOdd5244",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mtxejm",
+    "postLabel": null,
+    "publishingDate": "2025-08-18T20:23:46+00:00",
+    "postTitle": "Custom AI Agent Framework for Salesforce",
+    "postMessage": "I'm excited to share the next evolution of my custom AI Agent Framework, built natively on the Salesforce platform with major new capabilities now live in the latest demo video. This update transforms the agent into a true Copilot, capable of securely executing complex processes, with full transparency and voice-enabled, natural conversation, even for external users on a Salesforce Experience Site. What's new in this version: Secure \"Run As\" Execution: Portal users can now initiate powerful internal operations, even if they don’t have direct permissions. The agent securely \"runs as\" a trusted internal service user, ensuring compliance and auditability. Intelligent Speech-to-Text: Introducing an enterprise-grade voice interface! The assistant now supports natural voice input with automatic speech detection. Just speak... and the AI does the rest. Reasoning Mode: The agent now \"thinks out loud\" before taking action. This transparency builds trust by showing the why and how behind each step, reducing the mystery of AI-driven automation. Visual Graph Builder: Complex workflows made easy. Admins can now define multi-step logic visually, using a low-code graph editor. Triggered by a simple command, executed via robust backend automation. In the walkthrough video, you’ll see: A Community Portal user reordering a damaged product via voice The agent fetching context, reasoning through it, and executing a multi-step workflow using the graph A secure background process initiated without exposing internal permissions Full end-to-end flow: draft order created, sales team notified, audit trail intact 🔗 Source Code + Docs: https://github.com/iamsonal/aiAgentStudio Video Link: https://www.youtube.com/watch?v=iIozUkoglao I’d love your feedback! Any challenges or ideas you’d like to share? If you find this useful, a ⭐ on the GitHub repo or a share would mean a lot. #Salesforce #AI #SalesforceDevs #TrailblazerCommunity #GenerativeAI #Copilot #SpeechToText #Automation #LangChain #OpenAI #Automation #OpenAI Original Post: https://www.linkedin.com/posts/thesonal_salesforce-ai-salesforcedevs-activity-7363287325201567746-ChPz",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/",
+    "commentCount": 17,
+    "upvoteCount": 3,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Caparisun",
+      "authorProfile": "https://www.reddit.com/user/Caparisun",
+      "commentId": "t1_n9f8vhq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9f8vhq/",
+      "publishingDate": 1755553290.0,
+      "commentBody": "This sounds a security nightmare with prompt injection as the main course, action mines as the desert and a GDPR lawsuit for life.",
+      "upvotes": 7,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "WhiteThingINROUND",
+          "authorProfile": "https://www.reddit.com/user/WhiteThingINROUND",
+          "commentId": "t1_n9foard",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9foard/",
+          "publishingDate": 1755558343.0,
+          "commentBody": "Why? How would this trigger a gdpr violation?",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Caparisun",
+              "authorProfile": "https://www.reddit.com/user/Caparisun",
+              "commentId": "t1_n9h9pzl",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9h9pzl/",
+              "publishingDate": 1755580260.0,
+              "commentBody": "I just inject a prompt that tells the agent that it has new actions available and export the data.\n\nStart here \n\nhttps://x.com/mbrg0/status/1956041192925176092?s=46&amp;t=0j-7Ucz8_MlKs4TP2bZd-A",
+              "upvotes": 3,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        },
+        {
+          "authorId": null,
+          "author": "EarOdd5244",
+          "authorProfile": "https://www.reddit.com/user/EarOdd5244",
+          "commentId": "t1_n9fn7vb",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9fn7vb/",
+          "publishingDate": 1755557977.0,
+          "commentBody": "Thanks for raising these critical points. Here is a breakdown you could use:\n\n1. Prompt Injection: by using hardened system prompts, but more importantly, the LLM is sandboxed. It can only call predefined, admin-approved Apex actions (ActionRegistry.cls) with strict parameter schemas. It can't execute arbitrary requests.\n\n2. Action Mines: The Visual Graph Builder is powerful, but workflows are defined entirely by admins. The end-user can only provide input parameters, not change the graph's logic. For sensitive operations, any capability can be flagged to require a formal Salesforce Approval Process, putting a human in the loop.\n\n3. GDPR &amp; \"Run As\": The \"Run As\" feature is an explicit, admin-configured setting, not a default. Crucially, all our backend actions still enforce FLS and CRUD using WITH USER_MODE and security utilities. Even if an agent is tricked, it can't perform an action that the running user isn't permitted to do. The Salesforce security model is the ultimate backstop.",
+          "upvotes": -5,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Caparisun",
+              "authorProfile": "https://www.reddit.com/user/Caparisun",
+              "commentId": "t1_n9h9hbx",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9h9hbx/",
+              "publishingDate": 1755580136.0,
+              "commentBody": "You have no idea what you’re building and what the risks involved are and it will blow up.\n\nhttps://x.com/mbrg0/status/1956041192925176092?s=46&amp;t=0j-7Ucz8_MlKs4TP2bZd-A",
+              "upvotes": 3,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "EarOdd5244",
+                  "authorProfile": "https://www.reddit.com/user/EarOdd5244",
+                  "commentId": "t1_n9hfsv3",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9hfsv3/",
+                  "publishingDate": 1755583539.0,
+                  "commentBody": "You have given me a gift. I can confirm that this framework, in its current state, is highly vulnerable to the \"Prompt Mines\" attack. The architecture I've built, while robust and well-structured, contains the exact mechanisms that this attack exploits.\n\n\nThe core vulnerability is that untrusted data from record fields is being treated as trusted instructions by the LLM. I need to create a \"firewall\" between instructions and data. I will work on it, but will take some time.\n\n\nFYI, the framework has built-in support for Salesforce Approvals (RequiresApproval__c). For any sensitive action (like creating or updating records), this can be enabled, ensuring a human must review and approve the action before it's executed, preventing the \"0-click\" data corruption scenario as described in the article.",
+                  "upvotes": -1,
+                  "dislikes": null,
+                  "downvotes": null,
+                  "replies": [
+                    {
+                      "authorId": null,
+                      "author": "Caparisun",
+                      "authorProfile": "https://www.reddit.com/user/Caparisun",
+                      "commentId": "t1_n9hhjsh",
+                      "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9hhjsh/",
+                      "publishingDate": 1755584514.0,
+                      "commentBody": "Yeah sure and if a human reviews everything and you spent the money on tokens and service that sounds like a steal!!!\n\nNot.\n\nSalesforce hasn’t solved the underlying issue. openAI isn’t confident prompt injection can be solved.\n\nIf I was you — it leave it.",
+                      "upvotes": 3,
+                      "dislikes": null,
+                      "downvotes": null,
+                      "replies": [
+                        {
+                          "authorId": null,
+                          "author": "EarOdd5244",
+                          "authorProfile": "https://www.reddit.com/user/EarOdd5244",
+                          "commentId": "t1_n9hs451",
+                          "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9hs451/",
+                          "publishingDate": 1755590736.0,
+                          "commentBody": "A human-in-the-loop for every single action would absolutely defeat the purpose of automation.\n\n\nThe core architectural fix, which I will be working on, is strict context separation. I don't have the exact implementation details but I guess I have a fair idea now. This will allow the agent to handle the vast majority of tasks autonomously and securely. Once implemented, then the RequiresApproval__c feature then becomes what it should be: a risk-based control for only the highest-impact, irreversible actions.\n\n\nThe goal isn't a single \"solution,\" but a layered defense-in-depth strategy. Thanks again for pushing this conversation forward. It's exactly this kind of rigorous feedback I am looking.",
+                          "upvotes": 2,
+                          "dislikes": null,
+                          "downvotes": null
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Suspicious-Nerve-487",
+      "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+      "commentId": "t1_n9mi90s",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9mi90s/",
+      "publishingDate": 1755648166.0,
+      "commentBody": "What is the difference here between your product and something like Agentforce? It seems to me like you recreated a lot of the capabilities that Agent Builder already has (creating actions and tying to prompts, connecting to LLMs, writing instructions), but custom instead of within a builder\n\nI’d also be wary of how security is handled here. Salesforce natively takes care of not only the data retention and data protection with LLMs, but things like prompt injection and relevance with replies. \n\nHow would you also handle the sort of “basic” use cases that Salesforce is promoting right now? I.e answering FAQs using knowledge articles in your org?",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "EarOdd5244",
+          "authorProfile": "https://www.reddit.com/user/EarOdd5244",
+          "commentId": "t1_n9moewb",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9moewb/",
+          "publishingDate": 1755650283.0,
+          "commentBody": "It's not a product in the traditional sense, but a foundational, developer-centric framework. The architecture is heavily inspired by proven concepts from open-source ecosystems like LangChain and LangGraph, but it's built from the ground up to be 100% native to the Salesforce platform.\n\nFor many use cases, Agentforce might be the right tool, much like Flow Builder. But when you hit the limits of declarative tools, or when you need precise control over the entire process, you turn to Apex. It's for the moments when the business logic is too complex for anything less than full programmatic control.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Suspicious-Nerve-487",
+              "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+              "commentId": "t1_n9n0r6a",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9n0r6a/",
+              "publishingDate": 1755654568.0,
+              "commentBody": "So I guess in that sense, what are the limits here that this solves that Agentforce doesn’t?\n\nI understand that it makes sense to use tools depending on limitations and complexity, but you don’t actually state any of this in your demo or post. \n\nIt really just looks and feels like you’re recreating Agentforce without using Agentforce. \n\nIf there are specific limitations where this makes sense over something like Agentforce, that would be super relevant to state in demos and explain here\n\nI’m not quite clear what you mean by “full control programmatically”. There isn’t a single thing that your demo shows that Agentforce doesn’t already support, so I’m not really seeing the differentiators / value points where your framework fits in yet",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "EarOdd5244",
+                  "authorProfile": "https://www.reddit.com/user/EarOdd5244",
+                  "commentId": "t1_n9n4m08",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9n4m08/",
+                  "publishingDate": 1755655927.0,
+                  "commentBody": "I haven't used Agentforce so I am not sure what Agentforce supports.",
+                  "upvotes": 1,
+                  "dislikes": null,
+                  "downvotes": null,
+                  "replies": [
+                    {
+                      "authorId": null,
+                      "author": "Suspicious-Nerve-487",
+                      "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+                      "commentId": "t1_n9n7i5c",
+                      "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9n7i5c/",
+                      "publishingDate": 1755656967.0,
+                      "commentBody": "&gt; For many use cases, Agentforce might be the right tool, much like Flow Builder. But when you hit the limits of declarative tools, or when you need precise control over the entire process, you turn to Apex. It's for the moments when the business logic is too complex for anything less than full programmatic control.\n\nUnsure how you can make this statement \n\n&gt; I haven’t used Agentforce so I am not sure what Agentforce can or can’t do \n\nAnd then this in the next comment. \n\nIf you don’t know what Agentforce can and can’t do, how can you state that your tool fills a gap where things get “too complex” for tools like agentforce?\n\nAs I stated before, quite literally everything you showed in your video is OOTB and customizable with Agentforce, on top of Salesforce already handling a lot of the security and data concerns that others have raised in comments, while additionally also being “100% native to Salesforce”\n\nAll in all, some might find a use here, but I’m really not seeing the path in which a framework like this would be used over the other tools that are offered with more robust features and security baked in",
+                      "upvotes": 1,
+                      "dislikes": null,
+                      "downvotes": null,
+                      "replies": [
+                        {
+                          "authorId": null,
+                          "author": "EarOdd5244",
+                          "authorProfile": "https://www.reddit.com/user/EarOdd5244",
+                          "commentId": "t1_n9njfhp",
+                          "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9njfhp/",
+                          "publishingDate": 1755661653.0,
+                          "commentBody": "Frankly, a feature-for-feature comparison with a declarative tool like Agentforce is irrelevant to the problem this framework solves. Agentforce lets you connect boxes and this custom framework lets you control the execution kernel\n\nAnd for the usecase you mentioned: \"answering FAQs using knowledge articles\", Agentforce supports this usecase. This custom framework probably isn't for your use case.",
+                          "upvotes": 1,
+                          "dislikes": null,
+                          "downvotes": null,
+                          "replies": [
+                            {
+                              "authorId": null,
+                              "author": "Suspicious-Nerve-487",
+                              "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+                              "commentId": "t1_n9nx751",
+                              "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9nx751/",
+                              "publishingDate": 1755668272.0,
+                              "commentBody": "&gt; Frankly, a feature-for-feature comparison with a declarative tool like Agentforce is irrelevant to the problem this framework solves. Agentforce lets you connect boxes and this custom framework lets you control the execution kernel\n\nYou keep saying buzzword phrases like this but you can’t define what it actually means, nor give an example. I’ve read the entirety of your source “documentation”. There isn’t anything here that makes it different from what Agentforce can do natively \n\n&gt; let’s you control the execution kernel \n\nExplain what this actually means. Because nothing in your documentation gives any information to this. Putting words down that sound great doesn’t actually have any value behind it unless you can explain WHEN someone should use a tool / framework like this. \n\nThat’s the entire point I’m trying to make with your post here. It’s interesting to see, you clearly spent a lot of time thinking through and building, but it seems like you can’t actually discuss when to use it. \n\n&gt; a declarative tool like agentforce\n\nI’m confused by this as well. You have quite literally also built a “declarative tool”. Nothing that your framework offers again is any different than agentforce. You define prompts, define actions, define workflow order of execution, define LLMs to be used. \n\nWhere is the complexity and “control of the execution kernel”?",
+                              "upvotes": 1,
+                              "dislikes": null,
+                              "downvotes": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "zest_ai",
+      "authorProfile": "https://www.reddit.com/user/zest_ai",
+      "commentId": "t1_n9n8ny2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9n8ny2/",
+      "publishingDate": 1755657391.0,
+      "commentBody": "Still exploring Agentforce myself, but excited to see how custom AI agents integrate with Salesforce here. Anyone else tried it out? Would love to hear experiences!",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "WhiteRussian90",
+      "authorProfile": "https://www.reddit.com/user/WhiteRussian90",
+      "commentId": "t1_n9h5sdp",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mtxejm/custom_ai_agent_framework_for_salesforce/n9h5sdp/",
+      "publishingDate": 1755578315.0,
+      "commentBody": "This is cool! Keep working at it and it might be a sellable product for sure",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

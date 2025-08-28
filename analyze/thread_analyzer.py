@@ -24,7 +24,7 @@ JSON_SCHEMA = {
         "properties": {
             "role": {
                 "type": "string",
-                "enum": ["employee", "former_employee", "customer", "unknown"]
+                "enum": ["employee", "partner", "user"] 
             },
             "role_source": {
                 "type": "string",
@@ -63,23 +63,23 @@ Return ONLY JSON matching the provided JSON schema.
 STRICT Guidelines:
 
 - role:
-  - MUST be "unknown" by default.
+  - MUST be "user" by default.
   - Use "employee" or "former_employee" ONLY if there is explicit first-person evidence
     (e.g., "I work at Salesforce", "I'm an AE at Salesforce", "at my Salesforce team").
   - Use "customer" ONLY if the comment clearly states personal usage or purchase
     (e.g., "we use Salesforce at my company", "as a Salesforce customer").
   - Inference, insider tone, or hearsay is NOT sufficient.
-  - If you cannot quote explicit evidence, role MUST be "unknown".
+  - If you cannot quote explicit evidence, role MUST be "user".
 
 - role_source:
   - "self_identified" → user clearly states it (e.g., "I work at Salesforce").
   - "profile_flair" → evidence comes from profile flair/metadata.
   - "third_party_claim" → another user claims this about them.
   - "inference" → weak guess without explicit quote.
-  - "none" → default when role="unknown".
+  - "none" → default when role="user".
 
 - role_confidence:
-  - ≤ 0.2 when role="unknown".
+  - ≤ 0.2 when role="user".
   - ≥ 0.6 only when explicit evidence is present.
   - Never set high confidence if role is inferred without proof.
 
@@ -92,17 +92,18 @@ STRICT Guidelines:
 - justification: concise (2–4 sentences) explaining reasoning.
 - evidence_quotes:
   - 1–4 verbatim snippets (10–20 words).
-  - MUST include at least one explicit snippet proving the role when role ≠ unknown.
+  - MUST include at least one explicit snippet proving the role when role ≠ user.
 
 Fallback:
-- If off-topic or unclear → role="unknown", role_source="none", low confidence, sentiment≈0.
-- Always prefer "unknown" over guessing.
+- If off-topic or unclear → role="user", role_source="none", low confidence, sentiment≈0.
+- Always prefer "user" over guessing.
+
 """
 
 # ---------------- Helpers ----------------
 def _default_analysis(error_msg: str | None = None) -> Dict[str, Any]:
     return {
-        "role": "unknown",
+        "role": "user",  # CHANGED (avant: "unknown")
         "role_source": "none",
         "role_confidence": 0.0,
         "agentforce_sentiment": 0.0,
@@ -112,6 +113,7 @@ def _default_analysis(error_msg: str | None = None) -> Dict[str, Any]:
         "justification": f"error: {error_msg}" if error_msg else "",
         "evidence_quotes": []
     }
+
 
 def extract_text_from_responses(r) -> str:
     """Compat : récupère le texte depuis l'API Responses malgré les variations de SDK."""
@@ -133,12 +135,14 @@ def _trim_to_words(s: str, n: int = 20) -> str:
     return " ".join(str(s).split()[:n])
 
 def _has_explicit_role_evidence(role: str, quotes: list[str]) -> bool:
-    """Vérifie qu'au moins une quote prouve explicitement le rôle, selon le rôle visé."""
-    if role == "unknown":
+    """Vérifie qu'au moins une quote prouve explicitement le rôle."""
+    # CHANGED: "user" = baseline, pas de preuve requise
+    if role == "user":  # CHANGED
         return True
     if not quotes:
         return False
 
+    # CHANGED: patterns adaptés à employee / partner (EN + FR)
     PATTERNS = {
         "employee": [
             r"\bI work at Salesforce\b",
@@ -148,96 +152,64 @@ def _has_explicit_role_evidence(role: str, quotes: list[str]) -> bool:
             r"\bje travaille chez Salesforce\b",
             r"\bje suis (employ[ée]?) chez Salesforce\b",
             r"\bmon (poste|équipe) chez Salesforce\b",
-            r"\b(flair|badge):\s*Salesforce\b",
         ],
-        "former_employee": [
-            r"\bI (used to|formerly) work at Salesforce\b",
-            r"\bj'ai (travaill[ée]|bossé) chez Salesforce\b",
-            r"\bex[-\s]?employ[ée]? (de|chez) Salesforce\b",
-        ],
-        "customer": [
-            r"\bwe use Salesforce (at|in) (my|our) (company|org|team)\b",
-            r"\bas a Salesforce customer\b",
-            r"\bnous utilisons Salesforce\b",
-            r"\bon utilise Salesforce (dans|à) (ma|notre) (bo[iî]te|entreprise)\b",
-            r"\bclient[e]? Salesforce\b",
+        "partner": [
+            r"\bI work (for|at) (a|the|my)?\s*Salesforce (consulting|implementation)?\s*partner\b",
+            r"\bwe are (an?|the) Salesforce (consulting|implementation)? partner\b",
+            r"\b(AppExchange|ISV)\s*partner\b",
+            r"\bSalesforce (SI|systems integrator)\b",
+            r"\bpartenaire Salesforce\b",
+            r"\bint[ée]grateur Salesforce\b",
+            r"\bnous sommes partenaire Salesforce\b",
+            r"\bESN partenaire Salesforce\b",
         ],
     }
 
-    pats = PATTERNS.get(role, [])
     for q in quotes:
-        for p in pats:
+        for p in PATTERNS.get(role, []):
             if re.search(p, q, flags=re.IGNORECASE):
                 return True
     return False
 
+
 def _coerce_analysis(obj: Dict[str, Any]) -> Dict[str, Any]:
-    """Normalise, applique les verrous et force unknown si pas de preuve."""
-    # Base et complétion des clés manquantes
-    base = _default_analysis(None)
-    for k in base.keys():
-        if k not in obj or obj[k] is None:
-            obj[k] = base[k]
+    ...
+    # Normalisation rôle
+    # CHANGED: seuls "employee", "partner", "user" sont valides ; tout le reste → "user"
+    if obj.get("role") not in {"employee", "partner", "user"}:  # CHANGED
+        obj["role"] = "user"  # CHANGED
 
-    # Normalisation bornes numériques
-    try:
-        obj["role_confidence"] = float(max(0.0, min(1.0, float(obj["role_confidence"]))))
-    except Exception:
-        obj["role_confidence"] = 0.0
-    try:
-        obj["agentforce_confidence"] = float(max(0.0, min(1.0, float(obj["agentforce_confidence"]))))
-    except Exception:
-        obj["agentforce_confidence"] = 0.0
-    try:
-        obj["agentforce_sentiment"] = float(max(-1.0, min(1.0, float(obj["agentforce_sentiment"]))))
-    except Exception:
-        obj["agentforce_sentiment"] = 0.0
-
-    # Normalisation role / role_source
-    if obj.get("role") not in {"employee","former_employee","customer","unknown"}:
-        obj["role"] = "unknown"
     if obj.get("role_source") not in {"self_identified","profile_flair","third_party_claim","inference","none"}:
         obj["role_source"] = "none"
 
-    # Booléens
-    obj["targets_salesforce"] = bool(obj.get("targets_salesforce"))
-    obj["is_reply_to_salesforce_question"] = bool(obj.get("is_reply_to_salesforce_question"))
-
-    # Listes (quotes coupées à ~20 mots)
-    if not isinstance(obj.get("evidence_quotes"), list):
-        obj["evidence_quotes"] = []
-    else:
-        obj["evidence_quotes"] = [_trim_to_words(x) for x in obj["evidence_quotes"]][:4]
-
-    # Justification
-    obj["justification"] = str(obj.get("justification") or "")[:1500]
-
-    # ----- Verrous "hard mode" sur le rôle -----
-    role = obj.get("role", "unknown")
+    ...
+    role = obj.get("role", "user")         # CHANGED (baseline "user")
     role_source = obj.get("role_source", "none")
     quotes = obj.get("evidence_quotes") or []
 
-    # 1) Si role="unknown" → confiance basse forcée
-    if role == "unknown":
-        obj["role_confidence"] = min(obj["role_confidence"], 0.2)
+    # 1) Baseline "user": confiance basse et source none
+    if role == "user":                     # CHANGED
+        obj["role_confidence"] = min(float(obj.get("role_confidence", 0.0)), 0.2)  # CHANGED
         obj["role_source"] = "none"
+        obj["role"] = "user"               # idempotent
         return obj
 
-    # 2) Rôle explicite seulement si source forte + quote probante
+    # 2) Rôle spécifique → exige source forte + quote probante
     strong_sources = {"self_identified","profile_flair"}
     if (role_source not in strong_sources) or (not _has_explicit_role_evidence(role, quotes)):
-        obj["role"] = "unknown"
-        obj["role_confidence"] = 0.0
+        obj["role"] = "user"               # CHANGED (retombe sur user)
+        obj["role_confidence"] = 0.2       # CHANGED
         obj["role_source"] = "none"
         return obj
 
-    # 3) Si rôle maintenu ≠ unknown, imposer min de confiance
-    if obj["role_confidence"] < 0.6:
-        obj["role"] = "unknown"
-        obj["role_confidence"] = 0.0
+    # 3) Confiance minimale
+    if float(obj.get("role_confidence", 0.0)) < 0.6:
+        obj["role"] = "user"               # CHANGED
+        obj["role_confidence"] = 0.2       # CHANGED
         obj["role_source"] = "none"
 
     return obj
+
 
 # ---------------- Classe principale ----------------
 class CommentAnalyzer:
@@ -251,6 +223,12 @@ class CommentAnalyzer:
     # ---------- PUBLIC ----------
     def analyze(self, comments: List[FlatComment]) -> Dict[str, Dict[str, Any]]:
         print(f"[INFO] Starting analysis | model={self.model} | n_comments={len(comments)}")
+
+        # Skip propre si aucun commentaire
+        if not comments:
+            print("[INFO] No comments to analyze. Skipping.")
+            return {}
+        
         out: Dict[str, Dict[str, Any]] = {}
         with ThreadPoolExecutor(max_workers=self.max_workers) as ex:
             fut_map = {ex.submit(self._analyze_one, c): c for c in comments}
@@ -265,7 +243,77 @@ class CommentAnalyzer:
         print("[INFO] Analysis done.")
         return out
 
-    def aggregate_by_user(self, results: Dict[str, Dict[str, Any]]) -> pd.DataFrame:
+    # def aggregate_by_user(self, results: Dict[str, Dict[str, Any]]) -> pd.DataFrame:
+    #     print("[INFO] Aggregating per user…")
+    #     by_user: Dict[str, List[Dict[str, Any]]] = {}
+    #     meta: Dict[str, Tuple[str, str]] = {}
+
+    #     for _, payload in results.items():
+    #         c: FlatComment = payload["comment"]
+    #         a: Dict[str, Any] = payload["analysis"]
+    #         by_user.setdefault(c.author, []).append(a)
+    #         if c.author not in meta:
+    #             meta[c.author] = (c.author_id, c.author_profile)
+
+    #     rows = []
+    #     for user, analyses in by_user.items():
+    #         # CHANGED: rôles cibles = employee / partner
+    #         role_scores = {"employee": 0.0, "partner": 0.0}  # CHANGED
+    #         role_counts = {"employee": 0, "partner": 0}      # CHANGED
+    #         STRONG = {"self_identified", "profile_flair"}
+
+    #         for a in analyses:
+    #             r = a.get("role", "user")                   # CHANGED
+    #             src = a.get("role_source", "none")
+    #             cconf = float(a.get("role_confidence", 0.0))
+    #             if r in role_scores and src in STRONG and cconf >= 0.6:
+    #                 role_scores[r] += cconf
+    #                 role_counts[r] += 1
+
+    #         # CHANGED: par défaut "user"
+    #         role_inferred = "user"                          # CHANGED
+    #         if any(role_counts.values()):
+    #             best = max(role_scores, key=lambda k: role_scores[k])
+    #             # garde les mêmes seuils d’inférence “forte”
+    #             if role_counts[best] >= 2 or role_scores[best] >= 1.5:
+    #                 role_inferred = best
+
+    #         # Sentiment (inchangé)
+    #         num = den = 0.0
+    #         quotes, justifs = [], []
+    #         for a in analyses:
+    #             w = max(0.05, float(a.get("agentforce_confidence", 0.0)))
+    #             num += float(a.get("agentforce_sentiment", 0.0)) * w
+    #             den += w
+    #             quotes += a.get("evidence_quotes", []) or []
+    #             if a.get("justification"):
+    #                 justifs.append(a["justification"])
+    #         sentiment = (num / den) if den > 0 else 0.0
+
+    #         quotes = list(dict.fromkeys(quotes))[:3]
+    #         justifs = list(dict.fromkeys(justifs))[:3]
+    #         author_id, author_profile = meta[user]
+
+    #         rows.append({
+    #             "user": user,
+    #             "author_id": author_id,
+    #             "author_profile": author_profile,
+    #             "role_inferred": role_inferred,              # CHANGED: peut valoir "user"
+    #             "sentiment_agentforce": round(sentiment, 3),
+    #             "justifications": " | ".join(justifs),
+    #             "evidence_quotes": " | ".join(quotes),
+    #             "n_comments": len(analyses),
+    #         })
+
+    #     df = pd.DataFrame(rows).sort_values(
+    #         ["role_inferred", "sentiment_agentforce"], ascending=[True, False]
+    #     )
+    #     print(f"[INFO] Aggregation complete. n_users={len(df)}")
+    #     return df
+
+
+
+    def aggregate_by_user(self, results: Dict[str, Dict[str, Any]], post_link: str | None = None) -> pd.DataFrame:
         print("[INFO] Aggregating per user…")
         by_user: Dict[str, List[Dict[str, Any]]] = {}
         meta: Dict[str, Tuple[str, str]] = {}
@@ -279,26 +327,28 @@ class CommentAnalyzer:
 
         rows = []
         for user, analyses in by_user.items():
-            # Rôles: on ne compte que les sources "fortes"
-            role_scores = {"employee": 0.0, "former_employee": 0.0, "customer": 0.0}
-            role_counts = {"employee": 0, "former_employee": 0, "customer": 0}
+            # CHANGED: rôles cibles = employee / partner
+            role_scores = {"employee": 0.0, "partner": 0.0}  # CHANGED
+            role_counts = {"employee": 0, "partner": 0}      # CHANGED
             STRONG = {"self_identified", "profile_flair"}
 
             for a in analyses:
-                r = a.get("role", "unknown")
+                r = a.get("role", "user")                   # CHANGED
                 src = a.get("role_source", "none")
-                c = float(a.get("role_confidence", 0.0))
-                if r in role_scores and src in STRONG and c >= 0.6:
-                    role_scores[r] += c
+                cconf = float(a.get("role_confidence", 0.0))
+                if r in role_scores and src in STRONG and cconf >= 0.6:
+                    role_scores[r] += cconf
                     role_counts[r] += 1
 
-            role_inferred = "unknown"
+            # CHANGED: par défaut "user"
+            role_inferred = "user"                          # CHANGED
             if any(role_counts.values()):
                 best = max(role_scores, key=lambda k: role_scores[k])
+                # garde les mêmes seuils d’inférence “forte”
                 if role_counts[best] >= 2 or role_scores[best] >= 1.5:
                     role_inferred = best
 
-            # Sentiment pondéré (inchangé)
+            # Sentiment (inchangé)
             num = den = 0.0
             quotes, justifs = [], []
             for a in analyses:
@@ -318,7 +368,7 @@ class CommentAnalyzer:
                 "user": user,
                 "author_id": author_id,
                 "author_profile": author_profile,
-                "role_inferred": role_inferred,
+                "role_inferred": role_inferred,              # CHANGED: peut valoir "user"
                 "sentiment_agentforce": round(sentiment, 3),
                 "justifications": " | ".join(justifs),
                 "evidence_quotes": " | ".join(quotes),
@@ -328,8 +378,15 @@ class CommentAnalyzer:
         df = pd.DataFrame(rows).sort_values(
             ["role_inferred", "sentiment_agentforce"], ascending=[True, False]
         )
+
+        # ➜ Ajoute la colonne en tête SANS impacter l’analyse
+        if post_link is not None:
+            df.insert(0, "post_link", post_link)
+
         print(f"[INFO] Aggregation complete. n_users={len(df)}")
         return df
+
+
 
     # ---------- INTERNALS ----------
     def _analyze_one(self, c: FlatComment) -> Dict[str, Any]:

@@ -1,0 +1,274 @@
+{
+  "info": {
+    "authorId": "t2_9ucblexg",
+    "author": "Ok-Buy-2929",
+    "authorProfile": "https://www.reddit.com/user/Ok-Buy-2929",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mxrs9z",
+    "postLabel": "venting 😤",
+    "publishingDate": "2025-08-23T04:18:02+00:00",
+    "postTitle": "Most mind numbingly sfdc gotchas",
+    "postMessage": "I'm sure there's some sub reddit that I missed, but this is the one I'm on. I have 16 years of dumb Salesforce things I've had to work around over the years, but this one I just wanted to share in case anyone comes across it. I developed a feature for my sales team to extend the capabilities for managing products on opportunities and quotes because we often have hundreds of products on each (don't ask... Working on that as well). They have called it a \" game changer\" because it allows them to search, sort, filter, bulk clone or delete products, update quantities, etc.  I used a combination of the typical screen flow, lwc data table and apex. Here's the most profound dumb thing I had to solve. Unlike the standard Edit Products button... When you change the product Quantity on any OLI guess what? It keeps the Total Price the same and adjusts the Unit Price to keep the total price the same! And this only happens if it happens from a flow or anywhere outside of the standard Edit Pro Products button. That's right. If my sales team is looking to sell a product at $100/ per unit for $100. And then up sells that to 10 products, well SFDC seems to think that I want to sell my product for $10/per unit. And they say, \"Yeah. That's what we expect.\" So I had to, as they put in their resolution to this idiotic issue, put my own automation in place to change the unit price back to what it's supposed to be. And of course that exposes us to governmor limit issues that we have to manage. Could I also put it into something asynchronous? Of course. That's not my point. I freaking shouldn't have to for this idiotic sfdc behavior. BTW...I know that if you change both the quantity and the unit price then the unit price also changes, but in a datable it's just going to update the changed column. At least that's as far as I know without going further down this ridiculous rabbit hole.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/",
+    "commentCount": 20,
+    "upvoteCount": 25,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Old_Man_Robot",
+      "authorProfile": "https://www.reddit.com/user/Old_Man_Robot",
+      "commentId": "t1_na7i845",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/na7i845/",
+      "publishingDate": 1755931584.0,
+      "commentBody": "Not to ask the obvious question here, but were you making use of the standard List Price/Sale Price functionality to give you separate modified and unmodified values that you could operate on individually?",
+      "upvotes": 5,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Oleg_Dobriy",
+      "authorProfile": "https://www.reddit.com/user/Oleg_Dobriy",
+      "commentId": "t1_na7n5fw",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/na7n5fw/",
+      "publishingDate": 1755934479.0,
+      "commentBody": " The behaviour of UnitPrice on OpportunityLineItem is simple and mentioned in the [documentation](https://developer.salesforce.com/docs/atlas.en-us.object_reference.meta/object_reference/sforce_api_objects_opportunitylineitem.htm):\n\n&gt;If you specify Quantity without specifying the UnitPrice, the UnitPrice value is adjusted to accommodate the new Quantity value, and the TotalPrice is held constant.\n\nAs it says [here](https://help.salesforce.com/s/articleView?id=000381172&amp;type=1), you just need to specify UnitPrice each time you change Quantity, which should be happening in the same DML where the Quantity is changed. That's why I wonder what kind of governor limits you hit.",
+      "upvotes": 18,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Comfortable_Angle671",
+          "authorProfile": "https://www.reddit.com/user/Comfortable_Angle671",
+          "commentId": "t1_na8k4c9",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/na8k4c9/",
+          "publishingDate": 1755952314.0,
+          "commentBody": "That may be how it is designed and documented but I agree with OP, that is poor design",
+          "upvotes": 12,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": null,
+          "author": "Ok-Buy-2929",
+          "authorProfile": "https://www.reddit.com/user/Ok-Buy-2929",
+          "commentId": "t1_na916l8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/na916l8/",
+          "publishingDate": 1755958553.0,
+          "commentBody": "I'm aware of the documentation. The behavior might be simple, it's simply stupid! I can't think of one real world example of an application for this behavior. It also doesn't work that way through the standard Edit Products UI.\n\nI'm also using a data table in a screen flow so there's no direct DML statement. The user just updates the quantity and hits save. I'm not hitting governor limits now, but I have other automations in place to show OLI updates to Order Products and to meet other business requirements so layering another automation to switch the Unit Price back is just plain dumb.",
+          "upvotes": 0,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Oleg_Dobriy",
+              "authorProfile": "https://www.reddit.com/user/Oleg_Dobriy",
+              "commentId": "t1_naaqsrp",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/naaqsrp/",
+              "publishingDate": 1755978180.0,
+              "commentBody": "I'm pretty sure that in the standard UI, they use the same trick that populates both fields.\n\n&gt;layering another automation to switch the Unit Price back is just plain dumb\n\nMy point is that you don't need a separate automation to update the UnitPrice field. After your data table, you can have a Transform element to copy selected Quantities, their current UnitPrice, and OLI IDs in a separate collection, and update it in one go. Yes, it's an additional step, but not that difficult to work around.",
+              "upvotes": 3,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "Ok-Buy-2929",
+                  "authorProfile": "https://www.reddit.com/user/Ok-Buy-2929",
+                  "commentId": "t1_nabzqk7",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/nabzqk7/",
+                  "publishingDate": 1755993882.0,
+                  "commentBody": "Interesting...I will give it a try. Thank you. I think it might be the same as the after update code that I added to some degree, but it is definitely a more concise solution.",
+                  "upvotes": 2,
+                  "dislikes": null,
+                  "downvotes": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Frumunda_chees",
+      "authorProfile": "https://www.reddit.com/user/Frumunda_chees",
+      "commentId": "t1_na83ffs",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/na83ffs/",
+      "publishingDate": 1755944317.0,
+      "commentBody": "One I found the other day - “Opportunities With Products” standard report type is actually With or Without Products…why not just name it with or without? I think it’s the only report type that does this and somehow I never noticed until recently.",
+      "upvotes": 9,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "GeologistMinimum705",
+      "authorProfile": "https://www.reddit.com/user/GeologistMinimum705",
+      "commentId": "t1_na9qra4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/na9qra4/",
+      "publishingDate": 1755966782.0,
+      "commentBody": "Basic community licenses don’t offer reports and dashboards",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Inner-Sundae-8669",
+      "authorProfile": "https://www.reddit.com/user/Inner-Sundae-8669",
+      "commentId": "t1_na8gbkt",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/na8gbkt/",
+      "publishingDate": 1755950769.0,
+      "commentBody": "I agree that is a very strange,  and pretty much nonsensical architectural decision on salesforce part,  but i don't see how it is a dml issue,  that record is already being updated to cause the problem,  can you not update the price and quantity in the same dml statement?",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Puzzled-Mycologist61",
+      "authorProfile": "https://www.reddit.com/user/Puzzled-Mycologist61",
+      "commentId": "t1_nab1283",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/nab1283/",
+      "publishingDate": 1755981525.0,
+      "commentBody": "If you turn on case feed your action buttons automatically end up on the chatter composer not on the detail part of the case page.\n\nYou cant make close date on opportunities unrequired\n\nYou can’t pre-default an opportunity name \n\nYou cant rename closed won and closed \n\nyou have to switch to classic to update search layouts \n\nJoined reports are so slow and difficult to work with\n\nDashboard filters only show the date field if you have different object report types but if you add them with only one object and then you add the filter second they are at least still usable\n\nYou can’t add record type as a filter criteria on a flow, has to be a formula\n\nYou cant have a yearly report snapshot or scheduled report\n\nI could go for days.",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Ok-Buy-2929",
+          "authorProfile": "https://www.reddit.com/user/Ok-Buy-2929",
+          "commentId": "t1_nac1ag8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/nac1ag8/",
+          "publishingDate": 1755994471.0,
+          "commentBody": "Having to switch back to classic to do things in 2025 is absolutely insane! I had a use case where I led a project to transition the sales team to be able to use Orders instead of shoving all fulfillment activities into opportunities. (Something I inherited) One requirement so it would flow seamlessly to our ERP is that a custom auto number field on the opportunity had to pick up with the next number for the Order Number when implemented. The only way to accomplish this was to switch to classic, set the starting number on the Order Number field and then switch back. Ugh. Dumb.",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Much-Macaroon3953",
+      "authorProfile": "https://www.reddit.com/user/Much-Macaroon3953",
+      "commentId": "t1_nae1dr4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/nae1dr4/",
+      "publishingDate": 1756029955.0,
+      "commentBody": "Created Date doesn’t show as date/time in a report. \n\nYou have to either create a row level formula in the report or create a custom field on the object. \n\nSo dumb.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "vanimations",
+          "authorProfile": "https://www.reddit.com/user/vanimations",
+          "commentId": "t1_naebqzm",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/naebqzm/",
+          "publishingDate": 1756035560.0,
+          "commentBody": "It's not dumb at all. I was actually the one on the Created Date team who figured out that if we didn't display it as a date/time we could make an average per client of $0.0017/month based on clients willing to pay for licenses that allow additional fields per object because they hit the limit. I also invented multi-picklists and record types. :)",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Much-Macaroon3953",
+              "authorProfile": "https://www.reddit.com/user/Much-Macaroon3953",
+              "commentId": "t1_nafztx9",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/nafztx9/",
+              "publishingDate": 1756056171.0,
+              "commentBody": "Hahahah man I love this reply",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            },
+            {
+              "authorId": null,
+              "author": "Archangel_Alan",
+              "authorProfile": "https://www.reddit.com/user/Archangel_Alan",
+              "commentId": "t1_naxn9v8",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/naxn9v8/",
+              "publishingDate": 1756296659.0,
+              "commentBody": "![gif](giphy|y2i2oqWgzh5ioRp4Qa)",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "Primary_Ad6138",
+      "authorProfile": "https://www.reddit.com/user/Primary_Ad6138",
+      "commentId": "t1_na8iaj0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/na8iaj0/",
+      "publishingDate": 1755951578.0,
+      "commentBody": "If someone could summarise this rant, I would consider reading it &amp; giving feedback",
+      "upvotes": 4,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Steady_Ri0t",
+      "authorProfile": "https://www.reddit.com/user/Steady_Ri0t",
+      "commentId": "t1_naa1bsg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/naa1bsg/",
+      "publishingDate": 1755970121.0,
+      "commentBody": "Several years ago I found a site dedicated to telling stories like this. Was just looking for it recently but haven't been able to find it. It was basically bash.org for Salesforce lol\n\nEdit: found it in some old bookmarks on a browser I don't use anymore. It was somehow https://elements.cloud/confessions/ which unfortunately no longer works. What a great loss to the SFDC community",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "Working_Editor3435",
+      "authorProfile": "https://www.reddit.com/user/Working_Editor3435",
+      "commentId": "t1_na7jfb9",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/na7jfb9/",
+      "publishingDate": 1755932285.0,
+      "commentBody": "If the standard approach does not work your the companies business process, then do your own. \n\nCreate new custom field for the unit price on product and a RUSF on the order to calculate the sum. You can then put your own APEX or Flow logic in place to make it work according to the companies business requirements.",
+      "upvotes": -4,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "TraditionalHousing65",
+          "authorProfile": "https://www.reddit.com/user/TraditionalHousing65",
+          "commentId": "t1_na8vj67",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/na8vj67/",
+          "publishingDate": 1755956583.0,
+          "commentBody": "That’s missing the point. The point is, Salesforce imposes wonky business flows that are not configurable, causing us to have to develop a roundabout way of providing the functionality that we should be able to configure ourselves.",
+          "upvotes": 4,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": null,
+          "author": "Ok-Buy-2929",
+          "authorProfile": "https://www.reddit.com/user/Ok-Buy-2929",
+          "commentId": "t1_na92bqu",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mxrs9z/most_mind_numbingly_sfdc_gotchas/na92bqu/",
+          "publishingDate": 1755958936.0,
+          "commentBody": "I've been doing this for 16 years. I have done more custom work around processes than you can possibly imagine. My point is, the standard behavior is not standard since it doesn't behave like this when using the standard Edit Products UI. I can't think of one real world example where a business would want to lower their standard per unit price with added quantity. They might offer a discount, but that's different and not set automatically by Salesforce.",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    }
+  ]
+}

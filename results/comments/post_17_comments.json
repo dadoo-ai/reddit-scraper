@@ -1,0 +1,32 @@
+{
+  "info": {
+    "authorId": "t2_fiahtkv",
+    "author": "Hayduke8623",
+    "authorProfile": "https://www.reddit.com/user/Hayduke8623",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1n1m9k0",
+    "postLabel": null,
+    "publishingDate": "2025-08-27T16:46:14+00:00",
+    "postTitle": "Email design and dashboards for MC growth",
+    "postMessage": "Does anyone have a good recommendation for an email design app and a dashboard/analytics app that will work in Marketing cloud growth? There’s nothing on the app exchange.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1n1m9k0/email_design_and_dashboards_for_mc_growth/",
+    "commentCount": 1,
+    "upvoteCount": 5,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "andrewderjack",
+      "authorProfile": "https://www.reddit.com/user/andrewderjack",
+      "commentId": "t1_nb3fpwd",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n1m9k0/email_design_and_dashboards_for_mc_growth/nb3fpwd/",
+      "publishingDate": 1756367815.0,
+      "commentBody": "For email design, a lot of MC Growth users pair Salesforce with external builders since the native editor is clunky. Tools like Postcards email builder work well, you can drag-drop responsive modules, export clean HTML, and then drop that straight into Marketing Cloud.\n\nOn the analytics side, most people bolt on something like Datorama (now Marketing Cloud Intelligence) or go lighter with Google Data Studio/Looker Studio connected via exports. If you just want quick visibility, tools like Unspam Email can give you both design previews and spam test.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

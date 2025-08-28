@@ -1,0 +1,278 @@
+{
+  "info": {
+    "authorId": "t2_3dp26",
+    "author": "redmongrel",
+    "authorProfile": "https://www.reddit.com/user/redmongrel",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1n163v1",
+    "postLabel": null,
+    "publishingDate": "2025-08-27T03:10:06+00:00",
+    "postTitle": "Result of posing the same challenge to Claude and ChatGPT - surprised by 10x difference in girth!",
+    "postMessage": "As a long time admin-architect whose code supervisor of many years has been pulled into another project, leaving me as the sole enterprise system owner, I have both the burden and the freedom to begin questioning some of the rolling-legacy code quality that has left us with frequent integration failures due to apex time outs. While I'm great at communicating and designing complicated business solutions, CPQ capabilities, huge Flows etc I am NOT nor ever wished to be a capable Apex coder. So I quickly glommed onto Claude to develop ideas in an evening that a dev would have kept me waiting weeks for (ask how I know) - and yes, fully class tested and working! After succeeding in two smaller challenges, I went straight to our big dog global Account Team automator, which ChatGPT describes well, \"it was a god class: it handled state control, SOQL queries, reassignment logic, and DML all inside one block. That made it inefficient, harder to test, and difficult to extend.\" What it offered was to split the single class into 6, with < 5,000 total characters. But this was only after I already brought the challenge to Claude who had the same conclusion - BUT it gave me 26 classes and > 55,000 characters!! I have to wait a day to refresh the latest QA box into two unique sandboxes to test these side-by-side, but I gave ChatGPT the solution from Claude stating my unease, and it happily assured me that they perform all the same tasks and even broke out a side-by-side comparison of every class. Anyway, I found this pretty fascinating and if OpenAI really can do the job in 1/10 the space, it adds up to a significant code base delta...",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/",
+    "commentCount": 20,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "4ArgumentsSake",
+      "authorProfile": "https://www.reddit.com/user/4ArgumentsSake",
+      "commentId": "t1_navyva8",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/navyva8/",
+      "publishingDate": 1756265904.0,
+      "commentBody": "What was the prompt? If you told both to “split up this code” then technically Claude did a better job since it split it up more. \n\nIn general I find Claude to be more accurate for apex and OpenAI (through copilot) to hallucinate more stuff that Apex *should* have, but it doesn’t.",
+      "upvotes": 8,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "redmongrel",
+          "authorProfile": "https://www.reddit.com/user/redmongrel",
+          "commentId": "t1_nb0b5y8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/nb0b5y8/",
+          "publishingDate": 1756324951.0,
+          "commentBody": "To create a fair test I gave them the same prompt, to make this more efficient, consistent, and compliant. Claude decided on its own that the only responsible way was to split it up, and ChatGPT replied with a summary of its issues first so I had to ask it to give me the refactor and told it that it may split it up if that was a better solution.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": null,
+          "author": "Ownfir",
+          "authorProfile": "https://www.reddit.com/user/Ownfir",
+          "commentId": "t1_nayswtv",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/nayswtv/",
+          "publishingDate": 1756309602.0,
+          "commentBody": "Claude split it into more chunks that resulted in a total code base 10x the size of the solution ChatGPT proposed. I’ve had this exact same experience as well especially using CLI. Claude is far more verbose than GPT5.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "4ArgumentsSake",
+              "authorProfile": "https://www.reddit.com/user/4ArgumentsSake",
+              "commentId": "t1_naze1k5",
+              "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/naze1k5/",
+              "publishingDate": 1756315624.0,
+              "commentBody": "What was the prompt?",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "Ownfir",
+                  "authorProfile": "https://www.reddit.com/user/Ownfir",
+                  "commentId": "t1_nb06i57",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/nb06i57/",
+                  "publishingDate": 1756323631.0,
+                  "commentBody": "I do not know i am just explaining to you that Claude didn’t just split up the existing code base it also added a ton of additional code in the process as it wasn’t just trying to refactor what was already there but was trying to improve it for enterprise use. Again idk the prompt I’m just telling you what I surmised off of OPs post.",
+                  "upvotes": 1,
+                  "dislikes": null,
+                  "downvotes": null,
+                  "replies": [
+                    {
+                      "authorId": null,
+                      "author": "4ArgumentsSake",
+                      "authorProfile": "https://www.reddit.com/user/4ArgumentsSake",
+                      "commentId": "t1_nb0f4jc",
+                      "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/nb0f4jc/",
+                      "publishingDate": 1756326048.0,
+                      "commentBody": "I thought you knew OP. I understand what OP is saying but without knowing the prompts we can’t compare. Claude can be more verbose, but I’ve also seen where OpenAI is more verbose and Claude comes up with the simpler answer. \n\nIt also sounds like the same prompts weren’t given to both so this whole post is kinda useless.",
+                      "upvotes": 1,
+                      "dislikes": null,
+                      "downvotes": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "authorId": null,
+              "author": "redmongrel",
+              "authorProfile": "https://www.reddit.com/user/redmongrel",
+              "commentId": "t1_nb0blil",
+              "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/nb0blil/",
+              "publishingDate": 1756325070.0,
+              "commentBody": "Yeah and it should be noted not only does Claude create longer code, but it also comments the hell out of it as a support for future builders. Which to its defense is great.",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "_ForcePushMaster",
+      "authorProfile": "https://www.reddit.com/user/_ForcePushMaster",
+      "commentId": "t1_nawstpb",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/nawstpb/",
+      "publishingDate": 1756281442.0,
+      "commentBody": "Unfortunately that analysis is not complete yet? You have two completely different results both of which MIGHT be valid. I'm saying \"might\" because it doesn't sound like you've really validated that yet.\n\nAnyway, based on this info we can't really know which version is better, e.g.\n\n- If one version is unnecessarily verbose, that might be bad\n- If one version is verbose because it employs proper enterprise patterns and they conform to your org, that's great \n- If one version is short because it completely ignores any enterprise patterns that already exist (or should exist), that is bad.",
+      "upvotes": 4,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "big-blue-balls",
+      "authorProfile": "https://www.reddit.com/user/big-blue-balls",
+      "commentId": "t1_nawxp0i",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/nawxp0i/",
+      "publishingDate": 1756284310.0,
+      "commentBody": "I think you’ve compared apples and oranges here. One was an ask to Claude to split up your current code base. The other being you then asked ChatGPT to refactor it and make it smaller. \n\nI don’t know why you’re impressed with the outcome. What am I missing?",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "wostmardin",
+      "authorProfile": "https://www.reddit.com/user/wostmardin",
+      "commentId": "t1_nawcxap",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/nawcxap/",
+      "publishingDate": 1756272516.0,
+      "commentBody": "I found both models to be quite awful for Salesforce and regularly give imaginary classes or functions and not really understand or adhere to correct patterns and best practices - they're good at checking stuff I find but I'll be very very impressed given the size if all the files they've given you work and tests pass first time (I assume it gave tests too right?) - not to be a negative nelly lol",
+      "upvotes": 4,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "GriffinNowak",
+          "authorProfile": "https://www.reddit.com/user/GriffinNowak",
+          "commentId": "t1_naxam24",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/naxam24/",
+          "publishingDate": 1756291323.0,
+          "commentBody": "Try getting it to write SOQL it’s actually funny",
+          "upvotes": 4,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "ExperienceNo7751",
+      "authorProfile": "https://www.reddit.com/user/ExperienceNo7751",
+      "commentId": "t1_naz2qjr",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/naz2qjr/",
+      "publishingDate": 1756312408.0,
+      "commentBody": "Wrote my first  Apex Class fo an API this week. with having GPT challenge me on purely technical questions based on a BRD. \n\nI used that to create a functional spec that I maybe spent 30-45m cleaning up. \n\n\n\nThen I got a MVP working with just GPT. Once I got that far, i used Claude to digest my existing metadata, BRD and Functional Spec.  \n\n\nI gave Claude a simple instruction to hypothesize 2-3 different approaches, and a last “Best Practice for Minimal Tech Debt”.  Took my favorite ideas from all of them, used VS code and SF plugins to identify improvements. \n\n\nA competent SF developer would probably have done much cleaner and faster, likely with less future headaches— but unlike them, I’ve been cowboying  BRD’s into PRD with excellent documentation for a decade.  \n\n\n\nI probably saved 2 weeks of waiting and 4 hours of meetings.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "redmongrel",
+      "authorProfile": "https://www.reddit.com/user/redmongrel",
+      "commentId": "t1_navur3p",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/navur3p/",
+      "publishingDate": 1756264215.0,
+      "commentBody": "*FYI an admission, I initially posted this to r/salesforcedeveloper but realized this might be exactly the kind of job-reducing content they DON'T want to keep hearing about, and that it might be better in a general-use sub for others in my type of situation.*\n\n\nChatGPT seems to know how Claude rolls already, and even before I gave it the Claude refactor it broke down why I would see such a chasm:\n\n\n**Why Claude’s version is so much bigger**\n\n**Enterprise-grade separation:**\n\n- Every tiny responsibility gets its own class or layer (selectors, mappers, DTOs, validators, services, etc.).\n\n- Even small helpers and static utilities can become individual classes.\n\n**Verbose naming and documentation:**\n\n- Enterprise-style often prefers full, explicit names for readability, logging, and maintainability.\n\n- Lots of scaffolding, comments, and patterns that repeat for consistency.\n\n**Extensibility focus:**\n\n- Designed so that new assignment rules, regions, or team logic can be added by dropping in a new class rather than modifying existing code.\n\n- This makes the codebase future-proof but also longer.\n\n**Why my 6-class refactor is shorter**\n\n**Focused grouping:**\n\n- Multiple related responsibilities were combined into a single, logically coherent class where it made sense (selectors, helpers, DTO).\n\n- Avoided splitting every little piece unless it clearly needed isolation.\n\n**Minimal boilerplate:**\n\n- Less scaffolding for enterprise-style extensibility, logging, and separate validators.\n\n**Bulk of logic remains intact:**\n\n- All original functionality (USA/EUR handling, zip/territory mapping, AccountTeamMember creation, AccountShare insertion) is preserved.\n\n- Uses helper methods and DTO for clarity without inflating the character count.\n\n\n\n**Bottom line**\n- Both approaches are valid.\n- Claude’s is enterprise-heavy, highly modular, verbose—great for very large orgs with multiple developers and future extension.\n- My version is modern, maintainable, bulk-safe, and concise—fits most orgs without sacrificing functionality.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "QuitClearly",
+          "authorProfile": "https://www.reddit.com/user/QuitClearly",
+          "commentId": "t1_navw9aj",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/navw9aj/",
+          "publishingDate": 1756264818.0,
+          "commentBody": "gpt 5 thinking?",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "redmongrel",
+              "authorProfile": "https://www.reddit.com/user/redmongrel",
+              "commentId": "t1_navxcgn",
+              "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/navxcgn/",
+              "publishingDate": 1756265268.0,
+              "commentBody": "Ha I thought the same thing! I'm not a frequent GPT user but it's impossible to not hear about general disappointment in its recent model. I understand the corporate reason to make conversation responses shorter (weird emotional dependency be damned), but I hope that doesn't extend to technical solutions! I'll know soon enough.",
+              "upvotes": -5,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "4ArgumentsSake",
+                  "authorProfile": "https://www.reddit.com/user/4ArgumentsSake",
+                  "commentId": "t1_navye09",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/navye09/",
+                  "publishingDate": 1756265704.0,
+                  "commentBody": "They’re asking if you used the thinking mode or the regular mode.",
+                  "upvotes": 5,
+                  "dislikes": null,
+                  "downvotes": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "No_Reveal_2455",
+      "authorProfile": "https://www.reddit.com/user/No_Reveal_2455",
+      "commentId": "t1_naxozxd",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/naxozxd/",
+      "publishingDate": 1756297289.0,
+      "commentBody": "Did you attempt to validate that the code will deploy and pass existing unit tests?",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "KoreanJesus_193",
+      "authorProfile": "https://www.reddit.com/user/KoreanJesus_193",
+      "commentId": "t1_nayfs8n",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/nayfs8n/",
+      "publishingDate": 1756305827.0,
+      "commentBody": "as a developer Claude is on a whole new level on top of Chatgpt. We cannot even compare these 2.\n\nI love Claude a lot. Saved me a lot many times.",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "redmongrel",
+          "authorProfile": "https://www.reddit.com/user/redmongrel",
+          "commentId": "t1_nb0chqh",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/nb0chqh/",
+          "publishingDate": 1756325319.0,
+          "commentBody": "Only thing I’m routinely disappointed in is because it creates so much code, I’m having a very hard time getting it to complete a test class because the code window can’t hold it all, and nudging it to continue isn’t working.",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "chemchris",
+      "authorProfile": "https://www.reddit.com/user/chemchris",
+      "commentId": "t1_nb6rh2r",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n163v1/result_of_posing_the_same_challenge_to_claude_and/nb6rh2r/",
+      "publishingDate": 1756409242.0,
+      "commentBody": "Cool, come back after you deploy it to production to let us know how it goes",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

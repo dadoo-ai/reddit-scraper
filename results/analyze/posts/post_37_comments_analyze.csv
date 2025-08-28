@@ -1,0 +1,2 @@
+post_link,user,author_id,author_profile,role_inferred,sentiment_agentforce,justifications,evidence_quotes,n_comments
+https://www.reddit.com/r/salesforce/comments/1mvj8hm/text_message_response_action/,Suspicious-Nerve-487,,https://www.reddit.com/user/Suspicious-Nerve-487,user,0.0,"The comment only contains a link and does not provide any information, opinion, or context about Salesforce or Agentforce. There is no evidence of the user's relationship to Salesforce, nor any sentiment expressed.",https://www.reddit.com/r/salesforce/s/8wNVl7rCtg,1

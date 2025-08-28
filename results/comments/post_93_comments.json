@@ -1,0 +1,58 @@
+{
+  "info": {
+    "authorId": "t2_1qbyo8xcqq",
+    "author": "No-Role8676",
+    "authorProfile": "https://www.reddit.com/user/No-Role8676",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1ms2nc8",
+    "postLabel": null,
+    "publishingDate": "2025-08-16T17:59:09+00:00",
+    "postTitle": "I want to learn Salesforce",
+    "postMessage": "Hey everyone, I recently graduated. I was working during college, and although I don't know any coding languages, I am good with computers and tech-related tasks. I want to learn Salesforce and become a Salesforce developer. Could anyone please help me with a roadmap and let me know which programming language I should learn first? If you have any resources to share, I’d really appreciate it!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1ms2nc8/i_want_to_learn_salesforce/",
+    "commentCount": 3,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Pancovnik",
+      "authorProfile": "https://www.reddit.com/user/Pancovnik",
+      "commentId": "t1_n91ozx6",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ms2nc8/i_want_to_learn_salesforce/n91ozx6/",
+      "publishingDate": 1755367779.0,
+      "commentBody": "Step #1: Try to do some research (maybe the pinned posts on this sub) or to find if anyone has asked these questions before on million blog posts dedicated to this topic.\n\nStep #2: Learn to focus on step #1 because nobody will do a roadmap for you.\n\nStep #3: Repeat Step #1 until you are Salesforce Dev.",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "No-Role8676",
+          "authorProfile": "https://www.reddit.com/user/No-Role8676",
+          "commentId": "t1_n91pp2p",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ms2nc8/i_want_to_learn_salesforce/n91pp2p/",
+          "publishingDate": 1755367990.0,
+          "commentBody": "Thank you 😊😊",
+          "upvotes": -1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "zerofalks",
+      "authorProfile": "https://www.reddit.com/user/zerofalks",
+      "commentId": "t1_n92nmd6",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ms2nc8/i_want_to_learn_salesforce/n92nmd6/",
+      "publishingDate": 1755379142.0,
+      "commentBody": "Salesforce prides itself on being mostly declarative, so coding is not something you need to know. \n\nCheck the pinned post it would direct you to trailhead, the learning platform Salesforce uses. \n\nAlso set your expectation now to give it 6 months to a year of learning and training.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "info": {
+    "authorId": "t2_9dm0urbp",
+    "author": "Junior-Ad-8519",
+    "authorProfile": "https://www.reddit.com/user/Junior-Ad-8519",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mtct0d",
+    "postLabel": null,
+    "publishingDate": "2025-08-18T04:58:48+00:00",
+    "postTitle": "Job Hunting Websites",
+    "postMessage": "I am looking for a full-time position after doing a year of short-term contracts. I have 12 years of Salesforce experience. What is your favorite job board or hiring website? Are there recruiting companies you prefer or avoid? The job market was great the last time I was looking for n FTE position. This time, it's definitely slower and more difficult.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mtct0d/job_hunting_websites/",
+    "commentCount": 3,
+    "upvoteCount": 4,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_n9ax3g0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mtct0d/job_hunting_websites/n9ax3g0/",
+      "publishingDate": 1755495921.0,
+      "commentBody": "Chronologically, the last post on the sub is basically the same thing as this post. Check it out: [https://www.reddit.com/r/salesforce/comments/1mt3vk3/is\\_the\\_salesforce\\_developer\\_market\\_collapsing\\_or/](https://www.reddit.com/r/salesforce/comments/1mt3vk3/is_the_salesforce_developer_market_collapsing_or/)\n\n  \nLinkedIn is probably going to have all the available jobs, if you're talking North America. If you're not, then tell us where you're looking for a job!",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "afflikt3d",
+      "authorProfile": "https://www.reddit.com/user/afflikt3d",
+      "commentId": "t1_n9kuxaq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mtct0d/job_hunting_websites/n9kuxaq/",
+      "publishingDate": 1755629930.0,
+      "commentBody": "I have been using [hiring.cafe](https://hiring.cafe) recently and I personally like it more than LinkedIn. At the very least, imo, it feels better to *not* see that over 100 applicants have applied to each job. \n\nPlus, in my experience, it had quite a few jobs that hadn't been posted on LinkedIn or Indeed. Of course the inverse is also true and it will sometimes not have jobs posted on the other sites. YMMV, but I found it to be useful.",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Junior-Ad-8519",
+          "authorProfile": "https://www.reddit.com/user/Junior-Ad-8519",
+          "commentId": "t1_n9llicw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mtct0d/job_hunting_websites/n9llicw/",
+          "publishingDate": 1755637555.0,
+          "commentBody": "Thanks! I'll check it out.",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    }
+  ]
+}

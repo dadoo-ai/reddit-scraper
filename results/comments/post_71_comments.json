@@ -1,0 +1,110 @@
+{
+  "info": {
+    "authorId": "t2_tvpnl3do",
+    "author": "External_Drawing4504",
+    "authorProfile": "https://www.reddit.com/user/External_Drawing4504",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mx4ute",
+    "postLabel": null,
+    "publishingDate": "2025-08-22T12:15:13+00:00",
+    "postTitle": "How to comment in SQQL in Salesforce Inspector",
+    "postMessage": "I use the Salesforce Inpsector to query our salesforce data. I want to add comments to my saved SQQL queries, so that I can understand them when I return to them, without having to scrutinize every line. I write the one line comment like this: -- non 69 active contracts But when I try run a query with my comment I get an error MALFORMED_QUERY: unexpected token: '-' What am I doing wrong?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mx4ute/how_to_comment_in_sqql_in_salesforce_inspector/",
+    "commentCount": 8,
+    "upvoteCount": 1,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "SnooChipmunks547",
+      "authorProfile": "https://www.reddit.com/user/SnooChipmunks547",
+      "commentId": "t1_na29218",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mx4ute/how_to_comment_in_sqql_in_salesforce_inspector/na29218/",
+      "publishingDate": 1755865179.0,
+      "commentBody": "You’re missing nothing, SOQL doesn’t support comments, unlike its more preferred counter part SQL.",
+      "upvotes": 20,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "OkKnowledge2064",
+          "authorProfile": "https://www.reddit.com/user/OkKnowledge2064",
+          "commentId": "t1_nab0hh4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mx4ute/how_to_comment_in_sqql_in_salesforce_inspector/nab0hh4/",
+          "publishingDate": 1755981335.0,
+          "commentBody": "man how much I wish they would allow sql",
+          "upvotes": 2,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "V1ld0r_",
+      "authorProfile": "https://www.reddit.com/user/V1ld0r_",
+      "commentId": "t1_na2a84z",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mx4ute/how_to_comment_in_sqql_in_salesforce_inspector/na2a84z/",
+      "publishingDate": 1755865613.0,
+      "commentBody": "Use the \"Label\" to input the comment? \n\nThis is part of the reason why I still use a long npp file with queries :) \n\nI also prefer mavensMate query manager over to inspector.",
+      "upvotes": 4,
+      "dislikes": null,
+      "downvotes": null
+    },
+    {
+      "authorId": null,
+      "author": "DoubleRightClick",
+      "authorProfile": "https://www.reddit.com/user/DoubleRightClick",
+      "commentId": "t1_na2ec68",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mx4ute/how_to_comment_in_sqql_in_salesforce_inspector/na2ec68/",
+      "publishingDate": 1755867085.0,
+      "commentBody": "I comment SOQL queries in Apex and it bites me every time I copy it somewhere to run it.\n\nIf it's only for inspector, you could try something hacky like misusing where conditions.\n\nWHERE Name != '-- non 69 active contracts'",
+      "upvotes": 3,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "gearcollector",
+          "authorProfile": "https://www.reddit.com/user/gearcollector",
+          "commentId": "t1_na2qac1",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mx4ute/how_to_comment_in_sqql_in_salesforce_inspector/na2qac1/",
+          "publishingDate": 1755870988.0,
+          "commentBody": "Be careful with != operators in queries. This makes the query not use indexes, resulting in poor performance, if the dataset becomes larger.",
+          "upvotes": 6,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "cmstlist",
+              "authorProfile": "https://www.reddit.com/user/cmstlist",
+              "commentId": "t1_nafsx5u",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mx4ute/how_to_comment_in_sqql_in_salesforce_inspector/nafsx5u/",
+              "publishingDate": 1756054103.0,
+              "commentBody": "Well more specifically, a != condition does not benefit from indexing, but it won't necessarily kill all the indexing in a query. If you have **WHERE fieldA = 'selectiveCondition' AND fieldB != 'excludedValue'** then you should still benefit from indexing on **fieldA**.",
+              "upvotes": 1,
+              "dislikes": null,
+              "downvotes": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "mrdanmarks",
+      "authorProfile": "https://www.reddit.com/user/mrdanmarks",
+      "commentId": "t1_na3x5ee",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mx4ute/how_to_comment_in_sqql_in_salesforce_inspector/na3x5ee/",
+      "publishingDate": 1755883892.0,
+      "commentBody": "Move your queries to vscode execute anonymous and save files to git?",
+      "upvotes": 1,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

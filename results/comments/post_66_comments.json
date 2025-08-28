@@ -1,0 +1,142 @@
+{
+  "info": {
+    "authorId": "t2_2m2mukr",
+    "author": "RayCLL",
+    "authorProfile": "https://www.reddit.com/user/RayCLL",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mtruss",
+    "postLabel": null,
+    "publishingDate": "2025-08-18T17:02:46+00:00",
+    "postTitle": "Junction objects newbie question",
+    "postMessage": "Hello all, I’m fairly new to the Salesforce eco system just had a quick question! I’ve created a custom junction object (it has 2 masters) and looking to make this junction object a master. After creating a new custom object I can’t seem to make the junction object the parent as it doesn’t appear in the master - detail relationship list? Just wondering if I’m missing something here 🤔 I’m in a fresh sandbox just for a bit more context! Thanks in advance ❤️",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mtruss/junction_objects_newbie_question/",
+    "commentCount": 8,
+    "upvoteCount": 12,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "sdry__",
+      "authorProfile": "https://www.reddit.com/user/sdry__",
+      "commentId": "t1_n9dwi2r",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mtruss/junction_objects_newbie_question/n9dwi2r/",
+      "publishingDate": 1755539212.0,
+      "commentBody": "That’s a strange design, what do you want to accomplish?",
+      "upvotes": 7,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_n9ed8cs",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mtruss/junction_objects_newbie_question/n9ed8cs/",
+          "publishingDate": 1755544051.0,
+          "commentBody": "The right question always, especially to our self-admittedly newbie friends.\n\n  \nDon't ask us if something is possible without telling us what business process you are trying to facilitate. The reality is you might have started the whole journey down the wrong path x)",
+          "upvotes": 3,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "lexphile",
+      "authorProfile": "https://www.reddit.com/user/lexphile",
+      "commentId": "t1_n9dqphf",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mtruss/junction_objects_newbie_question/n9dqphf/",
+      "publishingDate": 1755537594.0,
+      "commentBody": "You cannot create another master-detail relationship on the junction object. It already has two M-D relationships which is the max. You can proceed with a lookup relationship instead if it solves the use case.",
+      "upvotes": 12,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_n9ed2ky",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mtruss/junction_objects_newbie_question/n9ed2ky/",
+          "publishingDate": 1755544004.0,
+          "commentBody": "I think they said this:\n\nThey created Junction Object X, and it has 2 master-detail fields related to Objects A and B\n\nNow, they created an Object Y, and want to have a master-detail to Object X\n\nIf that is their plan, then that is not possible: [https://help.salesforce.com/s/articleView?language=en\\_US&amp;id=platform.relationships\\_considerations.htm&amp;type=5](https://help.salesforce.com/s/articleView?language=en_US&amp;id=platform.relationships_considerations.htm&amp;type=5)",
+          "upvotes": 3,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "[deleted]",
+              "authorProfile": "https://www.reddit.com/user/[deleted]",
+              "commentId": "t1_n9em94y",
+              "link": "https://www.reddit.com/r/salesforce/comments/1mtruss/junction_objects_newbie_question/n9em94y/",
+              "publishingDate": 1755546657.0,
+              "commentBody": "[deleted]",
+              "upvotes": -5,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "Interesting_Button60",
+                  "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+                  "commentId": "t1_n9eu1uc",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1mtruss/junction_objects_newbie_question/n9eu1uc/",
+                  "publishingDate": 1755548903.0,
+                  "commentBody": "I guess we read it differently :)",
+                  "upvotes": 1,
+                  "dislikes": null,
+                  "downvotes": null,
+                  "replies": [
+                    {
+                      "authorId": null,
+                      "author": "[deleted]",
+                      "authorProfile": "https://www.reddit.com/user/[deleted]",
+                      "commentId": "t1_n9ezl6f",
+                      "link": "https://www.reddit.com/r/salesforce/comments/1mtruss/junction_objects_newbie_question/n9ezl6f/",
+                      "publishingDate": 1755550484.0,
+                      "commentBody": "[deleted]",
+                      "upvotes": -5,
+                      "dislikes": null,
+                      "downvotes": null,
+                      "replies": [
+                        {
+                          "authorId": null,
+                          "author": "systemographer",
+                          "authorProfile": "https://www.reddit.com/user/systemographer",
+                          "commentId": "t1_n9ft7pt",
+                          "link": "https://www.reddit.com/r/salesforce/comments/1mtruss/junction_objects_newbie_question/n9ft7pt/",
+                          "publishingDate": 1755559973.0,
+                          "commentBody": "The original comment said you can't create an additional master-detail ON the junction object (it can't be a child 3 times).\n\nu/Interesting_Button60 's comment was that you can't create a master-detail TO a junction object (it can't be a parent).\n\nThose are both true statements, but are different things. The second one is what the OP was asking about.",
+                          "upvotes": 4,
+                          "dislikes": null,
+                          "downvotes": null,
+                          "replies": [
+                            {
+                              "authorId": null,
+                              "author": "Interesting_Button60",
+                              "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+                              "commentId": "t1_n9ftgrh",
+                              "link": "https://www.reddit.com/r/salesforce/comments/1mtruss/junction_objects_newbie_question/n9ftgrh/",
+                              "publishingDate": 1755560058.0,
+                              "commentBody": "Thanks, that's how I read it, I didn't think I was saying the same thing. \n\n  \nCertainly not confident enough to argue on the internet about it.",
+                              "upvotes": 3,
+                              "dislikes": null,
+                              "downvotes": null
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

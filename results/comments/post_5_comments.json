@@ -1,0 +1,100 @@
+{
+  "info": {
+    "authorId": "t2_ts3dc3ao",
+    "author": "Gia_Sekando_G2",
+    "authorProfile": "https://www.reddit.com/user/Gia_Sekando_G2",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1n2hhyn",
+    "postLabel": null,
+    "publishingDate": "2025-08-28T16:48:01+00:00",
+    "postTitle": "Accounts with or without files reporting",
+    "postMessage": "Hello! I'm hoping I can get a bit of advice on this: I'm tasked to create two reports: \n1. Accounts with files attached (mostly pdfs)\n2. Accounts without files attached I've tried custom reports with Accounts and content documents (since I can't find \"files\" anywhere) and the standard reports do not allow me to display Account information. Is there any solution for this? Thanks beforehand!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1n2hhyn/accounts_with_or_without_files_reporting/",
+    "commentCount": 6,
+    "upvoteCount": 2,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": null,
+      "author": "Cool-Break-6134",
+      "authorProfile": "https://www.reddit.com/user/Cool-Break-6134",
+      "commentId": "t1_nb5vs5a",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n2hhyn/accounts_with_or_without_files_reporting/nb5vs5a/",
+      "publishingDate": 1756400262.0,
+      "commentBody": "Not sure from reporting side but possible via SOQL\n\nCould use record id to query for ContentDocument associations (ie files). Associated to target Account id set ( use IN operator to allow checking wide array of target record ids). Can use ContentDocument id to grab ContenVersion info if need to further filter or pull in relevant info (file name, type, size, etc)",
+      "upvotes": 5,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Gia_Sekando_G2",
+          "authorProfile": "https://www.reddit.com/user/Gia_Sekando_G2",
+          "commentId": "t1_nb5yzin",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n2hhyn/accounts_with_or_without_files_reporting/nb5yzin/",
+          "publishingDate": 1756401141.0,
+          "commentBody": "Yes, this seems like the only way to go. Luckily I'm surrounded by developerd, so I'm sure I can work this out with them. Thanks a lot!",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null,
+          "replies": [
+            {
+              "authorId": null,
+              "author": "Ok_Two_9783",
+              "authorProfile": "https://www.reddit.com/user/Ok_Two_9783",
+              "commentId": "t1_nb6bayw",
+              "link": "https://www.reddit.com/r/salesforce/comments/1n2hhyn/accounts_with_or_without_files_reporting/nb6bayw/",
+              "publishingDate": 1756404553.0,
+              "commentBody": "You could use this query in XL-Connector, which will download all files locally together and showthe data you need from the accounts in a nice table format in Excel.  \n[https://www.xappex.com/xl-connector-salesforce-excel-connector/](https://www.xappex.com/xl-connector-salesforce-excel-connector/)",
+              "upvotes": 2,
+              "dislikes": null,
+              "downvotes": null,
+              "replies": [
+                {
+                  "authorId": null,
+                  "author": "Gia_Sekando_G2",
+                  "authorProfile": "https://www.reddit.com/user/Gia_Sekando_G2",
+                  "commentId": "t1_nb6n7g8",
+                  "link": "https://www.reddit.com/r/salesforce/comments/1n2hhyn/accounts_with_or_without_files_reporting/nb6n7g8/",
+                  "publishingDate": 1756407996.0,
+                  "commentBody": "This sounds wonderful!!! I will take a look, definitely,. Thank you so much!",
+                  "upvotes": 1,
+                  "dislikes": null,
+                  "downvotes": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": "pavanroy",
+      "authorProfile": "https://www.reddit.com/user/pavanroy",
+      "commentId": "t1_nb5vz1m",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n2hhyn/accounts_with_or_without_files_reporting/nb5vz1m/",
+      "publishingDate": 1756400315.0,
+      "commentBody": "Hi OP,\n\nPlease have a look at this thread [Opps With Attachments ](https://trailhead.salesforce.com/trailblazer-community/feed/0D54S00000A94YASAZ)\n\nLet me know if you need any help. Happy to learn n explore with you",
+      "upvotes": 2,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": "Gia_Sekando_G2",
+          "authorProfile": "https://www.reddit.com/user/Gia_Sekando_G2",
+          "commentId": "t1_nb5z6k5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n2hhyn/accounts_with_or_without_files_reporting/nb5z6k5/",
+          "publishingDate": 1756401194.0,
+          "commentBody": "Thanks a lot for the thread! It seems like pulling queries is the only way to go here. Have a really nice day!",
+          "upvotes": 1,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    }
+  ]
+}
