@@ -1,4 +1,4 @@
-from __future__ import annotations
+# from __future__ import annotations
 import json
 import asyncio
 import os
@@ -9,6 +9,9 @@ from scrap.reddit_post import scrape_post
 from scrap.user_extractor import RedditUserExtractor
 from loguru import logger as log
 from analyze.run import run_pipeline
+from analyze.utils import group_csv_files
+from analyze.post_analyse_by_user import CSVUserAnalyzer
+import pandas as pd
 
 
 async def search_posts(theme: str, filter: str, max_posts: int = 10):
@@ -35,7 +38,9 @@ async def list_post_comments_from_file(path_file: str, limit: int = 5):
             if post["link"] not in urls:
                 urls.append(post["link"])
                 tasks.append(
-                    asyncio.create_task(scrape_post(url=post["link"], sort="", require_comments=True))
+                    asyncio.create_task(
+                        scrape_post(url=post["link"], sort="", require_comments=True)
+                    )
                 )
         comments = await asyncio.gather(*tasks[:limit])
 
@@ -122,12 +127,24 @@ def analyze_posts_by_users(
                 input_json_path=input_json_path,
                 output_users_csv=output_csv_path,
                 model=model,
-                max_workers=max_workers
+                max_workers=max_workers,
             )
 
         # Exécuter le pipeline d'analyse qui génère automatiquement le CSV
         # run_pipeline(input_json_path, output_csv_path, model)
         print(f"Résultats sauvegardés dans: {output_csv_path}")
+
+
+def analyze_posts_by_users_grouped(input_file_path: str, output_file_path: str):
+    """
+    Analyse les posts groupés par utilisateur et sauvegarde le résultat dans un fichier CSV.
+    """
+    analyzer = CSVUserAnalyzer()
+    analyzer.load(input_file_path)
+    analyzer.aggregate()
+    out_path = analyzer.save(output_file_path)
+    print(f"OK → {out_path}")
+
 
 
 if __name__ == "__main__":
@@ -141,7 +158,7 @@ if __name__ == "__main__":
     # permet de scrappper tous les commentaires d'un post a partir de la liste des posts dans le fichier results/posts/post_search.json
     # asyncio.run(list_post_comments_from_file(path_file="results/posts/post_search.json", limit=100))
 
-    # extraction des users des posts 
+    # extraction des users des posts
     # scrap_user_from_post(folder_path="results/comments", output_format="json")
 
     # extraction des posts et comments d'un utilisateur
@@ -154,10 +171,18 @@ if __name__ == "__main__":
     # ))
 
     # pipeline permettant d'analyser les commentaires d'un post
-    analyze_posts_by_users(
-        model,
-        input_dir="results/comments",
-        output_dir="results/analyze/posts",
-        max_workers=6,
-        limit=100,
-    )
+    # analyze_posts_by_users(
+    #     model,
+    #     input_dir="results/comments",
+    #     output_dir="results/analyze/posts",
+    #     max_workers=6,
+    #     limit=100,
+    # )
+
+    # group_csv_files(folder_path="results/analyze/posts", output_folder="results/analyze/posts", file_name="posts_aggregated")
+    # analyze_posts_by_users_grouped(
+    #     input_file_path="results/analyze/posts/posts_aggregated.csv",
+    #     output_file_path="results/analyze/posts/user_aggregated.csv",
+    # )
+
+    

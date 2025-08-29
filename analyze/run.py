@@ -15,3 +15,11 @@ def run_pipeline(input_json_path: str, output_users_csv: str, model: str, max_wo
     users_df = analyzer.aggregate_by_user(results, post_link=attachment)
     users_df.to_csv(output_users_csv, index=False, encoding="utf-8")
     print(f"✔ Users CSV: {output_users_csv}")
+
+
+def repare_empy_data(input_json_path: str, output_users_csv: str, model: str, max_workers: int = 1):
+    flattener = RedditThreadFlattener(max_ancestor_hops=2, dedupe=True)
+    data = flattener.load(input_json_path)
+    flat = flattener.flatten(data)
+ 
+   
