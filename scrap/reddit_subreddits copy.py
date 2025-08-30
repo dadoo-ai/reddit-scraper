@@ -1,62 +1,54 @@
-from typing import List, Dict, Literal
-from httpx import AsyncClient, Response
+from __future__ import annotations
+
+import asyncio
+from typing import Dict, List, Optional, Literal
+
+from httpx import AsyncClient, Response, HTTPError, RequestError, TimeoutException
 from parsel import Selector
 from loguru import logger as log
 
-# initialize an async httpx client
-client = AsyncClient(
-    # enable http2
-    http2=True,
-    # add basic browser like headers to prevent getting blocked
-    headers={
-        "Accept-Language": "en-US,en;q=0.9",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-        "Accept-Encoding": "gzip, deflate, br",
-        "Cookie": "intl_splash=false"
-    },
-    follow_redirects=True
-)
 
-def parse_subreddit(response: Response, from_search: bool = False) -> List[Dict]:
-    """parse article data from HTML"""
-    
-    selector = Selector(response.text)
+# -------------------------
+# --- Parsing helpers   ---
+# -------------------------
+
+def parse_modern_listing(response: Response) -> Dict:
+    """
+    Parse la page moderne d'un subreddit (vue /r/{sub} standard).
+    Retourne { "info": {...}, "post_data": [...], "cursor": <str|None> }
+    """
+    sel = Selector(response.text)
     url = str(response.url)
-    info = {}
+
+    info: Dict = {}
     info["id"] = url.split("/r")[-1]
-    # info["description"] = selector.xpath("//shreddit-subreddit-header/@description").get()
-    members = selector.xpath("//shreddit-subreddit-header/@subscribers").get()
-    rank = selector.xpath("//strong[@id='position']/*/@number").get()    
+    members = sel.xpath("//shreddit-subreddit-header/@subscribers").get()
+    rank = sel.xpath("//strong[@id='position']/*/@number").get()
     info["members"] = int(members) if members else None
     info["rank"] = int(rank) if rank else None
-    info["bookmarks"] = {}
-
-    for item in selector.xpath("//div[faceplate-tracker[@source='community_menu']]/faceplate-tracker"):
-        name = item.xpath(".//a/span/span/span/text()").get()
-        link = item.xpath(".//a/@href").get()
-        info["bookmarks"][name] = link
-    
     info["url"] = url
-    post_data:List[Dict] = []
-    for box in selector.xpath("//article"):
+
+    posts: List[Dict] = []
+    for box in sel.xpath("//article"):
         link = box.xpath(".//a/@href").get()
         author = box.xpath(".//shreddit-post/@author").get()
         post_label = box.xpath(".//faceplate-tracker[@source='post']/a/span/div/text()").get()
         upvotes = box.xpath(".//shreddit-post/@score").get()
         comment_count = box.xpath(".//shreddit-post/@comment-count").get()
         attachment_type = box.xpath(".//shreddit-post/@post-type").get()
-        if attachment_type and attachment_type == "image":
+
+        if attachment_type == "image":
             attachment_link = box.xpath(".//div[@slot='thumbnail']/*/*/@src").get()
         elif attachment_type == "video":
             attachment_link = box.xpath(".//shreddit-player/@preview").get()
         else:
             attachment_link = box.xpath(".//div[@slot='thumbnail']/a/@href").get()
-        post_data.append({
-            "authorProfile": "https://www.reddit.com/user/" + author if author else None,
-            "authorId": box.xpath(".//shreddit-post/@author-id").get(),            
+
+        posts.append({
+            "authorProfile": f"https://www.reddit.com/user/{author}" if author else None,
+            "authorId": box.xpath(".//shreddit-post/@author-id").get(),
             "title": box.xpath("./@aria-label").get(),
-            "link": "https://www.reddit.com" + link if link else None,
+            "link": f"https://www.reddit.com{link}" if link else None,
             "publishingDate": box.xpath(".//shreddit-post/@created-timestamp").get(),
             "postId": box.xpath(".//shreddit-post/@id").get(),
             "postLabel": post_label.strip() if post_label else None,
@@ -65,139 +57,220 @@ def parse_subreddit(response: Response, from_search: bool = False) -> List[Dict]
             "attachmentType": attachment_type,
             "attachmentLink": attachment_link,
         })
-   
-    # id for the next posts batch
-    cursor_id = selector.xpath("//shreddit-post/@more-posts-cursor").get()
-    return {"post_data": post_data, "info": info, "cursor": cursor_id}
- 
 
-def parse_subreddit_from_search(response: Response) -> List[Dict]:
-    selector = Selector(response.text)
+    cursor_id = sel.xpath("//shreddit-post/@more-posts-cursor").get()
+    return {"info": info, "post_data": posts, "cursor": cursor_id}
+
+
+def parse_old_search(response: Response) -> Dict:
+    """
+    Parse une page de recherche old.reddit (old.reddit.com/r/{sub}/search?...).
+    Retourne { "info": {...}, "post_data": [...], "next_url": <str|None> }
+    """
+    sel = Selector(response.text)
     url = str(response.url)
-    info = {}
-    info["id"] = url.split("/r")[-1]
-    # info["description"] = selector.xpath("//shreddit-subreddit-header/@description").get()
-    members = selector.xpath('//span[@class="subscribers"]/span[@class="number"]/text()').get()
-    # rank = selector.xpath("//strong[@id='position']/*/@number").get()    
-    info["members"] = int(members.replace(",", "")) if members else None
-    # info["rank"] = int(rank) if rank else None
-    # info["bookmarks"] = {}
 
-    # for item in selector.xpath("//div[faceplate-tracker[@source='community_menu']]/faceplate-tracker"):
-    #     name = item.xpath(".//a/span/span/span/text()").get()
-    #     link = item.xpath(".//a/@href").get()
-    #     info["bookmarks"][name] = link
-    
-    info["url"] = url
-    post_data:List[Dict] = []
-    
-    for box in selector.xpath('//div[contains(@class,"has-linkflair")]'):
-        link = box.xpath("./a/@href").get()
-        author = box.xpath('.//div[@class="search-result-meta"]//span[@class="search-author"]/a/text()').get()
-        post_label = box.xpath('//span[contains(@class,"linkflairlabel")]/span/text()').get()
-        upvotes = box.xpath(".//div[@class='search-result-meta']/span[@class='search-score']/text()").get()
-        comment_count = box.xpath('//a[contains(@class,"search-comments")]/text()').re_first(r'\d+')
-        attachment_type = box.xpath(".//shreddit-post/@post-type").get()
-        if attachment_type and attachment_type == "image":
-            attachment_link = box.xpath(".//div[@slot='thumbnail']/*/*/@src").get()
-        elif attachment_type == "video":
-            attachment_link = box.xpath(".//shreddit-player/@preview").get()
-        else:
-            attachment_link = box.xpath(".//div[@slot='thumbnail']/a/@href").get()
-        post_data.append({
-            "authorProfile": "https://www.reddit.com/user/" + author if author else None,
-            "authorId": box.xpath('//a[contains(@class,"id-")]/@class').re_first(r'id-([^\s]+)'),            
-            "title": box.xpath(".//a[contains(@class,'may-blank')]/text()").get(),
-            "link": "https://www.reddit.com" + link if link else None,
-            "publishingDate": box.xpath(".//shreddit-post/@created-timestamp").get(),
-            "postId": box.xpath(".//shreddit-post/@id").get(),
-            "postLabel": post_label.strip() if post_label else None,
-            "postUpvotes": int(upvotes.split(" ")[0]) if upvotes else None,
-            "commentCount": int(comment_count) if comment_count else None,
-            "attachmentType": attachment_type,
-            "attachmentLink": attachment_link,
+    info: Dict = {"id": url.split("/r")[-1], "members": None, "url": url}
+    members = sel.xpath('//span[@class="subscribers"]/span[@class="number"]/text()').get()
+    if members:
+        try:
+            info["members"] = int(members.replace(",", "").strip())
+        except ValueError:
+            pass
+
+    posts: List[Dict] = []
+    for box in sel.xpath('//div[contains(@class,"search-result")]'):
+        link = box.xpath('.//a[contains(@class,"search-title")]/@href').get()
+        title = box.xpath('.//a[contains(@class,"search-title")]/text()').get()
+        author = box.xpath('.//span[contains(@class,"search-author")]/a/text()').get()
+        upvotes_txt = box.xpath('.//span[contains(@class,"search-score")]/text()').get()
+        comments_txt = box.xpath('.//a[contains(@class,"search-comments")]/text()').re_first(r'\d+')
+
+        upvotes = None
+        if upvotes_txt:
+            try:
+                upvotes = int(upvotes_txt.split()[0])
+            except Exception:
+                pass
+
+        posts.append({
+            "authorProfile": f"https://www.reddit.com/user/{author}" if author else None,
+            "authorId": None,  # pas fiable sur old.reddit search
+            "title": title,
+            "link": link,
+            "publishingDate": None,
+            "postId": None,
+            "postLabel": "Discussion",
+            "postUpvotes": upvotes,
+            "commentCount": int(comments_txt) if comments_txt else None,
+            "attachmentType": None,
+            "attachmentLink": None,
         })
-    # id for the next posts batch
-    cursor_id = selector.xpath("//shreddit-post/@more-posts-cursor").get()
-    return {"post_data": post_data, "info": info, "cursor": cursor_id}
-    
 
-# async def scrape_subreddit(subreddit_id: str, sort: Literal["new", "hot", "old"], query: str = None, max_pages: int = None, limit: int = 10):
-#     """scrape articles on a subreddit"""
-#     base_url = f"https://www.reddit.com/r/{subreddit_id}"
-    
-#     if query:
-#         base_url = base_url.replace("www", "old") + f"/search?q={query}&sort={sort}&limit={limit}"
-#         # base_url += f"/search?q={query}"
-    
-#     response = await client.get(base_url)
-#     subreddit_data = {}
-#     if query:
-#         data = parse_subreddit_from_search(response)
-#     else:
-#         data = parse_subreddit(response)
-#     subreddit_data["info"] = data["info"]
-#     subreddit_data["posts"] = data["post_data"]
-#     cursor = data["cursor"]
+    next_url = sel.xpath('//span[@class="next-button"]/a/@href').get()
+    return {"info": info, "post_data": posts, "next_url": next_url}
 
-#     def make_pagination_url(cursor_id: str):
-#         return f"https://www.reddit.com/svc/shreddit/community-more-posts/hot/?after={cursor_id}%3D%3D&t=DAY&name={subreddit_id}&feedLength=3&sort={sort}" 
-        
-#     while cursor and (max_pages is None or max_pages > 0):
-#         url = make_pagination_url(cursor)
-#         response = await client.get(url)
-#         data = parse_subreddit(response)
-#         cursor = data["cursor"]
-#         post_data = data["post_data"]
-#         subreddit_data["posts"].extend(post_data)
-#         if max_pages is not None:
-#             max_pages -= 1
-#     log.success(f"scraped {len(subreddit_data['posts'])} posts from the rubreddit: r/{subreddit_id}")
-#     return subreddit_data
+
+# -------------------------
+# --- Scraper unifié    ---
+# -------------------------
 
 async def scrape_subreddit(
     subreddit_id: str,
-    sort: Literal["new", "hot", "old"],
-    query: str = None,
-    max_posts: int = 50
-):
-    """scrape up to `max_posts` posts from a subreddit"""
+    sort: Literal["new", "hot", "old"] = "new",
+    query: Optional[str] = None,
+    max_posts: int = 50,          # acts as the limit
+    delay_s: float = 0.5,
+    old_reddit: bool = False,
+) -> Dict:
+    """
+    Récupère jusqu'à `max_posts` posts avec un SEUL flux de contrôle.
+    - old_reddit=True  -> utilise old.reddit + bouton Next (nécessite query)
+    - old_reddit=False -> utilise la vue moderne + cursor
+    -> Ajoute chaque post seulement si son 'link' n'a pas déjà été vu.
+    """
 
-    base_url = f"https://www.reddit.com/r/{subreddit_id}"
-    if query:
-        base_url = base_url.replace("www", "old") + f"/search?q={query}&sort={sort}&limit={max_posts}"
+    def _norm_link(url: Optional[str]) -> Optional[str]:
+        if not url:
+            return None
+        # Normalisation simple pour éviter les faux doublons:
+        u = url.strip()
+        if u.endswith("/"):
+            u = u[:-1]
+        return u
 
-    response = await client.get(base_url)
-    subreddit_data = {}
+    async with AsyncClient(
+        http2=True,
+        headers={
+            "Accept-Language": "en-US,en;q=0.9",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Cookie": "intl_splash=false",
+        },
+        follow_redirects=True,
+        timeout=30.0,
+    ) as client:
 
-    # --- Parse first batch ---
-    if query:
-        data = parse_subreddit_from_search(response)
-    else:
-        data = parse_subreddit(response)
+        # ---------- Sélection de la stratégie ----------
+        if old_reddit:
+            if not query:
+                raise ValueError("old_reddit=True nécessite un `query` (old.reddit/search).")
 
-    subreddit_data["info"] = data["info"]
-    subreddit_data["posts"] = data["post_data"]
+            first_url = (
+                f"https://old.reddit.com/r/{subreddit_id}/search/"
+                f"?q={query}&sort={sort}&restrict_sr=on&limit=50"
+            )
 
-    cursor = data["cursor"]
+            async def fetch_first():
+                resp = await client.get(first_url)
+                page = parse_old_search(resp)  # -> info, post_data, next_url
+                return {"info": page["info"], "posts": page["post_data"], "cursor_like": page["next_url"]}
 
-    def make_pagination_url(cursor_id: str):
-        return (
-            f"https://www.reddit.com/svc/shreddit/community-more-posts/"
-            f"{sort}/?after={cursor_id}%3D%3D&t=DAY&name={subreddit_id}&feedLength=3&sort={sort}"
-        )
+            async def fetch_next(cursor_like: Optional[str]):
+                if not cursor_like:
+                    return {"posts": [], "cursor_like": None}
+                resp = await client.get(cursor_like)
+                page = parse_old_search(resp)
+                return {"posts": page["post_data"], "cursor_like": page["next_url"]}
 
-    # --- Keep fetching until enough posts ---
-    while cursor and len(subreddit_data["posts"]) < max_posts:
-        url = make_pagination_url(cursor)
-        response = await client.get(url)
-        data = parse_subreddit(response)
+        else:
+            base_url = f"https://www.reddit.com/r/{subreddit_id}"
 
-        cursor = data["cursor"]
-        subreddit_data["posts"].extend(data["post_data"])
+            async def fetch_first():
+                resp = await client.get(base_url, params={"sort": sort})
+                page = parse_modern_listing(resp)  # -> info, post_data, cursor
+                return {"info": page["info"], "posts": page["post_data"], "cursor_like": page["cursor"]}
 
-    # Tronquer si on a dépassé
-    subreddit_data["posts"] = subreddit_data["posts"][:max_posts]
+            def make_pagination_url(cursor_id: str) -> str:
+                return (
+                    f"https://www.reddit.com/svc/shreddit/community-more-posts/{sort}/"
+                    f"?after={cursor_id}%3D%3D&t=DAY&name={subreddit_id}&feedLength=3&sort={sort}"
+                )
 
-    log.success(f"scraped {len(subreddit_data['posts'])} posts from r/{subreddit_id}")
-    return subreddit_data
+            async def fetch_next(cursor_like: Optional[str]):
+                if not cursor_like:
+                    return {"posts": [], "cursor_like": None}
+                resp = await client.get(make_pagination_url(cursor_like))
+                page = parse_modern_listing(resp)
+                return {"posts": page["post_data"], "cursor_like": page["cursor"]}
+
+        # ---------- Boucle unifiée avec déduplication ----------
+        try:
+            first_page = await fetch_first()
+        except (HTTPError, RequestError, TimeoutException) as e:
+            log.error(f"Initial fetch failed: {e}")
+            url_fallback = first_url if old_reddit else base_url
+            return {"info": {"id": subreddit_id, "members": None, "url": url_fallback}, "posts": []}
+
+        info = first_page.get("info") or {"id": subreddit_id, "members": None}
+        posts: List[Dict] = []
+        seen_links: set[str] = set()
+
+        def _append_unique(batch: List[Dict]) -> None:
+            """Ajoute seulement les posts avec un link unique ET des commentaires > 0"""
+            nonlocal posts, seen_links
+            for p in batch or []:
+                link = _norm_link(p.get("link"))
+                if not link:
+                    continue
+                if link in seen_links:
+                    continue
+                # filtre: pas de post si 0 commentaires
+                if not p.get("commentCount") or p["commentCount"] == 0:
+                    continue
+                seen_links.add(link)
+                posts.append(p)
+                if len(posts) >= max_posts:
+                    break
+
+        # Ajout du premier lot (dédupliqué)
+        _append_unique(first_page.get("posts") or [])
+        cursor_like = first_page.get("cursor_like")
+
+        while cursor_like and len(posts) < max_posts:
+            try:
+                page = await fetch_next(cursor_like)
+                _append_unique(page.get("posts") or [])
+                cursor_like = page.get("cursor_like")
+                if len(posts) >= max_posts or not cursor_like:
+                    break
+                await asyncio.sleep(delay_s)
+            except (HTTPError, RequestError, TimeoutException) as e:
+                log.warning(f"Pagination fetch failed: {e}")
+                break
+
+        log.success(f"scraped {len(posts)} unique posts from r/{subreddit_id}{' (old search)' if old_reddit else ''}")
+        return {"info": info, "posts": posts}
+
+
+
+# -------------------------
+# --- Exemple d'usage   ---
+# -------------------------
+
+# if __name__ == "__main__":
+#     import json
+
+#     async def main():
+#         # Exemple 1 : recherche (old.reddit) — va suivre "Next" jusqu'à max_posts
+#         data = await scrape_subreddit(
+#             subreddit_id="salesforce",
+#             sort="new",
+#             query="agentforce",
+#             max_posts=30,
+#         )
+#         with open("results/subreddit_search.json", "w", encoding="utf-8") as f:
+#             json.dump(data, f, indent=2, ensure_ascii=False)
+
+#         # Exemple 2 : listing moderne (sans recherche) — va suivre les cursors
+#         data2 = await scrape_subreddit(
+#             subreddit_id="salesforce",
+#             sort="hot",
+#             query=None,
+#             max_posts=60,
+#         )
+#         with open("results/subreddit_listing.json", "w", encoding="utf-8") as f:
+#             json.dump(data2, f, indent=2, ensure_ascii=False)
+
+#     asyncio.run(main())
