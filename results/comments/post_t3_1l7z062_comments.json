@@ -1,0 +1,82 @@
+{
+  "info": {
+    "authorId": "t2_1b30o06mn4",
+    "author": "ImportantPudding1570",
+    "authorProfile": "https://www.reddit.com/user/ImportantPudding1570",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1l7z062",
+    "postLabel": null,
+    "publishingDate": "2025-06-10T13:40:07+00:00",
+    "postTitle": "Do we need Einstein/Agentforce license for each user - licensing workaround question",
+    "postMessage": "I'm trying to understand Einstein/Agentforce licensing requirements and whether there are potential workarounds to reduce per-user licensing costs. My understanding is that for users to access certain AI-powered features, each user needs their own Einstein/Agentforce license. However, I'm wondering if I can achieve similar functionality through backend automation instead. For example, Einstein Work Summaries component requires licensing for users to see it on record pages. But what if I create automation using Flow and Prompt Templates that generates similar summaries and populates them into regular text fields? Users would see the AI-generated content but through standard fields rather than licensed components. My broader question is about organizations where users don't need direct interaction with Agentforce or AI features, but I still want to leverage AI capabilities behind the scenes. Can I use setup like mentioned above? Has anyone explored this approach or have insights into how Salesforce handles licensing in these automation scenarios? Are there any compliance or Terms of Service issues I should be aware of with this kind of setup?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1l7z062/do_we_need_einsteinagentforce_license_for_each/",
+    "commentCount": 5,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_11l815",
+      "author": "sfdcGuy519",
+      "authorProfile": "https://www.reddit.com/user/sfdcGuy519",
+      "commentId": "t1_mx1lm8n",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l7z062/do_we_need_einsteinagentforce_license_for_each/mx1lm8n/",
+      "publishingDate": "2025-06-10T16:42:39+00:00",
+      "commentBody": "Requests and credits are where your $$$ are going to come from, not the per user licensing. You're just shifting where the billing gets kicked off really. IIRC we have 1:1 Einstein licensing for all our service users with whatever SKU we're currently on. Do you mean that 1:1 Einstein license means that Credits and Requests won't be charged?\nI was under the impression that it will be charged with or without license. And license will Add to the credit/request charges.\nOr maybe you meant that it is not going to be significant sum when compared to the bill for credits/requests?\nOur AE gave a ballpark of around USD 50000 per year for license. And I assumed that the per request charges will be on top of that",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_8gaao1bn",
+          "author": "forgive-me-god",
+          "authorProfile": "https://www.reddit.com/user/forgive-me-god",
+          "commentId": "t1_mx4onvf",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l7z062/do_we_need_einsteinagentforce_license_for_each/mx4onvf/",
+          "publishingDate": "2025-06-11T02:07:55+00:00",
+          "commentBody": "Do you mean that 1:1 Einstein license means that Credits and Requests won't be charged?\nI was under the impression that it will be charged with or without license. And license will Add to the credit/request charges.\nOr maybe you meant that it is not going to be significant sum when compared to the bill for credits/requests?\nOur AE gave a ballpark of around USD 50000 per year for license. And I assumed that the per request charges will be on top of that",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_a5ppscaq",
+      "author": "Jwzbb",
+      "authorProfile": "https://www.reddit.com/user/Jwzbb",
+      "commentId": "t1_mx1gknh",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l7z062/do_we_need_einsteinagentforce_license_for_each/mx1gknh/",
+      "publishingDate": "2025-06-10T16:18:42+00:00",
+      "commentBody": "Ask your AE. I believe the metric is ‘conversations’ and not users, but only your AE can give you a definitive answer.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_3d62ckf9",
+      "author": "dyx03",
+      "authorProfile": "https://www.reddit.com/user/dyx03",
+      "commentId": "t1_mx1h2ak",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l7z062/do_we_need_einsteinagentforce_license_for_each/mx1h2ak/",
+      "publishingDate": "2025-06-10T16:21:00+00:00",
+      "commentBody": "Let's say you want to use a field to summarize stuff via a custom prompt. You can invoke the prompt by a flow to update a field, and users without an Einstein license can start these flows and do the AI thing. They won't have access to the magic pencil button to directly use AI, for these users it will be the regular pencil button. Source: I tried it quite a while ago. Commercially speaking you might want to look at the numbers. Because you're still consuming requests and I don't know what's cheaper - Einstein for xyz or Einstein request packages. I didn't bother to do the math, I just wanted to know how it works.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_wbr8c",
+      "author": "big-blue-balls",
+      "authorProfile": "https://www.reddit.com/user/big-blue-balls",
+      "commentId": "t1_mx5ns2y",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l7z062/do_we_need_einsteinagentforce_license_for_each/mx5ns2y/",
+      "publishingDate": "2025-06-11T06:27:17+00:00",
+      "commentBody": "There is no such thing as workarounds. If you need the licence you need the licence.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "info": {
+    "authorId": "t2_oped9tgzu",
+    "author": "kuldiph",
+    "authorProfile": "https://www.reddit.com/user/kuldiph",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1jm17ly",
+    "postLabel": null,
+    "publishingDate": "2025-03-28T17:57:08+00:00",
+    "postTitle": "To the Agentforce experts (who have deployed solutions), I want to meet with you.",
+    "postMessage": "ASK = I would love to get 30-60 mins of your time to understand (a) what is possible with Agentforce, (b) what are customers really seeking, and (c) lessons learned from deployments BACKGROUND = I am trying to separate the reality from hype and understand how my company should get involved with Agentforce. I run Kugamon , a native Salesforce CPQ / Revenue Cloud alternative built for the SMB / Mid-Market segment. PROCESS = If you have practical Agentforce customer experience and are seasoned with Salesforce, please DM me. I know your insights and views are important, so I am happy to compensate with a $25 Starbucks/Amazon gift card.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/",
+    "commentCount": 21,
+    "upvoteCount": 35,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_53kz8",
+      "author": "danfromwaterloo",
+      "authorProfile": "https://www.reddit.com/user/danfromwaterloo",
+      "commentId": "t1_mk84rul",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mk84rul/",
+      "publishingDate": "2025-03-28T18:14:52+00:00",
+      "commentBody": "I'm down, but please donate the money instead of any GC. I have every Agentforce cert and credential available and I've built a number of solutions for the Financial Services industry using it. Happy to chat. Awesome. Thank you for commenting. I will DM you. As a caveat, Kugamon is not involved in the Financial Services space, but I would love to hear your lesson learned. Not sure if you care to share your findings with the rest of us, but I would be def down to hear about the info you gather. Happy to share. Feel free to DM me on any specific insights you want me to research.",
+      "upvotes": 27,
+      "dislikes": 27,
+      "downvotes": 28,
+      "replies": [
+        {
+          "authorId": "t2_oped9tgzu",
+          "author": "kuldiph",
+          "authorProfile": "https://www.reddit.com/user/kuldiph",
+          "commentId": "t1_mk8dyqs",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mk8dyqs/",
+          "publishingDate": "2025-03-28T19:00:15+00:00",
+          "commentBody": "Awesome. Thank you for commenting. I will DM you. As a caveat, Kugamon is not involved in the Financial Services space, but I would love to hear your lesson learned. Not sure if you care to share your findings with the rest of us, but I would be def down to hear about the info you gather. Happy to share. Feel free to DM me on any specific insights you want me to research.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_hv3md",
+          "author": "TheGreatMonk",
+          "authorProfile": "https://www.reddit.com/user/TheGreatMonk",
+          "commentId": "t1_mk8pkmc",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mk8pkmc/",
+          "publishingDate": "2025-03-28T19:58:20+00:00",
+          "commentBody": "Not sure if you care to share your findings with the rest of us, but I would be def down to hear about the info you gather. Happy to share. Feel free to DM me on any specific insights you want me to research.",
+          "upvotes": 7,
+          "dislikes": 7,
+          "downvotes": 8
+        },
+        {
+          "authorId": "t2_oped9tgzu",
+          "author": "kuldiph",
+          "authorProfile": "https://www.reddit.com/user/kuldiph",
+          "commentId": "t1_mk9ecv6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mk9ecv6/",
+          "publishingDate": "2025-03-28T22:05:53+00:00",
+          "commentBody": "Happy to share. Feel free to DM me on any specific insights you want me to research.",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        }
+      ]
+    },
+    {
+      "authorId": "t2_vlxte733",
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_mk81hnb",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mk81hnb/",
+      "publishingDate": "2025-03-28T17:58:47+00:00",
+      "commentBody": "This is a refreshing approach from someone who runs a successful company in our space. I haven't touched it much so I can't help, but recently there have been people sharing their experience using it for real. Hopefully some of them share their experience with you.",
+      "upvotes": 11,
+      "dislikes": 11,
+      "downvotes": 12
+    },
+    {
+      "authorId": "t2_953mb",
+      "author": "SeriouslyImKidding",
+      "authorProfile": "https://www.reddit.com/user/SeriouslyImKidding",
+      "commentId": "t1_mkaa086",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mkaa086/",
+      "publishingDate": "2025-03-29T01:05:03+00:00",
+      "commentBody": "I would also like to throw my hat in the ring of saying I appreciate this approach. As someone who attended Agentforce world tour in November and learned the salesforce pre-baked, pre-packaged use cases that seem to work great, I’ve recently gotten foundations enabled in my org and seem to be unable to get the copilot agent (now called Agentforce) to be able to do a simple query of biggest opportunities in my org. I had no problem in the test environment. I’m sitting here wondering if the promised product in demos and trailheads can’t actually be what is being shipped to customers. I have enabled the copilot, setup agent, and the Einstein generative flow builder, formula builder, flow summarizer. Not a single tool has performed even the most basic action without an error. The copilot does not return the same records I see on a report based on the exact same filters in my prompt (I.e. show me the biggest closed won opportunities for X product line by amount). The setup agent has not been able to complete a single request (what permissions does X user have on the Lead object for field Y) The formula builder has been unable to produce a correct formula. The flow builder has failed at even the most basic prompt, even using the suggested prompt from\nSalesforce like “create a screenflow where then running user can select a contact that they own to send an email”. They all just fail or return incorrect results. I would love to pay someone to help me understand what we’re missing. It might even be more than a $25 amazon gift card. Edit: just to add I realize I didn’t address my experience with the flow summarizer. It has only worked on flows with less than 5 components. Which makes me wonder…what the hell is the point then? That is such a ridiculous amount of work and infrastructure to deal with, all to generate that which is available to users today at nearly the speed of thought.",
+      "upvotes": 7,
+      "dislikes": 7,
+      "downvotes": 8,
+      "replies": [
+        {
+          "authorId": "t2_3nx6o",
+          "author": "zebozebo",
+          "authorProfile": "https://www.reddit.com/user/zebozebo",
+          "commentId": "t1_mkbp921",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mkbp921/",
+          "publishingDate": "2025-03-29T07:50:38+00:00",
+          "commentBody": "That is such a ridiculous amount of work and infrastructure to deal with, all to generate that which is available to users today at nearly the speed of thought.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_genezz8h",
+      "author": "Cautious-Guest7317",
+      "authorProfile": "https://www.reddit.com/user/Cautious-Guest7317",
+      "commentId": "t1_mk8jode",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mk8jode/",
+      "publishingDate": "2025-03-28T19:28:57+00:00",
+      "commentBody": "Try SF user groups.  The community is very helpful",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_jtouk500",
+      "author": "TrustbutVerify3419",
+      "authorProfile": "https://www.reddit.com/user/TrustbutVerify3419",
+      "commentId": "t1_mkcx7l0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mkcx7l0/",
+      "publishingDate": "2025-03-29T14:18:11+00:00",
+      "commentBody": "What is the cost to implement?? Do they charge for licenses?? Or is it usage based?? I need to spin up a trial at our company",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_qvfdz",
+      "author": "Chucklez_me_silver",
+      "authorProfile": "https://www.reddit.com/user/Chucklez_me_silver",
+      "commentId": "t1_mkazvmt",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mkazvmt/",
+      "publishingDate": "2025-03-29T03:51:18+00:00",
+      "commentBody": "I've implemented it in the healthcare industry and have been heavily involved within the ecosystem through the CGL's so can comment on overall viability. Happy to chat.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_18ic4zkgml",
+      "author": "HonestRecord4507",
+      "authorProfile": "https://www.reddit.com/user/HonestRecord4507",
+      "commentId": "t1_mkb0e4v",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mkb0e4v/",
+      "publishingDate": "2025-03-29T03:55:00+00:00",
+      "commentBody": "I’ve implemented it for service cloud, may be we can catch-up sometime, also would be nice if all of you (who has worked on Agentforce and is interested) can plan to meet together This is great idea. Please DM me that you want to join a group meet. I will schedule one after my 1:1 meets.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_oped9tgzu",
+          "author": "kuldiph",
+          "authorProfile": "https://www.reddit.com/user/kuldiph",
+          "commentId": "t1_mkp5p5q",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mkp5p5q/",
+          "publishingDate": "2025-03-31T15:22:05+00:00",
+          "commentBody": "This is great idea. Please DM me that you want to join a group meet. I will schedule one after my 1:1 meets.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_pja0kfli",
+      "author": "logicrott",
+      "authorProfile": "https://www.reddit.com/user/logicrott",
+      "commentId": "t1_mkllt41",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mkllt41/",
+      "publishingDate": "2025-03-30T23:19:45+00:00",
+      "commentBody": "Anyway for us to join this call. I don't mind contributing to the meet. Please DM me that you want to join a group meet. I will schedule one after my 1:1 meets.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_oped9tgzu",
+          "author": "kuldiph",
+          "authorProfile": "https://www.reddit.com/user/kuldiph",
+          "commentId": "t1_mkp5r5a",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mkp5r5a/",
+          "publishingDate": "2025-03-31T15:22:21+00:00",
+          "commentBody": "Please DM me that you want to join a group meet. I will schedule one after my 1:1 meets.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1gs7y56xn9",
+      "author": "EntrepreneurMain7616",
+      "authorProfile": "https://www.reddit.com/user/EntrepreneurMain7616",
+      "commentId": "t1_mlz4f1l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mlz4f1l/",
+      "publishingDate": "2025-04-08T03:08:53+00:00",
+      "commentBody": "I have been exploring Agentforce use cases for the last few months, would love to chat. I was at TDX last month and I took part in the Agentforce hackathon, learnt a lot about the platform and gobbled some prize money as well :) I would love to learn from you and how you’re building these out! I’m not a business owner but just looking to learn how to build, if you’re open to it",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_14hq3e2mh7",
+          "author": "MaintenanceStatus329",
+          "authorProfile": "https://www.reddit.com/user/MaintenanceStatus329",
+          "commentId": "t1_mw2t7n8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mw2t7n8/",
+          "publishingDate": "2025-06-05T03:59:39+00:00",
+          "commentBody": "I would love to learn from you and how you’re building these out! I’m not a business owner but just looking to learn how to build, if you’re open to it",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_evau2",
+      "author": "cosmodisc",
+      "authorProfile": "https://www.reddit.com/user/cosmodisc",
+      "commentId": "t1_mk940nd",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mk940nd/",
+      "publishingDate": "2025-03-28T21:10:44+00:00",
+      "commentBody": "As lovely as it may sound, it's insulting to offer someone a $25 amazon voucher for this. I agree. The purpose is to have an informative chat and make a friend. I thought $25 would be a good starting point for possibly further conversations at a more appropriate rate.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": "t2_oped9tgzu",
+          "author": "kuldiph",
+          "authorProfile": "https://www.reddit.com/user/kuldiph",
+          "commentId": "t1_mk9dxzw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mk9dxzw/",
+          "publishingDate": "2025-03-28T22:03:37+00:00",
+          "commentBody": "I agree. The purpose is to have an informative chat and make a friend. I thought $25 would be a good starting point for possibly further conversations at a more appropriate rate.",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        }
+      ]
+    },
+    {
+      "authorId": "t2_fjjsus27h",
+      "author": "RektAccount",
+      "authorProfile": "https://www.reddit.com/user/RektAccount",
+      "commentId": "t1_mk9d9l6",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mk9d9l6/",
+      "publishingDate": "2025-03-28T21:59:54+00:00",
+      "commentBody": "lol $25 I don't understand this community man. Top comment encouraged the guy to donate the $25, like wtf? Are we living in 1960? Hard to imagine these actual professionals taking this whole $25 bribe post seriously. Yeah honestly I don’t understand it. You are going to ask someone to get on an hour call and explain these topics that will lead to them making more money. $25 is quite literally not worth my time to even get in the call. That is considerably less than my job would be paying me. If this is a one off at least offer something nice for the persons time.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": "t2_9m4163vz",
+          "author": "chocobrobobo",
+          "authorProfile": "https://www.reddit.com/user/chocobrobobo",
+          "commentId": "t1_mkfg070",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mkfg070/",
+          "publishingDate": "2025-03-29T22:37:30+00:00",
+          "commentBody": "I don't understand this community man. Top comment encouraged the guy to donate the $25, like wtf? Are we living in 1960? Hard to imagine these actual professionals taking this whole $25 bribe post seriously. Yeah honestly I don’t understand it. You are going to ask someone to get on an hour call and explain these topics that will lead to them making more money. $25 is quite literally not worth my time to even get in the call. That is considerably less than my job would be paying me. If this is a one off at least offer something nice for the persons time.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_fjjsus27h",
+          "author": "RektAccount",
+          "authorProfile": "https://www.reddit.com/user/RektAccount",
+          "commentId": "t1_mkfgk7j",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jm17ly/to_the_agentforce_experts_who_have_deployed/mkfgk7j/",
+          "publishingDate": "2025-03-29T22:40:53+00:00",
+          "commentBody": "Yeah honestly I don’t understand it. You are going to ask someone to get on an hour call and explain these topics that will lead to them making more money. $25 is quite literally not worth my time to even get in the call. That is considerably less than my job would be paying me. If this is a one off at least offer something nice for the persons time.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    }
+  ]
+}

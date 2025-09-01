@@ -1,0 +1,302 @@
+{
+  "info": {
+    "authorId": "t2_spafeon4",
+    "author": "Delicious_Pumpkin916",
+    "authorProfile": "https://www.reddit.com/user/Delicious_Pumpkin916",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1izc0wg",
+    "postLabel": null,
+    "publishingDate": "2025-02-27T09:36:54+00:00",
+    "postTitle": "I have created a chatbot not with agentforce but integrating an outside LLM which I think would be a cheaper option for a lot of projects out there",
+    "postMessage": "As much I know excluding the License charges AgentForce charges 2$ for per conversation and I believe that it could be made cheaper using different LLM. I have created a chatbot not with agentforce but integrating an outside LLM which I think would be a cheaper option for a lot of projects out there. Now my question is what all data factors I have to consider for the project in general? Just make the trust Layer strong ? Please give me your reviews!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/",
+    "commentCount": 23,
+    "upvoteCount": 17,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_a5ppscaq",
+      "author": "Jwzbb",
+      "authorProfile": "https://www.reddit.com/user/Jwzbb",
+      "commentId": "t1_mf1negn",
+      "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf1negn/",
+      "publishingDate": "2025-02-27T09:49:49+00:00",
+      "commentBody": "I doubt companies will allow communication from Salesforce to an external LLM without all the assurances Salesforce currently offers. So how are you ensuring:\n- Zero data retention\n- Dynamic Grounding with Secure Data Retrieval \n- Prompt defense \n- Data masking\n- Toxicity Scoring\n- Audit If you have a good answer to all these I’m sure you’ll have a great proposition. Good luck! None of these are a factor. Microsoft is handing out zero day retentions like candy. Azure alsp provides free protections. OpenAI has by far the best moderation system in the world. Agentforce is only useful if it is used as a low code no code tool. We have decided against agentforce, I would suggest others evaluate this path as well. What did you decide to go with? We use OpenAI APIs directly on AWS to build bots/agents. Its cheap, flexible, and easy for python developers to build Thank you for your review, Once I have my solutions and answers to the above, I will be back. I want to add, you wanna make sure to not rely on third parties, any US server based processing for EU hosted data must be categorically prohibited protected and secured and you gotta be able to survive an audit looking at this specifically. The only way I can see you achieving this would be to randomize the data that you received from the salesforce organizations, abstract it, send it to an LLM that then extrapolates the data, processes it, and then send something encrypted back to you which you in turn translate back to abstracted data that the org receives and parses to a human-readable reply. The trust layer, especially the legal security provided, and the very high potential risks for companies of having to pay a hefty fine for potential data leaks, not even talking about loosing proprietary information, is massive. Assuring you’re using the api of chatGPT and opted out of processing won’t be enough as openAI retains data for fraud detection and hacking attempts for up to 30 days - on US servers! So basically if you’re not running your own local model on a dedicated and air gapped server, you’re already  doing too much wrong to have a value proposition for a product…. Edit: spelling and grammar Yeah but how are you going to build an agent that filters out personal data? So how can you guarantee that no sensitive data is sent to an LLM when a sales guy asks for ‘give me blabla of John Doe from Accountname’? I guess you can’t do that locally or at least it’s going to be very hard and therefore you will need a private instance of a LLM or guarantees that there is zero data retention. By having pre-populated prompts and hard coded control flow as well as obfuscation of customer data on the trust level which can be decrypted by the trust layer too. Doesn’t make a difference to the model if John Doe is generally aliased to XYZ.TZI as long as that hash is consistent. Secondly you’re describing an internal use case - chatbot implies that OP means customer-agent interaction which are separate thing, especially on the legal aspect. Chances are most companies that are using their own LLM have all of those items baked in; likely from the provider providing the LLM. The real issue with integrating properly with an external LLM is the limits of what you can do transactionally via API calls and the gymnastics of getting data to the right place for the LLM.  I've yet to see a clean external integration that is feature rich; mostly just simple text prompting back and forth. Agentforce for the most part just puts a package around all of the pieces and charges a premium for it (hence the whole \"don't DIY your AI, let us do it\" speach at Dreamforce last year).  It was the right model for SF to approach six months ago but the landscape changed so fast that now it feels like Agentforce is an anchor. We are rapdily approaching cheaper and cheaper AI and it will just be an expected feature of every piece of business software; by both users and executive-types.  The problem for Salesforce is they seemed to have banked on growth due to usage-based billing with things like Agentforce and that just won't make sense as AI gets dirt cheap. What I like from Agentforce is that you can create actions and thus a diverse action plan (update  this, call api that) and then agentice certain chatbots. To me that is the next step to just chatting. Analyse all of the processes and see where AI in one form or another makes sense. Investments vs impact (people & processes) This is a ridiculous take, someone drank the Salesforce koolaid. Does your org have an open ai instance?  Cool. Problem solved, and now you’re paying for AI compute as the commodity it is, not by the “value” it offers. I’m not saying that the above is difficult to achieve. But at least take the effort to check the boxes. It will also help OP with selling his service. Hey, I might have solved the data problem and also I am building some more LLM related components but as I lack experience I need some real time problems to solve which are faced by the end users. Do you have anything on your mind ?",
+      "upvotes": 43,
+      "dislikes": 43,
+      "downvotes": 44,
+      "replies": [
+        {
+          "authorId": "t2_15ed6l",
+          "author": "gautiexe",
+          "authorProfile": "https://www.reddit.com/user/gautiexe",
+          "commentId": "t1_mf2ku45",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf2ku45/",
+          "publishingDate": "2025-02-27T14:07:16+00:00",
+          "commentBody": "None of these are a factor. Microsoft is handing out zero day retentions like candy. Azure alsp provides free protections. OpenAI has by far the best moderation system in the world. Agentforce is only useful if it is used as a low code no code tool. We have decided against agentforce, I would suggest others evaluate this path as well. What did you decide to go with? We use OpenAI APIs directly on AWS to build bots/agents. Its cheap, flexible, and easy for python developers to build",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_6hahja1u",
+          "author": "ghettobus",
+          "authorProfile": "https://www.reddit.com/user/ghettobus",
+          "commentId": "t1_mf2otcd",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf2otcd/",
+          "publishingDate": "2025-02-27T14:29:30+00:00",
+          "commentBody": "What did you decide to go with? We use OpenAI APIs directly on AWS to build bots/agents. Its cheap, flexible, and easy for python developers to build",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_15ed6l",
+          "author": "gautiexe",
+          "authorProfile": "https://www.reddit.com/user/gautiexe",
+          "commentId": "t1_mf6hnbw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf6hnbw/",
+          "publishingDate": "2025-02-28T01:53:38+00:00",
+          "commentBody": "We use OpenAI APIs directly on AWS to build bots/agents. Its cheap, flexible, and easy for python developers to build",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_spafeon4",
+          "author": "Delicious_Pumpkin916",
+          "authorProfile": "https://www.reddit.com/user/Delicious_Pumpkin916",
+          "commentId": "t1_mf1t64w",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf1t64w/",
+          "publishingDate": "2025-02-27T10:47:29+00:00",
+          "commentBody": "Thank you for your review, Once I have my solutions and answers to the above, I will be back. I want to add, you wanna make sure to not rely on third parties, any US server based processing for EU hosted data must be categorically prohibited protected and secured and you gotta be able to survive an audit looking at this specifically. The only way I can see you achieving this would be to randomize the data that you received from the salesforce organizations, abstract it, send it to an LLM that then extrapolates the data, processes it, and then send something encrypted back to you which you in turn translate back to abstracted data that the org receives and parses to a human-readable reply. The trust layer, especially the legal security provided, and the very high potential risks for companies of having to pay a hefty fine for potential data leaks, not even talking about loosing proprietary information, is massive. Assuring you’re using the api of chatGPT and opted out of processing won’t be enough as openAI retains data for fraud detection and hacking attempts for up to 30 days - on US servers! So basically if you’re not running your own local model on a dedicated and air gapped server, you’re already  doing too much wrong to have a value proposition for a product…. Edit: spelling and grammar Yeah but how are you going to build an agent that filters out personal data? So how can you guarantee that no sensitive data is sent to an LLM when a sales guy asks for ‘give me blabla of John Doe from Accountname’? I guess you can’t do that locally or at least it’s going to be very hard and therefore you will need a private instance of a LLM or guarantees that there is zero data retention. By having pre-populated prompts and hard coded control flow as well as obfuscation of customer data on the trust level which can be decrypted by the trust layer too. Doesn’t make a difference to the model if John Doe is generally aliased to XYZ.TZI as long as that hash is consistent. Secondly you’re describing an internal use case - chatbot implies that OP means customer-agent interaction which are separate thing, especially on the legal aspect.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_10razq",
+          "author": "Caparisun",
+          "authorProfile": "https://www.reddit.com/user/Caparisun",
+          "commentId": "t1_mf1uvrl",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf1uvrl/",
+          "publishingDate": "2025-02-27T11:03:54+00:00",
+          "commentBody": "I want to add, you wanna make sure to not rely on third parties, any US server based processing for EU hosted data must be categorically prohibited protected and secured and you gotta be able to survive an audit looking at this specifically. The only way I can see you achieving this would be to randomize the data that you received from the salesforce organizations, abstract it, send it to an LLM that then extrapolates the data, processes it, and then send something encrypted back to you which you in turn translate back to abstracted data that the org receives and parses to a human-readable reply. The trust layer, especially the legal security provided, and the very high potential risks for companies of having to pay a hefty fine for potential data leaks, not even talking about loosing proprietary information, is massive. Assuring you’re using the api of chatGPT and opted out of processing won’t be enough as openAI retains data for fraud detection and hacking attempts for up to 30 days - on US servers! So basically if you’re not running your own local model on a dedicated and air gapped server, you’re already  doing too much wrong to have a value proposition for a product…. Edit: spelling and grammar Yeah but how are you going to build an agent that filters out personal data? So how can you guarantee that no sensitive data is sent to an LLM when a sales guy asks for ‘give me blabla of John Doe from Accountname’? I guess you can’t do that locally or at least it’s going to be very hard and therefore you will need a private instance of a LLM or guarantees that there is zero data retention. By having pre-populated prompts and hard coded control flow as well as obfuscation of customer data on the trust level which can be decrypted by the trust layer too. Doesn’t make a difference to the model if John Doe is generally aliased to XYZ.TZI as long as that hash is consistent. Secondly you’re describing an internal use case - chatbot implies that OP means customer-agent interaction which are separate thing, especially on the legal aspect.",
+          "upvotes": 9,
+          "dislikes": 9,
+          "downvotes": 10
+        },
+        {
+          "authorId": "t2_a5ppscaq",
+          "author": "Jwzbb",
+          "authorProfile": "https://www.reddit.com/user/Jwzbb",
+          "commentId": "t1_mf2sj9d",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf2sj9d/",
+          "publishingDate": "2025-02-27T14:49:37+00:00",
+          "commentBody": "Yeah but how are you going to build an agent that filters out personal data? So how can you guarantee that no sensitive data is sent to an LLM when a sales guy asks for ‘give me blabla of John Doe from Accountname’? I guess you can’t do that locally or at least it’s going to be very hard and therefore you will need a private instance of a LLM or guarantees that there is zero data retention. By having pre-populated prompts and hard coded control flow as well as obfuscation of customer data on the trust level which can be decrypted by the trust layer too. Doesn’t make a difference to the model if John Doe is generally aliased to XYZ.TZI as long as that hash is consistent. Secondly you’re describing an internal use case - chatbot implies that OP means customer-agent interaction which are separate thing, especially on the legal aspect.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_10razq",
+          "author": "Caparisun",
+          "authorProfile": "https://www.reddit.com/user/Caparisun",
+          "commentId": "t1_mf2t4qg",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf2t4qg/",
+          "publishingDate": "2025-02-27T14:52:46+00:00",
+          "commentBody": "By having pre-populated prompts and hard coded control flow as well as obfuscation of customer data on the trust level which can be decrypted by the trust layer too. Doesn’t make a difference to the model if John Doe is generally aliased to XYZ.TZI as long as that hash is consistent. Secondly you’re describing an internal use case - chatbot implies that OP means customer-agent interaction which are separate thing, especially on the legal aspect.",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": "t2_3s1fv",
+          "author": "heartlessgamer",
+          "authorProfile": "https://www.reddit.com/user/heartlessgamer",
+          "commentId": "t1_mf2j1db",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf2j1db/",
+          "publishingDate": "2025-02-27T13:56:46+00:00",
+          "commentBody": "Chances are most companies that are using their own LLM have all of those items baked in; likely from the provider providing the LLM. The real issue with integrating properly with an external LLM is the limits of what you can do transactionally via API calls and the gymnastics of getting data to the right place for the LLM.  I've yet to see a clean external integration that is feature rich; mostly just simple text prompting back and forth. Agentforce for the most part just puts a package around all of the pieces and charges a premium for it (hence the whole \"don't DIY your AI, let us do it\" speach at Dreamforce last year).  It was the right model for SF to approach six months ago but the landscape changed so fast that now it feels like Agentforce is an anchor. We are rapdily approaching cheaper and cheaper AI and it will just be an expected feature of every piece of business software; by both users and executive-types.  The problem for Salesforce is they seemed to have banked on growth due to usage-based billing with things like Agentforce and that just won't make sense as AI gets dirt cheap. What I like from Agentforce is that you can create actions and thus a diverse action plan (update  this, call api that) and then agentice certain chatbots. To me that is the next step to just chatting. Analyse all of the processes and see where AI in one form or another makes sense. Investments vs impact (people & processes)",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_4n80v4tp",
+          "author": "ChooseWiselyChanged",
+          "authorProfile": "https://www.reddit.com/user/ChooseWiselyChanged",
+          "commentId": "t1_mf892ja",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf892ja/",
+          "publishingDate": "2025-02-28T10:14:26+00:00",
+          "commentBody": "What I like from Agentforce is that you can create actions and thus a diverse action plan (update  this, call api that) and then agentice certain chatbots. To me that is the next step to just chatting. Analyse all of the processes and see where AI in one form or another makes sense. Investments vs impact (people & processes)",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_17d4qme0jl",
+          "author": "Exotic-Sale-3003",
+          "authorProfile": "https://www.reddit.com/user/Exotic-Sale-3003",
+          "commentId": "t1_mf29qnw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf29qnw/",
+          "publishingDate": "2025-02-27T12:59:12+00:00",
+          "commentBody": "This is a ridiculous take, someone drank the Salesforce koolaid. Does your org have an open ai instance?  Cool. Problem solved, and now you’re paying for AI compute as the commodity it is, not by the “value” it offers. I’m not saying that the above is difficult to achieve. But at least take the effort to check the boxes. It will also help OP with selling his service.",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": "t2_a5ppscaq",
+          "author": "Jwzbb",
+          "authorProfile": "https://www.reddit.com/user/Jwzbb",
+          "commentId": "t1_mf2bjqg",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf2bjqg/",
+          "publishingDate": "2025-02-27T13:11:06+00:00",
+          "commentBody": "I’m not saying that the above is difficult to achieve. But at least take the effort to check the boxes. It will also help OP with selling his service.",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        },
+        {
+          "authorId": "t2_spafeon4",
+          "author": "Delicious_Pumpkin916",
+          "authorProfile": "https://www.reddit.com/user/Delicious_Pumpkin916",
+          "commentId": "t1_mg04b8o",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mg04b8o/",
+          "publishingDate": "2025-03-04T18:23:25+00:00",
+          "commentBody": "Hey, I might have solved the data problem and also I am building some more LLM related components but as I lack experience I need some real time problems to solve which are faced by the end users. Do you have anything on your mind ?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_be595",
+      "author": "MatchaGaucho",
+      "authorProfile": "https://www.reddit.com/user/MatchaGaucho",
+      "commentId": "t1_mf2l254",
+      "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf2l254/",
+      "publishingDate": "2025-02-27T14:08:34+00:00",
+      "commentBody": "The majority of AI Developers are now using the OpenAI Model Spec for security, safety and privacy. https://openai.com/index/introducing-the-model-spec/ If you read the latest Salesforce release notes closely, you'll notice they too are also using OpenAI gpt4o and model spec for their reasoning engine, which requires disabling many trust layer features.",
+      "upvotes": 7,
+      "dislikes": 7,
+      "downvotes": 8
+    },
+    {
+      "authorId": "t2_q6z49gs",
+      "author": "sldnkarm",
+      "authorProfile": "https://www.reddit.com/user/sldnkarm",
+      "commentId": "t1_mf2912j",
+      "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf2912j/",
+      "publishingDate": "2025-02-27T12:54:29+00:00",
+      "commentBody": "https://modelcontextprotocol.io - maybe this protocol would help you solve some of the items on your list.",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5
+    },
+    {
+      "authorId": "t2_41picu90",
+      "author": "jerry_brimsley",
+      "authorProfile": "https://www.reddit.com/user/jerry_brimsley",
+      "commentId": "t1_mf2lcnm",
+      "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf2lcnm/",
+      "publishingDate": "2025-02-27T14:10:15+00:00",
+      "commentBody": "You wouldn’t be able to sell it as a direct undercut of their product per their TOS. Something I was messing with was getting an LLM hosted as my own self hosted service on Google cloud platform, and then also leverage functions to interface with python and my service.  If I knew I had a set handful of things I’d do if I had access to the org data, you can use the LLM as a way to just formulate your own way to do a “functions” esque thing with LLM.  (Cloud functions is your way to interface with python in the cloud from apex, and “functions” in regards to LLMs as “tools” or defined functions with certain parameters that you are equipped to handle in apex via an apex rest class as well to have that gateway into your org which you can authenticate,  maybe then query accounts or something once behind the orgs curtain based on passed in parameters , return a value and you’ve made the LLM ideally able to be used to turn a natural language question into a tool / function with your LLM communications, which you can then talk to your own apex class about via some external service and do it that way.   All of the things the agents do in regard to summarizing and triaging is kind of trivial,  like you don’t need the high powered reasoning models via APIs to summarize a meeting transcript. You don’t really have to do more than make an integration between your service and their org and maybe a service to facilitate in a hub kind of way to make sure things go across ok. You absolutely can get into use cases where things like “embeddings” of the org data as a whole to process, and figure things out repeatedly will be beneficial (like RAG type deals), and that’s where salesforce can easily turn people’s org data into these embeddings in one of their data cloud rackets, and then have their rightful monopoly on all of that and charge for the beatings on co$t$…. Don’t get me wrong.  But with the capabilities some of the DIY LLM things offer now on hardware that isn’t too crazy can do a lot and then you don’t have to pay up to a 3rd party. I think if you were willing to say what the chat bot gives as a value add, it would be more realistic to say what type of “agent” action you even need.. if any… and if instead of an enterprise app exchange something like an unlocked package with some warm and fuzzy training and consulting hours as a service from a consulting services and not ISV angle would be much more low key.   They’d prob never catch you but it’s the same old thing like don’t reinvent CRM on platform license custom objects to save money etc.  in the off chance you get their attention that could suck. In any case if you managed to cut out the middle man and host a service and talk to it yourself I think that could be lucrative, but handing off sf org data would become a pain en masse to manage thru a third party who is probably doing bad things to that data. Happy to talk thru the Anthropic function talking to the apex rest class with an oauth token if it would be helpful.   That ended up being more of a natural language to soql way to look at data, but the possibilities are many. Edit:  little light on sleep and rambled a bit , and need to goto work but I will try and make sure I didn’t make something up in just a bit if it’s confusing",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_ezg28n6q",
+      "author": "Reppin505",
+      "authorProfile": "https://www.reddit.com/user/Reppin505",
+      "commentId": "t1_mf32rtc",
+      "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf32rtc/",
+      "publishingDate": "2025-02-27T15:41:57+00:00",
+      "commentBody": "Wow, is it really $2 per conversation? Yup, fun fact is that where i'm from a real person would need to handle 5 conversations per hour to be cheaper... Extra fun fact, docusign tried to ask us 3$ per single signature with their service Like anything that's list price. I spoke to the architect from Salesforce who works with a large red cola brand and they get conversations for like less than 10 pence but they bought millions to get that price.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_1h4vz102bw",
+          "author": "Low-Ambassador-208",
+          "authorProfile": "https://www.reddit.com/user/Low-Ambassador-208",
+          "commentId": "t1_mf3a3yy",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf3a3yy/",
+          "publishingDate": "2025-02-27T16:17:07+00:00",
+          "commentBody": "Yup, fun fact is that where i'm from a real person would need to handle 5 conversations per hour to be cheaper... Extra fun fact, docusign tried to ask us 3$ per single signature with their service",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_by4xt55s",
+          "author": "InterestingEgg4045",
+          "authorProfile": "https://www.reddit.com/user/InterestingEgg4045",
+          "commentId": "t1_mf3myde",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf3myde/",
+          "publishingDate": "2025-02-27T17:17:34+00:00",
+          "commentBody": "Like anything that's list price. I spoke to the architect from Salesforce who works with a large red cola brand and they get conversations for like less than 10 pence but they bought millions to get that price.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1h4vz102bw",
+      "author": "Low-Ambassador-208",
+      "authorProfile": "https://www.reddit.com/user/Low-Ambassador-208",
+      "commentId": "t1_mf390tq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf390tq/",
+      "publishingDate": "2025-02-27T16:11:57+00:00",
+      "commentBody": "2$ per conversation is insane, but you're not really paying the LLM, but the data compliance and yada yada. We're trying to do something similar but running the whole LLM locally to get around all of that (we're considering deepseek because it's pretty light). Out of curiosity, will your local implementation be agentic as well, performing actions in the crm for the user? I think we can do that, we can make our bot agentic If nothing else you’ll learn a ton along the way. Definitely an endeavor worth pursuing. Good luck to each of you who pursue the local on-prem to Salesforce route.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_ezg28n6q",
+          "author": "Reppin505",
+          "authorProfile": "https://www.reddit.com/user/Reppin505",
+          "commentId": "t1_mf3higf",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf3higf/",
+          "publishingDate": "2025-02-27T16:52:04+00:00",
+          "commentBody": "Out of curiosity, will your local implementation be agentic as well, performing actions in the crm for the user? I think we can do that, we can make our bot agentic",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_spafeon4",
+          "author": "Delicious_Pumpkin916",
+          "authorProfile": "https://www.reddit.com/user/Delicious_Pumpkin916",
+          "commentId": "t1_mf3qjzq",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf3qjzq/",
+          "publishingDate": "2025-02-27T17:34:25+00:00",
+          "commentBody": "I think we can do that, we can make our bot agentic",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_ezg28n6q",
+          "author": "Reppin505",
+          "authorProfile": "https://www.reddit.com/user/Reppin505",
+          "commentId": "t1_mf3vva7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izc0wg/i_have_created_a_chatbot_not_with_agentforce_but/mf3vva7/",
+          "publishingDate": "2025-02-27T17:59:13+00:00",
+          "commentBody": "If nothing else you’ll learn a ton along the way. Definitely an endeavor worth pursuing. Good luck to each of you who pursue the local on-prem to Salesforce route.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "info": {
+    "authorId": "t2_953mb",
+    "author": "SeriouslyImKidding",
+    "authorProfile": "https://www.reddit.com/user/SeriouslyImKidding",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1kbpha4",
+    "postLabel": null,
+    "publishingDate": "2025-04-30T19:44:37+00:00",
+    "postTitle": "Help With Agentforce SDR And Info Sec",
+    "postMessage": "We are a decently large enterprise organization (1600 active SFDC users) and have been engaged with our InfoSec team for the past two months trying to get approval to get a mailbox set up so we can configure the Agentforce SDR agent for a POC. We already have a conditionally approved Vendor Risk Assessment for both Agentforce and Datacloud, and this is literally the last step we need to get this POC of the ground but InfoSec either doesn't understand our request or is being incredibly cautious about it. Has anyone else at a large org been able to get approval from their InfoSec team to get the SDR agent up and running? If so, what did it take? I've already compiled a technical design document outlining the use case with architectural diagrams of how the email flow would work for the agent and that still hasn't moved the needle. We can't be the only ones that have had a terrible time getting approval from InfoSec, so I'm hoping others have figured it out.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1kbpha4/help_with_agentforce_sdr_and_info_sec/",
+    "commentCount": 5,
+    "upvoteCount": 5,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_rw0hn",
+      "author": "Waitin4Godot",
+      "authorProfile": "https://www.reddit.com/user/Waitin4Godot",
+      "commentId": "t1_mpwc3es",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kbpha4/help_with_agentforce_sdr_and_info_sec/mpwc3es/",
+      "publishingDate": "2025-04-30T19:57:02+00:00",
+      "commentBody": "What, exactly, are the concerns or issues of the InfoSec team? They won't even bless this to be done in a sandbox situation so everyone can see it in action and play with it to gain a better understanding? It seems specifically the request for a Shared resource account (Active Directory). We are in the pharma space and the FDA has a control that things like logins are attributable to a specific individual. I know the phrama world and my understanding is that the FDA is fine with Service Accounts as long as that account is only used for one thing, not shared across several systems or whatever. You should just need an AD account (user name and password) specific to this use case. Or maybe I'm not understanding the issue.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_953mb",
+          "author": "SeriouslyImKidding",
+          "authorProfile": "https://www.reddit.com/user/SeriouslyImKidding",
+          "commentId": "t1_mpwhhtg",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kbpha4/help_with_agentforce_sdr_and_info_sec/mpwhhtg/",
+          "publishingDate": "2025-04-30T20:23:23+00:00",
+          "commentBody": "It seems specifically the request for a Shared resource account (Active Directory). We are in the pharma space and the FDA has a control that things like logins are attributable to a specific individual. I know the phrama world and my understanding is that the FDA is fine with Service Accounts as long as that account is only used for one thing, not shared across several systems or whatever. You should just need an AD account (user name and password) specific to this use case. Or maybe I'm not understanding the issue.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_rw0hn",
+          "author": "Waitin4Godot",
+          "authorProfile": "https://www.reddit.com/user/Waitin4Godot",
+          "commentId": "t1_mpwjgmh",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kbpha4/help_with_agentforce_sdr_and_info_sec/mpwjgmh/",
+          "publishingDate": "2025-04-30T20:32:39+00:00",
+          "commentBody": "I know the phrama world and my understanding is that the FDA is fine with Service Accounts as long as that account is only used for one thing, not shared across several systems or whatever. You should just need an AD account (user name and password) specific to this use case. Or maybe I'm not understanding the issue.",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        }
+      ]
+    },
+    {
+      "authorId": "t2_bffv8z7e3",
+      "author": "ReelNerdyinFl",
+      "authorProfile": "https://www.reddit.com/user/ReelNerdyinFl",
+      "commentId": "t1_mpwnskf",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kbpha4/help_with_agentforce_sdr_and_info_sec/mpwnskf/",
+      "publishingDate": "2025-04-30T20:53:28+00:00",
+      "commentBody": "Reach out to Salesforce to help. They have a special security team that can help I bet",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4
+    },
+    {
+      "authorId": "t2_be595",
+      "author": "MatchaGaucho",
+      "authorProfile": "https://www.reddit.com/user/MatchaGaucho",
+      "commentId": "t1_mpwe5xm",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kbpha4/help_with_agentforce_sdr_and_info_sec/mpwe5xm/",
+      "publishingDate": "2025-04-30T20:07:03+00:00",
+      "commentBody": "Install the InfoSec Agent to help answer their questions?",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

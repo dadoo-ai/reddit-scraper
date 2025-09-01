@@ -1,0 +1,334 @@
+{
+  "info": {
+    "authorId": "t2_d5icz",
+    "author": "opethdamnation",
+    "authorProfile": "https://www.reddit.com/user/opethdamnation",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1j473y2",
+    "postLabel": "venting 😤",
+    "publishingDate": "2025-03-05T16:30:57+00:00",
+    "postTitle": "Trust Layer not masking data for Agentforce",
+    "postMessage": "Recently found out trust layer will not be masking data for Agentforce due to quality degradation. Was going through compliance document. This kind of defeats the trust principles. This is the gist\nData Masking is disabled for all the use cases related to Agentforce. The reason behind this\ndecision is - while data masking is vital for securing customer privacy, it can hinder the\ncontextual accuracy and relevance of outputs in certain cases—such as the planner and action\nworkflows within Agentforce. For example, if a user asks the Einstein Agent to build a list of\nsimilar accounts, the LLM (Large Language Model) needs the actual details of the referenced\naccount. If these details are masked, the model lacks the necessary context to identify similar\naccounts effectively.\nTo enhance our approach to safeguard customer data and privacy for Agentforce Agents use\ncases, soon we will be offering Anthropic Sonnet LLM as an option which will be hosted within\nour Trusted Boundary and managed by Salesforce. With Anthropic Sonnet Model (hosted within\nthe Salesforce Trust Boundary on Amazon Bedrock) for Agentforce use cases, Data Masking\nwill still be disabled but the Customer data will remain within the Salesforce Trust Boundary that\ncan reduce their security and privacy concerns. Link: https://compliance.salesforce.com/en/documents/a006e000014OxLFAA0",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/",
+    "commentCount": 32,
+    "upvoteCount": 47,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_bwvbh6y",
+      "author": "DaveDurant",
+      "authorProfile": "https://www.reddit.com/user/DaveDurant",
+      "commentId": "t1_mg663k5",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg663k5/",
+      "publishingDate": "2025-03-05T16:38:41+00:00",
+      "commentBody": "I feel like we're missing a few details here. Sorry was in a rush\nData Masking is disabled for all the use cases related to Agentforce. The reason behind this\ndecision is - while data masking is vital for securing customer privacy, it can hinder the\ncontextual accuracy and relevance of outputs in certain cases—such as the planner and action\nworkflows within Agentforce. For example, if a user asks the Einstein Agent to build a list of\nsimilar accounts, the LLM (Large Language Model) needs the actual details of the referenced\naccount. If these details are masked, the model lacks the necessary context to identify similar\naccounts effectively.\nTo enhance our approach to safeguard customer data and privacy for Agentforce Agents use\ncases, soon we will be offering Anthropic Sonnet LLM as an option which will be hosted within\nour Trusted Boundary and managed by Salesforce. With Anthropic Sonnet Model (hosted within\nthe Salesforce Trust Boundary on Amazon Bedrock) for Agentforce use cases, Data Masking\nwill still be disabled but the Customer data will remain within the Salesforce Trust Boundary that\ncan reduce their security and privacy concerns. https://compliance.salesforce.com/en/documents/a006e000014OxLFAA0 😂. I’ve been building direct to the Open AI API because fuck paying Salesforce’s “value” pricing for a commodity like LLM compute.  The FUD from their AEs is all about how that doesn’t have the advantage of their Trust Layer, and here they are eroding it. Correct. They literally removed Data masking from help article.",
+      "upvotes": 14,
+      "dislikes": 14,
+      "downvotes": 15,
+      "replies": [
+        {
+          "authorId": "t2_d5icz",
+          "author": "opethdamnation",
+          "authorProfile": "https://www.reddit.com/user/opethdamnation",
+          "commentId": "t1_mg6lxvk",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6lxvk/",
+          "publishingDate": "2025-03-05T17:52:41+00:00",
+          "commentBody": "Sorry was in a rush\nData Masking is disabled for all the use cases related to Agentforce. The reason behind this\ndecision is - while data masking is vital for securing customer privacy, it can hinder the\ncontextual accuracy and relevance of outputs in certain cases—such as the planner and action\nworkflows within Agentforce. For example, if a user asks the Einstein Agent to build a list of\nsimilar accounts, the LLM (Large Language Model) needs the actual details of the referenced\naccount. If these details are masked, the model lacks the necessary context to identify similar\naccounts effectively.\nTo enhance our approach to safeguard customer data and privacy for Agentforce Agents use\ncases, soon we will be offering Anthropic Sonnet LLM as an option which will be hosted within\nour Trusted Boundary and managed by Salesforce. With Anthropic Sonnet Model (hosted within\nthe Salesforce Trust Boundary on Amazon Bedrock) for Agentforce use cases, Data Masking\nwill still be disabled but the Customer data will remain within the Salesforce Trust Boundary that\ncan reduce their security and privacy concerns. https://compliance.salesforce.com/en/documents/a006e000014OxLFAA0 😂. I’ve been building direct to the Open AI API because fuck paying Salesforce’s “value” pricing for a commodity like LLM compute.  The FUD from their AEs is all about how that doesn’t have the advantage of their Trust Layer, and here they are eroding it. Correct. They literally removed Data masking from help article.",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_17d4qme0jl",
+          "author": "Exotic-Sale-3003",
+          "authorProfile": "https://www.reddit.com/user/Exotic-Sale-3003",
+          "commentId": "t1_mg6nc68",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6nc68/",
+          "publishingDate": "2025-03-05T17:59:06+00:00",
+          "commentBody": "😂. I’ve been building direct to the Open AI API because fuck paying Salesforce’s “value” pricing for a commodity like LLM compute.  The FUD from their AEs is all about how that doesn’t have the advantage of their Trust Layer, and here they are eroding it. Correct. They literally removed Data masking from help article.",
+          "upvotes": 10,
+          "dislikes": 10,
+          "downvotes": 11
+        },
+        {
+          "authorId": "t2_d5icz",
+          "author": "opethdamnation",
+          "authorProfile": "https://www.reddit.com/user/opethdamnation",
+          "commentId": "t1_mg6oodg",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6oodg/",
+          "publishingDate": "2025-03-05T18:05:20+00:00",
+          "commentBody": "Correct. They literally removed Data masking from help article.",
+          "upvotes": 7,
+          "dislikes": 7,
+          "downvotes": 8
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1uawdcey",
+      "author": "amoconnor42",
+      "authorProfile": "https://www.reddit.com/user/amoconnor42",
+      "commentId": "t1_mg6b7hj",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6b7hj/",
+      "publishingDate": "2025-03-05T17:02:43+00:00",
+      "commentBody": "It’s mentioned in this help article: https://help.salesforce.com/s/articleView?id=ai.copilot_trust.htm&type=5 For visibility, the paragraph in question: Data masking through the Einstein Trust Layer is disabled to improve the performance and accuracy of agents. All data accessed by agents, including personally identifiable information (PII), is protected in transit and isn't stored or used for training purposes by external LLM providers, as part of our strict zero-data retention policy. EDIT: I'll keep my original sentiment below but want to shove the correction above it. OP clarified, this is exactly what it means with further documentation which, in my opinion, makes it very clear. This is important. Personally, I think this is just an instance of bad copy. Data masking is not enabled by default, but you can turn it on. I would be really surprised if Salesforce tried to slip something like that under the radar and then post it in a help article. But, it is a bit vague nonetheless and probably worth asking some questions. I'll be asking questions to my own people too, just as a sanity check. No the data masking is turned on for us. It only works for copilot.  We confirmed with Salesforce SE and they mentioned the same. Ill atttach the link for reference https://compliance.salesforce.com/en/documents/a006e000014OxLFAA0 Well, I'll be damned. That's a real \"good\" (not really a good thing) find. That's a way different picture than I think was painted for a lot of people. Yes definitely. Was really surprised to see this. Bad copy? Like maybe it was written with AI? Our AE is gonna love this! Just skimmed this. What am I missing.",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7,
+      "replies": [
+        {
+          "authorId": "t2_14ahvl",
+          "author": "Voxmanns",
+          "authorProfile": "https://www.reddit.com/user/Voxmanns",
+          "commentId": "t1_mg6i5m7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6i5m7/",
+          "publishingDate": "2025-03-05T17:35:12+00:00",
+          "commentBody": "For visibility, the paragraph in question: Data masking through the Einstein Trust Layer is disabled to improve the performance and accuracy of agents. All data accessed by agents, including personally identifiable information (PII), is protected in transit and isn't stored or used for training purposes by external LLM providers, as part of our strict zero-data retention policy. EDIT: I'll keep my original sentiment below but want to shove the correction above it. OP clarified, this is exactly what it means with further documentation which, in my opinion, makes it very clear. This is important. Personally, I think this is just an instance of bad copy. Data masking is not enabled by default, but you can turn it on. I would be really surprised if Salesforce tried to slip something like that under the radar and then post it in a help article. But, it is a bit vague nonetheless and probably worth asking some questions. I'll be asking questions to my own people too, just as a sanity check. No the data masking is turned on for us. It only works for copilot.  We confirmed with Salesforce SE and they mentioned the same. Ill atttach the link for reference https://compliance.salesforce.com/en/documents/a006e000014OxLFAA0 Well, I'll be damned. That's a real \"good\" (not really a good thing) find. That's a way different picture than I think was painted for a lot of people. Yes definitely. Was really surprised to see this. Bad copy? Like maybe it was written with AI?",
+          "upvotes": 11,
+          "dislikes": 11,
+          "downvotes": 12
+        },
+        {
+          "authorId": "t2_d5icz",
+          "author": "opethdamnation",
+          "authorProfile": "https://www.reddit.com/user/opethdamnation",
+          "commentId": "t1_mg6kxxn",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6kxxn/",
+          "publishingDate": "2025-03-05T17:48:02+00:00",
+          "commentBody": "No the data masking is turned on for us. It only works for copilot.  We confirmed with Salesforce SE and they mentioned the same. Ill atttach the link for reference https://compliance.salesforce.com/en/documents/a006e000014OxLFAA0 Well, I'll be damned. That's a real \"good\" (not really a good thing) find. That's a way different picture than I think was painted for a lot of people. Yes definitely. Was really surprised to see this.",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        },
+        {
+          "authorId": "t2_14ahvl",
+          "author": "Voxmanns",
+          "authorProfile": "https://www.reddit.com/user/Voxmanns",
+          "commentId": "t1_mg6mtpj",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6mtpj/",
+          "publishingDate": "2025-03-05T17:56:44+00:00",
+          "commentBody": "Well, I'll be damned. That's a real \"good\" (not really a good thing) find. That's a way different picture than I think was painted for a lot of people. Yes definitely. Was really surprised to see this.",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_d5icz",
+          "author": "opethdamnation",
+          "authorProfile": "https://www.reddit.com/user/opethdamnation",
+          "commentId": "t1_mg6n7af",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6n7af/",
+          "publishingDate": "2025-03-05T17:58:29+00:00",
+          "commentBody": "Yes definitely. Was really surprised to see this.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_imkc4lbq",
+          "author": "SalesforceStudent101",
+          "authorProfile": "https://www.reddit.com/user/SalesforceStudent101",
+          "commentId": "t1_mg8wfjj",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg8wfjj/",
+          "publishingDate": "2025-03-06T00:33:44+00:00",
+          "commentBody": "Bad copy? Like maybe it was written with AI?",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_11ecus8zze",
+          "author": "AbbreviationsMany933",
+          "authorProfile": "https://www.reddit.com/user/AbbreviationsMany933",
+          "commentId": "t1_mg6ez10",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6ez10/",
+          "publishingDate": "2025-03-05T17:20:26+00:00",
+          "commentBody": "Our AE is gonna love this!",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": "t2_uasai8g",
+          "author": "linguist_turned_SAHM",
+          "authorProfile": "https://www.reddit.com/user/linguist_turned_SAHM",
+          "commentId": "t1_mg6ggsf",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6ggsf/",
+          "publishingDate": "2025-03-05T17:27:18+00:00",
+          "commentBody": "Just skimmed this. What am I missing.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_8x826d39",
+      "author": "DraftPuzzleheaded100",
+      "authorProfile": "https://www.reddit.com/user/DraftPuzzleheaded100",
+      "commentId": "t1_mg67nfh",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg67nfh/",
+      "publishingDate": "2025-03-05T16:46:01+00:00",
+      "commentBody": "Elaborate please So Data masking is enabled in our org. It works for copilot but not for Agentforce. Talked to SF SE and they confirmed they have turned it off. Link to the document: https://compliance.salesforce.com/en/documents/a006e000014OxLFAA0 This is from the article above\nData Masking is disabled for all the use cases related to Agentforce. The reason behind this\ndecision is - while data masking is vital for securing customer privacy, it can hinder the\ncontextual accuracy and relevance of outputs in certain cases—such as the planner and action\nworkflows within Agentforce. For example, if a user asks the Einstein Agent to build a list of\nsimilar accounts, the LLM (Large Language Model) needs the actual details of the referenced\naccount. If these details are masked, the model lacks the necessary context to identify similar\naccounts effectively.\nTo enhance our approach to safeguard customer data and privacy for Agentforce Agents use\ncases, soon we will be offering Anthropic Sonnet LLM as an option which will be hosted within\nour Trusted Boundary and managed by Salesforce. With Anthropic Sonnet Model (hosted within\nthe Salesforce Trust Boundary on Amazon Bedrock) for Agentforce use cases, Data Masking\nwill still be disabled but the Customer data will remain within the Salesforce Trust Boundary that\ncan reduce their security and privacy concerns.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_d5icz",
+          "author": "opethdamnation",
+          "authorProfile": "https://www.reddit.com/user/opethdamnation",
+          "commentId": "t1_mg6lb41",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6lb41/",
+          "publishingDate": "2025-03-05T17:49:45+00:00",
+          "commentBody": "So Data masking is enabled in our org. It works for copilot but not for Agentforce. Talked to SF SE and they confirmed they have turned it off. Link to the document: https://compliance.salesforce.com/en/documents/a006e000014OxLFAA0 This is from the article above\nData Masking is disabled for all the use cases related to Agentforce. The reason behind this\ndecision is - while data masking is vital for securing customer privacy, it can hinder the\ncontextual accuracy and relevance of outputs in certain cases—such as the planner and action\nworkflows within Agentforce. For example, if a user asks the Einstein Agent to build a list of\nsimilar accounts, the LLM (Large Language Model) needs the actual details of the referenced\naccount. If these details are masked, the model lacks the necessary context to identify similar\naccounts effectively.\nTo enhance our approach to safeguard customer data and privacy for Agentforce Agents use\ncases, soon we will be offering Anthropic Sonnet LLM as an option which will be hosted within\nour Trusted Boundary and managed by Salesforce. With Anthropic Sonnet Model (hosted within\nthe Salesforce Trust Boundary on Amazon Bedrock) for Agentforce use cases, Data Masking\nwill still be disabled but the Customer data will remain within the Salesforce Trust Boundary that\ncan reduce their security and privacy concerns.",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        }
+      ]
+    },
+    {
+      "authorId": "t2_14hq3e2mh7",
+      "author": "MaintenanceStatus329",
+      "authorProfile": "https://www.reddit.com/user/MaintenanceStatus329",
+      "commentId": "t1_mgfr5d8",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mgfr5d8/",
+      "publishingDate": "2025-03-07T01:45:15+00:00",
+      "commentBody": "But isn’t the whole purpose that you can choose to mask data that goes to agentforce (not co pilot)? Please correct me if I am mistaken as this is what was communicated by Salesforce due to quality of the output issues That was communicated by Salesforce. The issue is we chose to mask data as there was PII but its not doing that for Agentforce.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_d5icz",
+          "author": "opethdamnation",
+          "authorProfile": "https://www.reddit.com/user/opethdamnation",
+          "commentId": "t1_mggbxpq",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mggbxpq/",
+          "publishingDate": "2025-03-07T03:48:37+00:00",
+          "commentBody": "That was communicated by Salesforce. The issue is we chose to mask data as there was PII but its not doing that for Agentforce.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_be595",
+      "author": "MatchaGaucho",
+      "authorProfile": "https://www.reddit.com/user/MatchaGaucho",
+      "commentId": "t1_mg6iekg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6iekg/",
+      "publishingDate": "2025-03-05T17:36:21+00:00",
+      "commentBody": "TLDR: Atlas reasoning engine is based on OpenAI GPT4o. That model is an \"Attention is All You Need\" language model that needs 100% of context. https://en.wikipedia.org/wiki/Attention_Is_All_You_Need Example: in romance languages, the gender of a person's name impacts the tone of how an email is written in a foreign language. Data masking causes hallucinations when substituting tokens that aren't in the training data set, and was probably impacting how Atlas constructs a set of next actions. So basically they want you to rely on the zero data retention policy and deal salesforce has with OpenAI and other LLM providers? Salesforce has no proprietary deal with OpenAI around trust. Only a licensing deal and DPA, the same as every other Developer. https://openai.com/policies/data-processing-addendum/ OpenAI is being used by NSA, CIA, FBI... and their https://trust.openai.com/ portal has an over-abundance of security and privacy information. At one time not too long ago (~2 years), OpenAI did have toxicity, hallucination and data retraining issues. What trust cloud sought to address. But in AI internet years, things move very fast. OpenAI, and all enterprise-class LLMs, are orders of magnitude more secure, cheaper, faster, and better.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_6fyzh",
+          "author": "QuitClearly",
+          "authorProfile": "https://www.reddit.com/user/QuitClearly",
+          "commentId": "t1_mg6tfox",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6tfox/",
+          "publishingDate": "2025-03-05T18:27:24+00:00",
+          "commentBody": "So basically they want you to rely on the zero data retention policy and deal salesforce has with OpenAI and other LLM providers? Salesforce has no proprietary deal with OpenAI around trust. Only a licensing deal and DPA, the same as every other Developer. https://openai.com/policies/data-processing-addendum/ OpenAI is being used by NSA, CIA, FBI... and their https://trust.openai.com/ portal has an over-abundance of security and privacy information. At one time not too long ago (~2 years), OpenAI did have toxicity, hallucination and data retraining issues. What trust cloud sought to address. But in AI internet years, things move very fast. OpenAI, and all enterprise-class LLMs, are orders of magnitude more secure, cheaper, faster, and better.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_be595",
+          "author": "MatchaGaucho",
+          "authorProfile": "https://www.reddit.com/user/MatchaGaucho",
+          "commentId": "t1_mg6vp7z",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6vp7z/",
+          "publishingDate": "2025-03-05T18:37:43+00:00",
+          "commentBody": "Salesforce has no proprietary deal with OpenAI around trust. Only a licensing deal and DPA, the same as every other Developer. https://openai.com/policies/data-processing-addendum/ OpenAI is being used by NSA, CIA, FBI... and their https://trust.openai.com/ portal has an over-abundance of security and privacy information. At one time not too long ago (~2 years), OpenAI did have toxicity, hallucination and data retraining issues. What trust cloud sought to address. But in AI internet years, things move very fast. OpenAI, and all enterprise-class LLMs, are orders of magnitude more secure, cheaper, faster, and better.",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        }
+      ]
+    },
+    {
+      "authorId": "t2_kl7p7",
+      "author": "vkfjord",
+      "authorProfile": "https://www.reddit.com/user/vkfjord",
+      "commentId": "t1_mg6ah67",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6ah67/",
+      "publishingDate": "2025-03-05T16:59:15+00:00",
+      "commentBody": "Gonna need some more info.  What document did you see this in? https://compliance.salesforce.com/en/documents/a006e000014OxLFAA0",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_d5icz",
+          "author": "opethdamnation",
+          "authorProfile": "https://www.reddit.com/user/opethdamnation",
+          "commentId": "t1_mg6ldc7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6ldc7/",
+          "publishingDate": "2025-03-05T17:50:02+00:00",
+          "commentBody": "https://compliance.salesforce.com/en/documents/a006e000014OxLFAA0",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_a5ppscaq",
+      "author": "Jwzbb",
+      "authorProfile": "https://www.reddit.com/user/Jwzbb",
+      "commentId": "t1_mg6g78p",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6g78p/",
+      "publishingDate": "2025-03-05T17:26:05+00:00",
+      "commentBody": "I’m hoping you misread that. Source please. 🙏 https://compliance.salesforce.com/en/documents/a006e000014OxLFAA0 Oh no lol",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_d5icz",
+          "author": "opethdamnation",
+          "authorProfile": "https://www.reddit.com/user/opethdamnation",
+          "commentId": "t1_mg6m1x3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg6m1x3/",
+          "publishingDate": "2025-03-05T17:53:11+00:00",
+          "commentBody": "https://compliance.salesforce.com/en/documents/a006e000014OxLFAA0 Oh no lol",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_6n6wn6d4",
+          "author": "treeebob",
+          "authorProfile": "https://www.reddit.com/user/treeebob",
+          "commentId": "t1_mg7k2j1",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mg7k2j1/",
+          "publishingDate": "2025-03-05T20:30:40+00:00",
+          "commentBody": "Oh no lol",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        }
+      ]
+    },
+    {
+      "authorId": "t2_524rwnu0",
+      "author": "_dcstuff",
+      "authorProfile": "https://www.reddit.com/user/_dcstuff",
+      "commentId": "t1_mmalm2d",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j473y2/trust_layer_not_masking_data_for_agentforce/mmalm2d/",
+      "publishingDate": "2025-04-09T22:43:51+00:00",
+      "commentBody": "\"For Agentforce, currently Data Masking is disabled, however this feature is still available on other Einstein Generative AI features and customer developed functions (such as flows).\" Ok, it's disabled for Agentforce. But isn't it all Agentforce? I'm trying to understand precisely in what cases is it not disabled? What does \"such as flows\" mean? Does anyone have a concrete answer?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

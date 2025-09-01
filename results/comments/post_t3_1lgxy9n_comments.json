@@ -1,0 +1,32 @@
+{
+  "info": {
+    "authorId": "t2_c6ryztav",
+    "author": "S8260Kl359N",
+    "authorProfile": "https://www.reddit.com/user/S8260Kl359N",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1lgxy9n",
+    "postLabel": null,
+    "publishingDate": "2025-06-21T14:32:55+00:00",
+    "postTitle": "Running Agentforce on Localhost",
+    "postMessage": "Potentially dense question. I’m not very technical myself but trying to learn by doing. Got an Agent set up, working when called on Postman etc. Now I’ve got a simple HTML file that I’m hosting using a Python server. Can see it when going onto http://localhost:{{Inseet port here}}, but can’t find a step by step guide on how to embed the Agent into the site. Again I’m not incredibly technical so please excuse me if I seem to be showing major technical knowledge gaps. I’ve done the Agentforce trails and stuff and they only teach you how to embed it into your experience cloud site, with that ESA Web Deployment thing already set up for you. So how? I’m struggling to find documentation online. Thanks in advance!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1lgxy9n/running_agentforce_on_localhost/",
+    "commentCount": 1,
+    "upvoteCount": 4,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_s0njh",
+      "author": "DoubleTigerMUCU",
+      "authorProfile": "https://www.reddit.com/user/DoubleTigerMUCU",
+      "commentId": "t1_mz046ey",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lgxy9n/running_agentforce_on_localhost/mz046ey/",
+      "publishingDate": "2025-06-21T15:51:15+00:00",
+      "commentBody": "Deploy the Agent through setup in Sales Cloud. You have to select the channel.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "info": {
+    "authorId": "t2_1mjxbtl3",
+    "author": "proofofclaim",
+    "authorProfile": "https://www.reddit.com/user/proofofclaim",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1jk2vvp",
+    "postLabel": null,
+    "publishingDate": "2025-03-26T03:42:53+00:00",
+    "postTitle": "Anyone seen Agentforce at Heathrow?",
+    "postMessage": "Salesforce had that Superbowl ad with Matthew McConaughey running around the airport and they list Heathrow as a big customer on their website, but I can't find anyone reviewing or talking about the new AI features that are supposedly available at Heathrow thanks to Salesforce. Heathrow still gets some of the worst reviews of any airport in the world. Has anyone here recently flown out of there or know anything about how good the touted AI features are IRL?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1jk2vvp/anyone_seen_agentforce_at_heathrow/",
+    "commentCount": 12,
+    "upvoteCount": 4,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_867527bkd",
+      "author": "Swimming_Leopard_148",
+      "authorProfile": "https://www.reddit.com/user/Swimming_Leopard_148",
+      "commentId": "t1_mjs29xa",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jk2vvp/anyone_seen_agentforce_at_heathrow/mjs29xa/",
+      "publishingDate": "2025-03-26T03:48:43+00:00",
+      "commentBody": "I would take any customer success story with a large grain of salt. A quick Google shows that Heathrow website chatbot is using Agentforce to automate queries faster. (I.e deflecting from human agents as much as possible) By solving the issues... what it's designed to do?",
+      "upvotes": 16,
+      "dislikes": 16,
+      "downvotes": 17,
+      "replies": [
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_mjyam45",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jk2vvp/anyone_seen_agentforce_at_heathrow/mjyam45/",
+          "publishingDate": "2025-03-27T03:06:17+00:00",
+          "commentBody": "By solving the issues... what it's designed to do?",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_6qls35lf",
+      "author": "SofaAloo",
+      "authorProfile": "https://www.reddit.com/user/SofaAloo",
+      "commentId": "t1_mjstxqt",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jk2vvp/anyone_seen_agentforce_at_heathrow/mjstxqt/",
+      "publishingDate": "2025-03-26T08:14:13+00:00",
+      "commentBody": "Things are still in pilot. Heathrow is currently trying to get their data in order and then have Agentforce and other features on top of them once this is done. One of their org is a shitshow in terms of development, best practices, pipelines. I am seeing it very close but I am not part of it so can't go put my nose in and teach people about version controls, best practices, naming conventions. I just help around the peers who are working there when they are stuck or have questions. Treat the ad as just an ad, maybe even a misleading one, but yeah, things haven't been implemented yet. If anything, it might start about 6-8 months down the line. tldr: No Agentforce yet. Agentforce work starts towards the end of the year. Heathrow is a customer of Salesforce.",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5
+    },
+    {
+      "authorId": "t2_6ed4mw6t",
+      "author": "ConceptualCatPoltics",
+      "authorProfile": "https://www.reddit.com/user/ConceptualCatPoltics",
+      "commentId": "t1_mju180s",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jk2vvp/anyone_seen_agentforce_at_heathrow/mju180s/",
+      "publishingDate": "2025-03-26T13:58:13+00:00",
+      "commentBody": "ooooh maybe that's the reason for the big electrical fire, AgentForce consuming all the POWA No joke, I was thinking that when I saw the news. They do say AI pulls a ton of power from the grid. You... Know that everything happens in the data center, unrelated to the location of use, right? You know that some businesses use more compute from some datacenters than other companies, right? You know some companies have more hardware dedicated to their compute, right? It's not unheard of for a particular customer to draw more energy and processing time from a datacenter to the point that it becomes a hog on the system.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_1mjxbtl3",
+          "author": "proofofclaim",
+          "authorProfile": "https://www.reddit.com/user/proofofclaim",
+          "commentId": "t1_mjww0td",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jk2vvp/anyone_seen_agentforce_at_heathrow/mjww0td/",
+          "publishingDate": "2025-03-26T22:18:02+00:00",
+          "commentBody": "No joke, I was thinking that when I saw the news. They do say AI pulls a ton of power from the grid. You... Know that everything happens in the data center, unrelated to the location of use, right? You know that some businesses use more compute from some datacenters than other companies, right? You know some companies have more hardware dedicated to their compute, right? It's not unheard of for a particular customer to draw more energy and processing time from a datacenter to the point that it becomes a hog on the system.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_mjyasal",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jk2vvp/anyone_seen_agentforce_at_heathrow/mjyasal/",
+          "publishingDate": "2025-03-27T03:07:24+00:00",
+          "commentBody": "You... Know that everything happens in the data center, unrelated to the location of use, right? You know that some businesses use more compute from some datacenters than other companies, right? You know some companies have more hardware dedicated to their compute, right? It's not unheard of for a particular customer to draw more energy and processing time from a datacenter to the point that it becomes a hog on the system.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1mjxbtl3",
+          "author": "proofofclaim",
+          "authorProfile": "https://www.reddit.com/user/proofofclaim",
+          "commentId": "t1_mk02mif",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jk2vvp/anyone_seen_agentforce_at_heathrow/mk02mif/",
+          "publishingDate": "2025-03-27T12:39:30+00:00",
+          "commentBody": "You know that some businesses use more compute from some datacenters than other companies, right? You know some companies have more hardware dedicated to their compute, right? It's not unheard of for a particular customer to draw more energy and processing time from a datacenter to the point that it becomes a hog on the system.",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        }
+      ]
+    },
+    {
+      "authorId": "t2_8yhalg4s",
+      "author": "SpritePotatoYo",
+      "authorProfile": "https://www.reddit.com/user/SpritePotatoYo",
+      "commentId": "t1_mjtn7lc",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jk2vvp/anyone_seen_agentforce_at_heathrow/mjtn7lc/",
+      "publishingDate": "2025-03-26T12:36:11+00:00",
+      "commentBody": "I saw him having a pint at the pub by gate 10 the other day",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_921uebyx",
+      "author": "OakCliffGuy214",
+      "authorProfile": "https://www.reddit.com/user/OakCliffGuy214",
+      "commentId": "t1_mjy8n3f",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jk2vvp/anyone_seen_agentforce_at_heathrow/mjy8n3f/",
+      "publishingDate": "2025-03-27T02:53:28+00:00",
+      "commentBody": "I am so over ANY and EVERYTHING Agentforce. Tell us more. What kind of experiences have you run into?",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_1mjxbtl3",
+          "author": "proofofclaim",
+          "authorProfile": "https://www.reddit.com/user/proofofclaim",
+          "commentId": "t1_mk02ry6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jk2vvp/anyone_seen_agentforce_at_heathrow/mk02ry6/",
+          "publishingDate": "2025-03-27T12:40:27+00:00",
+          "commentBody": "Tell us more. What kind of experiences have you run into?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_5l6um",
+      "author": "zudnic",
+      "authorProfile": "https://www.reddit.com/user/zudnic",
+      "commentId": "t1_mjshib4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jk2vvp/anyone_seen_agentforce_at_heathrow/mjshib4/",
+      "publishingDate": "2025-03-26T06:00:39+00:00",
+      "commentBody": "Of course not. Agentforce is laughably bad. There is no way any enterprise of any scale is using it the way they claim.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_3ioqq",
+      "author": "chemchris",
+      "authorProfile": "https://www.reddit.com/user/chemchris",
+      "commentId": "t1_mjtiayr",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jk2vvp/anyone_seen_agentforce_at_heathrow/mjtiayr/",
+      "publishingDate": "2025-03-26T12:02:55+00:00",
+      "commentBody": "I've worked with Salesforce since 2007 and flew out of Heathrow on Saturday and didn't see anything. Truthfully though I didn't know about this claim so I wasn't looking.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    }
+  ]
+}

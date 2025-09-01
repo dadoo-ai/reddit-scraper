@@ -1,0 +1,356 @@
+{
+  "info": {
+    "authorId": "t2_dv0bw2l7",
+    "author": "Annual-Fly2042",
+    "authorProfile": "https://www.reddit.com/user/Annual-Fly2042",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1ihf9to",
+    "postLabel": "venting 😤",
+    "publishingDate": "2025-02-04T11:08:22+00:00",
+    "postTitle": "Is agentforce chat helpful at all?!",
+    "postMessage": "I've contacted Salesforce through Agentforce chat and I got the feeling that its not useful at all as it was just looping and circling around couple answers... my question was trivial, im not able to login on my special org for a superbadge and im not able to reset my password as well (security question issue). And from here, the agentforce is not able to help nor connect me to real agent.\nMy point here is, if someone before reached out to Salesforce through agentforce and he got the help needed?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/",
+    "commentCount": 28,
+    "upvoteCount": 7,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_wbr8c",
+      "author": "big-blue-balls",
+      "authorProfile": "https://www.reddit.com/user/big-blue-balls",
+      "commentId": "t1_mawka9y",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mawka9y/",
+      "publishingDate": "2025-02-04T11:12:08+00:00",
+      "commentBody": "Where were you looking? help.salesforce.com Ask Agentforce? You want Trailhead support. Help portal is for paying customers. However, I just tried and it immediately sent me to a human when I asked. I don't know what your issue is. Do you have the chat log? <image> Your account you were logged in with is probably not entitled to live support.  Must not be one for a paying customer org. As others said, you need to contact TraIlhead support. Ironically I got the same thing when logged in with a paid Premiere Success account. I bailed out, went to the ticket submission and was able to chat from there. u/UnpopularCrayon u/rwh12345 good luck The fact that you’re tagging people like it’s proving a point yet you can’t comprehend that you’re doing a trailhead and expecting salesforce production support to assist you with your trailhead module is hilarious As I (and others) have already stated, trailhead has an entirely different support team. You going to help.salesforce.com is not trailhead support. It’s quite literally stated in the above comment. So again, maybe try reaching out to the appropriate team Quite the opposite, you need to open your mind and face reality. Salesforce is phasing out human support and sunsetting that feature. Many others have mentioned that they are unable to contact live support at certain times. From your writings, it seems like you contacted support a couple of months ago and didn't face any issues. I'm tagging you to see other stuff that are not inside ur head. Your entire post is about a super badge not working, and you’re going to Salesforce production support to get help. I’m not sure how this is incorrect. You’re literally trying to have production support resources (AI and people) trying to solve your issue, when you aren’t in a production org. You need to go through trailhead. Heres the link yet again, enjoy your day. https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=/s",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5,
+      "replies": [
+        {
+          "authorId": "t2_dv0bw2l7",
+          "author": "Annual-Fly2042",
+          "authorProfile": "https://www.reddit.com/user/Annual-Fly2042",
+          "commentId": "t1_mawkebn",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mawkebn/",
+          "publishingDate": "2025-02-04T11:13:11+00:00",
+          "commentBody": "help.salesforce.com Ask Agentforce? You want Trailhead support. Help portal is for paying customers. However, I just tried and it immediately sent me to a human when I asked. I don't know what your issue is. Do you have the chat log? <image> Your account you were logged in with is probably not entitled to live support.  Must not be one for a paying customer org. As others said, you need to contact TraIlhead support. Ironically I got the same thing when logged in with a paid Premiere Success account. I bailed out, went to the ticket submission and was able to chat from there. u/UnpopularCrayon u/rwh12345 good luck The fact that you’re tagging people like it’s proving a point yet you can’t comprehend that you’re doing a trailhead and expecting salesforce production support to assist you with your trailhead module is hilarious As I (and others) have already stated, trailhead has an entirely different support team. You going to help.salesforce.com is not trailhead support. It’s quite literally stated in the above comment. So again, maybe try reaching out to the appropriate team Quite the opposite, you need to open your mind and face reality. Salesforce is phasing out human support and sunsetting that feature. Many others have mentioned that they are unable to contact live support at certain times. From your writings, it seems like you contacted support a couple of months ago and didn't face any issues. I'm tagging you to see other stuff that are not inside ur head. Your entire post is about a super badge not working, and you’re going to Salesforce production support to get help. I’m not sure how this is incorrect. You’re literally trying to have production support resources (AI and people) trying to solve your issue, when you aren’t in a production org. You need to go through trailhead. Heres the link yet again, enjoy your day. https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=/s",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_wbr8c",
+          "author": "big-blue-balls",
+          "authorProfile": "https://www.reddit.com/user/big-blue-balls",
+          "commentId": "t1_mawkpug",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mawkpug/",
+          "publishingDate": "2025-02-04T11:16:06+00:00",
+          "commentBody": "You want Trailhead support. Help portal is for paying customers. However, I just tried and it immediately sent me to a human when I asked. I don't know what your issue is. Do you have the chat log? <image> Your account you were logged in with is probably not entitled to live support.  Must not be one for a paying customer org. As others said, you need to contact TraIlhead support. Ironically I got the same thing when logged in with a paid Premiere Success account. I bailed out, went to the ticket submission and was able to chat from there. u/UnpopularCrayon u/rwh12345 good luck The fact that you’re tagging people like it’s proving a point yet you can’t comprehend that you’re doing a trailhead and expecting salesforce production support to assist you with your trailhead module is hilarious As I (and others) have already stated, trailhead has an entirely different support team. You going to help.salesforce.com is not trailhead support. It’s quite literally stated in the above comment. So again, maybe try reaching out to the appropriate team Quite the opposite, you need to open your mind and face reality. Salesforce is phasing out human support and sunsetting that feature. Many others have mentioned that they are unable to contact live support at certain times. From your writings, it seems like you contacted support a couple of months ago and didn't face any issues. I'm tagging you to see other stuff that are not inside ur head. Your entire post is about a super badge not working, and you’re going to Salesforce production support to get help. I’m not sure how this is incorrect. You’re literally trying to have production support resources (AI and people) trying to solve your issue, when you aren’t in a production org. You need to go through trailhead. Heres the link yet again, enjoy your day. https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=/s",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_dv0bw2l7",
+          "author": "Annual-Fly2042",
+          "authorProfile": "https://www.reddit.com/user/Annual-Fly2042",
+          "commentId": "t1_mawlmk6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mawlmk6/",
+          "publishingDate": "2025-02-04T11:24:19+00:00",
+          "commentBody": "<image> Your account you were logged in with is probably not entitled to live support.  Must not be one for a paying customer org. As others said, you need to contact TraIlhead support. Ironically I got the same thing when logged in with a paid Premiere Success account. I bailed out, went to the ticket submission and was able to chat from there. u/UnpopularCrayon u/rwh12345 good luck The fact that you’re tagging people like it’s proving a point yet you can’t comprehend that you’re doing a trailhead and expecting salesforce production support to assist you with your trailhead module is hilarious As I (and others) have already stated, trailhead has an entirely different support team. You going to help.salesforce.com is not trailhead support. It’s quite literally stated in the above comment. So again, maybe try reaching out to the appropriate team Quite the opposite, you need to open your mind and face reality. Salesforce is phasing out human support and sunsetting that feature. Many others have mentioned that they are unable to contact live support at certain times. From your writings, it seems like you contacted support a couple of months ago and didn't face any issues. I'm tagging you to see other stuff that are not inside ur head. Your entire post is about a super badge not working, and you’re going to Salesforce production support to get help. I’m not sure how this is incorrect. You’re literally trying to have production support resources (AI and people) trying to solve your issue, when you aren’t in a production org. You need to go through trailhead. Heres the link yet again, enjoy your day. https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=/s",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        },
+        {
+          "authorId": "t2_11h7do",
+          "author": "UnpopularCrayon",
+          "authorProfile": "https://www.reddit.com/user/UnpopularCrayon",
+          "commentId": "t1_mawmih1",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mawmih1/",
+          "publishingDate": "2025-02-04T11:32:07+00:00",
+          "commentBody": "Your account you were logged in with is probably not entitled to live support.  Must not be one for a paying customer org. As others said, you need to contact TraIlhead support. Ironically I got the same thing when logged in with a paid Premiere Success account. I bailed out, went to the ticket submission and was able to chat from there. u/UnpopularCrayon u/rwh12345 good luck The fact that you’re tagging people like it’s proving a point yet you can’t comprehend that you’re doing a trailhead and expecting salesforce production support to assist you with your trailhead module is hilarious As I (and others) have already stated, trailhead has an entirely different support team. You going to help.salesforce.com is not trailhead support. It’s quite literally stated in the above comment. So again, maybe try reaching out to the appropriate team Quite the opposite, you need to open your mind and face reality. Salesforce is phasing out human support and sunsetting that feature. Many others have mentioned that they are unable to contact live support at certain times. From your writings, it seems like you contacted support a couple of months ago and didn't face any issues. I'm tagging you to see other stuff that are not inside ur head. Your entire post is about a super badge not working, and you’re going to Salesforce production support to get help. I’m not sure how this is incorrect. You’re literally trying to have production support resources (AI and people) trying to solve your issue, when you aren’t in a production org. You need to go through trailhead. Heres the link yet again, enjoy your day. https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=/s",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": "t2_n78k1",
+          "author": "Hwhitfield2",
+          "authorProfile": "https://www.reddit.com/user/Hwhitfield2",
+          "commentId": "t1_maxqba8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/maxqba8/",
+          "publishingDate": "2025-02-04T15:38:13+00:00",
+          "commentBody": "Ironically I got the same thing when logged in with a paid Premiere Success account. I bailed out, went to the ticket submission and was able to chat from there. u/UnpopularCrayon u/rwh12345 good luck The fact that you’re tagging people like it’s proving a point yet you can’t comprehend that you’re doing a trailhead and expecting salesforce production support to assist you with your trailhead module is hilarious As I (and others) have already stated, trailhead has an entirely different support team. You going to help.salesforce.com is not trailhead support. It’s quite literally stated in the above comment. So again, maybe try reaching out to the appropriate team Quite the opposite, you need to open your mind and face reality. Salesforce is phasing out human support and sunsetting that feature. Many others have mentioned that they are unable to contact live support at certain times. From your writings, it seems like you contacted support a couple of months ago and didn't face any issues. I'm tagging you to see other stuff that are not inside ur head. Your entire post is about a super badge not working, and you’re going to Salesforce production support to get help. I’m not sure how this is incorrect. You’re literally trying to have production support resources (AI and people) trying to solve your issue, when you aren’t in a production org. You need to go through trailhead. Heres the link yet again, enjoy your day. https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=/s",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_dv0bw2l7",
+          "author": "Annual-Fly2042",
+          "authorProfile": "https://www.reddit.com/user/Annual-Fly2042",
+          "commentId": "t1_maymvwt",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/maymvwt/",
+          "publishingDate": "2025-02-04T18:10:53+00:00",
+          "commentBody": "u/UnpopularCrayon",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        },
+        {
+          "authorId": "t2_dv0bw2l7",
+          "author": "Annual-Fly2042",
+          "authorProfile": "https://www.reddit.com/user/Annual-Fly2042",
+          "commentId": "t1_mayntms",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mayntms/",
+          "publishingDate": "2025-02-04T18:15:11+00:00",
+          "commentBody": "u/rwh12345 good luck The fact that you’re tagging people like it’s proving a point yet you can’t comprehend that you’re doing a trailhead and expecting salesforce production support to assist you with your trailhead module is hilarious As I (and others) have already stated, trailhead has an entirely different support team. You going to help.salesforce.com is not trailhead support. It’s quite literally stated in the above comment. So again, maybe try reaching out to the appropriate team Quite the opposite, you need to open your mind and face reality. Salesforce is phasing out human support and sunsetting that feature. Many others have mentioned that they are unable to contact live support at certain times. From your writings, it seems like you contacted support a couple of months ago and didn't face any issues. I'm tagging you to see other stuff that are not inside ur head. Your entire post is about a super badge not working, and you’re going to Salesforce production support to get help. I’m not sure how this is incorrect. You’re literally trying to have production support resources (AI and people) trying to solve your issue, when you aren’t in a production org. You need to go through trailhead. Heres the link yet again, enjoy your day. https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=/s",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        },
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_mayoght",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mayoght/",
+          "publishingDate": "2025-02-04T18:18:05+00:00",
+          "commentBody": "The fact that you’re tagging people like it’s proving a point yet you can’t comprehend that you’re doing a trailhead and expecting salesforce production support to assist you with your trailhead module is hilarious As I (and others) have already stated, trailhead has an entirely different support team. You going to help.salesforce.com is not trailhead support. It’s quite literally stated in the above comment. So again, maybe try reaching out to the appropriate team Quite the opposite, you need to open your mind and face reality. Salesforce is phasing out human support and sunsetting that feature. Many others have mentioned that they are unable to contact live support at certain times. From your writings, it seems like you contacted support a couple of months ago and didn't face any issues. I'm tagging you to see other stuff that are not inside ur head. Your entire post is about a super badge not working, and you’re going to Salesforce production support to get help. I’m not sure how this is incorrect. You’re literally trying to have production support resources (AI and people) trying to solve your issue, when you aren’t in a production org. You need to go through trailhead. Heres the link yet again, enjoy your day. https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=/s",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        },
+        {
+          "authorId": "t2_dv0bw2l7",
+          "author": "Annual-Fly2042",
+          "authorProfile": "https://www.reddit.com/user/Annual-Fly2042",
+          "commentId": "t1_maypw17",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/maypw17/",
+          "publishingDate": "2025-02-04T18:24:40+00:00",
+          "commentBody": "Quite the opposite, you need to open your mind and face reality. Salesforce is phasing out human support and sunsetting that feature. Many others have mentioned that they are unable to contact live support at certain times. From your writings, it seems like you contacted support a couple of months ago and didn't face any issues. I'm tagging you to see other stuff that are not inside ur head. Your entire post is about a super badge not working, and you’re going to Salesforce production support to get help. I’m not sure how this is incorrect. You’re literally trying to have production support resources (AI and people) trying to solve your issue, when you aren’t in a production org. You need to go through trailhead. Heres the link yet again, enjoy your day. https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=/s",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_mayrp1v",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mayrp1v/",
+          "publishingDate": "2025-02-04T18:33:35+00:00",
+          "commentBody": "Your entire post is about a super badge not working, and you’re going to Salesforce production support to get help. I’m not sure how this is incorrect. You’re literally trying to have production support resources (AI and people) trying to solve your issue, when you aren’t in a production org. You need to go through trailhead. Heres the link yet again, enjoy your day. https://help.salesforce.com/services/auth/sso/trailheadlogincommunity?startURL=/s",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_qvfdz",
+      "author": "Chucklez_me_silver",
+      "authorProfile": "https://www.reddit.com/user/Chucklez_me_silver",
+      "commentId": "t1_mawkbe5",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mawkbe5/",
+      "publishingDate": "2025-02-04T11:12:26+00:00",
+      "commentBody": "There used to be an email you could reach out to not guaranteeing anything but try this. Trailblazercommunity@salesforce.com They will prob just tell you to create a new org though. i was half through the superbadge... rip",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_dv0bw2l7",
+          "author": "Annual-Fly2042",
+          "authorProfile": "https://www.reddit.com/user/Annual-Fly2042",
+          "commentId": "t1_mawkihg",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mawkihg/",
+          "publishingDate": "2025-02-04T11:14:13+00:00",
+          "commentBody": "i was half through the superbadge... rip",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": null,
+      "authorProfile": null,
+      "commentId": "t1_may0p94",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/may0p94/",
+      "publishingDate": "2025-02-04T16:27:56+00:00",
+      "commentBody": "You’re complaining about an agent not working for you when you aren’t really going through the proper path for trailhead support. Their help agent definitely has a ways to go, but your issue with it isn’t because the agent is bad. It’s like me going to a restaurant and asking the waiter how to fix my bank account because my card got declined Marc Benioff is that you? This doesn’t even make sense. I’m not shilling for Salesforce, just highlighting that you didn’t really do basic research to understand where to troubleshoot",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5,
+      "replies": [
+        {
+          "authorId": "t2_dv0bw2l7",
+          "author": "Annual-Fly2042",
+          "authorProfile": "https://www.reddit.com/user/Annual-Fly2042",
+          "commentId": "t1_maykkum",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/maykkum/",
+          "publishingDate": "2025-02-04T18:00:14+00:00",
+          "commentBody": "Marc Benioff is that you? This doesn’t even make sense. I’m not shilling for Salesforce, just highlighting that you didn’t really do basic research to understand where to troubleshoot",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_maynjlp",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/maynjlp/",
+          "publishingDate": "2025-02-04T18:13:54+00:00",
+          "commentBody": "This doesn’t even make sense. I’m not shilling for Salesforce, just highlighting that you didn’t really do basic research to understand where to troubleshoot",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_50hb5my7",
+      "author": "ZeongsLegs",
+      "authorProfile": "https://www.reddit.com/user/ZeongsLegs",
+      "commentId": "t1_may4qoa",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/may4qoa/",
+      "publishingDate": "2025-02-04T16:46:51+00:00",
+      "commentBody": "SF has purposely forced customers through Agentforce rather than regular support channels to try to drive adoption and increase the appearance of value in the half-baked thing. It's mostly  just pissed customers off. Not a single support tech uses the internally pushed AI tools, and for good reason, you'd get shit answers just like agentforce. exactly this! Same Q to you as well – would you use Agentforce for enabling sales teams? If no, why not? Ouch, that's a spicy one. Would you use Agentforce for enabling sales teams? Or same verdict? Depends on what you need it for. Agentforce has value, but it is only as good as the data behind it and the actions built into it. If you need your teams to be able to ask simple questions that are baked into your data, that is easy to handle. \"What is X customer's next payment date?\" or something like that, no problem if you have it stored. It struggles when expanding out into larger and more complex things. Using it to say handle any technical question a person could ask about the salesforce platform for example, not the best idea. For small scope questions favoring ease of use with a sales teams I can definitely see value. If you want to do forecasting with it, I don't think it's is there yet. Thank you for the elaborate response! And forecasting is the holy grail of course. Curious how fast SF gets a handle on that - shouldn’t be impossible with white glove service at all AI firms plus the infinite amount of data they have access to… Do you know anyone who really likes Agentforce? I’ve spent a lot of time on this sub today and would love to speak with a die-hard power user",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_dv0bw2l7",
+          "author": "Annual-Fly2042",
+          "authorProfile": "https://www.reddit.com/user/Annual-Fly2042",
+          "commentId": "t1_maykhaf",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/maykhaf/",
+          "publishingDate": "2025-02-04T17:59:48+00:00",
+          "commentBody": "exactly this! Same Q to you as well – would you use Agentforce for enabling sales teams? If no, why not?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_4z21gcqh",
+          "author": "ajascha",
+          "authorProfile": "https://www.reddit.com/user/ajascha",
+          "commentId": "t1_mdauatx",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mdauatx/",
+          "publishingDate": "2025-02-17T19:36:50+00:00",
+          "commentBody": "Same Q to you as well – would you use Agentforce for enabling sales teams? If no, why not?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_4z21gcqh",
+          "author": "ajascha",
+          "authorProfile": "https://www.reddit.com/user/ajascha",
+          "commentId": "t1_mdau4de",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mdau4de/",
+          "publishingDate": "2025-02-17T19:36:00+00:00",
+          "commentBody": "Ouch, that's a spicy one. Would you use Agentforce for enabling sales teams? Or same verdict? Depends on what you need it for. Agentforce has value, but it is only as good as the data behind it and the actions built into it. If you need your teams to be able to ask simple questions that are baked into your data, that is easy to handle. \"What is X customer's next payment date?\" or something like that, no problem if you have it stored. It struggles when expanding out into larger and more complex things. Using it to say handle any technical question a person could ask about the salesforce platform for example, not the best idea. For small scope questions favoring ease of use with a sales teams I can definitely see value. If you want to do forecasting with it, I don't think it's is there yet. Thank you for the elaborate response! And forecasting is the holy grail of course. Curious how fast SF gets a handle on that - shouldn’t be impossible with white glove service at all AI firms plus the infinite amount of data they have access to… Do you know anyone who really likes Agentforce? I’ve spent a lot of time on this sub today and would love to speak with a die-hard power user",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_50hb5my7",
+          "author": "ZeongsLegs",
+          "authorProfile": "https://www.reddit.com/user/ZeongsLegs",
+          "commentId": "t1_mdaxalf",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mdaxalf/",
+          "publishingDate": "2025-02-17T19:50:38+00:00",
+          "commentBody": "Depends on what you need it for. Agentforce has value, but it is only as good as the data behind it and the actions built into it. If you need your teams to be able to ask simple questions that are baked into your data, that is easy to handle. \"What is X customer's next payment date?\" or something like that, no problem if you have it stored. It struggles when expanding out into larger and more complex things. Using it to say handle any technical question a person could ask about the salesforce platform for example, not the best idea. For small scope questions favoring ease of use with a sales teams I can definitely see value. If you want to do forecasting with it, I don't think it's is there yet. Thank you for the elaborate response! And forecasting is the holy grail of course. Curious how fast SF gets a handle on that - shouldn’t be impossible with white glove service at all AI firms plus the infinite amount of data they have access to… Do you know anyone who really likes Agentforce? I’ve spent a lot of time on this sub today and would love to speak with a die-hard power user",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_4z21gcqh",
+          "author": "ajascha",
+          "authorProfile": "https://www.reddit.com/user/ajascha",
+          "commentId": "t1_mdbjzmp",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mdbjzmp/",
+          "publishingDate": "2025-02-17T21:36:31+00:00",
+          "commentBody": "Thank you for the elaborate response! And forecasting is the holy grail of course. Curious how fast SF gets a handle on that - shouldn’t be impossible with white glove service at all AI firms plus the infinite amount of data they have access to… Do you know anyone who really likes Agentforce? I’ve spent a lot of time on this sub today and would love to speak with a die-hard power user",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_7orlhkj9",
+      "author": "Noones_Perspective",
+      "authorProfile": "https://www.reddit.com/user/Noones_Perspective",
+      "commentId": "t1_mb2wg01",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mb2wg01/",
+      "publishingDate": "2025-02-05T09:33:04+00:00",
+      "commentBody": "You might find this, and the linked LinkedIn post a reassuring yet frustrating read - https://www.reddit.com/r/salesforce/s/EbJRSgUkYp There is a great deal of frustration about the lack of quality around Agentforce and the Salesforce support implementation of it. Excatly this, i had the feeling that its not there yet. But obviously there are too many people hitting head in the wall and saying nonsense here. Thanks for the links, this was what I was looking for.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_dv0bw2l7",
+          "author": "Annual-Fly2042",
+          "authorProfile": "https://www.reddit.com/user/Annual-Fly2042",
+          "commentId": "t1_mb3wn7i",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mb3wn7i/",
+          "publishingDate": "2025-02-05T14:17:32+00:00",
+          "commentBody": "Excatly this, i had the feeling that its not there yet. But obviously there are too many people hitting head in the wall and saying nonsense here. Thanks for the links, this was what I was looking for.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_4y701ccp",
+      "author": "Pristine-College4722",
+      "authorProfile": "https://www.reddit.com/user/Pristine-College4722",
+      "commentId": "t1_mayfby5",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mayfby5/",
+      "publishingDate": "2025-02-04T17:36:09+00:00",
+      "commentBody": "Agentforce on the Salesforce support portal is possibly the worst ad for Agentforce. Apparently it’s implemented by consultants as well. yep, looks like that",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_dv0bw2l7",
+          "author": "Annual-Fly2042",
+          "authorProfile": "https://www.reddit.com/user/Annual-Fly2042",
+          "commentId": "t1_maykora",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/maykora/",
+          "publishingDate": "2025-02-04T18:00:43+00:00",
+          "commentBody": "yep, looks like that",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_7yawxpv5",
+      "author": "Much_Initiative3990",
+      "authorProfile": "https://www.reddit.com/user/Much_Initiative3990",
+      "commentId": "t1_mazb4wa",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ihf9to/is_agentforce_chat_helpful_at_all/mazb4wa/",
+      "publishingDate": "2025-02-04T20:04:16+00:00",
+      "commentBody": "So that has to do with how it was setup/created.  Reach out via chat if we can help you set it up or explore alternatives solutions ;).",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

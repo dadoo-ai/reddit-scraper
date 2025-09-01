@@ -1,0 +1,344 @@
+{
+  "info": {
+    "authorId": "t2_8vnsjx7e",
+    "author": "Majestic_Ideal_2478",
+    "authorProfile": "https://www.reddit.com/user/Majestic_Ideal_2478",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1islfvs",
+    "postLabel": "certification question",
+    "publishingDate": "2025-02-18T19:36:09+00:00",
+    "postTitle": "Salesforce Certified Agentforce Specialist",
+    "postMessage": "Found it interesting that they updated the name of the Salesforce AI Specialist Certification to Salesforce Certified Agentforce Specialist. To me, having AI on the resume speaks better to HR reps than Agentforce. Either way, glad it was a free certification!  Thoughts on why they did this?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/",
+    "commentCount": 43,
+    "upvoteCount": 38,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_4mdctun",
+      "author": "JDubyu77",
+      "authorProfile": "https://www.reddit.com/user/JDubyu77",
+      "commentId": "t1_mdib4l2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mdib4l2/",
+      "publishingDate": "2025-02-18T22:06:14+00:00",
+      "commentBody": "Salesforce definitely wants to get the name of their product out there though and having AgentForce in the name does just that. IMO having \"AI Specialist\" can be misconstrued into specializing in AI overall, not just AgentForce.",
+      "upvotes": 12,
+      "dislikes": 12,
+      "downvotes": 13
+    },
+    {
+      "authorId": "t2_8tm0m1e81",
+      "author": "Creepy_Speaker_1774",
+      "authorProfile": "https://www.reddit.com/user/Creepy_Speaker_1774",
+      "commentId": "t1_mpp90iz",
+      "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mpp90iz/",
+      "publishingDate": "2025-04-29T18:13:44+00:00",
+      "commentBody": "Just cleared the Agentforce Specialist exam and super happy with the score! I mainly prepared using Skillcertpro, and honestly, it was a total lifesaver. About 80% of the questions in the actual exam were straight from their practice sets, including quite a few tricky, scenario-based ones. Their Master Sheet was perfect for last-minute revision – helped me quickly brush up on important stuff the night before. Most of the exam focused on prompt engineering, AI agent setup, grounding methods, integration with Data Cloud, and Sales/Service Cloud use cases. If you're planning to give this exam, Skillcertpro is totally worth it – saves a lot of time and gives you real exam-like practice. [removed] Sorry, to combat scammers using throwaways to bolster their image, we require accounts exist for at least 7 days before posting.  Your message was hidden from the forum  but you can come back and post once your account is 7 days old I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+      "upvotes": 10,
+      "dislikes": 10,
+      "downvotes": 11,
+      "replies": [
+        {
+          "authorId": "t2_6l4z3",
+          "author": "AutoModerator",
+          "authorProfile": "https://www.reddit.com/user/AutoModerator",
+          "commentId": "t1_mvlq7k2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mvlq7k2/",
+          "publishingDate": "2025-06-02T15:28:43+00:00",
+          "commentBody": "Sorry, to combat scammers using throwaways to bolster their image, we require accounts exist for at least 7 days before posting.  Your message was hidden from the forum  but you can come back and post once your account is 7 days old I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_34fg0up2",
+      "author": "giocastilhoo",
+      "authorProfile": "https://www.reddit.com/user/giocastilhoo",
+      "commentId": "t1_mdhl5cr",
+      "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mdhl5cr/",
+      "publishingDate": "2025-02-18T20:07:32+00:00",
+      "commentBody": "Just read the email. Currently studying for it and paid the FoF course for it. Honestly kinda pissed, I will have to reschedule to acomodate the changes midway through my studies. Why not just release a new  certification focused only on agent force blows my mind, stupid idea. Best bet is to get like an Amazon or Nvidia AI cert to be able to attest to understanding basic concepts of AI I'm scheduled to take it next week. Seems like anyone that takes it before March 3 gets the old format and those from March 3 get the new format. From here: https://www.salesforceben.com/salesforce-changes-ai-specialist-exam-to-certified-agentforce-specialist/ \"The new exam is different from the previous version in several key areas. The old AI Specialist exam was structured in the following way: Einstein Trust Layer: 15% Generative AI in CRM Applications: 17% Prompt Builder: 37% Agentforce Tools: 23% Model Builder: 8% The new exam is structured like this: Prompt Engineering: 30% Agentforce Concepts: 30% Agentforce and Data Cloud: 20% Agentforce and Service Cloud: 10% Agentforce and Sales Cloud: 10% Salesforce stresses that this is not just “AI Specialist with a new name”. They wrote on Trailhead: “In addition to the name change, the exam objectives have also been updated to place a stronger focus on Agentforce content. 70% of this new, updated exam directly addresses Agentforce, with the remaining 30% dedicated to Prompt Engineering, which remains an equally important topic. Additionally, nearly half of the exam questions will align to the new Agentforce objectives.” What if I Already Had an Upcoming AI Specialist Exam? If you already have an upcoming AI Specialist registration, your experience will differ depending on your exam scheduled date. If it is scheduled before March 3, there will be no changes to the exam content. If it is scheduled on or after March 3, you will take the updated Salesforce Certified Agentforce Specialist exam.\" [deleted] It's not Only the name of the certification is changing. I don't think they implied the materials covered were updated too. The certificate already is heavily weighed on Agentforce anyway. Not accurate, here's an article from Apex Hours: https://www.apexhours.com/salesforce-certified-agentforce-specialist/ The section weights have changed - \n\"\nHow Agentforce Specialist exam differ from the AI Specialist exam? A: The exam sections have been updated to focus on the skills necessary to be successful as an Agentforce Specialist. See the changes below: Agentforce Specialist exam outline: Prompt Engineering: 30% Agentforce Concepts: 30% Agentforce and Data Cloud: 20% Agentforce and Service Cloud: 10% Agentforce and Sales Cloud: 10% AI Specialist exam outline: Einstein Trust Layer: 15% Generative AI in CRM Applications: 17% Prompt Builder: 37% Agentforce Tools: 23% Model Builder: 8%\" And, an article from Salesforce Ben: https://www.salesforceben.com/salesforce-changes-ai-specialist-exam-to-certified-agentforce-specialist/ \"The new exam is different from the previous version in several key areas. The old AI Specialist exam was structured in the following way: Einstein Trust Layer: 15% Generative AI in CRM Applications: 17% Prompt Builder: 37% Agentforce Tools: 23% Model Builder: 8% The new exam is structured like this: Prompt Engineering: 30% Agentforce Concepts: 30% Agentforce and Data Cloud: 20% Agentforce and Service Cloud: 10% Agentforce and Sales Cloud: 10% Salesforce stresses that this is not just “AI Specialist with a new name”. They wrote on Trailhead: “In addition to the name change, the exam objectives have also been updated to place a stronger focus on Agentforce content. 70% of this new, updated exam directly addresses Agentforce, with the remaining 30% dedicated to Prompt Engineering, which remains an equally important topic. Additionally, nearly half of the exam questions will align to the new Agentforce objectives.” \" I stand corrected. Damn. That's quite a few significant changes. I literally just passed this yesterday. Lol.  Glad I decided to get it out of the way now... =P",
+      "upvotes": 14,
+      "dislikes": 14,
+      "downvotes": 15,
+      "replies": [
+        {
+          "authorId": "t2_9tjxcxff",
+          "author": "greeng13",
+          "authorProfile": "https://www.reddit.com/user/greeng13",
+          "commentId": "t1_mdicpby",
+          "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mdicpby/",
+          "publishingDate": "2025-02-18T22:14:23+00:00",
+          "commentBody": "I'm scheduled to take it next week. Seems like anyone that takes it before March 3 gets the old format and those from March 3 get the new format. From here: https://www.salesforceben.com/salesforce-changes-ai-specialist-exam-to-certified-agentforce-specialist/ \"The new exam is different from the previous version in several key areas. The old AI Specialist exam was structured in the following way: Einstein Trust Layer: 15% Generative AI in CRM Applications: 17% Prompt Builder: 37% Agentforce Tools: 23% Model Builder: 8% The new exam is structured like this: Prompt Engineering: 30% Agentforce Concepts: 30% Agentforce and Data Cloud: 20% Agentforce and Service Cloud: 10% Agentforce and Sales Cloud: 10% Salesforce stresses that this is not just “AI Specialist with a new name”. They wrote on Trailhead: “In addition to the name change, the exam objectives have also been updated to place a stronger focus on Agentforce content. 70% of this new, updated exam directly addresses Agentforce, with the remaining 30% dedicated to Prompt Engineering, which remains an equally important topic. Additionally, nearly half of the exam questions will align to the new Agentforce objectives.” What if I Already Had an Upcoming AI Specialist Exam? If you already have an upcoming AI Specialist registration, your experience will differ depending on your exam scheduled date. If it is scheduled before March 3, there will be no changes to the exam content. If it is scheduled on or after March 3, you will take the updated Salesforce Certified Agentforce Specialist exam.\"",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        },
+        {
+          "authorId": "t2_sqkqiueqy",
+          "author": "DearRub1218",
+          "authorProfile": "https://www.reddit.com/user/DearRub1218",
+          "commentId": "t1_mdijohe",
+          "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mdijohe/",
+          "publishingDate": "2025-02-18T22:50:41+00:00",
+          "commentBody": "It's not",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_dm2x9sx",
+          "author": "DaZMan44",
+          "authorProfile": "https://www.reddit.com/user/DaZMan44",
+          "commentId": "t1_mdhuzc8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mdhuzc8/",
+          "publishingDate": "2025-02-18T20:52:24+00:00",
+          "commentBody": "Only the name of the certification is changing. I don't think they implied the materials covered were updated too. The certificate already is heavily weighed on Agentforce anyway. Not accurate, here's an article from Apex Hours: https://www.apexhours.com/salesforce-certified-agentforce-specialist/ The section weights have changed - \n\"\nHow Agentforce Specialist exam differ from the AI Specialist exam? A: The exam sections have been updated to focus on the skills necessary to be successful as an Agentforce Specialist. See the changes below: Agentforce Specialist exam outline: Prompt Engineering: 30% Agentforce Concepts: 30% Agentforce and Data Cloud: 20% Agentforce and Service Cloud: 10% Agentforce and Sales Cloud: 10% AI Specialist exam outline: Einstein Trust Layer: 15% Generative AI in CRM Applications: 17% Prompt Builder: 37% Agentforce Tools: 23% Model Builder: 8%\" And, an article from Salesforce Ben: https://www.salesforceben.com/salesforce-changes-ai-specialist-exam-to-certified-agentforce-specialist/ \"The new exam is different from the previous version in several key areas. The old AI Specialist exam was structured in the following way: Einstein Trust Layer: 15% Generative AI in CRM Applications: 17% Prompt Builder: 37% Agentforce Tools: 23% Model Builder: 8% The new exam is structured like this: Prompt Engineering: 30% Agentforce Concepts: 30% Agentforce and Data Cloud: 20% Agentforce and Service Cloud: 10% Agentforce and Sales Cloud: 10% Salesforce stresses that this is not just “AI Specialist with a new name”. They wrote on Trailhead: “In addition to the name change, the exam objectives have also been updated to place a stronger focus on Agentforce content. 70% of this new, updated exam directly addresses Agentforce, with the remaining 30% dedicated to Prompt Engineering, which remains an equally important topic. Additionally, nearly half of the exam questions will align to the new Agentforce objectives.” \" I stand corrected. Damn. That's quite a few significant changes. I literally just passed this yesterday. Lol.  Glad I decided to get it out of the way now... =P",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_9tjxcxff",
+          "author": "greeng13",
+          "authorProfile": "https://www.reddit.com/user/greeng13",
+          "commentId": "t1_mdic49r",
+          "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mdic49r/",
+          "publishingDate": "2025-02-18T22:11:20+00:00",
+          "commentBody": "Not accurate, here's an article from Apex Hours: https://www.apexhours.com/salesforce-certified-agentforce-specialist/ The section weights have changed - \n\"\nHow Agentforce Specialist exam differ from the AI Specialist exam? A: The exam sections have been updated to focus on the skills necessary to be successful as an Agentforce Specialist. See the changes below: Agentforce Specialist exam outline: Prompt Engineering: 30% Agentforce Concepts: 30% Agentforce and Data Cloud: 20% Agentforce and Service Cloud: 10% Agentforce and Sales Cloud: 10% AI Specialist exam outline: Einstein Trust Layer: 15% Generative AI in CRM Applications: 17% Prompt Builder: 37% Agentforce Tools: 23% Model Builder: 8%\" And, an article from Salesforce Ben: https://www.salesforceben.com/salesforce-changes-ai-specialist-exam-to-certified-agentforce-specialist/ \"The new exam is different from the previous version in several key areas. The old AI Specialist exam was structured in the following way: Einstein Trust Layer: 15% Generative AI in CRM Applications: 17% Prompt Builder: 37% Agentforce Tools: 23% Model Builder: 8% The new exam is structured like this: Prompt Engineering: 30% Agentforce Concepts: 30% Agentforce and Data Cloud: 20% Agentforce and Service Cloud: 10% Agentforce and Sales Cloud: 10% Salesforce stresses that this is not just “AI Specialist with a new name”. They wrote on Trailhead: “In addition to the name change, the exam objectives have also been updated to place a stronger focus on Agentforce content. 70% of this new, updated exam directly addresses Agentforce, with the remaining 30% dedicated to Prompt Engineering, which remains an equally important topic. Additionally, nearly half of the exam questions will align to the new Agentforce objectives.” \" I stand corrected. Damn. That's quite a few significant changes. I literally just passed this yesterday. Lol.  Glad I decided to get it out of the way now... =P",
+          "upvotes": 12,
+          "dislikes": 12,
+          "downvotes": 13
+        },
+        {
+          "authorId": "t2_dm2x9sx",
+          "author": "DaZMan44",
+          "authorProfile": "https://www.reddit.com/user/DaZMan44",
+          "commentId": "t1_mdigj0e",
+          "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mdigj0e/",
+          "publishingDate": "2025-02-18T22:34:38+00:00",
+          "commentBody": "I stand corrected. Damn. That's quite a few significant changes. I literally just passed this yesterday. Lol.  Glad I decided to get it out of the way now... =P",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1yxz2rxp",
+      "author": "inn3rs3lf",
+      "authorProfile": "https://www.reddit.com/user/inn3rs3lf",
+      "commentId": "t1_mdrfxfw",
+      "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mdrfxfw/",
+      "publishingDate": "2025-02-20T06:33:36+00:00",
+      "commentBody": "I don't mind the change, I think it will be a better option making it more practical for SF teams. However, the time frame for the change is a bad move. A 2 week heads up is nonsense. Mine is scheduled for the 15th March, and honestly, removing the extra 2 weeks of study is not enough time to cram, as well as not enough time to introduce the new curriculum. We should have been give at least a month or more heads up before the actual implementation of the new exam.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_ugupu",
+      "author": "Saracenmoor",
+      "authorProfile": "https://www.reddit.com/user/Saracenmoor",
+      "commentId": "t1_mdnqfmh",
+      "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mdnqfmh/",
+      "publishingDate": "2025-02-19T18:34:02+00:00",
+      "commentBody": "As a hiring manager and head of AI governance, seeing Agentic or Agent automation would make me see a person has relevant experience and is keeping an eye on recent changes in skills.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": null,
+      "author": null,
+      "authorProfile": null,
+      "commentId": "t1_mdl7e0d",
+      "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mdl7e0d/",
+      "publishingDate": "2025-02-19T09:41:04+00:00",
+      "commentBody": "Thoughts on why they did this? It's a more marketable title.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_1hvc1pr30o",
+      "author": "F6Collections",
+      "authorProfile": "https://www.reddit.com/user/F6Collections",
+      "commentId": "t1_mdmyd1h",
+      "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mdmyd1h/",
+      "publishingDate": "2025-02-19T16:28:23+00:00",
+      "commentBody": "Side note-is Agentforce actually useful? Asking the real questions. I’ve yet to hear a compelling use case",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_ezccjgdnk",
+          "author": "unfrozen_",
+          "authorProfile": "https://www.reddit.com/user/unfrozen_",
+          "commentId": "t1_mduxw5h",
+          "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mduxw5h/",
+          "publishingDate": "2025-02-20T19:48:28+00:00",
+          "commentBody": "Asking the real questions. I’ve yet to hear a compelling use case",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_1hvc1pr30o",
+          "author": "F6Collections",
+          "authorProfile": "https://www.reddit.com/user/F6Collections",
+          "commentId": "t1_mduz9r4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mduz9r4/",
+          "publishingDate": "2025-02-20T19:54:44+00:00",
+          "commentBody": "I’ve yet to hear a compelling use case",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_4yavc9l0",
+      "author": "kingrocks1",
+      "authorProfile": "https://www.reddit.com/user/kingrocks1",
+      "commentId": "t1_mdq2f9t",
+      "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mdq2f9t/",
+      "publishingDate": "2025-02-20T01:12:46+00:00",
+      "commentBody": "What's the use of this certification? New jobs? A metric Salesforce will showcase on their next quarterly report.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_ezccjgdnk",
+          "author": "unfrozen_",
+          "authorProfile": "https://www.reddit.com/user/unfrozen_",
+          "commentId": "t1_mduy1th",
+          "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mduy1th/",
+          "publishingDate": "2025-02-20T19:49:11+00:00",
+          "commentBody": "A metric Salesforce will showcase on their next quarterly report.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_9j3izdlb",
+      "author": "WrapOpening6128",
+      "authorProfile": "https://www.reddit.com/user/WrapOpening6128",
+      "commentId": "t1_mdsdkll",
+      "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mdsdkll/",
+      "publishingDate": "2025-02-20T11:56:37+00:00",
+      "commentBody": "I thought those who already have the certificate will have it renamed. So doesn’t matter if you sit it before the name change, it will catch up with you later. \n“What if I Already Have the AI Specialist Credential? If you have already earned your AI Specialist credential, you do not need to take the Agentforce Specialist version, Salesforce says. Your AI Specialist credential will be updated to Agentforce Specialist on March 3, 2025, and you will get an email with more information about the change along with details on how to download your new certified logo.” https://www.salesforceben.com/salesforce-changes-ai-specialist-exam-to-certified-agentforce-specialist",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_kykta38v",
+      "author": "No_Coach_7949",
+      "authorProfile": "https://www.reddit.com/user/No_Coach_7949",
+      "commentId": "t1_mfrqo2o",
+      "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mfrqo2o/",
+      "publishingDate": "2025-03-03T12:28:52+00:00",
+      "commentBody": "Hi, I’m planning to take the new Agentforce Specialist soon and have started preparing. Apart from trailhead what other study materials should I be referring to? Can someone please help me I highly recommend the Udemy course \"Agenforce Practice Exam Questions\". I struggle getting to 72% :-( You recommend this course, did it help you pass? Udemy course (or Valid Exam Dumps - probably better as it has more questions) https://www.udemy.com/course/salesforce-certified-ai-specialist-exam-real-exam-questions/learn/quiz/6872045/test#overview PS: I abandoned the Agentforce ship :-( I don't think AF has a chance in the market compared to e.g., Kore AI. But that's my personal opinion, of course. Good luck!",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_bhyafitm",
+          "author": "Soft_Crew_8434",
+          "authorProfile": "https://www.reddit.com/user/Soft_Crew_8434",
+          "commentId": "t1_mn3u9q3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mn3u9q3/",
+          "publishingDate": "2025-04-14T18:46:01+00:00",
+          "commentBody": "I highly recommend the Udemy course \"Agenforce Practice Exam Questions\". I struggle getting to 72% :-( You recommend this course, did it help you pass? Udemy course (or Valid Exam Dumps - probably better as it has more questions) https://www.udemy.com/course/salesforce-certified-ai-specialist-exam-real-exam-questions/learn/quiz/6872045/test#overview PS: I abandoned the Agentforce ship :-( I don't think AF has a chance in the market compared to e.g., Kore AI. But that's my personal opinion, of course. Good luck!",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_71d3y6la",
+          "author": "Snoo-57955",
+          "authorProfile": "https://www.reddit.com/user/Snoo-57955",
+          "commentId": "t1_mudt8io",
+          "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mudt8io/",
+          "publishingDate": "2025-05-26T18:22:48+00:00",
+          "commentBody": "You recommend this course, did it help you pass? Udemy course (or Valid Exam Dumps - probably better as it has more questions) https://www.udemy.com/course/salesforce-certified-ai-specialist-exam-real-exam-questions/learn/quiz/6872045/test#overview PS: I abandoned the Agentforce ship :-( I don't think AF has a chance in the market compared to e.g., Kore AI. But that's my personal opinion, of course. Good luck!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_bhyafitm",
+          "author": "Soft_Crew_8434",
+          "authorProfile": "https://www.reddit.com/user/Soft_Crew_8434",
+          "commentId": "t1_mui93f5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mui93f5/",
+          "publishingDate": "2025-05-27T12:44:27+00:00",
+          "commentBody": "Udemy course (or Valid Exam Dumps - probably better as it has more questions) https://www.udemy.com/course/salesforce-certified-ai-specialist-exam-real-exam-questions/learn/quiz/6872045/test#overview PS: I abandoned the Agentforce ship :-( I don't think AF has a chance in the market compared to e.g., Kore AI. But that's my personal opinion, of course. Good luck!",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_siuheh4g",
+      "author": "Salty-SnowCat88438",
+      "authorProfile": "https://www.reddit.com/user/Salty-SnowCat88438",
+      "commentId": "t1_mdpzg2x",
+      "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mdpzg2x/",
+      "publishingDate": "2025-02-20T00:56:30+00:00",
+      "commentBody": "Would you be able to get both certifications if you take the exam before March 3rd? And if you did that would both of them be free for the first take? No, AI SPECIALIST will be RETIRED on the profile 🤡",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_19og084nk0",
+          "author": "Dependent_Meal3291",
+          "authorProfile": "https://www.reddit.com/user/Dependent_Meal3291",
+          "commentId": "t1_mfi7cte",
+          "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mfi7cte/",
+          "publishingDate": "2025-03-01T22:16:18+00:00",
+          "commentBody": "No, AI SPECIALIST will be RETIRED on the profile 🤡",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_ej907qlv4",
+      "author": "No-Potential-9941",
+      "authorProfile": "https://www.reddit.com/user/No-Potential-9941",
+      "commentId": "t1_mgz9wb3",
+      "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/mgz9wb3/",
+      "publishingDate": "2025-03-10T05:41:47+00:00",
+      "commentBody": "Qsqszq#+@is",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_ddr5btb2",
+      "author": "ConstantPomelo9165",
+      "authorProfile": "https://www.reddit.com/user/ConstantPomelo9165",
+      "commentId": "t1_n1ww6qv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1islfvs/salesforce_certified_agentforce_specialist/n1ww6qv/",
+      "publishingDate": "2025-07-08T01:57:30+00:00",
+      "commentBody": "Just passed! I used Focus on Force and most of the questions were along the same lines. But mainly used Trailhead to study.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

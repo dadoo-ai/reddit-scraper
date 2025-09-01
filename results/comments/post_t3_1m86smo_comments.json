@@ -1,0 +1,46 @@
+{
+  "info": {
+    "authorId": "t2_1j2w7nql8w",
+    "author": "Odd-Elderberry-6328",
+    "authorProfile": "https://www.reddit.com/user/Odd-Elderberry-6328",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1m86smo",
+    "postLabel": null,
+    "publishingDate": "2025-07-24T15:03:22+00:00",
+    "postTitle": "INVALID_ARGUMENT_TYPE when creating a Agentforce Agent",
+    "postMessage": "Hello guys. I'm facing a strange issue, I'm creating an Agent to interact with my customers. The agent works fine 90% of the time, and is able to answer the questions using the information I've added on the topics. However, after I added a second (or more) topics, it stops working and I start receiving the following error: INVALID_ARGUMENT_TYPE . O idioma de saída solicitado não tem suporte nesta versão de modelo de prompts. (The error is in portuguese, which translates to: The output language does not support this prompt model). The json it's returning is the following: Input:\n{\n  \"outputLanguage\": \"Portuguese (Brazil)\",\n  \"citationMode\": \"None\",\n  \"Input:RetrieverIdOrName\": \"XC40\",\n  \"Input:Query\": \"XC40\"\n} \nOutput:\n{\n  \"promptResponse\": null\n} I'm building the agent in Portuguese, I've tried every model available on the prompt builder. but everyone gives the same error. The action is a customized one made to look only to a specific file on a data library: https://imgur.com/a/cclrFYr I've checked the documentation, but I couldn't find a source or an explanation about this error message. If I go to prompt builder and test it there, it works 100% of the time. Does anyone knows how to fix it? Thank you!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1m86smo/invalid_argument_type_when_creating_a_agentforce/",
+    "commentCount": 2,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_cq4mbxh6",
+      "author": "Suspicious-Nerve-487",
+      "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+      "commentId": "t1_n4xj4el",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m86smo/invalid_argument_type_when_creating_a_agentforce/n4xj4el/",
+      "publishingDate": "2025-07-24T16:58:05+00:00",
+      "commentBody": "Have seen this a few times. Unsure if it’s a bug or not, but I’ve been able to workaround it by filling in the instruction of the action input for outputLanguage to  something like “ignore this value. Do not set any value for this. Avoid passing any value” Basically instructing your agent to ignore this input Works like a charm. Thank you for the quick answer. I still sometimes receive a wrong answer, but it's probably my fault now.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_1j2w7nql8w",
+          "author": "Odd-Elderberry-6328",
+          "authorProfile": "https://www.reddit.com/user/Odd-Elderberry-6328",
+          "commentId": "t1_n4y4ag5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m86smo/invalid_argument_type_when_creating_a_agentforce/n4y4ag5/",
+          "publishingDate": "2025-07-24T18:33:52+00:00",
+          "commentBody": "Works like a charm. Thank you for the quick answer. I still sometimes receive a wrong answer, but it's probably my fault now.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    }
+  ]
+}

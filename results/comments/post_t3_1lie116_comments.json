@@ -1,0 +1,82 @@
+{
+  "info": {
+    "authorId": "t2_apwac9jq8",
+    "author": "LordKittyPanther",
+    "authorProfile": "https://www.reddit.com/user/LordKittyPanther",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1lie116",
+    "postLabel": null,
+    "publishingDate": "2025-06-23T11:22:01+00:00",
+    "postTitle": "Anyone using AgentForce with real customers? How are you thinking about security?",
+    "postMessage": "Hey, I’m reaching out to those of you who’ve used AgentForce and either exposed it to customers or are considering it. After some experimentation, I noticed: Hallucinations still happen Some security is handled via system instructions , which feels problematic. So I’m curious - what do you think about AgentForce’s security infrastructure ? Can it be trusted in customer-facing use cases? How hard is it to implement safe usage patterns? Are you adding your own guardrails (like validation layers, context filtering, or audit logs)? I would love to hear from anyone building with it, especially if you’ve gone beyond the lab and opened it up to real users.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1lie116/anyone_using_agentforce_with_real_customers_how/",
+    "commentCount": 10,
+    "upvoteCount": 2,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_dmqbo",
+      "author": "davemccall",
+      "authorProfile": "https://www.reddit.com/user/davemccall",
+      "commentId": "t1_mzb7yhj",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lie116/anyone_using_agentforce_with_real_customers_how/mzb7yhj/",
+      "publishingDate": "2025-06-23T11:29:19+00:00",
+      "commentBody": "Yes, adding some of our own guardrails. The guardrails differ for each use case. What, in particular, are your concerns? r/davemccall Please do not respond to OP. It’s a ai chat bot that’s scraping use cases of Reddit to mine your solutions it’s for own benefit. If you don’t believe me look at its profile. I’m all for free knowledge but not if it’s can be used to put human beings out of work. I’m all for free knowledge but not if it’s can be used to put human beings out of work. You're about a hundred years late to the party. Technology has always done this. Hell, I've seen Salesforce implemented at companies so they can actively fire/move employees.",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6,
+      "replies": [
+        {
+          "authorId": "t2_4v3ishve",
+          "author": "TheCalamity305",
+          "authorProfile": "https://www.reddit.com/user/TheCalamity305",
+          "commentId": "t1_mzcqq2j",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lie116/anyone_using_agentforce_with_real_customers_how/mzcqq2j/",
+          "publishingDate": "2025-06-23T16:27:15+00:00",
+          "commentBody": "r/davemccall Please do not respond to OP. It’s a ai chat bot that’s scraping use cases of Reddit to mine your solutions it’s for own benefit. If you don’t believe me look at its profile. I’m all for free knowledge but not if it’s can be used to put human beings out of work. I’m all for free knowledge but not if it’s can be used to put human beings out of work. You're about a hundred years late to the party. Technology has always done this. Hell, I've seen Salesforce implemented at companies so they can actively fire/move employees.",
+          "upvotes": 19,
+          "dislikes": 19,
+          "downvotes": 20
+        },
+        {
+          "authorId": "t2_ch047",
+          "author": "TXTCLA55",
+          "authorProfile": "https://www.reddit.com/user/TXTCLA55",
+          "commentId": "t1_mzd65n6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lie116/anyone_using_agentforce_with_real_customers_how/mzd65n6/",
+          "publishingDate": "2025-06-23T17:37:50+00:00",
+          "commentBody": "I’m all for free knowledge but not if it’s can be used to put human beings out of work. You're about a hundred years late to the party. Technology has always done this. Hell, I've seen Salesforce implemented at companies so they can actively fire/move employees.",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1jzsdiam6v",
+      "author": "Swimming_Plastic1533",
+      "authorProfile": "https://www.reddit.com/user/Swimming_Plastic1533",
+      "commentId": "t1_mzpw45i",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lie116/anyone_using_agentforce_with_real_customers_how/mzpw45i/",
+      "publishingDate": "2025-06-25T16:05:04+00:00",
+      "commentBody": "We've started rolling out AgentForce in limited customer-facing scenarios, and you're spot on. Security and trust are big focus areas for us too. Yes, hallucinations still pop up occasionally, especially with open-ended queries. To reduce risk, we’ve layered in custom guardrails, like a validation layer that checks outputs against business rules before surfacing them to users.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_2y3ai9oe",
+      "author": "karajade19",
+      "authorProfile": "https://www.reddit.com/user/karajade19",
+      "commentId": "t1_mzcb0an",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lie116/anyone_using_agentforce_with_real_customers_how/mzcb0an/",
+      "publishingDate": "2025-06-23T15:13:07+00:00",
+      "commentBody": "Agents only have access to the data you give it. When used internally, user record visibility is respected. For external agents, make sure the agent (through the flows you are calling with actions) can only access appropriate data. You can also restrict record level visibility to the Agentforce user.",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4
+    }
+  ]
+}

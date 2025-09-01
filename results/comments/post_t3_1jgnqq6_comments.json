@@ -1,0 +1,882 @@
+{
+  "info": {
+    "authorId": "t2_c3ignhxh",
+    "author": "salesforce",
+    "authorProfile": "https://www.reddit.com/user/salesforce",
+    "subreddit": "u_salesforce",
+    "postId": "t3_1jgnqq6",
+    "postLabel": null,
+    "publishingDate": "2025-03-21T18:24:59.140000+0000",
+    "postTitle": "Hey Reddit, ask us anything about Agentforce at 12pm PDT on 3/25. We’re Jayesh Govindarajan (EVP, Salesforce AI) and Sanjna Parulekar (SVP, Product Marketing) for Agentforce at Salesforce. We’ll be here to answer your questions – anything from implementation to what’s possible with AI Agents.",
+    "postMessage": "I'm Jayesh Govindarajan, Executive Vice President Engineering, AI and Machine Learning here at Salesforce. I lead the Salesforce AI org and am tasked with setting strategy, designing, building and operating Predictive, Generative and Agentic AI systems -  including Agentforce. Ask me about Agentforce, like how it integrates foundational large language models, and brings data and workflow tools into a secure, trusted autonomous computing framework for Enterprises. You can learn more about me on LinkedIn . I'm Sanjna Parulekar, SVP Product Marketing here at Salesforce.  I oversee the team responsible for bringing Agentforce to life for our customers - from SMB to Enterprises, Agentforce is changing the way organizations embrace the power of AI. Ask me about Agentforce, including specific use case questions, the future of digital labor, and more! You can learn more about me on LinkedIn . We're done answering questions for now - thanks everyone for the great participation. We had a blast!",
+    "postLink": null,
+    "commentCount": 167,
+    "upvoteCount": 0,
+    "attachmentType": "multi_media",
+    "attachmentLink": "https://www.reddit.com/r/u_salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/"
+  },
+  "comments": [
+    {
+      "authorId": "t2_3m9g0pwf",
+      "author": "Das_water_boi",
+      "authorProfile": "https://www.reddit.com/user/Das_water_boi",
+      "commentId": "t1_mjf672y",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjf672y/",
+      "publishingDate": "2025-03-24T03:06:33+00:00",
+      "commentBody": "Looking forward to your responses. I have two questions. 1. As a very small business, only 3 employees, I’m interested in enabling my team to do more and we have used ChatGPT to expedite research and responses. How would your digital labor offerings benefit such a small company beyond being able to scale long term? 2. I saw an example of a Saks agent that could scan clothes and offer suggestions to the customer. How many of these advertised features are proprietary or can they be created with no-language or low-language by entrepreneurs and small businesses? JG: For a small team, Slack often becomes the central hub for communication and collaboration. Agentforce integration brings intelligent automation directly into this workflow. Imagine automating initial customer inquiries directly within a Slack channel. Agentforce can field common questions, gather information, and even escalate complex issues to a human agent, all without leaving the Slack environment. Agentforce Builder is a no-code/low-code platform for building, testing, evaluating and launching agents on Salesforce core platform as well as Slack. See here https://www.salesforce.com/agentforce/agent-builder/",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpg6x1",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpg6x1/",
+          "publishingDate": "2025-03-25T19:16:53+00:00",
+          "commentBody": "JG: For a small team, Slack often becomes the central hub for communication and collaboration. Agentforce integration brings intelligent automation directly into this workflow. Imagine automating initial customer inquiries directly within a Slack channel. Agentforce can field common questions, gather information, and even escalate complex issues to a human agent, all without leaving the Slack environment. Agentforce Builder is a no-code/low-code platform for building, testing, evaluating and launching agents on Salesforce core platform as well as Slack. See here https://www.salesforce.com/agentforce/agent-builder/",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_12w9gu",
+      "author": "JJDuB4y096",
+      "authorProfile": "https://www.reddit.com/user/JJDuB4y096",
+      "commentId": "t1_mjm3web",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjm3web/",
+      "publishingDate": "2025-03-25T06:17:11+00:00",
+      "commentBody": "Thanks for this. What is the importance of Data Cloud in the use of Agentforce? Can Agentforce be efficient in helping provide real time information from outside ERP/Financial systems if connected through Data Cloud, or DW? SP: One of the key advantages of Agentforce is that it is built on our deeply unified Salesforce Platform. Data Cloud is also a part of this Platform and provides a powerful layer for hyperscale data processing, a vector DB for retrieval augmented generation (RAG), as well as real-time access to structured and unstructured data. Agentforce can aboslutely support the use case described in your question.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpn18y",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpn18y/",
+          "publishingDate": "2025-03-25T19:50:40+00:00",
+          "commentBody": "SP: One of the key advantages of Agentforce is that it is built on our deeply unified Salesforce Platform. Data Cloud is also a part of this Platform and provides a powerful layer for hyperscale data processing, a vector DB for retrieval augmented generation (RAG), as well as real-time access to structured and unstructured data. Agentforce can aboslutely support the use case described in your question.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_159o5z",
+      "author": "naples019",
+      "authorProfile": "https://www.reddit.com/user/naples019",
+      "commentId": "t1_mjj036r",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjj036r/",
+      "publishingDate": "2025-03-24T19:10:20+00:00",
+      "commentBody": "1) What is the differentiator between an agentic solution and an automated solution? \n2) What makes a problem/workflow a good candidate for an agentic solution? JG: Agentic systems feature a reasoning engine at their core to break down tasks at runtime coupled with the ability to use data for bring context and orchestrate actions just as a user would. That makes them less brittle, more dynamic execution engines than their process automation counterparts which are hard coded to a task. Plus they understand and can generate language which gives them a powerful conversation interaction frontend.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjplbbn",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjplbbn/",
+          "publishingDate": "2025-03-25T19:42:22+00:00",
+          "commentBody": "JG: Agentic systems feature a reasoning engine at their core to break down tasks at runtime coupled with the ability to use data for bring context and orchestrate actions just as a user would. That makes them less brittle, more dynamic execution engines than their process automation counterparts which are hard coded to a task. Plus they understand and can generate language which gives them a powerful conversation interaction frontend.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1ic1lc3mko",
+      "author": "psk1408",
+      "authorProfile": "https://www.reddit.com/user/psk1408",
+      "commentId": "t1_mj97hue",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mj97hue/",
+      "publishingDate": "2025-03-23T03:23:55+00:00",
+      "commentBody": "Can you explain the dependency on data cloud with using Agentforce and Einstein suite of products. JG: Agentic systems require real-time data to make dynamic decisions and trigger automated actions. Data Cloud's ability to ingest, process, and activate data in real time is essential for powering Agentic memory including RAG.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpkr2q",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpkr2q/",
+          "publishingDate": "2025-03-25T19:39:35+00:00",
+          "commentBody": "JG: Agentic systems require real-time data to make dynamic decisions and trigger automated actions. Data Cloud's ability to ingest, process, and activate data in real time is essential for powering Agentic memory including RAG.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_3jdan",
+      "author": "orlybg",
+      "authorProfile": "https://www.reddit.com/user/orlybg",
+      "commentId": "t1_mjjfp00",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjjfp00/",
+      "publishingDate": "2025-03-24T20:24:54+00:00",
+      "commentBody": "Hi Sanjna, thanks for doing this AMA! My title is Salesforce Architect , and over the years I’ve worked across the full ecosystem — as an Admin, Developer, Business Analyst, Integrator, Marketer Enabler, and Data Enthusiast . I’m genuinely excited about Agentforce and the possibilities it opens up, but I also find myself thinking a lot about the future of professionals like myself. Salesforce has long empowered admins and developers to build without needing to be deep engineers. But with intelligent agents automating more and more processes, where do you see the role of Salesforce professionals evolving over the next 2–5 years? Will we become agent designers, data curators, prompt engineers, or something else entirely? And what skills should we be developing now to stay relevant and valuable in this agent-driven future? Bonus curiosity: Are Agentforce agents powered by a proprietary LLM, or do they rely on existing commercial models like GPT-4, Claude, or Mistral? What’s the underlying tech stack like for Agentforce and Data Cloud? SP: This is a really exciting question! I was a Salesforce Admin long ago as a part of my first job out of college. I remember that exciting feeling of being able to build several solutions for my sales teams and integrations into our marketing tools, all without a formal degree in CS or IT. It was simple enough for me to understand, and powerful- any use case I could think of, i could make possible on the platform, whether it was an automated sales alerting system integrated into our marketing campaigns, or complex dashboards specific to our sales cycle. Building agents is different- but so much of it is the same. We have non-AI developers, our Agentblazers, who have this immense opportunity to use their business acument to build a new \"thing\": agents! it won't be entirely intuitive at first, like anything new- even workflow rules needed some getting used to ;) But once you get the hang of refining your prompts and tuning your instructions to havethe agent perform better, it will inspire a whole flywheel of innovation at your fingertips. To your addiitonal question- we use an open model ecosystem and leverage a variety of models for our AI stack.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpljk3",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpljk3/",
+          "publishingDate": "2025-03-25T19:43:29+00:00",
+          "commentBody": "SP: This is a really exciting question! I was a Salesforce Admin long ago as a part of my first job out of college. I remember that exciting feeling of being able to build several solutions for my sales teams and integrations into our marketing tools, all without a formal degree in CS or IT. It was simple enough for me to understand, and powerful- any use case I could think of, i could make possible on the platform, whether it was an automated sales alerting system integrated into our marketing campaigns, or complex dashboards specific to our sales cycle. Building agents is different- but so much of it is the same. We have non-AI developers, our Agentblazers, who have this immense opportunity to use their business acument to build a new \"thing\": agents! it won't be entirely intuitive at first, like anything new- even workflow rules needed some getting used to ;) But once you get the hang of refining your prompts and tuning your instructions to havethe agent perform better, it will inspire a whole flywheel of innovation at your fingertips. To your addiitonal question- we use an open model ecosystem and leverage a variety of models for our AI stack.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_t3v1dnzgw",
+      "author": "Content-Lake1161",
+      "authorProfile": "https://www.reddit.com/user/Content-Lake1161",
+      "commentId": "t1_mj7qu0q",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mj7qu0q/",
+      "publishingDate": "2025-03-22T21:59:36+00:00",
+      "commentBody": "What is your major framework running on code wise JG: We use LLMs, RAG frameworks grounded in a unified data layer, agentic reasoning (with inference time evaluation) and tool forming via action orchestration that span any logic accessible from within the enterprise.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpl0dd",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpl0dd/",
+          "publishingDate": "2025-03-25T19:40:51+00:00",
+          "commentBody": "JG: We use LLMs, RAG frameworks grounded in a unified data layer, agentic reasoning (with inference time evaluation) and tool forming via action orchestration that span any logic accessible from within the enterprise.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_hne0268c",
+      "author": "Constant_Neat_6073",
+      "authorProfile": "https://www.reddit.com/user/Constant_Neat_6073",
+      "commentId": "t1_mjcyfwi",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjcyfwi/",
+      "publishingDate": "2025-03-23T19:33:28+00:00",
+      "commentBody": "Any advice for newcomers from different industries who want to effectively position themselves within the AI ecosystem? More specifically: What upcoming Salesforce capabilities do you believe will most transform customer service over the next few years? How do you see the role of AI evolving to support agents without replacing the human connection? What skill gaps do you currently see on teams adopting AgentForce, and how can professionals from other industries help bridge them? What advice would you offer to someone pivoting into this space from a non-traditional background? How does Salesforce evaluate the success of bots or automations once they’re implemented? JG: I cannot think of a better time than now to be in the AI Ecosystem. The evolution and rate of change in AI models coupled with innovation in agentic architectures will be transformative for enterprises. 1. Key capabilities I would seek to learn more about is building agents for any persona you understand deeply. See https://www.salesforce.com/agentforce/ 2. Agents will resolve routine, programmatic tickets freeing up time for us to focus on higher order tasks that requires a human touch as well as freeing us up tune/guide agent when they get off track. 3. Domain expertise coupled with an abiliy to instruct agentic systems and bring together data and action. Its pretty to get started take a look at https://www.salesforce.com/agentforce/how-it-works/ 4. Get familiar with tools to build, test, evaluate agents 5. Metrics such as deflection rates, implicit signals such as use of the recommended responses, successful conversations that result in converstion/resolutions with high CSAT metrics.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpfum7",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpfum7/",
+          "publishingDate": "2025-03-25T19:15:11+00:00",
+          "commentBody": "JG: I cannot think of a better time than now to be in the AI Ecosystem. The evolution and rate of change in AI models coupled with innovation in agentic architectures will be transformative for enterprises. 1. Key capabilities I would seek to learn more about is building agents for any persona you understand deeply. See https://www.salesforce.com/agentforce/ 2. Agents will resolve routine, programmatic tickets freeing up time for us to focus on higher order tasks that requires a human touch as well as freeing us up tune/guide agent when they get off track. 3. Domain expertise coupled with an abiliy to instruct agentic systems and bring together data and action. Its pretty to get started take a look at https://www.salesforce.com/agentforce/how-it-works/ 4. Get familiar with tools to build, test, evaluate agents 5. Metrics such as deflection rates, implicit signals such as use of the recommended responses, successful conversations that result in converstion/resolutions with high CSAT metrics.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_9nukjruf",
+      "author": "VanillaLifestyle",
+      "authorProfile": "https://www.reddit.com/user/VanillaLifestyle",
+      "commentId": "t1_mj6walm",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mj6walm/",
+      "publishingDate": "2025-03-22T19:13:03+00:00",
+      "commentBody": "Hey Sanjna, I'm also in big tech product marketing, working on similar AI agents for B2B users. I've joked that it's the best and worst type of product to market, because while it's cutting edge tech and totally greenfield (exciting for marketers), the actual technology is unpredictable because it's non-deterministic, and it's got very opaque capabilities so users don't know 1) what kind of questions it can answer, and 2) when it's been updated to be smarter or help with new tasks. How are you all thinking about the marketing of these products to customers? Are you glad to have been relatively early movers because you can tell your own story, or do you find it tough because the tech is still early stage? Do you have to do a lot of educating and persuading, or do you find that users just get it? How are you messaging model upgrades and new \"skills\"? SP: This is a great question! In my opinion, the most exciting opportunity for marketers right now is to explain this new technology to customers. The unpredictability of LLMs lies in the positioning- when wielded properly, LLMs are powerful in their abilty to be dynamic and adaptive to customer questions. Of course, customers are interested in control and making sure their agents don't operate outside of the desired context. Our product has been architected with this in mind, and we have guardrails both at the Trust Layer level as well as configurable guardrails that customers can create to make sure the agnets have some repeataility, while still maintaining thier dynamic nature that maks them so impressive.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpfo7e",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpfo7e/",
+          "publishingDate": "2025-03-25T19:14:18+00:00",
+          "commentBody": "SP: This is a great question! In my opinion, the most exciting opportunity for marketers right now is to explain this new technology to customers. The unpredictability of LLMs lies in the positioning- when wielded properly, LLMs are powerful in their abilty to be dynamic and adaptive to customer questions. Of course, customers are interested in control and making sure their agents don't operate outside of the desired context. Our product has been architected with this in mind, and we have guardrails both at the Trust Layer level as well as configurable guardrails that customers can create to make sure the agnets have some repeataility, while still maintaining thier dynamic nature that maks them so impressive.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_cpk8un3h",
+      "author": "wandering_godzilla",
+      "authorProfile": "https://www.reddit.com/user/wandering_godzilla",
+      "commentId": "t1_mj9jjdg",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mj9jjdg/",
+      "publishingDate": "2025-03-23T04:57:07+00:00",
+      "commentBody": "If you rely on frontier foundation models, then what differentiates your product from anyone who builds agents with well-prompted recipes (which is more or less what you are doing)? JG: While open-source models provide a foundation, building enterprise-grade Agentic systems require significant investment in frameworks, infrastructure, and continuous optimization. For example, Reasoning engines require deep orchestration into real-time actions runtimes, RAG systems that are stand alone and not integrated with agentic reasoning often struggle with contextual accuracy and evaluation. And we learnt through many successful Agentforce implementations that a key pre-requisite for building and launching a well crafted agent running at scale in production, is tools for testing , evaluation and deoplyment. Agentforce integrated platform, with its pre-built optimizations and a build, test, deploy toolset provides a far more reliable, faster and cost-effective path to building Agentic experiences than DIY systems. Plus, customers don't want to be locked into one model vendor. With Agentforce, they can choose from models we natively integrate with, or even bring their own model (BYOLLM).",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpjqya",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpjqya/",
+          "publishingDate": "2025-03-25T19:34:35+00:00",
+          "commentBody": "JG: While open-source models provide a foundation, building enterprise-grade Agentic systems require significant investment in frameworks, infrastructure, and continuous optimization. For example, Reasoning engines require deep orchestration into real-time actions runtimes, RAG systems that are stand alone and not integrated with agentic reasoning often struggle with contextual accuracy and evaluation. And we learnt through many successful Agentforce implementations that a key pre-requisite for building and launching a well crafted agent running at scale in production, is tools for testing , evaluation and deoplyment. Agentforce integrated platform, with its pre-built optimizations and a build, test, deploy toolset provides a far more reliable, faster and cost-effective path to building Agentic experiences than DIY systems. Plus, customers don't want to be locked into one model vendor. With Agentforce, they can choose from models we natively integrate with, or even bring their own model (BYOLLM).",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_6x01e",
+      "author": "MrJibberJabber",
+      "authorProfile": "https://www.reddit.com/user/MrJibberJabber",
+      "commentId": "t1_mj6gb5e",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mj6gb5e/",
+      "publishingDate": "2025-03-22T17:48:20+00:00",
+      "commentBody": "How do you think Salesforce ai compares to a locally run model now that powerful free version of complex models exist. What gives you guys an edge over the best models in the world being 100% free to spin up right up now? JG: While open-source models provide a foundation, building enterprise-grade Agentic systems require significant investment in specialized engines, orchestrator frameworks, infrastructure, and continuous optimization. For example, Reasoning engines require deep orchestration into real-time actions runtimes, RAG systems that are stand alone and not integrated with agentic reasoning often struggle with contextual accuracy and evaluation. And we learnt through many successful Agentforce implementations that a key pre-requisite for building and launching a well crafted agent running at scale in production, is tools for testing, evaluation and deoplyment. Agentforce integrated platform, with its pre-built optimizations and a build, test, deploy toolset provides a far more reliable, faster and cost-effective path to building Agentic experiences than DIY systems.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjph45o",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjph45o/",
+          "publishingDate": "2025-03-25T19:21:28+00:00",
+          "commentBody": "JG: While open-source models provide a foundation, building enterprise-grade Agentic systems require significant investment in specialized engines, orchestrator frameworks, infrastructure, and continuous optimization. For example, Reasoning engines require deep orchestration into real-time actions runtimes, RAG systems that are stand alone and not integrated with agentic reasoning often struggle with contextual accuracy and evaluation. And we learnt through many successful Agentforce implementations that a key pre-requisite for building and launching a well crafted agent running at scale in production, is tools for testing, evaluation and deoplyment. Agentforce integrated platform, with its pre-built optimizations and a build, test, deploy toolset provides a far more reliable, faster and cost-effective path to building Agentic experiences than DIY systems.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1lvuxnms25",
+      "author": "IndependentStreet181",
+      "authorProfile": "https://www.reddit.com/user/IndependentStreet181",
+      "commentId": "t1_mjoxr3c",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjoxr3c/",
+      "publishingDate": "2025-03-25T17:47:05+00:00",
+      "commentBody": "Hi Jayesh and Sanjna.  Big fan of what you’re doing with Agentforce—it’s exciting to see AI agents evolving beyond chatbots. Agentforce sounds like a game-changer in AI-driven customer engagement! I'm curious about the pricing model— how does Salesforce balance affordability for businesses of varying sizes while ensuring the platform's advanced capabilities? Is it designed to scale better for smaller businesses, or is it more focused on enterprise-level adoption? Would love to hear how you see this playing out in terms of accessibility and ROI for different types of customers! SP: The pricing model for Agentforce is designed to scale with the volume of questions you get for the agent. There are a variety of factors to consider in this as well- some customers opt for different experiences for authenticated and unauthenticated users, some customers prefer to branch some parts of their customer service \"decision tree\" and have agentforce only handle certain types of questions. It is very variable across customers.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpnpbl",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpnpbl/",
+          "publishingDate": "2025-03-25T19:53:51+00:00",
+          "commentBody": "SP: The pricing model for Agentforce is designed to scale with the volume of questions you get for the agent. There are a variety of factors to consider in this as well- some customers opt for different experiences for authenticated and unauthenticated users, some customers prefer to branch some parts of their customer service \"decision tree\" and have agentforce only handle certain types of questions. It is very variable across customers.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_5dwyaxbp",
+      "author": "My80Vette",
+      "authorProfile": "https://www.reddit.com/user/My80Vette",
+      "commentId": "t1_mjd10t3",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjd10t3/",
+      "publishingDate": "2025-03-23T19:47:08+00:00",
+      "commentBody": "As a new-grad SWE, what skills do I need to be learning TODAY to make sure I’m not just employable, but SOUGHT AFTER in the upcoming Agentic Market. Especially as we fear junior roles being taken up first in the agent economy? Specific frameworks, projects, tools, anything you want to see juniors picking up now? JG: There is opportunity is to help build out agentic frameworks and technologiies such as reasoning engines, RAG techniques, index time knowledge graphs which serve as foundations for agentic memory. Another area of opportunities is in picking a domain and going deep into building specific agent for a persona. The ability the build, test, evaluate and deploy agents successfully at scale is will fast become a key driver of the agent economy. See Agentblazer trailheads here https://trailhead.salesforce.com/agentblazer",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpgeh0",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpgeh0/",
+          "publishingDate": "2025-03-25T19:17:56+00:00",
+          "commentBody": "JG: There is opportunity is to help build out agentic frameworks and technologiies such as reasoning engines, RAG techniques, index time knowledge graphs which serve as foundations for agentic memory. Another area of opportunities is in picking a domain and going deep into building specific agent for a persona. The ability the build, test, evaluate and deploy agents successfully at scale is will fast become a key driver of the agent economy. See Agentblazer trailheads here https://trailhead.salesforce.com/agentblazer",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_cgvj42k",
+      "author": "All_the_young_Joes",
+      "authorProfile": "https://www.reddit.com/user/All_the_young_Joes",
+      "commentId": "t1_mjbl9yl",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjbl9yl/",
+      "publishingDate": "2025-03-23T15:19:15+00:00",
+      "commentBody": "Have you seen high agentforce adoption in your SMB audience? I feel like they typically don’t give a damn about the latest technological advancement and just want to have their problems solved SP: We have definitely seen some impressive traction in SMB. At it's core, Agentforce can help customers scale their efforts across different departments. This value proposition is really strong for SMBs who may have never been able to dream of a world where they have a fully built out contact center or a growing SDR team. With Agentforce, these companies can create smoother customer experiences and increase the quality of their leads without having to hire entire teams of people. Which would be out of scope for them in any scenario. And we allow them to do it all with low-code tools that greatly lower the barrier to entry for agentic AI.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpjhl6",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpjhl6/",
+          "publishingDate": "2025-03-25T19:33:17+00:00",
+          "commentBody": "SP: We have definitely seen some impressive traction in SMB. At it's core, Agentforce can help customers scale their efforts across different departments. This value proposition is really strong for SMBs who may have never been able to dream of a world where they have a fully built out contact center or a growing SDR team. With Agentforce, these companies can create smoother customer experiences and increase the quality of their leads without having to hire entire teams of people. Which would be out of scope for them in any scenario. And we allow them to do it all with low-code tools that greatly lower the barrier to entry for agentic AI.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_9ra5l6ay",
+      "author": "Low_Professor_1727",
+      "authorProfile": "https://www.reddit.com/user/Low_Professor_1727",
+      "commentId": "t1_mj8o7dn",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mj8o7dn/",
+      "publishingDate": "2025-03-23T01:16:23+00:00",
+      "commentBody": "Do you think it has any real potential or it's just all vaporware? What metrics/use cases can you share that suggests Agentic AI has any chance of a real world impact? JG: I can share that when we started using Agentforce to field questions on help.salesforce.com, even those of us who work on the product were surprised by how effective it was. Agentforce is handling ~86% of support inquiries and we're sharing the metrics right on our website week by week: https://www.salesforce.com/agentforce/use-cases/customer-zero/ Thousands of customers are using Agentforce right now and seeing good results too, and we try to share us much detail as we can about how are customers benefiting here: https://www.salesforce.com/agentforce/customer-stories/",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpmlcr",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpmlcr/",
+          "publishingDate": "2025-03-25T19:48:32+00:00",
+          "commentBody": "JG: I can share that when we started using Agentforce to field questions on help.salesforce.com, even those of us who work on the product were surprised by how effective it was. Agentforce is handling ~86% of support inquiries and we're sharing the metrics right on our website week by week: https://www.salesforce.com/agentforce/use-cases/customer-zero/ Thousands of customers are using Agentforce right now and seeing good results too, and we try to share us much detail as we can about how are customers benefiting here: https://www.salesforce.com/agentforce/customer-stories/",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_hbctffy8",
+      "author": "pearlCatillac",
+      "authorProfile": "https://www.reddit.com/user/pearlCatillac",
+      "commentId": "t1_mjbohab",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjbohab/",
+      "publishingDate": "2025-03-23T15:36:25+00:00",
+      "commentBody": "It seems like this technology went right from “Chat Bots” to “Agents” while skipping the idea of “Assistants” that help enable humans to do various tasks more effectively. Any insight into why this style of AI autonomy has been a larger focus? SP: \"Assistive\" use cases are definitely a core focus for Salesforce, particularly when surfaced inside of Slack. We showcased this as a part of our Agentforce 2.0 launch in December. We have been using Agentforce in Slack internally for several months now and customers will get access to the new \"Agentforce for Employees\" template inside of Agent Builder in may where they can build agents for employees that have user context and can drive more personalized internal use cases like employee helpdesk, pricing agents, sales agents, etc.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpgv70",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpgv70/",
+          "publishingDate": "2025-03-25T19:20:14+00:00",
+          "commentBody": "SP: \"Assistive\" use cases are definitely a core focus for Salesforce, particularly when surfaced inside of Slack. We showcased this as a part of our Agentforce 2.0 launch in December. We have been using Agentforce in Slack internally for several months now and customers will get access to the new \"Agentforce for Employees\" template inside of Agent Builder in may where they can build agents for employees that have user context and can drive more personalized internal use cases like employee helpdesk, pricing agents, sales agents, etc.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_8z2pt384",
+      "author": "WAp0w",
+      "authorProfile": "https://www.reddit.com/user/WAp0w",
+      "commentId": "t1_mjhv0b0",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjhv0b0/",
+      "publishingDate": "2025-03-24T15:52:45+00:00",
+      "commentBody": "Where do you see the CRM space heading? For context, having worked at AWS in enterprise segments, and now founding my own AI startup, I see the lines blurring between CRM and CDPS. JG: CRM and Enterprise application are moving towards a future where intelligent agents act as trusted digital workers/ advisors; anticipating and responding to customer needs, executing tasks and delivering personalized experiences at scale. This transformation is being powered by an Agentic framework deeply integrated into a unified data foundation (included a CDP), a reasoning engine to break tasks down, an action layer that orchestrates tasks and actions autonomously and a set of guadrails ensuring safe, reliable and trusted operation. As for your startup, you are definitely in the right space.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpfilh",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpfilh/",
+          "publishingDate": "2025-03-25T19:13:32+00:00",
+          "commentBody": "JG: CRM and Enterprise application are moving towards a future where intelligent agents act as trusted digital workers/ advisors; anticipating and responding to customer needs, executing tasks and delivering personalized experiences at scale. This transformation is being powered by an Agentic framework deeply integrated into a unified data foundation (included a CDP), a reasoning engine to break tasks down, an action layer that orchestrates tasks and actions autonomously and a set of guadrails ensuring safe, reliable and trusted operation. As for your startup, you are definitely in the right space.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_qyn3h",
+      "author": "HammerOfThor1",
+      "authorProfile": "https://www.reddit.com/user/HammerOfThor1",
+      "commentId": "t1_mjd39xa",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjd39xa/",
+      "publishingDate": "2025-03-23T19:58:46+00:00",
+      "commentBody": "Why did you guys make it so complicated? It’s going to hinder the progress of AI and agentic tools if regular business people who already have too much on their plates to learn? Or was that always the play—requiring customer to purchase consulting/enablement in order to use Agentforce? SP: Agentic AI is an entirely new sofware paradigm that will require all of us to learn new skills, as builders and as end users. Check out my answer here.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpm3mi",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpm3mi/",
+          "publishingDate": "2025-03-25T19:46:10+00:00",
+          "commentBody": "SP: Agentic AI is an entirely new sofware paradigm that will require all of us to learn new skills, as builders and as end users. Check out my answer here.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_684m80bo",
+      "author": "Exit-Velocity",
+      "authorProfile": "https://www.reddit.com/user/Exit-Velocity",
+      "commentId": "t1_mjph73i",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjph73i/",
+      "publishingDate": "2025-03-25T19:21:52+00:00",
+      "commentBody": "What key value props are you delivering for your end users?  What metrics show agents are assisting? SP: End users can experience benefits from Agentforce in a variety of ways. Whether it's faster resolution time (aka answer my question, now!), a smoother experience in finding information about a business, or completing an action like making a return. For our own implementation of Agentforce on help.salesforce.com , you can see all of the metrics we are using to track success including how many cases Agentforce is handling, escalating to a human, and successfully deflecting.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpo8ww",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpo8ww/",
+          "publishingDate": "2025-03-25T19:56:26+00:00",
+          "commentBody": "SP: End users can experience benefits from Agentforce in a variety of ways. Whether it's faster resolution time (aka answer my question, now!), a smoother experience in finding information about a business, or completing an action like making a return. For our own implementation of Agentforce on help.salesforce.com , you can see all of the metrics we are using to track success including how many cases Agentforce is handling, escalating to a human, and successfully deflecting.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1cfweuhp9m",
+      "author": "Artistic-Stable-3623",
+      "authorProfile": "https://www.reddit.com/user/Artistic-Stable-3623",
+      "commentId": "t1_mjed05e",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjed05e/",
+      "publishingDate": "2025-03-24T00:05:20+00:00",
+      "commentBody": "I'm a sophomore that possibly wants to do CS/AI in the future. What do you think about the field? Do you see a future with no coding or very few coders with mainly AI? Or do you still think coders will be relevant? JG: While coding has been transformed, perhaps forever, the skill and learning you will gain to think algorithmically to break tasks down, select the right tools (that are at the bleeding edge) will hold you in good stead. Technogists with an open mind and passion for building are likely to harness technology faster to get work done. I think you have a bright future, all the best.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjphbwy",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjphbwy/",
+          "publishingDate": "2025-03-25T19:22:31+00:00",
+          "commentBody": "JG: While coding has been transformed, perhaps forever, the skill and learning you will gain to think algorithmically to break tasks down, select the right tools (that are at the bleeding edge) will hold you in good stead. Technogists with an open mind and passion for building are likely to harness technology faster to get work done. I think you have a bright future, all the best.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_7apsp4ed",
+      "author": "TheInfamousFrycarson",
+      "authorProfile": "https://www.reddit.com/user/TheInfamousFrycarson",
+      "commentId": "t1_mja74ex",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mja74ex/",
+      "publishingDate": "2025-03-23T08:56:15+00:00",
+      "commentBody": "How effective are your AI agents at upselling to disgruntled customers calling/messaging for technical support that was successfully resolved in that interaction? I suppose I should ask also: can your AI agents answer phone calls at all, either now or planned for in the future? Are you demoing your AI agent by having it respond to this AMA? JG: Some cutomers are using Agentforce to do just that -- indentify upsell opportunities that might've been missed otherwise! Agentforce voice is currently in active development. This AMA, however, is entirely human powered :)",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpjb0o",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpjb0o/",
+          "publishingDate": "2025-03-25T19:32:22+00:00",
+          "commentBody": "JG: Some cutomers are using Agentforce to do just that -- indentify upsell opportunities that might've been missed otherwise! Agentforce voice is currently in active development. This AMA, however, is entirely human powered :)",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_lk7ik",
+      "author": "Jckm14",
+      "authorProfile": "https://www.reddit.com/user/Jckm14",
+      "commentId": "t1_mj9lfvw",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mj9lfvw/",
+      "publishingDate": "2025-03-23T05:13:50+00:00",
+      "commentBody": "As AI and automation become more deeply integrated into the ecosystem, how do you see Agentforce evolving to support more personalized, scalable partner experiences? SP: We launched the AgentExchange at TDX this year which gives ecosystem partners a great opportunity to build on top of Agentforce. They can build actions that are accessible to customers through the agent builder tool as well as fully packaged agents that they can list on the AgentExchange, just like any other app that they would build, list, and monetize.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpjze4",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpjze4/",
+          "publishingDate": "2025-03-25T19:35:45+00:00",
+          "commentBody": "SP: We launched the AgentExchange at TDX this year which gives ecosystem partners a great opportunity to build on top of Agentforce. They can build actions that are accessible to customers through the agent builder tool as well as fully packaged agents that they can list on the AgentExchange, just like any other app that they would build, list, and monetize.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_yndab0xey",
+      "author": "Vegetable_Bluejay_65",
+      "authorProfile": "https://www.reddit.com/user/Vegetable_Bluejay_65",
+      "commentId": "t1_mjpeap5",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpeap5/",
+      "publishingDate": "2025-03-25T19:07:34+00:00",
+      "commentBody": "What are the most popular use cases? SP: There are several popular use cases for Agentforce, many of which are articulated here: https://www.salesforce.com/agentforce/use-cases/. Agentforce is a platform- so you can use the out of the box capabilties for use cases in service and sales, or you can build any agent for any use case you can dream of where you see value for efficiencies.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpocwy",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpocwy/",
+          "publishingDate": "2025-03-25T19:56:57+00:00",
+          "commentBody": "SP: There are several popular use cases for Agentforce, many of which are articulated here: https://www.salesforce.com/agentforce/use-cases/. Agentforce is a platform- so you can use the out of the box capabilties for use cases in service and sales, or you can build any agent for any use case you can dream of where you see value for efficiencies.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_ctisq891",
+      "author": "Toes_Day_Daze",
+      "authorProfile": "https://www.reddit.com/user/Toes_Day_Daze",
+      "commentId": "t1_mjpdhjk",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpdhjk/",
+      "publishingDate": "2025-03-25T19:03:35+00:00",
+      "commentBody": "What's the point of Agentforce? Is it just bloating a system that's just really supposed to track data and maybe show some trends? SP: Agentforce is a powerful platform to build, manage, and deploy agents. AI Agents are a new type of software that can reason and take action autonomously. There are several applications of the technology you can explore on agentforce.com.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpnzj0",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpnzj0/",
+          "publishingDate": "2025-03-25T19:55:12+00:00",
+          "commentBody": "SP: Agentforce is a powerful platform to build, manage, and deploy agents. AI Agents are a new type of software that can reason and take action autonomously. There are several applications of the technology you can explore on agentforce.com.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_89r9payc",
+      "author": "SeaKoe11",
+      "authorProfile": "https://www.reddit.com/user/SeaKoe11",
+      "commentId": "t1_mjiz3ra",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjiz3ra/",
+      "publishingDate": "2025-03-24T19:05:34+00:00",
+      "commentBody": "I’ve always wondered if agentforce can do the more technical admin work. Like if I need to add to add items to a list that is present on a record. Or change formulas that certain fields are dependent on JG: You mean like a Salesforce Admin Agent ? It is an active area of work for our platform team and we look forward to sharing more on this with you all soon.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpl7qp",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpl7qp/",
+          "publishingDate": "2025-03-25T19:41:53+00:00",
+          "commentBody": "JG: You mean like a Salesforce Admin Agent ? It is an active area of work for our platform team and we look forward to sharing more on this with you all soon.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_b5g851ah",
+      "author": "diaperrunner",
+      "authorProfile": "https://www.reddit.com/user/diaperrunner",
+      "commentId": "t1_mjjmv8c",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjjmv8c/",
+      "publishingDate": "2025-03-24T20:58:26+00:00",
+      "commentBody": "What is the best model for agentic use that is a t5 architecture(encoder decoder transformer) JG: OpenAI, Gemini, Claude, Deepseek all have varying degrees of reasoning and language capabilities that make them good candidates for agentic models. T5 models to the best of my knowledge don't exhibit advanced reasoning capabilities.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpmunw",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpmunw/",
+          "publishingDate": "2025-03-25T19:49:48+00:00",
+          "commentBody": "JG: OpenAI, Gemini, Claude, Deepseek all have varying degrees of reasoning and language capabilities that make them good candidates for agentic models. T5 models to the best of my knowledge don't exhibit advanced reasoning capabilities.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_51d36gja",
+      "author": "-SpamCauldron-",
+      "authorProfile": "https://www.reddit.com/user/-SpamCauldron-",
+      "commentId": "t1_mjfk702",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjfk702/",
+      "publishingDate": "2025-03-24T04:54:55+00:00",
+      "commentBody": "Can you share the names of some big-names companies that are using or planning to use AgentForce, and how much do you think it will affect them? JG: We have several customer stories you can explore here: https://www.salesforce.com/agentforce/customer-stories/",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpk3q0",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpk3q0/",
+          "publishingDate": "2025-03-25T19:36:21+00:00",
+          "commentBody": "JG: We have several customer stories you can explore here: https://www.salesforce.com/agentforce/customer-stories/",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_4dbkh",
+      "author": "TheKingInTheNorth",
+      "authorProfile": "https://www.reddit.com/user/TheKingInTheNorth",
+      "commentId": "t1_mjf64d4",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjf64d4/",
+      "publishingDate": "2025-03-24T03:06:01+00:00",
+      "commentBody": "What’s the most interesting use case it can’t handle yet, that you think it will handle 24-36 months from now? Something you don’t already know is on the roadmap. JG: Fully multi-modal agents capable of interaction and reasoning over text, voice and video.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjphh37",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjphh37/",
+          "publishingDate": "2025-03-25T19:23:15+00:00",
+          "commentBody": "JG: Fully multi-modal agents capable of interaction and reasoning over text, voice and video.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_7vougjty",
+      "author": "OwnPhotojournalist31",
+      "authorProfile": "https://www.reddit.com/user/OwnPhotojournalist31",
+      "commentId": "t1_mj65lh7",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mj65lh7/",
+      "publishingDate": "2025-03-22T16:53:22+00:00",
+      "commentBody": "Hello Jayesh Sir, I am eager to talk about Agent-based Automations in Salesforce. JG: As am I!",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpkvn5",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpkvn5/",
+          "publishingDate": "2025-03-25T19:40:12+00:00",
+          "commentBody": "JG: As am I!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": null,
+      "author": null,
+      "authorProfile": null,
+      "commentId": "t1_mjn6mns",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjn6mns/",
+      "publishingDate": "2025-03-25T12:31:29+00:00",
+      "commentBody": "You look like John Oliver JG: I'll take that compliment :-)",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_c3ignhxh",
+          "author": "salesforce",
+          "authorProfile": "https://www.reddit.com/user/salesforce",
+          "commentId": "t1_mjpnhry",
+          "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpnhry/",
+          "publishingDate": "2025-03-25T19:52:51+00:00",
+          "commentBody": "JG: I'll take that compliment :-)",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_10a49j",
+      "author": "Pedroiaa15_",
+      "authorProfile": "https://www.reddit.com/user/Pedroiaa15_",
+      "commentId": "t1_mjj3tv9",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjj3tv9/",
+      "publishingDate": "2025-03-24T19:28:36+00:00",
+      "commentBody": "Why the main focus on AI within Tableau? As a developer and admin I may be biased, but there is a huge backlog of tool functionality that the Tableau community has been asking for - and AI/Pulse is not anywhere near the top. Tableau is a better tool than Power BI. But Tableau is losing this battle as Microsoft adds new features by the day. Please help!",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_d9pu17qr1",
+      "author": "Happielemur",
+      "authorProfile": "https://www.reddit.com/user/Happielemur",
+      "commentId": "t1_mjj3ei1",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjj3ei1/",
+      "publishingDate": "2025-03-24T19:26:32+00:00",
+      "commentBody": "Just lost my job in cyber. 🥲 are you willing to chat about possible opportunities? I was a sales engineer , transferred to customer success. I have ADHD/Autism, and I’m finding it very hard for an employer that appreciates my skills. I have a passion for finding solutions for internal teams for marketing (to tell a story). I view marketing as a “vision board” and implement from there! Q: \nAnd for a techie: are big corporations really against their employees using AI to help with their job? For me, AI is critical as someone with autism and adhd, who has trouble wording my thoughts and tend to get lost in the details, AI has been powerful for helping me understand concepts, as a “translator”. My manager was against me using it. Q2: as someone who loves to solve problems. What are some limitations in the AI+ marketing sector you wish was easier, accessible, or implemented. I want to design it!",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_vhrpgi9w",
+      "author": "LegitimatePay7603",
+      "authorProfile": "https://www.reddit.com/user/LegitimatePay7603",
+      "commentId": "t1_mjpfai1",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjpfai1/",
+      "publishingDate": "2025-03-25T19:12:26+00:00",
+      "commentBody": "Hi I am a salesforce developer and worked on sales and service cloud respectively for the last 5 years, I   had to take some time off for the last 1.5 years for personal reasons and am back in the market now. With the advent of Agentforce and other AI products, I need some advice on how best to prepare myself for the role of a salesforce developer and make myself more competitive. Thanks.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_8qfomfrt",
+      "author": "YoungFrankieBeverly",
+      "authorProfile": "https://www.reddit.com/user/YoungFrankieBeverly",
+      "commentId": "t1_mjnz5rp",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjnz5rp/",
+      "publishingDate": "2025-03-25T15:10:36+00:00",
+      "commentBody": "Hi Jayesh and Sanjna, thanks for doing this. Do you see a future where professionals can use Salesforce AI to create and monetize their own domain-specific AI agents? Could Salesforce enable individuals to license their expertise at scale instead of only large enterprises benefiting from AI-driven automation? If so, when do you think this could become a reality?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_13jg33",
+      "author": "boblobchippym8",
+      "authorProfile": "https://www.reddit.com/user/boblobchippym8",
+      "commentId": "t1_mjir1zo",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjir1zo/",
+      "publishingDate": "2025-03-24T18:26:52+00:00",
+      "commentBody": "What does Salesforce do exactly?",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_lw54d",
+      "author": "flaming_trout",
+      "authorProfile": "https://www.reddit.com/user/flaming_trout",
+      "commentId": "t1_mj8miz9",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mj8miz9/",
+      "publishingDate": "2025-03-23T01:05:53+00:00",
+      "commentBody": "Why can’t I connect to the backend of salesforce to automate reporting and instead have to export data into excel like a scrub? Is IS lying to me that sales force has no backend capability!?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_8n7q2s4kh",
+      "author": "666trapstar",
+      "authorProfile": "https://www.reddit.com/user/666trapstar",
+      "commentId": "t1_mj9t0t3",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mj9t0t3/",
+      "publishingDate": "2025-03-23T06:28:18+00:00",
+      "commentBody": "What does salesforce do in terms of cloud compute? I see they’re listed in the top ten cloud compute providers with 2% of market share but I’ve never heard of your cloud products.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_ht40qce8",
+      "author": "phoot_in_the_door",
+      "authorProfile": "https://www.reddit.com/user/phoot_in_the_door",
+      "commentId": "t1_mjnyo44",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjnyo44/",
+      "publishingDate": "2025-03-25T15:08:09+00:00",
+      "commentBody": "How does one rise to become an executive like yourself? What are some career tips that helped you get where you are today? Thanks.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_lwzflbfs",
+      "author": "cozmicnoid",
+      "authorProfile": "https://www.reddit.com/user/cozmicnoid",
+      "commentId": "t1_mjonpo8",
+      "link": "https://www.reddit.com/user/salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mjonpo8/",
+      "publishingDate": "2025-03-25T17:05:07+00:00",
+      "commentBody": "Are you guys actually hiring?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

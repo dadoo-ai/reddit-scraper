@@ -1,0 +1,358 @@
+{
+  "info": {
+    "authorId": "t2_1ly09fig2y",
+    "author": "Ill_Sugar3426",
+    "authorProfile": "https://www.reddit.com/user/Ill_Sugar3426",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mgver0",
+    "postLabel": null,
+    "publishingDate": "2025-08-03T21:39:58+00:00",
+    "postTitle": "Still not able to create the simpler agentforce with knowledge",
+    "postMessage": "Anybody accomplished this? I have been trying to create an agent with the Topic General FAQ and the action answer questions with knowledge throught data studio, whithout success. I have checked the data library, data stream, search index, permissions to the knowledge object and categories from the einstein user, access to the knowledge articles and all seems to be correct. If I configure a data libreary with a pdf file, It works fine, but with data cloud dont work (but obviously the idea is to have the knowledge in realtime with the last updates) Any suggestion? Or any tutorial that actually work? Thanks in advance. I dont know if i need to create a ticket with salesforce because even we had some meeting with an 'expert' and was also not able to configure it correctly. Edit:  Thank you u/TresselsSweaterVest !!! The problem was in the promp template, had to update the appropriate custom retriever!!!!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/",
+    "commentCount": 29,
+    "upvoteCount": 4,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_67lh6",
+      "author": "oxeneers",
+      "authorProfile": "https://www.reddit.com/user/oxeneers",
+      "commentId": "t1_n6rpc8r",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6rpc8r/",
+      "publishingDate": "2025-08-03T22:10:29+00:00",
+      "commentBody": "Probably the best video to get your feet wet with a simple Agent and troubleshoot the nuances of the platform: https://salesforce.vidyard.com/watch/DEpMScYPKksRdBcz93SYCE Thank you! Yesterday I was following this video https://www.youtube.com/watch?v=t04Uzav_9YM&list=PLcIIP145PWH1oBFyxgJOuBRjiojeLxWRQ&index=2&ab_channel=SFDCWALLAH created a dev org only to follow this tutorial, I followed all the steps and...nothing :-/",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_1ly09fig2y",
+          "author": "Ill_Sugar3426",
+          "authorProfile": "https://www.reddit.com/user/Ill_Sugar3426",
+          "commentId": "t1_n6rpr6l",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6rpr6l/",
+          "publishingDate": "2025-08-03T22:12:47+00:00",
+          "commentBody": "Thank you! Yesterday I was following this video https://www.youtube.com/watch?v=t04Uzav_9YM&list=PLcIIP145PWH1oBFyxgJOuBRjiojeLxWRQ&index=2&ab_channel=SFDCWALLAH created a dev org only to follow this tutorial, I followed all the steps and...nothing :-/",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1ly09fig2y",
+          "author": "Ill_Sugar3426",
+          "authorProfile": "https://www.reddit.com/user/Ill_Sugar3426",
+          "commentId": "t1_n6x8xbj",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6x8xbj/",
+          "publishingDate": "2025-08-04T19:16:34+00:00",
+          "commentBody": "created a dev org only to follow this tutorial, I followed all the steps and...nothing :-/",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_487pfc44",
+      "author": "Material-Draw4587",
+      "authorProfile": "https://www.reddit.com/user/Material-Draw4587",
+      "commentId": "t1_n6yi3cm",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6yi3cm/",
+      "publishingDate": "2025-08-04T23:06:07+00:00",
+      "commentBody": "I would try setting up your own Topic, Action, and Prompt Builder entry to do this. I have the same use case and I found it pretty straightforward but I wasn't using default anything. You should start with Prompt Builder and use the \"flex\" template. In the prompt resources you should be able to select your Retriever if it's set up correctly. After that, you set up the Action and Topic. Thank you! I'll try this!",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_1ly09fig2y",
+          "author": "Ill_Sugar3426",
+          "authorProfile": "https://www.reddit.com/user/Ill_Sugar3426",
+          "commentId": "t1_n6ypee2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6ypee2/",
+          "publishingDate": "2025-08-04T23:46:37+00:00",
+          "commentBody": "Thank you! I'll try this!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_7ftlgccj",
+      "author": "blythec90",
+      "authorProfile": "https://www.reddit.com/user/blythec90",
+      "commentId": "t1_n7k0vg2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n7k0vg2/",
+      "publishingDate": "2025-08-08T06:18:01+00:00",
+      "commentBody": "I had this issue for months, tearing apart every setting and rebuilding everything The final solution ended up being due to the locale The knowledge articles were En_US and I was English (United Kingdom) In my settings against my user, I changed the locale to English United States and it started working fine Obviously not something you should have to do Currently changing the locale of the Knowledge articles all to English United Kingdom and it it's rebuilding the data library currently Give that a go",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_cq4mbxh6",
+      "author": "Suspicious-Nerve-487",
+      "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+      "commentId": "t1_n6rorzq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6rorzq/",
+      "publishingDate": "2025-08-03T22:07:21+00:00",
+      "commentBody": "Are you getting an error? When you say it isn’t working, what are you actually seeing in the builder when you test? Do you have data cloud setup properly? Did you rebuild the search index? Does your agent user have the data cloud user perm set? There are way too many variables for us to help with the limited info you provided. You need to give a bit more about what “isn’t working” and what you’re actually seeing when testing Always receive this error GROUNDED: The response accurately reflects the result of the function call, which stated that no specific information about the [query] could be found in the available articles. Do you have knowledge articles that answer the question you’re asking the agent? And have you created a data library using knowledge articles? The agent doesn’t search your knowledge articles. The articles get ingested into Data Cloud, and that’s the purpose of the data library and retriever in the standard AQWK prompt template Yes, I have 800 articles aprox. The Data Stream Knowledge_kav_Home shows me similar amount of records",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_1ly09fig2y",
+          "author": "Ill_Sugar3426",
+          "authorProfile": "https://www.reddit.com/user/Ill_Sugar3426",
+          "commentId": "t1_n6rpm4q",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6rpm4q/",
+          "publishingDate": "2025-08-03T22:12:00+00:00",
+          "commentBody": "Always receive this error GROUNDED: The response accurately reflects the result of the function call, which stated that no specific information about the [query] could be found in the available articles. Do you have knowledge articles that answer the question you’re asking the agent? And have you created a data library using knowledge articles? The agent doesn’t search your knowledge articles. The articles get ingested into Data Cloud, and that’s the purpose of the data library and retriever in the standard AQWK prompt template Yes, I have 800 articles aprox. The Data Stream Knowledge_kav_Home shows me similar amount of records",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_cq4mbxh6",
+          "author": "Suspicious-Nerve-487",
+          "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+          "commentId": "t1_n6rq3ds",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6rq3ds/",
+          "publishingDate": "2025-08-03T22:14:40+00:00",
+          "commentBody": "Do you have knowledge articles that answer the question you’re asking the agent? And have you created a data library using knowledge articles? The agent doesn’t search your knowledge articles. The articles get ingested into Data Cloud, and that’s the purpose of the data library and retriever in the standard AQWK prompt template Yes, I have 800 articles aprox. The Data Stream Knowledge_kav_Home shows me similar amount of records",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1ly09fig2y",
+          "author": "Ill_Sugar3426",
+          "authorProfile": "https://www.reddit.com/user/Ill_Sugar3426",
+          "commentId": "t1_n6sgguz",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6sgguz/",
+          "publishingDate": "2025-08-04T00:47:33+00:00",
+          "commentBody": "Yes, I have 800 articles aprox. The Data Stream Knowledge_kav_Home shows me similar amount of records",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_n0jlc",
+      "author": "beniferlopez",
+      "authorProfile": "https://www.reddit.com/user/beniferlopez",
+      "commentId": "t1_n6rrf3p",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6rrf3p/",
+      "publishingDate": "2025-08-03T22:22:06+00:00",
+      "commentBody": "Is the KAV data stream and DMO hydrated with data? Is your chunk/index DMO hydrated with data? Does it work when you test directly within prompt builder? The Data stream Knowledge_kav_Home shows me similar records than the published articles (800) The indexs shows similar records in the first process and then the updated records Doesn't work :( There is something that I don't know. How is / where i need to configure the relationship between data library / Data Stream / Search index? Or how to check that?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_1ly09fig2y",
+          "author": "Ill_Sugar3426",
+          "authorProfile": "https://www.reddit.com/user/Ill_Sugar3426",
+          "commentId": "t1_n6sgysq",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6sgysq/",
+          "publishingDate": "2025-08-04T00:50:31+00:00",
+          "commentBody": "The Data stream Knowledge_kav_Home shows me similar records than the published articles (800) The indexs shows similar records in the first process and then the updated records Doesn't work :( There is something that I don't know. How is / where i need to configure the relationship between data library / Data Stream / Search index? Or how to check that?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_d5icz",
+      "author": "opethdamnation",
+      "authorProfile": "https://www.reddit.com/user/opethdamnation",
+      "commentId": "t1_n6slxnl",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6slxnl/",
+      "publishingDate": "2025-08-04T01:20:04+00:00",
+      "commentBody": "Can you give access to default data space to the agent? Test your library using prompt builder.  Copy the retriever id that was created and test AnswerQuestionWithKnowledge prompt Oh, I didn't do that. Where is that option? Edit: In permission set, Data Cloud Data Space Management . It's active the default Data Space and yes, the Search Index is there What happens when you test with prompt builder? Always receive this error GROUNDED: The response accurately reflects the result of the function call, which stated that no specific information about the [query] could be found in the available articles.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_1ly09fig2y",
+          "author": "Ill_Sugar3426",
+          "authorProfile": "https://www.reddit.com/user/Ill_Sugar3426",
+          "commentId": "t1_n6t7o1u",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6t7o1u/",
+          "publishingDate": "2025-08-04T03:38:17+00:00",
+          "commentBody": "Oh, I didn't do that. Where is that option? Edit: In permission set, Data Cloud Data Space Management . It's active the default Data Space and yes, the Search Index is there What happens when you test with prompt builder? Always receive this error GROUNDED: The response accurately reflects the result of the function call, which stated that no specific information about the [query] could be found in the available articles.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_d5icz",
+          "author": "opethdamnation",
+          "authorProfile": "https://www.reddit.com/user/opethdamnation",
+          "commentId": "t1_n6tfxxa",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6tfxxa/",
+          "publishingDate": "2025-08-04T04:39:23+00:00",
+          "commentBody": "What happens when you test with prompt builder? Always receive this error GROUNDED: The response accurately reflects the result of the function call, which stated that no specific information about the [query] could be found in the available articles.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1ly09fig2y",
+          "author": "Ill_Sugar3426",
+          "authorProfile": "https://www.reddit.com/user/Ill_Sugar3426",
+          "commentId": "t1_n6xvree",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6xvree/",
+          "publishingDate": "2025-08-04T21:06:39+00:00",
+          "commentBody": "Always receive this error GROUNDED: The response accurately reflects the result of the function call, which stated that no specific information about the [query] could be found in the available articles.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_wbr8c",
+      "author": "big-blue-balls",
+      "authorProfile": "https://www.reddit.com/user/big-blue-balls",
+      "commentId": "t1_n6uivyt",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6uivyt/",
+      "publishingDate": "2025-08-04T10:36:25+00:00",
+      "commentBody": "Sounds like Data Cloud isn’t enabled But I have the Data Stream and the index, so I suppose is activated? Just go into setup and check it. I’ve seen this before where everything like kit it’s on",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_1ly09fig2y",
+          "author": "Ill_Sugar3426",
+          "authorProfile": "https://www.reddit.com/user/Ill_Sugar3426",
+          "commentId": "t1_n6xvvc6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6xvvc6/",
+          "publishingDate": "2025-08-04T21:07:12+00:00",
+          "commentBody": "But I have the Data Stream and the index, so I suppose is activated? Just go into setup and check it. I’ve seen this before where everything like kit it’s on",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_wbr8c",
+          "author": "big-blue-balls",
+          "authorProfile": "https://www.reddit.com/user/big-blue-balls",
+          "commentId": "t1_n6yf302",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6yf302/",
+          "publishingDate": "2025-08-04T22:49:26+00:00",
+          "commentBody": "Just go into setup and check it. I’ve seen this before where everything like kit it’s on",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_dy5j26du",
+      "author": "Brilliant_Language52",
+      "authorProfile": "https://www.reddit.com/user/Brilliant_Language52",
+      "commentId": "t1_n6ukjpv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6ukjpv/",
+      "publishingDate": "2025-08-04T10:49:43+00:00",
+      "commentBody": "Have you updated your prompt template to call the appropriate custom retriever? But i'm using the default topic and action Got it. I misread your description How to do that?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_1ly09fig2y",
+          "author": "Ill_Sugar3426",
+          "authorProfile": "https://www.reddit.com/user/Ill_Sugar3426",
+          "commentId": "t1_n6xvz06",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6xvz06/",
+          "publishingDate": "2025-08-04T21:07:42+00:00",
+          "commentBody": "But i'm using the default topic and action Got it. I misread your description",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_dy5j26du",
+          "author": "Brilliant_Language52",
+          "authorProfile": "https://www.reddit.com/user/Brilliant_Language52",
+          "commentId": "t1_n6xxcq3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6xxcq3/",
+          "publishingDate": "2025-08-04T21:14:38+00:00",
+          "commentBody": "Got it. I misread your description",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1ly09fig2y",
+          "author": "Ill_Sugar3426",
+          "authorProfile": "https://www.reddit.com/user/Ill_Sugar3426",
+          "commentId": "t1_n6znnl5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6znnl5/",
+          "publishingDate": "2025-08-05T03:11:16+00:00",
+          "commentBody": "How to do that?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_4gtwj2it",
+      "author": "gouravrocks247",
+      "authorProfile": "https://www.reddit.com/user/gouravrocks247",
+      "commentId": "t1_n76utwg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n76utwg/",
+      "publishingDate": "2025-08-06T07:04:05+00:00",
+      "commentBody": "I have worked on similar usecase, using data cloud pdf data is not parsed currently. What we did was select the Knowledge articles in data stream and them in Search Index we selected the object and its attachments. This will make pdf documents available for chunking which can then be used in Agentforce. Let me know if this works.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_1urkh7h5tp",
+      "author": "Exit_Code_Zero",
+      "authorProfile": "https://www.reddit.com/user/Exit_Code_Zero",
+      "commentId": "t1_n8k47cw",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n8k47cw/",
+      "publishingDate": "2025-08-13T23:25:25+00:00",
+      "commentBody": "You can try using the Einstein search retriever from the prompt templates and see if that works",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_pjpt1jia3",
+      "author": "ReceptionRelative426",
+      "authorProfile": "https://www.reddit.com/user/ReceptionRelative426",
+      "commentId": "t1_n8lo028",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n8lo028/",
+      "publishingDate": "2025-08-14T05:19:29+00:00",
+      "commentBody": "Some time it is happing due to org issue.. check what is the status of knowledge or pdf you have upload in ADL",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_8fc0jmg3",
+      "author": "MacaroonPlastic1036",
+      "authorProfile": "https://www.reddit.com/user/MacaroonPlastic1036",
+      "commentId": "t1_n6wec1l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgver0/still_not_able_to_create_the_simpler_agentforce/n6wec1l/",
+      "publishingDate": "2025-08-04T16:53:30+00:00",
+      "commentBody": "You know Agentforce is just a garbage bolt on so that Salesforce can appear to stay relevant.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": 0
+    }
+  ]
+}

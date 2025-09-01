@@ -1,0 +1,96 @@
+{
+  "info": {
+    "authorId": "t2_113w7b",
+    "author": "Leonard-the-writer",
+    "authorProfile": "https://www.reddit.com/user/Leonard-the-writer",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1lpeh8b",
+    "postLabel": null,
+    "publishingDate": "2025-07-01T21:47:13+00:00",
+    "postTitle": "Salesforce Agentforce 3 does perform...",
+    "postMessage": "Agentforce 3 is really increasing human/AI collaboration, at least according to this article. Although the article is somewhat too positive, I do believe it. https://aimagazine.com/news/salesforce-agentforce-3-helps-scale-ai-agents",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1lpeh8b/salesforce_agentforce_3_does_perform/",
+    "commentCount": 6,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_lesfnndh",
+      "author": "AccountNumeroThree",
+      "authorProfile": "https://www.reddit.com/user/AccountNumeroThree",
+      "commentId": "t1_n0ut149",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lpeh8b/salesforce_agentforce_3_does_perform/n0ut149/",
+      "publishingDate": "2025-07-02T00:04:42+00:00",
+      "commentBody": "Agentforce on Salesforce support still can’t answer most of my questions. I don't know if support has ever been great, but it's gotten much worse in the last year.",
+      "upvotes": 21,
+      "dislikes": 21,
+      "downvotes": 22,
+      "replies": [
+        {
+          "authorId": "t2_fxug8pub",
+          "author": "Ok_Log2604",
+          "authorProfile": "https://www.reddit.com/user/Ok_Log2604",
+          "commentId": "t1_n0vj7l5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lpeh8b/salesforce_agentforce_3_does_perform/n0vj7l5/",
+          "publishingDate": "2025-07-02T02:39:01+00:00",
+          "commentBody": "I don't know if support has ever been great, but it's gotten much worse in the last year.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_9oj0qdf0",
+      "author": "TraditionalHousing65",
+      "authorProfile": "https://www.reddit.com/user/TraditionalHousing65",
+      "commentId": "t1_n0u6tz7",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lpeh8b/salesforce_agentforce_3_does_perform/n0u6tz7/",
+      "publishingDate": "2025-07-01T22:02:29+00:00",
+      "commentBody": "modern cooperative imagine sleep marry coherent skirt narrow connect relieved This post was mass deleted and anonymized with Redact It’s a press release masquerading as an article.",
+      "upvotes": 9,
+      "dislikes": 9,
+      "downvotes": 10,
+      "replies": [
+        {
+          "authorId": "t2_5krjc",
+          "author": "ShinShinGogetsuko",
+          "authorProfile": "https://www.reddit.com/user/ShinShinGogetsuko",
+          "commentId": "t1_n0v2cs2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lpeh8b/salesforce_agentforce_3_does_perform/n0v2cs2/",
+          "publishingDate": "2025-07-02T01:00:16+00:00",
+          "commentBody": "It’s a press release masquerading as an article.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1hz3fyn3",
+      "author": "assflange",
+      "authorProfile": "https://www.reddit.com/user/assflange",
+      "commentId": "t1_n0whmut",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lpeh8b/salesforce_agentforce_3_does_perform/n0whmut/",
+      "publishingDate": "2025-07-02T07:03:26+00:00",
+      "commentBody": "It’s not an article, it’s an industry publication puff piece. Why do you “believe” it? There is no testing or any detailed examination of the tool. e: Oh it’s probably the OP’s own slopblog.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_15pzjteiww",
+      "author": "Lead-to-Revenue",
+      "authorProfile": "https://www.reddit.com/user/Lead-to-Revenue",
+      "commentId": "t1_n0v1vu6",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lpeh8b/salesforce_agentforce_3_does_perform/n0v1vu6/",
+      "publishingDate": "2025-07-02T00:57:27+00:00",
+      "commentBody": "We will see how this plays out.  I am an ISV vendor who built a 100% native app. We structure data differently with our single data model approach and no-code.  We produce flawless data which we are trying to determine if AgentForce can spend up a normal human process of 10 mins to secs.  If proven we will release our agents for free to complement our 100% native offering.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

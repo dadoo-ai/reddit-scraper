@@ -1,0 +1,122 @@
+{
+  "info": {
+    "authorId": "t2_bk1fwnds",
+    "author": "Wonderful_Craft_2332",
+    "authorProfile": "https://www.reddit.com/user/Wonderful_Craft_2332",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1k2a7f2",
+    "postLabel": null,
+    "publishingDate": "2025-04-18T17:13:41+00:00",
+    "postTitle": "Agentforce costs",
+    "postMessage": "Good evening, I have some questions regarding the usage costs and consumption related to Agentforce. I searched the web but couldn't find anything specific and detailed, so I hope someone here can help me. I read on the Salesforce website that Agentforce costs $2 per conversation. Do these conversations refer to individual chats that are initiated at any given moment? For example, when I debug in the builder and ask something to the agent, is that considered a conversation? When using a prompt template, are the calls made to the external models provided by Salesforce charged separately, or are they included in the cost of the conversation? And if so, how can I monitor the consumption? EDIT: Another question that is unrelated to the previous one: Is it possible to display data in the chat with the agent in a customized way? Perhaps using an LWC or Aura Component that gets shown in the chat with the data passed from the agent?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1k2a7f2/agentforce_costs/",
+    "commentCount": 8,
+    "upvoteCount": 14,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_3doy5d4",
+      "author": "Reddit_Account__c",
+      "authorProfile": "https://www.reddit.com/user/Reddit_Account__c",
+      "commentId": "t1_mnv64p7",
+      "link": "https://www.reddit.com/r/salesforce/comments/1k2a7f2/agentforce_costs/mnv64p7/",
+      "publishingDate": "2025-04-19T02:28:05+00:00",
+      "commentBody": "For what it’s worth I’ve heard some of this is pricing model is changing in a short timeframe And here we go... https://www.salesforce.com/news/press-releases/2025/05/15/agentforce-flexible-pricing-news/?utm_campaign=amer_cbaw&utm_content=Salesforce_Newsroom_sprout-1747314123&utm_medium=organic_social&utm_source=linkedin",
+      "upvotes": 17,
+      "dislikes": 17,
+      "downvotes": 18,
+      "replies": [
+        {
+          "authorId": "t2_9t9razlr",
+          "author": "SirGimp9",
+          "authorProfile": "https://www.reddit.com/user/SirGimp9",
+          "commentId": "t1_msgej4c",
+          "link": "https://www.reddit.com/r/salesforce/comments/1k2a7f2/agentforce_costs/msgej4c/",
+          "publishingDate": "2025-05-15T14:34:12+00:00",
+          "commentBody": "And here we go... https://www.salesforce.com/news/press-releases/2025/05/15/agentforce-flexible-pricing-news/?utm_campaign=amer_cbaw&utm_content=Salesforce_Newsroom_sprout-1747314123&utm_medium=organic_social&utm_source=linkedin",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_d5icz",
+      "author": "opethdamnation",
+      "authorProfile": "https://www.reddit.com/user/opethdamnation",
+      "commentId": "t1_mnslkvi",
+      "link": "https://www.reddit.com/r/salesforce/comments/1k2a7f2/agentforce_costs/mnslkvi/",
+      "publishingDate": "2025-04-18T17:41:20+00:00",
+      "commentBody": "You can lookup in production by going to Consumption Cards . You'll need data cloud admin perm set. Its $2 per convo but builder doesnt count towards it. Prompt consumes Einstein requests. \nRate sheet https://www.salesforce.com/products/einstein/skus/ On top of that Agentforce also consumes Einstein Requests anytime LLM is called. Note it will also consume data service credits depending on usage. Thank you!",
+      "upvotes": 10,
+      "dislikes": 10,
+      "downvotes": 11,
+      "replies": [
+        {
+          "authorId": "t2_bk1fwnds",
+          "author": "Wonderful_Craft_2332",
+          "authorProfile": "https://www.reddit.com/user/Wonderful_Craft_2332",
+          "commentId": "t1_mnt6cf8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1k2a7f2/agentforce_costs/mnt6cf8/",
+          "publishingDate": "2025-04-18T19:27:42+00:00",
+          "commentBody": "Thank you!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_pxysmcfmz",
+      "author": "Striking_Voice_3531",
+      "authorProfile": "https://www.reddit.com/user/Striking_Voice_3531",
+      "commentId": "t1_mnxfjmw",
+      "link": "https://www.reddit.com/r/salesforce/comments/1k2a7f2/agentforce_costs/mnxfjmw/",
+      "publishingDate": "2025-04-19T14:04:55+00:00",
+      "commentBody": "I was looking at agentforce recently and also read those costs and thought for any org this could rapidly become hellishly expensive, and for even a large org with plenty of $$ to spend - unless they spent a lot of time and money training and configuring it to the point where it was really truly replacing at least 15 mins of live agents time per convo (to cover not only the conversation cost but the training cost, retraining costs, staff with agent force Ai experience, or up-skilling staff, subscriptions, licenses, etc), maybe more dep. on how often you would need to update the training - Its going to be potentially a big spend and big risk. While admittedly my experience with agentforce is limited to a few very basic trails, The one project I did did not leave me feeling particularly inspired by the product.  My test ai bot configured exactly to the trail specifications pretty much fell over within the first few questions and got into a loop where it repeated things in such a way that it was literally like one of those 80s movies where the robot gets stuck in a loop and keeps saying the same few words over and over. It also didn't appear to be able to connect the questions that I input (which were also part of the trail) with the background information that it was supposed to be able to use to give my test user the desired advice and information.  Compared to ChatGPT, I found it very clunky and significantly less intuitive. As a product in general, I actually love salesforce and the more I learn about it the more I like it. I feel like it is the first product that really has made it possible to have a true customised enterprise solution much of it without writing any 'code'.  However, my initial experience with agent force has been unfortunately, lacklustre. disclaimer: Maybe those few basic trails I did recently were not the best way to introduce me to  the capability of agentforce, and maybe it is actually better than it was in my experience.  Happy to be proven wrong on that.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_1e1a1l0v2w",
+      "author": "Initial_Guess5166",
+      "authorProfile": "https://www.reddit.com/user/Initial_Guess5166",
+      "commentId": "t1_mnxkewi",
+      "link": "https://www.reddit.com/r/salesforce/comments/1k2a7f2/agentforce_costs/mnxkewi/",
+      "publishingDate": "2025-04-19T14:32:22+00:00",
+      "commentBody": "uhhh, ask Salesforce. I did they said they would ask the technical team... needless to say, they didn't get back to me.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_bk1fwnds",
+          "author": "Wonderful_Craft_2332",
+          "authorProfile": "https://www.reddit.com/user/Wonderful_Craft_2332",
+          "commentId": "t1_mohqp1l",
+          "link": "https://www.reddit.com/r/salesforce/comments/1k2a7f2/agentforce_costs/mohqp1l/",
+          "publishingDate": "2025-04-22T20:25:02+00:00",
+          "commentBody": "I did they said they would ask the technical team... needless to say, they didn't get back to me.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_v36u6",
+      "author": "johngarvens",
+      "authorProfile": "https://www.reddit.com/user/johngarvens",
+      "commentId": "t1_mo6irlv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1k2a7f2/agentforce_costs/mo6irlv/",
+      "publishingDate": "2025-04-21T00:48:13+00:00",
+      "commentBody": "Not even Salesforce can tell you how much Agentforce will cost. They are too busy marketing and selling it to worry about a pesky detail like how much it will cost their customers to buy, implement, and use.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

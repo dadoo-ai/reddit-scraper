@@ -1,0 +1,96 @@
+{
+  "info": {
+    "authorId": "t2_a1qmqa45",
+    "author": "Ctabacco1",
+    "authorProfile": "https://www.reddit.com/user/Ctabacco1",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1k63ko7",
+    "postLabel": "career question",
+    "publishingDate": "2025-04-23T16:30:30+00:00",
+    "postTitle": "Agentforce World Tour NYC",
+    "postMessage": "Hi, I'm studying for my Admin Cert, half way thorough the Trailhead for it.  I am transitioning from a different career. Looking forward to getting in the Salesforce world. I signed up for Agentforce World Tour NYC as it is close to where I live. I would really appreciate any tips, tricks, ideas I can do to network effectively while there. Much appreciated. Thank you all!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1k63ko7/agentforce_world_tour_nyc/",
+    "commentCount": 6,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_vlxte733",
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_moodxc9",
+      "link": "https://www.reddit.com/r/salesforce/comments/1k63ko7/agentforce_world_tour_nyc/moodxc9/",
+      "publishingDate": "2025-04-23T21:05:06+00:00",
+      "commentBody": "No real tricks. You will be sold to. You will not be likely to find anyone looking for a completely junior admin there. Sorry if you did not want to hear that. You will also be able to drink a good bit of the kool-aid from Salesforce. Thanks! I appreciate it. That’s what I thought but I think I’ll go and network anyway. Can’t hurt! I treat conferences like fun vacations not like work events. Easier for me I'm my own boss.",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4,
+      "replies": [
+        {
+          "authorId": "t2_2nylv6s8",
+          "author": "ctabacco",
+          "authorProfile": "https://www.reddit.com/user/ctabacco",
+          "commentId": "t1_mov4dma",
+          "link": "https://www.reddit.com/r/salesforce/comments/1k63ko7/agentforce_world_tour_nyc/mov4dma/",
+          "publishingDate": "2025-04-24T21:45:02+00:00",
+          "commentBody": "Thanks! I appreciate it. That’s what I thought but I think I’ll go and network anyway. Can’t hurt! I treat conferences like fun vacations not like work events. Easier for me I'm my own boss.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_mov5ny7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1k63ko7/agentforce_world_tour_nyc/mov5ny7/",
+          "publishingDate": "2025-04-24T21:51:50+00:00",
+          "commentBody": "I treat conferences like fun vacations not like work events. Easier for me I'm my own boss.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_i79gch6i",
+      "author": "dogsbikesandbeers",
+      "authorProfile": "https://www.reddit.com/user/dogsbikesandbeers",
+      "commentId": "t1_morygu6",
+      "link": "https://www.reddit.com/r/salesforce/comments/1k63ko7/agentforce_world_tour_nyc/morygu6/",
+      "publishingDate": "2025-04-24T12:17:47+00:00",
+      "commentBody": "It's amazing. Everything is amazing. Great. Fantastic. And dare I say it; tremendous! Until you actually have to use it. Then it's rather lacking. UX? No. Just no. The world tour is just a sales event for a semi finished, over priced, product. \nEspecially the agents. Useless in the real world. At least for now. Too pricey for the few tasks they can actually handle. I'm yet to see a real world use for them. I do not care about the beautifully crafted films from partners. Show me a mid sized business utilizing them. And what the price for that implementation was. Dollars and developer time. 😂😂😂",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4,
+      "replies": [
+        {
+          "authorId": "t2_2nylv6s8",
+          "author": "ctabacco",
+          "authorProfile": "https://www.reddit.com/user/ctabacco",
+          "commentId": "t1_mov4eyn",
+          "link": "https://www.reddit.com/r/salesforce/comments/1k63ko7/agentforce_world_tour_nyc/mov4eyn/",
+          "publishingDate": "2025-04-24T21:45:13+00:00",
+          "commentBody": "😂😂😂",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_9fwujzb9",
+      "author": "_ImACat",
+      "authorProfile": "https://www.reddit.com/user/_ImACat",
+      "commentId": "t1_mp2vk23",
+      "link": "https://www.reddit.com/r/salesforce/comments/1k63ko7/agentforce_world_tour_nyc/mp2vk23/",
+      "publishingDate": "2025-04-26T02:13:46+00:00",
+      "commentBody": "World tour is effectively a trade show. A lot of Salesforce partners will be there so I guess try and chat them up? But it’s largely for sales. I go to try and get as much free swag as possible.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "info": {
+    "authorId": "t2_9t06f",
+    "author": "timidtom",
+    "authorProfile": "https://www.reddit.com/user/timidtom",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1l9w37h",
+    "postLabel": "apps/products",
+    "publishingDate": "2025-06-12T19:51:41+00:00",
+    "postTitle": "What’s the consensus on using third-party AI agent tools like n8n instead of Agentforce?",
+    "postMessage": "Agentforce and n8n are both essentially automated workflow tools with the ability to leverage LLMs. What do people think about using a third-party tool that has much broader applications vs. something native in Salesforce? I've only used each tool in limited capacity to get a sense for it, so wondering if anyone here has more experience that can speak to the pros/cons of both?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/",
+    "commentCount": 34,
+    "upvoteCount": 16,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_ugah97q",
+      "author": "jpklwr",
+      "authorProfile": "https://www.reddit.com/user/jpklwr",
+      "commentId": "t1_mxfw5lc",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxfw5lc/",
+      "publishingDate": "2025-06-12T20:02:58+00:00",
+      "commentBody": "I love n8n - it’s like flows but better.\nWe’re a HIPAA org tho so we only get to use it for non-PHI use cases… Yeah it does seem like Salesforce no longer has an edge with flow. So many no-code apps out there now that are going to have a much easier time implementing AI features since they’re not an old/bloated CRM. [removed] Sorry, to combat scammers using throwaways to bolster their image, we require accounts exist for at least 7 days before posting.  Your message was hidden from the forum  but you can come back and post once your account is 7 days old I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+      "upvotes": 8,
+      "dislikes": 8,
+      "downvotes": 9,
+      "replies": [
+        {
+          "authorId": "t2_9t06f",
+          "author": "timidtom",
+          "authorProfile": "https://www.reddit.com/user/timidtom",
+          "commentId": "t1_mxg0tzm",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxg0tzm/",
+          "publishingDate": "2025-06-12T20:25:54+00:00",
+          "commentBody": "Yeah it does seem like Salesforce no longer has an edge with flow. So many no-code apps out there now that are going to have a much easier time implementing AI features since they’re not an old/bloated CRM.",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        },
+        {
+          "authorId": "t2_6l4z3",
+          "author": "AutoModerator",
+          "authorProfile": "https://www.reddit.com/user/AutoModerator",
+          "commentId": "t1_mxio1hx",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxio1hx/",
+          "publishingDate": "2025-06-13T06:07:30+00:00",
+          "commentBody": "Sorry, to combat scammers using throwaways to bolster their image, we require accounts exist for at least 7 days before posting.  Your message was hidden from the forum  but you can come back and post once your account is 7 days old I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_phrqk7by8",
+      "author": "4ArgumentsSake",
+      "authorProfile": "https://www.reddit.com/user/4ArgumentsSake",
+      "commentId": "t1_mxgih6u",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxgih6u/",
+      "publishingDate": "2025-06-12T21:56:33+00:00",
+      "commentBody": "n8n is a decent workflow tool for batch processes. I find it helpful for prototyping, but I would use it to solve different problems than agentforce. Like you wouldn’t be able to use it for customer support on your website, you’d hit the concurrent execution limit pretty fast. Are you referring to n8n's  execution limits making it impractical for real-time customer support at scale? I'm curious about your experience - at what point do you typically see those limits become a bottleneck? So far I’ve only used it for scheduled batch processing. But looking at their pricing page they have two versions which have 5 and 20 concurrent executions each. Above that you have to contact them for pricing. So to me, that doesn’t align with typical Agentforce setup where you’re deploying it to the public or to hundreds of users to chat with. But it has been good for things like a scheduled job to summarize a bunch of records or to populate a field. https://n8n.io/pricing/",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5,
+      "replies": [
+        {
+          "authorId": "t2_iqznz",
+          "author": "parachutes1987",
+          "authorProfile": "https://www.reddit.com/user/parachutes1987",
+          "commentId": "t1_mxnij1q",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxnij1q/",
+          "publishingDate": "2025-06-13T23:30:55+00:00",
+          "commentBody": "Are you referring to n8n's  execution limits making it impractical for real-time customer support at scale? I'm curious about your experience - at what point do you typically see those limits become a bottleneck? So far I’ve only used it for scheduled batch processing. But looking at their pricing page they have two versions which have 5 and 20 concurrent executions each. Above that you have to contact them for pricing. So to me, that doesn’t align with typical Agentforce setup where you’re deploying it to the public or to hundreds of users to chat with. But it has been good for things like a scheduled job to summarize a bunch of records or to populate a field. https://n8n.io/pricing/",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_phrqk7by8",
+          "author": "4ArgumentsSake",
+          "authorProfile": "https://www.reddit.com/user/4ArgumentsSake",
+          "commentId": "t1_mxnjnsp",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxnjnsp/",
+          "publishingDate": "2025-06-13T23:37:29+00:00",
+          "commentBody": "So far I’ve only used it for scheduled batch processing. But looking at their pricing page they have two versions which have 5 and 20 concurrent executions each. Above that you have to contact them for pricing. So to me, that doesn’t align with typical Agentforce setup where you’re deploying it to the public or to hundreds of users to chat with. But it has been good for things like a scheduled job to summarize a bunch of records or to populate a field. https://n8n.io/pricing/",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_vlxte733",
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_mxfuzn1",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxfuzn1/",
+      "publishingDate": "2025-06-12T19:57:20+00:00",
+      "commentBody": "We're building with n8n over Agentforce because Agentforce doesn't have any legs to stand on from customization and flexibility and cost perspective. For background processes. doing RAG with N8N to the level you can with Agentforce would require a TON of work Can you elaborate? To be clear I'm discussing automation that does not require company data sets. The solutions we have put in with zapier and n8n AI would have taken months and much more investment with Agentforce. With n8n they are live. Could you share a bit more about why RAG implementation is considered more complex in n8n? I recently attended a session where Salesforce shared some research on RAG for Agentforce. While I generally prefer n8n for its flexibility, I’m curious whether Agentforce’s tight integration with Data Cloud gives it a real edge for RAG workflows — maybe in ways I haven’t fully grasped yet. I don’t have experience doing it with n8n but from I understand you need to use several different tools for vector store, embedding model, then also setting up the logic. You have to manually build the workflows for chunking, embedding, storing, and retrieving. With Data cloud this all tightly integrated and for out of the box use cases like FAQ/Knowledge agent set up automatically for you. Very cool. I’ve been leaning more toward n8n the more I learn about it. Would be nice to not be subject to whatever insane cost increases Salesforce pushes in the future Yeah, well our dev just developed an awesome Debarment review process using n8n that should be going live soon! I can send you some screenshots if you want! Did you evaluate n8n against other tools like Zapier, Make, Relay etc why did you go with n8n We are a Zapier partner so we use it as well. Make no. I doubt they will increase prices since customers are unanimously telling them it’s too expensive Lol what? Dawg you don't know corporations if this is genuinely a belief you hold deeply. No but their pricing is so out of whack with alternatives, they will have to. For agentic use cases we aren’t captive audience so there are options.",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6,
+      "replies": [
+        {
+          "authorId": "t2_6fyzh",
+          "author": "QuitClearly",
+          "authorProfile": "https://www.reddit.com/user/QuitClearly",
+          "commentId": "t1_mxhcszi",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxhcszi/",
+          "publishingDate": "2025-06-13T00:46:35+00:00",
+          "commentBody": "doing RAG with N8N to the level you can with Agentforce would require a TON of work Can you elaborate? To be clear I'm discussing automation that does not require company data sets. The solutions we have put in with zapier and n8n AI would have taken months and much more investment with Agentforce. With n8n they are live. Could you share a bit more about why RAG implementation is considered more complex in n8n? I recently attended a session where Salesforce shared some research on RAG for Agentforce. While I generally prefer n8n for its flexibility, I’m curious whether Agentforce’s tight integration with Data Cloud gives it a real edge for RAG workflows — maybe in ways I haven’t fully grasped yet. I don’t have experience doing it with n8n but from I understand you need to use several different tools for vector store, embedding model, then also setting up the logic. You have to manually build the workflows for chunking, embedding, storing, and retrieving. With Data cloud this all tightly integrated and for out of the box use cases like FAQ/Knowledge agent set up automatically for you.",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        },
+        {
+          "authorId": "t2_9t06f",
+          "author": "timidtom",
+          "authorProfile": "https://www.reddit.com/user/timidtom",
+          "commentId": "t1_mxhwh7k",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxhwh7k/",
+          "publishingDate": "2025-06-13T02:42:00+00:00",
+          "commentBody": "Can you elaborate?",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_mxiq5yb",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxiq5yb/",
+          "publishingDate": "2025-06-13T06:26:55+00:00",
+          "commentBody": "To be clear I'm discussing automation that does not require company data sets. The solutions we have put in with zapier and n8n AI would have taken months and much more investment with Agentforce. With n8n they are live.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_iqznz",
+          "author": "parachutes1987",
+          "authorProfile": "https://www.reddit.com/user/parachutes1987",
+          "commentId": "t1_mxnjeir",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxnjeir/",
+          "publishingDate": "2025-06-13T23:36:00+00:00",
+          "commentBody": "Could you share a bit more about why RAG implementation is considered more complex in n8n? I recently attended a session where Salesforce shared some research on RAG for Agentforce. While I generally prefer n8n for its flexibility, I’m curious whether Agentforce’s tight integration with Data Cloud gives it a real edge for RAG workflows — maybe in ways I haven’t fully grasped yet. I don’t have experience doing it with n8n but from I understand you need to use several different tools for vector store, embedding model, then also setting up the logic. You have to manually build the workflows for chunking, embedding, storing, and retrieving. With Data cloud this all tightly integrated and for out of the box use cases like FAQ/Knowledge agent set up automatically for you.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_6fyzh",
+          "author": "QuitClearly",
+          "authorProfile": "https://www.reddit.com/user/QuitClearly",
+          "commentId": "t1_mxr0s12",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxr0s12/",
+          "publishingDate": "2025-06-14T14:59:28+00:00",
+          "commentBody": "I don’t have experience doing it with n8n but from I understand you need to use several different tools for vector store, embedding model, then also setting up the logic. You have to manually build the workflows for chunking, embedding, storing, and retrieving. With Data cloud this all tightly integrated and for out of the box use cases like FAQ/Knowledge agent set up automatically for you.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_9t06f",
+          "author": "timidtom",
+          "authorProfile": "https://www.reddit.com/user/timidtom",
+          "commentId": "t1_mxfzrwz",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxfzrwz/",
+          "publishingDate": "2025-06-12T20:20:40+00:00",
+          "commentBody": "Very cool. I’ve been leaning more toward n8n the more I learn about it. Would be nice to not be subject to whatever insane cost increases Salesforce pushes in the future Yeah, well our dev just developed an awesome Debarment review process using n8n that should be going live soon! I can send you some screenshots if you want! Did you evaluate n8n against other tools like Zapier, Make, Relay etc why did you go with n8n We are a Zapier partner so we use it as well. Make no. I doubt they will increase prices since customers are unanimously telling them it’s too expensive Lol what? Dawg you don't know corporations if this is genuinely a belief you hold deeply. No but their pricing is so out of whack with alternatives, they will have to. For agentic use cases we aren’t captive audience so there are options.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_mxg65d5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxg65d5/",
+          "publishingDate": "2025-06-12T20:52:33+00:00",
+          "commentBody": "Yeah, well our dev just developed an awesome Debarment review process using n8n that should be going live soon! I can send you some screenshots if you want! Did you evaluate n8n against other tools like Zapier, Make, Relay etc why did you go with n8n We are a Zapier partner so we use it as well. Make no.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_2ebd3wq6",
+          "author": "DevilsAdvotwat",
+          "authorProfile": "https://www.reddit.com/user/DevilsAdvotwat",
+          "commentId": "t1_mxjtnik",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxjtnik/",
+          "publishingDate": "2025-06-13T12:15:20+00:00",
+          "commentBody": "Did you evaluate n8n against other tools like Zapier, Make, Relay etc why did you go with n8n We are a Zapier partner so we use it as well. Make no.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_mxjzejj",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxjzejj/",
+          "publishingDate": "2025-06-13T12:51:11+00:00",
+          "commentBody": "We are a Zapier partner so we use it as well. Make no.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_1hz3fyn3",
+          "author": "assflange",
+          "authorProfile": "https://www.reddit.com/user/assflange",
+          "commentId": "t1_mxiu8mi",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxiu8mi/",
+          "publishingDate": "2025-06-13T07:04:58+00:00",
+          "commentBody": "I doubt they will increase prices since customers are unanimously telling them it’s too expensive Lol what? Dawg you don't know corporations if this is genuinely a belief you hold deeply. No but their pricing is so out of whack with alternatives, they will have to. For agentic use cases we aren’t captive audience so there are options.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_mxjac3d",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxjac3d/",
+          "publishingDate": "2025-06-13T09:45:31+00:00",
+          "commentBody": "Lol what? Dawg you don't know corporations if this is genuinely a belief you hold deeply. No but their pricing is so out of whack with alternatives, they will have to. For agentic use cases we aren’t captive audience so there are options.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1hz3fyn3",
+          "author": "assflange",
+          "authorProfile": "https://www.reddit.com/user/assflange",
+          "commentId": "t1_mxjcab5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxjcab5/",
+          "publishingDate": "2025-06-13T10:03:40+00:00",
+          "commentBody": "No but their pricing is so out of whack with alternatives, they will have to. For agentic use cases we aren’t captive audience so there are options.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_a5ppscaq",
+      "author": "Jwzbb",
+      "authorProfile": "https://www.reddit.com/user/Jwzbb",
+      "commentId": "t1_mxfulba",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxfulba/",
+      "publishingDate": "2025-06-12T19:55:25+00:00",
+      "commentBody": "I don’t see anything wrong with it. When I was working on a hackathon thingy I switched to using the OpenAI api’s quite fast instead of prompt builder.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_kamag",
+      "author": "krimpenrik",
+      "authorProfile": "https://www.reddit.com/user/krimpenrik",
+      "commentId": "t1_mxir26l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxir26l/",
+      "publishingDate": "2025-06-13T06:35:15+00:00",
+      "commentBody": "N8N is currently leading the \"agent builder\" scene with opensource, lost cost tool to utilize APIs and agents ergonomically. We as a consultancy are working with n8n for some of our internal processes, and with agentforce for our customers. I was at a Mulesoft event yesterday and saw some things I liked there, mulesoft now has MCP client and Server in bèta like N8N In the end N8N can't be directly compared with \"agentforce\" and the whole CRM around it. N8N doesn't even have an UI side to it (except simpel forms). N8N can better be compared with Mulesoft, and then N8N would be the better tool to use a lot of times, but when looking at enterprises Mule is better positioned I think. Also think the Salesforce N8N connector can be a lot better :) can't find the time to build a better one, did build one before for nodered.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_h6qgocb9",
+      "author": "OkKnowledge2064",
+      "authorProfile": "https://www.reddit.com/user/OkKnowledge2064",
+      "commentId": "t1_mxfuuz8",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxfuuz8/",
+      "publishingDate": "2025-06-12T19:56:43+00:00",
+      "commentBody": "Is it allowed to use other llms with salesforce outside of agentforce? Yes, it allows Bring Your Own LLM: https://developer.salesforce.com/docs/einstein/genai/guide/supported-models.html Thats still using agent force isnt it? I mean using a custom llm integration without any agentforce. Thats essentially what you proposed isnt it Oh I misunderstood. Yes you can use n8n with Salesforce via API. Same as using tools like Zapier.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_9t06f",
+          "author": "timidtom",
+          "authorProfile": "https://www.reddit.com/user/timidtom",
+          "commentId": "t1_mxfzbff",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxfzbff/",
+          "publishingDate": "2025-06-12T20:18:25+00:00",
+          "commentBody": "Yes, it allows Bring Your Own LLM: https://developer.salesforce.com/docs/einstein/genai/guide/supported-models.html Thats still using agent force isnt it? I mean using a custom llm integration without any agentforce. Thats essentially what you proposed isnt it Oh I misunderstood. Yes you can use n8n with Salesforce via API. Same as using tools like Zapier.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_h6qgocb9",
+          "author": "OkKnowledge2064",
+          "authorProfile": "https://www.reddit.com/user/OkKnowledge2064",
+          "commentId": "t1_mxg09vo",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxg09vo/",
+          "publishingDate": "2025-06-12T20:23:09+00:00",
+          "commentBody": "Thats still using agent force isnt it? I mean using a custom llm integration without any agentforce. Thats essentially what you proposed isnt it Oh I misunderstood. Yes you can use n8n with Salesforce via API. Same as using tools like Zapier.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_9t06f",
+          "author": "timidtom",
+          "authorProfile": "https://www.reddit.com/user/timidtom",
+          "commentId": "t1_mxg13j5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxg13j5/",
+          "publishingDate": "2025-06-12T20:27:12+00:00",
+          "commentBody": "Oh I misunderstood. Yes you can use n8n with Salesforce via API. Same as using tools like Zapier.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_18t6mcsvv0",
+      "author": "LessRabbit9072",
+      "authorProfile": "https://www.reddit.com/user/LessRabbit9072",
+      "commentId": "t1_mxg6n0s",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxg6n0s/",
+      "publishingDate": "2025-06-12T20:55:05+00:00",
+      "commentBody": "Agentforce is half as good and 10x as expensive as other llms. You'd be crazy to do an implementation without getting beaucoup bucks in incentives or a security use case that using external llms would put you in jail. What do you mean? Agentforce isn’t an llm Which is just a further indictment of it. You expect me to pay 2 bucks per conversation and pay for an llm on top of it?",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": 0,
+      "replies": [
+        {
+          "authorId": "t2_6fyzh",
+          "author": "QuitClearly",
+          "authorProfile": "https://www.reddit.com/user/QuitClearly",
+          "commentId": "t1_mxhci8r",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxhci8r/",
+          "publishingDate": "2025-06-13T00:44:53+00:00",
+          "commentBody": "What do you mean? Agentforce isn’t an llm Which is just a further indictment of it. You expect me to pay 2 bucks per conversation and pay for an llm on top of it?",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        },
+        {
+          "authorId": "t2_18t6mcsvv0",
+          "author": "LessRabbit9072",
+          "authorProfile": "https://www.reddit.com/user/LessRabbit9072",
+          "commentId": "t1_mxjkahu",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxjkahu/",
+          "publishingDate": "2025-06-13T11:10:03+00:00",
+          "commentBody": "Which is just a further indictment of it. You expect me to pay 2 bucks per conversation and pay for an llm on top of it?",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": "t2_su7yhgsb1",
+      "author": "anotherleftistbot",
+      "authorProfile": "https://www.reddit.com/user/anotherleftistbot",
+      "commentId": "t1_mxh97no",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxh97no/",
+      "publishingDate": "2025-06-13T00:25:40+00:00",
+      "commentBody": "N8N is real, agentforce is not.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": 0
+    },
+    {
+      "authorId": "t2_6fyzh",
+      "author": "QuitClearly",
+      "authorProfile": "https://www.reddit.com/user/QuitClearly",
+      "commentId": "t1_mxhd0is",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxhd0is/",
+      "publishingDate": "2025-06-13T00:47:48+00:00",
+      "commentBody": "A good third party Agentforce tool I want to check out is GPTfy",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": 0
+    },
+    {
+      "authorId": "t2_wcd03m4",
+      "author": "delcious_biscuit",
+      "authorProfile": "https://www.reddit.com/user/delcious_biscuit",
+      "commentId": "t1_mxi1j61",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9w37h/whats_the_consensus_on_using_thirdparty_ai_agent/mxi1j61/",
+      "publishingDate": "2025-06-13T03:14:03+00:00",
+      "commentBody": "We are weighing up the same options",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": 0
+    }
+  ]
+}

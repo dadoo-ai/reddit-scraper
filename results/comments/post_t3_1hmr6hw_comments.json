@@ -1,0 +1,208 @@
+{
+  "info": {
+    "authorId": "t2_7f23k6zu",
+    "author": "Brilliant_Pickle9683",
+    "authorProfile": "https://www.reddit.com/user/Brilliant_Pickle9683",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1hmr6hw",
+    "postLabel": null,
+    "publishingDate": "2024-12-26T15:56:23+00:00",
+    "postTitle": "Why Agentforce(service agent) is bad with handling files??",
+    "postMessage": "So we want to build is use case where user will upload a file and agent has to extract text and create a new record in specified object??\nBut Agentforce is pretty bad with files,i even tried writing an apex action where it takes the file send it to third party OCR ,but agent can't even pass that??\nIs there any solution for this??\nOne more way I thought is creating a lwc for file upload and extracting text then Directly sending data with instructions to copilot,but can we achieve that??\nPlease can anyone help??!!.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/",
+    "commentCount": 17,
+    "upvoteCount": 15,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_wbr8c",
+      "author": "big-blue-balls",
+      "authorProfile": "https://www.reddit.com/user/big-blue-balls",
+      "commentId": "t1_m3wbxhh",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/m3wbxhh/",
+      "publishingDate": "2024-12-26T17:03:57+00:00",
+      "commentBody": "OCR is returning the text in its plain format, but you still have to interpret what’s in the text. You should use Data Cloud RAG to process the files and include semantic search. This is the way. I may or may not build Agents everyday to show customers. Data cloud rag combined with Atlas is what provides the capabilities and wow factor. Agentforce is just the UI providing the conversational experience at that point. Do you have any guidebooks or resources on how you do it?",
+      "upvotes": 12,
+      "dislikes": 12,
+      "downvotes": 13,
+      "replies": [
+        {
+          "authorId": "t2_3c7bpecv",
+          "author": "HobokenThrowaway11",
+          "authorProfile": "https://www.reddit.com/user/HobokenThrowaway11",
+          "commentId": "t1_m3xu5th",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/m3xu5th/",
+          "publishingDate": "2024-12-26T22:05:46+00:00",
+          "commentBody": "This is the way. I may or may not build Agents everyday to show customers. Data cloud rag combined with Atlas is what provides the capabilities and wow factor. Agentforce is just the UI providing the conversational experience at that point. Do you have any guidebooks or resources on how you do it?",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_14hq3e2mh7",
+          "author": "MaintenanceStatus329",
+          "authorProfile": "https://www.reddit.com/user/MaintenanceStatus329",
+          "commentId": "t1_mntf0m3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/mntf0m3/",
+          "publishingDate": "2025-04-18T20:13:51+00:00",
+          "commentBody": "Do you have any guidebooks or resources on how you do it?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_6fyzh",
+      "author": "QuitClearly",
+      "authorProfile": "https://www.reddit.com/user/QuitClearly",
+      "commentId": "t1_m3wtq51",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/m3wtq51/",
+      "publishingDate": "2024-12-26T18:42:48+00:00",
+      "commentBody": "Could you reformat in JSON somehow? Yeah probably,what after that??",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_7f23k6zu",
+          "author": "Brilliant_Pickle9683",
+          "authorProfile": "https://www.reddit.com/user/Brilliant_Pickle9683",
+          "commentId": "t1_m3wv7kb",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/m3wv7kb/",
+          "publishingDate": "2024-12-26T18:50:44+00:00",
+          "commentBody": "Yeah probably,what after that??",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": "t2_17d4qme0jl",
+      "author": "Exotic-Sale-3003",
+      "authorProfile": "https://www.reddit.com/user/Exotic-Sale-3003",
+      "commentId": "t1_m3weegl",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/m3weegl/",
+      "publishingDate": "2024-12-26T17:17:57+00:00",
+      "commentBody": "If you’re sending data to co-pilot, why not just use the OpenAI API instead of fucking with AgentForce. I’d say the same, and the requestor's answer usually is a “Trust Layer”. Unless the requestor is also a Salesforce AE, doubt. The value of the “trust layer” provided by SF is minimal. I have an org agreement with OpenAI.  I don’t need middle ware to manage data masking. Can you share more about this agreement, please?\nWe built an assistant with OpenAI, but customers prefer Agentforce for the same functionality due to security concerns. I don't think Trust Layer actually works, but that's beside the point. You should be aware of the Models API though, it's basically a Salesforce-Native API to OpenAI (and other models), that goes through the Trust Layer (according to Salesforce). Link to docs: https://developer.salesforce.com/docs/einstein/genai/guide/models-api.html No, I want create a new record based on the same data, so copilot becomes obvious choice.",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7,
+      "replies": [
+        {
+          "authorId": "t2_1f61e7n1hm",
+          "author": "Ask_Me_CRE",
+          "authorProfile": "https://www.reddit.com/user/Ask_Me_CRE",
+          "commentId": "t1_m3y5dig",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/m3y5dig/",
+          "publishingDate": "2024-12-26T23:13:01+00:00",
+          "commentBody": "I’d say the same, and the requestor's answer usually is a “Trust Layer”. Unless the requestor is also a Salesforce AE, doubt. The value of the “trust layer” provided by SF is minimal. I have an org agreement with OpenAI.  I don’t need middle ware to manage data masking. Can you share more about this agreement, please?\nWe built an assistant with OpenAI, but customers prefer Agentforce for the same functionality due to security concerns. I don't think Trust Layer actually works, but that's beside the point. You should be aware of the Models API though, it's basically a Salesforce-Native API to OpenAI (and other models), that goes through the Trust Layer (according to Salesforce). Link to docs: https://developer.salesforce.com/docs/einstein/genai/guide/models-api.html",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        },
+        {
+          "authorId": "t2_17d4qme0jl",
+          "author": "Exotic-Sale-3003",
+          "authorProfile": "https://www.reddit.com/user/Exotic-Sale-3003",
+          "commentId": "t1_m41q27h",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/m41q27h/",
+          "publishingDate": "2024-12-27T16:00:03+00:00",
+          "commentBody": "Unless the requestor is also a Salesforce AE, doubt. The value of the “trust layer” provided by SF is minimal. I have an org agreement with OpenAI.  I don’t need middle ware to manage data masking. Can you share more about this agreement, please?\nWe built an assistant with OpenAI, but customers prefer Agentforce for the same functionality due to security concerns.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1f61e7n1hm",
+          "author": "Ask_Me_CRE",
+          "authorProfile": "https://www.reddit.com/user/Ask_Me_CRE",
+          "commentId": "t1_m42kzav",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/m42kzav/",
+          "publishingDate": "2024-12-27T18:45:01+00:00",
+          "commentBody": "Can you share more about this agreement, please?\nWe built an assistant with OpenAI, but customers prefer Agentforce for the same functionality due to security concerns.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_4y3r4al2",
+          "author": "wifestalksthisuser",
+          "authorProfile": "https://www.reddit.com/user/wifestalksthisuser",
+          "commentId": "t1_m3ypn4o",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/m3ypn4o/",
+          "publishingDate": "2024-12-27T01:18:38+00:00",
+          "commentBody": "I don't think Trust Layer actually works, but that's beside the point. You should be aware of the Models API though, it's basically a Salesforce-Native API to OpenAI (and other models), that goes through the Trust Layer (according to Salesforce). Link to docs: https://developer.salesforce.com/docs/einstein/genai/guide/models-api.html",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_7f23k6zu",
+          "author": "Brilliant_Pickle9683",
+          "authorProfile": "https://www.reddit.com/user/Brilliant_Pickle9683",
+          "commentId": "t1_m3zn9iw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/m3zn9iw/",
+          "publishingDate": "2024-12-27T05:07:06+00:00",
+          "commentBody": "No, I want create a new record based on the same data, so copilot becomes obvious choice.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_be595",
+      "author": "MatchaGaucho",
+      "authorProfile": "https://www.reddit.com/user/MatchaGaucho",
+      "commentId": "t1_m3wkoe4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/m3wkoe4/",
+      "publishingDate": "2024-12-26T17:53:01+00:00",
+      "commentBody": "Post OCR there should be a large text or markdown string available. Run a GPT prompt that extracts the information, then update a record in flow (also available in this AppExchange solution ).",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": null,
+      "author": null,
+      "authorProfile": null,
+      "commentId": "t1_m3x6hrw",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/m3x6hrw/",
+      "publishingDate": "2024-12-26T19:52:42+00:00",
+      "commentBody": "Agentforce is so so so mid got a feeling this whole obsession at SF will fail miserably",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": 0
+    },
+    {
+      "authorId": "t2_11utiscbbf",
+      "author": "AptEdge",
+      "authorProfile": "https://www.reddit.com/user/AptEdge",
+      "commentId": "t1_m3wgc3o",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/m3wgc3o/",
+      "publishingDate": "2024-12-26T17:28:48+00:00",
+      "commentBody": "I'd recommend against sending to OpenAI API unless it's enterprise ready and fully integrated into your data ingestion, RAG, and semantic processes-  the likelihood of false positives is higher if it's just an added API. You may want to look at more advanced AI tools that are point solution specific-  and have case attachments as a unique feature that are included in the architecture of the AI> ok maybe tell me what to use so as not to go down the wrong path. PDF files need to be processed. Is it possible to deploy some local AI, for example, on AWS for more security? So the application is for internal use, the data should not go online.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_xv0ymlir1",
+          "author": "LifeLychee7281",
+          "authorProfile": "https://www.reddit.com/user/LifeLychee7281",
+          "commentId": "t1_msl5dx3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hmr6hw/why_agentforceservice_agent_is_bad_with_handling/msl5dx3/",
+          "publishingDate": "2025-05-16T07:16:43+00:00",
+          "commentBody": "ok maybe tell me what to use so as not to go down the wrong path. PDF files need to be processed. Is it possible to deploy some local AI, for example, on AWS for more security? So the application is for internal use, the data should not go online.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    }
+  ]
+}

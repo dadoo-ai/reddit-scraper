@@ -1,0 +1,332 @@
+{
+  "info": {
+    "authorId": "t2_rhn4t",
+    "author": "Dbur11",
+    "authorProfile": "https://www.reddit.com/user/Dbur11",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1h13ant",
+    "postLabel": "apps/products",
+    "publishingDate": "2024-11-27T12:36:31+00:00",
+    "postTitle": "Has anyone successfully provisioned a partner developer org for agentforce yet?",
+    "postMessage": "Got Agentforce provisioned in an SDO and PDE org, updates below. I've been trying for the last three weeks to get the required SKUs provisioned to a PDE so my consulting firm can build a proof of concept for agentforce demo's with no success. I'm getting put into a loop with partner support where they say they've provisioned the agentforce SKUs, but when I go to activate \"Einstein Setup\" from the setup UI, I'm not finding it, then I tell partner support and they route me to a new ticket because \"that person only handles provisioning SKUs, not troubleshooting\". I've been requesting the 4 SKUs outlined in the SFBen article with no luck from support. One support agent gave me documentation that instructed me to deploy the features and settings via CLI? Has anyone tried this successfully? Has anyone had success getting their hands on the functionality in their own dev org? I feel like Salesforce is still changing the SKUs required to actually get agentforce up and running... Any help is appreciated, for the record I'm not sold on agentforce being the next best thing, just trying to do my due diligence as a small consulting partner. SFBen article for reference: https://www.salesforceben.com/salesforce-agentforce-is-generally-available-heres-how-to-get-started-today/ Update: these tickets were all with partner support not traditional SF support, edited original post. Update 2: Successfully provisioned agentforce to an SDO and PDE! The SDO works well with demo'ing the Copilot type agent with a Salesforce sample data set. Of course, you aren't supposed to customize things in an SDO. You provision your own SDO from Partner Learning Camp portal. I also successfully got agentforce provisioned to a PDE after several attempts with partner support tickets. It seems the first 3 or 4 support agents simply proivisioned the wrong SKUs or didn't provision anything at all. For folks trying to get this provisioned to a PDE org today, I found this updated instruction, pasted below, from one of the agentforce quip documents that hopefully helps you get this up and running in your PDE faster then I could! Pasted instructions from Salesforce quip document: \"Agentforce in Partner Developer, Partner Enterprise, and Trial Source Orgs: A case submission is required for enabling Agentforce in the above org types created from Environment Hub. Log a case ( https://help.salesforce.com/s/case-selection ) with the following instructions: Fill Out Subject and Description Subject: Partner Programs & Benefits Description: Enable Einstein for Platform in ISV Orgs (Please wait up to 30 seconds for Product & Topic pick list to populate) Select 'Partner Programs & Benefits - Demo & Partner Business Orgs' from pick list. If 'Partner Programs & Benefits - Demo & Partner Business Orgs' does not appear, select 'Pick a different product & topic' Add Org ID Body of the Case: Select instance type: Production (even if not requesting for a Production org, this will help it route to the correct team) Select Severity (1-4 levels) Collaborators: Include additional contacts (email) that should be notified of the specific request (internal and/or external) Select ‘Create Case’\" Biggest takeaways for me: in both the SDO and PDE, you are gifted a pre-programmed copilot agent that you can add additional topics (and associated actions) to for very quick demo and PoC work inside of Salesforce. I ONLY have access to create Service Agent types, I'm not sure if there are additional permissions or SKUs needed to access the other types (Sales coach, SDR, etc.) or if those just aren't GA yet. I am also struggling to get access to the field generation or record summary prompts, i.e dropping a Record Summary component on a record page and giving users access to use the summarize details prompt. Again, not sure if this is a permissions or SKUs or GA issue yet. I'm happy to answer any questions I can, and very open to advice from others who may have had success with agent types other then copilot and service, and the field generation and record summary features. Special thanks to u/paulkissick , u/Stunning-Gazelle-738 , u/geo304 , u/OneCatch , and others for their helpful comments!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/",
+    "commentCount": 25,
+    "upvoteCount": 17,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_512ap6rj",
+      "author": "paulkissick",
+      "authorProfile": "https://www.reddit.com/user/paulkissick",
+      "commentId": "t1_lz8fs1t",
+      "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8fs1t/",
+      "publishingDate": "2024-11-27T12:45:05+00:00",
+      "commentBody": "If you want an org with everything already provisioned, try a Simple Demo Org from the Partner Learning Camp, accessible from the partner portal. Echoing this comment. I got our SDO extended for a year. Everything is in there but you do have to enable, permissions, etc. I didn’t think PDO’s could get Agentforce yet but that may have changed. The Agentforce collab channel in the partner community is your best place for answers. Also to see Data Cloud setup you have to assign Data Cloud Admin PS to your user. Thanks, ideally I can do the entire setup from scratch to truly know the level of effort needed and I'd have a longer expiration period than a PDO. Are you able to completely customize the setup in a PDO? From what I recall, the features are available but not enabled by default, so you have to go through the setup anyway. And you can log a support case to extend the trial to any date. That's helpful, thank you. Are PDO's provisioned with sample data already? as someone who works for salesforce provisioning this - yall need to learn how to utilize partner community and read and comprehend what it says. Literally your question is in partner community… Kinda wild sometimes people ask questions on Reddit and wait for a response when a lot of the questions copy/pasted into google or other resources yield the answer immediately",
+      "upvotes": 12,
+      "dislikes": 12,
+      "downvotes": 13,
+      "replies": [
+        {
+          "authorId": "t2_246mw8c3",
+          "author": "wandering_wondering1",
+          "authorProfile": "https://www.reddit.com/user/wandering_wondering1",
+          "commentId": "t1_lza5glq",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lza5glq/",
+          "publishingDate": "2024-11-27T18:32:40+00:00",
+          "commentBody": "Echoing this comment. I got our SDO extended for a year. Everything is in there but you do have to enable, permissions, etc. I didn’t think PDO’s could get Agentforce yet but that may have changed. The Agentforce collab channel in the partner community is your best place for answers. Also to see Data Cloud setup you have to assign Data Cloud Admin PS to your user.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_rhn4t",
+          "author": "Dbur11",
+          "authorProfile": "https://www.reddit.com/user/Dbur11",
+          "commentId": "t1_lz8jnnq",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8jnnq/",
+          "publishingDate": "2024-11-27T13:13:10+00:00",
+          "commentBody": "Thanks, ideally I can do the entire setup from scratch to truly know the level of effort needed and I'd have a longer expiration period than a PDO. Are you able to completely customize the setup in a PDO? From what I recall, the features are available but not enabled by default, so you have to go through the setup anyway. And you can log a support case to extend the trial to any date. That's helpful, thank you. Are PDO's provisioned with sample data already? as someone who works for salesforce provisioning this - yall need to learn how to utilize partner community and read and comprehend what it says. Literally your question is in partner community… Kinda wild sometimes people ask questions on Reddit and wait for a response when a lot of the questions copy/pasted into google or other resources yield the answer immediately",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_512ap6rj",
+          "author": "paulkissick",
+          "authorProfile": "https://www.reddit.com/user/paulkissick",
+          "commentId": "t1_lz8mdzu",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8mdzu/",
+          "publishingDate": "2024-11-27T13:31:43+00:00",
+          "commentBody": "From what I recall, the features are available but not enabled by default, so you have to go through the setup anyway. And you can log a support case to extend the trial to any date. That's helpful, thank you. Are PDO's provisioned with sample data already? as someone who works for salesforce provisioning this - yall need to learn how to utilize partner community and read and comprehend what it says. Literally your question is in partner community… Kinda wild sometimes people ask questions on Reddit and wait for a response when a lot of the questions copy/pasted into google or other resources yield the answer immediately",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_rhn4t",
+          "author": "Dbur11",
+          "authorProfile": "https://www.reddit.com/user/Dbur11",
+          "commentId": "t1_lz8ng8k",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8ng8k/",
+          "publishingDate": "2024-11-27T13:38:42+00:00",
+          "commentBody": "That's helpful, thank you. Are PDO's provisioned with sample data already? as someone who works for salesforce provisioning this - yall need to learn how to utilize partner community and read and comprehend what it says. Literally your question is in partner community… Kinda wild sometimes people ask questions on Reddit and wait for a response when a lot of the questions copy/pasted into google or other resources yield the answer immediately",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": "t2_81cvcth0",
+          "author": "Dry_Respect3802",
+          "authorProfile": "https://www.reddit.com/user/Dry_Respect3802",
+          "commentId": "t1_lz8v02l",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8v02l/",
+          "publishingDate": "2024-11-27T14:26:06+00:00",
+          "commentBody": "as someone who works for salesforce provisioning this - yall need to learn how to utilize partner community and read and comprehend what it says. Literally your question is in partner community… Kinda wild sometimes people ask questions on Reddit and wait for a response when a lot of the questions copy/pasted into google or other resources yield the answer immediately",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_lz91ffq",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz91ffq/",
+          "publishingDate": "2024-11-27T15:03:41+00:00",
+          "commentBody": "Kinda wild sometimes people ask questions on Reddit and wait for a response when a lot of the questions copy/pasted into google or other resources yield the answer immediately",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        }
+      ]
+    },
+    {
+      "authorId": "t2_6fyzh",
+      "author": "QuitClearly",
+      "authorProfile": "https://www.reddit.com/user/QuitClearly",
+      "commentId": "t1_lz8hw8d",
+      "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8hw8d/",
+      "publishingDate": "2024-11-27T13:00:35+00:00",
+      "commentBody": "I should know more later today -been working on this with Salesforce this week.  Will see if these new SKU work in sandbox 🤞 Thank you!",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_rhn4t",
+          "author": "Dbur11",
+          "authorProfile": "https://www.reddit.com/user/Dbur11",
+          "commentId": "t1_lz8jq7o",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8jq7o/",
+          "publishingDate": "2024-11-27T13:13:40+00:00",
+          "commentBody": "Thank you!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_dy5j26du",
+      "author": "Brilliant_Language52",
+      "authorProfile": "https://www.reddit.com/user/Brilliant_Language52",
+      "commentId": "t1_lz8msnb",
+      "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8msnb/",
+      "publishingDate": "2024-11-27T13:34:24+00:00",
+      "commentBody": "We’ve been able to get it provisioned and working in our partner dev org. But that’s all I know, I wasn’t the one tasked with getting it set up.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_ie99elh",
+      "author": "Shazsauce",
+      "authorProfile": "https://www.reddit.com/user/Shazsauce",
+      "commentId": "t1_lz8mi90",
+      "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8mi90/",
+      "publishingDate": "2024-11-27T13:32:30+00:00",
+      "commentBody": "The PDE needs to be made from a PBO of an ISV with a tier beyond the registered status. What type of partnership do you have with SF? I don't know our current level or status off hand, but one of our leaders was able to make a PDE from the environment hub of our PBO, still can't get that first Einstein Setup page to appear though. Did you use CLI to deploy the features and settings to the PDE after provisioning from your environment hub? That was the direction one of the help articles was taking us. I could not get it to work either but our PAM suspected the ISV status as per SF community page that talks agentforce access for ISVs. Somehow support gave einstein and agentforce licenses in the PBO itself, so i made dev sandboxes out of it. Ah, that might be the way to go, we don't want to use our actual client data in the PBO but we could make dev orgs from there, thank you!",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_rhn4t",
+          "author": "Dbur11",
+          "authorProfile": "https://www.reddit.com/user/Dbur11",
+          "commentId": "t1_lz8ow3t",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8ow3t/",
+          "publishingDate": "2024-11-27T13:48:05+00:00",
+          "commentBody": "I don't know our current level or status off hand, but one of our leaders was able to make a PDE from the environment hub of our PBO, still can't get that first Einstein Setup page to appear though. Did you use CLI to deploy the features and settings to the PDE after provisioning from your environment hub? That was the direction one of the help articles was taking us. I could not get it to work either but our PAM suspected the ISV status as per SF community page that talks agentforce access for ISVs. Somehow support gave einstein and agentforce licenses in the PBO itself, so i made dev sandboxes out of it. Ah, that might be the way to go, we don't want to use our actual client data in the PBO but we could make dev orgs from there, thank you!",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_ie99elh",
+          "author": "Shazsauce",
+          "authorProfile": "https://www.reddit.com/user/Shazsauce",
+          "commentId": "t1_lz9a4oh",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz9a4oh/",
+          "publishingDate": "2024-11-27T15:51:05+00:00",
+          "commentBody": "I could not get it to work either but our PAM suspected the ISV status as per SF community page that talks agentforce access for ISVs. Somehow support gave einstein and agentforce licenses in the PBO itself, so i made dev sandboxes out of it. Ah, that might be the way to go, we don't want to use our actual client data in the PBO but we could make dev orgs from there, thank you!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_rhn4t",
+          "author": "Dbur11",
+          "authorProfile": "https://www.reddit.com/user/Dbur11",
+          "commentId": "t1_lz9zg7m",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz9zg7m/",
+          "publishingDate": "2024-11-27T18:01:47+00:00",
+          "commentBody": "Ah, that might be the way to go, we don't want to use our actual client data in the PBO but we could make dev orgs from there, thank you!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_h5detvv3j",
+      "author": "Stunning-Gazelle-738",
+      "authorProfile": "https://www.reddit.com/user/Stunning-Gazelle-738",
+      "commentId": "t1_lz8nwhz",
+      "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8nwhz/",
+      "publishingDate": "2024-11-27T13:41:39+00:00",
+      "commentBody": "Hi, if you are a partner, raise a case with partner support and they can provision the licenses for you.  i had to go through this and multiple cases to be raised too ..i think this should work for you... https://developer.salesforce.com/docs/atlas.en-us.packagingGuide.meta/packagingGuide/appexchange_partner_request_pbo.html Did you continue to raise support tickets or did you at any point turn to CLI and try to deploy the features and settings yourselves? hey sorry about the delayed response. it was always with SF support and even they took multiple cases as they missed some or other features.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_rhn4t",
+          "author": "Dbur11",
+          "authorProfile": "https://www.reddit.com/user/Dbur11",
+          "commentId": "t1_lz8p30y",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8p30y/",
+          "publishingDate": "2024-11-27T13:49:20+00:00",
+          "commentBody": "Did you continue to raise support tickets or did you at any point turn to CLI and try to deploy the features and settings yourselves? hey sorry about the delayed response. it was always with SF support and even they took multiple cases as they missed some or other features.",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        },
+        {
+          "authorId": "t2_h5detvv3j",
+          "author": "Stunning-Gazelle-738",
+          "authorProfile": "https://www.reddit.com/user/Stunning-Gazelle-738",
+          "commentId": "t1_m1164re",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/m1164re/",
+          "publishingDate": "2024-12-08T14:15:09+00:00",
+          "commentBody": "hey sorry about the delayed response. it was always with SF support and even they took multiple cases as they missed some or other features.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_4d718v4q",
+      "author": "geo304",
+      "authorProfile": "https://www.reddit.com/user/geo304",
+      "commentId": "t1_lz8ydbr",
+      "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8ydbr/",
+      "publishingDate": "2024-11-27T14:46:11+00:00",
+      "commentBody": "Is the user assigned all of the necessary permission sets? Is data cloud enabled? I feel like Salesforce changes the requirements and pricing for these new products every day. Thanks, I'll take a look at permission sets again. I can't access the data cloud setup page either so I think it's a provisioning issue. Usually partner support will say they provisioned the agentforce licenses but tell me to open a separate ticket for data cloud provisioning for some reason. Did you have to do this in two steps? I’m not using agent force but I learned the hard way that to provision data cloud in a sandbox I must refresh from a production environment that already has data cloud enabled. I’m working with my AE on a separate provisioning for data cloud now for the sandbox but have been testing other AI features and there are a lot of permission sets that I had to add to the system admin user to see the options under setup.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_rhn4t",
+          "author": "Dbur11",
+          "authorProfile": "https://www.reddit.com/user/Dbur11",
+          "commentId": "t1_lz9avyk",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz9avyk/",
+          "publishingDate": "2024-11-27T15:55:05+00:00",
+          "commentBody": "Thanks, I'll take a look at permission sets again. I can't access the data cloud setup page either so I think it's a provisioning issue. Usually partner support will say they provisioned the agentforce licenses but tell me to open a separate ticket for data cloud provisioning for some reason. Did you have to do this in two steps? I’m not using agent force but I learned the hard way that to provision data cloud in a sandbox I must refresh from a production environment that already has data cloud enabled. I’m working with my AE on a separate provisioning for data cloud now for the sandbox but have been testing other AI features and there are a lot of permission sets that I had to add to the system admin user to see the options under setup.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_4d718v4q",
+          "author": "geo304",
+          "authorProfile": "https://www.reddit.com/user/geo304",
+          "commentId": "t1_lzal0bz",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lzal0bz/",
+          "publishingDate": "2024-11-27T19:53:21+00:00",
+          "commentBody": "I’m not using agent force but I learned the hard way that to provision data cloud in a sandbox I must refresh from a production environment that already has data cloud enabled. I’m working with my AE on a separate provisioning for data cloud now for the sandbox but have been testing other AI features and there are a lot of permission sets that I had to add to the system admin user to see the options under setup.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_11e3n3",
+      "author": "OneCatch",
+      "authorProfile": "https://www.reddit.com/user/OneCatch",
+      "commentId": "t1_lzmu2db",
+      "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lzmu2db/",
+      "publishingDate": "2024-11-29T23:31:24+00:00",
+      "commentBody": "I ended up having to kick up a stink with our AE to get it done, and even then it was a pain, but yes, eventually. Feels like the approach isn't well defined in Salesforceland yet; that's probably why there's so much YMMV in this thread - different Salesforce employees shooting from the hip in the way they thing best.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_l7pnl8hmo",
+      "author": "TravelBlogger-24",
+      "authorProfile": "https://www.reddit.com/user/TravelBlogger-24",
+      "commentId": "t1_lz8jlp2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8jlp2/",
+      "publishingDate": "2024-11-27T13:12:47+00:00",
+      "commentBody": "Agent force is not the next best thing. I give it 6 months before it peters out RemindMe! 6 months I will be messaging you in 6 months on 2025-05-27 13:40:36 UTC to remind you of this link CLICK THIS LINK to send a PM to also be reminded and to reduce spam. Parent commenter can delete this message to hide from others. Info Custom Your Reminders Feedback For sure",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_lz8nqo0",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8nqo0/",
+          "publishingDate": "2024-11-27T13:40:36+00:00",
+          "commentBody": "RemindMe! 6 months I will be messaging you in 6 months on 2025-05-27 13:40:36 UTC to remind you of this link CLICK THIS LINK to send a PM to also be reminded and to reduce spam. Parent commenter can delete this message to hide from others. Info Custom Your Reminders Feedback For sure",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_gbm4p",
+          "author": "RemindMeBot",
+          "authorProfile": "https://www.reddit.com/user/RemindMeBot",
+          "commentId": "t1_lz8nw5m",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8nw5m/",
+          "publishingDate": "2024-11-27T13:41:35+00:00",
+          "commentBody": "I will be messaging you in 6 months on 2025-05-27 13:40:36 UTC to remind you of this link CLICK THIS LINK to send a PM to also be reminded and to reduce spam. Parent commenter can delete this message to hide from others. Info Custom Your Reminders Feedback",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_l7pnl8hmo",
+          "author": "TravelBlogger-24",
+          "authorProfile": "https://www.reddit.com/user/TravelBlogger-24",
+          "commentId": "t1_lz8vl8q",
+          "link": "https://www.reddit.com/r/salesforce/comments/1h13ant/has_anyone_successfully_provisioned_a_partner/lz8vl8q/",
+          "publishingDate": "2024-11-27T14:29:40+00:00",
+          "commentBody": "For sure",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    }
+  ]
+}

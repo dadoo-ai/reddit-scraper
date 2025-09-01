@@ -1,0 +1,134 @@
+{
+  "info": {
+    "authorId": "t2_143dipuyox",
+    "author": "Objective-Trainer388",
+    "authorProfile": "https://www.reddit.com/user/Objective-Trainer388",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1m7zsmm",
+    "postLabel": null,
+    "publishingDate": "2025-07-24T09:28:31+00:00",
+    "postTitle": "Pass data to an lwc component used by agentforce to take inputs from user.",
+    "postMessage": "I have a lwc component , which is using Custom Lightning Types with Editor. This component takes input from user and passes back to agent. but i want to pass recordId to the lwc component so that it could show some data related to that and take user input as well. Thanks in Advance!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1m7zsmm/pass_data_to_an_lwc_component_used_by_agentforce/",
+    "commentCount": 9,
+    "upvoteCount": 5,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_5ok9q",
+      "author": "TheCannings",
+      "authorProfile": "https://www.reddit.com/user/TheCannings",
+      "commentId": "t1_n4vch1z",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m7zsmm/pass_data_to_an_lwc_component_used_by_agentforce/n4vch1z/",
+      "publishingDate": "2025-07-24T09:33:10+00:00",
+      "commentBody": "Depends where your LWC is placed if it’s just on a record page then @api recordId; Will do it automatically The lwc is displayed/placed inside agentforce window. I am using custom lightning types to get some input from user to the agent. You can define variables in the agent, I would imagine you can get/set in the lwc however I’ve not done it myself I have tried both context variables and custom variables but i am not getting their value in the lwc. Also, i think this variables are for different purpose. my take: We can use this variables in the action detail page, we can assign this variables to a particular input, so agent wont ask details for that parameter and use the data stored in the variable as input. i had tried to use the 'Assign a Variable' input box in an action details page and assigned an context variable there and now the agent wont even show the lwc because it just takes the data from the assigned variable.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_143dipuyox",
+          "author": "Objective-Trainer388",
+          "authorProfile": "https://www.reddit.com/user/Objective-Trainer388",
+          "commentId": "t1_n4vg1dy",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m7zsmm/pass_data_to_an_lwc_component_used_by_agentforce/n4vg1dy/",
+          "publishingDate": "2025-07-24T10:05:22+00:00",
+          "commentBody": "The lwc is displayed/placed inside agentforce window. I am using custom lightning types to get some input from user to the agent. You can define variables in the agent, I would imagine you can get/set in the lwc however I’ve not done it myself I have tried both context variables and custom variables but i am not getting their value in the lwc. Also, i think this variables are for different purpose. my take: We can use this variables in the action detail page, we can assign this variables to a particular input, so agent wont ask details for that parameter and use the data stored in the variable as input. i had tried to use the 'Assign a Variable' input box in an action details page and assigned an context variable there and now the agent wont even show the lwc because it just takes the data from the assigned variable.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_5ok9q",
+          "author": "TheCannings",
+          "authorProfile": "https://www.reddit.com/user/TheCannings",
+          "commentId": "t1_n4vge3u",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m7zsmm/pass_data_to_an_lwc_component_used_by_agentforce/n4vge3u/",
+          "publishingDate": "2025-07-24T10:08:30+00:00",
+          "commentBody": "You can define variables in the agent, I would imagine you can get/set in the lwc however I’ve not done it myself I have tried both context variables and custom variables but i am not getting their value in the lwc. Also, i think this variables are for different purpose. my take: We can use this variables in the action detail page, we can assign this variables to a particular input, so agent wont ask details for that parameter and use the data stored in the variable as input. i had tried to use the 'Assign a Variable' input box in an action details page and assigned an context variable there and now the agent wont even show the lwc because it just takes the data from the assigned variable.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_143dipuyox",
+          "author": "Objective-Trainer388",
+          "authorProfile": "https://www.reddit.com/user/Objective-Trainer388",
+          "commentId": "t1_n4vkjnj",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m7zsmm/pass_data_to_an_lwc_component_used_by_agentforce/n4vkjnj/",
+          "publishingDate": "2025-07-24T10:43:41+00:00",
+          "commentBody": "I have tried both context variables and custom variables but i am not getting their value in the lwc. Also, i think this variables are for different purpose. my take: We can use this variables in the action detail page, we can assign this variables to a particular input, so agent wont ask details for that parameter and use the data stored in the variable as input. i had tried to use the 'Assign a Variable' input box in an action details page and assigned an context variable there and now the agent wont even show the lwc because it just takes the data from the assigned variable.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_9ohgh4b",
+      "author": "abandonedtoad",
+      "authorProfile": "https://www.reddit.com/user/abandonedtoad",
+      "commentId": "t1_n4vfi3k",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m7zsmm/pass_data_to_an_lwc_component_used_by_agentforce/n4vfi3k/",
+      "publishingDate": "2025-07-24T10:00:37+00:00",
+      "commentBody": "If just using recordId isn't working because it's in the Agentforce panel can you pass it in using the currentRecordId context variable in the Agentforce session? Hey, tried that as well, and it does not work! Have you faced similar issues? or were you somehow able to get this values in lwc?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_143dipuyox",
+          "author": "Objective-Trainer388",
+          "authorProfile": "https://www.reddit.com/user/Objective-Trainer388",
+          "commentId": "t1_n4vkxpg",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m7zsmm/pass_data_to_an_lwc_component_used_by_agentforce/n4vkxpg/",
+          "publishingDate": "2025-07-24T10:46:47+00:00",
+          "commentBody": "Hey, tried that as well, and it does not work! Have you faced similar issues? or were you somehow able to get this values in lwc?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_cq4mbxh6",
+      "author": "Suspicious-Nerve-487",
+      "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+      "commentId": "t1_n4vyiln",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m7zsmm/pass_data_to_an_lwc_component_used_by_agentforce/n4vyiln/",
+      "publishingDate": "2025-07-24T12:20:27+00:00",
+      "commentBody": "Where are you getting the recordId from in the first place? Are you querying it from elsewhere in the agent? i fetch sobject records in agent though apex actions and i wanted to pass the recordId of one of the records, for e.g,  account and related contacts where i want to pass account recordId to the lwc.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_143dipuyox",
+          "author": "Objective-Trainer388",
+          "authorProfile": "https://www.reddit.com/user/Objective-Trainer388",
+          "commentId": "t1_n4xtph7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m7zsmm/pass_data_to_an_lwc_component_used_by_agentforce/n4xtph7/",
+          "publishingDate": "2025-07-24T17:44:51+00:00",
+          "commentBody": "i fetch sobject records in agent though apex actions and i wanted to pass the recordId of one of the records, for e.g,  account and related contacts where i want to pass account recordId to the lwc.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_7g4t0yxxc",
+      "author": "MindCompetitive6475",
+      "authorProfile": "https://www.reddit.com/user/MindCompetitive6475",
+      "commentId": "t1_n5cq6to",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m7zsmm/pass_data_to_an_lwc_component_used_by_agentforce/n5cq6to/",
+      "publishingDate": "2025-07-27T00:20:38+00:00",
+      "commentBody": "Not a developer but I have dabbled. Not sure if this is relevant or not. We had two screen flows on a page and we used the Lightning Messenger Service to pass data on the client side. When one flow changed a value the other flow,. using the LMs was refreshed. I wonder if you could use the LMS to pass data from the agent to your LWC? Alternatively maybe a Platform Event?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

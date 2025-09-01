@@ -1,0 +1,802 @@
+{
+  "info": {
+    "authorId": "t2_4cxdp7gl",
+    "author": "Simple-Friend",
+    "authorProfile": "https://www.reddit.com/user/Simple-Friend",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1lwyain",
+    "postLabel": "venting 😤",
+    "publishingDate": "2025-07-11T05:01:08+00:00",
+    "postTitle": "So sick of all the Agentforce hype when Salesforce can't even get it to work for basic support.",
+    "postMessage": "I've tried using Agentforce on the Salesforce help page several times now and it has never actually given me a useful response or helped me to solve my issue. Has anyone actually found it useful? Is there some sort of best practice for getting it to understand what is actually being asked?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/",
+    "commentCount": 69,
+    "upvoteCount": 230,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_o8tw7zy",
+      "author": "clonehunterz",
+      "authorProfile": "https://www.reddit.com/user/clonehunterz",
+      "commentId": "t1_n2hxbtl",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2hxbtl/",
+      "publishingDate": "2025-07-11T05:07:14+00:00",
+      "commentBody": "welcome to the world of AI marketing. nothing works, everthings shit, but sellnumbers count Rhymes with \"bubble\" Alright is it (double) trouble or rubble? Not awesome like Hubble? Or something more subtle? this is driving me insane",
+      "upvotes": 117,
+      "dislikes": 117,
+      "downvotes": 118,
+      "replies": [
+        {
+          "authorId": "t2_n4ouei0k",
+          "author": "Hot-Bandicoot-425",
+          "authorProfile": "https://www.reddit.com/user/Hot-Bandicoot-425",
+          "commentId": "t1_n2ku6dt",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2ku6dt/",
+          "publishingDate": "2025-07-11T16:49:21+00:00",
+          "commentBody": "Rhymes with \"bubble\" Alright is it (double) trouble or rubble? Not awesome like Hubble? Or something more subtle? this is driving me insane",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_41picu90",
+          "author": "jerry_brimsley",
+          "authorProfile": "https://www.reddit.com/user/jerry_brimsley",
+          "commentId": "t1_n2l4je3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2l4je3/",
+          "publishingDate": "2025-07-11T17:36:50+00:00",
+          "commentBody": "Alright is it (double) trouble or rubble? Not awesome like Hubble? Or something more subtle? this is driving me insane",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        }
+      ]
+    },
+    {
+      "authorId": "t2_55usswn0",
+      "author": "isShark",
+      "authorProfile": "https://www.reddit.com/user/isShark",
+      "commentId": "t1_n2i4t97",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2i4t97/",
+      "publishingDate": "2025-07-11T06:09:02+00:00",
+      "commentBody": "I always ask the Salesforce help AI to connect me to a rep. It works like a charm. Funnily enough it just asked me if I wanted to be connected to a rep and when I said no it did it anyways. Very helpful! Edit: And then it opened a blank case with no details. So now that I've closed it I guess Salesforce will add it to their 1,000,000+ support issues \"solved\" by Agentforce. Exactly, ask the contrary of what you need, this is how bad it is. lol",
+      "upvotes": 46,
+      "dislikes": 46,
+      "downvotes": 47,
+      "replies": [
+        {
+          "authorId": "t2_4cxdp7gl",
+          "author": "Simple-Friend",
+          "authorProfile": "https://www.reddit.com/user/Simple-Friend",
+          "commentId": "t1_n2i65xu",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2i65xu/",
+          "publishingDate": "2025-07-11T06:20:46+00:00",
+          "commentBody": "Funnily enough it just asked me if I wanted to be connected to a rep and when I said no it did it anyways. Very helpful! Edit: And then it opened a blank case with no details. So now that I've closed it I guess Salesforce will add it to their 1,000,000+ support issues \"solved\" by Agentforce. Exactly, ask the contrary of what you need, this is how bad it is.",
+          "upvotes": 36,
+          "dislikes": 36,
+          "downvotes": 37
+        },
+        {
+          "authorId": "t2_1fczx4qa9i",
+          "author": "Character_Affect3842",
+          "authorProfile": "https://www.reddit.com/user/Character_Affect3842",
+          "commentId": "t1_n2mvhlg",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2mvhlg/",
+          "publishingDate": "2025-07-11T22:54:19+00:00",
+          "commentBody": "Exactly, ask the contrary of what you need, this is how bad it is.",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": "t2_cddfns9l",
+          "author": "Rapiscan84",
+          "authorProfile": "https://www.reddit.com/user/Rapiscan84",
+          "commentId": "t1_n2osuj2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2osuj2/",
+          "publishingDate": "2025-07-12T06:45:01+00:00",
+          "commentBody": "lol",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_8f9kss9y",
+      "author": "Middle_Manager_Karen",
+      "authorProfile": "https://www.reddit.com/user/Middle_Manager_Karen",
+      "commentId": "t1_n2i13kx",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2i13kx/",
+      "publishingDate": "2025-07-11T05:37:52+00:00",
+      "commentBody": "90% of investor dollars went to Ai startups in 2023 and 2024. It's gonna be weird for a bit",
+      "upvotes": 20,
+      "dislikes": 20,
+      "downvotes": 21
+    },
+    {
+      "authorId": "t2_4dkewyxg",
+      "author": "ra_men",
+      "authorProfile": "https://www.reddit.com/user/ra_men",
+      "commentId": "t1_n2i43c2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2i43c2/",
+      "publishingDate": "2025-07-11T06:02:49+00:00",
+      "commentBody": "The law of Salesforce marketing: “that which benioff needs to peddle, needs peddling. That which doesn’t, doesn’t”. The internet of things is going to be PHENOMENAL 😂😂😂",
+      "upvotes": 22,
+      "dislikes": 22,
+      "downvotes": 23,
+      "replies": [
+        {
+          "authorId": "t2_3211qrc8",
+          "author": "goebbs",
+          "authorProfile": "https://www.reddit.com/user/goebbs",
+          "commentId": "t1_n2tfnub",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2tfnub/",
+          "publishingDate": "2025-07-13T00:21:36+00:00",
+          "commentBody": "The internet of things is going to be PHENOMENAL 😂😂😂",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_1shihpqw",
+          "author": "CRM_CANNABIS_GUY",
+          "authorProfile": "https://www.reddit.com/user/CRM_CANNABIS_GUY",
+          "commentId": "t1_n305u07",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n305u07/",
+          "publishingDate": "2025-07-14T01:56:06+00:00",
+          "commentBody": "😂😂😂",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_8b618kb0",
+      "author": "JustStranger6803",
+      "authorProfile": "https://www.reddit.com/user/JustStranger6803",
+      "commentId": "t1_n2hy7q8",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2hy7q8/",
+      "publishingDate": "2025-07-11T05:14:16+00:00",
+      "commentBody": "AI is here to stay, but companies shamelessly and aimlessly peddling their dumb AI-infused services will die down eventually. They are banking on the hype right now, just like every other company. None of them are particularly innovative, just following tends Its a shame because it used to feel like Salesforce actually cared about what customers wanted, but these days all they seem to do is tell customers what they should want, whether or not it's actually useful for them. With Agentforce it feels like they've dialed that behaviour up to 11. It’s not just Salesforce. Pretty hard to find a single publicly traded corporation that gives a shit about anything but next quarters profits BINGO!!! It's frustrating for employees too, it's being crammed down throats inside and out. The worst part is it's been used to justify price increases yet our edition doesn't even give it to us.",
+      "upvotes": 31,
+      "dislikes": 31,
+      "downvotes": 32,
+      "replies": [
+        {
+          "authorId": "t2_4cxdp7gl",
+          "author": "Simple-Friend",
+          "authorProfile": "https://www.reddit.com/user/Simple-Friend",
+          "commentId": "t1_n2hzi08",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2hzi08/",
+          "publishingDate": "2025-07-11T05:24:38+00:00",
+          "commentBody": "Its a shame because it used to feel like Salesforce actually cared about what customers wanted, but these days all they seem to do is tell customers what they should want, whether or not it's actually useful for them. With Agentforce it feels like they've dialed that behaviour up to 11. It’s not just Salesforce. Pretty hard to find a single publicly traded corporation that gives a shit about anything but next quarters profits BINGO!!! It's frustrating for employees too, it's being crammed down throats inside and out. The worst part is it's been used to justify price increases yet our edition doesn't even give it to us.",
+          "upvotes": 19,
+          "dislikes": 19,
+          "downvotes": 20
+        },
+        {
+          "authorId": "t2_ygjjlpo",
+          "author": "Project_Wild",
+          "authorProfile": "https://www.reddit.com/user/Project_Wild",
+          "commentId": "t1_n2i5c7e",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2i5c7e/",
+          "publishingDate": "2025-07-11T06:13:35+00:00",
+          "commentBody": "It’s not just Salesforce. Pretty hard to find a single publicly traded corporation that gives a shit about anything but next quarters profits BINGO!!!",
+          "upvotes": 17,
+          "dislikes": 17,
+          "downvotes": 18
+        },
+        {
+          "authorId": "t2_1shihpqw",
+          "author": "CRM_CANNABIS_GUY",
+          "authorProfile": "https://www.reddit.com/user/CRM_CANNABIS_GUY",
+          "commentId": "t1_n305yog",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n305yog/",
+          "publishingDate": "2025-07-14T01:56:53+00:00",
+          "commentBody": "BINGO!!!",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_103zua",
+          "author": "Sinjai",
+          "authorProfile": "https://www.reddit.com/user/Sinjai",
+          "commentId": "t1_n2ls4ly",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2ls4ly/",
+          "publishingDate": "2025-07-11T19:30:15+00:00",
+          "commentBody": "It's frustrating for employees too, it's being crammed down throats inside and out.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_v3f7t0j",
+          "author": "MoreEspresso",
+          "authorProfile": "https://www.reddit.com/user/MoreEspresso",
+          "commentId": "t1_n2is7z2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2is7z2/",
+          "publishingDate": "2025-07-11T09:47:41+00:00",
+          "commentBody": "The worst part is it's been used to justify price increases yet our edition doesn't even give it to us.",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        }
+      ]
+    },
+    {
+      "authorId": "t2_vlxte733",
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_n2idxeq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2idxeq/",
+      "publishingDate": "2025-07-11T07:31:02+00:00",
+      "commentBody": "The irony is that you mention Agentforce even here and the post gets more attention than posts asking for help. So it's working on all of us. I'll say one positive sign moving towards a world where Agentforce starts solving real problems is that they are now hiring folks from legacy AI tools at least in sales. I met an AE who has a deep understanding of the product and AI landscape and in 30 minutes of talking to him I learned more about how Agentforce works and can help businesses than the last 2 years of Salesforce marketing. But even he said there are no companies he knows of using it fully across the board effectively. A lot of POCs.",
+      "upvotes": 7,
+      "dislikes": 7,
+      "downvotes": 8
+    },
+    {
+      "authorId": "t2_v9h7jn9v",
+      "author": "YerManOnTheMac",
+      "authorProfile": "https://www.reddit.com/user/YerManOnTheMac",
+      "commentId": "t1_n2l0uoh",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2l0uoh/",
+      "publishingDate": "2025-07-11T17:19:59+00:00",
+      "commentBody": "No, it is bollocks - even opens cases with the wrong support team, for products we don't even use.",
+      "upvotes": 8,
+      "dislikes": 8,
+      "downvotes": 9
+    },
+    {
+      "authorId": "t2_1jzsdiam6v",
+      "author": "Swimming_Plastic1533",
+      "authorProfile": "https://www.reddit.com/user/Swimming_Plastic1533",
+      "commentId": "t1_n2j6yyq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2j6yyq/",
+      "publishingDate": "2025-07-11T11:44:46+00:00",
+      "commentBody": "You’re not alone, many users feel the same. It helps to ask super clear, specific questions and use product keywords, but honestly, Agentforce still struggles with complex support issues. [removed] Sorry, to combat scammers using throwaways to bolster their image, we require accounts exist for at least 7 days before posting.  Your message was hidden from the forum  but you can come back and post once your account is 7 days old I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7,
+      "replies": [
+        {
+          "authorId": "t2_6l4z3",
+          "author": "AutoModerator",
+          "authorProfile": "https://www.reddit.com/user/AutoModerator",
+          "commentId": "t1_n6fqb1k",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n6fqb1k/",
+          "publishingDate": "2025-08-01T23:07:46+00:00",
+          "commentBody": "Sorry, to combat scammers using throwaways to bolster their image, we require accounts exist for at least 7 days before posting.  Your message was hidden from the forum  but you can come back and post once your account is 7 days old I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_aer5w",
+      "author": "picaresquity",
+      "authorProfile": "https://www.reddit.com/user/picaresquity",
+      "commentId": "t1_n2lzgr8",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2lzgr8/",
+      "publishingDate": "2025-07-11T20:07:08+00:00",
+      "commentBody": "This morning I asked Agentforce on the Salesforce home page ( https://www.salesforce.com/sales/pricing/ ) what I felt was a super easy question: What are the different data storage allocations between Enterprise and Unlimited edition? It gave me a link to a page that didn't have the information I asked for, and when I told it that, it said I should reach out to an AE for info. To be fair, when I asked the Agent on the help.salesforce.com page the same question, I did get the info I needed. Just shows how important the actual backend implementation is for even very basic scenarios.",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7
+    },
+    {
+      "authorId": "t2_qlwxa",
+      "author": "ride_whenever",
+      "authorProfile": "https://www.reddit.com/user/ride_whenever",
+      "commentId": "t1_n2ioeza",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2ioeza/",
+      "publishingDate": "2025-07-11T09:11:38+00:00",
+      "commentBody": "I hugely prefer agentforce support to the humans they had previously. It’s not even close. Feature activation: I’ve had a no-cost feature enablement done in 2 mins of chat, which would have been 2-3 days of email ping pong previously. Case creation: the guided case creation is quicker than the old click through, and it handles all the orgid etc. especially good when it’s doing it off the back of a chat that it couldn’t resolve. Frankly, I was HUGELY impressed by their support implementation compared to the shoddy human responses you’d get before. But the rest of it is just hype, I’m really hoping that I can get it to work as a deal desk type function. This is more how bad their support is generally and less how good Agentforce is. Haha, true. But I do think the feature activation is a really cool use case I will give them that, that's pretty handy! Hard pass on “faster case creation”. It struggles with slight deviations from the norm like an error in sandbox and often creates cases without required fields or places them in the wrong divisions. Instead of entering what I want, I’m stuck negotiating I know, I hate answering one question at a time, just give me a form 😮‍💨 My first experience with it was asking to create a case. When I was done I was wishing I could just drive over it with my car. So I imagined doing that - didn't help.",
+      "upvotes": 17,
+      "dislikes": 17,
+      "downvotes": 18,
+      "replies": [
+        {
+          "authorId": "t2_87g2t4qx",
+          "author": "Peanut_Hamper",
+          "authorProfile": "https://www.reddit.com/user/Peanut_Hamper",
+          "commentId": "t1_n2ke659",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2ke659/",
+          "publishingDate": "2025-07-11T15:33:51+00:00",
+          "commentBody": "This is more how bad their support is generally and less how good Agentforce is. Haha, true. But I do think the feature activation is a really cool use case I will give them that, that's pretty handy!",
+          "upvotes": 15,
+          "dislikes": 15,
+          "downvotes": 16
+        },
+        {
+          "authorId": "t2_qlwxa",
+          "author": "ride_whenever",
+          "authorProfile": "https://www.reddit.com/user/ride_whenever",
+          "commentId": "t1_n2kgnbe",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2kgnbe/",
+          "publishingDate": "2025-07-11T15:45:16+00:00",
+          "commentBody": "Haha, true. But I do think the feature activation is a really cool use case I will give them that, that's pretty handy!",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": "t2_87g2t4qx",
+          "author": "Peanut_Hamper",
+          "authorProfile": "https://www.reddit.com/user/Peanut_Hamper",
+          "commentId": "t1_n2kqhk7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2kqhk7/",
+          "publishingDate": "2025-07-11T16:31:53+00:00",
+          "commentBody": "I will give them that, that's pretty handy!",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_1ckwgdspcb",
+          "author": "DigApprehensive4953",
+          "authorProfile": "https://www.reddit.com/user/DigApprehensive4953",
+          "commentId": "t1_n2ljg33",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2ljg33/",
+          "publishingDate": "2025-07-11T18:47:35+00:00",
+          "commentBody": "Hard pass on “faster case creation”. It struggles with slight deviations from the norm like an error in sandbox and often creates cases without required fields or places them in the wrong divisions. Instead of entering what I want, I’m stuck negotiating I know, I hate answering one question at a time, just give me a form 😮‍💨 My first experience with it was asking to create a case. When I was done I was wishing I could just drive over it with my car. So I imagined doing that - didn't help.",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_487pfc44",
+          "author": "Material-Draw4587",
+          "authorProfile": "https://www.reddit.com/user/Material-Draw4587",
+          "commentId": "t1_n2mai3e",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2mai3e/",
+          "publishingDate": "2025-07-11T21:01:19+00:00",
+          "commentBody": "I know, I hate answering one question at a time, just give me a form 😮‍💨",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_jz51z89c",
+          "author": "Rangell1960",
+          "authorProfile": "https://www.reddit.com/user/Rangell1960",
+          "commentId": "t1_n5nvamz",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n5nvamz/",
+          "publishingDate": "2025-07-28T19:23:57+00:00",
+          "commentBody": "My first experience with it was asking to create a case. When I was done I was wishing I could just drive over it with my car. So I imagined doing that - didn't help.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_138i0y",
+      "author": "jalmto",
+      "authorProfile": "https://www.reddit.com/user/jalmto",
+      "commentId": "t1_n2nvhe8",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2nvhe8/",
+      "publishingDate": "2025-07-12T02:29:56+00:00",
+      "commentBody": "I used it today for the first time and I was not Impressed. It’s a half baked product at best.",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5
+    },
+    {
+      "authorId": "t2_sv8bo",
+      "author": "80hz",
+      "authorProfile": "https://www.reddit.com/user/80hz",
+      "commentId": "t1_n2jut54",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2jut54/",
+      "publishingDate": "2025-07-11T14:01:26+00:00",
+      "commentBody": "Yeah but big number go up! nothing else is important",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5
+    },
+    {
+      "authorId": "t2_10fvq6gbhc",
+      "author": "ResourceInteractive",
+      "authorProfile": "https://www.reddit.com/user/ResourceInteractive",
+      "commentId": "t1_n2ng3k9",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2ng3k9/",
+      "publishingDate": "2025-07-12T00:55:46+00:00",
+      "commentBody": "What I found is the biggest problem with the support agent is that SF stuffed all of their help documentation into it all versions and products.  We have all complained that SF documentation is massive, strung out all over the place, and doesn't always catch up with official documentation and release notes. When we've built help Agents on Agentforce, we follow these basic best practices for our clients: 1) Each Knowledge Article or uploaded document is its own complete topic and thing. 2) Do not overlap content or contract information from one help article to the next 3) Version control of your help articles - don't have version 1 articles mixed in with version 2 articles. 4) If you are a software product - release notes and documentation have to be synced, if you retire a feature make sure its all out of your documentation - everywhere. It would be nice if SF followed their own best practices when building their own support Agent. Yeah and I think that's a huge problem - if they can't get their new flagship product to work properly, how can their customers be expected to implement, support, and maintain something so nuanced. How do you think we SIs make money ;-) Yes I've been on both sides of the fence but on the end user side now. Once the project is done it's up to someone like me to keep it up and running and it's getting a lot harder to keep up with what's changing...I don't see Agentforce making it easier in the short or medium term.",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4,
+      "replies": [
+        {
+          "authorId": "t2_4cxdp7gl",
+          "author": "Simple-Friend",
+          "authorProfile": "https://www.reddit.com/user/Simple-Friend",
+          "commentId": "t1_n2ni3dr",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2ni3dr/",
+          "publishingDate": "2025-07-12T01:07:52+00:00",
+          "commentBody": "Yeah and I think that's a huge problem - if they can't get their new flagship product to work properly, how can their customers be expected to implement, support, and maintain something so nuanced. How do you think we SIs make money ;-) Yes I've been on both sides of the fence but on the end user side now. Once the project is done it's up to someone like me to keep it up and running and it's getting a lot harder to keep up with what's changing...I don't see Agentforce making it easier in the short or medium term.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_10fvq6gbhc",
+          "author": "ResourceInteractive",
+          "authorProfile": "https://www.reddit.com/user/ResourceInteractive",
+          "commentId": "t1_n2ntzqe",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2ntzqe/",
+          "publishingDate": "2025-07-12T02:20:30+00:00",
+          "commentBody": "How do you think we SIs make money ;-) Yes I've been on both sides of the fence but on the end user side now. Once the project is done it's up to someone like me to keep it up and running and it's getting a lot harder to keep up with what's changing...I don't see Agentforce making it easier in the short or medium term.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_4cxdp7gl",
+          "author": "Simple-Friend",
+          "authorProfile": "https://www.reddit.com/user/Simple-Friend",
+          "commentId": "t1_n2nvepk",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2nvepk/",
+          "publishingDate": "2025-07-12T02:29:29+00:00",
+          "commentBody": "Yes I've been on both sides of the fence but on the end user side now. Once the project is done it's up to someone like me to keep it up and running and it's getting a lot harder to keep up with what's changing...I don't see Agentforce making it easier in the short or medium term.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_arz7j",
+      "author": "manere",
+      "authorProfile": "https://www.reddit.com/user/manere",
+      "commentId": "t1_n2j91k1",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2j91k1/",
+      "publishingDate": "2025-07-11T11:58:37+00:00",
+      "commentBody": "Honestly what's most shocking IMO is that somehow the Einstein for Developers VSC plugin is much worse than the ChatGPT Salesforce Sidekick. A docents of billion $ Company vs a smart dude. Because billion dollar company is using resources who don’t know anything about AI and just want to check the box on their user story. This is a time when one smart person with Cursor can be more effective than 40 people who don’t give a shit.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_4viqc",
+          "author": "xauronx",
+          "authorProfile": "https://www.reddit.com/user/xauronx",
+          "commentId": "t1_n2jhmxm",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2jhmxm/",
+          "publishingDate": "2025-07-11T12:50:57+00:00",
+          "commentBody": "Because billion dollar company is using resources who don’t know anything about AI and just want to check the box on their user story. This is a time when one smart person with Cursor can be more effective than 40 people who don’t give a shit.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_6qrej9e",
+      "author": "queenofadmin",
+      "authorProfile": "https://www.reddit.com/user/queenofadmin",
+      "commentId": "t1_n2i7xz6",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2i7xz6/",
+      "publishingDate": "2025-07-11T06:36:28+00:00",
+      "commentBody": "There Support being on it, is actually like an anti-ad for it. Is so laughably bad.  I put the same prompt into theirs and into just free chat gpt. Guess which one was right? And which one contradicted its own help page, which I was on when writing the question? That's what confuses me - is it something with their underlying prompts? I've experienced the same thing",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4,
+      "replies": [
+        {
+          "authorId": "t2_487pfc44",
+          "author": "Material-Draw4587",
+          "authorProfile": "https://www.reddit.com/user/Material-Draw4587",
+          "commentId": "t1_n2je8w7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2je8w7/",
+          "publishingDate": "2025-07-11T12:31:07+00:00",
+          "commentBody": "That's what confuses me - is it something with their underlying prompts? I've experienced the same thing",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_f901g",
+      "author": "i_want_a_cookie",
+      "authorProfile": "https://www.reddit.com/user/i_want_a_cookie",
+      "commentId": "t1_n2i0qrz",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2i0qrz/",
+      "publishingDate": "2025-07-11T05:34:54+00:00",
+      "commentBody": "What kind of questions are you asking it? Various things - today it was why my approval process is still requiring approval even though it was deactivated. In fairness that was a tricky one, because it was actually a validation rule I didn't know about. ChatGPT gave me a much better response that led to me tracking down the validation rule. A previous question was about why I couldn't activate a DKIM key I set up and the response was wildly off base but I can't remember what it said. Another was about permissions and it started instructing me how to get my app listed on the AppExchange. In any case, it doesn't feel like AI - it just references and links help articles like a knowledge base, or suggest connecting me to a person.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_4cxdp7gl",
+          "author": "Simple-Friend",
+          "authorProfile": "https://www.reddit.com/user/Simple-Friend",
+          "commentId": "t1_n2i5r6e",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2i5r6e/",
+          "publishingDate": "2025-07-11T06:17:11+00:00",
+          "commentBody": "Various things - today it was why my approval process is still requiring approval even though it was deactivated. In fairness that was a tricky one, because it was actually a validation rule I didn't know about. ChatGPT gave me a much better response that led to me tracking down the validation rule. A previous question was about why I couldn't activate a DKIM key I set up and the response was wildly off base but I can't remember what it said. Another was about permissions and it started instructing me how to get my app listed on the AppExchange. In any case, it doesn't feel like AI - it just references and links help articles like a knowledge base, or suggest connecting me to a person.",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        }
+      ]
+    },
+    {
+      "authorId": "t2_i79gch6i",
+      "author": "dogsbikesandbeers",
+      "authorProfile": "https://www.reddit.com/user/dogsbikesandbeers",
+      "commentId": "t1_n2i8krd",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2i8krd/",
+      "publishingDate": "2025-07-11T06:42:07+00:00",
+      "commentBody": "Awhile back i tried it, as someone, in another thread stated that SF used agentforce 'very successfully' (or along those lines), in their support. I then went ahead and tried it. This was my experience: To begin with, this looks like something that could be done with any external AI. First question (I have a decision split, with these configurations. Are these case sensitive? Subject contains forsikring and CreatedDate is on or after Today Minus 60 days or Subject contains fordel and CreatedDate is on or after Today Minus 60 days) Correct answer straight away (on another note, this should be specified when you setup a decision split). When asking for a source where I can read more, it gives me this https://help.salesforce.com/s/articleView?id=mktg.mc_jb_configuration_recommendations.htm&type=5 Just to be clear, there's no mention about case sensitive decision splits in this article. Next question is about cloudpages, and implementing a presentation in js / html. It starts answering questions, just to delete it and say \"Sorry, I had trouble coming up with a response for your request. Could you please try rephrasing your question?\" However, if I ask Le Chat the exact same question I get an answer, with sources. I tried using an agent to create flows and journeys..... let's just say, that, that is very, very basic. This is my experience so far, every \"AI enabled\" tool is significantly worse than me just copy + pasting the question into gemini or chatgpt... so why would I bother or even pay extra for it... like, a super basic tool that could win a lot of people over... AI support on formula fields builders checing syntax and doing type ahead shit... but no, they want a chatbot that just gets in the way of actually serving customers properly.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_d24yio09",
+          "author": "Natural_Target_5022",
+          "authorProfile": "https://www.reddit.com/user/Natural_Target_5022",
+          "commentId": "t1_n2r1mca",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2r1mca/",
+          "publishingDate": "2025-07-12T16:31:34+00:00",
+          "commentBody": "This is my experience so far, every \"AI enabled\" tool is significantly worse than me just copy + pasting the question into gemini or chatgpt... so why would I bother or even pay extra for it... like, a super basic tool that could win a lot of people over... AI support on formula fields builders checing syntax and doing type ahead shit... but no, they want a chatbot that just gets in the way of actually serving customers properly.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_5hfci",
+      "author": "Pyroechidna1",
+      "authorProfile": "https://www.reddit.com/user/Pyroechidna1",
+      "commentId": "t1_n2kns46",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2kns46/",
+      "publishingDate": "2025-07-11T16:18:56+00:00",
+      "commentBody": "It was really bad >1 month ago, the last couple of days it has given me useful answers to basic questions",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_6yw7ivi3",
+      "author": "Glum-Ad-2286",
+      "authorProfile": "https://www.reddit.com/user/Glum-Ad-2286",
+      "commentId": "t1_n2ptuc5",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2ptuc5/",
+      "publishingDate": "2025-07-12T12:24:05+00:00",
+      "commentBody": "I fed it the exact text from a known issue, and still had no idea. If their own internal knowledge base as training data is not working, what hope for customers? If Salesforce really wants to sell Agentforce, their support shop window is the ideal use case for demoing what a “game changer” it can be. But they don’t, because they can’t, because it’s not.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_d24yio09",
+      "author": "Natural_Target_5022",
+      "authorProfile": "https://www.reddit.com/user/Natural_Target_5022",
+      "commentId": "t1_n2r0hzl",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2r0hzl/",
+      "publishingDate": "2025-07-12T16:25:40+00:00",
+      "commentBody": "My place has been really hammering on AI, they want that to be the next thing they're good at and draw a bunch of business in, but honestly, it's all been PoCs and rambling and potificating, but nothing really being done, most of our clients can barely take full advantage of their systems as is, let a alone introducing AI on top of it. I pretend to be on the bandwagon so that my \"visionary\" boss is happy, but I'm so rooting for this fad to pass... AI has it's uses in data analysys and clean up as part of the ecosystem, hell, even a an assistant for typing notes and emails, or give me something that creates a flow based on me giving it requirments, but stop pretending that everything has to be AI. ffs sometimes I feel like just leaving salesforce and go learn something like SAP or whatever.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_50e10ucc",
+      "author": "harambeface",
+      "authorProfile": "https://www.reddit.com/user/harambeface",
+      "commentId": "t1_n3tnw68",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n3tnw68/",
+      "publishingDate": "2025-07-18T14:35:04+00:00",
+      "commentBody": "It replies to me with empty nothingness no matter what I ask it. Just an empty reply",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_3h7u5xl8",
+      "author": "phswiss",
+      "authorProfile": "https://www.reddit.com/user/phswiss",
+      "commentId": "t1_n3u27it",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n3u27it/",
+      "publishingDate": "2025-07-18T15:41:57+00:00",
+      "commentBody": "The crux is in the tuning and data. If you don't have access to good data, and that means data that comes with context that explains it, it's a lot harder to make it work. Also, I wouldn't try to do the great, complex stuff that Agentforce marketing materials show, but start with small time-consuming things. Here's also a good webinar how to get started: https://www.youtube.com/watch?v=yC90KGlEDYk",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_r94f0",
+      "author": "cannotskipcutscene",
+      "authorProfile": "https://www.reddit.com/user/cannotskipcutscene",
+      "commentId": "t1_n2le707",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2le707/",
+      "publishingDate": "2025-07-11T18:22:12+00:00",
+      "commentBody": "They are pushing AI hard where I’m at and expect everyone to do the AI certification by the end of the year.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_8euzd9ud",
+      "author": "gottlico",
+      "authorProfile": "https://www.reddit.com/user/gottlico",
+      "commentId": "t1_n2j00m0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2j00m0/",
+      "publishingDate": "2025-07-11T10:53:51+00:00",
+      "commentBody": "If I have an error message sometimes I will copy/paste that in and sometimes it will point me in the right direction. Other times it’s completely wrong and useless. I’ve found Grok to be the best when given links to Salesforce documentation or forum posts and asked to outline steps to complete a task. “You are an expert Salesforce architect, given xyz documentation, how would you do abc” AI has really helped me pickup OmniStudio which has limited documentation but a ton of unstructured forums and blogs out there",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_1ezeyjrh3v",
+      "author": "Best_Site_2968",
+      "authorProfile": "https://www.reddit.com/user/Best_Site_2968",
+      "commentId": "t1_n2k4dum",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2k4dum/",
+      "publishingDate": "2025-07-11T14:48:10+00:00",
+      "commentBody": "What do you guys want out of agent force? Like what are your expectations it should be? Agentic. But what actions 😂 My experience on multiple occasions has been that it doesn't even clearly understand what I'm asking it. Like the responses it gives doesn't match the question. So at least being able to consistently demonstrate that it understands what it's being asked would be a good start. What do you ask it? Like to do an action?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_acj95",
+          "author": "TylerTheWimp",
+          "authorProfile": "https://www.reddit.com/user/TylerTheWimp",
+          "commentId": "t1_n2kefts",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2kefts/",
+          "publishingDate": "2025-07-11T15:35:06+00:00",
+          "commentBody": "Agentic. But what actions 😂",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1ezeyjrh3v",
+          "author": "Best_Site_2968",
+          "authorProfile": "https://www.reddit.com/user/Best_Site_2968",
+          "commentId": "t1_n2ketxr",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2ketxr/",
+          "publishingDate": "2025-07-11T15:36:54+00:00",
+          "commentBody": "But what actions 😂",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_4cxdp7gl",
+          "author": "Simple-Friend",
+          "authorProfile": "https://www.reddit.com/user/Simple-Friend",
+          "commentId": "t1_n2mq65y",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2mq65y/",
+          "publishingDate": "2025-07-11T22:24:01+00:00",
+          "commentBody": "My experience on multiple occasions has been that it doesn't even clearly understand what I'm asking it. Like the responses it gives doesn't match the question. So at least being able to consistently demonstrate that it understands what it's being asked would be a good start. What do you ask it? Like to do an action?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1ezeyjrh3v",
+          "author": "Best_Site_2968",
+          "authorProfile": "https://www.reddit.com/user/Best_Site_2968",
+          "commentId": "t1_n360vf4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n360vf4/",
+          "publishingDate": "2025-07-14T23:20:29+00:00",
+          "commentBody": "What do you ask it? Like to do an action?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_cy6dqcgk",
+      "author": "Icy_Manufacturer_977",
+      "authorProfile": "https://www.reddit.com/user/Icy_Manufacturer_977",
+      "commentId": "t1_n2qah4t",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2qah4t/",
+      "publishingDate": "2025-07-12T14:07:59+00:00",
+      "commentBody": "I am implementing the co-pilot agent for my org, and it’s shockingly terrible. They have these pre-created topics to find records, extract object details based on user input, etc, but it seems to really, really struggle when it comes to doing things in mass. One example; we have a use-case where I need to get some records, loop through and process them in a flow (since they don’t have any topics to create data). When I ask it to find records, it works great (despite it having a LIMIT 50 in its query…), but when I ask it to pass those (up to) 50 records to an sObject collection in a flow, it only ever passes 25 records, never more. Asking the AI expert that I got in contact with from my AE, they said they can’t find this documented anywhere and in demos / use cases they never asked it to do things in bulk so they never ran into this… Have a case open with support, but I have a very strong feeling that they will create some documentation saying it’s a limit instead of actually fixing the issue. I know it can be fixed by only passing along the IDs and querying the record myself in a GET, but what’s the point of skipping all the out of the box logic with custom, leading to significantly less data accuracy? Same with the out of the box update topic. Works great, but again you have to confirm the update for every single record. So my conclusion is;\nWorks nicely for working with single records, not so much in bulk.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_9k1l0w9p",
+      "author": "Top_Criticism_4208",
+      "authorProfile": "https://www.reddit.com/user/Top_Criticism_4208",
+      "commentId": "t1_n2rr90f",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2rr90f/",
+      "publishingDate": "2025-07-12T18:43:05+00:00",
+      "commentBody": "Typical Salesforce, it’s crap but that have a great sales and marketing team to butter up the c-suite and blame any bad feed back on the users.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_15pzjteiww",
+      "author": "Lead-to-Revenue",
+      "authorProfile": "https://www.reddit.com/user/Lead-to-Revenue",
+      "commentId": "t1_n3jgns9",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n3jgns9/",
+      "publishingDate": "2025-07-16T23:49:17+00:00",
+      "commentBody": "Hi All we bought a separate org to test Agentforce. We are downloading a RLM Managed Package (not Revenue Cloud Advance) we are then setting up our unstructured data into the managed packaged structured data model. We then are activating all the standard logic. Then we are going to train the agent. The use case we are trying to built is an Agent that can talk with people like Marketing, BDRs, and Sales.  We are then going to help buyer buy through a frictionless buyer commerce journey. Then we will automate the post-sales process and train the AI to give executives the reports they need. We believe the structuring of our data in this single data model solution that standardize our business process will help us get meaningful results from Agentforce. Any advice on what you have learned? What not to do’s and not trying is not what I am seeking. Anything would be great from all of you who have been trying.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_fwd3vlmx",
+      "author": "yami0007",
+      "authorProfile": "https://www.reddit.com/user/yami0007",
+      "commentId": "t1_n7ln6oc",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n7ln6oc/",
+      "publishingDate": "2025-08-08T13:50:25+00:00",
+      "commentBody": "true.. most of the time the support person is clueless ..and at the end they are like this cant be done..",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_9nuq0xhi",
+      "author": "BuildingLLMTools",
+      "authorProfile": "https://www.reddit.com/user/BuildingLLMTools",
+      "commentId": "t1_n86voge",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n86voge/",
+      "publishingDate": "2025-08-11T22:30:59+00:00",
+      "commentBody": "Tired of Agentforce? Check out heyzest.ai. You won't be disappointed. This team cooks.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_1bsv5rdoi8",
+      "author": "BusinessDuiz",
+      "authorProfile": "https://www.reddit.com/user/BusinessDuiz",
+      "commentId": "t1_n2j6zmj",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2j6zmj/",
+      "publishingDate": "2025-07-11T11:44:53+00:00",
+      "commentBody": "The way is through, the AI can only get better if the number of people using it increases. Along side that, the more it gets used the better it can become. The companies that are going to survive the AI era are the ones that scale their AI the fastest, because they’ll be the ones with good and working models. We happen to be in the phase where it’s not scaled enough to be good yet, but the only way for it to get good is to peddle it. And the custom suffers the frustration of a half-baked product - capitalism at work. In my experience, most technology sucks until it gets better. The tech that improves is the tech that gets adopted or used. Technically, algorithms and machine learning only get better through iteration and scale. Using the first iPhone as an example, websites hadn't been optimized for mobile, so browsing wasn't great. SMS was limited to 140 characters and there was no app store. It was a great innovation that did a bunch of things mediocrely. All of this improved with adoption and feedback. Another example is chipsets. They are remarkably faster than they've ever been, but that's only because the semiconductors were iteratively improved over time. Nvidias first chipset was fabricated using a 40-nanometer process. Current chipsets use 5-nanometer process. The equipment used in the 5nm process was possible because of the processing power of the previously fabricated chipsets. Agentic AI is the dream that science fiction writers have had since its inception. The ability to command technology to our will and see it perform accordingly and with its own agency. I may be wrapped in my own hopefulness, but I believe that innovation requires iteration and that this technology requires an unbelievable amount of scale to achieve, It's hard for me to say that customers are being pushed a half-baked product because of capitalism. Rather, I tend towards the idea that we are at the front end of this innovation and if we want the future we must also accept the present.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": 0,
+      "replies": [
+        {
+          "authorId": "t2_4cxdp7gl",
+          "author": "Simple-Friend",
+          "authorProfile": "https://www.reddit.com/user/Simple-Friend",
+          "commentId": "t1_n2ny6gw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2ny6gw/",
+          "publishingDate": "2025-07-12T02:47:09+00:00",
+          "commentBody": "And the custom suffers the frustration of a half-baked product - capitalism at work. In my experience, most technology sucks until it gets better. The tech that improves is the tech that gets adopted or used. Technically, algorithms and machine learning only get better through iteration and scale. Using the first iPhone as an example, websites hadn't been optimized for mobile, so browsing wasn't great. SMS was limited to 140 characters and there was no app store. It was a great innovation that did a bunch of things mediocrely. All of this improved with adoption and feedback. Another example is chipsets. They are remarkably faster than they've ever been, but that's only because the semiconductors were iteratively improved over time. Nvidias first chipset was fabricated using a 40-nanometer process. Current chipsets use 5-nanometer process. The equipment used in the 5nm process was possible because of the processing power of the previously fabricated chipsets. Agentic AI is the dream that science fiction writers have had since its inception. The ability to command technology to our will and see it perform accordingly and with its own agency. I may be wrapped in my own hopefulness, but I believe that innovation requires iteration and that this technology requires an unbelievable amount of scale to achieve, It's hard for me to say that customers are being pushed a half-baked product because of capitalism. Rather, I tend towards the idea that we are at the front end of this innovation and if we want the future we must also accept the present.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1bsv5rdoi8",
+          "author": "BusinessDuiz",
+          "authorProfile": "https://www.reddit.com/user/BusinessDuiz",
+          "commentId": "t1_n2qb63p",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lwyain/so_sick_of_all_the_agentforce_hype_when/n2qb63p/",
+          "publishingDate": "2025-07-12T14:11:56+00:00",
+          "commentBody": "In my experience, most technology sucks until it gets better. The tech that improves is the tech that gets adopted or used. Technically, algorithms and machine learning only get better through iteration and scale. Using the first iPhone as an example, websites hadn't been optimized for mobile, so browsing wasn't great. SMS was limited to 140 characters and there was no app store. It was a great innovation that did a bunch of things mediocrely. All of this improved with adoption and feedback. Another example is chipsets. They are remarkably faster than they've ever been, but that's only because the semiconductors were iteratively improved over time. Nvidias first chipset was fabricated using a 40-nanometer process. Current chipsets use 5-nanometer process. The equipment used in the 5nm process was possible because of the processing power of the previously fabricated chipsets. Agentic AI is the dream that science fiction writers have had since its inception. The ability to command technology to our will and see it perform accordingly and with its own agency. I may be wrapped in my own hopefulness, but I believe that innovation requires iteration and that this technology requires an unbelievable amount of scale to achieve, It's hard for me to say that customers are being pushed a half-baked product because of capitalism. Rather, I tend towards the idea that we are at the front end of this innovation and if we want the future we must also accept the present.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    }
+  ]
+}

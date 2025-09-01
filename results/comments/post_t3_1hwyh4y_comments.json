@@ -1,0 +1,296 @@
+{
+  "info": {
+    "authorId": "t2_rldjqmc00",
+    "author": "ChineseThrowaway6693",
+    "authorProfile": "https://www.reddit.com/user/ChineseThrowaway6693",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1hwyh4y",
+    "postLabel": null,
+    "publishingDate": "2025-01-08T23:32:38+00:00",
+    "postTitle": "Need Help with Agentforce Project",
+    "postMessage": "Hello, I was recently reached out by a recruiter at Salesforce recruiting for their Agentforce team. I was told that for one of the rounds for the interview, I will be asked to \"prepare an Agentforce demo, showing your technical skills around the agent actions: flows and apex.\" I was also told that I could treat this kind of like a take-home assignment where I do it at home and then do it again in front of the interviewer. I have 0 prior experience using salesforce so I went to trailheads and followed the guide using Coral Cloud Resorts as an example. However, I feel like following that guide is not representative of what will actually be expected of me from the interview. Not only did I not write any Apex code (which the recruiter told me I would have to do during the interview, and I don't know where I'd even write it), but from my understanding of building something like this from scratch, I would have to create a website similar to the Coral Cloud Resorts on my own, and also set up data in the Data Cloud for me to consume. I just have no idea where to get started; I'm assuming that experience with the actual Salesforce platform is not required but I have no idea how to create my own Einstein AI playground or whatever. I don't even have a Salesforce account. I hit the recruiter back after realizing this asking to set up another 15 minute meeting tomorrow to ask clarifying questions, as this seems like a monumental task to do within a few days for someone with exactly 0 salesforce experience. Please help!!! Feel free to DM, if you comment for clarifications I promise I will respond.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/",
+    "commentCount": 22,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_cstr0",
+      "author": "ChimpyGlassman",
+      "authorProfile": "https://www.reddit.com/user/ChimpyGlassman",
+      "commentId": "t1_m64yr31",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m64yr31/",
+      "publishingDate": "2025-01-08T23:39:15+00:00",
+      "commentBody": "This is way, way too advanced for someone with zero experience. This is not the job for you. And who has experience in agentforce? Speaking as someone that worked at Salesforce for 3.5 years and interviewed multiple people for roles…I am not at all surprised that someone with zero experience made it this far in the interview process. You have to go through multiple phone screens just to get to the point where they give you a take-home assignment. AND your resume had to be picked out of the 100’s or 1,000’s of other applicants just to make it to a phone screen. My experience with recruiting/hiring at Salesforce is that they don’t know what the F they’re doing and may as well be throwing darts at a dart board. Multiple highly qualified people I referred…never even got contacted other than the auto-rejection email after like a month. People I interviewed for consultant roles (that had made it through multiple phone screens) had absolutely no experience with Salesforce. It’s a cluster over there. If you manage to apply on their site (Workday) and actually get a job at Salesforce you’re ridiculously lucky. I wound up there through an acquisition.",
+      "upvotes": 28,
+      "dislikes": 28,
+      "downvotes": 29,
+      "replies": [
+        {
+          "authorId": "t2_13qzz4",
+          "author": "Juss3pp3",
+          "authorProfile": "https://www.reddit.com/user/Juss3pp3",
+          "commentId": "t1_m657o4x",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m657o4x/",
+          "publishingDate": "2025-01-09T00:29:20+00:00",
+          "commentBody": "And who has experience in agentforce?",
+          "upvotes": 7,
+          "dislikes": 7,
+          "downvotes": 8
+        },
+        {
+          "authorId": "t2_f8tr1",
+          "author": "ScarHand69",
+          "authorProfile": "https://www.reddit.com/user/ScarHand69",
+          "commentId": "t1_m65r6be",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m65r6be/",
+          "publishingDate": "2025-01-09T02:20:40+00:00",
+          "commentBody": "Speaking as someone that worked at Salesforce for 3.5 years and interviewed multiple people for roles…I am not at all surprised that someone with zero experience made it this far in the interview process. You have to go through multiple phone screens just to get to the point where they give you a take-home assignment. AND your resume had to be picked out of the 100’s or 1,000’s of other applicants just to make it to a phone screen. My experience with recruiting/hiring at Salesforce is that they don’t know what the F they’re doing and may as well be throwing darts at a dart board. Multiple highly qualified people I referred…never even got contacted other than the auto-rejection email after like a month. People I interviewed for consultant roles (that had made it through multiple phone screens) had absolutely no experience with Salesforce. It’s a cluster over there. If you manage to apply on their site (Workday) and actually get a job at Salesforce you’re ridiculously lucky. I wound up there through an acquisition.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_vlxte733",
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_m6530il",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m6530il/",
+      "publishingDate": "2025-01-09T00:03:11+00:00",
+      "commentBody": "Lol BRO some self reflection please. Walk away. This is a waste of your time. You are NOT the man for the role here. Then why would the recruiter have reached out? I clarified to him I have less than 2 years of experience and no salesforce experience. Recruiters reach out to anybody",
+      "upvotes": 15,
+      "dislikes": 15,
+      "downvotes": 16,
+      "replies": [
+        {
+          "authorId": "t2_rldjqmc00",
+          "author": "ChineseThrowaway6693",
+          "authorProfile": "https://www.reddit.com/user/ChineseThrowaway6693",
+          "commentId": "t1_m68cne6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m68cne6/",
+          "publishingDate": "2025-01-09T14:51:26+00:00",
+          "commentBody": "Then why would the recruiter have reached out? I clarified to him I have less than 2 years of experience and no salesforce experience. Recruiters reach out to anybody",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        },
+        {
+          "authorId": "t2_ah0xgbky",
+          "author": "EducationalAd237",
+          "authorProfile": "https://www.reddit.com/user/EducationalAd237",
+          "commentId": "t1_m6a7g4b",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m6a7g4b/",
+          "publishingDate": "2025-01-09T20:19:23+00:00",
+          "commentBody": "Recruiters reach out to anybody",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_i6zoiyal",
+      "author": "becomes_",
+      "authorProfile": "https://www.reddit.com/user/becomes_",
+      "commentId": "t1_m65iuoq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m65iuoq/",
+      "publishingDate": "2025-01-09T01:32:13+00:00",
+      "commentBody": "Hi, current Salesforce employee and Agentforce technical SME here 👋 I will preface this by saying, if you have no prior experience in Salesforce AND you are not or have not recently been employed as a software engineer, technical architect, solution architect, technical consultant, solution engineer, or similar roles on a B2B enterprise software platform, you are probably extremely unqualified for any role involving Agentforce specialization, and you are not going to be able to develop the knowledge you need in this short amount of time. It would help to know the role you’re applying for, but I’m guessing it’s as an Agentforce specialist AE role? Either way, Agentforce itself, from a product standpoint, isn’t all that complicated, contrary to what some of the comments here imply; but what the comments got right is, in order to truly understand Agentforce, you need to be a salesforce platform expert; you need to understand, in great depth, the capabilities, limitations, and best practices around Data Modeling (you must be expert level at this one I particular) Flow, Apex (you DON’T need to know how to code, but you absolutely must understand coding concepts and where and how they can be leveraged and plugged into various other areas of the platform and other systems), security, sharing and visibility, and lightning. If you are even slightly fuzzy on what any of those are, you’re going to have a very short interview. Trailhead Trails on Agentforce won’t be enough. Spin up a playground, and try to build out your own use case, and get an agent to do something more than chat; get it to take actions and reason without being explicitly told something clearly. If you do t know where to start, this role is probably a bit out of your reach for now. But again, it would clarify that if you’ll let us know what role you’re after. Hope this helps. Edited to change emoji lol The role is forward deployed software engineer. The recruiter is is aware that I have less than 2 years of professional experience and little salesforce knowledge. I'm hoping that the nature of the prompt is just to create a basic bot that uses one flow, one apex function, one prompt, and one call to the data cloud. They asked a lot of questions about my ability to do prompt engineering and work with NLP libraries so I'm hoping they are looking to test my ability to build the actual bot and not deep knowledge of salesforce. Ok, so that’s like, pretty important context to put into your post, for future reference lol. In short, I think you’ll be fine for an engineering role. Apex is very similar to and based on Java. You won’t be expected to know much about Salesforce platform capabilities as an engineer. I think they want to know that you understand concepts behind “agentic” AI, and that your suspicions around them wanting to see that you can build a basic agent (not a bot) are correct. You do need to learn some basics. You can write apex in the developer console directly in the UI, for example. I would encourage you to use help.salesforce.com (there is a… someone decent ai agent on there that can point you in the right direction). I would also use ChatGPT to help you get to a basic level of understanding. This is an AI engineering role… use AI to help get you up to speed. You’ll need to understand flow (it’s essentially writing automations via a UI instead of coding) - very powerful tool, not hard to use, but important to know the basics of. I still think it will be helpful for you to understand data modeling in Salesforce, as any agent you build that takes actions will need to access objects (db tables) to do so in most cases. I think this is likely just testing your understanding of agentic architectures. I mentioned earlier that Agentforce as a product isn’t all that complicated… I want to clarify that from an underlying architecture (engineering) standpoint, it’s remarkably complex, so as much study about those structures as possible would be highly recommended. Otherwise, if you already have engineering experience in AI (particularly genAI implementation/design, you have a good shot at this.",
+      "upvotes": 9,
+      "dislikes": 9,
+      "downvotes": 10,
+      "replies": [
+        {
+          "authorId": "t2_rldjqmc00",
+          "author": "ChineseThrowaway6693",
+          "authorProfile": "https://www.reddit.com/user/ChineseThrowaway6693",
+          "commentId": "t1_m68celc",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m68celc/",
+          "publishingDate": "2025-01-09T14:50:06+00:00",
+          "commentBody": "The role is forward deployed software engineer. The recruiter is is aware that I have less than 2 years of professional experience and little salesforce knowledge. I'm hoping that the nature of the prompt is just to create a basic bot that uses one flow, one apex function, one prompt, and one call to the data cloud.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_rldjqmc00",
+          "author": "ChineseThrowaway6693",
+          "authorProfile": "https://www.reddit.com/user/ChineseThrowaway6693",
+          "commentId": "t1_m68exqf",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m68exqf/",
+          "publishingDate": "2025-01-09T15:03:50+00:00",
+          "commentBody": "They asked a lot of questions about my ability to do prompt engineering and work with NLP libraries so I'm hoping they are looking to test my ability to build the actual bot and not deep knowledge of salesforce. Ok, so that’s like, pretty important context to put into your post, for future reference lol. In short, I think you’ll be fine for an engineering role. Apex is very similar to and based on Java. You won’t be expected to know much about Salesforce platform capabilities as an engineer. I think they want to know that you understand concepts behind “agentic” AI, and that your suspicions around them wanting to see that you can build a basic agent (not a bot) are correct. You do need to learn some basics. You can write apex in the developer console directly in the UI, for example. I would encourage you to use help.salesforce.com (there is a… someone decent ai agent on there that can point you in the right direction). I would also use ChatGPT to help you get to a basic level of understanding. This is an AI engineering role… use AI to help get you up to speed. You’ll need to understand flow (it’s essentially writing automations via a UI instead of coding) - very powerful tool, not hard to use, but important to know the basics of. I still think it will be helpful for you to understand data modeling in Salesforce, as any agent you build that takes actions will need to access objects (db tables) to do so in most cases. I think this is likely just testing your understanding of agentic architectures. I mentioned earlier that Agentforce as a product isn’t all that complicated… I want to clarify that from an underlying architecture (engineering) standpoint, it’s remarkably complex, so as much study about those structures as possible would be highly recommended. Otherwise, if you already have engineering experience in AI (particularly genAI implementation/design, you have a good shot at this.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_i6zoiyal",
+          "author": "becomes_",
+          "authorProfile": "https://www.reddit.com/user/becomes_",
+          "commentId": "t1_m68w5xj",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m68w5xj/",
+          "publishingDate": "2025-01-09T16:31:12+00:00",
+          "commentBody": "Ok, so that’s like, pretty important context to put into your post, for future reference lol. In short, I think you’ll be fine for an engineering role. Apex is very similar to and based on Java. You won’t be expected to know much about Salesforce platform capabilities as an engineer. I think they want to know that you understand concepts behind “agentic” AI, and that your suspicions around them wanting to see that you can build a basic agent (not a bot) are correct. You do need to learn some basics. You can write apex in the developer console directly in the UI, for example. I would encourage you to use help.salesforce.com (there is a… someone decent ai agent on there that can point you in the right direction). I would also use ChatGPT to help you get to a basic level of understanding. This is an AI engineering role… use AI to help get you up to speed. You’ll need to understand flow (it’s essentially writing automations via a UI instead of coding) - very powerful tool, not hard to use, but important to know the basics of. I still think it will be helpful for you to understand data modeling in Salesforce, as any agent you build that takes actions will need to access objects (db tables) to do so in most cases. I think this is likely just testing your understanding of agentic architectures. I mentioned earlier that Agentforce as a product isn’t all that complicated… I want to clarify that from an underlying architecture (engineering) standpoint, it’s remarkably complex, so as much study about those structures as possible would be highly recommended. Otherwise, if you already have engineering experience in AI (particularly genAI implementation/design, you have a good shot at this.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_emb82xc0",
+      "author": "Spiritual_Command512",
+      "authorProfile": "https://www.reddit.com/user/Spiritual_Command512",
+      "commentId": "t1_m64z41m",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m64z41m/",
+      "publishingDate": "2025-01-08T23:41:16+00:00",
+      "commentBody": "What role are they recruiting you for?",
+      "upvotes": 7,
+      "dislikes": 7,
+      "downvotes": 8
+    },
+    {
+      "authorId": "t2_88ga9llt",
+      "author": "Present_Wafer_2905",
+      "authorProfile": "https://www.reddit.com/user/Present_Wafer_2905",
+      "commentId": "t1_m657amq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m657amq/",
+      "publishingDate": "2025-01-09T00:27:15+00:00",
+      "commentBody": "Would love to be a fly on the wall",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5
+    },
+    {
+      "authorId": "t2_56ewtigb",
+      "author": "Bnuck8709",
+      "authorProfile": "https://www.reddit.com/user/Bnuck8709",
+      "commentId": "t1_m6566si",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m6566si/",
+      "publishingDate": "2025-01-09T00:21:00+00:00",
+      "commentBody": "Is this a sales job or something more technical? Most likely the Solution Engineer role. forward deployed software engineer",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_7e2dh69v",
+          "author": "ductoanvn",
+          "authorProfile": "https://www.reddit.com/user/ductoanvn",
+          "commentId": "t1_m659efg",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m659efg/",
+          "publishingDate": "2025-01-09T00:38:59+00:00",
+          "commentBody": "Most likely the Solution Engineer role.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_rldjqmc00",
+          "author": "ChineseThrowaway6693",
+          "authorProfile": "https://www.reddit.com/user/ChineseThrowaway6693",
+          "commentId": "t1_m68ciqq",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m68ciqq/",
+          "publishingDate": "2025-01-09T14:50:43+00:00",
+          "commentBody": "forward deployed software engineer",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_534m2302",
+      "author": "motonahi",
+      "authorProfile": "https://www.reddit.com/user/motonahi",
+      "commentId": "t1_m65ln9v",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m65ln9v/",
+      "publishingDate": "2025-01-09T01:48:15+00:00",
+      "commentBody": "I'm really curious what in your background made this SF recruiter reach out to you 🤔 Probably an Avenger.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_30ortnyt",
+          "author": "Lambchoptopus",
+          "authorProfile": "https://www.reddit.com/user/Lambchoptopus",
+          "commentId": "t1_m65o04g",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m65o04g/",
+          "publishingDate": "2025-01-09T02:01:52+00:00",
+          "commentBody": "Probably an Avenger.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_88snh0ik",
+      "author": "This_Wolverine4691",
+      "authorProfile": "https://www.reddit.com/user/This_Wolverine4691",
+      "commentId": "t1_m65f3el",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m65f3el/",
+      "publishingDate": "2025-01-09T01:10:47+00:00",
+      "commentBody": "Weird they specifically cited Apex since Agentforces whole deal is coding is a necessity for agent building but who knows",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_l7pnl8hmo",
+      "author": "TravelBlogger-24",
+      "authorProfile": "https://www.reddit.com/user/TravelBlogger-24",
+      "commentId": "t1_m65r54f",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m65r54f/",
+      "publishingDate": "2025-01-09T02:20:28+00:00",
+      "commentBody": "They are scamming you. Don’t bother wasting your time to the request from a recruiter. I had to do presentations for a client on some fictional use case and never got the job. Waste of your time and dime.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": null,
+      "author": null,
+      "authorProfile": null,
+      "commentId": "t1_m65rw6p",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m65rw6p/",
+      "publishingDate": "2025-01-09T02:25:01+00:00",
+      "commentBody": "Shoot, I don't think I have the credentials to help but I wouldn't mind trying in your place. Congrats, either way lmao. Feel free to try and let me know how it goes lol. Send it here or Dm it. Appreciate ya.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": 0,
+      "replies": [
+        {
+          "authorId": "t2_rldjqmc00",
+          "author": "ChineseThrowaway6693",
+          "authorProfile": "https://www.reddit.com/user/ChineseThrowaway6693",
+          "commentId": "t1_m68bqdo",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m68bqdo/",
+          "publishingDate": "2025-01-09T14:46:23+00:00",
+          "commentBody": "Feel free to try and let me know how it goes lol. Send it here or Dm it. Appreciate ya.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_m68ft82",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hwyh4y/need_help_with_agentforce_project/m68ft82/",
+          "publishingDate": "2025-01-09T15:08:34+00:00",
+          "commentBody": "Send it here or Dm it. Appreciate ya.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    }
+  ]
+}

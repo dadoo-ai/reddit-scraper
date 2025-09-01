@@ -1,0 +1,634 @@
+{
+  "info": {
+    "authorId": "t2_2z9p0xff",
+    "author": "MonayZ",
+    "authorProfile": "https://www.reddit.com/user/MonayZ",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1m1sf1s",
+    "postLabel": null,
+    "publishingDate": "2025-07-16T23:46:10+00:00",
+    "postTitle": "What have you done with Agentforce?",
+    "postMessage": "I just got invited to be part of our AI team that will implement agentforce. Now I am thinking on what kind of features can I build using agentforce. Can someone share some features they built before?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/",
+    "commentCount": 53,
+    "upvoteCount": 35,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_hsb2wjgvf",
+      "author": "Ok_Captain4824",
+      "authorProfile": "https://www.reddit.com/user/Ok_Captain4824",
+      "commentId": "t1_n3jkdlg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3jkdlg/",
+      "publishingDate": "2025-07-17T00:10:41+00:00",
+      "commentBody": "I've seen some cool CPQ agents where you give your reps a conversational input to create a quote with configured bundles, going a step beyond screen flows and guided selling. We're building this on the voice side too - curious what industries you have seen any successful deployments of what described. Haven't come across any so more info would help! [removed] Sorry, to combat scammers using throwaways to bolster their image, we require accounts exist for at least 7 days before posting.  Your message was hidden from the forum  but you can come back and post once your account is 7 days old I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+      "upvotes": 21,
+      "dislikes": 21,
+      "downvotes": 22,
+      "replies": [
+        {
+          "authorId": "t2_5v4hojjo",
+          "author": "Gsheetz20",
+          "authorProfile": "https://www.reddit.com/user/Gsheetz20",
+          "commentId": "t1_n42cfy3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n42cfy3/",
+          "publishingDate": "2025-07-19T21:46:17+00:00",
+          "commentBody": "We're building this on the voice side too - curious what industries you have seen any successful deployments of what described. Haven't come across any so more info would help!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_6l4z3",
+          "author": "AutoModerator",
+          "authorProfile": "https://www.reddit.com/user/AutoModerator",
+          "commentId": "t1_n6d4bgw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n6d4bgw/",
+          "publishingDate": "2025-08-01T15:18:06+00:00",
+          "commentBody": "Sorry, to combat scammers using throwaways to bolster their image, we require accounts exist for at least 7 days before posting.  Your message was hidden from the forum  but you can come back and post once your account is 7 days old I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_67lh6",
+      "author": "oxeneers",
+      "authorProfile": "https://www.reddit.com/user/oxeneers",
+      "commentId": "t1_n3jsik7",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3jsik7/",
+      "publishingDate": "2025-07-17T00:59:05+00:00",
+      "commentBody": "I think folks have made cool stuff so far. I've made FAQ agents, intake agents, enrollment agents, etc. www.seefoodie.com is powered by Agentforce. https://www.youtube.com/watch?v=AX1uofnsWNQ - This is a straightforward multimodal agent you can build via prompt templates. They even give you the prompt template. Not to be a jerk but none of those agents move the meter on revenue/profits. ServiceNow walked me through their AI and I kept stopping them like show me something that differentiates them from the pack or moves the chain on revenue. Even if we could replace level 0/1 support who cares. That’s not much $$$ at the end of the day. That's my take. Still waiting for something that moves the needle. Chat support bots seem to be the best ROI at the moment... Segmentation using plain language, campaign builds, web lead agents and many more saving a huge amount of time and delivering revenue generating activities. But all of that was already automated for us, at least to an extent. I see your point though, probably much lower barrier to do it with AI Very interesting take. I have been looking for (hunting for) high-impact AgentForce use cases. Coming up empty handed so far :( Seefoodie is cool, what’s it hosted on? Are you paying $2 each time someone uploads a menu? This is not my site. And just FYI - Flex Credits are now in place of the old Conversation model. https://www.salesforce.com/news/press-releases/2025/05/15/agentforce-flexible-pricing-news/",
+      "upvotes": 15,
+      "dislikes": 15,
+      "downvotes": 16,
+      "replies": [
+        {
+          "authorId": "t2_1kb6rrz5cn",
+          "author": "TowerOutrageous5939",
+          "authorProfile": "https://www.reddit.com/user/TowerOutrageous5939",
+          "commentId": "t1_n3m42zs",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3m42zs/",
+          "publishingDate": "2025-07-17T11:44:36+00:00",
+          "commentBody": "Not to be a jerk but none of those agents move the meter on revenue/profits. ServiceNow walked me through their AI and I kept stopping them like show me something that differentiates them from the pack or moves the chain on revenue. Even if we could replace level 0/1 support who cares. That’s not much $$$ at the end of the day. That's my take. Still waiting for something that moves the needle. Chat support bots seem to be the best ROI at the moment... Segmentation using plain language, campaign builds, web lead agents and many more saving a huge amount of time and delivering revenue generating activities. But all of that was already automated for us, at least to an extent. I see your point though, probably much lower barrier to do it with AI Very interesting take. I have been looking for (hunting for) high-impact AgentForce use cases. Coming up empty handed so far :(",
+          "upvotes": 7,
+          "dislikes": 7,
+          "downvotes": 8
+        },
+        {
+          "authorId": "t2_1qkn1j7ky4",
+          "author": "DefiantTelephone6095",
+          "authorProfile": "https://www.reddit.com/user/DefiantTelephone6095",
+          "commentId": "t1_n3miukb",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3miukb/",
+          "publishingDate": "2025-07-17T13:11:50+00:00",
+          "commentBody": "That's my take. Still waiting for something that moves the needle. Chat support bots seem to be the best ROI at the moment... Segmentation using plain language, campaign builds, web lead agents and many more saving a huge amount of time and delivering revenue generating activities. But all of that was already automated for us, at least to an extent. I see your point though, probably much lower barrier to do it with AI",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_8i5i85kp",
+          "author": "Meatpiessavelives",
+          "authorProfile": "https://www.reddit.com/user/Meatpiessavelives",
+          "commentId": "t1_n4bl2xf",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n4bl2xf/",
+          "publishingDate": "2025-07-21T11:14:03+00:00",
+          "commentBody": "Segmentation using plain language, campaign builds, web lead agents and many more saving a huge amount of time and delivering revenue generating activities. But all of that was already automated for us, at least to an extent. I see your point though, probably much lower barrier to do it with AI",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1qkn1j7ky4",
+          "author": "DefiantTelephone6095",
+          "authorProfile": "https://www.reddit.com/user/DefiantTelephone6095",
+          "commentId": "t1_n4bluvy",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n4bluvy/",
+          "publishingDate": "2025-07-21T11:19:55+00:00",
+          "commentBody": "But all of that was already automated for us, at least to an extent. I see your point though, probably much lower barrier to do it with AI",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_yu9il",
+          "author": "kamroot",
+          "authorProfile": "https://www.reddit.com/user/kamroot",
+          "commentId": "t1_n3nfkht",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3nfkht/",
+          "publishingDate": "2025-07-17T15:49:34+00:00",
+          "commentBody": "Very interesting take. I have been looking for (hunting for) high-impact AgentForce use cases. Coming up empty handed so far :(",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        },
+        {
+          "authorId": "t2_ewkgo",
+          "author": "francis1450",
+          "authorProfile": "https://www.reddit.com/user/francis1450",
+          "commentId": "t1_n3kdyod",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3kdyod/",
+          "publishingDate": "2025-07-17T03:11:08+00:00",
+          "commentBody": "Seefoodie is cool, what’s it hosted on?",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_dapkq6dq",
+          "author": "Simple-Art-2338",
+          "authorProfile": "https://www.reddit.com/user/Simple-Art-2338",
+          "commentId": "t1_n3shsgn",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3shsgn/",
+          "publishingDate": "2025-07-18T10:18:43+00:00",
+          "commentBody": "Are you paying $2 each time someone uploads a menu? This is not my site. And just FYI - Flex Credits are now in place of the old Conversation model. https://www.salesforce.com/news/press-releases/2025/05/15/agentforce-flexible-pricing-news/",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_67lh6",
+          "author": "oxeneers",
+          "authorProfile": "https://www.reddit.com/user/oxeneers",
+          "commentId": "t1_n3yfwr3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3yfwr3/",
+          "publishingDate": "2025-07-19T07:05:02+00:00",
+          "commentBody": "This is not my site. And just FYI - Flex Credits are now in place of the old Conversation model. https://www.salesforce.com/news/press-releases/2025/05/15/agentforce-flexible-pricing-news/",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_7ap94mtw",
+      "author": "Ok_Wealth_7711",
+      "authorProfile": "https://www.reddit.com/user/Ok_Wealth_7711",
+      "commentId": "t1_n3k9ofe",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3k9ofe/",
+      "publishingDate": "2025-07-17T02:43:10+00:00",
+      "commentBody": "This all feels very much like a solution looking for a problem.",
+      "upvotes": 13,
+      "dislikes": 13,
+      "downvotes": 14
+    },
+    {
+      "authorId": "t2_1fczx4qa9i",
+      "author": "Character_Affect3842",
+      "authorProfile": "https://www.reddit.com/user/Character_Affect3842",
+      "commentId": "t1_n3laprf",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3laprf/",
+      "publishingDate": "2025-07-17T07:31:06+00:00",
+      "commentBody": "Paid for it 😅😂",
+      "upvotes": 11,
+      "dislikes": 11,
+      "downvotes": 12,
+      "replies": [
+        {
+          "authorId": "t2_1j7emisbcf",
+          "author": "Creative-Lobster3601",
+          "authorProfile": "https://www.reddit.com/user/Creative-Lobster3601",
+          "commentId": "t1_n3lfnsw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3lfnsw/",
+          "publishingDate": "2025-07-17T08:17:33+00:00",
+          "commentBody": "😅😂",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_emydk",
+      "author": "Majeh1254",
+      "authorProfile": "https://www.reddit.com/user/Majeh1254",
+      "commentId": "t1_n3juzbx",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3juzbx/",
+      "publishingDate": "2025-07-17T01:13:46+00:00",
+      "commentBody": "I've been making an agent that connects to workday with a user query to make reports rather than users making them manually, and it's interacted with through slack so that's neat What type of reports are you having them generate? To my understanding it's just basic internal worker/employee related information. I don't know much past that",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6,
+      "replies": [
+        {
+          "authorId": "t2_5v4hojjo",
+          "author": "Gsheetz20",
+          "authorProfile": "https://www.reddit.com/user/Gsheetz20",
+          "commentId": "t1_n42cnll",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n42cnll/",
+          "publishingDate": "2025-07-19T21:47:27+00:00",
+          "commentBody": "What type of reports are you having them generate? To my understanding it's just basic internal worker/employee related information. I don't know much past that",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_emydk",
+          "author": "Majeh1254",
+          "authorProfile": "https://www.reddit.com/user/Majeh1254",
+          "commentId": "t1_n42n1m6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n42n1m6/",
+          "publishingDate": "2025-07-19T22:46:57+00:00",
+          "commentBody": "To my understanding it's just basic internal worker/employee related information. I don't know much past that",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1kb6rrz5cn",
+      "author": "TowerOutrageous5939",
+      "authorProfile": "https://www.reddit.com/user/TowerOutrageous5939",
+      "commentId": "t1_n3m3jhg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3m3jhg/",
+      "publishingDate": "2025-07-17T11:40:56+00:00",
+      "commentBody": "We replaced a working interface in a B2B portal with an agent that can look up orders. Literally repackaged a working solution and made it a touch bit worse for the customer experience…..so in reality nothing Was the use case to help CS reps get that info in real time? Anyone in the portal, mainly customers. They had the functionality already now we added it in chat as well. Could have done the same with any companies offering or easily developed on our own. So far no one uses the functionality. We have already had automated updates and such for years. Also regarding reps they have had a tool custom that hits the API gateway and pulls everything into a single view instantly. Built before I started but very nice and well architected. Minimal code and beautiful UI/UX because of their decision to be fully service based.",
+      "upvotes": 7,
+      "dislikes": 7,
+      "downvotes": 8,
+      "replies": [
+        {
+          "authorId": "t2_5v4hojjo",
+          "author": "Gsheetz20",
+          "authorProfile": "https://www.reddit.com/user/Gsheetz20",
+          "commentId": "t1_n42cwnz",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n42cwnz/",
+          "publishingDate": "2025-07-19T21:48:50+00:00",
+          "commentBody": "Was the use case to help CS reps get that info in real time? Anyone in the portal, mainly customers. They had the functionality already now we added it in chat as well. Could have done the same with any companies offering or easily developed on our own. So far no one uses the functionality. We have already had automated updates and such for years. Also regarding reps they have had a tool custom that hits the API gateway and pulls everything into a single view instantly. Built before I started but very nice and well architected. Minimal code and beautiful UI/UX because of their decision to be fully service based.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1kb6rrz5cn",
+          "author": "TowerOutrageous5939",
+          "authorProfile": "https://www.reddit.com/user/TowerOutrageous5939",
+          "commentId": "t1_n42drtl",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n42drtl/",
+          "publishingDate": "2025-07-19T21:53:33+00:00",
+          "commentBody": "Anyone in the portal, mainly customers. They had the functionality already now we added it in chat as well. Could have done the same with any companies offering or easily developed on our own. So far no one uses the functionality. We have already had automated updates and such for years.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1kb6rrz5cn",
+          "author": "TowerOutrageous5939",
+          "authorProfile": "https://www.reddit.com/user/TowerOutrageous5939",
+          "commentId": "t1_n42e9c0",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n42e9c0/",
+          "publishingDate": "2025-07-19T21:56:15+00:00",
+          "commentBody": "Also regarding reps they have had a tool custom that hits the API gateway and pulls everything into a single view instantly. Built before I started but very nice and well architected. Minimal code and beautiful UI/UX because of their decision to be fully service based.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_lesfnndh",
+      "author": "AccountNumeroThree",
+      "authorProfile": "https://www.reddit.com/user/AccountNumeroThree",
+      "commentId": "t1_n3jjsor",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3jjsor/",
+      "publishingDate": "2025-07-17T00:07:15+00:00",
+      "commentBody": "Nothing The essence of Agentforce, filtered into 1 single word of truth.",
+      "upvotes": 38,
+      "dislikes": 38,
+      "downvotes": 39,
+      "replies": [
+        {
+          "authorId": "t2_o8tw7zy",
+          "author": "clonehunterz",
+          "authorProfile": "https://www.reddit.com/user/clonehunterz",
+          "commentId": "t1_n3kvt9c",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3kvt9c/",
+          "publishingDate": "2025-07-17T05:22:38+00:00",
+          "commentBody": "The essence of Agentforce, filtered into 1 single word of truth.",
+          "upvotes": 9,
+          "dislikes": 9,
+          "downvotes": 10
+        }
+      ]
+    },
+    {
+      "authorId": "t2_8h2de",
+      "author": "boingmydoing",
+      "authorProfile": "https://www.reddit.com/user/boingmydoing",
+      "commentId": "t1_n3k2wt5",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3k2wt5/",
+      "publishingDate": "2025-07-17T02:01:10+00:00",
+      "commentBody": "We evaluated it. And pretty early on we decided to go with something else. what are you guys using now?",
+      "upvotes": 9,
+      "dislikes": 9,
+      "downvotes": 10,
+      "replies": [
+        {
+          "authorId": "t2_hbv1ht2o",
+          "author": "linuxrocks1",
+          "authorProfile": "https://www.reddit.com/user/linuxrocks1",
+          "commentId": "t1_n3x2mfm",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3x2mfm/",
+          "publishingDate": "2025-07-19T01:00:13+00:00",
+          "commentBody": "what are you guys using now?",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_4x2u2j55",
+      "author": "Rhinoridiana",
+      "authorProfile": "https://www.reddit.com/user/Rhinoridiana",
+      "commentId": "t1_n3k0ia1",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3k0ia1/",
+      "publishingDate": "2025-07-17T01:46:49+00:00",
+      "commentBody": "Is your data tighter than a forehead after a Botox appointment? Assuming, like all of us, the answer is no…. Then you’re in for a fun H2.",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5
+    },
+    {
+      "authorId": "t2_9nsfu2df",
+      "author": "OkAd402",
+      "authorProfile": "https://www.reddit.com/user/OkAd402",
+      "commentId": "t1_n3kzegf",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3kzegf/",
+      "publishingDate": "2025-07-17T05:52:31+00:00",
+      "commentBody": "An IT Helpdesk agent serving ~80k employees. Do people like it? Is it truly fixing the issues or serving the content from the knowledge base for them to self serve. Some do some don’t. KPI wise, it has been a success. Mostly answering from knowledge although we have some services that are 100 % automated. Like kicking off actions on devices. We keep enhancing it for more true end to end automation That’s good to hear The 2nd one, it’s always the 2nd one.",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5,
+      "replies": [
+        {
+          "authorId": "t2_1kb6rrz5cn",
+          "author": "TowerOutrageous5939",
+          "authorProfile": "https://www.reddit.com/user/TowerOutrageous5939",
+          "commentId": "t1_n3m4ap0",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3m4ap0/",
+          "publishingDate": "2025-07-17T11:46:01+00:00",
+          "commentBody": "Do people like it? Is it truly fixing the issues or serving the content from the knowledge base for them to self serve. Some do some don’t. KPI wise, it has been a success. Mostly answering from knowledge although we have some services that are 100 % automated. Like kicking off actions on devices. We keep enhancing it for more true end to end automation That’s good to hear The 2nd one, it’s always the 2nd one.",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": "t2_9nsfu2df",
+          "author": "OkAd402",
+          "authorProfile": "https://www.reddit.com/user/OkAd402",
+          "commentId": "t1_n3pkmze",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3pkmze/",
+          "publishingDate": "2025-07-17T21:52:45+00:00",
+          "commentBody": "Some do some don’t. KPI wise, it has been a success. Mostly answering from knowledge although we have some services that are 100 % automated. Like kicking off actions on devices. We keep enhancing it for more true end to end automation That’s good to hear",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": "t2_1kb6rrz5cn",
+          "author": "TowerOutrageous5939",
+          "authorProfile": "https://www.reddit.com/user/TowerOutrageous5939",
+          "commentId": "t1_n3pkue4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3pkue4/",
+          "publishingDate": "2025-07-17T21:53:47+00:00",
+          "commentBody": "That’s good to hear",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_c2sjm",
+          "author": "justintime06",
+          "authorProfile": "https://www.reddit.com/user/justintime06",
+          "commentId": "t1_n3npko4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3npko4/",
+          "publishingDate": "2025-07-17T16:36:12+00:00",
+          "commentBody": "The 2nd one, it’s always the 2nd one.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_5ycqjjmk",
+      "author": "protoadmin",
+      "authorProfile": "https://www.reddit.com/user/protoadmin",
+      "commentId": "t1_n3lmtjv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3lmtjv/",
+      "publishingDate": "2025-07-17T09:26:30+00:00",
+      "commentBody": "Nothing. There's literally not a single use case that could not also be solved with a basic UI.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_1u9zfo5i",
+      "author": "Djcarnegie",
+      "authorProfile": "https://www.reddit.com/user/Djcarnegie",
+      "commentId": "t1_n3q2d1l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3q2d1l/",
+      "publishingDate": "2025-07-17T23:28:45+00:00",
+      "commentBody": "omg is there gonna be post like this everyday",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_8l3aq72j",
+      "author": "TheSauce___",
+      "authorProfile": "https://www.reddit.com/user/TheSauce___",
+      "commentId": "t1_n3jjt6u",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3jjt6u/",
+      "publishingDate": "2025-07-17T00:07:20+00:00",
+      "commentBody": "I’ve set up AIs other than Agentforce because Agentforce is shit, that’s about it 🤷 I think that’s a pretty common sentiment, either “we used something else” or “we didn’t use it” because Agentforce is garbage 🗑️ Either way - the big use-case for AI in the Salesforce space is ignoring customers, mostly building AI chatbots so you don’t have to pay people to talk to customers. Other than that… I haven’t seen any use-cases that aren’t just variants of “put a chat gpt chat window on a record page” You gotta love Reddit, where people don’t hold back with their strong opinion fueled by limited insights :)",
+      "upvotes": 14,
+      "dislikes": 14,
+      "downvotes": 15,
+      "replies": [
+        {
+          "authorId": "t2_e403d2g0",
+          "author": "charliespeed8",
+          "authorProfile": "https://www.reddit.com/user/charliespeed8",
+          "commentId": "t1_n3p2utr",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3p2utr/",
+          "publishingDate": "2025-07-17T20:26:30+00:00",
+          "commentBody": "You gotta love Reddit, where people don’t hold back with their strong opinion fueled by limited insights :)",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_vl6h88hj",
+      "author": "DiligentSelection707",
+      "authorProfile": "https://www.reddit.com/user/DiligentSelection707",
+      "commentId": "t1_n3joap7",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3joap7/",
+      "publishingDate": "2025-07-17T00:33:53+00:00",
+      "commentBody": "I've got 23 years working in Salesforce. I have yet to configure Agentforce in a way that is helpful. \nThe Agentforce \"v1&2\" had no organized setup process. Seems like that's now available or soon to be. Learning Agentforce requires much better training then Trailhead can offer. Hope it changes. I have big plans for it. But only if it becomes more easy to access the functionality needed. When you say plans, can you describe what you mean/ideas you’re thinking about?",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7,
+      "replies": [
+        {
+          "authorId": "t2_ewkgo",
+          "author": "francis1450",
+          "authorProfile": "https://www.reddit.com/user/francis1450",
+          "commentId": "t1_n3jtwtm",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3jtwtm/",
+          "publishingDate": "2025-07-17T01:07:22+00:00",
+          "commentBody": "When you say plans, can you describe what you mean/ideas you’re thinking about?",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        }
+      ]
+    },
+    {
+      "authorId": "t2_5h43p28m",
+      "author": "elephaaaant",
+      "authorProfile": "https://www.reddit.com/user/elephaaaant",
+      "commentId": "t1_n3jw0ny",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3jw0ny/",
+      "publishingDate": "2025-07-17T01:19:58+00:00",
+      "commentBody": "Following this because I'm interested to get ideas from others. The fundamental issue we have with Agentforce is the \"if X user ends up manually modifying the output anyway, what's the point\" problem. I really want to utilize it, hope anyone who has implemented some use cases is okay to share stuff here.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_10y4my",
+      "author": "KingB408",
+      "authorProfile": "https://www.reddit.com/user/KingB408",
+      "commentId": "t1_n3jx8ik",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3jx8ik/",
+      "publishingDate": "2025-07-17T01:27:18+00:00",
+      "commentBody": "I'm taking the Udemy course \"Mastering Salesforce AI: Agent Force and Prompt Templates\" with the goal of getting Agentforce certified (They're retiring the AI Associate). Would love to follow this thread and get ideas. Is that why it’s free? The AI Associate cert? Agentforce testing is free as well through 2025. First time at least. I think if you have to retake it's $100. I think it's an effort to grow the Agentforce user base.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_ans10",
+          "author": "welshbottledwater",
+          "authorProfile": "https://www.reddit.com/user/welshbottledwater",
+          "commentId": "t1_n3kx3yo",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3kx3yo/",
+          "publishingDate": "2025-07-17T05:33:28+00:00",
+          "commentBody": "Is that why it’s free? The AI Associate cert? Agentforce testing is free as well through 2025. First time at least. I think if you have to retake it's $100. I think it's an effort to grow the Agentforce user base.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_10y4my",
+          "author": "KingB408",
+          "authorProfile": "https://www.reddit.com/user/KingB408",
+          "commentId": "t1_n3l010t",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3l010t/",
+          "publishingDate": "2025-07-17T05:57:45+00:00",
+          "commentBody": "Agentforce testing is free as well through 2025. First time at least. I think if you have to retake it's $100. I think it's an effort to grow the Agentforce user base.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1j6u7vxn4z",
+      "author": "DirectionLast2550",
+      "authorProfile": "https://www.reddit.com/user/DirectionLast2550",
+      "commentId": "t1_n3l5s23",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3l5s23/",
+      "publishingDate": "2025-07-17T06:46:45+00:00",
+      "commentBody": "Popular features built with Agentforce include AI-powered chatbots for lead qualification, smart case routing, email summarization, and auto-replies. Great for boosting productivity and response times! Ask ChatGPT lol",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_1kb6rrz5cn",
+          "author": "TowerOutrageous5939",
+          "authorProfile": "https://www.reddit.com/user/TowerOutrageous5939",
+          "commentId": "t1_n3m5yr2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3m5yr2/",
+          "publishingDate": "2025-07-17T11:56:46+00:00",
+          "commentBody": "lol",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_rvhg1ny1",
+      "author": "TechnicalPotpourri",
+      "authorProfile": "https://www.reddit.com/user/TechnicalPotpourri",
+      "commentId": "t1_n3k14vh",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3k14vh/",
+      "publishingDate": "2025-07-17T01:50:30+00:00",
+      "commentBody": "Love to hear from others about their use cases",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_1p8uvcnr",
+      "author": "Shubham_Gupta94",
+      "authorProfile": "https://www.reddit.com/user/Shubham_Gupta94",
+      "commentId": "t1_n3m8qfd",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3m8qfd/",
+      "publishingDate": "2025-07-17T12:14:05+00:00",
+      "commentBody": "I'm not sure if you'd prefer this level of detail, but I wanted to share a few of the AI agents developed by Grazitti under their new Agentforce initiative: SKU Manager Helps clean up obsolete products, identify underperforming SKUs, and recommend cross-sell and upsell opportunities. Sinergify Agent Streamlines automation for quicker, more accurate collaboration by integrating Jira (Core, Ops, Software, Service Desk) with Salesforce. Meeting Evaluator Automatically creates cases from Zoom meetings, generates summaries using LLMs, and manages data efficiently, improving productivity, minimizing manual errors, and supporting real-time decision-making. For more information, check this link [ https://www.grazitti.com/services/crm/solutions/salesforce-agentforce-development/ ]. I hope this helps! [removed] Sorry, to combat scammers using throwaways to bolster their image, we require accounts exist for at least 7 days before posting.  Your message was hidden from the forum  but you can come back and post once your account is 7 days old I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_6l4z3",
+          "author": "AutoModerator",
+          "authorProfile": "https://www.reddit.com/user/AutoModerator",
+          "commentId": "t1_n3mcnq2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n3mcnq2/",
+          "publishingDate": "2025-07-17T12:37:29+00:00",
+          "commentBody": "Sorry, to combat scammers using throwaways to bolster their image, we require accounts exist for at least 7 days before posting.  Your message was hidden from the forum  but you can come back and post once your account is 7 days old I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_e0bjwdmpt",
+      "author": "NervousAd1125",
+      "authorProfile": "https://www.reddit.com/user/NervousAd1125",
+      "commentId": "t1_n4pev11",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n4pev11/",
+      "publishingDate": "2025-07-23T13:00:36+00:00",
+      "commentBody": "Agentforce has a lot of potential if you focus on high-impact areas like case summarization, smart routing, or auto-suggesting knowledge articles and macros. I've seen some really solid ideas out there—might be worth checking out the kind of work Ksolves has done in this space for inspiration. Start small, focus on repetitive pain points, and build from there.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_1eu8ozs3r0",
+      "author": "Savings-Sand-6861",
+      "authorProfile": "https://www.reddit.com/user/Savings-Sand-6861",
+      "commentId": "t1_n6ydumy",
+      "link": "https://www.reddit.com/r/salesforce/comments/1m1sf1s/what_have_you_done_with_agentforce/n6ydumy/",
+      "publishingDate": "2025-08-04T22:42:30+00:00",
+      "commentBody": "This is what StoreConnect made, with Agentforce, we are built on Sales Cloud: https://www.linkedin.com/posts/jeanavivejanssen_agentforce-edu-ai-activity-7356768794611994624-OhOx?utm_source=share&utm_medium=member_desktop&rcm=ACoAAABU_yYBixaNAST-EJmuH-adY36ivf_KM6k",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

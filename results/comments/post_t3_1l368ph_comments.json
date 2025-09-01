@@ -1,0 +1,82 @@
+{
+  "info": {
+    "authorId": "t2_g64kyxlc",
+    "author": "Designer_Net_4864",
+    "authorProfile": "https://www.reddit.com/user/Designer_Net_4864",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1l368ph",
+    "postLabel": null,
+    "publishingDate": "2025-06-04T13:57:26+00:00",
+    "postTitle": "What licenses are needed to activate Agentforce Prompt Builder and Data Cloud if we're on Partner Edition?",
+    "postMessage": "Hi everyone! I work at a Salesforce partner company and we’re currently exploring Agentforce. We have Partner Edition licenses and we've noticed that the Einstein Agents permission set license appears as disabled in our org. Because of that, we can’t assign permission sets like Access Agentforce Default Agent , and Prompt Builder is not available either. We’re not planning to use the default agent — we want to build a custom Slack-connected agent — but it seems we still need one of the Einstein licenses to get started. So, my main questions are: Do we need to purchase Einstein for Service (or Einstein for Sales / Einstein Platform) just to activate the Prompt Builder and assign Agentforce permissions, even for custom agents? What specific additional licenses (if any) do we need to fully activate Agentforce in a Partner Edition org? For Data Cloud , we only have the 10,000 Foundations credits . Do we need to purchase any additional license to actually activate Data Cloud features like ingestion, segmentation, and record linking? Any clarification or advice would be really appreciated! 🙏",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1l368ph/what_licenses_are_needed_to_activate_agentforce/",
+    "commentCount": 7,
+    "upvoteCount": 1,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_1hb43tl17j",
+      "author": "Holiday-Platypus5708",
+      "authorProfile": "https://www.reddit.com/user/Holiday-Platypus5708",
+      "commentId": "t1_mvycxz6",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l368ph/what_licenses_are_needed_to_activate_agentforce/mvycxz6/",
+      "publishingDate": "2025-06-04T14:08:09+00:00",
+      "commentBody": "You gotta know this whole thing is FUBAR when partners don't understand how the licensing works. [removed] Sorry, to combat scammers using throwaways to bolster their image, we require accounts exist for at least 7 days before posting.  Your message was hidden from the forum  but you can come back and post once your account is 7 days old I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7,
+      "replies": [
+        {
+          "authorId": "t2_6l4z3",
+          "author": "AutoModerator",
+          "authorProfile": "https://www.reddit.com/user/AutoModerator",
+          "commentId": "t1_mvzezjy",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l368ph/what_licenses_are_needed_to_activate_agentforce/mvzezjy/",
+          "publishingDate": "2025-06-04T17:08:41+00:00",
+          "commentBody": "Sorry, to combat scammers using throwaways to bolster their image, we require accounts exist for at least 7 days before posting.  Your message was hidden from the forum  but you can come back and post once your account is 7 days old I am a bot, and this action was performed automatically. Please contact the moderators of this subreddit if you have any questions or concerns.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_cq4mbxh6",
+      "author": "Suspicious-Nerve-487",
+      "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+      "commentId": "t1_mw180gw",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l368ph/what_licenses_are_needed_to_activate_agentforce/mw180gw/",
+      "publishingDate": "2025-06-04T22:20:47+00:00",
+      "commentBody": "Starting from 0, I assume you have followed the initial steps to enable Einstein Gen AI and Agentforce: https://help.salesforce.com/s/articleView?id=ai.agent_setup_enable.htm&type=5 Assuming those basics have been covered, this seems the same ask / scenario, googling popped up a quite robust post that already exists on this sub. It’s more centered around agentforce in general, but you won’t be able to access Prompt Builder without E4X (sales, service) or foundations provisioned (in a normal org, not inherently familiar with any differences with a partner dev org) https://help.salesforce.com/s/articleView?id=ai.prompt_builder_enable.htm&type=5 Wonder if anything below would help move this along? https://www.reddit.com/r/salesforce/s/QKbSIXhNZl",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_6qrej9e",
+      "author": "queenofadmin",
+      "authorProfile": "https://www.reddit.com/user/queenofadmin",
+      "commentId": "t1_mw45lzr",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l368ph/what_licenses_are_needed_to_activate_agentforce/mw45lzr/",
+      "publishingDate": "2025-06-05T11:12:24+00:00",
+      "commentBody": "You need the new flex credits and there is also a provisioning sku called Salesforce Foundations Entitlements - Flex Credits. I know this because our AE gave sold us the flex credits but forgot to add the other sku.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_1qtbys5wny",
+      "author": "ZeroDayVortex",
+      "authorProfile": "https://www.reddit.com/user/ZeroDayVortex",
+      "commentId": "t1_mxgih6k",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l368ph/what_licenses_are_needed_to_activate_agentforce/mxgih6k/",
+      "publishingDate": "2025-06-12T21:56:33+00:00",
+      "commentBody": "I’m not entirely certain but here's what I understand: For Agentforce and Prompt Builder, even with Partner Edition, you might need to add the Salesforce Foundations package to your org. This includes 100K Flex Credits and unlocks tools such as Prompt Builder and Agent Builder. However, some users have reported that even after adding Foundations, the Einstein Agents permission set license remains disabled. This might be because certain features, like Prompt Templates, require an Einstein for Service, Einstein for Sales, or Einstein Platform license. So, even if you're building a custom Slack-connected agent and not using the default agent, you might still need one of these Einstein licenses to get started. Regarding Data Cloud, the 10,000 Foundations credits are a good starting point, but they might not be sufficient for full activation. To enable features like ingestion, segmentation, and record linking, you may need to ensure that Data Cloud Provisioning is added to your org. This provisioning includes 250,000 Data Services credits, 1 TB of data storage, and other resources",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

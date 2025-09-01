@@ -1,0 +1,228 @@
+{
+  "info": {
+    "authorId": "t2_z9fdymvqj",
+    "author": "SFDC_Penguin",
+    "authorProfile": "https://www.reddit.com/user/SFDC_Penguin",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1kq5kfx",
+    "postLabel": "apps/products",
+    "publishingDate": "2025-05-19T07:14:56+00:00",
+    "postTitle": "Agentforce Licensing Changes",
+    "postMessage": "Hi everyone, you may have seen a few days ago that Salesforce announced changes to Agentforce's licensing model. This change endeavours to more closely couple costs with value, allowing teams to explore and scale as needed. In this post, I've summarised the updates and current known considerations, including: Flex Credits Flex Agreements Upcoming (internal) Per User Per Month Model A link to the post is available here: https://sfdcpenguin.com/blog/agentforce-flex-pricing-aligning-ai-investment-with-business-value-what-you-need-to-know/ Keen to hear your thoughts on the change in licensing model and when you feel each route would be used (i.e. Conversation vs Flex Credits, etc). Thanks everyone!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/",
+    "commentCount": 17,
+    "upvoteCount": 14,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_236zmvkj",
+      "author": "bvbNL86",
+      "authorProfile": "https://www.reddit.com/user/bvbNL86",
+      "commentId": "t1_mt3g15t",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt3g15t/",
+      "publishingDate": "2025-05-19T09:42:33+00:00",
+      "commentBody": "I don’t quite understand the overall strategy here. Salesforce’s true value lies in the data it holds. If they were to roll out something like “Agent Builder” and license it at a fixed cost per user — with an additional (reasonable) fee per transaction for each callout (justified by “security” and “safety”) I believe many customers would adopt it, avoiding the need to build custom solutions. Instead, their current strategy seems to rely on the assumption that customers will pay twenty times the actual cost for AI capabilities, without a clearly defined or mature product offering behind it. That’s imo very hard to justify from a business perspective. Maybe they’re afraid that if they have an unlimited license model based on headcount, that power users will use a ton of network resources by building so many Agents. AI compute is a commodity. This is SF trying to find a way to value price that best obfuscates how badly they’re fucking you. Because the assumption is as an org by introducing agents you'll reduce the amount of users you need. Salesforce needs to move from a user based license model to a consumption based model if the total headcount of users in all orgs is going to decrease but SF is going to gain the same (or more) money in revenue. As an org, if I can replace 10 users costing $50k/year with agents, I'd still be happy to pay for their 10 current license costs + $500k a year and I'd still come out ahead my coworker put it in very good terms. \"No one wants to pay and worry about 'phone-minuets' anymore' Same is true with agentforce, add on the fact that its not cheap and it looks that much less attractive to companies shopping around",
+      "upvotes": 38,
+      "dislikes": 38,
+      "downvotes": 39,
+      "replies": [
+        {
+          "authorId": "t2_kniyjd9hr",
+          "author": "Emotional_Act_461",
+          "authorProfile": "https://www.reddit.com/user/Emotional_Act_461",
+          "commentId": "t1_mt3qped",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt3qped/",
+          "publishingDate": "2025-05-19T11:18:53+00:00",
+          "commentBody": "Maybe they’re afraid that if they have an unlimited license model based on headcount, that power users will use a ton of network resources by building so many Agents. AI compute is a commodity. This is SF trying to find a way to value price that best obfuscates how badly they’re fucking you.",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": "t2_17d4qme0jl",
+          "author": "Exotic-Sale-3003",
+          "authorProfile": "https://www.reddit.com/user/Exotic-Sale-3003",
+          "commentId": "t1_mt4htr6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt4htr6/",
+          "publishingDate": "2025-05-19T14:11:54+00:00",
+          "commentBody": "AI compute is a commodity. This is SF trying to find a way to value price that best obfuscates how badly they’re fucking you.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_8dqi2",
+          "author": "pernunz",
+          "authorProfile": "https://www.reddit.com/user/pernunz",
+          "commentId": "t1_mt6vu8k",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt6vu8k/",
+          "publishingDate": "2025-05-19T21:18:00+00:00",
+          "commentBody": "Because the assumption is as an org by introducing agents you'll reduce the amount of users you need. Salesforce needs to move from a user based license model to a consumption based model if the total headcount of users in all orgs is going to decrease but SF is going to gain the same (or more) money in revenue. As an org, if I can replace 10 users costing $50k/year with agents, I'd still be happy to pay for their 10 current license costs + $500k a year and I'd still come out ahead",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_d9s1qvkn5",
+          "author": "itsokimalim0driver",
+          "authorProfile": "https://www.reddit.com/user/itsokimalim0driver",
+          "commentId": "t1_mtkvvzz",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mtkvvzz/",
+          "publishingDate": "2025-05-22T01:26:41+00:00",
+          "commentBody": "my coworker put it in very good terms. \"No one wants to pay and worry about 'phone-minuets' anymore' Same is true with agentforce, add on the fact that its not cheap and it looks that much less attractive to companies shopping around",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_2gop6d8e",
+      "author": "FL207",
+      "authorProfile": "https://www.reddit.com/user/FL207",
+      "commentId": "t1_mt3ygex",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt3ygex/",
+      "publishingDate": "2025-05-19T12:15:53+00:00",
+      "commentBody": "I won’t touch it unless it’s included or my employer makes me. I know there is a per use cost somewhere in the process, but I’m tired of the subscription nickel and diming.",
+      "upvotes": 14,
+      "dislikes": 14,
+      "downvotes": 15
+    },
+    {
+      "authorId": "t2_vlxte733",
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_mt35o6l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt35o6l/",
+      "publishingDate": "2025-05-19T07:52:06+00:00",
+      "commentBody": "10 cents per action is still miles ahead of tools line zapier and n8n or any self built AI API call-out. The only slight advantage is that a flow may be able to take name actions when called by a agentforce agent. Also if it's flex credits why is one action 20 credits. I suppose you can work to negotiate the flex credit cost of actions with Salesforce? 10 cents per action + another 5 cents for each callout with the additional einstein requests needed. Also how are current clients bring treated? Stuck on 2 dollars per conversation lol? Existing customers can swap into flex credits. What an absolute cluster fuck SE hereAdmittedly it is a bit messy, but going forward it makes a lot of these convos much easier and granular to have with customers instead of the $2 per conversation. With the $2 a convo approach, a conversation was defined differently depending on SDR Agent, service agent, etc This now at least aligns everything on the same structure that is much more digestible. It will definitely be rocky over the next month though until people actually understand how it works Why not simply charge per LLM callout, like you already do with Einstein requests. On top you can license additional tools like Agent Builder separately with a license for xx per month. As i understand the new pricing Right now, you’re paying flex credits per action in Agentforce, but if that action involves an LLM callout (which most of them do), it also consumes Einstein requests. So effectively, you’re being double-charged: once for the Agentforce action, and once for the LLM usage. IMO salesforce is trying to charge for features that are almost free in the real world (callouts to an LLM) and are giving away for almost free whats valuable (Agent builder), a toolkit that taps into the goldmine which is your salesforce data. Hey, I never said it was GREAT. I am not in charge of the actual decisions, it just makes this quite easier to discuss. It is much much much cheaper than the $2 per convo approach, but agreed there are still some nuances to it Why not simply charge per LLM callout, like you already do with Einstein requests. And not try to capture 90% of the value from the transaction?  Not very Ohana of you.",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4,
+      "replies": [
+        {
+          "authorId": "t2_236zmvkj",
+          "author": "bvbNL86",
+          "authorProfile": "https://www.reddit.com/user/bvbNL86",
+          "commentId": "t1_mt37eha",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt37eha/",
+          "publishingDate": "2025-05-19T08:10:26+00:00",
+          "commentBody": "10 cents per action + another 5 cents for each callout with the additional einstein requests needed. Also how are current clients bring treated? Stuck on 2 dollars per conversation lol? Existing customers can swap into flex credits. What an absolute cluster fuck SE hereAdmittedly it is a bit messy, but going forward it makes a lot of these convos much easier and granular to have with customers instead of the $2 per conversation. With the $2 a convo approach, a conversation was defined differently depending on SDR Agent, service agent, etc This now at least aligns everything on the same structure that is much more digestible. It will definitely be rocky over the next month though until people actually understand how it works Why not simply charge per LLM callout, like you already do with Einstein requests. On top you can license additional tools like Agent Builder separately with a license for xx per month. As i understand the new pricing Right now, you’re paying flex credits per action in Agentforce, but if that action involves an LLM callout (which most of them do), it also consumes Einstein requests. So effectively, you’re being double-charged: once for the Agentforce action, and once for the LLM usage. IMO salesforce is trying to charge for features that are almost free in the real world (callouts to an LLM) and are giving away for almost free whats valuable (Agent builder), a toolkit that taps into the goldmine which is your salesforce data. Hey, I never said it was GREAT. I am not in charge of the actual decisions, it just makes this quite easier to discuss. It is much much much cheaper than the $2 per convo approach, but agreed there are still some nuances to it Why not simply charge per LLM callout, like you already do with Einstein requests. And not try to capture 90% of the value from the transaction?  Not very Ohana of you.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_mt3aw3k",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt3aw3k/",
+          "publishingDate": "2025-05-19T08:48:11+00:00",
+          "commentBody": "Also how are current clients bring treated? Stuck on 2 dollars per conversation lol? Existing customers can swap into flex credits. What an absolute cluster fuck SE hereAdmittedly it is a bit messy, but going forward it makes a lot of these convos much easier and granular to have with customers instead of the $2 per conversation. With the $2 a convo approach, a conversation was defined differently depending on SDR Agent, service agent, etc This now at least aligns everything on the same structure that is much more digestible. It will definitely be rocky over the next month though until people actually understand how it works Why not simply charge per LLM callout, like you already do with Einstein requests. On top you can license additional tools like Agent Builder separately with a license for xx per month. As i understand the new pricing Right now, you’re paying flex credits per action in Agentforce, but if that action involves an LLM callout (which most of them do), it also consumes Einstein requests. So effectively, you’re being double-charged: once for the Agentforce action, and once for the LLM usage. IMO salesforce is trying to charge for features that are almost free in the real world (callouts to an LLM) and are giving away for almost free whats valuable (Agent builder), a toolkit that taps into the goldmine which is your salesforce data. Hey, I never said it was GREAT. I am not in charge of the actual decisions, it just makes this quite easier to discuss. It is much much much cheaper than the $2 per convo approach, but agreed there are still some nuances to it Why not simply charge per LLM callout, like you already do with Einstein requests. And not try to capture 90% of the value from the transaction?  Not very Ohana of you.",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        },
+        {
+          "authorId": "t2_n0jlc",
+          "author": "beniferlopez",
+          "authorProfile": "https://www.reddit.com/user/beniferlopez",
+          "commentId": "t1_mt3bo0i",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt3bo0i/",
+          "publishingDate": "2025-05-19T08:56:22+00:00",
+          "commentBody": "Existing customers can swap into flex credits. What an absolute cluster fuck SE hereAdmittedly it is a bit messy, but going forward it makes a lot of these convos much easier and granular to have with customers instead of the $2 per conversation. With the $2 a convo approach, a conversation was defined differently depending on SDR Agent, service agent, etc This now at least aligns everything on the same structure that is much more digestible. It will definitely be rocky over the next month though until people actually understand how it works Why not simply charge per LLM callout, like you already do with Einstein requests. On top you can license additional tools like Agent Builder separately with a license for xx per month. As i understand the new pricing Right now, you’re paying flex credits per action in Agentforce, but if that action involves an LLM callout (which most of them do), it also consumes Einstein requests. So effectively, you’re being double-charged: once for the Agentforce action, and once for the LLM usage. IMO salesforce is trying to charge for features that are almost free in the real world (callouts to an LLM) and are giving away for almost free whats valuable (Agent builder), a toolkit that taps into the goldmine which is your salesforce data. Hey, I never said it was GREAT. I am not in charge of the actual decisions, it just makes this quite easier to discuss. It is much much much cheaper than the $2 per convo approach, but agreed there are still some nuances to it Why not simply charge per LLM callout, like you already do with Einstein requests. And not try to capture 90% of the value from the transaction?  Not very Ohana of you.",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_mt3elpn",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt3elpn/",
+          "publishingDate": "2025-05-19T09:27:38+00:00",
+          "commentBody": "What an absolute cluster fuck SE hereAdmittedly it is a bit messy, but going forward it makes a lot of these convos much easier and granular to have with customers instead of the $2 per conversation. With the $2 a convo approach, a conversation was defined differently depending on SDR Agent, service agent, etc This now at least aligns everything on the same structure that is much more digestible. It will definitely be rocky over the next month though until people actually understand how it works Why not simply charge per LLM callout, like you already do with Einstein requests. On top you can license additional tools like Agent Builder separately with a license for xx per month. As i understand the new pricing Right now, you’re paying flex credits per action in Agentforce, but if that action involves an LLM callout (which most of them do), it also consumes Einstein requests. So effectively, you’re being double-charged: once for the Agentforce action, and once for the LLM usage. IMO salesforce is trying to charge for features that are almost free in the real world (callouts to an LLM) and are giving away for almost free whats valuable (Agent builder), a toolkit that taps into the goldmine which is your salesforce data. Hey, I never said it was GREAT. I am not in charge of the actual decisions, it just makes this quite easier to discuss. It is much much much cheaper than the $2 per convo approach, but agreed there are still some nuances to it Why not simply charge per LLM callout, like you already do with Einstein requests. And not try to capture 90% of the value from the transaction?  Not very Ohana of you.",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        },
+        {
+          "authorId": "t2_cq4mbxh6",
+          "author": "Suspicious-Nerve-487",
+          "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+          "commentId": "t1_mt45bl1",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt45bl1/",
+          "publishingDate": "2025-05-19T13:00:14+00:00",
+          "commentBody": "SE hereAdmittedly it is a bit messy, but going forward it makes a lot of these convos much easier and granular to have with customers instead of the $2 per conversation. With the $2 a convo approach, a conversation was defined differently depending on SDR Agent, service agent, etc This now at least aligns everything on the same structure that is much more digestible. It will definitely be rocky over the next month though until people actually understand how it works Why not simply charge per LLM callout, like you already do with Einstein requests. On top you can license additional tools like Agent Builder separately with a license for xx per month. As i understand the new pricing Right now, you’re paying flex credits per action in Agentforce, but if that action involves an LLM callout (which most of them do), it also consumes Einstein requests. So effectively, you’re being double-charged: once for the Agentforce action, and once for the LLM usage. IMO salesforce is trying to charge for features that are almost free in the real world (callouts to an LLM) and are giving away for almost free whats valuable (Agent builder), a toolkit that taps into the goldmine which is your salesforce data. Hey, I never said it was GREAT. I am not in charge of the actual decisions, it just makes this quite easier to discuss. It is much much much cheaper than the $2 per convo approach, but agreed there are still some nuances to it Why not simply charge per LLM callout, like you already do with Einstein requests. And not try to capture 90% of the value from the transaction?  Not very Ohana of you.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_236zmvkj",
+          "author": "bvbNL86",
+          "authorProfile": "https://www.reddit.com/user/bvbNL86",
+          "commentId": "t1_mt47773",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt47773/",
+          "publishingDate": "2025-05-19T13:11:52+00:00",
+          "commentBody": "Why not simply charge per LLM callout, like you already do with Einstein requests. On top you can license additional tools like Agent Builder separately with a license for xx per month. As i understand the new pricing Right now, you’re paying flex credits per action in Agentforce, but if that action involves an LLM callout (which most of them do), it also consumes Einstein requests. So effectively, you’re being double-charged: once for the Agentforce action, and once for the LLM usage. IMO salesforce is trying to charge for features that are almost free in the real world (callouts to an LLM) and are giving away for almost free whats valuable (Agent builder), a toolkit that taps into the goldmine which is your salesforce data. Hey, I never said it was GREAT. I am not in charge of the actual decisions, it just makes this quite easier to discuss. It is much much much cheaper than the $2 per convo approach, but agreed there are still some nuances to it Why not simply charge per LLM callout, like you already do with Einstein requests. And not try to capture 90% of the value from the transaction?  Not very Ohana of you.",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        },
+        {
+          "authorId": "t2_cq4mbxh6",
+          "author": "Suspicious-Nerve-487",
+          "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+          "commentId": "t1_mt48wnx",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt48wnx/",
+          "publishingDate": "2025-05-19T13:22:03+00:00",
+          "commentBody": "Hey, I never said it was GREAT. I am not in charge of the actual decisions, it just makes this quite easier to discuss. It is much much much cheaper than the $2 per convo approach, but agreed there are still some nuances to it",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_17d4qme0jl",
+          "author": "Exotic-Sale-3003",
+          "authorProfile": "https://www.reddit.com/user/Exotic-Sale-3003",
+          "commentId": "t1_mt4irx6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt4irx6/",
+          "publishingDate": "2025-05-19T14:16:51+00:00",
+          "commentBody": "Why not simply charge per LLM callout, like you already do with Einstein requests. And not try to capture 90% of the value from the transaction?  Not very Ohana of you.",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        }
+      ]
+    },
+    {
+      "authorId": "t2_17d4qme0jl",
+      "author": "Exotic-Sale-3003",
+      "authorProfile": "https://www.reddit.com/user/Exotic-Sale-3003",
+      "commentId": "t1_mt4hk7l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mt4hk7l/",
+      "publishingDate": "2025-05-19T14:10:31+00:00",
+      "commentBody": "More shit from a company that loves to abuse its customers. They will do anything to try to avoid selling a commodity as a commodity with a reasonable markup.  Selling fucking credits?  This is literally price obfuscation 101, ripped straight from loot box driven gaming. I can’t wait until they start selling AI Gems that have daily fluctuations in their conversion rates to credits and other fucking garbage.",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4
+    },
+    {
+      "authorId": "t2_120aiwoppn",
+      "author": "BoringEnvironment131",
+      "authorProfile": "https://www.reddit.com/user/BoringEnvironment131",
+      "commentId": "t1_mtgociw",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kq5kfx/agentforce_licensing_changes/mtgociw/",
+      "publishingDate": "2025-05-21T12:34:37+00:00",
+      "commentBody": "Help me out here. Wasn't a conversation supposed to cost 2$ and be able to last 24h before charging again? Now, with charge per action, you will end up with a much bigger cost in the same period, no?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "info": {
+    "authorId": "t2_dey173pk",
+    "author": "Fabulous-Froyo3405",
+    "authorProfile": "https://www.reddit.com/user/Fabulous-Froyo3405",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1i8wgaw",
+    "postLabel": null,
+    "publishingDate": "2025-01-24T14:21:09+00:00",
+    "postTitle": "How Do You Tinker with Agentforce in Salesforce?",
+    "postMessage": "Hey everyone, I’m trying to get hands-on with Agentforce in Salesforce, but I’m running into a wall. I’ve found Trailheads that provide temporary access, but I haven’t been able to find a way to gain a free org to experiment with beyond that. In our Salesforce org, we have a service agent we can tinker with, but that’s about it—there’s no other capability available to explore or build on. For those of you who have gotten good at using Agentforce, how did you manage it? Is there a way to get free orgs or sandbox access to fully test and build with it? Appreciate any advice!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/",
+    "commentCount": 15,
+    "upvoteCount": 13,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_53kz8",
+      "author": "danfromwaterloo",
+      "authorProfile": "https://www.reddit.com/user/danfromwaterloo",
+      "commentId": "t1_m8xfk5x",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m8xfk5x/",
+      "publishingDate": "2025-01-24T15:56:39+00:00",
+      "commentBody": "This is a challenge everybody is having in the ecosystem right now. AI is a consumption model - Salesforce has to pay the various AI LLMs to use their services, so these trial orgs are likely costing them significant money. But, no trial org, no learning the platform in any useful way. I work for a global SI, and we've been having nothing but problems getting AI capabilities in a permanent fashion because the environments need the licenses and there's a ton of hoops to jump through to get it. I’m going though this exact issue right now. We’ve been trying to provision agentforce in our partner org since December and have been directed down so many different paths and signed various $0 contracts but still do not have access to agentforce .",
+      "upvotes": 10,
+      "dislikes": 10,
+      "downvotes": 11,
+      "replies": [
+        {
+          "authorId": "t2_5juv8aon",
+          "author": "Cultural_Vehicle",
+          "authorProfile": "https://www.reddit.com/user/Cultural_Vehicle",
+          "commentId": "t1_m8xl6t4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m8xl6t4/",
+          "publishingDate": "2025-01-24T16:22:45+00:00",
+          "commentBody": "I’m going though this exact issue right now. We’ve been trying to provision agentforce in our partner org since December and have been directed down so many different paths and signed various $0 contracts but still do not have access to agentforce .",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        }
+      ]
+    },
+    {
+      "authorId": "t2_9g1t3",
+      "author": "RredditAcct",
+      "authorProfile": "https://www.reddit.com/user/RredditAcct",
+      "commentId": "t1_m8y3hxw",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m8y3hxw/",
+      "publishingDate": "2025-01-24T17:46:59+00:00",
+      "commentBody": "I'm a noob; so, take this w/ a grain of salt: If you already have an Org and want to try AF, can't you just activate Salesforce Foundations and take advantage of AF w/ 1000 conversations? I realize you pay after those 1K conversations. That’s what I currently have access to, but it’s still very limited in terms of capability. I often see all sorts of capability but am finding myself wondering how and when I can begin to try and implement it. What you mentioned, at least for me and to my knowledge, only gives access to a basic service agent capability which doesn’t fit the need we have I believe it gives you full access to AF capabilites; however, only 1K conversations.  It also gives you Data Cloud.  I think AF is very complex, regardless of what SF is saying, & people are struggling with self implementation. The only agent option I have to select is service agent etc. is that what full access gives us right now? Yes, I believe so.  I believe that's the only Agent that is GA.  The most common uses might be: \"Where is my order\" \"I need to change my order\" \"What is your return policy\" \"do you do exchanges\" \"Where is your closest store\" Things like that. Service agents can have custom actions and topics added to do other things besides the out of the box defaults.",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6,
+      "replies": [
+        {
+          "authorId": "t2_dey173pk",
+          "author": "Fabulous-Froyo3405",
+          "authorProfile": "https://www.reddit.com/user/Fabulous-Froyo3405",
+          "commentId": "t1_m8y4yyn",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m8y4yyn/",
+          "publishingDate": "2025-01-24T17:53:41+00:00",
+          "commentBody": "That’s what I currently have access to, but it’s still very limited in terms of capability. I often see all sorts of capability but am finding myself wondering how and when I can begin to try and implement it. What you mentioned, at least for me and to my knowledge, only gives access to a basic service agent capability which doesn’t fit the need we have I believe it gives you full access to AF capabilites; however, only 1K conversations.  It also gives you Data Cloud.  I think AF is very complex, regardless of what SF is saying, & people are struggling with self implementation. The only agent option I have to select is service agent etc. is that what full access gives us right now? Yes, I believe so.  I believe that's the only Agent that is GA.  The most common uses might be: \"Where is my order\" \"I need to change my order\" \"What is your return policy\" \"do you do exchanges\" \"Where is your closest store\" Things like that. Service agents can have custom actions and topics added to do other things besides the out of the box defaults.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_9g1t3",
+          "author": "RredditAcct",
+          "authorProfile": "https://www.reddit.com/user/RredditAcct",
+          "commentId": "t1_m8y9ldf",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m8y9ldf/",
+          "publishingDate": "2025-01-24T18:15:03+00:00",
+          "commentBody": "I believe it gives you full access to AF capabilites; however, only 1K conversations.  It also gives you Data Cloud.  I think AF is very complex, regardless of what SF is saying, & people are struggling with self implementation. The only agent option I have to select is service agent etc. is that what full access gives us right now? Yes, I believe so.  I believe that's the only Agent that is GA.  The most common uses might be: \"Where is my order\" \"I need to change my order\" \"What is your return policy\" \"do you do exchanges\" \"Where is your closest store\" Things like that. Service agents can have custom actions and topics added to do other things besides the out of the box defaults.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_dey173pk",
+          "author": "Fabulous-Froyo3405",
+          "authorProfile": "https://www.reddit.com/user/Fabulous-Froyo3405",
+          "commentId": "t1_m8yd2sq",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m8yd2sq/",
+          "publishingDate": "2025-01-24T18:31:11+00:00",
+          "commentBody": "The only agent option I have to select is service agent etc. is that what full access gives us right now? Yes, I believe so.  I believe that's the only Agent that is GA.  The most common uses might be: \"Where is my order\" \"I need to change my order\" \"What is your return policy\" \"do you do exchanges\" \"Where is your closest store\" Things like that. Service agents can have custom actions and topics added to do other things besides the out of the box defaults.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_9g1t3",
+          "author": "RredditAcct",
+          "authorProfile": "https://www.reddit.com/user/RredditAcct",
+          "commentId": "t1_m8ym2ci",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m8ym2ci/",
+          "publishingDate": "2025-01-24T19:12:51+00:00",
+          "commentBody": "Yes, I believe so.  I believe that's the only Agent that is GA.  The most common uses might be: \"Where is my order\" \"I need to change my order\" \"What is your return policy\" \"do you do exchanges\" \"Where is your closest store\" Things like that.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_68zyx",
+          "author": "Trek7553",
+          "authorProfile": "https://www.reddit.com/user/Trek7553",
+          "commentId": "t1_m90xobc",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m90xobc/",
+          "publishingDate": "2025-01-25T02:20:50+00:00",
+          "commentBody": "Service agents can have custom actions and topics added to do other things besides the out of the box defaults.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_kb213",
+      "author": "Clovadaddy",
+      "authorProfile": "https://www.reddit.com/user/Clovadaddy",
+      "commentId": "t1_m8x4n2n",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m8x4n2n/",
+      "publishingDate": "2025-01-24T15:04:22+00:00",
+      "commentBody": "salesforce.com/form/signup/freetrial-platform/ Is the only thing we have access to the “service agent” chat bot? I’m trying to figure out how to have an agent be triggered by a file upload. My goal is to have the agent pull the unstructured data from the file and structure it and then storing the structured data in Salesforce. The trials I’ve seen only have the ability to have a simple chat bot, but it doesn’t have the file upload option etc Where do you want the file upload happen? If it's not being uploaded directly to the agent, maybe you could instead have the file upload trigger a flow which could invoke prompt builder prompts if you need an LLM to process the data. This would consume Einstein Requests but not agent conversations. A challenge I’m having is there isn’t an option for me to “upload a file” to the chat with my agent. It’s just not an available option Uploading a file would be controlled through your MIAW embedded service deployment",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_dey173pk",
+          "author": "Fabulous-Froyo3405",
+          "authorProfile": "https://www.reddit.com/user/Fabulous-Froyo3405",
+          "commentId": "t1_m8xcatf",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m8xcatf/",
+          "publishingDate": "2025-01-24T15:41:21+00:00",
+          "commentBody": "Is the only thing we have access to the “service agent” chat bot? I’m trying to figure out how to have an agent be triggered by a file upload. My goal is to have the agent pull the unstructured data from the file and structure it and then storing the structured data in Salesforce. The trials I’ve seen only have the ability to have a simple chat bot, but it doesn’t have the file upload option etc Where do you want the file upload happen? If it's not being uploaded directly to the agent, maybe you could instead have the file upload trigger a flow which could invoke prompt builder prompts if you need an LLM to process the data. This would consume Einstein Requests but not agent conversations. A challenge I’m having is there isn’t an option for me to “upload a file” to the chat with my agent. It’s just not an available option Uploading a file would be controlled through your MIAW embedded service deployment",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_68zyx",
+          "author": "Trek7553",
+          "authorProfile": "https://www.reddit.com/user/Trek7553",
+          "commentId": "t1_m90xh49",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m90xh49/",
+          "publishingDate": "2025-01-25T02:19:39+00:00",
+          "commentBody": "Where do you want the file upload happen? If it's not being uploaded directly to the agent, maybe you could instead have the file upload trigger a flow which could invoke prompt builder prompts if you need an LLM to process the data. This would consume Einstein Requests but not agent conversations. A challenge I’m having is there isn’t an option for me to “upload a file” to the chat with my agent. It’s just not an available option Uploading a file would be controlled through your MIAW embedded service deployment",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_dey173pk",
+          "author": "Fabulous-Froyo3405",
+          "authorProfile": "https://www.reddit.com/user/Fabulous-Froyo3405",
+          "commentId": "t1_m916l1g",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m916l1g/",
+          "publishingDate": "2025-01-25T03:14:32+00:00",
+          "commentBody": "A challenge I’m having is there isn’t an option for me to “upload a file” to the chat with my agent. It’s just not an available option Uploading a file would be controlled through your MIAW embedded service deployment",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_m92ji9h",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m92ji9h/",
+          "publishingDate": "2025-01-25T10:19:29+00:00",
+          "commentBody": "Uploading a file would be controlled through your MIAW embedded service deployment",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_953mb",
+      "author": "SeriouslyImKidding",
+      "authorProfile": "https://www.reddit.com/user/SeriouslyImKidding",
+      "commentId": "t1_m9155zx",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m9155zx/",
+      "publishingDate": "2025-01-25T03:05:53+00:00",
+      "commentBody": "So I just did a deep dive into what we might be getting from the foundations sku and trying to understand what using the copilot agent (now called Agentforce lol) would actually be billed as and this is basically what I’ve found. Using the Copilot/Agentforce agent for internal users consumes Einstein Requests, which work like this: “Einstein Request usage is calculated for each API call made through the LLM gateway to a Large Language Model (LLM). Consumption calculations involve:\n    • The usage type multiplier associated with the type of LLM used, as described in the Einstein Generative AI Rate Card.\n    • The API call size factor, which is the combined size of the prompt and the LLM-generated response, in words, divided by 1,500, and then rounded up to the next integer. There are no fractional API call size factors.\nSo, for example, if an API call of 3,000 words uses an LLM with a usage type multiplier of 10, it consumes 20 Einstein Requests. The rate card gives these consumption examples:\nConsumption examples:● An API call of the Starter usage type with 750 words will consume 7 Einstein Requests● An API call of the Standard usage type with 3,250 words will consume 30 Einstein Requests. So if only 25% of our users (425) were to use to copilot, and lets say each user only made 2 requests a day that averaged 500 words at the Standard multiplier (10), that would be 8500 requests each day. Spread out over 250 business days in the year (included 2 weeks off), that would be 2,125,000 requests. Which is just a tad more than the 200,000 that comes with the Foundation SKU. You will probably blow past your alotted requests during testing and then find out once you give it to users you owe salesforce a bunch of fucking money Edit: sorry for the formatting I copied and pasted some of this stuff from their website and trailhead.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_883ga",
+      "author": "CarbonHero",
+      "authorProfile": "https://www.reddit.com/user/CarbonHero",
+      "commentId": "t1_m93myjl",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i8wgaw/how_do_you_tinker_with_agentforce_in_salesforce/m93myjl/",
+      "publishingDate": "2025-01-25T15:18:47+00:00",
+      "commentBody": "Partner SDO is the short answer. You could in theory make yourself a managed package and deploy it to a new SDO when yours expires.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    }
+  ]
+}

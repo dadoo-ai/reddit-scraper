@@ -1,0 +1,156 @@
+{
+  "info": {
+    "authorId": "t2_1caixg5nwr",
+    "author": "Dry-Recording-3726",
+    "authorProfile": "https://www.reddit.com/user/Dry-Recording-3726",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1inpz3y",
+    "postLabel": null,
+    "publishingDate": "2025-02-12T12:47:08+00:00",
+    "postTitle": "User can't be assigned the Agentforce Service Agent User permission set license, because Admin User's user license doesn't support it.",
+    "postMessage": "EDIT: SOLVED The user needs to have license Einstein Agent to be able to assign the required Agentforce permission set license. First time I've tried to set up Agentforce outside demo org and I'm stuck at begging. I'm not able to assign the Agentforce Service Agent User permission set license to any user. When I follow the instructions on help site , at step 4. I always get this error: Admin User can't be assigned the Agentforce Service Agent User permission set license, because Admin User's user license doesn't support it. I'm also missing the Access Agentforce Default Agent permission set group, I'm trying to add either individual Permission Set License Agentforce Service Agent User or AgentforceServiceAgentUserPsg which I have available. The user has a Salesforce license and a Sys Admin profile. I also tried with other users/profiles with the same result. What have I missed?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1inpz3y/user_cant_be_assigned_the_agentforce_service/",
+    "commentCount": 14,
+    "upvoteCount": 6,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_487pfc44",
+      "author": "Material-Draw4587",
+      "authorProfile": "https://www.reddit.com/user/Material-Draw4587",
+      "commentId": "t1_mccy4y3",
+      "link": "https://www.reddit.com/r/salesforce/comments/1inpz3y/user_cant_be_assigned_the_agentforce_service/mccy4y3/",
+      "publishingDate": "2025-02-12T13:09:12+00:00",
+      "commentBody": "The ASAU perm set is intended for a customer facing service account, you wouldn't want to assign it admin permissions even if you could. There's another perm set to manage agents, I'm not at a computer atm but it starts with \"Agentforce\". I don't see the ps you mention in the help article Same error if I tried Permission Set Group. In the reference, it also says: If you prefer using permission sets to manage user permissions, assign the Access Agentforce Default Agent and Prompt Template User permission sets. Agentforce Service Agent User isn't a thing you assign to an admin user. I'm confused what your issue is, maybe you need to edit your initial post because Agentforce Service Agent User is what you mentioned there I see what you mean, sorry for the confusion. Updated the post. Tried for other users/profiles as well I see your post has \"solved\" but I think you're still confused lol. Or I am! Agentforce Service Agent User is not meant to be used for any internal user profile, system admins included. It's intended for a service account that acts as the agent for customer-facing interactions. Agentforce Service Agent User isn't mentioned in the help article you linked to at all. What is mentioned is Access Agentforce Default Agent, which is intended for your internal users. They're not the same. I'm glad you got your issue fixed but just be mindful of the permissions granted to the agent, you don't want to leak information I know what you mean, i confused here few topics. I'm definitely aware of being restrictive regarding of permissions",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_1caixg5nwr",
+          "author": "Dry-Recording-3726",
+          "authorProfile": "https://www.reddit.com/user/Dry-Recording-3726",
+          "commentId": "t1_mcepf2r",
+          "link": "https://www.reddit.com/r/salesforce/comments/1inpz3y/user_cant_be_assigned_the_agentforce_service/mcepf2r/",
+          "publishingDate": "2025-02-12T18:29:09+00:00",
+          "commentBody": "Same error if I tried Permission Set Group. In the reference, it also says: If you prefer using permission sets to manage user permissions, assign the Access Agentforce Default Agent and Prompt Template User permission sets. Agentforce Service Agent User isn't a thing you assign to an admin user. I'm confused what your issue is, maybe you need to edit your initial post because Agentforce Service Agent User is what you mentioned there I see what you mean, sorry for the confusion. Updated the post. Tried for other users/profiles as well I see your post has \"solved\" but I think you're still confused lol. Or I am! Agentforce Service Agent User is not meant to be used for any internal user profile, system admins included. It's intended for a service account that acts as the agent for customer-facing interactions. Agentforce Service Agent User isn't mentioned in the help article you linked to at all. What is mentioned is Access Agentforce Default Agent, which is intended for your internal users. They're not the same. I'm glad you got your issue fixed but just be mindful of the permissions granted to the agent, you don't want to leak information I know what you mean, i confused here few topics. I'm definitely aware of being restrictive regarding of permissions",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        },
+        {
+          "authorId": "t2_487pfc44",
+          "author": "Material-Draw4587",
+          "authorProfile": "https://www.reddit.com/user/Material-Draw4587",
+          "commentId": "t1_mceq2li",
+          "link": "https://www.reddit.com/r/salesforce/comments/1inpz3y/user_cant_be_assigned_the_agentforce_service/mceq2li/",
+          "publishingDate": "2025-02-12T18:32:08+00:00",
+          "commentBody": "Agentforce Service Agent User isn't a thing you assign to an admin user. I'm confused what your issue is, maybe you need to edit your initial post because Agentforce Service Agent User is what you mentioned there I see what you mean, sorry for the confusion. Updated the post. Tried for other users/profiles as well I see your post has \"solved\" but I think you're still confused lol. Or I am! Agentforce Service Agent User is not meant to be used for any internal user profile, system admins included. It's intended for a service account that acts as the agent for customer-facing interactions. Agentforce Service Agent User isn't mentioned in the help article you linked to at all. What is mentioned is Access Agentforce Default Agent, which is intended for your internal users. They're not the same. I'm glad you got your issue fixed but just be mindful of the permissions granted to the agent, you don't want to leak information I know what you mean, i confused here few topics. I'm definitely aware of being restrictive regarding of permissions",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1caixg5nwr",
+          "author": "Dry-Recording-3726",
+          "authorProfile": "https://www.reddit.com/user/Dry-Recording-3726",
+          "commentId": "t1_mces48y",
+          "link": "https://www.reddit.com/r/salesforce/comments/1inpz3y/user_cant_be_assigned_the_agentforce_service/mces48y/",
+          "publishingDate": "2025-02-12T18:41:33+00:00",
+          "commentBody": "I see what you mean, sorry for the confusion. Updated the post. Tried for other users/profiles as well I see your post has \"solved\" but I think you're still confused lol. Or I am! Agentforce Service Agent User is not meant to be used for any internal user profile, system admins included. It's intended for a service account that acts as the agent for customer-facing interactions. Agentforce Service Agent User isn't mentioned in the help article you linked to at all. What is mentioned is Access Agentforce Default Agent, which is intended for your internal users. They're not the same. I'm glad you got your issue fixed but just be mindful of the permissions granted to the agent, you don't want to leak information I know what you mean, i confused here few topics. I'm definitely aware of being restrictive regarding of permissions",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_487pfc44",
+          "author": "Material-Draw4587",
+          "authorProfile": "https://www.reddit.com/user/Material-Draw4587",
+          "commentId": "t1_mcjkfj4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1inpz3y/user_cant_be_assigned_the_agentforce_service/mcjkfj4/",
+          "publishingDate": "2025-02-13T13:06:14+00:00",
+          "commentBody": "I see your post has \"solved\" but I think you're still confused lol. Or I am! Agentforce Service Agent User is not meant to be used for any internal user profile, system admins included. It's intended for a service account that acts as the agent for customer-facing interactions. Agentforce Service Agent User isn't mentioned in the help article you linked to at all. What is mentioned is Access Agentforce Default Agent, which is intended for your internal users. They're not the same. I'm glad you got your issue fixed but just be mindful of the permissions granted to the agent, you don't want to leak information I know what you mean, i confused here few topics. I'm definitely aware of being restrictive regarding of permissions",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1caixg5nwr",
+          "author": "Dry-Recording-3726",
+          "authorProfile": "https://www.reddit.com/user/Dry-Recording-3726",
+          "commentId": "t1_mcriecf",
+          "link": "https://www.reddit.com/r/salesforce/comments/1inpz3y/user_cant_be_assigned_the_agentforce_service/mcriecf/",
+          "publishingDate": "2025-02-14T17:39:16+00:00",
+          "commentBody": "I know what you mean, i confused here few topics. I'm definitely aware of being restrictive regarding of permissions",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_59guhmvl",
+      "author": "jrsfdcjunkie",
+      "authorProfile": "https://www.reddit.com/user/jrsfdcjunkie",
+      "commentId": "t1_mccwmby",
+      "link": "https://www.reddit.com/r/salesforce/comments/1inpz3y/user_cant_be_assigned_the_agentforce_service/mccwmby/",
+      "publishingDate": "2025-02-12T12:59:12+00:00",
+      "commentBody": "This references permission set groups but your post mentions permission set license. Have you added the permission set group? Same error if I tried Permission Set Group. In the reference, it also says: If you prefer using permission sets to manage user permissions, assign the Access Agentforce Default Agent and Prompt Template User permission sets. Is your user assigned a service cloud license? Just spitballing here. Since it’s a service agent it sounds like it could be tied to service cloud? Yes it is",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_1caixg5nwr",
+          "author": "Dry-Recording-3726",
+          "authorProfile": "https://www.reddit.com/user/Dry-Recording-3726",
+          "commentId": "t1_mceph6z",
+          "link": "https://www.reddit.com/r/salesforce/comments/1inpz3y/user_cant_be_assigned_the_agentforce_service/mceph6z/",
+          "publishingDate": "2025-02-12T18:29:25+00:00",
+          "commentBody": "Same error if I tried Permission Set Group. In the reference, it also says: If you prefer using permission sets to manage user permissions, assign the Access Agentforce Default Agent and Prompt Template User permission sets. Is your user assigned a service cloud license? Just spitballing here. Since it’s a service agent it sounds like it could be tied to service cloud? Yes it is",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_59guhmvl",
+          "author": "jrsfdcjunkie",
+          "authorProfile": "https://www.reddit.com/user/jrsfdcjunkie",
+          "commentId": "t1_mcjcsmt",
+          "link": "https://www.reddit.com/r/salesforce/comments/1inpz3y/user_cant_be_assigned_the_agentforce_service/mcjcsmt/",
+          "publishingDate": "2025-02-13T12:11:29+00:00",
+          "commentBody": "Is your user assigned a service cloud license? Just spitballing here. Since it’s a service agent it sounds like it could be tied to service cloud? Yes it is",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1caixg5nwr",
+          "author": "Dry-Recording-3726",
+          "authorProfile": "https://www.reddit.com/user/Dry-Recording-3726",
+          "commentId": "t1_mcjgoub",
+          "link": "https://www.reddit.com/r/salesforce/comments/1inpz3y/user_cant_be_assigned_the_agentforce_service/mcjgoub/",
+          "publishingDate": "2025-02-13T12:40:33+00:00",
+          "commentBody": "Yes it is",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_rhn4t",
+      "author": "Dbur11",
+      "authorProfile": "https://www.reddit.com/user/Dbur11",
+      "commentId": "t1_mcgqcwp",
+      "link": "https://www.reddit.com/r/salesforce/comments/1inpz3y/user_cant_be_assigned_the_agentforce_service/mcgqcwp/",
+      "publishingDate": "2025-02-13T00:17:27+00:00",
+      "commentBody": "I believe that permission set is meant to be assigned to your Einstein agent user, usually created automatically when you make the service agent from the agent builder. They have a special Einstein agent user license assigned to them that will not cause the error you're seeing.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

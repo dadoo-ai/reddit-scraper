@@ -1,0 +1,146 @@
+{
+  "info": {
+    "authorId": "t2_1s2qh2yfuj",
+    "author": "andhroindian",
+    "authorProfile": "https://www.reddit.com/user/andhroindian",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1ltxv5s",
+    "postLabel": null,
+    "publishingDate": "2025-07-07T15:56:19+00:00",
+    "postTitle": "How far Agentforce is being used in customer projects?",
+    "postMessage": "It's been almost a year, since Agentforce announced. Would like to know advancements till now and any resources that made innovation",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1ltxv5s/how_far_agentforce_is_being_used_in_customer/",
+    "commentCount": 22,
+    "upvoteCount": 20,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_f8tr1",
+      "author": "ScarHand69",
+      "authorProfile": "https://www.reddit.com/user/ScarHand69",
+      "commentId": "t1_n1uqbj0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ltxv5s/how_far_agentforce_is_being_used_in_customer/n1uqbj0/",
+      "publishingDate": "2025-07-07T18:47:00+00:00",
+      "commentBody": "Speaking as a consultant whose client is a Fortune 500…the interest is there but there’s also the ever-present question of “is this worth it?” Nobody is willing to pull the trigger on a large engagement because it’s going to be expensive and nobody is going to know the outcome. It very well could just be a cash incinerator. We’re just now entering talks for some smaller “test” projects to test the waters. If those go well and we see that it’s worth it then more projects will follow. If we do it and realize it’s a waste of time and money…well that’s pretty self explanatory. My theory is a lot of companies are still in the testing phase. Some have tested it and realized it’s not worth it…but Salesforce isn’t going to tell you those stories. The lack of any clear, “killer app” stories is pretty telling. I just went and checked the Agentforce product page that has a bunch of stories…almost all of them are chatbots. That’s the use case that was plainly obvious to everyone from the start and seems to be the only one that companies can make work…chatbots. Don’t get me wrong there are plenty of problems that can deflect labor resources with chatbots….but like we’re all still waiting for this revolutionary technology to come to light. Much insightful. Thanks 🙏",
+      "upvotes": 28,
+      "dislikes": 28,
+      "downvotes": 29,
+      "replies": [
+        {
+          "authorId": "t2_1s2qh2yfuj",
+          "author": "andhroindian",
+          "authorProfile": "https://www.reddit.com/user/andhroindian",
+          "commentId": "t1_n1uqseu",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ltxv5s/how_far_agentforce_is_being_used_in_customer/n1uqseu/",
+          "publishingDate": "2025-07-07T18:49:35+00:00",
+          "commentBody": "Much insightful. Thanks 🙏",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_k6ijalbt",
+      "author": "Helpful_Character_22",
+      "authorProfile": "https://www.reddit.com/user/Helpful_Character_22",
+      "commentId": "t1_n1txqgd",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ltxv5s/how_far_agentforce_is_being_used_in_customer/n1txqgd/",
+      "publishingDate": "2025-07-07T16:24:09+00:00",
+      "commentBody": "",
+      "upvotes": 16,
+      "dislikes": 16,
+      "downvotes": 17
+    },
+    {
+      "authorId": "t2_2azaqps3",
+      "author": "TossSaladScrambleEgg",
+      "authorProfile": "https://www.reddit.com/user/TossSaladScrambleEgg",
+      "commentId": "t1_n1u73x5",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ltxv5s/how_far_agentforce_is_being_used_in_customer/n1u73x5/",
+      "publishingDate": "2025-07-07T17:08:48+00:00",
+      "commentBody": "Some themes I've heard: 1) it's not a massive revenue-generator for Salesforce's AEs. Heard from several that ' having $100k+ deals is really hard ' with AgentForce 2) the customers that ARE deploying AgentForce, usually involve a contract maneuver. I.e. ' We're going to make your Slack bill go from $100 to $80, but you're going to buy $30 of AgentForce ' 3) It's not rocket science, but it's not magic either MS does the same trick with copilot.",
+      "upvotes": 23,
+      "dislikes": 23,
+      "downvotes": 24,
+      "replies": [
+        {
+          "authorId": "t2_1kb6rrz5cn",
+          "author": "TowerOutrageous5939",
+          "authorProfile": "https://www.reddit.com/user/TowerOutrageous5939",
+          "commentId": "t1_n1vzerh",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ltxv5s/how_far_agentforce_is_being_used_in_customer/n1vzerh/",
+          "publishingDate": "2025-07-07T22:54:10+00:00",
+          "commentBody": "MS does the same trick with copilot.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1jzsdiam6v",
+      "author": "Swimming_Plastic1533",
+      "authorProfile": "https://www.reddit.com/user/Swimming_Plastic1533",
+      "commentId": "t1_n1ucfx2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ltxv5s/how_far_agentforce_is_being_used_in_customer/n1ucfx2/",
+      "publishingDate": "2025-07-07T17:34:46+00:00",
+      "commentBody": "From what I’ve seen and heard, some companies have started testing Agentforce for things like smarter service agents, automated workflows, and AI-guided selling. But it’s still pretty early. A lot of the innovation is happening in pilot projects or with trusted Salesforce partners who help clients integrate it with their existing orgs.",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5
+    },
+    {
+      "authorId": "t2_ifa36s6s",
+      "author": "asmishler23",
+      "authorProfile": "https://www.reddit.com/user/asmishler23",
+      "commentId": "t1_n1uwdwx",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ltxv5s/how_far_agentforce_is_being_used_in_customer/n1uwdwx/",
+      "publishingDate": "2025-07-07T19:20:07+00:00",
+      "commentBody": "I’ve done a few POCs for my clients and have had meeting on top of meeting discussing the potential but I haven’t had a single customer bite yet on a full implementation, and that’s with a ton of discounts offered. The cost is just too much to convince people to take the leap it seems. It could also be a fear of vendor lock in, given that customers beholden to a potential contract uplift every year. It prices some companies out of salesforce eventually. Even I heard the same, from my org poc’s",
+      "upvotes": 7,
+      "dislikes": 7,
+      "downvotes": 8,
+      "replies": [
+        {
+          "authorId": "t2_15o42e",
+          "author": "azdevguy",
+          "authorProfile": "https://www.reddit.com/user/azdevguy",
+          "commentId": "t1_n1z0xja",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ltxv5s/how_far_agentforce_is_being_used_in_customer/n1z0xja/",
+          "publishingDate": "2025-07-08T12:12:05+00:00",
+          "commentBody": "It could also be a fear of vendor lock in, given that customers beholden to a potential contract uplift every year. It prices some companies out of salesforce eventually.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_1s2qh2yfuj",
+          "author": "andhroindian",
+          "authorProfile": "https://www.reddit.com/user/andhroindian",
+          "commentId": "t1_n1v05nt",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ltxv5s/how_far_agentforce_is_being_used_in_customer/n1v05nt/",
+          "publishingDate": "2025-07-07T19:41:18+00:00",
+          "commentBody": "Even I heard the same, from my org poc’s",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_e0bjwdmpt",
+      "author": "NervousAd1125",
+      "authorProfile": "https://www.reddit.com/user/NervousAd1125",
+      "commentId": "t1_n2cn45l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ltxv5s/how_far_agentforce_is_being_used_in_customer/n2cn45l/",
+      "publishingDate": "2025-07-10T12:17:50+00:00",
+      "commentBody": "It’s definitely gaining traction. Agentforce is being used in real customer projects now, especially for support automation and internal tools. Some financial services firms and SaaS companies are seeing big efficiency gains. Ksolves has been doing some great stuff with Agentforce too—worth checking out their case studies if you’re looking for real-world examples. Still early days though, and prompt tuning + cost control are areas to watch. Trailhead, the Salesforce and ksolves blog are solid for updates.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    }
+  ]
+}

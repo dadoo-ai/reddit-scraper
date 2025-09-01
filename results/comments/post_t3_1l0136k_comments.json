@@ -1,0 +1,94 @@
+{
+  "info": {
+    "authorId": "t2_g64kyxlc",
+    "author": "Designer_Net_4864",
+    "authorProfile": "https://www.reddit.com/user/Designer_Net_4864",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1l0136k",
+    "postLabel": null,
+    "publishingDate": "2025-05-31T16:24:08+00:00",
+    "postTitle": "How can I migrate an Agentforce AI agent from one Salesforce org to another?",
+    "postMessage": "Hi everyone! I'm working with Agentforce in Salesforce and I've built an AI agent in one org (sandbox), but now I need to move or replicate it into another org (production or a different sandbox). Has anyone gone through this process? Is there a way to export and import the agent’s configuration (t",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1l0136k/how_can_i_migrate_an_agentforce_ai_agent_from_one/",
+    "commentCount": 7,
+    "upvoteCount": 2,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_701rv",
+      "author": "Joryxd",
+      "authorProfile": "https://www.reddit.com/user/Joryxd",
+      "commentId": "t1_mv9oynz",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l0136k/how_can_i_migrate_an_agentforce_ai_agent_from_one/mv9oynz/",
+      "publishingDate": "2025-05-31T16:37:42+00:00",
+      "commentBody": "You can move through SF CLI / SFDX. You have to make sure you gather all of the metadata. Depending on what type of Agent you’re using (ASA, Employee, etc) you will have to retrieve different metadata. You should look at these sources: \nGenAiPlanner\nGenAiPlugIn\nGenAiTopic \nGenAiFunction If it’s a Service Agent you also have to grab a file out of the Bot folder. You will have to update the bot username based on your target in this file as well. Forgive me if any of the above is a typo, I am doing this from memory on mobile. If you built custom actions, you’ll need the flows, apex, prompt templates, etc that you created as well.",
+      "upvotes": 8,
+      "dislikes": 8,
+      "downvotes": 9,
+      "replies": [
+        {
+          "authorId": "t2_701rv",
+          "author": "Joryxd",
+          "authorProfile": "https://www.reddit.com/user/Joryxd",
+          "commentId": "t1_mv9p32p",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l0136k/how_can_i_migrate_an_agentforce_ai_agent_from_one/mv9p32p/",
+          "publishingDate": "2025-05-31T16:38:20+00:00",
+          "commentBody": "If you built custom actions, you’ll need the flows, apex, prompt templates, etc that you created as well.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_cwnwkzjq",
+      "author": "RayTrader03",
+      "authorProfile": "https://www.reddit.com/user/RayTrader03",
+      "commentId": "t1_mv9qmh9",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l0136k/how_can_i_migrate_an_agentforce_ai_agent_from_one/mv9qmh9/",
+      "publishingDate": "2025-05-31T16:46:25+00:00",
+      "commentBody": "I face some issues with the migration so some parts honestly was done manually. But I agree with u/joryxd comment.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_d5icz",
+      "author": "opethdamnation",
+      "authorProfile": "https://www.reddit.com/user/opethdamnation",
+      "commentId": "t1_mv9ya3l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l0136k/how_can_i_migrate_an_agentforce_ai_agent_from_one/mv9ya3l/",
+      "publishingDate": "2025-05-31T17:25:44+00:00",
+      "commentBody": "Version 64, everything is under GenAiPlannerBundle something, which you can use to push using cli",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5
+    },
+    {
+      "authorId": "t2_38lo5",
+      "author": "manoffewwords",
+      "authorProfile": "https://www.reddit.com/user/manoffewwords",
+      "commentId": "t1_mvapv4l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l0136k/how_can_i_migrate_an_agentforce_ai_agent_from_one/mvapv4l/",
+      "publishingDate": "2025-05-31T19:50:36+00:00",
+      "commentBody": "Export a package.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_9rjwem0y",
+      "author": "Remarkable-Ad-1970",
+      "authorProfile": "https://www.reddit.com/user/Remarkable-Ad-1970",
+      "commentId": "t1_mypfqaq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l0136k/how_can_i_migrate_an_agentforce_ai_agent_from_one/mypfqaq/",
+      "publishingDate": "2025-06-19T21:53:06+00:00",
+      "commentBody": "Been there. Migrating Agentforce AI agents (or anything tied to flows, Apex, metadata) isn't as plug-and-play as you'd hope. Here's a practical breakdown that follows best practices and avoids AI slop or shady shortcuts: Confirm Dependencies Check what the agent is referencing: flows, Apex classes, custom metadata, permissions, etc. Use Salesforce Setup > Agent Builder to note all logic paths and connected records. Use Change Sets (If Possible) If both orgs are in the same sandbox-prod relationship, use Change Sets. Add your Agentforce setup, related Flows, Apex classes, and custom metadata. Use SFDX/Metadata API (for unrelated orgs) Export metadata using Salesforce CLI (SFDX) bash CopyEdit sfdx force:source:retrieve -m Flow,ApexClass,CustomMetadata Clean up hardcoded org-specific references. Push to the target org using: bash CopyEdit sfdx force:source:deploy -u TargetOrgAlias -p path/to/components Reconfigure in Target Org Update API endpoints, record types, or IDs that differ from the source org. Reassign agent roles, visibility settings, or user contexts as needed. Test Thoroughly Run the agent in test mode. Validate outputs, logs, flow interactions, and security settings. 💡 Pro Tip: Create a metadata package XML and include all referenced components explicitly. Agentforce AI is often tightly bound to flows, so missing one flow can break the whole agent.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    }
+  ]
+}

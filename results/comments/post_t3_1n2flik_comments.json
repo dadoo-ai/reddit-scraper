@@ -1,0 +1,156 @@
+{
+  "info": {
+    "authorId": "t2_1hjxtunoai",
+    "author": "GlassCaseOfEmotion53",
+    "authorProfile": "https://www.reddit.com/user/GlassCaseOfEmotion53",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1n2flik",
+    "postLabel": null,
+    "publishingDate": "2025-08-28T15:36:30+00:00",
+    "postTitle": "Is Agentforce usage free/unmetered if you're in sandbox in Prompt Template/Agent Builder (i.e. preview testing & debugging)",
+    "postMessage": "hey all, trying to estimate agentforce usage/cost for a client (finding this is not as easy/straightforward as i thought). one question that came up for Agentforce testing/POC in sandbox -> if you are in sandbox in Prompt Template Builder or Agent Builder and doing 'Preview' testing in setup area so you can debug and see response and update ---> is that consuming agentforce Flex Credits (i.e. costing money) or is that unmetered/free? Context: Couldn't find anything definitive on this topic ... btw, assumption here is this would be customer doing Flex Credits for internal employee use case (not conversation with external customer).     While client could consider the new 'unmetered' all you can eat agentforce per user per month option perhaps (new option announced recently by sfdc), right now they're just looking to do some sandbox POC stuff and trying to figure out if they'll stay under the 100k free Flex Credits when you turn on Agentforce as part of foundations. thx",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1n2flik/is_agentforce_usage_freeunmetered_if_youre_in/",
+    "commentCount": 11,
+    "upvoteCount": 8,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_hu3n7",
+      "author": "amantia",
+      "authorProfile": "https://www.reddit.com/user/amantia",
+      "commentId": "t1_nb5g7em",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n2flik/is_agentforce_usage_freeunmetered_if_youre_in/nb5g7em/",
+      "publishingDate": "2025-08-28T15:44:41+00:00",
+      "commentBody": "I wish I had the deck, but it is my understanding that Sandbox does contribute to Flex Credit comsumption, albeit, at a lower rate than production. thanks u/amantia ... found this Flex Credit Agentforce rate card that 1 Action consumes 20 Flex Credits in Prod and 1 Action consumes 16 Flex credits in Sandboxes (as of Aug 2025): https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/white-papers/Rate-Card-Flex-Credits.pdf Yeah, that looks familiar! Those numbers are correct. I'm an SE and was looking this up for a customer 2 weeks ago. Thanks for sharing, slightly mind blown that SF uses WordPress.",
+      "upvotes": 11,
+      "dislikes": 11,
+      "downvotes": 12,
+      "replies": [
+        {
+          "authorId": "t2_1hjxtunoai",
+          "author": "GlassCaseOfEmotion53",
+          "authorProfile": "https://www.reddit.com/user/GlassCaseOfEmotion53",
+          "commentId": "t1_nb5mypk",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n2flik/is_agentforce_usage_freeunmetered_if_youre_in/nb5mypk/",
+          "publishingDate": "2025-08-28T16:16:39+00:00",
+          "commentBody": "thanks u/amantia ... found this Flex Credit Agentforce rate card that 1 Action consumes 20 Flex Credits in Prod and 1 Action consumes 16 Flex credits in Sandboxes (as of Aug 2025): https://www.salesforce.com/en-us/wp-content/uploads/sites/4/documents/white-papers/Rate-Card-Flex-Credits.pdf Yeah, that looks familiar! Those numbers are correct. I'm an SE and was looking this up for a customer 2 weeks ago. Thanks for sharing, slightly mind blown that SF uses WordPress.",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_hu3n7",
+          "author": "amantia",
+          "authorProfile": "https://www.reddit.com/user/amantia",
+          "commentId": "t1_nb5n93l",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n2flik/is_agentforce_usage_freeunmetered_if_youre_in/nb5n93l/",
+          "publishingDate": "2025-08-28T16:18:00+00:00",
+          "commentBody": "Yeah, that looks familiar! Those numbers are correct. I'm an SE and was looking this up for a customer 2 weeks ago.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_s0njh",
+          "author": "DoubleTigerMUCU",
+          "authorProfile": "https://www.reddit.com/user/DoubleTigerMUCU",
+          "commentId": "t1_nb9btdu",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n2flik/is_agentforce_usage_freeunmetered_if_youre_in/nb9btdu/",
+          "publishingDate": "2025-08-29T04:10:21+00:00",
+          "commentBody": "Those numbers are correct. I'm an SE and was looking this up for a customer 2 weeks ago.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_6ed4mw6t",
+          "author": "ConceptualCatPoltics",
+          "authorProfile": "https://www.reddit.com/user/ConceptualCatPoltics",
+          "commentId": "t1_nba7j5m",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n2flik/is_agentforce_usage_freeunmetered_if_youre_in/nba7j5m/",
+          "publishingDate": "2025-08-29T08:51:30+00:00",
+          "commentBody": "Thanks for sharing, slightly mind blown that SF uses WordPress.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1ladeb2r",
+      "author": "Sourgrandma",
+      "authorProfile": "https://www.reddit.com/user/Sourgrandma",
+      "commentId": "t1_nb5h6w9",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n2flik/is_agentforce_usage_freeunmetered_if_youre_in/nb5h6w9/",
+      "publishingDate": "2025-08-28T15:49:23+00:00",
+      "commentBody": "Credits are consumed the same way in Sandbox as they are in Production. I'm not 100% sure about the conversation preview panel though. thanks u/Sourgrandma agentforce flex credit looks like basically sandboxes consume 80% of the credits that would be used in prod so slight discount in that sense i suppose, but the setup/developer area with 'Preview' testing is unclear --> would be nice if that was unmetered/free as you're iterating on config/dev testing No such thing as a free lunch in Salesforce world. <image>",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_1hjxtunoai",
+          "author": "GlassCaseOfEmotion53",
+          "authorProfile": "https://www.reddit.com/user/GlassCaseOfEmotion53",
+          "commentId": "t1_nb5nae5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n2flik/is_agentforce_usage_freeunmetered_if_youre_in/nb5nae5/",
+          "publishingDate": "2025-08-28T16:18:11+00:00",
+          "commentBody": "thanks u/Sourgrandma agentforce flex credit looks like basically sandboxes consume 80% of the credits that would be used in prod so slight discount in that sense i suppose, but the setup/developer area with 'Preview' testing is unclear --> would be nice if that was unmetered/free as you're iterating on config/dev testing No such thing as a free lunch in Salesforce world. <image>",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        },
+        {
+          "authorId": "t2_kfst3",
+          "author": "neilmg",
+          "authorProfile": "https://www.reddit.com/user/neilmg",
+          "commentId": "t1_nb6n2sr",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n2flik/is_agentforce_usage_freeunmetered_if_youre_in/nb6n2sr/",
+          "publishingDate": "2025-08-28T19:05:59+00:00",
+          "commentBody": "No such thing as a free lunch in Salesforce world. <image>",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        },
+        {
+          "authorId": "t2_1hjxtunoai",
+          "author": "GlassCaseOfEmotion53",
+          "authorProfile": "https://www.reddit.com/user/GlassCaseOfEmotion53",
+          "commentId": "t1_nb6qhx3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n2flik/is_agentforce_usage_freeunmetered_if_youre_in/nb6qhx3/",
+          "publishingDate": "2025-08-28T19:22:34+00:00",
+          "commentBody": "<image>",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        }
+      ]
+    },
+    {
+      "authorId": "t2_123ayv2n",
+      "author": "ehartye",
+      "authorProfile": "https://www.reddit.com/user/ehartye",
+      "commentId": "t1_nb8sgt4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n2flik/is_agentforce_usage_freeunmetered_if_youre_in/nb8sgt4/",
+      "publishingDate": "2025-08-29T02:01:45+00:00",
+      "commentBody": "You are more rate limited in sandbox than production. You can get up to 500 RPM in production, but only 200 RPH in sandbox. Forecasting credit consumption is notoriously difficult. Careful taking what you hear here for gospel. People here may not know if you have data cloud or semantic search in the mix.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_7ugtx3a7",
+      "author": "Sea_Potato_7081",
+      "authorProfile": "https://www.reddit.com/user/Sea_Potato_7081",
+      "commentId": "t1_nbjm1hz",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n2flik/is_agentforce_usage_freeunmetered_if_youre_in/nbjm1hz/",
+      "publishingDate": "2025-08-30T19:43:04+00:00",
+      "commentBody": "In sandbox 16 flex credits are consumed per Agentforce action, for Prod it is 20 per action",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

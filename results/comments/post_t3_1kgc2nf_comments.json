@@ -1,0 +1,304 @@
+{
+  "info": {
+    "authorId": "t2_v36u6",
+    "author": "johngarvens",
+    "authorProfile": "https://www.reddit.com/user/johngarvens",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1kgc2nf",
+    "postLabel": null,
+    "publishingDate": "2025-05-06T18:36:44+00:00",
+    "postTitle": "Dreamforce Call for Participation: Unless it's about Agentforce, don't bother",
+    "postMessage": "Translation: Unless your session is about Agentforce and helps us sell this motherfucker, don’t bother submitting a topic. Welcome to the Dreamforce Call for Participation Answer the Call: Shape the Agentforce Future at Dreamforce Don’t just attend — lead the charge in the Agentblazer revolution. Submit your session proposal to Dreamforce and ignite inspiration by showcasing real-world customer success in the age of digital labor. Share your insights and empower thousands to: Illustrate transformative customer journeys where digital labor creates a limitless workforce. Define and demystify what it truly means to become an Agentforce company, providing practical pathways for adoption. Dive deep into tangible AI agent use-cases, offering actionable strategies for every role and industry. Visually demonstrate the synergistic power of agents, data, and applications working in concert to drive unparalleled results. Equip attendees with the knowledge and tools to become Agentblazers, enabling them to build, deploy, and scale intelligent agents across any workflow. Your expertise can empower the future of work. Answer the Call for Participation and become a pivotal voice in the Agentforce movement at Dreamforce. “At Salesforce, we are deeply committed to fostering an inclusive environment [for AI agents]. We strive to showcase and elevate [Agentic] diversity, including different [AI models], genders, races, and geographies through the stories we share. Kindly keep this important aspect in mind as you submit [your prompt to Agentforce, which will evaluate and select participants].” EDIT: The landing page was updated. Welcome to the Dreamforce Call for Sessions Dreamforce 2025: Call for Sessions Share your impact. Shape what’s next. Have a bold idea, breakthrough project, or real-world success to share? Dreamforce is your chance to share it with a global audience of peers, practitioners, and innovators. Whether you're deep in development, driving strategy, leading operations, or hands-on with implementation—if you’ve helped your team move faster, serve customers smarter, or solve complex problems with real results, we want to hear from you. What makes a great session? Inspiring stories of measurable business impact Clear how-to guides or product walkthroughs for different roles and skill levels Playbooks, frameworks, or strategies others can use immediately New use cases in AI, data, automation, or cross-cloud collaboration Sessions that simplify complex ideas: no jargon, just useful insight We’re especially looking for sessions that show what’s possible with AI in the real world—not just theory, but what’s working now. Need inspiration? Standout sessions often sound like: Scaling AI-driven support in 6 months A framework for AI-powered forecasting How one team automated onboarding and saved 100+ hours",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/",
+    "commentCount": 29,
+    "upvoteCount": 40,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_86yxl50o",
+      "author": "Responsible_Loss_971",
+      "authorProfile": "https://www.reddit.com/user/Responsible_Loss_971",
+      "commentId": "t1_mqxrivk",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mqxrivk/",
+      "publishingDate": "2025-05-06T19:22:58+00:00",
+      "commentBody": "We went from human Ohana / community to exclusive focus on the accomplishments of \"Digital Labor\" in pretty short order. Yeah they reamed Parker Harris and the brass at True to the Core at TDX this year over this. I'm convinced Parker is just coasting to retirement at this point and nothing will change now. It's sad.",
+      "upvotes": 29,
+      "dislikes": 29,
+      "downvotes": 30,
+      "replies": [
+        {
+          "authorId": "t2_8axsq",
+          "author": "capngrandan",
+          "authorProfile": "https://www.reddit.com/user/capngrandan",
+          "commentId": "t1_mqy940i",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mqy940i/",
+          "publishingDate": "2025-05-06T20:46:26+00:00",
+          "commentBody": "Yeah they reamed Parker Harris and the brass at True to the Core at TDX this year over this. I'm convinced Parker is just coasting to retirement at this point and nothing will change now. It's sad.",
+          "upvotes": 8,
+          "dislikes": 8,
+          "downvotes": 9
+        }
+      ]
+    },
+    {
+      "authorId": "t2_9q0xtmh",
+      "author": "hra_gleb",
+      "authorProfile": "https://www.reddit.com/user/hra_gleb",
+      "commentId": "t1_mr13xc6",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr13xc6/",
+      "publishingDate": "2025-05-07T07:56:31+00:00",
+      "commentBody": "Wow. This is the first in Salesforce history. Three consecutive Dreamforces where the new hype is the same hype ? Hold be bros, I am afraid.",
+      "upvotes": 9,
+      "dislikes": 9,
+      "downvotes": 10
+    },
+    {
+      "authorId": "t2_q66yn",
+      "author": "bafadam",
+      "authorProfile": "https://www.reddit.com/user/bafadam",
+      "commentId": "t1_mr1ksw3",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr1ksw3/",
+      "publishingDate": "2025-05-07T10:46:54+00:00",
+      "commentBody": "“Digital labor” Barf.",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7
+    },
+    {
+      "authorId": "t2_95m2c11h",
+      "author": "thoughtsmexywasaword",
+      "authorProfile": "https://www.reddit.com/user/thoughtsmexywasaword",
+      "commentId": "t1_mqxmz1u",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mqxmz1u/",
+      "publishingDate": "2025-05-06T19:00:53+00:00",
+      "commentBody": "More shocked they still kept the inclusive bit. I’m sure Marc Benioff will be getting a threatening phone call over that one",
+      "upvotes": 7,
+      "dislikes": 7,
+      "downvotes": 8
+    },
+    {
+      "authorId": "t2_11rshu",
+      "author": "Boogiedownpapi",
+      "authorProfile": "https://www.reddit.com/user/Boogiedownpapi",
+      "commentId": "t1_mqyab2b",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mqyab2b/",
+      "publishingDate": "2025-05-06T20:51:57+00:00",
+      "commentBody": "If this isn't desperation, I dont know what is. Its been obvious that they built a solution looking for a problem, then built a solution to a problem. Now we all suffer for it. This isn't just a Salesforce problem. There are no obvious hypergrowth markets left in tech and when investors figure that out there are going to be ripple effects across the industry. Totally agree here You mean like when Salesforce invented the cloud computing business model? The problem that solved is clearly articulated in Marc's book \"Behind The Cloud\". And Salesforce wasn't the only evangelist for SaaS, nor the only success story.",
+      "upvotes": 7,
+      "dislikes": 7,
+      "downvotes": 8,
+      "replies": [
+        {
+          "authorId": "t2_9dmjp",
+          "author": "BradCraeb",
+          "authorProfile": "https://www.reddit.com/user/BradCraeb",
+          "commentId": "t1_mr8l4um",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr8l4um/",
+          "publishingDate": "2025-05-08T13:03:03+00:00",
+          "commentBody": "This isn't just a Salesforce problem. There are no obvious hypergrowth markets left in tech and when investors figure that out there are going to be ripple effects across the industry. Totally agree here",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        },
+        {
+          "authorId": "t2_11rshu",
+          "author": "Boogiedownpapi",
+          "authorProfile": "https://www.reddit.com/user/Boogiedownpapi",
+          "commentId": "t1_mr8l7ve",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr8l7ve/",
+          "publishingDate": "2025-05-08T13:03:33+00:00",
+          "commentBody": "Totally agree here",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_wbr8c",
+          "author": "big-blue-balls",
+          "authorProfile": "https://www.reddit.com/user/big-blue-balls",
+          "commentId": "t1_mr0g8fz",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr0g8fz/",
+          "publishingDate": "2025-05-07T04:18:55+00:00",
+          "commentBody": "You mean like when Salesforce invented the cloud computing business model? The problem that solved is clearly articulated in Marc's book \"Behind The Cloud\". And Salesforce wasn't the only evangelist for SaaS, nor the only success story.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_hsb2wjgvf",
+          "author": "Ok_Captain4824",
+          "authorProfile": "https://www.reddit.com/user/Ok_Captain4824",
+          "commentId": "t1_mr2v42h",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr2v42h/",
+          "publishingDate": "2025-05-07T15:20:11+00:00",
+          "commentBody": "The problem that solved is clearly articulated in Marc's book \"Behind The Cloud\". And Salesforce wasn't the only evangelist for SaaS, nor the only success story.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_9h0oif2z",
+      "author": "impartingthehair",
+      "authorProfile": "https://www.reddit.com/user/impartingthehair",
+      "commentId": "t1_mr5pphg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr5pphg/",
+      "publishingDate": "2025-05-07T23:50:20+00:00",
+      "commentBody": "For the first time in 10 years as a consultant, I'm worried about the future of the platform and my career. I don't see where we're heading with AgentForce, the train is passing us by. And I don't have an interest in learning AI, so I might get left behind.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_c9e5v44r",
+      "author": "EnvironmentalTap2413",
+      "authorProfile": "https://www.reddit.com/user/EnvironmentalTap2413",
+      "commentId": "t1_mr2wr6r",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr2wr6r/",
+      "publishingDate": "2025-05-07T15:28:03+00:00",
+      "commentBody": "As a multiple-DF speaker, I would not recommend submitting a fake talk proposal. You have to do a rehearsal with an employee ahead of time and they pay attention and give you feedback. If your rehearsal was on the proposed topic and you switched at the conference, the audience will be upset you wasted their time and you will get very negative scores and not be invited to speak again. There could be worse repercussions if the topic was anti-Salesforce (kicked out of partner program, employer notified, etc) There may be people who want to hear the real talk you want to give, but they won't be in the audience, since your lie will be listed in the agenda instead. If you're passionate about a topic and want to speak at DF, you're going to have to either take the risk of submitting it as is or figure out how to connect it to AgentForce.",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6
+    },
+    {
+      "authorId": "t2_14yhb0",
+      "author": "BeingHuman30",
+      "authorProfile": "https://www.reddit.com/user/BeingHuman30",
+      "commentId": "t1_mqxpprv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mqxpprv/",
+      "publishingDate": "2025-05-06T19:14:13+00:00",
+      "commentBody": "They had one in India recently TDX Bengaluru 2025 Hackathon  ---> gave out huge prizes for agentforce related scenarios.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_138frxkswa",
+      "author": "Positive_Read_3573",
+      "authorProfile": "https://www.reddit.com/user/Positive_Read_3573",
+      "commentId": "t1_mr7drlp",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr7drlp/",
+      "publishingDate": "2025-05-08T06:48:55+00:00",
+      "commentBody": "Is it true?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_crbny",
+      "author": "cmstlist",
+      "authorProfile": "https://www.reddit.com/user/cmstlist",
+      "commentId": "t1_mr21cwa",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr21cwa/",
+      "publishingDate": "2025-05-07T12:43:31+00:00",
+      "commentBody": "Clearly the strategy, then, is to give a talk on whatever you want to, but give it a title that fools SFDC into thinking it's about Agentforce. Dreamforce doesn't work that way. You spend months workshopping your presentation with them in order to present there.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_hsb2wjgvf",
+          "author": "Ok_Captain4824",
+          "authorProfile": "https://www.reddit.com/user/Ok_Captain4824",
+          "commentId": "t1_mr2vdcy",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr2vdcy/",
+          "publishingDate": "2025-05-07T15:21:25+00:00",
+          "commentBody": "Dreamforce doesn't work that way. You spend months workshopping your presentation with them in order to present there.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_ch047",
+      "author": "TXTCLA55",
+      "authorProfile": "https://www.reddit.com/user/TXTCLA55",
+      "commentId": "t1_mr3ndoa",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr3ndoa/",
+      "publishingDate": "2025-05-07T17:35:44+00:00",
+      "commentBody": "Ya know, a small part of me wants to submit something super trolly, for the fun of it. Lord knows they're gonna have a lot of slop.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": 0
+    },
+    {
+      "authorId": "t2_46tmyd2y",
+      "author": "MrMosh024",
+      "authorProfile": "https://www.reddit.com/user/MrMosh024",
+      "commentId": "t1_mr46xvf",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr46xvf/",
+      "publishingDate": "2025-05-07T19:08:53+00:00",
+      "commentBody": "I miss the days when Salesforce was innovative and either created products people need or purchased a company that provided the services. Rather than making/adopting products to make our lives easier, they're pushing products to replace us (people). Sadly, Salesforce has developed such a cult-like following that people gobble this shit up.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": 0
+    },
+    {
+      "authorId": "t2_xvstohikq",
+      "author": "busy_data_analyst",
+      "authorProfile": "https://www.reddit.com/user/busy_data_analyst",
+      "commentId": "t1_mqzkuce",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mqzkuce/",
+      "publishingDate": "2025-05-07T01:03:34+00:00",
+      "commentBody": "Is any tech company not leaning into AI?  What do you want them to do? Fix the whole goddamn platform. Everything is all over places, with every release, something already in place gets broken. At the architectural level itself, Salesforce is broken. By the way, Salesforce should probably consider growing balls to take criticism. How tf we see absolutely zero articles about the Salesforce being a dumpster fire? I wouldn't argue that they shouldn't \"lean in\" to AI. The point is that shouldn't be the exclusive focus. Their entire success as a company has been built around the values of trust, customer success and enabled by the community of professionals that use/build/maintain the platform. Customer Success died as a value when Marc showed up 15 mins late to an all company meeting and then laid off 70% of the CS org. Now it's all about Agentic Playbooks We shouldn't be giving them passes to do so. Its super unnecessary and frankly, not a great business decision. They dumped a shit ton of money into AI and now that it's here, they dont know what to do with it Most companies don't know what they're doing with it but they're telling everyone they need to hop on it AI is cool, but its not solving problems that push us forward, at least not in everyday life just yet",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": "t2_2gb3ejnk",
+          "author": "farjicomedian",
+          "authorProfile": "https://www.reddit.com/user/farjicomedian",
+          "commentId": "t1_mr0p3b8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr0p3b8/",
+          "publishingDate": "2025-05-07T05:31:27+00:00",
+          "commentBody": "Fix the whole goddamn platform. Everything is all over places, with every release, something already in place gets broken. At the architectural level itself, Salesforce is broken. By the way, Salesforce should probably consider growing balls to take criticism. How tf we see absolutely zero articles about the Salesforce being a dumpster fire?",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_86yxl50o",
+          "author": "Responsible_Loss_971",
+          "authorProfile": "https://www.reddit.com/user/Responsible_Loss_971",
+          "commentId": "t1_mr2qeh9",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr2qeh9/",
+          "publishingDate": "2025-05-07T14:57:23+00:00",
+          "commentBody": "I wouldn't argue that they shouldn't \"lean in\" to AI. The point is that shouldn't be the exclusive focus. Their entire success as a company has been built around the values of trust, customer success and enabled by the community of professionals that use/build/maintain the platform. Customer Success died as a value when Marc showed up 15 mins late to an all company meeting and then laid off 70% of the CS org. Now it's all about Agentic Playbooks",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_11rshu",
+          "author": "Boogiedownpapi",
+          "authorProfile": "https://www.reddit.com/user/Boogiedownpapi",
+          "commentId": "t1_mr34wca",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr34wca/",
+          "publishingDate": "2025-05-07T16:07:17+00:00",
+          "commentBody": "We shouldn't be giving them passes to do so. Its super unnecessary and frankly, not a great business decision. They dumped a shit ton of money into AI and now that it's here, they dont know what to do with it Most companies don't know what they're doing with it but they're telling everyone they need to hop on it AI is cool, but its not solving problems that push us forward, at least not in everyday life just yet",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_pmdszyc",
+      "author": "FivePoopMacaroni",
+      "authorProfile": "https://www.reddit.com/user/FivePoopMacaroni",
+      "commentId": "t1_mr0jluj",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kgc2nf/dreamforce_call_for_participation_unless_its/mr0jluj/",
+      "publishingDate": "2025-05-07T04:45:05+00:00",
+      "commentBody": "Salesforce is a company that has only grown by bullying and buying out any threatening application and ruining them, while forcing inflated performance numbers by leveraging their scale from their success at the one good application they developed 25 years ago. Their entire business model is using the loudest voice possible to push vaporware and move on before anyone realizes the last one was BS.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "info": {
+    "authorId": "t2_1klditpa7e",
+    "author": "Marcus_Schlicht_5460",
+    "authorProfile": "https://www.reddit.com/user/Marcus_Schlicht_5460",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1jzljyv",
+    "postLabel": "certification passed",
+    "publishingDate": "2025-04-15T07:05:09+00:00",
+    "postTitle": "Passed the Salesforce Agentforce Specialist Exam – Sharing My Experience, Tips & Resources",
+    "postMessage": "Hi All, I'm happy to share that I recently passed the Salesforce Certified Agentforce Specialist exam! It was a challenging yet rewarding journey, and I wanted to share my experience, study strategies, and resources that helped me succeed. Exam Overview The exam focuses on five key areas: Prompt Engineering (30%) Agentforce Concepts (30%) Agentforce and Data Cloud (20%) Agentforce and Service Cloud (10%) Agentforce and Sales Cloud (10%) Understanding these domains is crucial. For a detailed breakdown, refer to the official exam guide. Study Resources I Used 1. Trailhead Modules: Agentblazer Trailmix: Earning the Agentblazer status provided a structured learning path. 2. Salesforce Ben Guides: Agentforce Specialist Certification Guide & Tips: Offers insights and tips for the exam. Master Agentforce: Free Training Resources: A comprehensive guide to available resources. 3. Practice Exams: Salesforce Agentforce Specialist Practice Questions: Realistic practice questions that mirror the exam format. Practice Exams in video: 10 free questions with detailed explanations. Study Tips Understand Prompt Engineering: This is a significant portion of the exam. Focus on how to craft effective prompts and understand grounding methods. Hands-On Practice: Utilize the Agentforce Playground to get practical experience. Join the Community: Engage with fellow learners in the Trailblazer Community. Sharing knowledge and experiences can be incredibly beneficial. Review and Revise: Regularly revisit challenging concepts and take mock exams to assess your understanding. The journey to becoming a Salesforce Certified Agentforce Specialist is demanding but achievable with the right resources and dedication. Embrace the learning process, and don't hesitate to seek help when needed.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/",
+    "commentCount": 29,
+    "upvoteCount": 51,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_b56jp",
+      "author": "leaky_wand",
+      "authorProfile": "https://www.reddit.com/user/leaky_wand",
+      "commentId": "t1_mn96fsx",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mn96fsx/",
+      "publishingDate": "2025-04-15T16:11:34+00:00",
+      "commentBody": "Well you certainly know how to use AI Bro literally just typed in a prompt: \"how to pass Salesforce Agentforce Specialist Exam\" to chatGPT lol.",
+      "upvotes": 36,
+      "dislikes": 36,
+      "downvotes": 37,
+      "replies": [
+        {
+          "authorId": "t2_9m4163vz",
+          "author": "chocobrobobo",
+          "authorProfile": "https://www.reddit.com/user/chocobrobobo",
+          "commentId": "t1_mnd7kmc",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mnd7kmc/",
+          "publishingDate": "2025-04-16T06:12:24+00:00",
+          "commentBody": "Bro literally just typed in a prompt: \"how to pass Salesforce Agentforce Specialist Exam\" to chatGPT lol.",
+          "upvotes": 10,
+          "dislikes": 10,
+          "downvotes": 11
+        }
+      ]
+    },
+    {
+      "authorId": "t2_5817qin8i",
+      "author": "BluebirdBorn4471",
+      "authorProfile": "https://www.reddit.com/user/BluebirdBorn4471",
+      "commentId": "t1_mwg97c3",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mwg97c3/",
+      "publishingDate": "2025-06-07T06:43:26+00:00",
+      "commentBody": "just passed the salesforce agentforce specialist exam! Skillcertpro practice tests were a huge help — nearly 80% of the real exam questions felt familiar. most topics focused on omni-channel, agent productivity tools, case routing, and workspace configuration. if you’re consistently scoring 85%+ on the mocks, you’re well-prepared to pass. Tem cupom de desconto?",
+      "upvotes": 14,
+      "dislikes": 14,
+      "downvotes": 15,
+      "replies": [
+        {
+          "authorId": "t2_89polnv7",
+          "author": "rodrigofefafe",
+          "authorProfile": "https://www.reddit.com/user/rodrigofefafe",
+          "commentId": "t1_n8hyc24",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/n8hyc24/",
+          "publishingDate": "2025-08-13T17:03:03+00:00",
+          "commentBody": "Tem cupom de desconto?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_sw6v87m8d",
+      "author": "ear_tickler",
+      "authorProfile": "https://www.reddit.com/user/ear_tickler",
+      "commentId": "t1_mna0dcx",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mna0dcx/",
+      "publishingDate": "2025-04-15T18:38:38+00:00",
+      "commentBody": "Where’s the tips? op just copy-pasted the sf study guide I think he did more than that. He typed it into ChatGPT and copypasted the results Hi, I studied some online salesforce Agentforce Specialist exam questions . Thanks bro I have passed with this dumps Did you clear the exam? Hi, yes, I cleared my Salesforce Agentforce Specialist exam.",
+      "upvotes": 13,
+      "dislikes": 13,
+      "downvotes": 14,
+      "replies": [
+        {
+          "authorId": "t2_6xhwi",
+          "author": "longagofaraway",
+          "authorProfile": "https://www.reddit.com/user/longagofaraway",
+          "commentId": "t1_mnaqh03",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mnaqh03/",
+          "publishingDate": "2025-04-15T20:48:49+00:00",
+          "commentBody": "op just copy-pasted the sf study guide I think he did more than that. He typed it into ChatGPT and copypasted the results",
+          "upvotes": 12,
+          "dislikes": 12,
+          "downvotes": 13
+        },
+        {
+          "authorId": "t2_4ddlhjv8",
+          "author": "Pancovnik",
+          "authorProfile": "https://www.reddit.com/user/Pancovnik",
+          "commentId": "t1_mndi5x9",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mndi5x9/",
+          "publishingDate": "2025-04-16T08:01:59+00:00",
+          "commentBody": "I think he did more than that. He typed it into ChatGPT and copypasted the results",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        },
+        {
+          "authorId": "t2_1klditpa7e",
+          "author": "Marcus_Schlicht_5460",
+          "authorProfile": "https://www.reddit.com/user/Marcus_Schlicht_5460",
+          "commentId": "t1_mni5v2u",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mni5v2u/",
+          "publishingDate": "2025-04-17T00:28:45+00:00",
+          "commentBody": "Hi, I studied some online salesforce Agentforce Specialist exam questions . Thanks bro I have passed with this dumps Did you clear the exam? Hi, yes, I cleared my Salesforce Agentforce Specialist exam.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_8fjt5lzz",
+          "author": "SubstantialYam1185",
+          "authorProfile": "https://www.reddit.com/user/SubstantialYam1185",
+          "commentId": "t1_na7pm4f",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/na7pm4f/",
+          "publishingDate": "2025-08-23T07:58:45+00:00",
+          "commentBody": "Thanks bro I have passed with this dumps",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_a14jt7cr",
+          "author": "Legitimate_Ad8546",
+          "authorProfile": "https://www.reddit.com/user/Legitimate_Ad8546",
+          "commentId": "t1_n4arj5n",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/n4arj5n/",
+          "publishingDate": "2025-07-21T06:42:00+00:00",
+          "commentBody": "Did you clear the exam? Hi, yes, I cleared my Salesforce Agentforce Specialist exam.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1klditpa7e",
+          "author": "Marcus_Schlicht_5460",
+          "authorProfile": "https://www.reddit.com/user/Marcus_Schlicht_5460",
+          "commentId": "t1_n4fryqg",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/n4fryqg/",
+          "publishingDate": "2025-07-22T00:08:59+00:00",
+          "commentBody": "Hi, yes, I cleared my Salesforce Agentforce Specialist exam.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_347iz70x",
+      "author": "TheGrumpyGent",
+      "authorProfile": "https://www.reddit.com/user/TheGrumpyGent",
+      "commentId": "t1_mnas3ha",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mnas3ha/",
+      "publishingDate": "2025-04-15T20:56:46+00:00",
+      "commentBody": "Do you have experience in general prompt engineering, and if so are there significant differences in Agentforce prompts vs. other LLMs? Edit:  Corrected the name before I get a scarlet letter or something, LOL NO CAPITAL F FFS Some of my colleagues still write Sales Force or Sales-Force or Sale force . Sometimes interchangeably in one email . We have it the business for over a decade UGH, I cant break that habit LOL I missed it, what did you write AgentForce instead of Agentforce? I don't see a big deal, you're on Reddit ffs. Yes, and I was joking (as I believe the person who called it out was as well). I dunno, they downvoted you lol. Or someone did, so I assumed actual annoyance. Well, better shape up, stop using the big F where it isn't wanted!",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_erygs8ko",
+          "author": "HyperFortyFour",
+          "authorProfile": "https://www.reddit.com/user/HyperFortyFour",
+          "commentId": "t1_mnashl7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mnashl7/",
+          "publishingDate": "2025-04-15T20:58:41+00:00",
+          "commentBody": "NO CAPITAL F FFS Some of my colleagues still write Sales Force or Sales-Force or Sale force . Sometimes interchangeably in one email . We have it the business for over a decade UGH, I cant break that habit LOL I missed it, what did you write AgentForce instead of Agentforce? I don't see a big deal, you're on Reddit ffs. Yes, and I was joking (as I believe the person who called it out was as well). I dunno, they downvoted you lol. Or someone did, so I assumed actual annoyance. Well, better shape up, stop using the big F where it isn't wanted!",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        },
+        {
+          "authorId": "t2_4ddlhjv8",
+          "author": "Pancovnik",
+          "authorProfile": "https://www.reddit.com/user/Pancovnik",
+          "commentId": "t1_mndh1vs",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mndh1vs/",
+          "publishingDate": "2025-04-16T07:50:13+00:00",
+          "commentBody": "Some of my colleagues still write Sales Force or Sales-Force or Sale force . Sometimes interchangeably in one email . We have it the business for over a decade",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_347iz70x",
+          "author": "TheGrumpyGent",
+          "authorProfile": "https://www.reddit.com/user/TheGrumpyGent",
+          "commentId": "t1_mnav4ug",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mnav4ug/",
+          "publishingDate": "2025-04-15T21:12:09+00:00",
+          "commentBody": "UGH, I cant break that habit LOL I missed it, what did you write AgentForce instead of Agentforce? I don't see a big deal, you're on Reddit ffs. Yes, and I was joking (as I believe the person who called it out was as well). I dunno, they downvoted you lol. Or someone did, so I assumed actual annoyance. Well, better shape up, stop using the big F where it isn't wanted!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_9m4163vz",
+          "author": "chocobrobobo",
+          "authorProfile": "https://www.reddit.com/user/chocobrobobo",
+          "commentId": "t1_mnd7r65",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mnd7r65/",
+          "publishingDate": "2025-04-16T06:14:10+00:00",
+          "commentBody": "I missed it, what did you write AgentForce instead of Agentforce? I don't see a big deal, you're on Reddit ffs. Yes, and I was joking (as I believe the person who called it out was as well). I dunno, they downvoted you lol. Or someone did, so I assumed actual annoyance. Well, better shape up, stop using the big F where it isn't wanted!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_347iz70x",
+          "author": "TheGrumpyGent",
+          "authorProfile": "https://www.reddit.com/user/TheGrumpyGent",
+          "commentId": "t1_mnhj8ix",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mnhj8ix/",
+          "publishingDate": "2025-04-16T22:17:12+00:00",
+          "commentBody": "Yes, and I was joking (as I believe the person who called it out was as well). I dunno, they downvoted you lol. Or someone did, so I assumed actual annoyance. Well, better shape up, stop using the big F where it isn't wanted!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_9m4163vz",
+          "author": "chocobrobobo",
+          "authorProfile": "https://www.reddit.com/user/chocobrobobo",
+          "commentId": "t1_mnj4r0n",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mnj4r0n/",
+          "publishingDate": "2025-04-17T04:12:37+00:00",
+          "commentBody": "I dunno, they downvoted you lol. Or someone did, so I assumed actual annoyance. Well, better shape up, stop using the big F where it isn't wanted!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1afhuhsf2j",
+      "author": "Grouchy_Pickle_3483",
+      "authorProfile": "https://www.reddit.com/user/Grouchy_Pickle_3483",
+      "commentId": "t1_mne3rh2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/mne3rh2/",
+      "publishingDate": "2025-04-16T11:31:14+00:00",
+      "commentBody": "Thanks for the tips!",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_fetdl",
+      "author": "substate",
+      "authorProfile": "https://www.reddit.com/user/substate",
+      "commentId": "t1_n9h4gkx",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jzljyv/passed_the_salesforce_agentforce_specialist_exam/n9h4gkx/",
+      "publishingDate": "2025-08-19T04:27:55+00:00",
+      "commentBody": "\"Understanding these domains is crucial.\"",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

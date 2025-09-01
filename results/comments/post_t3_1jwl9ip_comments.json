@@ -1,0 +1,178 @@
+{
+  "info": {
+    "authorId": "t2_5lo24rqh",
+    "author": "bobsyourdaughter",
+    "authorProfile": "https://www.reddit.com/user/bobsyourdaughter",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1jwl9ip",
+    "postLabel": "apps/products",
+    "publishingDate": "2025-04-11T08:52:52+00:00",
+    "postTitle": "Is Agentforce designed to slowly replace Einstein?",
+    "postMessage": "With things happening so fast I no longer know who to trust. Many online sources are saying it's not, but with AI Specialist being renamed to Agentforce Specialist, it's difficult not to think Einstein features are eventually going to be made obsolete and it's going to be very soon with the pace at which Salesforce AI capabilities are going. Should companies, especially those who can afford Agentforce, still procure Einstein licenses? Within a year, Salesforce has already retired several Einstein-titled features. I understand that existing Einstein features that have not gone away are more predictive than generative. But as Salesforce develops Agentforce further and it becomes stronger, how likely will those features get swallowed?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1jwl9ip/is_agentforce_designed_to_slowly_replace_einstein/",
+    "commentCount": 15,
+    "upvoteCount": 9,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_9nty9",
+      "author": "Snipesticker",
+      "authorProfile": "https://www.reddit.com/user/Snipesticker",
+      "commentId": "t1_mmk6ep3",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jwl9ip/is_agentforce_designed_to_slowly_replace_einstein/mmk6ep3/",
+      "publishingDate": "2025-04-11T13:32:17+00:00",
+      "commentBody": "No. The difference is that „Einstein“ is used as an umbrella term for predictive AI (Lead Scoring, Opportunity Scoring) and classification (case classification etc). Predictive AI will stay, that is nothing you would ever want to do with generative AI. Then, there are generative AI features, like Prompt Builder or Sales Emails. No Agentforce here, since they do not use the Atlas Reasoning Engine. (The thing that plans what an Agent needs to do) The term Agentforce is strictly used to describe autonomous Agents running on the Atlas reasoning engine. All these features will coexist, since they are very specific tools in the Salesforce toolbox.",
+      "upvotes": 17,
+      "dislikes": 17,
+      "downvotes": 18
+    },
+    {
+      "authorId": "t2_867527bkd",
+      "author": "Swimming_Leopard_148",
+      "authorProfile": "https://www.reddit.com/user/Swimming_Leopard_148",
+      "commentId": "t1_mmj7kmj",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jwl9ip/is_agentforce_designed_to_slowly_replace_einstein/mmj7kmj/",
+      "publishingDate": "2025-04-11T09:02:33+00:00",
+      "commentBody": "I’m very used to annual changes in product focus from Salesforce, but even I’m a bit taken aback about how hard they are going on AgentForce. However in terms of Einstein they lost me a while ago with their naming changes that seemed to be for the benefit of Tableau execs only. As you say, predictive capabilities will remain as long as sales and service cloud are there",
+      "upvotes": 14,
+      "dislikes": 14,
+      "downvotes": 15
+    },
+    {
+      "authorId": "t2_883ga",
+      "author": "CarbonHero",
+      "authorProfile": "https://www.reddit.com/user/CarbonHero",
+      "commentId": "t1_mmjdmm2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jwl9ip/is_agentforce_designed_to_slowly_replace_einstein/mmjdmm2/",
+      "publishingDate": "2025-04-11T10:05:20+00:00",
+      "commentBody": "I mean realistically most of the name changes are marketing. I wouldn't worry about it if you need the functionality. Main concern would be how will Einstein shift after Tableau Next integration? If it's contained in Analytics Studio, where will that live after the changeover?",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6
+    },
+    {
+      "authorId": "t2_hjqbu",
+      "author": "lildocta",
+      "authorProfile": "https://www.reddit.com/user/lildocta",
+      "commentId": "t1_mmjti4s",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jwl9ip/is_agentforce_designed_to_slowly_replace_einstein/mmjti4s/",
+      "publishingDate": "2025-04-11T12:12:53+00:00",
+      "commentBody": "Under the hood they are both using prompt templates, so essentially Agentforce is Einstein except it can make multiple prompt template callouts in a single session and makes addition LLM calls to the planning service (gpt4o)",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6
+    },
+    {
+      "authorId": "t2_q92pp093",
+      "author": "Fine-Confusion-5827",
+      "authorProfile": "https://www.reddit.com/user/Fine-Confusion-5827",
+      "commentId": "t1_mmk5fh9",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jwl9ip/is_agentforce_designed_to_slowly_replace_einstein/mmk5fh9/",
+      "publishingDate": "2025-04-11T13:26:45+00:00",
+      "commentBody": "Einstein for Service/Sales is not going away, so no, not really.",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4
+    },
+    {
+      "authorId": "t2_fw5i7",
+      "author": "Defofmeh",
+      "authorProfile": "https://www.reddit.com/user/Defofmeh",
+      "commentId": "t1_mmjxsi8",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jwl9ip/is_agentforce_designed_to_slowly_replace_einstein/mmjxsi8/",
+      "publishingDate": "2025-04-11T12:41:03+00:00",
+      "commentBody": "It's all just marketing.  There are tech differences but they could slap Einstein on anything... tomorrow.  Einstein is over used and nearly meaningless to me. It's just a way to confuse seach results and to confuse customers, employees and the AI when asked about it.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_1gxiesb0ss",
+      "author": "oruga_AI",
+      "authorProfile": "https://www.reddit.com/user/oruga_AI",
+      "commentId": "t1_mmol6hf",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jwl9ip/is_agentforce_designed_to_slowly_replace_einstein/mmol6hf/",
+      "publishingDate": "2025-04-12T04:17:53+00:00",
+      "commentBody": "More to slowly replaces, admins, devs, sales reps, bdrs u know humans",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_a3adm6on",
+      "author": "webnething",
+      "authorProfile": "https://www.reddit.com/user/webnething",
+      "commentId": "t1_mn16zwo",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jwl9ip/is_agentforce_designed_to_slowly_replace_einstein/mn16zwo/",
+      "publishingDate": "2025-04-14T09:04:10+00:00",
+      "commentBody": "Its a non deterministic version of einstein bots",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_1kf6maelhc",
+      "author": "el_oruga",
+      "authorProfile": "https://www.reddit.com/user/el_oruga",
+      "commentId": "t1_mn29cmm",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jwl9ip/is_agentforce_designed_to_slowly_replace_einstein/mn29cmm/",
+      "publishingDate": "2025-04-14T14:00:04+00:00",
+      "commentBody": "Slowly replace devs, bdrs, sales reps, admins",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_iqznz",
+      "author": "parachutes1987",
+      "authorProfile": "https://www.reddit.com/user/parachutes1987",
+      "commentId": "t1_mmj8ect",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jwl9ip/is_agentforce_designed_to_slowly_replace_einstein/mmj8ect/",
+      "publishingDate": "2025-04-11T09:11:31+00:00",
+      "commentBody": "I remember once at a World Tour event, someone told me they were going to rename the core products (Sales Cloud, Service Cloud) to Sales GPT, Service GPT... I think they actually changed it the same day they announced it. Sales Cloud and Service Cloud have not changed their names. The precursors to Einstein For Sales and Einstein for Service were called Sales GPT and Service GPT. They did change the names. But then all the Sam Altman getting fired stuff happened. And within 24 hours (or less), they scrubbed \"GPT\" from everything. It was fast work. REAL FAST.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": "t2_s0njh",
+          "author": "DoubleTigerMUCU",
+          "authorProfile": "https://www.reddit.com/user/DoubleTigerMUCU",
+          "commentId": "t1_mmjchxb",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jwl9ip/is_agentforce_designed_to_slowly_replace_einstein/mmjchxb/",
+          "publishingDate": "2025-04-11T09:54:13+00:00",
+          "commentBody": "Sales Cloud and Service Cloud have not changed their names. The precursors to Einstein For Sales and Einstein for Service were called Sales GPT and Service GPT.",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_524rwnu0",
+          "author": "_dcstuff",
+          "authorProfile": "https://www.reddit.com/user/_dcstuff",
+          "commentId": "t1_mmk31ju",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jwl9ip/is_agentforce_designed_to_slowly_replace_einstein/mmk31ju/",
+          "publishingDate": "2025-04-11T13:13:06+00:00",
+          "commentBody": "They did change the names. But then all the Sam Altman getting fired stuff happened. And within 24 hours (or less), they scrubbed \"GPT\" from everything. It was fast work. REAL FAST.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_d5icz",
+      "author": "opethdamnation",
+      "authorProfile": "https://www.reddit.com/user/opethdamnation",
+      "commentId": "t1_mmjv6p0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jwl9ip/is_agentforce_designed_to_slowly_replace_einstein/mmjv6p0/",
+      "publishingDate": "2025-04-11T12:24:10+00:00",
+      "commentBody": "Its designed to replace Salesforce for existing customers",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": null
+    }
+  ]
+}

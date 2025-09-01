@@ -1,0 +1,194 @@
+{
+  "info": {
+    "authorId": "t2_fjxv3k9q",
+    "author": "CoachJM-SF",
+    "authorProfile": "https://www.reddit.com/user/CoachJM-SF",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1ik4ale",
+    "postLabel": null,
+    "publishingDate": "2025-02-07T20:06:01+00:00",
+    "postTitle": "Quote-to-Cash with Agentforce and Revenue Cloud",
+    "postMessage": "I started to play around with Agentforce and Revenue Cloud, for anyone curious I made a video about it on my channel. https://www.youtube.com/watch?v=fYxR5sRDExw It's a proof of concept more than anything else and it'll be more powerful if you can use it to take actions more autonomously than by chatting with the agent. It does open up revenue cloud to mobile because agentforce is available on mobile but Quoting in revenue cloud isn't. Happy to answer questions if anyone is wondering about the experience. Blog Post : https://thecloudupdate.co/revenue-cloud-and-agentforce/",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/",
+    "commentCount": 21,
+    "upvoteCount": 16,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_6s2bu",
+      "author": "wolff1029",
+      "authorProfile": "https://www.reddit.com/user/wolff1029",
+      "commentId": "t1_mbjp9hz",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/mbjp9hz/",
+      "publishingDate": "2025-02-07T21:12:02+00:00",
+      "commentBody": "This is cool. Can't help but think this is going to be a double edged sword for the partner ecosystem.  I'm sure this is going to be a fun thing to pitch in sales cycles for revenue cloud, buuuuut I can't help but think its going to cause all types of headaches/escalations for delivery teams when this doesn't handle all of the nuance involved in quoting/invoicing use cases well. This feels like agentforce in general tbh. It’s easy to show demos but feel like the nuance of the edge cases is going to be rough for implementation teams and ongoing maintenance Thanks for watching, appreciate the feedback! Thanks for watching, appreciate you taking the time to comment. It's definitely going to require some overview especially at first. I think the models getting better will also help it perform better and understand intent better.",
+      "upvotes": 10,
+      "dislikes": 10,
+      "downvotes": 11,
+      "replies": [
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_mbju4st",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/mbju4st/",
+          "publishingDate": "2025-02-07T21:35:14+00:00",
+          "commentBody": "This feels like agentforce in general tbh. It’s easy to show demos but feel like the nuance of the edge cases is going to be rough for implementation teams and ongoing maintenance Thanks for watching, appreciate the feedback!",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        },
+        {
+          "authorId": "t2_fjxv3k9q",
+          "author": "CoachJM-SF",
+          "authorProfile": "https://www.reddit.com/user/CoachJM-SF",
+          "commentId": "t1_mcsehdd",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/mcsehdd/",
+          "publishingDate": "2025-02-14T20:16:14+00:00",
+          "commentBody": "Thanks for watching, appreciate the feedback!",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        },
+        {
+          "authorId": "t2_fjxv3k9q",
+          "author": "CoachJM-SF",
+          "authorProfile": "https://www.reddit.com/user/CoachJM-SF",
+          "commentId": "t1_mcsefso",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/mcsefso/",
+          "publishingDate": "2025-02-14T20:16:01+00:00",
+          "commentBody": "Thanks for watching, appreciate you taking the time to comment. It's definitely going to require some overview especially at first. I think the models getting better will also help it perform better and understand intent better.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_fjxv3k9q",
+      "author": "CoachJM-SF",
+      "authorProfile": "https://www.reddit.com/user/CoachJM-SF",
+      "commentId": "t1_mcsf0ii",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/mcsf0ii/",
+      "publishingDate": "2025-02-14T20:18:53+00:00",
+      "commentBody": "Related blog post for anyone interested https://thecloudupdate.co/revenue-cloud-and-agentforce/",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_tn1m79c4",
+      "author": "GreekyKratosGod",
+      "authorProfile": "https://www.reddit.com/user/GreekyKratosGod",
+      "commentId": "t1_mei0buw",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/mei0buw/",
+      "publishingDate": "2025-02-24T11:08:22+00:00",
+      "commentBody": "Hello, I was trying to access the recording of the Webinar https://thecloudupdate.co/revenue-cloud-setup-a-new-environment-from-scratch-webinar/ But for some reasons, I'm not able to access it. Can you share it with me. <image> Sorry about that, seems I let the recording expire. I Made a new one, here's the link : https://thecloudupdate.co/setting-up-revenue-cloud-from-scratch/ I hope that helps Thank you so much!!, 💖",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_fjxv3k9q",
+          "author": "CoachJM-SF",
+          "authorProfile": "https://www.reddit.com/user/CoachJM-SF",
+          "commentId": "t1_mfb72kl",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/mfb72kl/",
+          "publishingDate": "2025-02-28T20:11:00+00:00",
+          "commentBody": "Sorry about that, seems I let the recording expire. I Made a new one, here's the link : https://thecloudupdate.co/setting-up-revenue-cloud-from-scratch/ I hope that helps Thank you so much!!, 💖",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_tn1m79c4",
+          "author": "GreekyKratosGod",
+          "authorProfile": "https://www.reddit.com/user/GreekyKratosGod",
+          "commentId": "t1_mfdt9a5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/mfdt9a5/",
+          "publishingDate": "2025-03-01T04:49:56+00:00",
+          "commentBody": "Thank you so much!!, 💖",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_ouinn",
+      "author": "867-53oh-nine",
+      "authorProfile": "https://www.reddit.com/user/867-53oh-nine",
+      "commentId": "t1_mbjr80t",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/mbjr80t/",
+      "publishingDate": "2025-02-07T21:21:24+00:00",
+      "commentBody": "Why do all YouTube title cards have to have people’s face? I couldn’t give a single less fuck what you look like. It’s borderline cringy. What a weird comment to make Yo, I know its kinda unrelated but also it is. I usually don't care but a channel that did GoT shorts starting showing his face and I was so fkn upset. It like duuuuude, you may as well get rid of the cool fan visuals and character art. Your face clearly ruins it.. I, for one, think JM is handsome. Your parents must have told you if you got nothing nice to say don't say nothing. You're so nice to me. Thanks for watching and taking the time to share some positivity.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_mbk22n4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/mbk22n4/",
+          "publishingDate": "2025-02-07T22:13:41+00:00",
+          "commentBody": "What a weird comment to make",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_mchi225",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/mchi225/",
+          "publishingDate": "2025-02-13T02:48:32+00:00",
+          "commentBody": "Yo, I know its kinda unrelated but also it is. I usually don't care but a channel that did GoT shorts starting showing his face and I was so fkn upset. It like duuuuude, you may as well get rid of the cool fan visuals and character art. Your face clearly ruins it..",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_mbk1brb",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/mbk1brb/",
+          "publishingDate": "2025-02-07T22:09:56+00:00",
+          "commentBody": "I, for one, think JM is handsome. Your parents must have told you if you got nothing nice to say don't say nothing. You're so nice to me.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_fjxv3k9q",
+          "author": "CoachJM-SF",
+          "authorProfile": "https://www.reddit.com/user/CoachJM-SF",
+          "commentId": "t1_mcselsj",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/mcselsj/",
+          "publishingDate": "2025-02-14T20:16:50+00:00",
+          "commentBody": "You're so nice to me.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_fjxv3k9q",
+          "author": "CoachJM-SF",
+          "authorProfile": "https://www.reddit.com/user/CoachJM-SF",
+          "commentId": "t1_mcseod3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ik4ale/quotetocash_with_agentforce_and_revenue_cloud/mcseod3/",
+          "publishingDate": "2025-02-14T20:17:12+00:00",
+          "commentBody": "Thanks for watching and taking the time to share some positivity.",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        }
+      ]
+    }
+  ]
+}

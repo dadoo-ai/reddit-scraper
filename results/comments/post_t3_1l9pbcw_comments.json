@@ -1,0 +1,142 @@
+{
+  "info": {
+    "authorId": "t2_1a3jelrtq8",
+    "author": "LowerButterscotch556",
+    "authorProfile": "https://www.reddit.com/user/LowerButterscotch556",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1l9pbcw",
+    "postLabel": null,
+    "publishingDate": "2025-06-12T15:26:35+00:00",
+    "postTitle": "Agentforce Will Cannibalize Salesforce — Just Like Gemini Is Eating Google Search?",
+    "postMessage": "Read below article https://digitalnewstime.com/agentforce-will-cannibalize-salesforce-just-like-gemini-is-eating-google-search/ Is agentforce adoption by salesforce similar to the gemini adoption by google. Google knows very well gemini llm will disrupt its core search business but it has no other option as perpexlity and openai are breathing down its neck. Similarly salesforce knows if it does not adopt ai then lean ai startups will surpass it. What do you think about this guys",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1l9pbcw/agentforce_will_cannibalize_salesforce_just_like/",
+    "commentCount": 10,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_5hbskaj9",
+      "author": "tommeh5491",
+      "authorProfile": "https://www.reddit.com/user/tommeh5491",
+      "commentId": "t1_mxeasph",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9pbcw/agentforce_will_cannibalize_salesforce_just_like/mxeasph/",
+      "publishingDate": "2025-06-12T15:32:08+00:00",
+      "commentBody": "Pretty sure that article was written or at least edited by AI. Many subtitles, bullet pointed, weird punctuation, sentences starting with questions.......",
+      "upvotes": 16,
+      "dislikes": 16,
+      "downvotes": 17
+    },
+    {
+      "authorId": "t2_cq4mbxh6",
+      "author": "Suspicious-Nerve-487",
+      "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+      "commentId": "t1_mxec8vl",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9pbcw/agentforce_will_cannibalize_salesforce_just_like/mxec8vl/",
+      "publishingDate": "2025-06-12T15:38:57+00:00",
+      "commentBody": "SO many challenges to your premise here. I’m not sure how you’re saying their own product will cannibalize the company. Gemini and Google are 2 overlapping (to an extent) products. Salesforce is a database, agentforce is an LLM wrapper with actions associated to it. There isn’t overlapping functionality that would cause this. The only parallel between this and your example is they are owned by the same company. This is the equivalent of saying tesla will butcher their car sales by releasing self driving capabilities. Doesn’t make sense with their product offering, as you can’t purchase self driving without purchasing a Tesla, thus revenue Not to mention, agentforce isn’t possible to use without Salesforce licensing. Therefore in order to use it, you need to purchase Salesforce. ALSO - Salesforce isn’t a product for the general public. It’s used by 80%+ of fortune 500 companies and is a core requirement for any business of scale. Agentforce is effectively useless without the Salesforce platform. Would love to hear your thoughts on all these Same is the case with Agentforce. It plans to do the same thing that current salesforce developers do. There is overlap with current business model. And this will render the current UI/flow which developers use as ineffective. So even startups can compete. it plans to do the same thing Salesforce developers do So to be clear, you’re not comparing agentforce to Salesforce as a CRM platform. You’re comparing agentforce to Salesforce DEVELOPERS / development, which isn’t the product Salesforce offers. For your reference, Salesforce pro serv is about 1% of Salesforce annual revenue, so your argument would (if anything) impact the ecosystem of partners. If anything, sadly if this IS the case (which isn’t if you keep up with tech attempting to replace developers with AI), it might benefit Salesforce from a cost and workforce productivity perspective (less money for devs, lowering costs) If this is your argument, then your example of Gemini and Google makes 0 sense, as those are both “free” services the general public uses. Neither are anything remotely close to Salesforce, nor Salesforce with Agentforce layered on top of I also listed 4 other challenges, looking to get your responses on those as well I don't think you quite grasp what agentforce is principally targeted for if this is your main \"cannibalising\" argument. It will almost certainly lead to reduced license revenue as it gets more widely adopted, because it is designed to replace workers. Devs don't all need licenses, and so don't contribute to SF bottom line. Besides, SF professionals should all be retraining in AI skills anyway, so that they don't become obsolete. Anyway, chatGPT can also do dev work, so Agentforce isn't even a factor. The article makes a couple of vaguely valid points (e.g. Agentforce will inherently lead to reduced licenses) but fails to explore the counterpoints (SF charge a shitload for Agentforce and the seemingly requisite Data Cloud, so this will mitigate any losses). Not sure at all what your points are though?",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7,
+      "replies": [
+        {
+          "authorId": "t2_1a3jelrtq8",
+          "author": "LowerButterscotch556",
+          "authorProfile": "https://www.reddit.com/user/LowerButterscotch556",
+          "commentId": "t1_mxecyxt",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9pbcw/agentforce_will_cannibalize_salesforce_just_like/mxecyxt/",
+          "publishingDate": "2025-06-12T15:42:20+00:00",
+          "commentBody": "Same is the case with Agentforce. It plans to do the same thing that current salesforce developers do. There is overlap with current business model. And this will render the current UI/flow which developers use as ineffective. So even startups can compete. it plans to do the same thing Salesforce developers do So to be clear, you’re not comparing agentforce to Salesforce as a CRM platform. You’re comparing agentforce to Salesforce DEVELOPERS / development, which isn’t the product Salesforce offers. For your reference, Salesforce pro serv is about 1% of Salesforce annual revenue, so your argument would (if anything) impact the ecosystem of partners. If anything, sadly if this IS the case (which isn’t if you keep up with tech attempting to replace developers with AI), it might benefit Salesforce from a cost and workforce productivity perspective (less money for devs, lowering costs) If this is your argument, then your example of Gemini and Google makes 0 sense, as those are both “free” services the general public uses. Neither are anything remotely close to Salesforce, nor Salesforce with Agentforce layered on top of I also listed 4 other challenges, looking to get your responses on those as well I don't think you quite grasp what agentforce is principally targeted for if this is your main \"cannibalising\" argument. It will almost certainly lead to reduced license revenue as it gets more widely adopted, because it is designed to replace workers. Devs don't all need licenses, and so don't contribute to SF bottom line. Besides, SF professionals should all be retraining in AI skills anyway, so that they don't become obsolete. Anyway, chatGPT can also do dev work, so Agentforce isn't even a factor. The article makes a couple of vaguely valid points (e.g. Agentforce will inherently lead to reduced licenses) but fails to explore the counterpoints (SF charge a shitload for Agentforce and the seemingly requisite Data Cloud, so this will mitigate any losses). Not sure at all what your points are though?",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": "t2_cq4mbxh6",
+          "author": "Suspicious-Nerve-487",
+          "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+          "commentId": "t1_mxed81t",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9pbcw/agentforce_will_cannibalize_salesforce_just_like/mxed81t/",
+          "publishingDate": "2025-06-12T15:43:31+00:00",
+          "commentBody": "it plans to do the same thing Salesforce developers do So to be clear, you’re not comparing agentforce to Salesforce as a CRM platform. You’re comparing agentforce to Salesforce DEVELOPERS / development, which isn’t the product Salesforce offers. For your reference, Salesforce pro serv is about 1% of Salesforce annual revenue, so your argument would (if anything) impact the ecosystem of partners. If anything, sadly if this IS the case (which isn’t if you keep up with tech attempting to replace developers with AI), it might benefit Salesforce from a cost and workforce productivity perspective (less money for devs, lowering costs) If this is your argument, then your example of Gemini and Google makes 0 sense, as those are both “free” services the general public uses. Neither are anything remotely close to Salesforce, nor Salesforce with Agentforce layered on top of I also listed 4 other challenges, looking to get your responses on those as well",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": "t2_2uqfvc5w",
+          "author": "matt_smith_keele",
+          "authorProfile": "https://www.reddit.com/user/matt_smith_keele",
+          "commentId": "t1_mxejv11",
+          "link": "https://www.reddit.com/r/salesforce/comments/1l9pbcw/agentforce_will_cannibalize_salesforce_just_like/mxejv11/",
+          "publishingDate": "2025-06-12T16:14:58+00:00",
+          "commentBody": "I don't think you quite grasp what agentforce is principally targeted for if this is your main \"cannibalising\" argument. It will almost certainly lead to reduced license revenue as it gets more widely adopted, because it is designed to replace workers. Devs don't all need licenses, and so don't contribute to SF bottom line. Besides, SF professionals should all be retraining in AI skills anyway, so that they don't become obsolete. Anyway, chatGPT can also do dev work, so Agentforce isn't even a factor. The article makes a couple of vaguely valid points (e.g. Agentforce will inherently lead to reduced licenses) but fails to explore the counterpoints (SF charge a shitload for Agentforce and the seemingly requisite Data Cloud, so this will mitigate any losses). Not sure at all what your points are though?",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_3p2utpuu",
+      "author": "reddit_time_waster",
+      "authorProfile": "https://www.reddit.com/user/reddit_time_waster",
+      "commentId": "t1_mxec3fg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9pbcw/agentforce_will_cannibalize_salesforce_just_like/mxec3fg/",
+      "publishingDate": "2025-06-12T15:38:16+00:00",
+      "commentBody": "You mean like how I can't get decent results anymore now that Google uses Gemini, and it used to be perfect back in 2019?",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_bwvbh6y",
+      "author": "DaveDurant",
+      "authorProfile": "https://www.reddit.com/user/DaveDurant",
+      "commentId": "t1_mxeu0kl",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9pbcw/agentforce_will_cannibalize_salesforce_just_like/mxeu0kl/",
+      "publishingDate": "2025-06-12T17:03:39+00:00",
+      "commentBody": "So, so much has been invested in AI...",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_n0jlc",
+      "author": "beniferlopez",
+      "authorProfile": "https://www.reddit.com/user/beniferlopez",
+      "commentId": "t1_mxh2jgd",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9pbcw/agentforce_will_cannibalize_salesforce_just_like/mxh2jgd/",
+      "publishingDate": "2025-06-12T23:46:53+00:00",
+      "commentBody": "No",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_1idddhvyfc",
+      "author": "Big_Bad_8201",
+      "authorProfile": "https://www.reddit.com/user/Big_Bad_8201",
+      "commentId": "t1_mxec7ja",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9pbcw/agentforce_will_cannibalize_salesforce_just_like/mxec7ja/",
+      "publishingDate": "2025-06-12T15:38:47+00:00",
+      "commentBody": "It is true. mark benioff does promise a lot and then under delivers",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_e0bjwdmpt",
+      "author": "NervousAd1125",
+      "authorProfile": "https://www.reddit.com/user/NervousAd1125",
+      "commentId": "t1_my90ljt",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l9pbcw/agentforce_will_cannibalize_salesforce_just_like/my90ljt/",
+      "publishingDate": "2025-06-17T12:12:07+00:00",
+      "commentBody": "Agentforce, like Gemini, might reshape how users interact with the core platform. But unlike Google Search, Salesforce isn’t just one product — it’s an ecosystem. If Agentforce boosts productivity, automates admin tasks, and reduces friction for users, it's more likely to enhance the Salesforce value proposition than cannibalize it. Still, the pressure is real. AI-native CRMs could be a threat if Salesforce doesn’t move fast enough.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    }
+  ]
+}

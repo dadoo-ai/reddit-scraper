@@ -1,0 +1,220 @@
+{
+  "info": {
+    "authorId": "t2_8n34c5ga",
+    "author": "CarGoesBeepBeepHonk",
+    "authorProfile": "https://www.reddit.com/user/CarGoesBeepBeepHonk",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1ibb5dy",
+    "postLabel": null,
+    "publishingDate": "2025-01-27T15:05:28+00:00",
+    "postTitle": "AgentForce docs seem lacking — What are you using to learn?",
+    "postMessage": "Been working with SFDC for years and recently got my AI Specialist Certificate. I'm looking to dive into AgentForce this year and build some agents for clients—but first, I'd like to experiment and build some for myself. So far, here's what I've found: Trailhead: Enable and Customize the Agentforce Default Agent Connect Your Flows to Agentforce Test and Activate an AI Agent Configure an Agentforce Service Agent Salesforce Help: Agentforce Agents Honestly, I find Trailhead a bit too basic, and Salesforce Help is often too abstract. I even tried asking the AgentForce bot, but it wasn’t much help 😀. I’ve also checked YouTube, Udemy, etc., but apart from AI Specialist Cert prep, there’s not much out there. Anyone know of better learning resources or communities where I can go deeper?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/",
+    "commentCount": 17,
+    "upvoteCount": 29,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_883ga",
+      "author": "CarbonHero",
+      "authorProfile": "https://www.reddit.com/user/CarbonHero",
+      "commentId": "t1_m9gtxr6",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9gtxr6/",
+      "publishingDate": "2025-01-27T15:43:08+00:00",
+      "commentBody": "Lots is buried in Partner Community and Developer docs Not currently a Partner, but if anybody knows some interesting things to check out in Developer docs, it would be much appreciated! https://developer.salesforce.com/blogs/2025/01/how-to-write-effective-natural-language-instructions-for-agentforce On YT look at Live tab of Salesforce Developers channel",
+      "upvotes": 9,
+      "dislikes": 9,
+      "downvotes": 10,
+      "replies": [
+        {
+          "authorId": "t2_8n34c5ga",
+          "author": "CarGoesBeepBeepHonk",
+          "authorProfile": "https://www.reddit.com/user/CarGoesBeepBeepHonk",
+          "commentId": "t1_m9h797z",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9h797z/",
+          "publishingDate": "2025-01-27T16:46:04+00:00",
+          "commentBody": "Not currently a Partner, but if anybody knows some interesting things to check out in Developer docs, it would be much appreciated! https://developer.salesforce.com/blogs/2025/01/how-to-write-effective-natural-language-instructions-for-agentforce On YT look at Live tab of Salesforce Developers channel",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_6fyzh",
+          "author": "QuitClearly",
+          "authorProfile": "https://www.reddit.com/user/QuitClearly",
+          "commentId": "t1_m9he0qo",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9he0qo/",
+          "publishingDate": "2025-01-27T17:17:33+00:00",
+          "commentBody": "https://developer.salesforce.com/blogs/2025/01/how-to-write-effective-natural-language-instructions-for-agentforce On YT look at Live tab of Salesforce Developers channel",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        }
+      ]
+    },
+    {
+      "authorId": "t2_6ed4mw6t",
+      "author": "ConceptualCatPoltics",
+      "authorProfile": "https://www.reddit.com/user/ConceptualCatPoltics",
+      "commentId": "t1_m9m46au",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9m46au/",
+      "publishingDate": "2025-01-28T10:15:47+00:00",
+      "commentBody": "I stumbled across the following workshop docs, it seems to be deeper and additional detail into all the parts that make up AgentForce vs the trailhead. https://developer.salesforce.com/agentforce-workshop",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4
+    },
+    {
+      "authorId": "t2_4x2u2j55",
+      "author": "Rhinoridiana",
+      "authorProfile": "https://www.reddit.com/user/Rhinoridiana",
+      "commentId": "t1_m9gp8ti",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9gp8ti/",
+      "publishingDate": "2025-01-27T15:20:13+00:00",
+      "commentBody": "Which is odd because you would think the AI would have “document what we’re doing” in a prompt somewhere…",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7
+    },
+    {
+      "authorId": "t2_1ebxrh4r",
+      "author": "Sagemel",
+      "authorProfile": "https://www.reddit.com/user/Sagemel",
+      "commentId": "t1_m9goqju",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9goqju/",
+      "publishingDate": "2025-01-27T15:17:40+00:00",
+      "commentBody": "Have you done the AI Specialist cert prep and related modules? Those answered 90% of my questions Yes, done it, I've linked the links I found there in the original post above - maybe it's me - but they don't seem to go very deep for working on your own Agents.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_8n34c5ga",
+          "author": "CarGoesBeepBeepHonk",
+          "authorProfile": "https://www.reddit.com/user/CarGoesBeepBeepHonk",
+          "commentId": "t1_m9gqsns",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9gqsns/",
+          "publishingDate": "2025-01-27T15:27:52+00:00",
+          "commentBody": "Yes, done it, I've linked the links I found there in the original post above - maybe it's me - but they don't seem to go very deep for working on your own Agents.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_953mb",
+      "author": "SeriouslyImKidding",
+      "authorProfile": "https://www.reddit.com/user/SeriouslyImKidding",
+      "commentId": "t1_m9nb7bz",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9nb7bz/",
+      "publishingDate": "2025-01-28T15:16:10+00:00",
+      "commentBody": "We’re working on getting it set up with the foundations sku and salesforce basically told us that they don’t have resources to help us develop it and to try with partners if we get stuck lol. So I guess partners have better docs than salesforce themselves?? Our biggest concern is consumption. With seemingly\nNo guardrails to stop you from going over the allotted credits it’s very scary to think about how much we’d consume testing before we even get to a point where we would turn it loose for end users, only to basically be out of credits before we can prove an ROI",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_4hjav",
+      "author": "st_malachy",
+      "authorProfile": "https://www.reddit.com/user/st_malachy",
+      "commentId": "t1_m9gwewq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9gwewq/",
+      "publishingDate": "2025-01-27T15:55:01+00:00",
+      "commentBody": "I think you’re better off using something like make.com to connect salesforce to chatgpt, or Gemini, or whatever rather than investing the time and money in agentforce yet. Have thought about this, one of the reasons I'm trying to understand Agentforce now is to assess it compared to other solutions. Do you know what plays best with SFDC at the moment? Interesting you mention make.com. Out of curiosity do you prefer make to workato? I’ve had good experience with workato but have never used make Or through Celigo.com",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_8n34c5ga",
+          "author": "CarGoesBeepBeepHonk",
+          "authorProfile": "https://www.reddit.com/user/CarGoesBeepBeepHonk",
+          "commentId": "t1_m9gwskd",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9gwskd/",
+          "publishingDate": "2025-01-27T15:56:48+00:00",
+          "commentBody": "Have thought about this, one of the reasons I'm trying to understand Agentforce now is to assess it compared to other solutions. Do you know what plays best with SFDC at the moment?",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_a8bgv9yj",
+          "author": "Ambitious-Ostrich-96",
+          "authorProfile": "https://www.reddit.com/user/Ambitious-Ostrich-96",
+          "commentId": "t1_m9l7hr9",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9l7hr9/",
+          "publishingDate": "2025-01-28T05:04:56+00:00",
+          "commentBody": "Interesting you mention make.com. Out of curiosity do you prefer make to workato? I’ve had good experience with workato but have never used make",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_cgpvr4f",
+          "author": "rico_andrade",
+          "authorProfile": "https://www.reddit.com/user/rico_andrade",
+          "commentId": "t1_m9gzlsl",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9gzlsl/",
+          "publishingDate": "2025-01-27T16:10:20+00:00",
+          "commentBody": "Or through Celigo.com",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_pmdszyc",
+      "author": "FivePoopMacaroni",
+      "authorProfile": "https://www.reddit.com/user/FivePoopMacaroni",
+      "commentId": "t1_m9gof6o",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9gof6o/",
+      "publishingDate": "2025-01-27T15:16:05+00:00",
+      "commentBody": "Agentforce is mostly another vaporware scam so I doubt any of it is meaningfully self service I'm still trying to work it out, but I was checking out this thread, and it seems that some folks are getting some results with it: https://www.reddit.com/r/salesforce/comments/1hxg8z1/i_just_sat_through_an_agentforce_pitch/ (Can definitely also see that there are some folks who don't think it is much either!) Results doesnt mean its good though. It just means someone got it functioning. Ive yet to see any great real world examples of it implemented at scale. Yes, this is actually why I'm trying to really sus it out for myself a bit to work out how relevant it is for me - if at all. In the examples I've tried, it's been super interesting to see if you just change the wording a bit, it simply doesn't understand you.",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4,
+      "replies": [
+        {
+          "authorId": "t2_8n34c5ga",
+          "author": "CarGoesBeepBeepHonk",
+          "authorProfile": "https://www.reddit.com/user/CarGoesBeepBeepHonk",
+          "commentId": "t1_m9grd80",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9grd80/",
+          "publishingDate": "2025-01-27T15:30:38+00:00",
+          "commentBody": "I'm still trying to work it out, but I was checking out this thread, and it seems that some folks are getting some results with it: https://www.reddit.com/r/salesforce/comments/1hxg8z1/i_just_sat_through_an_agentforce_pitch/ (Can definitely also see that there are some folks who don't think it is much either!) Results doesnt mean its good though. It just means someone got it functioning. Ive yet to see any great real world examples of it implemented at scale. Yes, this is actually why I'm trying to really sus it out for myself a bit to work out how relevant it is for me - if at all. In the examples I've tried, it's been super interesting to see if you just change the wording a bit, it simply doesn't understand you.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_bf7s4uvr",
+          "author": "timetogetjuiced",
+          "authorProfile": "https://www.reddit.com/user/timetogetjuiced",
+          "commentId": "t1_m9gszs8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9gszs8/",
+          "publishingDate": "2025-01-27T15:38:34+00:00",
+          "commentBody": "Results doesnt mean its good though. It just means someone got it functioning. Ive yet to see any great real world examples of it implemented at scale. Yes, this is actually why I'm trying to really sus it out for myself a bit to work out how relevant it is for me - if at all. In the examples I've tried, it's been super interesting to see if you just change the wording a bit, it simply doesn't understand you.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_8n34c5ga",
+          "author": "CarGoesBeepBeepHonk",
+          "authorProfile": "https://www.reddit.com/user/CarGoesBeepBeepHonk",
+          "commentId": "t1_m9gu24o",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ibb5dy/agentforce_docs_seem_lacking_what_are_you_using/m9gu24o/",
+          "publishingDate": "2025-01-27T15:43:43+00:00",
+          "commentBody": "Yes, this is actually why I'm trying to really sus it out for myself a bit to work out how relevant it is for me - if at all. In the examples I've tried, it's been super interesting to see if you just change the wording a bit, it simply doesn't understand you.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    }
+  ]
+}

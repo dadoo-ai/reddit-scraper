@@ -1,0 +1,58 @@
+{
+  "info": {
+    "authorId": "t2_1hjxtunoai",
+    "author": "GlassCaseOfEmotion53",
+    "authorProfile": "https://www.reddit.com/user/GlassCaseOfEmotion53",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1muot69",
+    "postLabel": null,
+    "publishingDate": "2025-08-19T17:20:59+00:00",
+    "postTitle": "How to estimate agentforce usage/costs",
+    "postMessage": "Anybody figured out a way to estimate agentforce usage & costs? this would be for internal employee use cases/actions ... not for any external conversation stuff A client asked about how to estimate usage for a given scenario and struggling a bit with how best to approach this re: guestimating tokens/credits and then converting to costs any help / suggestions appreciated it -   realize this may change in a month when sfdc changes agentforce rate card/pricing again",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1muot69/how_to_estimate_agentforce_usagecosts/",
+    "commentCount": 3,
+    "upvoteCount": 1,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_cq4mbxh6",
+      "author": "Suspicious-Nerve-487",
+      "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+      "commentId": "t1_n9kfojl",
+      "link": "https://www.reddit.com/r/salesforce/comments/1muot69/how_to_estimate_agentforce_usagecosts/n9kfojl/",
+      "publishingDate": "2025-08-19T17:46:01+00:00",
+      "commentBody": "Salesforce has internal calculators that your AE can spin up with your client. It walks through every use case, estimated volume, standard vs custom actions, etc, along with any data cloud consumption necessary. That’s going to be your easiest approach Outside of that, it’s really as straightforward as understanding what actions your agent will take and the volume. Without getting too technically deep and granular, 1 action = 20 flex credits in production. Sandboxes are 80% consumption, so in sandboxes, 1 action = 16 flex credits Now it’s just a matter of defining the volume side and you should have a pretty good understanding of cost There are also new pricing options that came out (ironically today) that allow for “pay as you go” so you’d just get a monthly bill for your consumption. It might be an easier way to approach so you understand how much you’d need to purchase flex credit wise without committing right up front. If it’s internal, then it depends on licensing. If they have Agentforce for Sales / Service, these allow unmetered consumption of internal agents and AI capabilities (at a list price of 125 per user per month license cost) Happy to try chatting through it a bit more if you have any additional data points you can provide thanks u/Suspicious-Nerve-487 , this is really helpful.  appreciate it. Q - on the internal if they have unmetered consumption, does that basically mean they have unlimited ai usage (like they could use a billion tokens/credits and that'd be fine... not actually planning approach anything like that but just curious if it's 'all you can eat' for that license type for internal)?   thanks! Unmetered is unmetered, specifics are included in this documentation. https://help.salesforce.com/s/articleView?id=release-notes.rn_billing_a4x_pupm.htm&release=256&type=5 https://help.salesforce.com/s/articleView?id=ai.generative_ai_usage_metering_logic.htm&type=5",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5,
+      "replies": [
+        {
+          "authorId": "t2_1hjxtunoai",
+          "author": "GlassCaseOfEmotion53",
+          "authorProfile": "https://www.reddit.com/user/GlassCaseOfEmotion53",
+          "commentId": "t1_n9qon8k",
+          "link": "https://www.reddit.com/r/salesforce/comments/1muot69/how_to_estimate_agentforce_usagecosts/n9qon8k/",
+          "publishingDate": "2025-08-20T16:51:02+00:00",
+          "commentBody": "thanks u/Suspicious-Nerve-487 , this is really helpful.  appreciate it. Q - on the internal if they have unmetered consumption, does that basically mean they have unlimited ai usage (like they could use a billion tokens/credits and that'd be fine... not actually planning approach anything like that but just curious if it's 'all you can eat' for that license type for internal)?   thanks! Unmetered is unmetered, specifics are included in this documentation. https://help.salesforce.com/s/articleView?id=release-notes.rn_billing_a4x_pupm.htm&release=256&type=5 https://help.salesforce.com/s/articleView?id=ai.generative_ai_usage_metering_logic.htm&type=5",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_cq4mbxh6",
+          "author": "Suspicious-Nerve-487",
+          "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+          "commentId": "t1_n9qq4ct",
+          "link": "https://www.reddit.com/r/salesforce/comments/1muot69/how_to_estimate_agentforce_usagecosts/n9qq4ct/",
+          "publishingDate": "2025-08-20T16:57:58+00:00",
+          "commentBody": "Unmetered is unmetered, specifics are included in this documentation. https://help.salesforce.com/s/articleView?id=release-notes.rn_billing_a4x_pupm.htm&release=256&type=5 https://help.salesforce.com/s/articleView?id=ai.generative_ai_usage_metering_logic.htm&type=5",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    }
+  ]
+}

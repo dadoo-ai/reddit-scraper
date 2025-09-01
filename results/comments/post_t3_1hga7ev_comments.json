@@ -1,0 +1,630 @@
+{
+  "info": {
+    "authorId": "t2_6n260735",
+    "author": "this_is_me84",
+    "authorProfile": "https://www.reddit.com/user/this_is_me84",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1hga7ev",
+    "postLabel": "apps/products",
+    "publishingDate": "2024-12-17T13:06:30+00:00",
+    "postTitle": "Agentforce how are you using it",
+    "postMessage": "My leadership wants us to do a POC using agentforce early next year. They are open on which use case.  They told me and my team (we are IT) to come up with one. I’m struggling because I have a high level understanding of it but trying to think of a good use case. Would any of you be open to sharing a good use case? We have marketing, sales, customer support, internal ops, finance, IT all using salesforce for some part of their job.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/",
+    "commentCount": 49,
+    "upvoteCount": 15,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_867527bkd",
+      "author": "Swimming_Leopard_148",
+      "authorProfile": "https://www.reddit.com/user/Swimming_Leopard_148",
+      "commentId": "t1_m2ihin9",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2ihin9/",
+      "publishingDate": "2024-12-17T16:21:15+00:00",
+      "commentBody": "TBH, giving the IT department responsibility to create business value from a product isn’t the best starting point. Your leadership should have some pain points or strategic objectives at least rather than what will end up being an underwhelming POC with perhaps some real data from your sales database Completely agree- seems like poor leadership looking to check the ‘AI’ box on a meaningless scorecard. If you mean by leadership, our product owners and the business, we’ve been trying for years to get that kind of information from them typically what happens is my team or another IT team they work with basically proposes something and then they run with it. I wish it worked differently, but unfortunately it doesn’t and I’ve decided I’m going to retire at this company in a few years so it just is what it is. This.\nAlso - SF has a ton of agentforce usecases in their usecase library, just walk the business through them and identify one you have potential data to execute from",
+      "upvotes": 21,
+      "dislikes": 21,
+      "downvotes": 22,
+      "replies": [
+        {
+          "authorId": "t2_235k6ttl",
+          "author": "bkco88",
+          "authorProfile": "https://www.reddit.com/user/bkco88",
+          "commentId": "t1_m2llpx4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2llpx4/",
+          "publishingDate": "2024-12-18T02:49:17+00:00",
+          "commentBody": "Completely agree- seems like poor leadership looking to check the ‘AI’ box on a meaningless scorecard.",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_6n260735",
+          "author": "this_is_me84",
+          "authorProfile": "https://www.reddit.com/user/this_is_me84",
+          "commentId": "t1_m2m8g2n",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2m8g2n/",
+          "publishingDate": "2024-12-18T05:31:38+00:00",
+          "commentBody": "If you mean by leadership, our product owners and the business, we’ve been trying for years to get that kind of information from them typically what happens is my team or another IT team they work with basically proposes something and then they run with it. I wish it worked differently, but unfortunately it doesn’t and I’ve decided I’m going to retire at this company in a few years so it just is what it is.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_d1y961g2",
+          "author": "Traditional-Set6848",
+          "authorProfile": "https://www.reddit.com/user/Traditional-Set6848",
+          "commentId": "t1_m36zi8e",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m36zi8e/",
+          "publishingDate": "2024-12-21T21:25:48+00:00",
+          "commentBody": "This.\nAlso - SF has a ton of agentforce usecases in their usecase library, just walk the business through them and identify one you have potential data to execute from",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_6fyzh",
+      "author": "QuitClearly",
+      "authorProfile": "https://www.reddit.com/user/QuitClearly",
+      "commentId": "t1_m2hmodl",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2hmodl/",
+      "publishingDate": "2024-12-17T13:15:55+00:00",
+      "commentBody": "I’d look at customer support use case first. Are you using any Einstein tools or features today? No not really Einstein was a no previously due to prior leadership wanting nothing to do with it. I am in a traing for agentforce now. Step 1: turn on Einstein Actually. Step 1 is provision data cloud. 🫣 That is correct I think that should be OK my previous product owner. His big gripe with Einstein was around the pricing, not the functionality. He didn’t feel the insights that it provided were worth the licensing cost, and he felt like it should just be included with our subscription. When they did lower the pricing and make some things standard for unlimited edition, he was just annoyed by the whole product and just didn’t want to pursue it at all. We have another product owner that for Salesforce for the organization that just took over about six months ago and she doesn’t have a lot of this bias, but she is not technical and does not understand Salesforce at all which is another challenge. Our previous product owner came from the IT side so at least he understood the technical.",
+      "upvotes": 11,
+      "dislikes": 11,
+      "downvotes": 12,
+      "replies": [
+        {
+          "authorId": "t2_6n260735",
+          "author": "this_is_me84",
+          "authorProfile": "https://www.reddit.com/user/this_is_me84",
+          "commentId": "t1_m2hn2qk",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2hn2qk/",
+          "publishingDate": "2024-12-17T13:18:47+00:00",
+          "commentBody": "No not really Einstein was a no previously due to prior leadership wanting nothing to do with it. I am in a traing for agentforce now. Step 1: turn on Einstein Actually. Step 1 is provision data cloud. 🫣 That is correct I think that should be OK my previous product owner. His big gripe with Einstein was around the pricing, not the functionality. He didn’t feel the insights that it provided were worth the licensing cost, and he felt like it should just be included with our subscription. When they did lower the pricing and make some things standard for unlimited edition, he was just annoyed by the whole product and just didn’t want to pursue it at all. We have another product owner that for Salesforce for the organization that just took over about six months ago and she doesn’t have a lot of this bias, but she is not technical and does not understand Salesforce at all which is another challenge. Our previous product owner came from the IT side so at least he understood the technical.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_68tbd",
+          "author": "cheech712",
+          "authorProfile": "https://www.reddit.com/user/cheech712",
+          "commentId": "t1_m2ixhil",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2ixhil/",
+          "publishingDate": "2024-12-17T17:46:03+00:00",
+          "commentBody": "I am in a traing for agentforce now. Step 1: turn on Einstein Actually. Step 1 is provision data cloud. 🫣 That is correct I think that should be OK my previous product owner. His big gripe with Einstein was around the pricing, not the functionality. He didn’t feel the insights that it provided were worth the licensing cost, and he felt like it should just be included with our subscription. When they did lower the pricing and make some things standard for unlimited edition, he was just annoyed by the whole product and just didn’t want to pursue it at all. We have another product owner that for Salesforce for the organization that just took over about six months ago and she doesn’t have a lot of this bias, but she is not technical and does not understand Salesforce at all which is another challenge. Our previous product owner came from the IT side so at least he understood the technical.",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        },
+        {
+          "authorId": "t2_uasai8g",
+          "author": "linguist_turned_SAHM",
+          "authorProfile": "https://www.reddit.com/user/linguist_turned_SAHM",
+          "commentId": "t1_m2j3h59",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2j3h59/",
+          "publishingDate": "2024-12-17T18:17:21+00:00",
+          "commentBody": "Actually. Step 1 is provision data cloud. 🫣 That is correct",
+          "upvotes": 11,
+          "dislikes": 11,
+          "downvotes": 12
+        },
+        {
+          "authorId": "t2_68tbd",
+          "author": "cheech712",
+          "authorProfile": "https://www.reddit.com/user/cheech712",
+          "commentId": "t1_m2jmqlt",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2jmqlt/",
+          "publishingDate": "2024-12-17T19:58:13+00:00",
+          "commentBody": "That is correct",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_6n260735",
+          "author": "this_is_me84",
+          "authorProfile": "https://www.reddit.com/user/this_is_me84",
+          "commentId": "t1_m2ngpq4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2ngpq4/",
+          "publishingDate": "2024-12-18T12:56:53+00:00",
+          "commentBody": "I think that should be OK my previous product owner. His big gripe with Einstein was around the pricing, not the functionality. He didn’t feel the insights that it provided were worth the licensing cost, and he felt like it should just be included with our subscription. When they did lower the pricing and make some things standard for unlimited edition, he was just annoyed by the whole product and just didn’t want to pursue it at all. We have another product owner that for Salesforce for the organization that just took over about six months ago and she doesn’t have a lot of this bias, but she is not technical and does not understand Salesforce at all which is another challenge. Our previous product owner came from the IT side so at least he understood the technical.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_x6f1p",
+      "author": "AMuza8",
+      "authorProfile": "https://www.reddit.com/user/AMuza8",
+      "commentId": "t1_m2hmqoo",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2hmqoo/",
+      "publishingDate": "2024-12-17T13:16:23+00:00",
+      "commentBody": "So build a chat bot for sales and support. There are tons of videos ( https://www.youtube.com/watch?v=WazLjagL8kA ) about building that stuff + trailheads. Good luck! Where I’m struggling is we have these type of chat bots today on our website and customer center. We just don’t use salesforce to do it. This was partially because of cost and partially because the Adobe tools we used for our website offer this and the team that was implementing had already started building this out a couple of years ago before we got involved. We are integrating it with Salesforce today, but I’m not sure how well it would be perceived if I were to propose to use Salesforce for this. I think where I’m struggling most is we have some concepts of bots across the organization some are from our website. Some are from Microsoft in teams. Where does agentforce fit in with all of this? Salesforce distinguishes between “bot” which uses dialogue trees from “agent” which uses a combination of topics, instructions and actions. Not sure if your current bots use dialogue trees are leverage an LLM, but if the former, introducing an agent could beneficial.",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6,
+      "replies": [
+        {
+          "authorId": "t2_6n260735",
+          "author": "this_is_me84",
+          "authorProfile": "https://www.reddit.com/user/this_is_me84",
+          "commentId": "t1_m2hz45i",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2hz45i/",
+          "publishingDate": "2024-12-17T14:37:38+00:00",
+          "commentBody": "Where I’m struggling is we have these type of chat bots today on our website and customer center. We just don’t use salesforce to do it. This was partially because of cost and partially because the Adobe tools we used for our website offer this and the team that was implementing had already started building this out a couple of years ago before we got involved. We are integrating it with Salesforce today, but I’m not sure how well it would be perceived if I were to propose to use Salesforce for this. I think where I’m struggling most is we have some concepts of bots across the organization some are from our website. Some are from Microsoft in teams. Where does agentforce fit in with all of this? Salesforce distinguishes between “bot” which uses dialogue trees from “agent” which uses a combination of topics, instructions and actions. Not sure if your current bots use dialogue trees are leverage an LLM, but if the former, introducing an agent could beneficial.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_btiaa",
+          "author": "Chilsu",
+          "authorProfile": "https://www.reddit.com/user/Chilsu",
+          "commentId": "t1_m2m0jw0",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2m0jw0/",
+          "publishingDate": "2024-12-18T04:28:52+00:00",
+          "commentBody": "Salesforce distinguishes between “bot” which uses dialogue trees from “agent” which uses a combination of topics, instructions and actions. Not sure if your current bots use dialogue trees are leverage an LLM, but if the former, introducing an agent could beneficial.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_788xouwo",
+      "author": "Beautiful-Sleep-1414",
+      "authorProfile": "https://www.reddit.com/user/Beautiful-Sleep-1414",
+      "commentId": "t1_m2kyrcy",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2kyrcy/",
+      "publishingDate": "2024-12-18T00:26:58+00:00",
+      "commentBody": "Are people really spending $2 per conversation for this?? That’s the external facing AgentForce for service.  What was called co-pilot, the internal one just chews up data cloud credits. How much per conversation including the data cloud credits?",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7,
+      "replies": [
+        {
+          "authorId": "t2_10fvq6gbhc",
+          "author": "ResourceInteractive",
+          "authorProfile": "https://www.reddit.com/user/ResourceInteractive",
+          "commentId": "t1_m2s9fcc",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2s9fcc/",
+          "publishingDate": "2024-12-19T06:03:55+00:00",
+          "commentBody": "That’s the external facing AgentForce for service.  What was called co-pilot, the internal one just chews up data cloud credits. How much per conversation including the data cloud credits?",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_12d3ub",
+          "author": "coolguy12314",
+          "authorProfile": "https://www.reddit.com/user/coolguy12314",
+          "commentId": "t1_mc8pl2m",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/mc8pl2m/",
+          "publishingDate": "2025-02-11T20:06:20+00:00",
+          "commentBody": "How much per conversation including the data cloud credits?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_953mb",
+      "author": "SeriouslyImKidding",
+      "authorProfile": "https://www.reddit.com/user/SeriouslyImKidding",
+      "commentId": "t1_m2llj1t",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2llj1t/",
+      "publishingDate": "2024-12-18T02:48:03+00:00",
+      "commentBody": "So we have not officially gotten infosec approval to turn this on in our org (it would be free under the foundations sku and we already have access to the copilot agent without foundations), but I’ve started collecting use cases for internal users that 20+ prompts that could help users do things. A lot of them don’t require data cloud but some do. As someone who has a good grasp on what the potential is but has not been able to apply it outside of doing some trailheads…this just might be the most complicated declarative tool salesforce has developed to date. Flow is great and has gotten so much better over the years, and while it is touted as declarative development, you basically need to understand apex syntax and best practices to do anything the right way. I think agents and prompt builder are far, far more complicated than flow. What we’ve all had access too from Agentforce events and trailheads is salesforce holding your hand through 80% of the actual process of building an agent so that you can get to the end result fast and be impressed. When I think about how to actually build an agent from scratch that does what I want, after looking at the OOTB stuff, the amount of pre-knowledge you need to know about what you want to be done is insane. You need to be able to describe context, key words, and platform operations for a large amount of possible inputs for the agents to go down the right path. And then you need to be able to tell the agent how to use your existing process automation in a way that makes sense and is specific. And THEN you need to understand all of the concepts behind grounding, toxicity, etc. Go look at the instructions that come with the Einstein copilot agent and tell me if you could (without going through fifty versions of trying to get it to do the right thing) write a set of detailed instructions like that for a completely custom topic and set of actions without spending hours and hours banging your head against the keyboard trying to get the agent to correctly update or create a record using your own custom flows or prompts. There is a lot of cool potential, but the learning curve is going to be very steep for a lot of admins and developers. If you struggle doing complex things with flow, you will have an absolutely terrible time with agents. This has been my experience to a degree. What are your recommendations when the agent is failing (i.e. calling a flow to create a case) and the APIs are failing for \"an unknown reason?\" It seems nearly impossible to troubleshoot because prompting it with the same inputs leads to slightly different reasoning in the editor and 50% of the time it fails due to a grounding issue when the instruction set is quite explicit. It just feels like a really complicated way to do a few simple things because anything truly \"agentic\" feels like vaporware. So the product is bad. In a proper company you don’t start selling and marketing until the product is good. Otherwise you just churn/ don’t retain right? Weird. Complex does not automatically equal bad. It’s actually quite sensible what they’ve built: a tool that can combine your company data with the “magic” of LLMs so users can conversationally get what they want from it. A conversational tool that can actually help you solve problems and learn things that is grounded in company data can be an incredibly convenient thing. However, Salesforce has done 85% of the hard part for you in their trailheads and marketing. Prompt engineering (which is what you have to do to build an agent) is the new field this product creates, but in order to produce correct results reliably you need to be an expert in both the tool and the business. Most admins and devs don’t properly understand enough about the business to make informed decisions about the direction of the company and likewise, most business leaders don’t understand enough about salesforce to direct a project they would like to see implemented. It will take incredible talent to implement this product well, and if you can find it, it’ll feel like magic. I think, however, most people will not be able to get it to do half of what they think it should do for some time because there just aren’t enough people who can work well on both sides like this. If the product is complex for basic/ new users AND advanced users dont have the freedom to efficiently build whatever they want without exiting the product than the product is bad and the people that designed it are lazy. It’s hard to make a product simple for new users and flexible for advanced users, but competent design teams can do this if they have a seat at the table.",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6,
+      "replies": [
+        {
+          "authorId": "t2_bxxgq",
+          "author": "sfhester",
+          "authorProfile": "https://www.reddit.com/user/sfhester",
+          "commentId": "t1_m5848uf",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m5848uf/",
+          "publishingDate": "2025-01-03T18:51:08+00:00",
+          "commentBody": "This has been my experience to a degree. What are your recommendations when the agent is failing (i.e. calling a flow to create a case) and the APIs are failing for \"an unknown reason?\" It seems nearly impossible to troubleshoot because prompting it with the same inputs leads to slightly different reasoning in the editor and 50% of the time it fails due to a grounding issue when the instruction set is quite explicit. It just feels like a really complicated way to do a few simple things because anything truly \"agentic\" feels like vaporware.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_8z1lq",
+          "author": "otterquestions",
+          "authorProfile": "https://www.reddit.com/user/otterquestions",
+          "commentId": "t1_mc48nr2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/mc48nr2/",
+          "publishingDate": "2025-02-11T02:44:30+00:00",
+          "commentBody": "So the product is bad. In a proper company you don’t start selling and marketing until the product is good. Otherwise you just churn/ don’t retain right? Weird. Complex does not automatically equal bad. It’s actually quite sensible what they’ve built: a tool that can combine your company data with the “magic” of LLMs so users can conversationally get what they want from it. A conversational tool that can actually help you solve problems and learn things that is grounded in company data can be an incredibly convenient thing. However, Salesforce has done 85% of the hard part for you in their trailheads and marketing. Prompt engineering (which is what you have to do to build an agent) is the new field this product creates, but in order to produce correct results reliably you need to be an expert in both the tool and the business. Most admins and devs don’t properly understand enough about the business to make informed decisions about the direction of the company and likewise, most business leaders don’t understand enough about salesforce to direct a project they would like to see implemented. It will take incredible talent to implement this product well, and if you can find it, it’ll feel like magic. I think, however, most people will not be able to get it to do half of what they think it should do for some time because there just aren’t enough people who can work well on both sides like this. If the product is complex for basic/ new users AND advanced users dont have the freedom to efficiently build whatever they want without exiting the product than the product is bad and the people that designed it are lazy. It’s hard to make a product simple for new users and flexible for advanced users, but competent design teams can do this if they have a seat at the table.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_953mb",
+          "author": "SeriouslyImKidding",
+          "authorProfile": "https://www.reddit.com/user/SeriouslyImKidding",
+          "commentId": "t1_mc4czn1",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/mc4czn1/",
+          "publishingDate": "2025-02-11T03:08:58+00:00",
+          "commentBody": "Complex does not automatically equal bad. It’s actually quite sensible what they’ve built: a tool that can combine your company data with the “magic” of LLMs so users can conversationally get what they want from it. A conversational tool that can actually help you solve problems and learn things that is grounded in company data can be an incredibly convenient thing. However, Salesforce has done 85% of the hard part for you in their trailheads and marketing. Prompt engineering (which is what you have to do to build an agent) is the new field this product creates, but in order to produce correct results reliably you need to be an expert in both the tool and the business. Most admins and devs don’t properly understand enough about the business to make informed decisions about the direction of the company and likewise, most business leaders don’t understand enough about salesforce to direct a project they would like to see implemented. It will take incredible talent to implement this product well, and if you can find it, it’ll feel like magic. I think, however, most people will not be able to get it to do half of what they think it should do for some time because there just aren’t enough people who can work well on both sides like this. If the product is complex for basic/ new users AND advanced users dont have the freedom to efficiently build whatever they want without exiting the product than the product is bad and the people that designed it are lazy. It’s hard to make a product simple for new users and flexible for advanced users, but competent design teams can do this if they have a seat at the table.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_8z1lq",
+          "author": "otterquestions",
+          "authorProfile": "https://www.reddit.com/user/otterquestions",
+          "commentId": "t1_mc4rqos",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/mc4rqos/",
+          "publishingDate": "2025-02-11T04:39:10+00:00",
+          "commentBody": "If the product is complex for basic/ new users AND advanced users dont have the freedom to efficiently build whatever they want without exiting the product than the product is bad and the people that designed it are lazy. It’s hard to make a product simple for new users and flexible for advanced users, but competent design teams can do this if they have a seat at the table.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_14u04nw2",
+      "author": "thebotnamedkev",
+      "authorProfile": "https://www.reddit.com/user/thebotnamedkev",
+      "commentId": "t1_m2hr4gi",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2hr4gi/",
+      "publishingDate": "2024-12-17T13:46:35+00:00",
+      "commentBody": "I recommend aligning the use case with your businesses 2025 objectives. Agentforce has so many use cases, it’s hard to just select one. \nIdentify a business problem or have your leadership tell you what they’re aiming to improve and then center your use case around that. \nOnly caveat is to ensure Agentforce product is mature enough for the use case you select. The product is great but still has a long way to go. Safest / highest value use cases are trending towards customer support. Think chatbots, much easier to search knowledge articles, internal agents to help customer support reps, and so on. \nAnchoring into business metrics could be operational efficiency, case deflection, response time, handle time, etc We have been trying for several months to get our business to do this and my leadership is frustrated so they have basically carved out a percentage of my staff to build out a POC in Q1.  Our business operations team (this is where our product owners sit) don’t really see agentforce as a priority and I think need to be sold on it. This is the one time I wish my AE would actually help me but he hasn’t been very responsive lately. My skip levels idea is that we build out a good enough POC that we can demo to the business they will make it a priority for next year. Our business runs a little bit odd where we don’t actually get our priorities for the following year until February or March. Typically the entirety of Q1 is spent figuring out our priorities for the year and then Q2 Q3 and Q4 are spent delivering on those priorities.  I’ve worked here for 14 years and have never seen it work differently no matter how much we push to get priorities around this time each year. I see your challenge. They’re essentially forcing your hand to do something (anything) with Agentforce. My guess is they want to get ahead of the market and be early adopters regardless of what use case it’s intended to solve. If it’s helpful, the most I’ve seen are these:\n1) Knowledge answers (both internal and external use case)\n2) order inquiries / status updates \n3) Escalate to case Let me know if you’d like any more context on those. Much of these use cases are also dependent on your industry. Fyi - I work for a Salesforce partner on the forefront of these new implementations for AF. So just speaking from my personal experience. There may be better content available the SF website or others that could help spark ideas for you.",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7,
+      "replies": [
+        {
+          "authorId": "t2_6n260735",
+          "author": "this_is_me84",
+          "authorProfile": "https://www.reddit.com/user/this_is_me84",
+          "commentId": "t1_m2i05dl",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2i05dl/",
+          "publishingDate": "2024-12-17T14:43:51+00:00",
+          "commentBody": "We have been trying for several months to get our business to do this and my leadership is frustrated so they have basically carved out a percentage of my staff to build out a POC in Q1.  Our business operations team (this is where our product owners sit) don’t really see agentforce as a priority and I think need to be sold on it. This is the one time I wish my AE would actually help me but he hasn’t been very responsive lately. My skip levels idea is that we build out a good enough POC that we can demo to the business they will make it a priority for next year. Our business runs a little bit odd where we don’t actually get our priorities for the following year until February or March. Typically the entirety of Q1 is spent figuring out our priorities for the year and then Q2 Q3 and Q4 are spent delivering on those priorities.  I’ve worked here for 14 years and have never seen it work differently no matter how much we push to get priorities around this time each year. I see your challenge. They’re essentially forcing your hand to do something (anything) with Agentforce. My guess is they want to get ahead of the market and be early adopters regardless of what use case it’s intended to solve. If it’s helpful, the most I’ve seen are these:\n1) Knowledge answers (both internal and external use case)\n2) order inquiries / status updates \n3) Escalate to case Let me know if you’d like any more context on those. Much of these use cases are also dependent on your industry. Fyi - I work for a Salesforce partner on the forefront of these new implementations for AF. So just speaking from my personal experience. There may be better content available the SF website or others that could help spark ideas for you.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_14u04nw2",
+          "author": "thebotnamedkev",
+          "authorProfile": "https://www.reddit.com/user/thebotnamedkev",
+          "commentId": "t1_m2l12ct",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2l12ct/",
+          "publishingDate": "2024-12-18T00:40:53+00:00",
+          "commentBody": "I see your challenge. They’re essentially forcing your hand to do something (anything) with Agentforce. My guess is they want to get ahead of the market and be early adopters regardless of what use case it’s intended to solve. If it’s helpful, the most I’ve seen are these:\n1) Knowledge answers (both internal and external use case)\n2) order inquiries / status updates \n3) Escalate to case Let me know if you’d like any more context on those. Much of these use cases are also dependent on your industry. Fyi - I work for a Salesforce partner on the forefront of these new implementations for AF. So just speaking from my personal experience. There may be better content available the SF website or others that could help spark ideas for you.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_3s1fv",
+      "author": "heartlessgamer",
+      "authorProfile": "https://www.reddit.com/user/heartlessgamer",
+      "commentId": "t1_m2i0x4d",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2i0x4d/",
+      "publishingDate": "2024-12-17T14:48:24+00:00",
+      "commentBody": "Not using AF but we have AI hooked up to SF to read and understand customer emails and whether a human needs to be involved. It is much better at accurately catching and deflecting automated system responses, out of office, etc. That’s a really interesting idea. We spent some time in 2022 and in 2023 moving Email to case to more form based support tickets but our customers who pay for the upgraded service plan each have a dedicated email to use and essentially there are three support people on staff for each one of these upgraded support customers to read, and Determine if Support needs to be involved product needs to be involved or another team needs to be involved such as finance or their sales person. We have had moderate success with the forms with customers who don’t have our upgraded service contract. But more than 30% of our customers do have this upgraded service contract and the case forms have Not been well received by them to move away from the email solution so this might be a really good use case for me thank you. Email is terrible for customer support; except customers will never admit that so here we are in the grand year of 2024 trying to best deal with email. I will say one thing that is a downside of integrating external AI is that it makes it hard to pass the actual email back and forth.  The best way for AI to interpret it is with the full HTML coding but getting full HTML coded email message out is a nightmare due to the special characters.  We gave up on it and instead just use the text.  With Agentforce you can just have it consume the email message natively so assume it would do a better job. Ultimately as I view it AI is really just a way to use common language to automate stuff and in theory it should be easier/faster than trying to do it via other means.  Agentforce as far as I've played with it is really easy to set up via just typing out what you want it to do.  Tweak and refine based on outcome and you get a good end result faster. I see this in my personal use of AI as well; so many things I'd never ask my team to do that I get the AI to do because I can just ask it what to do and keep refining my ask until it gets what I am looking for. We started evaluating this use case today. And what happens today is when a customer emails using their dedicated email address a case gets automatically created in salesforce through email to case. Then what happens is the tier one team for our upgraded support customers read that case and determine where it should be routed. If it is in fact, a support issue, it will get routed to one of three teams. The cases can also be routed to finance, sales, and operations. If we can figure out how to get an agent to handle the initial routing that would save our company a lot of money. We have several hundred of these tier one support agent that could probably be moved to do something else, but they spend so much time reading through emails in the case and understanding where the case actually needs to go. If back-and-forth happens with the customer, it happens through case comments. Seems like a clear use case for the tech.  There are even plenty of older email technologies to handle case classification including the Einstein for Service predictive AI that Salesforce has had for several years. Also keep in mind the way this most likely saves money is off cutting headcount.  I personally hate that reality of my job so I am always trying to frame it as a way to better utilize resources.  End of day though I know my projects end up cutting budget which cuts people.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_6n260735",
+          "author": "this_is_me84",
+          "authorProfile": "https://www.reddit.com/user/this_is_me84",
+          "commentId": "t1_m2i1n7i",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2i1n7i/",
+          "publishingDate": "2024-12-17T14:52:41+00:00",
+          "commentBody": "That’s a really interesting idea. We spent some time in 2022 and in 2023 moving Email to case to more form based support tickets but our customers who pay for the upgraded service plan each have a dedicated email to use and essentially there are three support people on staff for each one of these upgraded support customers to read, and Determine if Support needs to be involved product needs to be involved or another team needs to be involved such as finance or their sales person. We have had moderate success with the forms with customers who don’t have our upgraded service contract. But more than 30% of our customers do have this upgraded service contract and the case forms have Not been well received by them to move away from the email solution so this might be a really good use case for me thank you. Email is terrible for customer support; except customers will never admit that so here we are in the grand year of 2024 trying to best deal with email. I will say one thing that is a downside of integrating external AI is that it makes it hard to pass the actual email back and forth.  The best way for AI to interpret it is with the full HTML coding but getting full HTML coded email message out is a nightmare due to the special characters.  We gave up on it and instead just use the text.  With Agentforce you can just have it consume the email message natively so assume it would do a better job. Ultimately as I view it AI is really just a way to use common language to automate stuff and in theory it should be easier/faster than trying to do it via other means.  Agentforce as far as I've played with it is really easy to set up via just typing out what you want it to do.  Tweak and refine based on outcome and you get a good end result faster. I see this in my personal use of AI as well; so many things I'd never ask my team to do that I get the AI to do because I can just ask it what to do and keep refining my ask until it gets what I am looking for. We started evaluating this use case today. And what happens today is when a customer emails using their dedicated email address a case gets automatically created in salesforce through email to case. Then what happens is the tier one team for our upgraded support customers read that case and determine where it should be routed. If it is in fact, a support issue, it will get routed to one of three teams. The cases can also be routed to finance, sales, and operations. If we can figure out how to get an agent to handle the initial routing that would save our company a lot of money. We have several hundred of these tier one support agent that could probably be moved to do something else, but they spend so much time reading through emails in the case and understanding where the case actually needs to go. If back-and-forth happens with the customer, it happens through case comments. Seems like a clear use case for the tech.  There are even plenty of older email technologies to handle case classification including the Einstein for Service predictive AI that Salesforce has had for several years. Also keep in mind the way this most likely saves money is off cutting headcount.  I personally hate that reality of my job so I am always trying to frame it as a way to better utilize resources.  End of day though I know my projects end up cutting budget which cuts people.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_3s1fv",
+          "author": "heartlessgamer",
+          "authorProfile": "https://www.reddit.com/user/heartlessgamer",
+          "commentId": "t1_m2i2zeh",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2i2zeh/",
+          "publishingDate": "2024-12-17T15:00:32+00:00",
+          "commentBody": "Email is terrible for customer support; except customers will never admit that so here we are in the grand year of 2024 trying to best deal with email. I will say one thing that is a downside of integrating external AI is that it makes it hard to pass the actual email back and forth.  The best way for AI to interpret it is with the full HTML coding but getting full HTML coded email message out is a nightmare due to the special characters.  We gave up on it and instead just use the text.  With Agentforce you can just have it consume the email message natively so assume it would do a better job. Ultimately as I view it AI is really just a way to use common language to automate stuff and in theory it should be easier/faster than trying to do it via other means.  Agentforce as far as I've played with it is really easy to set up via just typing out what you want it to do.  Tweak and refine based on outcome and you get a good end result faster. I see this in my personal use of AI as well; so many things I'd never ask my team to do that I get the AI to do because I can just ask it what to do and keep refining my ask until it gets what I am looking for. We started evaluating this use case today. And what happens today is when a customer emails using their dedicated email address a case gets automatically created in salesforce through email to case. Then what happens is the tier one team for our upgraded support customers read that case and determine where it should be routed. If it is in fact, a support issue, it will get routed to one of three teams. The cases can also be routed to finance, sales, and operations. If we can figure out how to get an agent to handle the initial routing that would save our company a lot of money. We have several hundred of these tier one support agent that could probably be moved to do something else, but they spend so much time reading through emails in the case and understanding where the case actually needs to go. If back-and-forth happens with the customer, it happens through case comments. Seems like a clear use case for the tech.  There are even plenty of older email technologies to handle case classification including the Einstein for Service predictive AI that Salesforce has had for several years. Also keep in mind the way this most likely saves money is off cutting headcount.  I personally hate that reality of my job so I am always trying to frame it as a way to better utilize resources.  End of day though I know my projects end up cutting budget which cuts people.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_6n260735",
+          "author": "this_is_me84",
+          "authorProfile": "https://www.reddit.com/user/this_is_me84",
+          "commentId": "t1_m2r41ds",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2r41ds/",
+          "publishingDate": "2024-12-19T01:13:05+00:00",
+          "commentBody": "We started evaluating this use case today. And what happens today is when a customer emails using their dedicated email address a case gets automatically created in salesforce through email to case. Then what happens is the tier one team for our upgraded support customers read that case and determine where it should be routed. If it is in fact, a support issue, it will get routed to one of three teams. The cases can also be routed to finance, sales, and operations. If we can figure out how to get an agent to handle the initial routing that would save our company a lot of money. We have several hundred of these tier one support agent that could probably be moved to do something else, but they spend so much time reading through emails in the case and understanding where the case actually needs to go. If back-and-forth happens with the customer, it happens through case comments. Seems like a clear use case for the tech.  There are even plenty of older email technologies to handle case classification including the Einstein for Service predictive AI that Salesforce has had for several years. Also keep in mind the way this most likely saves money is off cutting headcount.  I personally hate that reality of my job so I am always trying to frame it as a way to better utilize resources.  End of day though I know my projects end up cutting budget which cuts people.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_3s1fv",
+          "author": "heartlessgamer",
+          "authorProfile": "https://www.reddit.com/user/heartlessgamer",
+          "commentId": "t1_m2r6id6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2r6id6/",
+          "publishingDate": "2024-12-19T01:28:10+00:00",
+          "commentBody": "Seems like a clear use case for the tech.  There are even plenty of older email technologies to handle case classification including the Einstein for Service predictive AI that Salesforce has had for several years. Also keep in mind the way this most likely saves money is off cutting headcount.  I personally hate that reality of my job so I am always trying to frame it as a way to better utilize resources.  End of day though I know my projects end up cutting budget which cuts people.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_dnes5",
+      "author": "smellyalatercraig",
+      "authorProfile": "https://www.reddit.com/user/smellyalatercraig",
+      "commentId": "t1_m2i42al",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2i42al/",
+      "publishingDate": "2024-12-17T15:06:51+00:00",
+      "commentBody": "Does your leadership have a business use case for it or do they just want the shiny new tool? I work in IT and I report to a VP in IT who reports to our GM of IT for our division. The GM for IT of our division is thinking that agentforce could help with a lot of things the business does in Salesforce. I mentioned this in a different comment, but essentially our business does not see agentforce or AI as a priority. They really need to be sold on it, which is kind of how most things work at this organization. Our business is not the most innovative crew and anything innovative we’ve done in technology. It’s because technology has come up with a proof of concept and then sold the business that we need to do it. So likely a similar thing is happening across many different IT teams with the concept of AI. So I thought of a few things, but I was just looking to get some other ideas of what other folks were doing with it.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_6n260735",
+          "author": "this_is_me84",
+          "authorProfile": "https://www.reddit.com/user/this_is_me84",
+          "commentId": "t1_m2m809i",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2m809i/",
+          "publishingDate": "2024-12-18T05:27:50+00:00",
+          "commentBody": "I work in IT and I report to a VP in IT who reports to our GM of IT for our division. The GM for IT of our division is thinking that agentforce could help with a lot of things the business does in Salesforce. I mentioned this in a different comment, but essentially our business does not see agentforce or AI as a priority. They really need to be sold on it, which is kind of how most things work at this organization. Our business is not the most innovative crew and anything innovative we’ve done in technology. It’s because technology has come up with a proof of concept and then sold the business that we need to do it. So likely a similar thing is happening across many different IT teams with the concept of AI. So I thought of a few things, but I was just looking to get some other ideas of what other folks were doing with it.",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        }
+      ]
+    },
+    {
+      "authorId": "t2_lv3ods00",
+      "author": "OkOcelot4522",
+      "authorProfile": "https://www.reddit.com/user/OkOcelot4522",
+      "commentId": "t1_m2j7eqt",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2j7eqt/",
+      "publishingDate": "2024-12-17T18:37:59+00:00",
+      "commentBody": "The consultancy I work for is doing AI POC’s for a few customers. The trick its to try low level things to improve user experience, for service cloud these ideas could yield some exciting results:\n1. Case sentiment score \n2. Summarise information on cases with lots of activity \n3. Automated categorisation Thank you I think one thing we are going to try to do is summarize all of the interactions on an account. We sometimes have multiple business units talking to a customer and I think this would be a good way to show some efficiency gains because we have had complaints from customers when a sales rep from one division goes and talks to them, and then they don’t realize a similar conversation has been had with a different sales rep in a different division For a different product. The problem is all of the data exist across multiple ors, but we are in the process of looking into data cloud as well to solve some of this so I think having an agent on top of it would really help. Appreciate this comment. Currently applying to an Agentforce AE position and this use case is exactly why I want to make a change as it's exactly what my org needs.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_6n260735",
+          "author": "this_is_me84",
+          "authorProfile": "https://www.reddit.com/user/this_is_me84",
+          "commentId": "t1_m2m89fa",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2m89fa/",
+          "publishingDate": "2024-12-18T05:30:01+00:00",
+          "commentBody": "Thank you I think one thing we are going to try to do is summarize all of the interactions on an account. We sometimes have multiple business units talking to a customer and I think this would be a good way to show some efficiency gains because we have had complaints from customers when a sales rep from one division goes and talks to them, and then they don’t realize a similar conversation has been had with a different sales rep in a different division For a different product. The problem is all of the data exist across multiple ors, but we are in the process of looking into data cloud as well to solve some of this so I think having an agent on top of it would really help. Appreciate this comment. Currently applying to an Agentforce AE position and this use case is exactly why I want to make a change as it's exactly what my org needs.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_p1qt5lhe4",
+          "author": "Reasonable-Bit560",
+          "authorProfile": "https://www.reddit.com/user/Reasonable-Bit560",
+          "commentId": "t1_m2rhkol",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2rhkol/",
+          "publishingDate": "2024-12-19T02:36:45+00:00",
+          "commentBody": "Appreciate this comment. Currently applying to an Agentforce AE position and this use case is exactly why I want to make a change as it's exactly what my org needs.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_d8bsswx8h",
+      "author": "newslettermaven",
+      "authorProfile": "https://www.reddit.com/user/newslettermaven",
+      "commentId": "t1_m2j8qb0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2j8qb0/",
+      "publishingDate": "2024-12-17T18:44:51+00:00",
+      "commentBody": "There isn't necessarily any specific use case that is better for an agent. Out of the teams you mention, what processes within those teams use the most unstructured data (like emails, long text fields, etc) and/or what processes have the most documentation in knowledge articles or other knowledge base you could pull from? Pick the processes you can get the most detailed step by step directives for. You'll need those to create the topics and instructions in your agent. Make sure it is a use case you can tie back to a glory metric like handle time for cases, or response time for leads, etc. Probably obvious, but digging into metrics helped us define our first POC.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_14ahvl",
+      "author": "Voxmanns",
+      "authorProfile": "https://www.reddit.com/user/Voxmanns",
+      "commentId": "t1_m2i1bm5",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2i1bm5/",
+      "publishingDate": "2024-12-17T14:50:47+00:00",
+      "commentBody": "Think of Agentforce as automating communication between the customer and the company's people and the CRM. User says x -> Agentforce tells system to... -> Agentforce replies with.... Look at any recurring and/or trivial meetings involving customers. Tier 1 support stuff is a great starting place to look.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_ltrr9dqw",
+      "author": "michaell2019",
+      "authorProfile": "https://www.reddit.com/user/michaell2019",
+      "commentId": "t1_m2idops",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2idops/",
+      "publishingDate": "2024-12-17T16:00:36+00:00",
+      "commentBody": "Out of the box Einstein Service AI features: Einstein KB Article Recommendations. Einstein Case Classification. Einstein can fill in fields based on past cases or the content in the case title or description. Einstein Case Wrap-Up. Einstein Conversation Mining. Einstein Reply Recommendations. Einstein Work Summaries. Einstein Service Replies. Einstein Knowledge Creation KB recommendations works well. Better than standard recommendations. Pick a kb and Einstein can generate an email to customer with link to KB article. Also create your own prompts using prompt builder, flow, apex. I created a button that calls a flow that calls apex that gets all email messages, posts/comments on case. Then send all to a prompt to summarize everything and in a certain format then insert into a summary field. Other use cases. Knowledge article spelling and grammar check. Case sentiment.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_3zcj9kz8c",
+      "author": "Practical_Smile_794",
+      "authorProfile": "https://www.reddit.com/user/Practical_Smile_794",
+      "commentId": "t1_m2ivk63",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2ivk63/",
+      "publishingDate": "2024-12-17T17:35:53+00:00",
+      "commentBody": "Sales coach. Help the sales team prioritize follow-ups.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_68tbd",
+      "author": "cheech712",
+      "authorProfile": "https://www.reddit.com/user/cheech712",
+      "commentId": "t1_m2iysk0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2iysk0/",
+      "publishingDate": "2024-12-17T17:52:51+00:00",
+      "commentBody": "3 from a sf hosted training in an insurance company Manage the beneficiary on an insurance policy Address change Handle billing requests The agent is accessed from a portal chat (agent is the user talking to the customer). With an agent, prompt and flow you can enable the system to do things like create a case or create/delete/update records. The agent instructions use natural language. I would not be excited to complete the request from your leadership. This is not a trivial thing. Does this work? Is the company still using the service for this?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_8z1lq",
+          "author": "otterquestions",
+          "authorProfile": "https://www.reddit.com/user/otterquestions",
+          "commentId": "t1_mc495yw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/mc495yw/",
+          "publishingDate": "2025-02-11T02:47:17+00:00",
+          "commentBody": "Does this work? Is the company still using the service for this?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_cten6",
+      "author": "pjallefar",
+      "authorProfile": "https://www.reddit.com/user/pjallefar",
+      "commentId": "t1_m2l5x6z",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2l5x6z/",
+      "publishingDate": "2024-12-18T01:10:31+00:00",
+      "commentBody": "One thing I sometimes do, just to get some inspiration, is to give ChatGPT a high level description of our company, departments, work processes, etc. and then ask it to come up with scenarios where it think it could help. Some ideas are bad, some ideas are decent and some ideas can be good, if you modify them a bit. Worst case, you get nothing useful. Best case, you end up with some ideas you hadn't though of.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_5l6c0f14",
+      "author": "hoanymole",
+      "authorProfile": "https://www.reddit.com/user/hoanymole",
+      "commentId": "t1_m2lofv2",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2lofv2/",
+      "publishingDate": "2024-12-18T03:06:42+00:00",
+      "commentBody": "What country are you in? I’m in the US. Do try and talk to your AE because there are ideation workshops where I am in the UK where you get hands on in the London AI center. Thank you I will follow up again today. I got an out of the office from him two weeks ago. I followed up last week and haven’t heard back. I will follow up again today. I know they did something like this at the world tour that was near me, but my team and I could not go as we also had our annual IT offsite on the same day. What I was hoping for is that they could come in and work with us for a day and come up with some ideas and help us on the proof of concept. our previous AE used to be really good at organizing these things we did one with data cloud around this time last year and now that is on our roadmap for next year.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_6n260735",
+          "author": "this_is_me84",
+          "authorProfile": "https://www.reddit.com/user/this_is_me84",
+          "commentId": "t1_m2m8j1e",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2m8j1e/",
+          "publishingDate": "2024-12-18T05:32:21+00:00",
+          "commentBody": "I’m in the US. Do try and talk to your AE because there are ideation workshops where I am in the UK where you get hands on in the London AI center. Thank you I will follow up again today. I got an out of the office from him two weeks ago. I followed up last week and haven’t heard back. I will follow up again today. I know they did something like this at the world tour that was near me, but my team and I could not go as we also had our annual IT offsite on the same day. What I was hoping for is that they could come in and work with us for a day and come up with some ideas and help us on the proof of concept. our previous AE used to be really good at organizing these things we did one with data cloud around this time last year and now that is on our roadmap for next year.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_5l6c0f14",
+          "author": "hoanymole",
+          "authorProfile": "https://www.reddit.com/user/hoanymole",
+          "commentId": "t1_m2ne9uy",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2ne9uy/",
+          "publishingDate": "2024-12-18T12:38:10+00:00",
+          "commentBody": "Do try and talk to your AE because there are ideation workshops where I am in the UK where you get hands on in the London AI center. Thank you I will follow up again today. I got an out of the office from him two weeks ago. I followed up last week and haven’t heard back. I will follow up again today. I know they did something like this at the world tour that was near me, but my team and I could not go as we also had our annual IT offsite on the same day. What I was hoping for is that they could come in and work with us for a day and come up with some ideas and help us on the proof of concept. our previous AE used to be really good at organizing these things we did one with data cloud around this time last year and now that is on our roadmap for next year.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_6n260735",
+          "author": "this_is_me84",
+          "authorProfile": "https://www.reddit.com/user/this_is_me84",
+          "commentId": "t1_m2nfv43",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2nfv43/",
+          "publishingDate": "2024-12-18T12:50:33+00:00",
+          "commentBody": "Thank you I will follow up again today. I got an out of the office from him two weeks ago. I followed up last week and haven’t heard back. I will follow up again today. I know they did something like this at the world tour that was near me, but my team and I could not go as we also had our annual IT offsite on the same day. What I was hoping for is that they could come in and work with us for a day and come up with some ideas and help us on the proof of concept. our previous AE used to be really good at organizing these things we did one with data cloud around this time last year and now that is on our roadmap for next year.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_a0xvottx",
+      "author": "ImprovementOwn3247",
+      "authorProfile": "https://www.reddit.com/user/ImprovementOwn3247",
+      "commentId": "t1_m2mxtv1",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2mxtv1/",
+      "publishingDate": "2024-12-18T09:57:18+00:00",
+      "commentBody": "As per Mark Benioff yesterday’s presentation on Agentforce 2.0, you should start with your company’s website",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_10fvq6gbhc",
+      "author": "ResourceInteractive",
+      "authorProfile": "https://www.reddit.com/user/ResourceInteractive",
+      "commentId": "t1_m2s98xp",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2s98xp/",
+      "publishingDate": "2024-12-19T06:02:16+00:00",
+      "commentBody": "Flip on AgentForce for Sales and show your sales people how to ask it to summarize an account.  It’s internal and you won’t get hit with the $2 per chat - which is the outward facing service support bot.  You do need to config data cloud to make it all go, but that is going to be your quicker route to get something spun up",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_hbv1ht2o",
+      "author": "linuxrocks1",
+      "authorProfile": "https://www.reddit.com/user/linuxrocks1",
+      "commentId": "t1_m2u2egr",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2u2egr/",
+      "publishingDate": "2024-12-19T15:30:14+00:00",
+      "commentBody": "I thought AgentForce is still not out yet, how would you try it?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_9l2n8qs",
+      "author": "Fortune_six",
+      "authorProfile": "https://www.reddit.com/user/Fortune_six",
+      "commentId": "t1_m2i3ot9",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hga7ev/agentforce_how_are_you_using_it/m2i3ot9/",
+      "publishingDate": "2024-12-17T15:04:39+00:00",
+      "commentBody": "Go to help.Salesforce.com and see how Salesforce themselves is using agentforce. Classic service agent example",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": 0
+    }
+  ]
+}

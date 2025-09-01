@@ -1,0 +1,182 @@
+{
+  "info": {
+    "authorId": "t2_iy6pfolyk",
+    "author": "Numerous-Mine2889",
+    "authorProfile": "https://www.reddit.com/user/Numerous-Mine2889",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1jkwxs5",
+    "postLabel": null,
+    "publishingDate": "2025-03-27T05:37:36+00:00",
+    "postTitle": "Agentforce can't receive files or read then?",
+    "postMessage": "I have a scenario where a company that sells products in its stores wants to respond to users when they send a picture of a product. Example:\nA user sends a picture of an Air Jordan. The agent receives the image and responds: \"Cool, we have this sneaker in our store, the Air Jordan. Here’s our phone number, etc.\" What I tried: I created a Prompt Template Flex with GPT-4, but the field only accepts text. It works only if users send a URL, not an uploaded file. My question: Can I process both URLs and uploaded image files?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1jkwxs5/agentforce_cant_receive_files_or_read_then/",
+    "commentCount": 13,
+    "upvoteCount": 2,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_15lc743sqy",
+      "author": "Anjalikumarsonkar",
+      "authorProfile": "https://www.reddit.com/user/Anjalikumarsonkar",
+      "commentId": "t1_mjyv2za",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jkwxs5/agentforce_cant_receive_files_or_read_then/mjyv2za/",
+      "publishingDate": "2025-03-27T05:50:36+00:00",
+      "commentBody": "Agentforce does not support direct image uploads; it only accepts image URLs. One solution is to have users upload their images to a cloud service (such as an S3 bucket or Imgur) and share the link. Your agent can then process the image URL as needed. Yeah. Or do that part custom on your custom app. Upload the image and send the link. Thanks, I found it in a presentation of theirs here... They say that GA is in April, I highly doubt it. An agent with only text in 2025 is crazy. Commercially available agentic solutions are like 6 months old…",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_4n80v4tp",
+          "author": "ChooseWiselyChanged",
+          "authorProfile": "https://www.reddit.com/user/ChooseWiselyChanged",
+          "commentId": "t1_mjz1t8x",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jkwxs5/agentforce_cant_receive_files_or_read_then/mjz1t8x/",
+          "publishingDate": "2025-03-27T07:00:27+00:00",
+          "commentBody": "Yeah. Or do that part custom on your custom app. Upload the image and send the link.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_iy6pfolyk",
+          "author": "Numerous-Mine2889",
+          "authorProfile": "https://www.reddit.com/user/Numerous-Mine2889",
+          "commentId": "t1_mjyxmy5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jkwxs5/agentforce_cant_receive_files_or_read_then/mjyxmy5/",
+          "publishingDate": "2025-03-27T06:16:30+00:00",
+          "commentBody": "Thanks, I found it in a presentation of theirs here... They say that GA is in April, I highly doubt it. An agent with only text in 2025 is crazy. Commercially available agentic solutions are like 6 months old…",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        },
+        {
+          "authorId": "t2_n0jlc",
+          "author": "beniferlopez",
+          "authorProfile": "https://www.reddit.com/user/beniferlopez",
+          "commentId": "t1_mk69zqw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jkwxs5/agentforce_cant_receive_files_or_read_then/mk69zqw/",
+          "publishingDate": "2025-03-28T12:34:35+00:00",
+          "commentBody": "Commercially available agentic solutions are like 6 months old…",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_7eo9mz3w",
+      "author": "delausen",
+      "authorProfile": "https://www.reddit.com/user/delausen",
+      "commentId": "t1_mjyulx7",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jkwxs5/agentforce_cant_receive_files_or_read_then/mjyulx7/",
+      "publishingDate": "2025-03-27T05:45:57+00:00",
+      "commentBody": "I don't think Agentforce currently supports anything other than text, but it seems to be on the roadmap Thanks, I found it in a presentation of theirs here... They say that GA is in April, I highly doubt it. An agent with only text in 2025 is crazy. Which other agents have you used that support anything else other than text? I'm not aware of enterprise grade agents that support that Not OP but ChatGPT, Gemini, DeepSeek, Grok etc all have multimodal ability including analysing files and images. It's not an agent in an enterprise system but the technical capability is publicly available Yes, I'm aware the capability exists, I was wondering about enterprise alternatives ChatGPT has an enterprise version, my company uses it. [deleted] You can set up integrations and have it do stuff",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_iy6pfolyk",
+          "author": "Numerous-Mine2889",
+          "authorProfile": "https://www.reddit.com/user/Numerous-Mine2889",
+          "commentId": "t1_mjyxnpl",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jkwxs5/agentforce_cant_receive_files_or_read_then/mjyxnpl/",
+          "publishingDate": "2025-03-27T06:16:43+00:00",
+          "commentBody": "Thanks, I found it in a presentation of theirs here... They say that GA is in April, I highly doubt it. An agent with only text in 2025 is crazy. Which other agents have you used that support anything else other than text? I'm not aware of enterprise grade agents that support that Not OP but ChatGPT, Gemini, DeepSeek, Grok etc all have multimodal ability including analysing files and images. It's not an agent in an enterprise system but the technical capability is publicly available Yes, I'm aware the capability exists, I was wondering about enterprise alternatives ChatGPT has an enterprise version, my company uses it. [deleted] You can set up integrations and have it do stuff",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_7eo9mz3w",
+          "author": "delausen",
+          "authorProfile": "https://www.reddit.com/user/delausen",
+          "commentId": "t1_mjyxuh9",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jkwxs5/agentforce_cant_receive_files_or_read_then/mjyxuh9/",
+          "publishingDate": "2025-03-27T06:18:38+00:00",
+          "commentBody": "Which other agents have you used that support anything else other than text? I'm not aware of enterprise grade agents that support that Not OP but ChatGPT, Gemini, DeepSeek, Grok etc all have multimodal ability including analysing files and images. It's not an agent in an enterprise system but the technical capability is publicly available Yes, I'm aware the capability exists, I was wondering about enterprise alternatives ChatGPT has an enterprise version, my company uses it. [deleted] You can set up integrations and have it do stuff",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": "t2_2ebd3wq6",
+          "author": "DevilsAdvotwat",
+          "authorProfile": "https://www.reddit.com/user/DevilsAdvotwat",
+          "commentId": "t1_mjz3jqz",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jkwxs5/agentforce_cant_receive_files_or_read_then/mjz3jqz/",
+          "publishingDate": "2025-03-27T07:19:09+00:00",
+          "commentBody": "Not OP but ChatGPT, Gemini, DeepSeek, Grok etc all have multimodal ability including analysing files and images. It's not an agent in an enterprise system but the technical capability is publicly available Yes, I'm aware the capability exists, I was wondering about enterprise alternatives ChatGPT has an enterprise version, my company uses it. [deleted] You can set up integrations and have it do stuff",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_7eo9mz3w",
+          "author": "delausen",
+          "authorProfile": "https://www.reddit.com/user/delausen",
+          "commentId": "t1_mjz3rbg",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jkwxs5/agentforce_cant_receive_files_or_read_then/mjz3rbg/",
+          "publishingDate": "2025-03-27T07:21:26+00:00",
+          "commentBody": "Yes, I'm aware the capability exists, I was wondering about enterprise alternatives ChatGPT has an enterprise version, my company uses it. [deleted] You can set up integrations and have it do stuff",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_hsb2wjgvf",
+          "author": "Ok_Captain4824",
+          "authorProfile": "https://www.reddit.com/user/Ok_Captain4824",
+          "commentId": "t1_mk07i3j",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jkwxs5/agentforce_cant_receive_files_or_read_then/mk07i3j/",
+          "publishingDate": "2025-03-27T13:09:07+00:00",
+          "commentBody": "ChatGPT has an enterprise version, my company uses it. [deleted] You can set up integrations and have it do stuff",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": "t2_hsb2wjgvf",
+          "author": "Ok_Captain4824",
+          "authorProfile": "https://www.reddit.com/user/Ok_Captain4824",
+          "commentId": "t1_mk0mtgj",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jkwxs5/agentforce_cant_receive_files_or_read_then/mk0mtgj/",
+          "publishingDate": "2025-03-27T14:32:28+00:00",
+          "commentBody": "You can set up integrations and have it do stuff",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_9vpdjn48",
+      "author": "Cautious-Ad-4531",
+      "authorProfile": "https://www.reddit.com/user/Cautious-Ad-4531",
+      "commentId": "t1_n72rdzx",
+      "link": "https://www.reddit.com/r/salesforce/comments/1jkwxs5/agentforce_cant_receive_files_or_read_then/n72rdzx/",
+      "publishingDate": "2025-08-05T16:16:04+00:00",
+      "commentBody": "hello did you end up finding a solution, even with using multi model agents, it just doesn't work,  heard some workarounds using messaging sessions. I heard that people make workarounds using Einstein Bot first for voice and image, only routing it to an Agent later, for me it doesn't make any sense to mix the two features",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_iy6pfolyk",
+          "author": "Numerous-Mine2889",
+          "authorProfile": "https://www.reddit.com/user/Numerous-Mine2889",
+          "commentId": "t1_n7zwyq9",
+          "link": "https://www.reddit.com/r/salesforce/comments/1jkwxs5/agentforce_cant_receive_files_or_read_then/n7zwyq9/",
+          "publishingDate": "2025-08-10T20:20:12+00:00",
+          "commentBody": "I heard that people make workarounds using Einstein Bot first for voice and image, only routing it to an Agent later, for me it doesn't make any sense to mix the two features",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    }
+  ]
+}

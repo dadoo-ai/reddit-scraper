@@ -1,0 +1,37 @@
+[
+  {
+    "id": "t46gzi5e",
+    "url": "https://www.reddit.com/user/AlternativeOk7972/",
+    "username": "AlternativeOk7972",
+    "userIcon": "https://www.redditstatic.com/avatars/defaults/v2/avatar_default_2.png",
+    "avatarImage": "",
+    "postKarma": 1,
+    "commentKarma": 0,
+    "verified": true,
+    "description": "",
+    "over18": false,
+    "isMod": false,
+    "acceptFollowers": true,
+    "createdAt": "2023-12-29T02:14:06.000Z",
+    "scrapedAt": "2025-08-31T23:29:06.320Z",
+    "dataType": "user"
+  },
+  {
+    "id": "t1_mi346i4",
+    "parsedId": "mi346i4",
+    "url": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/mi346i4/",
+    "postId": "t3_1id2aoe",
+    "parentId": "t3_1id2aoe",
+    "username": "AlternativeOk7972",
+    "userId": "t2_t46gzi5e",
+    "category": "salesforce",
+    "communityName": "r/salesforce",
+    "body": "From experience, how cluggy is connecting to / from external data sources? Does the Data Cloud marketing live up to hype? The solution being a data aggregator, moving data effectively to one data lake, to leverage all the SalesForce tooling seems like the big benefit but if you can’t move data from the cloud or your on-premises server applications, then it seems pointless.",
+    "createdAt": "2025-03-16T13:46:45.000Z",
+    "scrapedAt": "2025-08-31T23:29:08.013Z",
+    "upVotes": 1,
+    "numberOfreplies": 0,
+    "html": "&lt;div class=\"md\"&gt;&lt;p&gt;From experience, how cluggy is connecting to / from external data sources? Does the Data Cloud marketing live up to hype? The solution being a data aggregator, moving data effectively to one data lake, to leverage all the SalesForce tooling seems like the big benefit but if you can’t move data from the cloud or your on-premises server applications, then it seems pointless.&lt;/p&gt;\n&lt;/div&gt;",
+    "dataType": "comment"
+  }
+]

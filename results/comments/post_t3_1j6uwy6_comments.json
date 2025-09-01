@@ -1,0 +1,144 @@
+{
+  "info": {
+    "authorId": "t2_aqels63y",
+    "author": "NightSpiritual6154",
+    "authorProfile": "https://www.reddit.com/user/NightSpiritual6154",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1j6uwy6",
+    "postLabel": null,
+    "publishingDate": "2025-03-09T00:11:00+00:00",
+    "postTitle": "Agentforce for Service Superbadge Unit chanllenge 3",
+    "postMessage": "Add Standard Topics Modify the provided prompt with the data source retrievers. Override the General FAQ topic with a custom action to the prompt template. Configure the agent to be able to escalate conversations to a human agent. Error Challenge Not yet complete... here's what's wrong: We can't find the user input correctly added to the Film_Festival_Related_Answers prompt template.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1j6uwy6/agentforce_for_service_superbadge_unit_chanllenge/",
+    "commentCount": 12,
+    "upvoteCount": 3,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_o67ufnhos",
+      "author": "BabySharkMadness",
+      "authorProfile": "https://www.reddit.com/user/BabySharkMadness",
+      "commentId": "t1_mgrzyil",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j6uwy6/agentforce_for_service_superbadge_unit_chanllenge/mgrzyil/",
+      "publishingDate": "2025-03-09T01:03:28+00:00",
+      "commentBody": "You need to open a case with Salesforce Trailhead support. Superbadges are no different than certifications and the compliance paragraphs at the beginning of the superbadge say so.",
+      "upvotes": 9,
+      "dislikes": 9,
+      "downvotes": 10
+    },
+    {
+      "authorId": "t2_a1ch7ndb",
+      "author": "AndrewBets",
+      "authorProfile": "https://www.reddit.com/user/AndrewBets",
+      "commentId": "t1_mgrwocr",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j6uwy6/agentforce_for_service_superbadge_unit_chanllenge/mgrwocr/",
+      "publishingDate": "2025-03-09T00:44:02+00:00",
+      "commentBody": "How about you do it your self… it’s a superbadge… Yes I am doing it, but I keep getting that error and I would like to understand why. 😕",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7,
+      "replies": [
+        {
+          "authorId": "t2_aqels63y",
+          "author": "NightSpiritual6154",
+          "authorProfile": "https://www.reddit.com/user/NightSpiritual6154",
+          "commentId": "t1_mgrx1m8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j6uwy6/agentforce_for_service_superbadge_unit_chanllenge/mgrx1m8/",
+          "publishingDate": "2025-03-09T00:46:10+00:00",
+          "commentBody": "Yes I am doing it, but I keep getting that error and I would like to understand why. 😕",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        }
+      ]
+    },
+    {
+      "authorId": "t2_genezz8h",
+      "author": "Cautious-Guest7317",
+      "authorProfile": "https://www.reddit.com/user/Cautious-Guest7317",
+      "commentId": "t1_mgs2zup",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j6uwy6/agentforce_for_service_superbadge_unit_chanllenge/mgs2zup/",
+      "publishingDate": "2025-03-09T01:21:55+00:00",
+      "commentBody": "On the Superbadge, there is a help article to assist you.  You will find a trailhead that will show you how to do this. Yes, I just read about the prom labels issue, but it wasn't much help. I already raised a case in Salesforce in case they have any other documentation. I got this error and solved it.  You just need to look a bit harder.  The help article will contain all the help you need. This, done it yesterday.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_aqels63y",
+          "author": "NightSpiritual6154",
+          "authorProfile": "https://www.reddit.com/user/NightSpiritual6154",
+          "commentId": "t1_mgs3inl",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j6uwy6/agentforce_for_service_superbadge_unit_chanllenge/mgs3inl/",
+          "publishingDate": "2025-03-09T01:25:04+00:00",
+          "commentBody": "Yes, I just read about the prom labels issue, but it wasn't much help. I already raised a case in Salesforce in case they have any other documentation. I got this error and solved it.  You just need to look a bit harder.  The help article will contain all the help you need. This, done it yesterday.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_genezz8h",
+          "author": "Cautious-Guest7317",
+          "authorProfile": "https://www.reddit.com/user/Cautious-Guest7317",
+          "commentId": "t1_mgs3rl5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j6uwy6/agentforce_for_service_superbadge_unit_chanllenge/mgs3rl5/",
+          "publishingDate": "2025-03-09T01:26:35+00:00",
+          "commentBody": "I got this error and solved it.  You just need to look a bit harder.  The help article will contain all the help you need. This, done it yesterday.",
+          "upvotes": 7,
+          "dislikes": 7,
+          "downvotes": 8
+        },
+        {
+          "authorId": "t2_8x826d39",
+          "author": "DraftPuzzleheaded100",
+          "authorProfile": "https://www.reddit.com/user/DraftPuzzleheaded100",
+          "commentId": "t1_mgt2bjq",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j6uwy6/agentforce_for_service_superbadge_unit_chanllenge/mgt2bjq/",
+          "publishingDate": "2025-03-09T05:13:31+00:00",
+          "commentBody": "This, done it yesterday.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_3sdpb",
+      "author": "benji1304",
+      "authorProfile": "https://www.reddit.com/user/benji1304",
+      "commentId": "t1_mgx8ng1",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j6uwy6/agentforce_for_service_superbadge_unit_chanllenge/mgx8ng1/",
+      "publishingDate": "2025-03-09T21:58:49+00:00",
+      "commentBody": "I had a similar issue - it's a step you're missing in the config of your prompt / topic. I cannot remember exactly where (and shouldn't feed you the answer) but i had this same error and I had missed part of the config",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_9udwgjgq",
+      "author": "Southern-Egg-3437",
+      "authorProfile": "https://www.reddit.com/user/Southern-Egg-3437",
+      "commentId": "t1_mgx3a22",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j6uwy6/agentforce_for_service_superbadge_unit_chanllenge/mgx3a22/",
+      "publishingDate": "2025-03-09T21:30:30+00:00",
+      "commentBody": "I got this superbadge recently, unfortunately you’ll just have to figure it out until you’ve gotten it right.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_p1qbc8ugd",
+      "author": "Sufficient-Bet4653",
+      "authorProfile": "https://www.reddit.com/user/Sufficient-Bet4653",
+      "commentId": "t1_n33d64i",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j6uwy6/agentforce_for_service_superbadge_unit_chanllenge/n33d64i/",
+      "publishingDate": "2025-07-14T15:40:54+00:00",
+      "commentBody": "Were you able to resolve it? I've been stuck on the same issue for two days",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    }
+  ]
+}

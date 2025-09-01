@@ -1,0 +1,354 @@
+{
+  "info": {
+    "authorId": "t2_mrxjio2",
+    "author": "lingeoangi",
+    "authorProfile": "https://www.reddit.com/user/lingeoangi",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1gfdmbd",
+    "postLabel": null,
+    "publishingDate": "2024-10-30T03:35:06+00:00",
+    "postTitle": "Agentforce",
+    "postMessage": "Hello, Im quite new to this industry. Can someone help me understand the difference of agentforce and copilot? I read somewhere that they are the same, but other sources they are not? I'm quite confused. Thanks!",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/",
+    "commentCount": 30,
+    "upvoteCount": 3,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_ypnii",
+      "author": "calmglass",
+      "authorProfile": "https://www.reddit.com/user/calmglass",
+      "commentId": "t1_lugwgja",
+      "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lugwgja/",
+      "publishingDate": "2024-10-30T03:48:34+00:00",
+      "commentBody": "I believe you have to use the force to copilot into the death star, but I could be wrong. This is more informative than the marketing material released on AgentForce",
+      "upvotes": 34,
+      "dislikes": 34,
+      "downvotes": 35,
+      "replies": [
+        {
+          "authorId": "t2_83qmg4oh",
+          "author": "Sea_Mouse655",
+          "authorProfile": "https://www.reddit.com/user/Sea_Mouse655",
+          "commentId": "t1_lujvrml",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lujvrml/",
+          "publishingDate": "2024-10-30T17:11:56+00:00",
+          "commentBody": "This is more informative than the marketing material released on AgentForce",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        }
+      ]
+    },
+    {
+      "authorId": "t2_xl4e3",
+      "author": "sf_d",
+      "authorProfile": "https://www.reddit.com/user/sf_d",
+      "commentId": "t1_lugwlc7",
+      "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lugwlc7/",
+      "publishingDate": "2024-10-30T03:49:34+00:00",
+      "commentBody": "Einstein Copilot introduced many years ago was Salesforce's initial foray into AI-powered assistants. It was designed to assist users by providing insights and automating simple tasks, but it primarily operated as a co-pilot, requiring human input. Few months ago Einstein Copilot platform has been rebranded as Agentforce but also brings some new and significant enhancements . Agentforce is now positioned as an autonomous agent capable of executing complex tasks  without human intervention. For example Agnetforce can make reservations based on availability of a class just by asking plane English questions. It leverages the Atlas Reasoning Engine to analyze data, reason through scenarios, and make decisions in real-time. It sounds great, until you do the Trailhead for the free t-shirt.  Way less powerful than they advertise. As always with anything Salesforce. Over promises, under deliver it. Yeah honestly I'm feeling it that it's a mere buzz I am just counting the days down when it will die along with other products that came in or might rebrand to something else in few days. lol but salesforce still needs AI like it has its crm and all . but Agentforce branding is just stupid unless they are making automated people calling you in a robotic tone as they showed in keynote Tech industry in a nutshell It's overhyped overblown garbage. You'd be better off getting Claude or openAI to write you apex or scripts than counting on agentforce working well lmao. No i would never ask my agentforce to build a freaking apex class because its gonna suck hard . But for the purpose its built. ITs terrible to say the least A free t-shirt for a trailhead? Tell me more please:) How do I get one? https://trailhead.salesforce.com/content/learn/projects/quick-start-build-your-first-agent-with-agentforce Based on the companies I've worked for I have doubts any \"agent led\" approach would even work. 80% of the fields are useless data points and only half of the remaining 20% are even filled out in any meaningful way. Maybe these visions of agent force will work with completely clean SF instances. I would bet my medium sized company would have 1-2 years worth of just clean-up work to do before being ready to introduce (accurate) AI on top. Copilot was literally introduced 1 year ago. The space is moving fast. https://www.salesforce.com/news/press-releases/2023/09/12/ai-einstein-news-dreamforce/ It’s not a rebrand if the tech is significantly different and it is. They retired copilot because Agentforce is better. It's more than just a rebrand, I think. airkit.ai from the Dec'23 acquisition is almost certainly built in here and needed to upgrade from copilot to agent",
+      "upvotes": 10,
+      "dislikes": 10,
+      "downvotes": 11,
+      "replies": [
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_luh4wn4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/luh4wn4/",
+          "publishingDate": "2024-10-30T04:58:14+00:00",
+          "commentBody": "It sounds great, until you do the Trailhead for the free t-shirt.  Way less powerful than they advertise. As always with anything Salesforce. Over promises, under deliver it. Yeah honestly I'm feeling it that it's a mere buzz I am just counting the days down when it will die along with other products that came in or might rebrand to something else in few days. lol but salesforce still needs AI like it has its crm and all . but Agentforce branding is just stupid unless they are making automated people calling you in a robotic tone as they showed in keynote Tech industry in a nutshell It's overhyped overblown garbage. You'd be better off getting Claude or openAI to write you apex or scripts than counting on agentforce working well lmao. No i would never ask my agentforce to build a freaking apex class because its gonna suck hard . But for the purpose its built. ITs terrible to say the least A free t-shirt for a trailhead? Tell me more please:) How do I get one? https://trailhead.salesforce.com/content/learn/projects/quick-start-build-your-first-agent-with-agentforce Based on the companies I've worked for I have doubts any \"agent led\" approach would even work. 80% of the fields are useless data points and only half of the remaining 20% are even filled out in any meaningful way. Maybe these visions of agent force will work with completely clean SF instances. I would bet my medium sized company would have 1-2 years worth of just clean-up work to do before being ready to introduce (accurate) AI on top.",
+          "upvotes": 10,
+          "dislikes": 10,
+          "downvotes": 11
+        },
+        {
+          "authorId": "t2_16tjozu8",
+          "author": "akacarioca",
+          "authorProfile": "https://www.reddit.com/user/akacarioca",
+          "commentId": "t1_lum0u5e",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lum0u5e/",
+          "publishingDate": "2024-10-30T23:41:32+00:00",
+          "commentBody": "As always with anything Salesforce. Over promises, under deliver it.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_8e3cygdm",
+          "author": "RepresentativeFew219",
+          "authorProfile": "https://www.reddit.com/user/RepresentativeFew219",
+          "commentId": "t1_luh6tg5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/luh6tg5/",
+          "publishingDate": "2024-10-30T05:16:02+00:00",
+          "commentBody": "Yeah honestly I'm feeling it that it's a mere buzz I am just counting the days down when it will die along with other products that came in or might rebrand to something else in few days. lol but salesforce still needs AI like it has its crm and all . but Agentforce branding is just stupid unless they are making automated people calling you in a robotic tone as they showed in keynote Tech industry in a nutshell It's overhyped overblown garbage. You'd be better off getting Claude or openAI to write you apex or scripts than counting on agentforce working well lmao. No i would never ask my agentforce to build a freaking apex class because its gonna suck hard . But for the purpose its built. ITs terrible to say the least",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_14yhb0",
+          "author": "BeingHuman30",
+          "authorProfile": "https://www.reddit.com/user/BeingHuman30",
+          "commentId": "t1_luhg4h5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/luhg4h5/",
+          "publishingDate": "2024-10-30T06:54:06+00:00",
+          "commentBody": "I am just counting the days down when it will die along with other products that came in or might rebrand to something else in few days. lol but salesforce still needs AI like it has its crm and all . but Agentforce branding is just stupid unless they are making automated people calling you in a robotic tone as they showed in keynote",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_8e3cygdm",
+          "author": "RepresentativeFew219",
+          "authorProfile": "https://www.reddit.com/user/RepresentativeFew219",
+          "commentId": "t1_luhgn1h",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/luhgn1h/",
+          "publishingDate": "2024-10-30T06:59:52+00:00",
+          "commentBody": "lol but salesforce still needs AI like it has its crm and all . but Agentforce branding is just stupid unless they are making automated people calling you in a robotic tone as they showed in keynote",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_4d2fz",
+          "author": "thedeathmachine",
+          "authorProfile": "https://www.reddit.com/user/thedeathmachine",
+          "commentId": "t1_luiw9kn",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/luiw9kn/",
+          "publishingDate": "2024-10-30T14:13:17+00:00",
+          "commentBody": "Tech industry in a nutshell",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_bf7s4uvr",
+          "author": "timetogetjuiced",
+          "authorProfile": "https://www.reddit.com/user/timetogetjuiced",
+          "commentId": "t1_lui6423",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lui6423/",
+          "publishingDate": "2024-10-30T11:28:06+00:00",
+          "commentBody": "It's overhyped overblown garbage. You'd be better off getting Claude or openAI to write you apex or scripts than counting on agentforce working well lmao. No i would never ask my agentforce to build a freaking apex class because its gonna suck hard . But for the purpose its built. ITs terrible to say the least",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_8e3cygdm",
+          "author": "RepresentativeFew219",
+          "authorProfile": "https://www.reddit.com/user/RepresentativeFew219",
+          "commentId": "t1_lui6e7l",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lui6e7l/",
+          "publishingDate": "2024-10-30T11:30:22+00:00",
+          "commentBody": "No i would never ask my agentforce to build a freaking apex class because its gonna suck hard . But for the purpose its built. ITs terrible to say the least",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_a1muvuq5",
+          "author": "Wornoutslipper",
+          "authorProfile": "https://www.reddit.com/user/Wornoutslipper",
+          "commentId": "t1_lulls9l",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lulls9l/",
+          "publishingDate": "2024-10-30T22:17:54+00:00",
+          "commentBody": "A free t-shirt for a trailhead? Tell me more please:) How do I get one? https://trailhead.salesforce.com/content/learn/projects/quick-start-build-your-first-agent-with-agentforce",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_lumib62",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lumib62/",
+          "publishingDate": "2024-10-31T01:19:23+00:00",
+          "commentBody": "https://trailhead.salesforce.com/content/learn/projects/quick-start-build-your-first-agent-with-agentforce",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_bxxgq",
+          "author": "sfhester",
+          "authorProfile": "https://www.reddit.com/user/sfhester",
+          "commentId": "t1_lvi7l9n",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lvi7l9n/",
+          "publishingDate": "2024-11-05T11:24:11+00:00",
+          "commentBody": "Based on the companies I've worked for I have doubts any \"agent led\" approach would even work. 80% of the fields are useless data points and only half of the remaining 20% are even filled out in any meaningful way. Maybe these visions of agent force will work with completely clean SF instances. I would bet my medium sized company would have 1-2 years worth of just clean-up work to do before being ready to introduce (accurate) AI on top.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_uw61dro9",
+          "author": "scottjones608",
+          "authorProfile": "https://www.reddit.com/user/scottjones608",
+          "commentId": "t1_luiggdz",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/luiggdz/",
+          "publishingDate": "2024-10-30T12:42:33+00:00",
+          "commentBody": "Copilot was literally introduced 1 year ago. The space is moving fast. https://www.salesforce.com/news/press-releases/2023/09/12/ai-einstein-news-dreamforce/",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_5f1phymx",
+          "author": "urmomisfun",
+          "authorProfile": "https://www.reddit.com/user/urmomisfun",
+          "commentId": "t1_lumjkmc",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lumjkmc/",
+          "publishingDate": "2024-10-31T01:26:38+00:00",
+          "commentBody": "It’s not a rebrand if the tech is significantly different and it is. They retired copilot because Agentforce is better.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_a22z18p3",
+          "author": "Strong-Mirror5456",
+          "authorProfile": "https://www.reddit.com/user/Strong-Mirror5456",
+          "commentId": "t1_ly8rn4i",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/ly8rn4i/",
+          "publishingDate": "2024-11-21T12:43:53+00:00",
+          "commentBody": "It's more than just a rebrand, I think. airkit.ai from the Dec'23 acquisition is almost certainly built in here and needed to upgrade from copilot to agent",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_ia6ip3yx",
+      "author": "Its_Pelican_Time",
+      "authorProfile": "https://www.reddit.com/user/Its_Pelican_Time",
+      "commentId": "t1_lui5qnh",
+      "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lui5qnh/",
+      "publishingDate": "2024-10-30T11:25:05+00:00",
+      "commentBody": "Others have already explained it but since you said you're new to Salesforce, just get used to products and features being renamed or replaced with something very similar pretty often. Its so they can re-sell existing products it’s free for existing customer base",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6,
+      "replies": [
+        {
+          "authorId": "t2_4d2fz",
+          "author": "thedeathmachine",
+          "authorProfile": "https://www.reddit.com/user/thedeathmachine",
+          "commentId": "t1_luiy28h",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/luiy28h/",
+          "publishingDate": "2024-10-30T14:22:44+00:00",
+          "commentBody": "Its so they can re-sell existing products it’s free for existing customer base",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": "t2_4hlzj81q",
+          "author": "SquareConscious3325",
+          "authorProfile": "https://www.reddit.com/user/SquareConscious3325",
+          "commentId": "t1_lunl8aj",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lunl8aj/",
+          "publishingDate": "2024-10-31T05:50:00+00:00",
+          "commentBody": "it’s free for existing customer base",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_3d62ckf9",
+      "author": "dyx03",
+      "authorProfile": "https://www.reddit.com/user/dyx03",
+      "commentId": "t1_luklecn",
+      "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/luklecn/",
+      "publishingDate": "2024-10-30T19:17:08+00:00",
+      "commentBody": "Copilot has been released in April. Agentforce has been released like right now. Both work the same on a technical level. Copilot is used by the internal salesforce users and you can have only a single one of it. It is set up automatically when you enable Agentforce. Salesforce now prefer to call it Assistant. Agentforce is an upgrade of Copilot, it can do way more than it could before. You can also have more than one Agent and you usually expose them via enhanced digital channels, meaning it only works with Messaging for In-App and Web / Digital Engagement. Copilot is included in the Einstein for [...] licenses, which are priced per user and includes various other AI stuff. Agentforce is extra and charged per conversation. It requires one license of Einstein and one of Digital Engagement if you're on EE, or only the former if you're on UE. Because it requires your org to be able to use the MIAW channels. Imho it is a positive example of renaming, although I often wonder if there are dark forces working behind the scenes of tech, or if there is just a single PR company providing naming conventions. I really have no clue how it's possible for all companies to choose the same product names.",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5
+    },
+    {
+      "authorId": "t2_1ebxrh4r",
+      "author": "Sagemel",
+      "authorProfile": "https://www.reddit.com/user/Sagemel",
+      "commentId": "t1_lugwixo",
+      "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lugwixo/",
+      "publishingDate": "2024-10-30T03:49:04+00:00",
+      "commentBody": "AgentForce is their new AI chatbot initiative (customer-facing), Copilot is their conversational AI assistant (user-facing). User facing is now also part of Agentforce. Copilot was completely abandoned as branding due to confusion between what Salesforce was building as capabilities vs what Microsoft was building out.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_nqyb4",
+          "author": "johngoose",
+          "authorProfile": "https://www.reddit.com/user/johngoose",
+          "commentId": "t1_luic669",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/luic669/",
+          "publishingDate": "2024-10-30T12:13:41+00:00",
+          "commentBody": "User facing is now also part of Agentforce. Copilot was completely abandoned as branding due to confusion between what Salesforce was building as capabilities vs what Microsoft was building out.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_l7l7hg3t",
+      "author": "Lopaisate",
+      "authorProfile": "https://www.reddit.com/user/Lopaisate",
+      "commentId": "t1_lul1dpa",
+      "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lul1dpa/",
+      "publishingDate": "2024-10-30T20:34:28+00:00",
+      "commentBody": "Einstein for Sales/Service is the predictive AI that was launched several years go. Copilot was only launched last year and has been replaced by agents. It is now agents both interally to staff and externally to customers. The rebrand was to distinguish itswlf from Microsoft's offering. Copilot was largely based on prebuilt prompt templates and could do a lot but was not as flexible as Agentforce. Agentforce is a wholly new platform. It is not a pure re-branding of an already existing singular product. The way it functions is architecturally different from previous solutions and brings together all of the previously released generative AI functionality along with newer functionality such as the Atlas reasoning engine and RAG/vector databasing functionality. I guess in some sense it's sort of a rebranding but the backend is totally different so IMO it's a new and novel product. It really has fundamentLly changed how one works with the platform and it's forcing major architectural changes across Salesforce. I'm confused as to why people say it's vaporware since it largely leverages pre-existing funtionality that have already been established as actually working.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_hop1fuczu",
+      "author": "TurrisFortisMihiDeus",
+      "authorProfile": "https://www.reddit.com/user/TurrisFortisMihiDeus",
+      "commentId": "t1_lui5iiu",
+      "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lui5iiu/",
+      "publishingDate": "2024-10-30T11:23:14+00:00",
+      "commentBody": "One is vaporware - or wrapperware ;)\nOne is the real deal Yea, agentforce is the vaporware. Copilot just partnered with Claude and other LLMs, it's going to far surpass the proprietary crap that salesforce puts out.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_bf7s4uvr",
+          "author": "timetogetjuiced",
+          "authorProfile": "https://www.reddit.com/user/timetogetjuiced",
+          "commentId": "t1_lui6831",
+          "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lui6831/",
+          "publishingDate": "2024-10-30T11:29:00+00:00",
+          "commentBody": "Yea, agentforce is the vaporware. Copilot just partnered with Claude and other LLMs, it's going to far surpass the proprietary crap that salesforce puts out.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1ue2qz45",
+      "author": "Jammie718",
+      "authorProfile": "https://www.reddit.com/user/Jammie718",
+      "commentId": "t1_lukqxxv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1gfdmbd/agentforce/lukqxxv/",
+      "publishingDate": "2024-10-30T19:44:39+00:00",
+      "commentBody": "<image>",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

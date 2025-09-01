@@ -1,0 +1,192 @@
+{
+  "info": {
+    "authorId": "t2_mvx2zz9zf",
+    "author": "FarUnderstanding280",
+    "authorProfile": "https://www.reddit.com/user/FarUnderstanding280",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1id2aoe",
+    "postLabel": null,
+    "publishingDate": "2025-01-29T19:29:47+00:00",
+    "postTitle": "Agentforce and data cloud experience?",
+    "postMessage": "Hi folks, I'm looking to learn about real-world use cases of Agentforce leveraging unstructured knowledge from Data Cloud. From what I’ve gathered, the experience isn’t ideal due to limited connectivity and security challenges—especially when indexing content from external sources beyond Salesforce. Additionally, when dealing with large, complex documents, Data Cloud consumption costs can become exorbitant. I’d love to hear your insights! How are you navigating these challenges?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/",
+    "commentCount": 14,
+    "upvoteCount": 10,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_8nwmijmtd",
+      "author": "Much-Macaroon3953",
+      "authorProfile": "https://www.reddit.com/user/Much-Macaroon3953",
+      "commentId": "t1_mae36gf",
+      "link": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/mae36gf/",
+      "publishingDate": "2025-02-01T15:50:02+00:00",
+      "commentBody": "It would be amazing if SF (or someone here) had a calculator/app to use to get ballpark/baseline usage costs for Agentforce. Example: \n(Prompt text (with rag data added) + Response text) * Frequency used/called per day = Monthly Einstein Requests needed Any data cloud consumption added here as well. Id love to get this clarity!",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_mvx2zz9zf",
+          "author": "FarUnderstanding280",
+          "authorProfile": "https://www.reddit.com/user/FarUnderstanding280",
+          "commentId": "t1_mbcta55",
+          "link": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/mbcta55/",
+          "publishingDate": "2025-02-06T20:28:07+00:00",
+          "commentBody": "Id love to get this clarity!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_t46gzi5e",
+      "author": "AlternativeOk7972",
+      "authorProfile": "https://www.reddit.com/user/AlternativeOk7972",
+      "commentId": "t1_mi346i4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/mi346i4/",
+      "publishingDate": "2025-03-16T13:46:45+00:00",
+      "commentBody": "From experience, how cluggy is connecting to / from external data sources? Does the Data Cloud marketing live up to hype? The solution being a data aggregator, moving data effectively to one data lake, to leverage all the SalesForce tooling seems like the big benefit but if you can’t move data from the cloud or your on-premises server applications, then it seems pointless.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_ggpsj",
+      "author": "gagaluf",
+      "authorProfile": "https://www.reddit.com/user/gagaluf",
+      "commentId": "t1_m9vs6q0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/m9vs6q0/",
+      "publishingDate": "2025-01-29T20:09:37+00:00",
+      "commentBody": "Don't mix them. Those are not designed for the same use cases. Agent force power is connecting integration with prompt based logic. Imho don't bother training agent force model through data cloud. If you want to make logical connection with stuffs, maybe start from custom metadatas and insert them in your plugged logic components for agent force. If you really want to leverage data cloud, produce aggregates instead, sinc them with your org(s) as sobject records. A part of how agentforce works is performing sosl queries on your org to contextualize messages, I'm pretty sure you can help agent force with well engineered aggregate sobject and it is how I would start exploring if I really had to connect those 2 bricks. Datacloud > aggregate object on data cloud > sobject on org > prompt reads and leverage sobject somehow To clarify some of these points made since the above comment seems wildly incorrect: 1) data cloud is REQUIRED for agentforce, you need the data cloud SKU. You can’t use an agent without having data cloud in your org. It doesn’t have to be implemented, but it has to be enabled 2) agentforce doesn’t use SOSL queries. You query for records based on flows, prompts or apex tied to actions. Agents then send this info (trust layer removes org data and replaces with placeholders) along with the prompt to an LLM to craft a contextualized response. This is exactly why Salesforce is big on saying don't DIY your AI, and that LLM models are already a commodity. It doesn't matter if you're using Anthropic, OpenAI, or even Deepseek. They are really just a communication layer to make the interaction with your customers easier through natural language. There are some use cases that can leverage the reasoning capabilities of LLMs, but they don't need to be solving world hunger to have great business impact. It's my understanding that you do not need Data Cloud for Agentforce, but you will only be able to use object data in Salesforce as the data source. I'm almost certain that's what they said at the workshop I attended. The workshop came with an Agentforce playground and was hoping to play around with some RAG functionality, but it did not come with Data Cloud. You need data cloud enabled. I can promise you. Data cloud is used to store (at the bare minimum) agent analytics. That is why it’s required. You need the sku Agentforce requires Einstein gen ai. In order to enable gen AI, you need data cloud enabled. Here’s the documentation that explicitly states it https://help.salesforce.com/s/articleView?id=ai.generative_ai_enable.htm&type=5 Before turning on Einstein generative AI features, make sure Data Cloud is provisioned and enabled in your org. Data Cloud is required for essential Einstein Generative AI functionality, such as the Trust Layer Okay, so the real answer is that there's a zero dollar SKU for Data Cloud available to enterprise customers, and that is required for Data Cloud, but by no means are you required to consume and Data Cloud credits. I think when most people ask if you need Data Cloud enabled, their concern is primarily cost. So, I feel like this is a distinction that doesn't really matter for most companies considering Agentforce. rofl :) ty for the clarification. I'm pretty sure it was doing some sosl to gather org context and that it wasn't tied to data cloud. However it is how I would use agent force. Its only value is being a glue between integrations and natural language, another way to make your org work for you. I reread your message, imho you don't really understand what I wrote and also I'm still pretty sure that agent force does sosl in the background. I toyed with agent force myself, we got an extensive mvp demo on the 2 products in my company, I don't know how it is sold but I know the scopes very well and I would be to easily work on both(still less confident about data cloud itself, it's wonky). I don't think you understand how it works. You're not training Agentforce with your data at all. I was wrong on the fact that they are not coupled (they are because they are sold together wich is btw a scam) and maybe some minor technicalities about how agentforce performs introspection. However I'm pretty sure my idea for approaching the issue is reasonnable and may very well work as is. Which btw is not at all about \"training\" agent force, it is about exposing use cases on agentforce with large datasets passing though data cloud ... It's a complicated topic, we are speaking about new products that are marketed horribly and with specs that are often shallow even for mvps. Maybe at least reading what people type could help wtf. Unstructured data with semantic search is done through Data Cloud. Inputs from SObjects are not pulled via Data Cloud, they come directly from Salesforce core platform (using a retriever via APEX or Flow). So you don't need to aggregate them in another object, it's done in real-time on execution. It's well documented. You just have to go read and understand it. It's difficult for legacy Salesforce users because they assume it's all the same as the core platform, which it isn't. Can you refer me to the resources where you learned this? Not questioning, just want to learn!",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_m9vxwzx",
+          "link": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/m9vxwzx/",
+          "publishingDate": "2025-01-29T20:35:43+00:00",
+          "commentBody": "To clarify some of these points made since the above comment seems wildly incorrect: 1) data cloud is REQUIRED for agentforce, you need the data cloud SKU. You can’t use an agent without having data cloud in your org. It doesn’t have to be implemented, but it has to be enabled 2) agentforce doesn’t use SOSL queries. You query for records based on flows, prompts or apex tied to actions. Agents then send this info (trust layer removes org data and replaces with placeholders) along with the prompt to an LLM to craft a contextualized response. This is exactly why Salesforce is big on saying don't DIY your AI, and that LLM models are already a commodity. It doesn't matter if you're using Anthropic, OpenAI, or even Deepseek. They are really just a communication layer to make the interaction with your customers easier through natural language. There are some use cases that can leverage the reasoning capabilities of LLMs, but they don't need to be solving world hunger to have great business impact. It's my understanding that you do not need Data Cloud for Agentforce, but you will only be able to use object data in Salesforce as the data source. I'm almost certain that's what they said at the workshop I attended. The workshop came with an Agentforce playground and was hoping to play around with some RAG functionality, but it did not come with Data Cloud. You need data cloud enabled. I can promise you. Data cloud is used to store (at the bare minimum) agent analytics. That is why it’s required. You need the sku Agentforce requires Einstein gen ai. In order to enable gen AI, you need data cloud enabled. Here’s the documentation that explicitly states it https://help.salesforce.com/s/articleView?id=ai.generative_ai_enable.htm&type=5 Before turning on Einstein generative AI features, make sure Data Cloud is provisioned and enabled in your org. Data Cloud is required for essential Einstein Generative AI functionality, such as the Trust Layer Okay, so the real answer is that there's a zero dollar SKU for Data Cloud available to enterprise customers, and that is required for Data Cloud, but by no means are you required to consume and Data Cloud credits. I think when most people ask if you need Data Cloud enabled, their concern is primarily cost. So, I feel like this is a distinction that doesn't really matter for most companies considering Agentforce. rofl :) ty for the clarification. I'm pretty sure it was doing some sosl to gather org context and that it wasn't tied to data cloud. However it is how I would use agent force. Its only value is being a glue between integrations and natural language, another way to make your org work for you. I reread your message, imho you don't really understand what I wrote and also I'm still pretty sure that agent force does sosl in the background. I toyed with agent force myself, we got an extensive mvp demo on the 2 products in my company, I don't know how it is sold but I know the scopes very well and I would be to easily work on both(still less confident about data cloud itself, it's wonky).",
+          "upvotes": 16,
+          "dislikes": 16,
+          "downvotes": 17
+        },
+        {
+          "authorId": "t2_wbr8c",
+          "author": "big-blue-balls",
+          "authorProfile": "https://www.reddit.com/user/big-blue-balls",
+          "commentId": "t1_m9ypg71",
+          "link": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/m9ypg71/",
+          "publishingDate": "2025-01-30T05:25:40+00:00",
+          "commentBody": "This is exactly why Salesforce is big on saying don't DIY your AI, and that LLM models are already a commodity. It doesn't matter if you're using Anthropic, OpenAI, or even Deepseek. They are really just a communication layer to make the interaction with your customers easier through natural language. There are some use cases that can leverage the reasoning capabilities of LLMs, but they don't need to be solving world hunger to have great business impact.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_6y17z",
+          "author": "cheffromspace",
+          "authorProfile": "https://www.reddit.com/user/cheffromspace",
+          "commentId": "t1_ma3kkyi",
+          "link": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/ma3kkyi/",
+          "publishingDate": "2025-01-30T23:06:54+00:00",
+          "commentBody": "It's my understanding that you do not need Data Cloud for Agentforce, but you will only be able to use object data in Salesforce as the data source. I'm almost certain that's what they said at the workshop I attended. The workshop came with an Agentforce playground and was hoping to play around with some RAG functionality, but it did not come with Data Cloud. You need data cloud enabled. I can promise you. Data cloud is used to store (at the bare minimum) agent analytics. That is why it’s required. You need the sku Agentforce requires Einstein gen ai. In order to enable gen AI, you need data cloud enabled. Here’s the documentation that explicitly states it https://help.salesforce.com/s/articleView?id=ai.generative_ai_enable.htm&type=5 Before turning on Einstein generative AI features, make sure Data Cloud is provisioned and enabled in your org. Data Cloud is required for essential Einstein Generative AI functionality, such as the Trust Layer Okay, so the real answer is that there's a zero dollar SKU for Data Cloud available to enterprise customers, and that is required for Data Cloud, but by no means are you required to consume and Data Cloud credits. I think when most people ask if you need Data Cloud enabled, their concern is primarily cost. So, I feel like this is a distinction that doesn't really matter for most companies considering Agentforce.",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        },
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_ma3l2jz",
+          "link": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/ma3l2jz/",
+          "publishingDate": "2025-01-30T23:09:24+00:00",
+          "commentBody": "You need data cloud enabled. I can promise you. Data cloud is used to store (at the bare minimum) agent analytics. That is why it’s required. You need the sku Agentforce requires Einstein gen ai. In order to enable gen AI, you need data cloud enabled. Here’s the documentation that explicitly states it https://help.salesforce.com/s/articleView?id=ai.generative_ai_enable.htm&type=5 Before turning on Einstein generative AI features, make sure Data Cloud is provisioned and enabled in your org. Data Cloud is required for essential Einstein Generative AI functionality, such as the Trust Layer Okay, so the real answer is that there's a zero dollar SKU for Data Cloud available to enterprise customers, and that is required for Data Cloud, but by no means are you required to consume and Data Cloud credits. I think when most people ask if you need Data Cloud enabled, their concern is primarily cost. So, I feel like this is a distinction that doesn't really matter for most companies considering Agentforce.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_6y17z",
+          "author": "cheffromspace",
+          "authorProfile": "https://www.reddit.com/user/cheffromspace",
+          "commentId": "t1_ma6yts6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/ma6yts6/",
+          "publishingDate": "2025-01-31T13:43:37+00:00",
+          "commentBody": "Okay, so the real answer is that there's a zero dollar SKU for Data Cloud available to enterprise customers, and that is required for Data Cloud, but by no means are you required to consume and Data Cloud credits. I think when most people ask if you need Data Cloud enabled, their concern is primarily cost. So, I feel like this is a distinction that doesn't really matter for most companies considering Agentforce.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_ggpsj",
+          "author": "gagaluf",
+          "authorProfile": "https://www.reddit.com/user/gagaluf",
+          "commentId": "t1_m9zl8qm",
+          "link": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/m9zl8qm/",
+          "publishingDate": "2025-01-30T10:27:03+00:00",
+          "commentBody": "rofl :) ty for the clarification. I'm pretty sure it was doing some sosl to gather org context and that it wasn't tied to data cloud. However it is how I would use agent force. Its only value is being a glue between integrations and natural language, another way to make your org work for you. I reread your message, imho you don't really understand what I wrote and also I'm still pretty sure that agent force does sosl in the background. I toyed with agent force myself, we got an extensive mvp demo on the 2 products in my company, I don't know how it is sold but I know the scopes very well and I would be to easily work on both(still less confident about data cloud itself, it's wonky).",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": "t2_wbr8c",
+          "author": "big-blue-balls",
+          "authorProfile": "https://www.reddit.com/user/big-blue-balls",
+          "commentId": "t1_m9yp0av",
+          "link": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/m9yp0av/",
+          "publishingDate": "2025-01-30T05:22:22+00:00",
+          "commentBody": "I don't think you understand how it works. You're not training Agentforce with your data at all. I was wrong on the fact that they are not coupled (they are because they are sold together wich is btw a scam) and maybe some minor technicalities about how agentforce performs introspection. However I'm pretty sure my idea for approaching the issue is reasonnable and may very well work as is. Which btw is not at all about \"training\" agent force, it is about exposing use cases on agentforce with large datasets passing though data cloud ... It's a complicated topic, we are speaking about new products that are marketed horribly and with specs that are often shallow even for mvps. Maybe at least reading what people type could help wtf. Unstructured data with semantic search is done through Data Cloud. Inputs from SObjects are not pulled via Data Cloud, they come directly from Salesforce core platform (using a retriever via APEX or Flow). So you don't need to aggregate them in another object, it's done in real-time on execution. It's well documented. You just have to go read and understand it. It's difficult for legacy Salesforce users because they assume it's all the same as the core platform, which it isn't. Can you refer me to the resources where you learned this? Not questioning, just want to learn!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_ggpsj",
+          "author": "gagaluf",
+          "authorProfile": "https://www.reddit.com/user/gagaluf",
+          "commentId": "t1_m9zngc2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/m9zngc2/",
+          "publishingDate": "2025-01-30T10:49:01+00:00",
+          "commentBody": "I was wrong on the fact that they are not coupled (they are because they are sold together wich is btw a scam) and maybe some minor technicalities about how agentforce performs introspection. However I'm pretty sure my idea for approaching the issue is reasonnable and may very well work as is. Which btw is not at all about \"training\" agent force, it is about exposing use cases on agentforce with large datasets passing though data cloud ... It's a complicated topic, we are speaking about new products that are marketed horribly and with specs that are often shallow even for mvps. Maybe at least reading what people type could help wtf. Unstructured data with semantic search is done through Data Cloud. Inputs from SObjects are not pulled via Data Cloud, they come directly from Salesforce core platform (using a retriever via APEX or Flow). So you don't need to aggregate them in another object, it's done in real-time on execution. It's well documented. You just have to go read and understand it. It's difficult for legacy Salesforce users because they assume it's all the same as the core platform, which it isn't. Can you refer me to the resources where you learned this? Not questioning, just want to learn!",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": "t2_wbr8c",
+          "author": "big-blue-balls",
+          "authorProfile": "https://www.reddit.com/user/big-blue-balls",
+          "commentId": "t1_m9zprsn",
+          "link": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/m9zprsn/",
+          "publishingDate": "2025-01-30T11:11:10+00:00",
+          "commentBody": "Unstructured data with semantic search is done through Data Cloud. Inputs from SObjects are not pulled via Data Cloud, they come directly from Salesforce core platform (using a retriever via APEX or Flow). So you don't need to aggregate them in another object, it's done in real-time on execution. It's well documented. You just have to go read and understand it. It's difficult for legacy Salesforce users because they assume it's all the same as the core platform, which it isn't. Can you refer me to the resources where you learned this? Not questioning, just want to learn!",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_14hq3e2mh7",
+          "author": "MaintenanceStatus329",
+          "authorProfile": "https://www.reddit.com/user/MaintenanceStatus329",
+          "commentId": "t1_ma01wid",
+          "link": "https://www.reddit.com/r/salesforce/comments/1id2aoe/agentforce_and_data_cloud_experience/ma01wid/",
+          "publishingDate": "2025-01-30T12:48:25+00:00",
+          "commentBody": "Can you refer me to the resources where you learned this? Not questioning, just want to learn!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "info": {
+    "authorId": "t2_78367t02",
+    "author": "Saveuspetey",
+    "authorProfile": "https://www.reddit.com/user/Saveuspetey",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1kzobyc",
+    "postLabel": null,
+    "publishingDate": "2025-05-31T04:20:24+00:00",
+    "postTitle": "Agentforce Batch Jobs",
+    "postMessage": "Hi all. Wondering if it would be possible to do batch jobs with Agentforce. Use case would be if we wanted to pull that days new cases in Salesforce service cloud, have an agent go over them, run prompts to evaluate their \"quality\" and mark them, and output the result into a field and move onto the next case. I know this could be invoked one at a time with assist (I think?) but - I haven't seen a clearcut way to utilize agentforce to run through bulk jobs. Does anyone have experience or insights into that?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1kzobyc/agentforce_batch_jobs/",
+    "commentCount": 8,
+    "upvoteCount": 4,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_67lh6",
+      "author": "oxeneers",
+      "authorProfile": "https://www.reddit.com/user/oxeneers",
+      "commentId": "t1_mv6zw75",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kzobyc/agentforce_batch_jobs/mv6zw75/",
+      "publishingDate": "2025-05-31T04:30:51+00:00",
+      "commentBody": "Prompt Builder to develop a prompt that calls a flow. EZ. Just did this exact thing for a customer for lead analysis. Prompt called from flow on lead create to determine if lead is a valid lead or just a vendor attempting to solicit business. Took about 10 mins to set up and works like a charm. Do you have more guidance or steps outlined to build this out? Create a flex template in prompt builder Add instructions to whatever you want it to do (in my case, worked with customer to define what a valid vs “invalid” lead looked like based on the fields. Also added instructions to output response in json formatting (I used 1 node for a true/false flag and another node for the LLM reasoning) Test with whatever LLM model you want Activate and embed into flow. Parse JSON out in flow (I used apex action since flow doesn’t handle json well), and updated 2 fields on leads (one for the true false to flag the record for reporting / review, the other to output the reasoning from the llm so users can read it and tweak instructions as necessary) Prompt templates have a TON of use outside just using agentforce for everything. Tons of opportunity to utilize within existing automations to make things smoother, especially when it comes to analyzing multiple data points on records for things like scoring",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6,
+      "replies": [
+        {
+          "authorId": "t2_cq4mbxh6",
+          "author": "Suspicious-Nerve-487",
+          "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+          "commentId": "t1_mv8tlkv",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kzobyc/agentforce_batch_jobs/mv8tlkv/",
+          "publishingDate": "2025-05-31T13:50:56+00:00",
+          "commentBody": "Just did this exact thing for a customer for lead analysis. Prompt called from flow on lead create to determine if lead is a valid lead or just a vendor attempting to solicit business. Took about 10 mins to set up and works like a charm. Do you have more guidance or steps outlined to build this out? Create a flex template in prompt builder Add instructions to whatever you want it to do (in my case, worked with customer to define what a valid vs “invalid” lead looked like based on the fields. Also added instructions to output response in json formatting (I used 1 node for a true/false flag and another node for the LLM reasoning) Test with whatever LLM model you want Activate and embed into flow. Parse JSON out in flow (I used apex action since flow doesn’t handle json well), and updated 2 fields on leads (one for the true false to flag the record for reporting / review, the other to output the reasoning from the llm so users can read it and tweak instructions as necessary) Prompt templates have a TON of use outside just using agentforce for everything. Tons of opportunity to utilize within existing automations to make things smoother, especially when it comes to analyzing multiple data points on records for things like scoring",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_14hq3e2mh7",
+          "author": "MaintenanceStatus329",
+          "authorProfile": "https://www.reddit.com/user/MaintenanceStatus329",
+          "commentId": "t1_mva6lfl",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kzobyc/agentforce_batch_jobs/mva6lfl/",
+          "publishingDate": "2025-05-31T18:08:15+00:00",
+          "commentBody": "Do you have more guidance or steps outlined to build this out? Create a flex template in prompt builder Add instructions to whatever you want it to do (in my case, worked with customer to define what a valid vs “invalid” lead looked like based on the fields. Also added instructions to output response in json formatting (I used 1 node for a true/false flag and another node for the LLM reasoning) Test with whatever LLM model you want Activate and embed into flow. Parse JSON out in flow (I used apex action since flow doesn’t handle json well), and updated 2 fields on leads (one for the true false to flag the record for reporting / review, the other to output the reasoning from the llm so users can read it and tweak instructions as necessary) Prompt templates have a TON of use outside just using agentforce for everything. Tons of opportunity to utilize within existing automations to make things smoother, especially when it comes to analyzing multiple data points on records for things like scoring",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_cq4mbxh6",
+          "author": "Suspicious-Nerve-487",
+          "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+          "commentId": "t1_mvac5i6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kzobyc/agentforce_batch_jobs/mvac5i6/",
+          "publishingDate": "2025-05-31T18:37:50+00:00",
+          "commentBody": "Create a flex template in prompt builder Add instructions to whatever you want it to do (in my case, worked with customer to define what a valid vs “invalid” lead looked like based on the fields. Also added instructions to output response in json formatting (I used 1 node for a true/false flag and another node for the LLM reasoning) Test with whatever LLM model you want Activate and embed into flow. Parse JSON out in flow (I used apex action since flow doesn’t handle json well), and updated 2 fields on leads (one for the true false to flag the record for reporting / review, the other to output the reasoning from the llm so users can read it and tweak instructions as necessary) Prompt templates have a TON of use outside just using agentforce for everything. Tons of opportunity to utilize within existing automations to make things smoother, especially when it comes to analyzing multiple data points on records for things like scoring",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_41venihz",
+      "author": "gearcollector",
+      "authorProfile": "https://www.reddit.com/user/gearcollector",
+      "commentId": "t1_mv7e0g0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kzobyc/agentforce_batch_jobs/mv7e0g0/",
+      "publishingDate": "2025-05-31T06:32:12+00:00",
+      "commentBody": "Why do this in batch, instead of immediately when the case is created or modified?",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_3doy5d4",
+      "author": "Reddit_Account__c",
+      "authorProfile": "https://www.reddit.com/user/Reddit_Account__c",
+      "commentId": "t1_mvi4bon",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kzobyc/agentforce_batch_jobs/mvi4bon/",
+      "publishingDate": "2025-06-01T23:47:15+00:00",
+      "commentBody": "Scheduled flow every day looks at cases created that day, and then passes them to a prompt with an output that becomes the score. Incredibly easy to do!",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_8j9cb",
+      "author": "OutlawBlue9",
+      "authorProfile": "https://www.reddit.com/user/OutlawBlue9",
+      "commentId": "t1_mv8awq0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kzobyc/agentforce_batch_jobs/mv8awq0/",
+      "publishingDate": "2025-05-31T11:46:28+00:00",
+      "commentBody": "You can call Prompt Builders in flows by passing them variables and then using the output. As another said, there is no reason this couldn't be performed as a record trigger flow on record create.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": 0
+    },
+    {
+      "authorId": "t2_1hjxtunoai",
+      "author": "GlassCaseOfEmotion53",
+      "authorProfile": "https://www.reddit.com/user/GlassCaseOfEmotion53",
+      "commentId": "t1_mwdf5sk",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kzobyc/agentforce_batch_jobs/mwdf5sk/",
+      "publishingDate": "2025-06-06T19:45:28+00:00",
+      "commentBody": "our team did POC demo of something like this recently with scheduled flow -> Prompt template to update Account records nightly with some summarized data",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

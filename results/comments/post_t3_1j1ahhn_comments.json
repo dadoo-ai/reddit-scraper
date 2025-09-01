@@ -1,0 +1,180 @@
+{
+  "info": {
+    "authorId": "t2_90k0i3hb",
+    "author": "Apart-Tie-9938",
+    "authorProfile": "https://www.reddit.com/user/Apart-Tie-9938",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1j1ahhn",
+    "postLabel": null,
+    "publishingDate": "2025-03-01T21:38:28+00:00",
+    "postTitle": "Can flow launch an Agentforce conversation?",
+    "postMessage": "For example suppose a record updates and needs a user’s attention. What is the correct way to launch a conversation with the user? I’m trying to understand how an autonomous agent would monitor my data and then launch prompts or interact with users when it decides it needs to.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1j1ahhn/can_flow_launch_an_agentforce_conversation/",
+    "commentCount": 14,
+    "upvoteCount": 10,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_rxekume7",
+      "author": "Zxealer",
+      "authorProfile": "https://www.reddit.com/user/Zxealer",
+      "commentId": "t1_mfi9d9q",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j1ahhn/can_flow_launch_an_agentforce_conversation/mfi9d9q/",
+      "publishingDate": "2025-03-01T22:27:02+00:00",
+      "commentBody": "Example: if opportunity is saved and amount is greater than amount you set, then auto launch flow to invoke an agent to offer help to employee. You'll likely see this at TDX next week :). There are numerous agent flows that can be invoked and also through API as well. Oh great! Yeah it doesn’t really feel autonomous until we can set up the monitoring to actually trigger agent actions outside of direct user input. Looking forward to TDX! You can also apply similar logic to slack, agents can listen in channels and based on instructions and what actions you give them access to they can provide similar help to employees there. Do you know if agents can talk to other agents? Yes, via flow, apex or API at the current state. The event logs / audit logs of an agent are stored in Data Cloud, meaning they are accessible to steam to help influence decisions if you have many agents for different use cases. A common use can I am hearing is a \"supervisor agent\" to monitor a \"customer service agent\" and send triggered messages or alerts on behalf the customer service agent if something concerning seen in the conversation ie unhappy customer sentiment. At which point a supervisor agent can whisper and talk to that agent and change the conversation.",
+      "upvotes": 15,
+      "dislikes": 15,
+      "downvotes": 16,
+      "replies": [
+        {
+          "authorId": "t2_90k0i3hb",
+          "author": "Apart-Tie-9938",
+          "authorProfile": "https://www.reddit.com/user/Apart-Tie-9938",
+          "commentId": "t1_mfibiyq",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j1ahhn/can_flow_launch_an_agentforce_conversation/mfibiyq/",
+          "publishingDate": "2025-03-01T22:38:41+00:00",
+          "commentBody": "Oh great! Yeah it doesn’t really feel autonomous until we can set up the monitoring to actually trigger agent actions outside of direct user input. Looking forward to TDX! You can also apply similar logic to slack, agents can listen in channels and based on instructions and what actions you give them access to they can provide similar help to employees there. Do you know if agents can talk to other agents? Yes, via flow, apex or API at the current state. The event logs / audit logs of an agent are stored in Data Cloud, meaning they are accessible to steam to help influence decisions if you have many agents for different use cases. A common use can I am hearing is a \"supervisor agent\" to monitor a \"customer service agent\" and send triggered messages or alerts on behalf the customer service agent if something concerning seen in the conversation ie unhappy customer sentiment. At which point a supervisor agent can whisper and talk to that agent and change the conversation.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_rxekume7",
+          "author": "Zxealer",
+          "authorProfile": "https://www.reddit.com/user/Zxealer",
+          "commentId": "t1_mfibx2d",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j1ahhn/can_flow_launch_an_agentforce_conversation/mfibx2d/",
+          "publishingDate": "2025-03-01T22:40:48+00:00",
+          "commentBody": "You can also apply similar logic to slack, agents can listen in channels and based on instructions and what actions you give them access to they can provide similar help to employees there. Do you know if agents can talk to other agents? Yes, via flow, apex or API at the current state. The event logs / audit logs of an agent are stored in Data Cloud, meaning they are accessible to steam to help influence decisions if you have many agents for different use cases. A common use can I am hearing is a \"supervisor agent\" to monitor a \"customer service agent\" and send triggered messages or alerts on behalf the customer service agent if something concerning seen in the conversation ie unhappy customer sentiment. At which point a supervisor agent can whisper and talk to that agent and change the conversation.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_90k0i3hb",
+          "author": "Apart-Tie-9938",
+          "authorProfile": "https://www.reddit.com/user/Apart-Tie-9938",
+          "commentId": "t1_mfinsn8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j1ahhn/can_flow_launch_an_agentforce_conversation/mfinsn8/",
+          "publishingDate": "2025-03-01T23:47:40+00:00",
+          "commentBody": "Do you know if agents can talk to other agents? Yes, via flow, apex or API at the current state. The event logs / audit logs of an agent are stored in Data Cloud, meaning they are accessible to steam to help influence decisions if you have many agents for different use cases. A common use can I am hearing is a \"supervisor agent\" to monitor a \"customer service agent\" and send triggered messages or alerts on behalf the customer service agent if something concerning seen in the conversation ie unhappy customer sentiment. At which point a supervisor agent can whisper and talk to that agent and change the conversation.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_rxekume7",
+          "author": "Zxealer",
+          "authorProfile": "https://www.reddit.com/user/Zxealer",
+          "commentId": "t1_mfj35qk",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j1ahhn/can_flow_launch_an_agentforce_conversation/mfj35qk/",
+          "publishingDate": "2025-03-02T01:14:05+00:00",
+          "commentBody": "Yes, via flow, apex or API at the current state. The event logs / audit logs of an agent are stored in Data Cloud, meaning they are accessible to steam to help influence decisions if you have many agents for different use cases. A common use can I am hearing is a \"supervisor agent\" to monitor a \"customer service agent\" and send triggered messages or alerts on behalf the customer service agent if something concerning seen in the conversation ie unhappy customer sentiment. At which point a supervisor agent can whisper and talk to that agent and change the conversation.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_3doy5d4",
+      "author": "Reddit_Account__c",
+      "authorProfile": "https://www.reddit.com/user/Reddit_Account__c",
+      "commentId": "t1_mfifbf6",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j1ahhn/can_flow_launch_an_agentforce_conversation/mfifbf6/",
+      "publishingDate": "2025-03-01T22:59:24+00:00",
+      "commentBody": "Yeah I saw this a demo recently - this is completely possible",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_ifa36s6s",
+      "author": "asmishler23",
+      "authorProfile": "https://www.reddit.com/user/asmishler23",
+      "commentId": "t1_mfinonu",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j1ahhn/can_flow_launch_an_agentforce_conversation/mfinonu/",
+      "publishingDate": "2025-03-01T23:47:02+00:00",
+      "commentBody": "Along with your question, can agentforce be activated to perform certain prompts/actions based on record updates? Simple example, if I close a case, I can trigger a flow for Agentforce to summarize it in a specific field? Yes, there's a flow action to call a prompt and then you can put the output in a field Cool, I figure this is one of the most useful applications internally where you don’t have to ask your users to manually take advantage of AI. I agree! Thinking about it the same way. Automated updates > user click/question",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_487pfc44",
+          "author": "Material-Draw4587",
+          "authorProfile": "https://www.reddit.com/user/Material-Draw4587",
+          "commentId": "t1_mfiu0x2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j1ahhn/can_flow_launch_an_agentforce_conversation/mfiu0x2/",
+          "publishingDate": "2025-03-02T00:22:37+00:00",
+          "commentBody": "Yes, there's a flow action to call a prompt and then you can put the output in a field Cool, I figure this is one of the most useful applications internally where you don’t have to ask your users to manually take advantage of AI. I agree! Thinking about it the same way. Automated updates > user click/question",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_ifa36s6s",
+          "author": "asmishler23",
+          "authorProfile": "https://www.reddit.com/user/asmishler23",
+          "commentId": "t1_mfivjyu",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j1ahhn/can_flow_launch_an_agentforce_conversation/mfivjyu/",
+          "publishingDate": "2025-03-02T00:31:15+00:00",
+          "commentBody": "Cool, I figure this is one of the most useful applications internally where you don’t have to ask your users to manually take advantage of AI. I agree! Thinking about it the same way. Automated updates > user click/question",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_3doy5d4",
+          "author": "Reddit_Account__c",
+          "authorProfile": "https://www.reddit.com/user/Reddit_Account__c",
+          "commentId": "t1_mfiyy0b",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j1ahhn/can_flow_launch_an_agentforce_conversation/mfiyy0b/",
+          "publishingDate": "2025-03-02T00:50:14+00:00",
+          "commentBody": "I agree! Thinking about it the same way. Automated updates > user click/question",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_mfskn",
+      "author": "-EVildoer",
+      "authorProfile": "https://www.reddit.com/user/-EVildoer",
+      "commentId": "t1_mfi4wp9",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j1ahhn/can_flow_launch_an_agentforce_conversation/mfi4wp9/",
+      "publishingDate": "2025-03-01T22:03:15+00:00",
+      "commentBody": "What's the exact use case?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_9nsfu2df",
+      "author": "OkAd402",
+      "authorProfile": "https://www.reddit.com/user/OkAd402",
+      "commentId": "t1_mfir5l8",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j1ahhn/can_flow_launch_an_agentforce_conversation/mfir5l8/",
+      "publishingDate": "2025-03-02T00:06:36+00:00",
+      "commentBody": "Yes. You can call the agent action from a flow just like any other flow action. If I recall correctly this is under “AI actions”. I have implemented several POCs on this. It’s very easy and also very powerful",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_qj2ux",
+      "author": "Drakoneous",
+      "authorProfile": "https://www.reddit.com/user/Drakoneous",
+      "commentId": "t1_mflyblg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j1ahhn/can_flow_launch_an_agentforce_conversation/mflyblg/",
+      "publishingDate": "2025-03-02T14:33:57+00:00",
+      "commentBody": "Yes",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

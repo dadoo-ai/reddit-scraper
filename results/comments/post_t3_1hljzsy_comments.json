@@ -1,0 +1,144 @@
+{
+  "info": {
+    "authorId": "t2_z9fdymvqj",
+    "author": "SFDC_Penguin",
+    "authorProfile": "https://www.reddit.com/user/SFDC_Penguin",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1hljzsy",
+    "postLabel": "apps/products",
+    "publishingDate": "2024-12-24T18:53:53+00:00",
+    "postTitle": "Agentforce 2.0",
+    "postMessage": "Hi everyone! Salesforce recently announced Agentforce 2.0. I've pulled together the key take-homes: https://sfdcpenguin.com/blog/agentforce-2-0-a-new-era-of-digitial-labour/ I hope the summary helps, but I'd be curious to hear everyone else's thoughts? Have a great Christmas and New Year! 🐧🎄",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1hljzsy/agentforce_20/",
+    "commentCount": 19,
+    "upvoteCount": 27,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_cten6",
+      "author": "pjallefar",
+      "authorProfile": "https://www.reddit.com/user/pjallefar",
+      "commentId": "t1_m3orm46",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hljzsy/agentforce_20/m3orm46/",
+      "publishingDate": "2024-12-25T03:15:49+00:00",
+      "commentBody": "Reading through this, it seems a lot more like a 1.1, than a 2.0. It seems to simply upgrade some of the initial functionality - there's no inherent \"version 2\" qualities to it, I think. I do think that's a good approach though. Agentforce is a great concept, but will 100% need a few of these upgrades to make it function well in practice. So imo, all good, naming it 2.0 is a bit misleading though More like 0.2",
+      "upvotes": 7,
+      "dislikes": 7,
+      "downvotes": 8,
+      "replies": [
+        {
+          "authorId": "t2_gx702jqs",
+          "author": "RunTenet",
+          "authorProfile": "https://www.reddit.com/user/RunTenet",
+          "commentId": "t1_m3ql8w6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hljzsy/agentforce_20/m3ql8w6/",
+          "publishingDate": "2024-12-25T14:37:23+00:00",
+          "commentBody": "More like 0.2",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        }
+      ]
+    },
+    {
+      "authorId": "t2_w1uzw88t",
+      "author": "TeacherExit",
+      "authorProfile": "https://www.reddit.com/user/TeacherExit",
+      "commentId": "t1_m3sdy59",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hljzsy/agentforce_20/m3sdy59/",
+      "publishingDate": "2024-12-25T21:37:02+00:00",
+      "commentBody": "Fatigued the masses already. Seems desperate and half baked.",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4
+    },
+    {
+      "authorId": "t2_14yhb0",
+      "author": "BeingHuman30",
+      "authorProfile": "https://www.reddit.com/user/BeingHuman30",
+      "commentId": "t1_m3odj1j",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hljzsy/agentforce_20/m3odj1j/",
+      "publishingDate": "2024-12-25T01:21:39+00:00",
+      "commentBody": "Wait they already on 2.0 ...WTF ...so tired of SF now ...they are turning themselves into fashion company ...coming out of stuff every 3 months or so to get folks to adapt to new fashion and discard old ones ....pathetic .... There's already a Spring, Summer, and Winter release I know .....thats what I imply ...so tiresome ...lolz Calling it 2.0 is all for sales. This is more of a 1.1 IMO Following openAI’s lead, it could have been agentforce 2o",
+      "upvotes": 12,
+      "dislikes": 12,
+      "downvotes": 13,
+      "replies": [
+        {
+          "authorId": "t2_120tnb",
+          "author": "The_Grey_Wind",
+          "authorProfile": "https://www.reddit.com/user/The_Grey_Wind",
+          "commentId": "t1_m3otezm",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hljzsy/agentforce_20/m3otezm/",
+          "publishingDate": "2024-12-25T03:30:54+00:00",
+          "commentBody": "There's already a Spring, Summer, and Winter release I know .....thats what I imply ...so tiresome ...lolz",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_14yhb0",
+          "author": "BeingHuman30",
+          "authorProfile": "https://www.reddit.com/user/BeingHuman30",
+          "commentId": "t1_m3ouq5l",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hljzsy/agentforce_20/m3ouq5l/",
+          "publishingDate": "2024-12-25T03:42:00+00:00",
+          "commentBody": "I know .....thats what I imply ...so tiresome ...lolz",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": "t2_iaviqce30",
+          "author": "LividToe560",
+          "authorProfile": "https://www.reddit.com/user/LividToe560",
+          "commentId": "t1_m3oocwb",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hljzsy/agentforce_20/m3oocwb/",
+          "publishingDate": "2024-12-25T02:48:52+00:00",
+          "commentBody": "Calling it 2.0 is all for sales. This is more of a 1.1 IMO Following openAI’s lead, it could have been agentforce 2o",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_66kui",
+          "author": "eyewell",
+          "authorProfile": "https://www.reddit.com/user/eyewell",
+          "commentId": "t1_m3pji44",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hljzsy/agentforce_20/m3pji44/",
+          "publishingDate": "2024-12-25T07:44:21+00:00",
+          "commentBody": "Following openAI’s lead, it could have been agentforce 2o",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_88snh0ik",
+      "author": "This_Wolverine4691",
+      "authorProfile": "https://www.reddit.com/user/This_Wolverine4691",
+      "commentId": "t1_m3vlz9a",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hljzsy/agentforce_20/m3vlz9a/",
+      "publishingDate": "2024-12-26T14:26:36+00:00",
+      "commentBody": "They’re just adding people to this division— no salespeople as of yet. A tool like this you want to get into everyone’s hands but not everyone’s going to need or want it at this state, and not every customer wants to start in the early stages…",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_ddke1",
+      "author": "zdware",
+      "authorProfile": "https://www.reddit.com/user/zdware",
+      "commentId": "t1_m3p0d3b",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hljzsy/agentforce_20/m3p0d3b/",
+      "publishingDate": "2024-12-25T04:30:22+00:00",
+      "commentBody": "rofl",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

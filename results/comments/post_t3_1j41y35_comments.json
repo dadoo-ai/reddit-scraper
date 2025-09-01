@@ -1,0 +1,170 @@
+{
+  "info": {
+    "authorId": "t2_487pfc44",
+    "author": "Material-Draw4587",
+    "authorProfile": "https://www.reddit.com/user/Material-Draw4587",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1j41y35",
+    "postLabel": null,
+    "publishingDate": "2025-03-05T12:28:50+00:00",
+    "postTitle": "You can get Agentforce and Data Cloud in Developer edition orgs now",
+    "postMessage": "https://help.salesforce.com/s/articleView?id=release-notes.rn_dev_environments_de_agentforce_datacloud.htm&release=254&type=5",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1j41y35/you_can_get_agentforce_and_data_cloud_in/",
+    "commentCount": 12,
+    "upvoteCount": 78,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_v3f7t0j",
+      "author": "MoreEspresso",
+      "authorProfile": "https://www.reddit.com/user/MoreEspresso",
+      "commentId": "t1_mg69eqk",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j41y35/you_can_get_agentforce_and_data_cloud_in/mg69eqk/",
+      "publishingDate": "2025-03-05T16:54:14+00:00",
+      "commentBody": "As someone who hasn't learnt any of Agentforce and data cloud, I guess this would be a great way to learn alongside trailhead and focus on force? You guessed correctly. All you need to know is it is a buggy mess and to run away.",
+      "upvotes": 14,
+      "dislikes": 14,
+      "downvotes": 15,
+      "replies": [
+        {
+          "authorId": "t2_1chgrpqaf5",
+          "author": "Careless-Activity236",
+          "authorProfile": "https://www.reddit.com/user/Careless-Activity236",
+          "commentId": "t1_mg88jx6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j41y35/you_can_get_agentforce_and_data_cloud_in/mg88jx6/",
+          "publishingDate": "2025-03-05T22:23:08+00:00",
+          "commentBody": "You guessed correctly.",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": "t2_bwgptmnz",
+          "author": "Impossible_Break698",
+          "authorProfile": "https://www.reddit.com/user/Impossible_Break698",
+          "commentId": "t1_mnvniwt",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j41y35/you_can_get_agentforce_and_data_cloud_in/mnvniwt/",
+          "publishingDate": "2025-04-19T04:36:19+00:00",
+          "commentBody": "All you need to know is it is a buggy mess and to run away.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_8lcn6bbh",
+      "author": "Steve_MMS",
+      "authorProfile": "https://www.reddit.com/user/Steve_MMS",
+      "commentId": "t1_mg647j0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j41y35/you_can_get_agentforce_and_data_cloud_in/mg647j0/",
+      "publishingDate": "2025-03-05T16:29:42+00:00",
+      "commentBody": "https://developer.salesforce.com/blogs/2025/03/introducing-the-new-salesforce-developer-edition-now-with-agentforce-and-data-cloud some more infos to that",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6
+    },
+    {
+      "authorId": "t2_1alk6z5w",
+      "author": "Iknw4",
+      "authorProfile": "https://www.reddit.com/user/Iknw4",
+      "commentId": "t1_mg4x6gu",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j41y35/you_can_get_agentforce_and_data_cloud_in/mg4x6gu/",
+      "publishingDate": "2025-03-05T12:33:00+00:00",
+      "commentBody": "Wow . Thanks 👍",
+      "upvotes": 7,
+      "dislikes": 7,
+      "downvotes": 8
+    },
+    {
+      "authorId": "t2_dxhym",
+      "author": "catfor",
+      "authorProfile": "https://www.reddit.com/user/catfor",
+      "commentId": "t1_mg8otyo",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j41y35/you_can_get_agentforce_and_data_cloud_in/mg8otyo/",
+      "publishingDate": "2025-03-05T23:46:54+00:00",
+      "commentBody": "Oh hell yeah",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_a5ppscaq",
+      "author": "Jwzbb",
+      "authorProfile": "https://www.reddit.com/user/Jwzbb",
+      "commentId": "t1_mg5d6y4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j41y35/you_can_get_agentforce_and_data_cloud_in/mg5d6y4/",
+      "publishingDate": "2025-03-05T14:13:26+00:00",
+      "commentBody": "But you’ll need to sign up for a new dev org correct? I checked and don’t see anything available in my old dev org. Following Did you check the link from that article. It created a different org I did not. I saw a link with Sign up for dev org so I assumed it was a general link. Too bad, I was already able to get my hands on this via a Salesforce hackathon event, but would love to also enable it in an existing org. :) Thanks for sharing though!",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_x24pl",
+          "author": "jack4wills",
+          "authorProfile": "https://www.reddit.com/user/jack4wills",
+          "commentId": "t1_mg81xoc",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j41y35/you_can_get_agentforce_and_data_cloud_in/mg81xoc/",
+          "publishingDate": "2025-03-05T21:52:18+00:00",
+          "commentBody": "Following",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1alk6z5w",
+          "author": "Iknw4",
+          "authorProfile": "https://www.reddit.com/user/Iknw4",
+          "commentId": "t1_mg8qom5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j41y35/you_can_get_agentforce_and_data_cloud_in/mg8qom5/",
+          "publishingDate": "2025-03-05T23:57:50+00:00",
+          "commentBody": "Did you check the link from that article. It created a different org I did not. I saw a link with Sign up for dev org so I assumed it was a general link. Too bad, I was already able to get my hands on this via a Salesforce hackathon event, but would love to also enable it in an existing org. :) Thanks for sharing though!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_a5ppscaq",
+          "author": "Jwzbb",
+          "authorProfile": "https://www.reddit.com/user/Jwzbb",
+          "commentId": "t1_mgailu3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j41y35/you_can_get_agentforce_and_data_cloud_in/mgailu3/",
+          "publishingDate": "2025-03-06T07:00:57+00:00",
+          "commentBody": "I did not. I saw a link with Sign up for dev org so I assumed it was a general link. Too bad, I was already able to get my hands on this via a Salesforce hackathon event, but would love to also enable it in an existing org. :) Thanks for sharing though!",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_mkdata2e",
+      "author": "ki11roy666",
+      "authorProfile": "https://www.reddit.com/user/ki11roy666",
+      "commentId": "t1_mg62h1w",
+      "link": "https://www.reddit.com/r/salesforce/comments/1j41y35/you_can_get_agentforce_and_data_cloud_in/mg62h1w/",
+      "publishingDate": "2025-03-05T16:21:32+00:00",
+      "commentBody": "Is it like in trailheads and available only for 3 days?\nWondering - how it is charged. No org expiration so long as you log in at least once every 45 days",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_4agv5",
+          "author": "evmax318",
+          "authorProfile": "https://www.reddit.com/user/evmax318",
+          "commentId": "t1_mg7mkbw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1j41y35/you_can_get_agentforce_and_data_cloud_in/mg7mkbw/",
+          "publishingDate": "2025-03-05T20:42:07+00:00",
+          "commentBody": "No org expiration so long as you log in at least once every 45 days",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    }
+  ]
+}

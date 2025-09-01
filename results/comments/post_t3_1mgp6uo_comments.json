@@ -1,0 +1,240 @@
+{
+  "info": {
+    "authorId": "t2_139xeyv8rx",
+    "author": "Haunting-Constant973",
+    "authorProfile": "https://www.reddit.com/user/Haunting-Constant973",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mgp6uo",
+    "postLabel": null,
+    "publishingDate": "2025-08-03T17:34:01+00:00",
+    "postTitle": "Agentforce project. Paid Help is needed.",
+    "postMessage": "Hi everyone, I’ve recently been assigned to an Agentforce project, while the scope isn’t too complex, it’s my first time implementing it for a large client. The timeline is quite tight, and I’m heading on vacation soon, so everything landed rather unexpectedly. I’m reaching out to see if anyone with experience in Agentforce would be open to a quick call/or text/or whatever how it works, to guide me through solving the business case. I’d of course be happy to compensate for your time. My main challenge at the moment is building the Flows. I’m still fairly new to the Salesforce ecosystem and investing a lot of time learning as I go. I am asking this because I don’t feel confident that I can finish it on time.  It will be entirely in a dev Agentforce org via Trailhead and keeping everything strictly confidential. Thank you",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/",
+    "commentCount": 20,
+    "upvoteCount": 21,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_uasai8g",
+      "author": "linguist_turned_SAHM",
+      "authorProfile": "https://www.reddit.com/user/linguist_turned_SAHM",
+      "commentId": "t1_n6sma0a",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n6sma0a/",
+      "publishingDate": "2025-08-04T01:22:08+00:00",
+      "commentBody": "You’re gonna need to focus on auto launches flows. And what kind of agent? Sales, service, SDR, employee? Make sure you have your data cloud setup. I would HIGHLY recommend you get your company to just fork over for the data cloud sandbox so that you can actually use devops. Where is this agent going to live? Internal or on a portal? You’re going to have to set up routing if it’s on a portal. Make sure you’re tracking your agent like you would an employee, bc you WILL have to create a user for it: keep documentation of the naming convention, its OOTB perm sets, and custom ones you build. And if this is an agent that’s going to be using knowledge, make sure it’s squared away BEFORE you turn on Data Cloud. TLDR: message me if you get stuck.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_1jzsdiam6v",
+      "author": "Swimming_Plastic1533",
+      "authorProfile": "https://www.reddit.com/user/Swimming_Plastic1533",
+      "commentId": "t1_n6upg2k",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n6upg2k/",
+      "publishingDate": "2025-08-04T11:26:17+00:00",
+      "commentBody": "Hey! Totally understand where you’re coming from. Agentforce projects can feel a bit overwhelming at first, especially with a tight timeline and vacation coming up. You're doing the right thing by asking for help early. I’ve worked on a few Agentforce implementations, and I know Flows can be tricky, especially if you’re still getting comfortable with the Salesforce ecosystem. If you're open to it, I’d be happy to walk you through the basics or review what you’ve built so far. I can also point you toward some practical Flow examples that are Agentforce-specific. We can figure out a time for a quick call or chat. Just DM me with your availability, and we can take it from there. You’ve got this; sometimes all it takes is a quick nudge in the right direction.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_41picu90",
+      "author": "jerry_brimsley",
+      "authorProfile": "https://www.reddit.com/user/jerry_brimsley",
+      "commentId": "t1_n6qevdk",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n6qevdk/",
+      "publishingDate": "2025-08-03T18:08:32+00:00",
+      "commentBody": "If you’re still in need, hit me up. I just was messing around with this today in flow actually. You sound confident it’s straight forward but you know how that goes.  There aren’t many edge cases yet for this thing to get too crazy that I know of, who knows. I can link up in slack or g chat (or wherever), and stir it around, and see what needs done.  Let me know.",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4
+    },
+    {
+      "authorId": "t2_vlxte733",
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_n6qb6i3",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n6qb6i3/",
+      "publishingDate": "2025-08-03T17:50:07+00:00",
+      "commentBody": "DM'ed ya and happy to give you some flow tips :)",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_1g0xubwupp",
+      "author": "Life_happen",
+      "authorProfile": "https://www.reddit.com/user/Life_happen",
+      "commentId": "t1_n6qy0oo",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n6qy0oo/",
+      "publishingDate": "2025-08-03T19:48:12+00:00",
+      "commentBody": "I have worked on agentforce and flows.you can dm me for help",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_1j6u7vxn4z",
+      "author": "DirectionLast2550",
+      "authorProfile": "https://www.reddit.com/user/DirectionLast2550",
+      "commentId": "t1_n6smrcl",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n6smrcl/",
+      "publishingDate": "2025-08-04T01:25:04+00:00",
+      "commentBody": "Hey! Totally get the pressure Agentforce can be a lot on a tight timeline, especially if it’s your first big project and vacation’s around the corner 😅 I’ve worked on a couple of these and yeah, the Flows are usually the trickiest part when you're starting out. Happy to hop on a quick call or chat to walk you through it no stress, just here to help. Shoot me a DM if you're stuck on anything specific. You got this! 💪 Why are flows tricky in AF projects?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_nylms9tx",
+          "author": "Round_Ad_3709",
+          "authorProfile": "https://www.reddit.com/user/Round_Ad_3709",
+          "commentId": "t1_n70p2oq",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n70p2oq/",
+          "publishingDate": "2025-08-05T08:26:52+00:00",
+          "commentBody": "Why are flows tricky in AF projects?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_6ciipoaie",
+      "author": "onelifeCoder",
+      "authorProfile": "https://www.reddit.com/user/onelifeCoder",
+      "commentId": "t1_n6u4zib",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n6u4zib/",
+      "publishingDate": "2025-08-04T08:26:12+00:00",
+      "commentBody": "Hey , if you have a clear scope like what exactly to build then you can start by designing the high level solution. You most probably need to create custom actions using flows and if the task is complex you may need to use Apex actions as well. There are many resources where you can learn agentforce and custom actions but i m not sure if you have that kuch time.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_4rgra8cu",
+      "author": "nopnam",
+      "authorProfile": "https://www.reddit.com/user/nopnam",
+      "commentId": "t1_n6xh7li",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n6xh7li/",
+      "publishingDate": "2025-08-04T19:57:10+00:00",
+      "commentBody": "Feel free to reach out. I’m happy to help and have rolled out a few AF use cases for a large org. I’m probably one of the few on this thread that isn’t anti AF because we’ve had some great results. What use cases did you set up? Curious if you can share Same",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_cat0c",
+          "author": "splashbrothers3011",
+          "authorProfile": "https://www.reddit.com/user/splashbrothers3011",
+          "commentId": "t1_n700ukz",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n700ukz/",
+          "publishingDate": "2025-08-05T04:46:31+00:00",
+          "commentBody": "What use cases did you set up? Curious if you can share Same",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_q73z0i9fw",
+          "author": "f0restwow-",
+          "authorProfile": "https://www.reddit.com/user/f0restwow-",
+          "commentId": "t1_n7nbiz7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n7nbiz7/",
+          "publishingDate": "2025-08-08T18:38:44+00:00",
+          "commentBody": "Same",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_jiwphuic",
+      "author": "just-salesforce",
+      "authorProfile": "https://www.reddit.com/user/just-salesforce",
+      "commentId": "t1_n7147jg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n7147jg/",
+      "publishingDate": "2025-08-05T10:47:07+00:00",
+      "commentBody": "If you need help. We should be able to support.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_1j7emisbcf",
+      "author": "Creative-Lobster3601",
+      "authorProfile": "https://www.reddit.com/user/Creative-Lobster3601",
+      "commentId": "t1_n71qpd3",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n71qpd3/",
+      "publishingDate": "2025-08-05T13:15:08+00:00",
+      "commentBody": "I would be interested in this",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_bmnc1",
+      "author": "TheBarrelofMonkeys",
+      "authorProfile": "https://www.reddit.com/user/TheBarrelofMonkeys",
+      "commentId": "t1_n729jxe",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n729jxe/",
+      "publishingDate": "2025-08-05T14:52:11+00:00",
+      "commentBody": "Just curious, do they also have MuleSoft? Just wanting to understand if that would subject the data for better usage",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_ztmdj",
+      "author": "grimview",
+      "authorProfile": "https://www.reddit.com/user/grimview",
+      "commentId": "t1_n73mzb5",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n73mzb5/",
+      "publishingDate": "2025-08-05T19:07:29+00:00",
+      "commentBody": "Use the word \"paid\" in the title to get people to respond the very first post on reddit. Claim to be going on vacation soon so we don't wonder why there are no responses. Claims to be new but has a large client. Wants the work done a \"trailhead\" sandbox. Nope nothing suspicious  here.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_fwd3vlmx",
+      "author": "yami0007",
+      "authorProfile": "https://www.reddit.com/user/yami0007",
+      "commentId": "t1_n7lnksv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n7lnksv/",
+      "publishingDate": "2025-08-08T13:52:31+00:00",
+      "commentBody": "hey ,I can help you.. please reach me at [ index.help2023@gmail.com ](mailto: index.help2023@gmail.com )",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_dy5j26du",
+      "author": "Brilliant_Language52",
+      "authorProfile": "https://www.reddit.com/user/Brilliant_Language52",
+      "commentId": "t1_n6qbl8l",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n6qbl8l/",
+      "publishingDate": "2025-08-03T17:52:07+00:00",
+      "commentBody": "DM sent",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_3tvs9r6z",
+      "author": "Rochimaru",
+      "authorProfile": "https://www.reddit.com/user/Rochimaru",
+      "commentId": "t1_n6rlskn",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mgp6uo/agentforce_project_paid_help_is_needed/n6rlskn/",
+      "publishingDate": "2025-08-03T21:50:57+00:00",
+      "commentBody": "PM me if you need any help. Just got my Agentforce cert and I’ve worked with Salesforce for a while",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

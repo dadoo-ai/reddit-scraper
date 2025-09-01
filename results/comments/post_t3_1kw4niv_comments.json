@@ -1,0 +1,110 @@
+{
+  "info": {
+    "authorId": "t2_d8jx35a2",
+    "author": "Hairy-Introduction47",
+    "authorProfile": "https://www.reddit.com/user/Hairy-Introduction47",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1kw4niv",
+    "postLabel": null,
+    "publishingDate": "2025-05-26T20:28:55+00:00",
+    "postTitle": "Help required : AgentForce Builder Error",
+    "postMessage": "I'm in a dilemma. I've been actively trying to create an AgentForce agent using the AgentForce Builder, as part of the trail to achieve the Agentblazer champion badge. I've been doing exactly what has been instructed in the project module \"Quick Start : Build a Service Agent with Agentforce\", but have been unsuccessful in this one particular stage where, on being promoted to enter Agent User, the search bar does not show any search options at all (as it normally should, and auto-prompt the user name i.e. EinsteinServiceAgent User, along with its specific code). And on entering the same manually, an error constantly pops up that reads : \"Error creating agent : java.lang.IllegalArgumentException: An error occured while checking for user with id: EinsteinServiceAgent User\" I have been stuck on this problem for hours with no solution at all, since I do not understand what causes this error. If anyone's ever faced a similar problem before, kindly do share how to make this work. TIA.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1kw4niv/help_required_agentforce_builder_error/",
+    "commentCount": 7,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_d8jx35a2",
+      "author": "Hairy-Introduction47",
+      "authorProfile": "https://www.reddit.com/user/Hairy-Introduction47",
+      "commentId": "t1_muehp06",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kw4niv/help_required_agentforce_builder_error/muehp06/",
+      "publishingDate": "2025-05-26T20:30:27+00:00",
+      "commentBody": "<image> Attaching pictures of the errors for reference <image>",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_d8jx35a2",
+          "author": "Hairy-Introduction47",
+          "authorProfile": "https://www.reddit.com/user/Hairy-Introduction47",
+          "commentId": "t1_muehqdi",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kw4niv/help_required_agentforce_builder_error/muehqdi/",
+          "publishingDate": "2025-05-26T20:30:39+00:00",
+          "commentBody": "<image>",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_cwnwkzjq",
+      "author": "RayTrader03",
+      "authorProfile": "https://www.reddit.com/user/RayTrader03",
+      "commentId": "t1_muf5zgu",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kw4niv/help_required_agentforce_builder_error/muf5zgu/",
+      "publishingDate": "2025-05-26T22:44:43+00:00",
+      "commentBody": "Permission checks ? Had allowed service agent permissions....don't really understand why this keeps happening :/",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_d8jx35a2",
+          "author": "Hairy-Introduction47",
+          "authorProfile": "https://www.reddit.com/user/Hairy-Introduction47",
+          "commentId": "t1_mugnh9r",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kw4niv/help_required_agentforce_builder_error/mugnh9r/",
+          "publishingDate": "2025-05-27T04:21:38+00:00",
+          "commentBody": "Had allowed service agent permissions....don't really understand why this keeps happening :/",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_o67ufnhos",
+      "author": "BabySharkMadness",
+      "authorProfile": "https://www.reddit.com/user/BabySharkMadness",
+      "commentId": "t1_muf89kb",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kw4niv/help_required_agentforce_builder_error/muf89kb/",
+      "publishingDate": "2025-05-26T22:58:10+00:00",
+      "commentBody": "Have you considered opening a case with Trailhead? They’re best suited to resolve issues with playgrounds. I'll do the same. Thank you!",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_d8jx35a2",
+          "author": "Hairy-Introduction47",
+          "authorProfile": "https://www.reddit.com/user/Hairy-Introduction47",
+          "commentId": "t1_mugnk2p",
+          "link": "https://www.reddit.com/r/salesforce/comments/1kw4niv/help_required_agentforce_builder_error/mugnk2p/",
+          "publishingDate": "2025-05-27T04:22:13+00:00",
+          "commentBody": "I'll do the same. Thank you!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_q92pp093",
+      "author": "Fine-Confusion-5827",
+      "authorProfile": "https://www.reddit.com/user/Fine-Confusion-5827",
+      "commentId": "t1_muh8kdb",
+      "link": "https://www.reddit.com/r/salesforce/comments/1kw4niv/help_required_agentforce_builder_error/muh8kdb/",
+      "publishingDate": "2025-05-27T07:29:57+00:00",
+      "commentBody": "When searching for a user, if you type just Einstein what do you get? I’m interested in seeing the list of results.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

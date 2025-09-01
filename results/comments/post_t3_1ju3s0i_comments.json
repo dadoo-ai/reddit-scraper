@@ -1,0 +1,146 @@
+{
+  "info": {
+    "authorId": "t2_5fjuu2yq",
+    "author": "white-lantern123",
+    "authorProfile": "https://www.reddit.com/user/white-lantern123",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1ju3s0i",
+    "postLabel": null,
+    "publishingDate": "2025-04-08T03:04:43+00:00",
+    "postTitle": "Salesforce Agentforce Demo",
+    "postMessage": "My company has developed a custom agent action and want to be able to demo it outside of the builder. The most straightforward way that we thought to do it was through the same method in the distribute a service agent exercise provided in Trailhead. https://developer.salesforce.com/agentforce-workshop/service-agents/3-distribute-service-agent After talking with Salesforce support and our partner manager, she said the license needed (MIAW) was not available in the Partner Program Offerings to enable on our demo org. In that case, is there any advice on how to best demo Agentforce at no additional cost? We just want to show a custom agent's capabilities outside of the builder in this specific org but it seems like that's not possible.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1ju3s0i/salesforce_agentforce_demo/",
+    "commentCount": 10,
+    "upvoteCount": 8,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_1gs7y56xn9",
+      "author": "EntrepreneurMain7616",
+      "authorProfile": "https://www.reddit.com/user/EntrepreneurMain7616",
+      "commentId": "t1_mlz5m9u",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ju3s0i/salesforce_agentforce_demo/mlz5m9u/",
+      "publishingDate": "2025-04-08T03:16:48+00:00",
+      "commentBody": "If your purpose is to just demo the product then you can embed it in somewhere like a webpage and show it. I did this in the Agentforce hackathon at TDX. Is there a youtube video / article you can share on how to do that? As far as I know, I still would need the MIAW license to do that. I guess the better question is do I need that license to provision Agentforce anywhere outside the builder? I am not sure of the licences, but I could do everything in the dev org without much hassle. I can hop on a call and help you if you need, feel free do DM me",
+      "upvotes": 7,
+      "dislikes": 7,
+      "downvotes": 8,
+      "replies": [
+        {
+          "authorId": "t2_5fjuu2yq",
+          "author": "white-lantern123",
+          "authorProfile": "https://www.reddit.com/user/white-lantern123",
+          "commentId": "t1_mlz666x",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ju3s0i/salesforce_agentforce_demo/mlz666x/",
+          "publishingDate": "2025-04-08T03:20:32+00:00",
+          "commentBody": "Is there a youtube video / article you can share on how to do that? As far as I know, I still would need the MIAW license to do that. I guess the better question is do I need that license to provision Agentforce anywhere outside the builder? I am not sure of the licences, but I could do everything in the dev org without much hassle. I can hop on a call and help you if you need, feel free do DM me",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_1gs7y56xn9",
+          "author": "EntrepreneurMain7616",
+          "authorProfile": "https://www.reddit.com/user/EntrepreneurMain7616",
+          "commentId": "t1_mlz79rn",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ju3s0i/salesforce_agentforce_demo/mlz79rn/",
+          "publishingDate": "2025-04-08T03:28:11+00:00",
+          "commentBody": "I am not sure of the licences, but I could do everything in the dev org without much hassle. I can hop on a call and help you if you need, feel free do DM me",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_701rv",
+      "author": "Joryxd",
+      "authorProfile": "https://www.reddit.com/user/Joryxd",
+      "commentId": "t1_mm01e0j",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ju3s0i/salesforce_agentforce_demo/mm01e0j/",
+      "publishingDate": "2025-04-08T07:57:59+00:00",
+      "commentBody": "What kind of demo org are you using? The demo orgs offered to partners through partner learning camp are configured with Messaging for In app and Web (MIAW).",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_11nueg",
+      "author": "BreakfastSpecial",
+      "authorProfile": "https://www.reddit.com/user/BreakfastSpecial",
+      "commentId": "t1_mm1czja",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ju3s0i/salesforce_agentforce_demo/mm1czja/",
+      "publishingDate": "2025-04-08T14:14:33+00:00",
+      "commentBody": "You could build an LWC that communicates through the new Agents API. I did something similar recently so that I could drop the component anywhere and it is highly configurable. No MIAW required. Do you have any documentation on how to do this? I tried deploying something similar but it wouldn’t work",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_14hq3e2mh7",
+          "author": "MaintenanceStatus329",
+          "authorProfile": "https://www.reddit.com/user/MaintenanceStatus329",
+          "commentId": "t1_mm5dia3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ju3s0i/salesforce_agentforce_demo/mm5dia3/",
+          "publishingDate": "2025-04-09T02:46:40+00:00",
+          "commentBody": "Do you have any documentation on how to do this? I tried deploying something similar but it wouldn’t work",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_gw5fj",
+      "author": "merithynos",
+      "authorProfile": "https://www.reddit.com/user/merithynos",
+      "commentId": "t1_mlzg535",
+      "link": "https://www.reddit.com/r/salesforce/comments/1ju3s0i/salesforce_agentforce_demo/mlzg535/",
+      "publishingDate": "2025-04-08T04:35:35+00:00",
+      "commentBody": "Does your company have its own org with an MIAW license? Just do it in a sandbox for your organization vs. a demo org? How long do those sandboxes last, do you know? Until your admin deletes them. They're clones of your org. Alternately sign up for a Developer Edition account with a Gmail address. Pretty sure DE orgs have MIAW and Agentforce. No expiration date as long as someone logs in every 90 days  (Not sure if this is against the terms of your partner agreement so check with someone who knows). Hmm I'll look into both - thanks for the advice!",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_5fjuu2yq",
+          "author": "white-lantern123",
+          "authorProfile": "https://www.reddit.com/user/white-lantern123",
+          "commentId": "t1_mlzgd9c",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ju3s0i/salesforce_agentforce_demo/mlzgd9c/",
+          "publishingDate": "2025-04-08T04:37:32+00:00",
+          "commentBody": "How long do those sandboxes last, do you know? Until your admin deletes them. They're clones of your org. Alternately sign up for a Developer Edition account with a Gmail address. Pretty sure DE orgs have MIAW and Agentforce. No expiration date as long as someone logs in every 90 days  (Not sure if this is against the terms of your partner agreement so check with someone who knows). Hmm I'll look into both - thanks for the advice!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_gw5fj",
+          "author": "merithynos",
+          "authorProfile": "https://www.reddit.com/user/merithynos",
+          "commentId": "t1_mlzhh56",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ju3s0i/salesforce_agentforce_demo/mlzhh56/",
+          "publishingDate": "2025-04-08T04:46:44+00:00",
+          "commentBody": "Until your admin deletes them. They're clones of your org. Alternately sign up for a Developer Edition account with a Gmail address. Pretty sure DE orgs have MIAW and Agentforce. No expiration date as long as someone logs in every 90 days  (Not sure if this is against the terms of your partner agreement so check with someone who knows). Hmm I'll look into both - thanks for the advice!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_5fjuu2yq",
+          "author": "white-lantern123",
+          "authorProfile": "https://www.reddit.com/user/white-lantern123",
+          "commentId": "t1_mlzhzal",
+          "link": "https://www.reddit.com/r/salesforce/comments/1ju3s0i/salesforce_agentforce_demo/mlzhzal/",
+          "publishingDate": "2025-04-08T04:50:58+00:00",
+          "commentBody": "Hmm I'll look into both - thanks for the advice!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    }
+  ]
+}

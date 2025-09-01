@@ -1,0 +1,296 @@
+{
+  "info": {
+    "authorId": "t2_5b42offq",
+    "author": "stony-breadwinner",
+    "authorProfile": "https://www.reddit.com/user/stony-breadwinner",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1hjcbvp",
+    "postLabel": "apps/products",
+    "publishingDate": "2024-12-21T15:41:16+00:00",
+    "postTitle": "Agentforce Princg - Detailed Pricing Explanation",
+    "postMessage": "We 'bought' Agentforce for our org and wanted to share the exact pricing. In theory, you can buy Agentforce in your Salesforce org by going to the \"My Account\" section of Setup, browsing, and adding it to your cart. However, clicking Add to Cart just told us to contact support, and after a few back and forth emails with support where they explained to us we could add it to our cart (duh) we got through to our AE who sent us a contract. I recommend just talking to your AE in the first place :-) The contract was interesting. There were 4 lines added to our annual subscription at a 0 monthly cost. Salesforce Foundations Salesforce Foundations - Data Cloud Segmentation & Activation Salesforce Foundations - Agentforce Service Agent Data Cloud Provisioning Below that was the actual cost we would pay on a per-usage basis. This was pretty confusing at first because there was both a price and a quantity. And then below it I saw this line: Usage Billing: Usage beyond the Quantity specified for each Usage Type prior to the applicable End Date is subject to the Billing Model and corresponding Usage Rate for that Usage Type. Ahhh, so the quantity was my free usage, and the price was how much I would pay above that. I can't add screenshots to this reddit post, so if you want to see screenshots of this with the exact free amounts and price after the free amounts are used, I wrote up a larger blog post around this, https://breadwinner.com/agentforce-pricing-explained/ Here are the 5 Quantity based line items: Segments and Activations Credits Conversations (billed at $2.50 in arrears) Einstein Requests Data Storage (GB) (we got a Terabyte) Data Services Credits I don't think the typical company is going to hit the 1 Terabyte storage limit, or blow through our PDF Processing limits, and the Segmentation costs are more for marketing cloud usage. So I'm going to ignore those and focus on the two bold lines: Conversations and Einstein Requests. Internal Pricing to Salesforce Users What's interesting is that a Conversation, when used internally by staff, is not reset to a new conversation until 24 hours of inactivity. That means an employee who asks Einstein a few questions every business day might not have 24 hours of inactivity until the weekend. So they might only incur four conversations a month . So bizarrely, heavy use every day by internal staff might cost less for conversations than someone who only asks a few questions every other day. So heavy use by an internal Salesforce User could be 4 conversations a month (4 x $2.50 = $10), whereas light use could be 10 conversations a month (10 x $2.50 = $25). So the conversation pricing model rewards those who constantly use it! However, there are also Einstein Requests. The calculation for this is quite complicated, and I dive into it further in my blog post , but a rough estimate is 2 cents a reply. So asking the agent 100 questions a day could easily cost $2 per day in Einstein Requests. So your heavy user would cost $50 a month total (Conversations and Einstein Requests) vs the light user of just $25-$27 (effectively, just Conversations). The free allowance I got was only 1000 conversations total, across Production and Sandbox orgs (yes, Sandbox orgs count to your billing statements). After that 1-time allowance of 1000 conversations, the billing-in-arrears starts. Keep in mind that you get 1000 conversations a month, so you can imagine a company with 100 Salesforce Users (or less), with conversations that average 10 responses or less, never having to pay anything, ever. So for a small company using Salesforce, using Agentforce seems like an amazing freemium product that might never cost anything. [Edited to correct this. 1000 Convos for free is just once ever, not monthly. Thank you to the people who pointed this out!] External Pricing to Partners and Customers With External customers and partners, Salesforce is hoping that its conversations will reduce the cost of your support team far more than the cost of Agentforce. A typical service agent might be able to handle 20-50 support conversations a day. If Agentforce initiates all of those conversations, that's $50-$125 a day. If the support team has all-in salary costs of $200-$400 a day, then it's easy to see how Agentforce could easily save the company money. Haggling the price down All of my costs listed above and in the screenshots are for monthly billing in arrears. Salesforce would love for you to give them money ahead of time, and no doubt the cost per-conversation could fall to $2 or lower, rather than the $2.50 for arrears. UPDATE - JAN 10 2025 So we got our first monthly billing email from Salesforce! I've taken screenshots and added those to the blog post. The link is above in this post. There are five lines for the five main products. And then another section for Usage SubTypes",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/",
+    "commentCount": 25,
+    "upvoteCount": 108,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_p1qt5lhe4",
+      "author": "Reasonable-Bit560",
+      "authorProfile": "https://www.reddit.com/user/Reasonable-Bit560",
+      "commentId": "t1_m35i66p",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m35i66p/",
+      "publishingDate": "2024-12-21T16:14:24+00:00",
+      "commentBody": "I think they are just trying to drive adoption and we're unsure of the ROI for internal uses. Personal opinion is that internal use cases will probably develop more business value long term, but it's murky until i can be proven out. Connecting 3rd party data running a process through agentforce to then generate an action to a different 3rd party application is limitless in my mind. It sounds like it's dang near zero in cost though. Much clearer ROI connection with customer service departments although I do think those will be a dime a dozen overtime. I feel like the internal agentforce use case will grow in popularity especially if you use slack. SO many channels and teams at my firm have support workflows and these processes take hours of people’s time to manage when it’s often something that could be in an FAQ. If an IT or operations employee is paid 75 an hour and responding to a ticket for then normally takes 15 minutes then spending a few days automating the beginning of that process seems trivial to me. If you set up Flows/actions, a topic or two in Agentforce, then you can have Agentforce create a case to escalate if needed. I would start small and keep the potential downsides smalls but if you have anywhere near the wasted effort that I see in some companies then the upside is huge.",
+      "upvotes": 11,
+      "dislikes": 11,
+      "downvotes": 12,
+      "replies": [
+        {
+          "authorId": "t2_3doy5d4",
+          "author": "Reddit_Account__c",
+          "authorProfile": "https://www.reddit.com/user/Reddit_Account__c",
+          "commentId": "t1_m35knzg",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m35knzg/",
+          "publishingDate": "2024-12-21T16:28:43+00:00",
+          "commentBody": "I feel like the internal agentforce use case will grow in popularity especially if you use slack. SO many channels and teams at my firm have support workflows and these processes take hours of people’s time to manage when it’s often something that could be in an FAQ. If an IT or operations employee is paid 75 an hour and responding to a ticket for then normally takes 15 minutes then spending a few days automating the beginning of that process seems trivial to me. If you set up Flows/actions, a topic or two in Agentforce, then you can have Agentforce create a case to escalate if needed. I would start small and keep the potential downsides smalls but if you have anywhere near the wasted effort that I see in some companies then the upside is huge.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_be595",
+      "author": "MatchaGaucho",
+      "authorProfile": "https://www.reddit.com/user/MatchaGaucho",
+      "commentId": "t1_m364iq3",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m364iq3/",
+      "publishingDate": "2024-12-21T18:23:47+00:00",
+      "commentBody": "What are the hidden labor costs? Assuming every agent needs to be \"built\" and maintained over time? We've built a few agents for both internal use and POC on our own apps (like creating a Purchase Order in NetSuite, strictly from an Agentforce agent ). There wasn't much heavy lifting. And Salesforce is now trying to build AI that will help you build agents. I think it's going to be very easy to point the agent at Salesforce objects and ask it to figure stuff out. If I was any of the Deduping tools, I'd be worried. Writing \"Find me a list of Accounts that are duplicates\" is a lot easier than buying Apsona. Damn, the dedupe use case would be clutch. Imagine being able to build an agent to be a page master or librarian or sorts - keeping your instances clean and free duplicate info. Better yet - cleaning up data entered by users. Not just labor, but they can change the pricing model at anytime. With Communities, this usually means when we try to reduce the number of full licenses, we get hit with a bill for going over our limit to make up the difference.  I even ran a report to prove we not over & demanded SF tell us how they ran the report to prove their claim, but nope that didn't work.",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7,
+      "replies": [
+        {
+          "authorId": "t2_5b42offq",
+          "author": "stony-breadwinner",
+          "authorProfile": "https://www.reddit.com/user/stony-breadwinner",
+          "commentId": "t1_m37oik2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m37oik2/",
+          "publishingDate": "2024-12-22T00:06:01+00:00",
+          "commentBody": "We've built a few agents for both internal use and POC on our own apps (like creating a Purchase Order in NetSuite, strictly from an Agentforce agent ). There wasn't much heavy lifting. And Salesforce is now trying to build AI that will help you build agents. I think it's going to be very easy to point the agent at Salesforce objects and ask it to figure stuff out. If I was any of the Deduping tools, I'd be worried. Writing \"Find me a list of Accounts that are duplicates\" is a lot easier than buying Apsona. Damn, the dedupe use case would be clutch. Imagine being able to build an agent to be a page master or librarian or sorts - keeping your instances clean and free duplicate info. Better yet - cleaning up data entered by users.",
+          "upvotes": 7,
+          "dislikes": 7,
+          "downvotes": 8
+        },
+        {
+          "authorId": "t2_15ooww",
+          "author": "Jaceman2002",
+          "authorProfile": "https://www.reddit.com/user/Jaceman2002",
+          "commentId": "t1_m38ttpl",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m38ttpl/",
+          "publishingDate": "2024-12-22T05:12:28+00:00",
+          "commentBody": "Damn, the dedupe use case would be clutch. Imagine being able to build an agent to be a page master or librarian or sorts - keeping your instances clean and free duplicate info. Better yet - cleaning up data entered by users.",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": "t2_ztmdj",
+          "author": "grimview",
+          "authorProfile": "https://www.reddit.com/user/grimview",
+          "commentId": "t1_m3abbd1",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m3abbd1/",
+          "publishingDate": "2024-12-22T14:32:23+00:00",
+          "commentBody": "Not just labor, but they can change the pricing model at anytime. With Communities, this usually means when we try to reduce the number of full licenses, we get hit with a bill for going over our limit to make up the difference.  I even ran a report to prove we not over & demanded SF tell us how they ran the report to prove their claim, but nope that didn't work.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_3d62ckf9",
+      "author": "dyx03",
+      "authorProfile": "https://www.reddit.com/user/dyx03",
+      "commentId": "t1_m369e35",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m369e35/",
+      "publishingDate": "2024-12-21T18:51:14+00:00",
+      "commentBody": "I'm not sure what you are referring to with internal usage, but the assitant agent FKA copilot does not use conversations. It is part of the Einstein licenses, which are p.u.p.m. An Agent that you expose e.g. via an internal help site, possibly using Experience Cloud, would not use Copilot though. You are correct in regards to the Einstein Requests however, but you should keep in mind that all requests are pooled on an org level. And any use of generative AI draws from the pool, which means your field summaries, or even fully automated Flows without explicit user interaction that make use of prompt builder. So, let's imagine a use case where you want to use a custom prompt to regularly summarize all customer interactions on an account. Instead of running that flow e.g. in a nightly batch to update the summary field, you should only trigger it when needed, so as not to incur unnecessary volume.",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6
+    },
+    {
+      "authorId": "t2_vlxte733",
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_m39hs9v",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m39hs9v/",
+      "publishingDate": "2024-12-22T09:39:09+00:00",
+      "commentBody": "Coming back to this fantastic post. After reading more of your blog and trying to grasp this I have one realization. This is the most complicated SaaS product anyone has ever created. Even with your thorough analysis I am genuinely more confused about the approach than before I knew anything. THE BIGGEST RISK by far is that the moment you expose one of these agents to the public, a competitor of yours can purposely destroy your billing volume by mass-conversation spamming your agent. And a disgruntled employee could do the same. This product is so wildly complicated, and I still don't fully understand the data storage element. That's right 180 dollars per terabyte a month. you can buy a 5TB drive per month for that lol. Does the storage only count each months storage? Or permanent ongoing?? Please give us an update a few months into actually using it. Tell us the use cases you have set up and what the actual costs have looked like. Thanks again!! Not just on purpose, but the endless loop of someone trying get help but not getting the answer they seek. For example. years back Salesforce had AI call me to discuss a issue with Territories, but the AI just keep repeating the same line no matter what I said.",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6,
+      "replies": [
+        {
+          "authorId": "t2_ztmdj",
+          "author": "grimview",
+          "authorProfile": "https://www.reddit.com/user/grimview",
+          "commentId": "t1_m3aap58",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m3aap58/",
+          "publishingDate": "2024-12-22T14:28:01+00:00",
+          "commentBody": "Not just on purpose, but the endless loop of someone trying get help but not getting the answer they seek. For example. years back Salesforce had AI call me to discuss a issue with Territories, but the AI just keep repeating the same line no matter what I said.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_vlxte733",
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_m365u65",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m365u65/",
+      "publishingDate": "2024-12-21T18:31:16+00:00",
+      "commentBody": "Thank you for the breakdown",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5
+    },
+    {
+      "authorId": "t2_1005q6",
+      "author": "Ramen_Boy",
+      "authorProfile": "https://www.reddit.com/user/Ramen_Boy",
+      "commentId": "t1_m383gdp",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m383gdp/",
+      "publishingDate": "2024-12-22T01:48:49+00:00",
+      "commentBody": "I need you to confirm something. Your writing on the consumptions of Conversation and Einstein Request for Internal Use Case are correct. However, you don’t have the necessary PSLs to engage with AgentForce fka Einstein Co-Pilot. That comes with the Einstein for Service SKU.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_15pzjteiww",
+      "author": "Lead-to-Revenue",
+      "authorProfile": "https://www.reddit.com/user/Lead-to-Revenue",
+      "commentId": "t1_m3b84el",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m3b84el/",
+      "publishingDate": "2024-12-22T17:49:21+00:00",
+      "commentBody": "Wouldn’t it be better to hire a trainer to train your team how to do their jobs. All that AgentForce is doing is making people more lazy and dumb, as a human we have a Brian to think and act for ourselves.  Why are we so lazy as humans these days? What happen to working hard and playing harder. We are trully heading towards a Wall.E world of fat people consuming food flouting on hover board to carry our fat asses around. What if non of us use AgentForce. Or let’s predict that it does not help any of us like the company who said they will replace humans with AI. The reality no human want AI to replace them so then why are you so jacked up to try with AgentForce. All that AgentForce does is suck more cashflow from salesforce customers who want to experiment your money for testing salesforce AI ideas. If AgentForce was a proven tool it would work for everyone and truly all it does is replace nice Philippine Call center people which I’d rather talk to than an AI robot.  At least this people are getting to live a good life rather than placing million or billions more into executives that don’t need the money and are just fight a small cock fight. All you've done is told the world that you've only received payroll, but never had to make payroll. Employee costs are brutal, and few, if any, employees wake up excited to answer repetitive questions. Just because you can't imagine bots saving companies billions of dollars and freeing up employee time for more productive activities, that doesn't mean that other people can't. Payroll is expensive you are correct. This is why hiring is so hard. However I’d rather have people to work with than a Bot. A person can fix an error and not will create more errors faster.  A human has reasoning a bot does what you tell it to do with prompts. Humans while we all want bots to help us save money on people, humans rather talk to humans than a bot that is why in a support call we almost always ask for an agent which today is a humans not an AI.  So payroll might be expensive because you have the wrong people. So get ride of the people who are wasting your money and find people who are the right people for the role that you see is expensive. As an example I had to let go someone who was a friend, a business friend, someone I trust, someone who I know is a great worker. However at my company they were failing and just because I like someone does not mean they are the right person for my team. So I terminated everyone that was failing. Now I do t complain about how expensive they are because I got ride of the problem.  If you expect a bot to replace your problems you need to look at the situation. Differently and fix the problem before introducing a bot.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_5b42offq",
+          "author": "stony-breadwinner",
+          "authorProfile": "https://www.reddit.com/user/stony-breadwinner",
+          "commentId": "t1_m3yg20r",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m3yg20r/",
+          "publishingDate": "2024-12-27T00:19:10+00:00",
+          "commentBody": "All you've done is told the world that you've only received payroll, but never had to make payroll. Employee costs are brutal, and few, if any, employees wake up excited to answer repetitive questions. Just because you can't imagine bots saving companies billions of dollars and freeing up employee time for more productive activities, that doesn't mean that other people can't. Payroll is expensive you are correct. This is why hiring is so hard. However I’d rather have people to work with than a Bot. A person can fix an error and not will create more errors faster.  A human has reasoning a bot does what you tell it to do with prompts. Humans while we all want bots to help us save money on people, humans rather talk to humans than a bot that is why in a support call we almost always ask for an agent which today is a humans not an AI.  So payroll might be expensive because you have the wrong people. So get ride of the people who are wasting your money and find people who are the right people for the role that you see is expensive. As an example I had to let go someone who was a friend, a business friend, someone I trust, someone who I know is a great worker. However at my company they were failing and just because I like someone does not mean they are the right person for my team. So I terminated everyone that was failing. Now I do t complain about how expensive they are because I got ride of the problem.  If you expect a bot to replace your problems you need to look at the situation. Differently and fix the problem before introducing a bot.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_15pzjteiww",
+          "author": "Lead-to-Revenue",
+          "authorProfile": "https://www.reddit.com/user/Lead-to-Revenue",
+          "commentId": "t1_m6slsxj",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m6slsxj/",
+          "publishingDate": "2025-01-12T19:33:26+00:00",
+          "commentBody": "Payroll is expensive you are correct. This is why hiring is so hard. However I’d rather have people to work with than a Bot. A person can fix an error and not will create more errors faster.  A human has reasoning a bot does what you tell it to do with prompts. Humans while we all want bots to help us save money on people, humans rather talk to humans than a bot that is why in a support call we almost always ask for an agent which today is a humans not an AI.  So payroll might be expensive because you have the wrong people. So get ride of the people who are wasting your money and find people who are the right people for the role that you see is expensive. As an example I had to let go someone who was a friend, a business friend, someone I trust, someone who I know is a great worker. However at my company they were failing and just because I like someone does not mean they are the right person for my team. So I terminated everyone that was failing. Now I do t complain about how expensive they are because I got ride of the problem.  If you expect a bot to replace your problems you need to look at the situation. Differently and fix the problem before introducing a bot.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_2lxz1q0",
+      "author": "swaggymcswag420",
+      "authorProfile": "https://www.reddit.com/user/swaggymcswag420",
+      "commentId": "t1_m37hh5e",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m37hh5e/",
+      "publishingDate": "2024-12-21T23:18:58+00:00",
+      "commentBody": "It’s $2 for pre-purchased conversations as opposed to the $2.50 for arrears, which is important to factor in. Correct! I touch on that at the end. But for those who prefer to post-pay and want Billing in Arrears, $2.50 isn't bad...",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_5b42offq",
+          "author": "stony-breadwinner",
+          "authorProfile": "https://www.reddit.com/user/stony-breadwinner",
+          "commentId": "t1_m37onrs",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m37onrs/",
+          "publishingDate": "2024-12-22T00:07:01+00:00",
+          "commentBody": "Correct! I touch on that at the end. But for those who prefer to post-pay and want Billing in Arrears, $2.50 isn't bad...",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_6b1jsqwl",
+      "author": "Open-Cockroach-1743",
+      "authorProfile": "https://www.reddit.com/user/Open-Cockroach-1743",
+      "commentId": "t1_m3f0gv8",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m3f0gv8/",
+      "publishingDate": "2024-12-23T09:54:46+00:00",
+      "commentBody": "What is internal conversation? You mean through copilot? Only problem with copilot I see is that how do you manage the topics, since there is only 1 agent used for copilot, so it becomes unmanagable if you have a lot of use cases you want it to handle.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_4z8b4l0n",
+      "author": "Inner-Sundae-8669",
+      "authorProfile": "https://www.reddit.com/user/Inner-Sundae-8669",
+      "commentId": "t1_m3gzlgg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m3gzlgg/",
+      "publishingDate": "2024-12-23T18:18:27+00:00",
+      "commentBody": "Much appreciated,  I'm going to checkout your blog now.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_e78slxn0",
+      "author": "Intrepid-Car-9611",
+      "authorProfile": "https://www.reddit.com/user/Intrepid-Car-9611",
+      "commentId": "t1_m35pn5i",
+      "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m35pn5i/",
+      "publishingDate": "2024-12-21T16:57:20+00:00",
+      "commentBody": "I work for another company that does basically the same thing as agentforce except for all systems. not just salesforce. \nOur cost per conversation is lower. \nI say all that because we do value analysis all the time. You're more likely to get payback on external use cases than internal, but internal use cases are more popular because they are deemed less risky. \nIt's a little bit different for each company, but realistically anyone with less than 500 employees you probably are breaking even (there are other benefits but from a pure cost perspective it's breakeven). \nRunning agents effectively at the lowest end is going to cost between 100-150k and year even building your own on open source. So if you aren't looking to offset atleast 3 headcount then you probably aren't ready for agents yet. How do you guys plan on competing with Salesforce? I believe it's possible to be cheaper, but how do you handle the fact that company data is in Salesforce, and permission sets are in Salesforce? Do your customers replicate the data and permission structures? I guess that's for internal. For external, you just have to replicate the data...but also you'd need to associate this chat with the customer and you still need to handle permissions on some level? It's not about being cheaper than salesforce, it's about providing a better product and better outcome. Agentforce forces you to have all of your data in Salesforce or Data cloud. We do not. We tap into your data regardless of where it lives, so our agents are more extensible and can also get better resolution rates because you can pull from all the additional sources. I do believe that Agentforce will eventually catch up, but they are just behind right now.  They're getting 20-30% autoresolution rates. We are getting about 70% on average and as high as 92% that I've seen. Plugging into salesforce data or salesforce permission set isn't a blocker at all. There are 100,000 apps that use them aside from AI. We also can run as a managed package inside salesforce if you wanted, but dont have to. Can run in slack, or teams, or standalone etc. They have the hype and the marketing and the reach, but we just flat out have a better product right now. It may not be that way forever, but I'll take it for today. Still the original comment wasn't intended to be about an us vs them. Rather it was a comment about the cost of running agents. If we're cheaper, and there is a line in the sand for where you get ROI then the line is further for them right now. They're pushing agents for everyone. But the reality is, it's not going to create ROI for lots of small companies.  Doesn't mean those companies can't use AI, they 100% can. They just might need to use other types of AI and not neccisarily agents. The barrier to entry will decrease rapidly over time. But I think its disingenuous to try to tell people to buy products that won't generate an equitable return just because it's all the rage. Similarly, our agents are designed to run 24/7 in the background automating long-running processes and generating insights. Chat represents only 20% of the overall AI consumption.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": "t2_5b42offq",
+          "author": "stony-breadwinner",
+          "authorProfile": "https://www.reddit.com/user/stony-breadwinner",
+          "commentId": "t1_m37m0h4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m37m0h4/",
+          "publishingDate": "2024-12-21T23:49:31+00:00",
+          "commentBody": "How do you guys plan on competing with Salesforce? I believe it's possible to be cheaper, but how do you handle the fact that company data is in Salesforce, and permission sets are in Salesforce? Do your customers replicate the data and permission structures? I guess that's for internal. For external, you just have to replicate the data...but also you'd need to associate this chat with the customer and you still need to handle permissions on some level? It's not about being cheaper than salesforce, it's about providing a better product and better outcome. Agentforce forces you to have all of your data in Salesforce or Data cloud. We do not. We tap into your data regardless of where it lives, so our agents are more extensible and can also get better resolution rates because you can pull from all the additional sources. I do believe that Agentforce will eventually catch up, but they are just behind right now.  They're getting 20-30% autoresolution rates. We are getting about 70% on average and as high as 92% that I've seen. Plugging into salesforce data or salesforce permission set isn't a blocker at all. There are 100,000 apps that use them aside from AI. We also can run as a managed package inside salesforce if you wanted, but dont have to. Can run in slack, or teams, or standalone etc. They have the hype and the marketing and the reach, but we just flat out have a better product right now. It may not be that way forever, but I'll take it for today. Still the original comment wasn't intended to be about an us vs them. Rather it was a comment about the cost of running agents. If we're cheaper, and there is a line in the sand for where you get ROI then the line is further for them right now. They're pushing agents for everyone. But the reality is, it's not going to create ROI for lots of small companies.  Doesn't mean those companies can't use AI, they 100% can. They just might need to use other types of AI and not neccisarily agents. The barrier to entry will decrease rapidly over time. But I think its disingenuous to try to tell people to buy products that won't generate an equitable return just because it's all the rage.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_e78slxn0",
+          "author": "Intrepid-Car-9611",
+          "authorProfile": "https://www.reddit.com/user/Intrepid-Car-9611",
+          "commentId": "t1_m37of7d",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m37of7d/",
+          "publishingDate": "2024-12-22T00:05:21+00:00",
+          "commentBody": "It's not about being cheaper than salesforce, it's about providing a better product and better outcome. Agentforce forces you to have all of your data in Salesforce or Data cloud. We do not. We tap into your data regardless of where it lives, so our agents are more extensible and can also get better resolution rates because you can pull from all the additional sources. I do believe that Agentforce will eventually catch up, but they are just behind right now.  They're getting 20-30% autoresolution rates. We are getting about 70% on average and as high as 92% that I've seen. Plugging into salesforce data or salesforce permission set isn't a blocker at all. There are 100,000 apps that use them aside from AI. We also can run as a managed package inside salesforce if you wanted, but dont have to. Can run in slack, or teams, or standalone etc. They have the hype and the marketing and the reach, but we just flat out have a better product right now. It may not be that way forever, but I'll take it for today. Still the original comment wasn't intended to be about an us vs them. Rather it was a comment about the cost of running agents. If we're cheaper, and there is a line in the sand for where you get ROI then the line is further for them right now. They're pushing agents for everyone. But the reality is, it's not going to create ROI for lots of small companies.  Doesn't mean those companies can't use AI, they 100% can. They just might need to use other types of AI and not neccisarily agents. The barrier to entry will decrease rapidly over time. But I think its disingenuous to try to tell people to buy products that won't generate an equitable return just because it's all the rage.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_be595",
+          "author": "MatchaGaucho",
+          "authorProfile": "https://www.reddit.com/user/MatchaGaucho",
+          "commentId": "t1_m363z6y",
+          "link": "https://www.reddit.com/r/salesforce/comments/1hjcbvp/agentforce_princg_detailed_pricing_explanation/m363z6y/",
+          "publishingDate": "2024-12-21T18:20:42+00:00",
+          "commentBody": "Similarly, our agents are designed to run 24/7 in the background automating long-running processes and generating insights. Chat represents only 20% of the overall AI consumption.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    }
+  ]
+}

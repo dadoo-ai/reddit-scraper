@@ -1,0 +1,230 @@
+{
+  "info": {
+    "authorId": "t2_7ntinljt",
+    "author": "LostinLies1",
+    "authorProfile": "https://www.reddit.com/user/LostinLies1",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1lp25wl",
+    "postLabel": "apps/products",
+    "publishingDate": "2025-07-01T13:49:18+00:00",
+    "postTitle": "AgentForce - What have you built?",
+    "postMessage": "Hi. I'm struggling with the vastness of solutions that can be built on AF.  I've read the SF stuff talking about the types of AF you can build and for different areas of the business, but it seems like you need a spritely brain to easily imagine different uses for AF. I'm an older admin (50's) and I'm worrying that I'm being left behind. Thanks. ETA:  Thanks everyone for the cool ideas! I feel pretty excited after reading the chats below.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/",
+    "commentCount": 18,
+    "upvoteCount": 28,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_4mdctun",
+      "author": "JDubyu77",
+      "authorProfile": "https://www.reddit.com/user/JDubyu77",
+      "commentId": "t1_n0ro2ca",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0ro2ca/",
+      "publishingDate": "2025-07-01T14:54:41+00:00",
+      "commentBody": "Best advice is to find processes that are repetitive and/or menial or time-consuming things, see if replacement by automation could be the answer.",
+      "upvotes": 11,
+      "dislikes": 11,
+      "downvotes": 12
+    },
+    {
+      "authorId": "t2_cq4mbxh6",
+      "author": "Suspicious-Nerve-487",
+      "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+      "commentId": "t1_n0s8l89",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0s8l89/",
+      "publishingDate": "2025-07-01T16:30:06+00:00",
+      "commentBody": "To add onto these comments here, you don’t necessarily always need to use agents that users interact with as well. Prompt templates are INSANELY powerful and can be embedded within flows to automatically do more complex, advanced tasks. You can also embed headless agents within automation tools to scale and tie in Gen AI to more rigid automations (think advanced case routing, record summaries, lead assignment and filtering out spam, etc). Tons and tons of use cases (especially within existing automation) that can fit into existing processes without throwing agents everywhere just because Salesforce is pushing the product",
+      "upvotes": 11,
+      "dislikes": 11,
+      "downvotes": 12
+    },
+    {
+      "authorId": "t2_14hq3e2mh7",
+      "author": "MaintenanceStatus329",
+      "authorProfile": "https://www.reddit.com/user/MaintenanceStatus329",
+      "commentId": "t1_n0rexy5",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0rexy5/",
+      "publishingDate": "2025-07-01T14:09:42+00:00",
+      "commentBody": "I don’t think you need to overcomplicate it, the most common use cases are most effective. For example, finding answers based on past cases, appointment scheduling etc",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5
+    },
+    {
+      "authorId": "t2_hwqrvop",
+      "author": "SFAdminLife",
+      "authorProfile": "https://www.reddit.com/user/SFAdminLife",
+      "commentId": "t1_n0sak9v",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0sak9v/",
+      "publishingDate": "2025-07-01T16:39:24+00:00",
+      "commentBody": "I am 50 and have no brain blockers for new things in Salesforce.  Why not start with the Agentforce trails, if you worry about being left behind? Once you have a good understanding of the tech, you can try some projects to get familiar with use cases. The biggest use case in my company right now is case deflection. Sorry didn't mean to indicate that people our age have issues.  It's definitely a me issue. Pfft...50? That's nothing. Watch some YT videos, do some trailheads. You've got the best resource right within you, your experience! Put 2 and 2 together. You got this!",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4,
+      "replies": [
+        {
+          "authorId": "t2_7ntinljt",
+          "author": "LostinLies1",
+          "authorProfile": "https://www.reddit.com/user/LostinLies1",
+          "commentId": "t1_n0sy4xx",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0sy4xx/",
+          "publishingDate": "2025-07-01T18:26:46+00:00",
+          "commentBody": "Sorry didn't mean to indicate that people our age have issues.  It's definitely a me issue. Pfft...50? That's nothing. Watch some YT videos, do some trailheads. You've got the best resource right within you, your experience! Put 2 and 2 together. You got this!",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_5d2m156x",
+          "author": "Future-Field",
+          "authorProfile": "https://www.reddit.com/user/Future-Field",
+          "commentId": "t1_n0vb0or",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0vb0or/",
+          "publishingDate": "2025-07-02T01:51:14+00:00",
+          "commentBody": "Pfft...50? That's nothing. Watch some YT videos, do some trailheads. You've got the best resource right within you, your experience! Put 2 and 2 together. You got this!",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_6qrej9e",
+      "author": "queenofadmin",
+      "authorProfile": "https://www.reddit.com/user/queenofadmin",
+      "commentId": "t1_n0uj5ao",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0uj5ao/",
+      "publishingDate": "2025-07-01T23:09:28+00:00",
+      "commentBody": "My first SF org that got from scratch just turned 18 so I am definitely an older Admin too!  Here’s what I’ve done with Agentforce so far: Implemented a “live chat” for a specific program we run. It asks 3-4 question to determine eligibility, creates a lead and routes the lead to a human to call. Record summary. Summarises all the key information about a project so at a glance you can see the status. Case summary. Summarises key info from inbound case emails into a format that can then be used to populate fields. For example job number, address. Then we have other processes which use Mulesoft to bring back data based on job number which triggers off a flow. Image analysis. Do the photos show the damage the client claims? Case email prompt template asking for missing info, providing warranty info. Next up replacing each screen flow with Agents. Great use cases. Are you measuring ROI? Didn't know AF could do image analysis - how accurate is it? Are you involving Human in the loop to confirm the analysis? Tell me more about replacing screen flows with Agents!",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4,
+      "replies": [
+        {
+          "authorId": "t2_5d2m156x",
+          "author": "Future-Field",
+          "authorProfile": "https://www.reddit.com/user/Future-Field",
+          "commentId": "t1_n0vbtvp",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0vbtvp/",
+          "publishingDate": "2025-07-02T01:55:55+00:00",
+          "commentBody": "Great use cases. Are you measuring ROI? Didn't know AF could do image analysis - how accurate is it? Are you involving Human in the loop to confirm the analysis? Tell me more about replacing screen flows with Agents!",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_487pfc44",
+      "author": "Material-Draw4587",
+      "authorProfile": "https://www.reddit.com/user/Material-Draw4587",
+      "commentId": "t1_n0shlwv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0shlwv/",
+      "publishingDate": "2025-07-01T17:11:40+00:00",
+      "commentBody": "Internal-facing chat for questions about our products (RAG with Data Cloud and a Flex Prompt), calling Flex Prompts from flows to summarize cases and create draft knowledge articles from cases (I know Agentforce for Service Cloud is a thing, we don't have that). I think you really have to get your hands on it to understand it, and thankfully you can do that now with a DE org so there isn't really a reason to get \"left behind\" but maybe that's easy for me to say in my 30s These examples have been recycled again and again by salesforce in all their tours so far. Yeah, I was giving examples of what we've built 🤷🏻‍♀️ as I'm sure you know, demos are a different thing than reality",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_14yhb0",
+          "author": "BeingHuman30",
+          "authorProfile": "https://www.reddit.com/user/BeingHuman30",
+          "commentId": "t1_n0swnvw",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0swnvw/",
+          "publishingDate": "2025-07-01T18:19:54+00:00",
+          "commentBody": "These examples have been recycled again and again by salesforce in all their tours so far. Yeah, I was giving examples of what we've built 🤷🏻‍♀️ as I'm sure you know, demos are a different thing than reality",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_487pfc44",
+          "author": "Material-Draw4587",
+          "authorProfile": "https://www.reddit.com/user/Material-Draw4587",
+          "commentId": "t1_n0uhop0",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0uhop0/",
+          "publishingDate": "2025-07-01T23:01:20+00:00",
+          "commentBody": "Yeah, I was giving examples of what we've built 🤷🏻‍♀️ as I'm sure you know, demos are a different thing than reality",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_nasw1i0n",
+      "author": "bottomfeeder16",
+      "authorProfile": "https://www.reddit.com/user/bottomfeeder16",
+      "commentId": "t1_n1488sq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n1488sq/",
+      "publishingDate": "2025-07-03T12:41:12+00:00",
+      "commentBody": "I work for a financial firm that does annual review meetings with our clients. The prep for a meeting will sometimes take someone 1-2 hours depending on the client's complexity and changes in the last year. I'm using Agentforce within flows to summarize some of our big data points like financial accounts, transactions, call notes, prior meeting notes, and other information then pulling it all into a PDF. It should save our company a few hundred hours per year.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_egxc1",
+      "author": "firestormodk",
+      "authorProfile": "https://www.reddit.com/user/firestormodk",
+      "commentId": "t1_n0tg8w3",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0tg8w3/",
+      "publishingDate": "2025-07-01T19:53:21+00:00",
+      "commentBody": "I’d suggest building out fictitious scenarios to get familiar with the platform. That way, you’ll understand its capabilities - and suddenly it will click , and you’ll start coming up with use cases more easily. Here’s an idea for a fictitious use case: A hotel booking agent that can create, modify, and cancel bookings.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_872g7oh8g",
+      "author": "Mindless_Anybody_104",
+      "authorProfile": "https://www.reddit.com/user/Mindless_Anybody_104",
+      "commentId": "t1_n0tj71j",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0tj71j/",
+      "publishingDate": "2025-07-01T20:07:28+00:00",
+      "commentBody": "In my Agentforce dev org I built a template-triggered flow to neatly summarize my entries in the Setup Audit Trail between a start and end date. Wish I could have it in production. Nice to review what I did last week :)",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_78zvz515",
+      "author": "Unique_Tap_4323",
+      "authorProfile": "https://www.reddit.com/user/Unique_Tap_4323",
+      "commentId": "t1_n0rbot1",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0rbot1/",
+      "publishingDate": "2025-07-01T13:52:40+00:00",
+      "commentBody": "I would only build something if the client needs it",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_1jzsdiam6v",
+      "author": "Swimming_Plastic1533",
+      "authorProfile": "https://www.reddit.com/user/Swimming_Plastic1533",
+      "commentId": "t1_n0xwfuh",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0xwfuh/",
+      "publishingDate": "2025-07-02T13:41:34+00:00",
+      "commentBody": "Look for everyday tasks that drain time. AgentForce is great for turning those into smooth, automated workflows.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_kxr3n4u3l",
+      "author": "Worth-Sandwich-7826",
+      "authorProfile": "https://www.reddit.com/user/Worth-Sandwich-7826",
+      "commentId": "t1_n0z79kn",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lp25wl/agentforce_what_have_you_built/n0z79kn/",
+      "publishingDate": "2025-07-02T17:24:58+00:00",
+      "commentBody": "Agentforce is still fairly new, you have time. The main thing we're doing is using it internally for lead enrichment since we have Grax and can leverage contact history and web search.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "info": {
+    "authorId": "t2_2auwgw6y",
+    "author": "TheRealMichaelBluth",
+    "authorProfile": "https://www.reddit.com/user/TheRealMichaelBluth",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1mttesh",
+    "postLabel": "career question",
+    "publishingDate": "2025-08-18T17:58:26+00:00",
+    "postTitle": "Agentforce Pilot Program",
+    "postMessage": "My non-profit of about 70 users is thinking of using Agentforce as we've been given the order to investigate how we can use AI. I suggested exploring Agentforce to my boss, and it seems like leadership is at least open to the idea. Right now, we're thinking of piloting it with a few users, and this will give me a chance to learn how to build out topics and set up Agentforce. I'm working with my boss to come up with a fair sample of users, so right now we're thinking 3 users that would cover 2 middle managers and 1 Individual contributor. Has anyone taken this approach, if so what would you recommend and how did this work for you?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/",
+    "commentCount": 27,
+    "upvoteCount": 1,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_9yhmn0g5",
+      "author": "Crazyboreddeveloper",
+      "authorProfile": "https://www.reddit.com/user/Crazyboreddeveloper",
+      "commentId": "t1_n9fc7ts",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9fc7ts/",
+      "publishingDate": "2025-08-18T21:58:56+00:00",
+      "commentBody": "Usually you have a need and seek a tool. But it seems like now you have a tool and you’re seeking a need. I think the need is that our leadership is in the AI hype right now and they’ve asked us to come up with ideas for how to use AI. I’d say that our need is to use AI/automate as much drudgery as we can. Tell them that to make it work well you need some other automatons for it to run. Set those up first and test them with users - flows, next best action, etc. then if you still need to you have something to feed the machine until they get their first bill and turn it back off. Edit:typo leadership is in on the hype and asked us to come up with ideas on how to use it Would highly advise against this approach. This is how poor AI use cases and deployments get started. If this is your approach, take a long hard look at your workflows and processes first and try to understand where the most time is being spent on tedious / monotonous tasks. Define it, define why it is tedious, THEN determine what the proper fix is Don’t just throw AI at things because leadership wants to use it Eh, a good poc can win you brownie points. Unless they're pressuring you to actually get something into production. If it were me I would treat this like a personal hackathon. Come up with some ideas, make a small poc, and then use it to educate the big wigs on what we can and cannot do with AI.",
+      "upvotes": 14,
+      "dislikes": 14,
+      "downvotes": 15,
+      "replies": [
+        {
+          "authorId": "t2_2auwgw6y",
+          "author": "TheRealMichaelBluth",
+          "authorProfile": "https://www.reddit.com/user/TheRealMichaelBluth",
+          "commentId": "t1_n9fe96z",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9fe96z/",
+          "publishingDate": "2025-08-18T22:09:54+00:00",
+          "commentBody": "I think the need is that our leadership is in the AI hype right now and they’ve asked us to come up with ideas for how to use AI. I’d say that our need is to use AI/automate as much drudgery as we can. Tell them that to make it work well you need some other automatons for it to run. Set those up first and test them with users - flows, next best action, etc. then if you still need to you have something to feed the machine until they get their first bill and turn it back off. Edit:typo leadership is in on the hype and asked us to come up with ideas on how to use it Would highly advise against this approach. This is how poor AI use cases and deployments get started. If this is your approach, take a long hard look at your workflows and processes first and try to understand where the most time is being spent on tedious / monotonous tasks. Define it, define why it is tedious, THEN determine what the proper fix is Don’t just throw AI at things because leadership wants to use it Eh, a good poc can win you brownie points. Unless they're pressuring you to actually get something into production. If it were me I would treat this like a personal hackathon. Come up with some ideas, make a small poc, and then use it to educate the big wigs on what we can and cannot do with AI.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_d9sheqqe",
+          "author": "datapharmer",
+          "authorProfile": "https://www.reddit.com/user/datapharmer",
+          "commentId": "t1_n9g80i8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9g80i8/",
+          "publishingDate": "2025-08-19T00:58:39+00:00",
+          "commentBody": "Tell them that to make it work well you need some other automatons for it to run. Set those up first and test them with users - flows, next best action, etc. then if you still need to you have something to feed the machine until they get their first bill and turn it back off. Edit:typo",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        },
+        {
+          "authorId": "t2_cq4mbxh6",
+          "author": "Suspicious-Nerve-487",
+          "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+          "commentId": "t1_n9gi4p3",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9gi4p3/",
+          "publishingDate": "2025-08-19T01:58:13+00:00",
+          "commentBody": "leadership is in on the hype and asked us to come up with ideas on how to use it Would highly advise against this approach. This is how poor AI use cases and deployments get started. If this is your approach, take a long hard look at your workflows and processes first and try to understand where the most time is being spent on tedious / monotonous tasks. Define it, define why it is tedious, THEN determine what the proper fix is Don’t just throw AI at things because leadership wants to use it Eh, a good poc can win you brownie points. Unless they're pressuring you to actually get something into production. If it were me I would treat this like a personal hackathon. Come up with some ideas, make a small poc, and then use it to educate the big wigs on what we can and cannot do with AI.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_yo787",
+          "author": "New2Salesforce",
+          "authorProfile": "https://www.reddit.com/user/New2Salesforce",
+          "commentId": "t1_n9xlc89",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9xlc89/",
+          "publishingDate": "2025-08-21T17:55:51+00:00",
+          "commentBody": "Eh, a good poc can win you brownie points. Unless they're pressuring you to actually get something into production. If it were me I would treat this like a personal hackathon. Come up with some ideas, make a small poc, and then use it to educate the big wigs on what we can and cannot do with AI.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_vlxte733",
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_n9eag95",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9eag95/",
+      "publishingDate": "2025-08-18T18:53:58+00:00",
+      "commentBody": "What are the business processes you want to facilitate with AF? We're hoping that we can faciliate routine things such as populating a record from a file upload (Concur already does this) Wouldn't use AF for this, that is for sure. Personally. How come? I personally think AF is incredibly convoluted to set up, to procure, to estimate pricing. Zapier Agents, n8n agents, all much easier to manage. For the use case you explained, we usually just use PDFco + Zapier. No Agent needed. That was just one example, we have other things we'd want to build on too I don't know the features of agentforce but LLM's for document reading is not a good idea because they are probabilistic and probably pretty expensive relative to non llm solutions for the same task. You should see if there is a built in or third party document reader specifically made for  this task on agentforce.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_2auwgw6y",
+          "author": "TheRealMichaelBluth",
+          "authorProfile": "https://www.reddit.com/user/TheRealMichaelBluth",
+          "commentId": "t1_n9ei1ks",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9ei1ks/",
+          "publishingDate": "2025-08-18T19:30:44+00:00",
+          "commentBody": "We're hoping that we can faciliate routine things such as populating a record from a file upload (Concur already does this) Wouldn't use AF for this, that is for sure. Personally. How come? I personally think AF is incredibly convoluted to set up, to procure, to estimate pricing. Zapier Agents, n8n agents, all much easier to manage. For the use case you explained, we usually just use PDFco + Zapier. No Agent needed. That was just one example, we have other things we'd want to build on too I don't know the features of agentforce but LLM's for document reading is not a good idea because they are probabilistic and probably pretty expensive relative to non llm solutions for the same task. You should see if there is a built in or third party document reader specifically made for  this task on agentforce.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_n9ej8wt",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9ej8wt/",
+          "publishingDate": "2025-08-18T19:36:32+00:00",
+          "commentBody": "Wouldn't use AF for this, that is for sure. Personally. How come? I personally think AF is incredibly convoluted to set up, to procure, to estimate pricing. Zapier Agents, n8n agents, all much easier to manage. For the use case you explained, we usually just use PDFco + Zapier. No Agent needed. That was just one example, we have other things we'd want to build on too",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_2auwgw6y",
+          "author": "TheRealMichaelBluth",
+          "authorProfile": "https://www.reddit.com/user/TheRealMichaelBluth",
+          "commentId": "t1_n9ejbqo",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9ejbqo/",
+          "publishingDate": "2025-08-18T19:36:54+00:00",
+          "commentBody": "How come? I personally think AF is incredibly convoluted to set up, to procure, to estimate pricing. Zapier Agents, n8n agents, all much easier to manage. For the use case you explained, we usually just use PDFco + Zapier. No Agent needed. That was just one example, we have other things we'd want to build on too",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_n9ek3bd",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9ek3bd/",
+          "publishingDate": "2025-08-18T19:40:32+00:00",
+          "commentBody": "I personally think AF is incredibly convoluted to set up, to procure, to estimate pricing. Zapier Agents, n8n agents, all much easier to manage. For the use case you explained, we usually just use PDFco + Zapier. No Agent needed. That was just one example, we have other things we'd want to build on too",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": "t2_2auwgw6y",
+          "author": "TheRealMichaelBluth",
+          "authorProfile": "https://www.reddit.com/user/TheRealMichaelBluth",
+          "commentId": "t1_n9ekct8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9ekct8/",
+          "publishingDate": "2025-08-18T19:41:50+00:00",
+          "commentBody": "That was just one example, we have other things we'd want to build on too",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_yo787",
+          "author": "New2Salesforce",
+          "authorProfile": "https://www.reddit.com/user/New2Salesforce",
+          "commentId": "t1_n9xmomn",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9xmomn/",
+          "publishingDate": "2025-08-21T18:02:07+00:00",
+          "commentBody": "I don't know the features of agentforce but LLM's for document reading is not a good idea because they are probabilistic and probably pretty expensive relative to non llm solutions for the same task. You should see if there is a built in or third party document reader specifically made for  this task on agentforce.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_cten6",
+      "author": "pjallefar",
+      "authorProfile": "https://www.reddit.com/user/pjallefar",
+      "commentId": "t1_n9e0fpa",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9e0fpa/",
+      "publishingDate": "2025-08-18T18:05:14+00:00",
+      "commentBody": "Hey, Just curious, what do you mean by piloting with a few users? \nLike, are you thinking internal agents, to help users? \nOr are the users supposed to just learn how to use it? I've done most of the trail stuff on it and that was quite helpful imo, so I'd just start there for learning it. I think it requires a very good understanding of flows, btw. Not quite, I think I would build out some topics based on the use cases we have in mind, then we'd give a few users licenses and have them try out the tool, give us feedback and see how it works on the ground. If that goes well, then we'd give it to the rest. You can control access pretty easily with the employee agent. Access to the agent is controlled via perm set, so you could just create a perm set for that agent and assign it to your small pilot of users (once the agent is built) With that being said, the biggest challenge right now is customers trying to overcomplicate and build very robust AI capabilities without having a vision (or data or skillsets necessary) I’d suggest starting with something simple that would make your users more efficient in their day to day. It would be helpful to list out your targeted use cases here to get some feedback and maybe suggestions on how to approach! That I figured, I just want to only buy a few licenses right now. Employee Agent isn’t a separate “per user” license. It comes with Foundations. It’s a consumption based product There are add-ons that are priced at a PUPM structure that give you unlimited employee agent usage, but they are pricy and I wouldn’t necessarily recommend them for a sort of pilot unless you’d leverage all the capabilities that come with the add-on",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_2auwgw6y",
+          "author": "TheRealMichaelBluth",
+          "authorProfile": "https://www.reddit.com/user/TheRealMichaelBluth",
+          "commentId": "t1_n9e0zi5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9e0zi5/",
+          "publishingDate": "2025-08-18T18:07:51+00:00",
+          "commentBody": "Not quite, I think I would build out some topics based on the use cases we have in mind, then we'd give a few users licenses and have them try out the tool, give us feedback and see how it works on the ground. If that goes well, then we'd give it to the rest. You can control access pretty easily with the employee agent. Access to the agent is controlled via perm set, so you could just create a perm set for that agent and assign it to your small pilot of users (once the agent is built) With that being said, the biggest challenge right now is customers trying to overcomplicate and build very robust AI capabilities without having a vision (or data or skillsets necessary) I’d suggest starting with something simple that would make your users more efficient in their day to day. It would be helpful to list out your targeted use cases here to get some feedback and maybe suggestions on how to approach! That I figured, I just want to only buy a few licenses right now. Employee Agent isn’t a separate “per user” license. It comes with Foundations. It’s a consumption based product There are add-ons that are priced at a PUPM structure that give you unlimited employee agent usage, but they are pricy and I wouldn’t necessarily recommend them for a sort of pilot unless you’d leverage all the capabilities that come with the add-on",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_cq4mbxh6",
+          "author": "Suspicious-Nerve-487",
+          "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+          "commentId": "t1_n9e9rue",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9e9rue/",
+          "publishingDate": "2025-08-18T18:50:37+00:00",
+          "commentBody": "You can control access pretty easily with the employee agent. Access to the agent is controlled via perm set, so you could just create a perm set for that agent and assign it to your small pilot of users (once the agent is built) With that being said, the biggest challenge right now is customers trying to overcomplicate and build very robust AI capabilities without having a vision (or data or skillsets necessary) I’d suggest starting with something simple that would make your users more efficient in their day to day. It would be helpful to list out your targeted use cases here to get some feedback and maybe suggestions on how to approach! That I figured, I just want to only buy a few licenses right now. Employee Agent isn’t a separate “per user” license. It comes with Foundations. It’s a consumption based product There are add-ons that are priced at a PUPM structure that give you unlimited employee agent usage, but they are pricy and I wouldn’t necessarily recommend them for a sort of pilot unless you’d leverage all the capabilities that come with the add-on",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_2auwgw6y",
+          "author": "TheRealMichaelBluth",
+          "authorProfile": "https://www.reddit.com/user/TheRealMichaelBluth",
+          "commentId": "t1_n9ehwje",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9ehwje/",
+          "publishingDate": "2025-08-18T19:30:03+00:00",
+          "commentBody": "That I figured, I just want to only buy a few licenses right now. Employee Agent isn’t a separate “per user” license. It comes with Foundations. It’s a consumption based product There are add-ons that are priced at a PUPM structure that give you unlimited employee agent usage, but they are pricy and I wouldn’t necessarily recommend them for a sort of pilot unless you’d leverage all the capabilities that come with the add-on",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_cq4mbxh6",
+          "author": "Suspicious-Nerve-487",
+          "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+          "commentId": "t1_n9ek2ic",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9ek2ic/",
+          "publishingDate": "2025-08-18T19:40:26+00:00",
+          "commentBody": "Employee Agent isn’t a separate “per user” license. It comes with Foundations. It’s a consumption based product There are add-ons that are priced at a PUPM structure that give you unlimited employee agent usage, but they are pricy and I wouldn’t necessarily recommend them for a sort of pilot unless you’d leverage all the capabilities that come with the add-on",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_jh5cv",
+      "author": "SeaMenCaptain",
+      "authorProfile": "https://www.reddit.com/user/SeaMenCaptain",
+      "commentId": "t1_n9jfn8o",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9jfn8o/",
+      "publishingDate": "2025-08-19T14:57:18+00:00",
+      "commentBody": "I’d love to hear all your use cases and would love to help out a bit if you want, from just a brainstorming and feedback perspective. Feel free to DM me, I used to consult in the NGO space but now I’m a Salesforce product manager at a large company. Ive got a decent amount of free time right now and would love to make new connections. I’m also agentforce certified. I’ll say that your biggest hurdle is going to be the cost and you should largely be using agentforce to drive revenue. It’s also strong with case deflection and improving other CS metrics via case summaries and auto generated responses, plus chat etc etc. So unless you are also looking to incorporate basically some level of client facing features, I’d agree with others that you have cheaper tools available. The biggest thing you are paying for with agentforce, as opposed to other AI tools is the data protection layer. So not sure how sensitive your customer data is, but that alone could be a reason to use agentforce. Otherwise, you could even start with building your own ChatGPT agents to automate the scanning of pdf’s and updating fields. But yeah, some food for thought and feel free to DM like I mentioned. Our data is sensitive, I had to go through a separate background check and fingerprint scan to work with our data I think that a lone gives you a strong case for AgentForce. Your first step is to define some business goals and then align those with AI/Agentforce. Basically, don't start solution-ing before you've established your business goals. That’s what we were seeing as the main advantage too, our VP was suggesting that our staff put info into ChatGPT and I had to delicately remind her to never put info into ChatGPT that you wouldn’t tell someone publicly And with Agentforce, you can still connect Salesforce to OpenAI/ChatGPT if you prefer its output or want to utilize ChatGPT's Agents, because Salesforce has an agreement with OpenAI to not store any data. That’s what our AE at Salesforce was telling us too. That it can search for info from ChatGPT if you want things outside of Salesforce, but it’ll adjust to not store info into ChatGPT If you need to deep dive for your team, checkout the Einstein trust layer, as this will explain all the security that happens behind the scenes between your org and LLM of choice. There are also security whitepapers that walk through in fine detail how all of this works for their AI offerings",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_2auwgw6y",
+          "author": "TheRealMichaelBluth",
+          "authorProfile": "https://www.reddit.com/user/TheRealMichaelBluth",
+          "commentId": "t1_n9jlopx",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9jlopx/",
+          "publishingDate": "2025-08-19T15:25:38+00:00",
+          "commentBody": "Our data is sensitive, I had to go through a separate background check and fingerprint scan to work with our data I think that a lone gives you a strong case for AgentForce. Your first step is to define some business goals and then align those with AI/Agentforce. Basically, don't start solution-ing before you've established your business goals. That’s what we were seeing as the main advantage too, our VP was suggesting that our staff put info into ChatGPT and I had to delicately remind her to never put info into ChatGPT that you wouldn’t tell someone publicly And with Agentforce, you can still connect Salesforce to OpenAI/ChatGPT if you prefer its output or want to utilize ChatGPT's Agents, because Salesforce has an agreement with OpenAI to not store any data. That’s what our AE at Salesforce was telling us too. That it can search for info from ChatGPT if you want things outside of Salesforce, but it’ll adjust to not store info into ChatGPT If you need to deep dive for your team, checkout the Einstein trust layer, as this will explain all the security that happens behind the scenes between your org and LLM of choice. There are also security whitepapers that walk through in fine detail how all of this works for their AI offerings",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_jh5cv",
+          "author": "SeaMenCaptain",
+          "authorProfile": "https://www.reddit.com/user/SeaMenCaptain",
+          "commentId": "t1_n9jwr38",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9jwr38/",
+          "publishingDate": "2025-08-19T16:17:46+00:00",
+          "commentBody": "I think that a lone gives you a strong case for AgentForce. Your first step is to define some business goals and then align those with AI/Agentforce. Basically, don't start solution-ing before you've established your business goals. That’s what we were seeing as the main advantage too, our VP was suggesting that our staff put info into ChatGPT and I had to delicately remind her to never put info into ChatGPT that you wouldn’t tell someone publicly And with Agentforce, you can still connect Salesforce to OpenAI/ChatGPT if you prefer its output or want to utilize ChatGPT's Agents, because Salesforce has an agreement with OpenAI to not store any data. That’s what our AE at Salesforce was telling us too. That it can search for info from ChatGPT if you want things outside of Salesforce, but it’ll adjust to not store info into ChatGPT If you need to deep dive for your team, checkout the Einstein trust layer, as this will explain all the security that happens behind the scenes between your org and LLM of choice. There are also security whitepapers that walk through in fine detail how all of this works for their AI offerings",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_2auwgw6y",
+          "author": "TheRealMichaelBluth",
+          "authorProfile": "https://www.reddit.com/user/TheRealMichaelBluth",
+          "commentId": "t1_n9jx9a9",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9jx9a9/",
+          "publishingDate": "2025-08-19T16:20:09+00:00",
+          "commentBody": "That’s what we were seeing as the main advantage too, our VP was suggesting that our staff put info into ChatGPT and I had to delicately remind her to never put info into ChatGPT that you wouldn’t tell someone publicly And with Agentforce, you can still connect Salesforce to OpenAI/ChatGPT if you prefer its output or want to utilize ChatGPT's Agents, because Salesforce has an agreement with OpenAI to not store any data. That’s what our AE at Salesforce was telling us too. That it can search for info from ChatGPT if you want things outside of Salesforce, but it’ll adjust to not store info into ChatGPT If you need to deep dive for your team, checkout the Einstein trust layer, as this will explain all the security that happens behind the scenes between your org and LLM of choice. There are also security whitepapers that walk through in fine detail how all of this works for their AI offerings",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_jh5cv",
+          "author": "SeaMenCaptain",
+          "authorProfile": "https://www.reddit.com/user/SeaMenCaptain",
+          "commentId": "t1_n9jz4r5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9jz4r5/",
+          "publishingDate": "2025-08-19T16:29:00+00:00",
+          "commentBody": "And with Agentforce, you can still connect Salesforce to OpenAI/ChatGPT if you prefer its output or want to utilize ChatGPT's Agents, because Salesforce has an agreement with OpenAI to not store any data. That’s what our AE at Salesforce was telling us too. That it can search for info from ChatGPT if you want things outside of Salesforce, but it’ll adjust to not store info into ChatGPT If you need to deep dive for your team, checkout the Einstein trust layer, as this will explain all the security that happens behind the scenes between your org and LLM of choice. There are also security whitepapers that walk through in fine detail how all of this works for their AI offerings",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_2auwgw6y",
+          "author": "TheRealMichaelBluth",
+          "authorProfile": "https://www.reddit.com/user/TheRealMichaelBluth",
+          "commentId": "t1_n9jzc19",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9jzc19/",
+          "publishingDate": "2025-08-19T16:29:57+00:00",
+          "commentBody": "That’s what our AE at Salesforce was telling us too. That it can search for info from ChatGPT if you want things outside of Salesforce, but it’ll adjust to not store info into ChatGPT If you need to deep dive for your team, checkout the Einstein trust layer, as this will explain all the security that happens behind the scenes between your org and LLM of choice. There are also security whitepapers that walk through in fine detail how all of this works for their AI offerings",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_cq4mbxh6",
+          "author": "Suspicious-Nerve-487",
+          "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+          "commentId": "t1_n9mii9q",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9mii9q/",
+          "publishingDate": "2025-08-20T00:04:17+00:00",
+          "commentBody": "If you need to deep dive for your team, checkout the Einstein trust layer, as this will explain all the security that happens behind the scenes between your org and LLM of choice. There are also security whitepapers that walk through in fine detail how all of this works for their AI offerings",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_5n51b0n0",
+      "author": "cryptokaykay",
+      "authorProfile": "https://www.reddit.com/user/cryptokaykay",
+      "commentId": "t1_n9faqoo",
+      "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9faqoo/",
+      "publishingDate": "2025-08-18T21:51:09+00:00",
+      "commentBody": "https://www.reddit.com/r/LangChain/comments/1m7mxtc/how_building_agents_as_slack_bots_leveled_up_our/ I am currently building something that allows you to create and install slackbots that can connect to various b2b tools and achieve workflows from slack. While I am not sure if it can satisfy your usecases or not, I am looking for some beta testers. Here's a quick demo - Let me know if this is interesting. How is this handling any sort of security?",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": "t2_cq4mbxh6",
+          "author": "Suspicious-Nerve-487",
+          "authorProfile": "https://www.reddit.com/user/Suspicious-Nerve-487",
+          "commentId": "t1_n9ghtb9",
+          "link": "https://www.reddit.com/r/salesforce/comments/1mttesh/agentforce_pilot_program/n9ghtb9/",
+          "publishingDate": "2025-08-19T01:56:22+00:00",
+          "commentBody": "How is this handling any sort of security?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    }
+  ]
+}

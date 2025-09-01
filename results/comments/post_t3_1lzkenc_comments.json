@@ -1,0 +1,480 @@
+{
+  "info": {
+    "authorId": "t2_6xbjzcee",
+    "author": "flossisboss16",
+    "authorProfile": "https://www.reddit.com/user/flossisboss16",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1lzkenc",
+    "postLabel": null,
+    "publishingDate": "2025-07-14T11:55:22+00:00",
+    "postTitle": "Using Agentforce to raise a case with Salesforce",
+    "postMessage": "Hi all, I was just trying to raise a case with Salesforce support and it seems like now when you go to the contact support page the only option you have is to use agentforce, then when you try to use agentforce it just doesn't respond I was just curious if this is the case for other people as well or is it just us? They are a multi-billion dollar company and there just isn't a way to raise a case with them? There used to be a way you could create a case directly if you clicked around a bit but they seem to have taken that away",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/",
+    "commentCount": 38,
+    "upvoteCount": 35,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_11h7do",
+      "author": "UnpopularCrayon",
+      "authorProfile": "https://www.reddit.com/user/UnpopularCrayon",
+      "commentId": "t1_n32f8bo",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n32f8bo/",
+      "publishingDate": "2025-07-14T12:45:58+00:00",
+      "commentBody": "\"Agentforce has cut our customer support case volume by more than 50%!\" You have given me a laugh at least! Exactly this",
+      "upvotes": 50,
+      "dislikes": 50,
+      "downvotes": 51,
+      "replies": [
+        {
+          "authorId": "t2_6xbjzcee",
+          "author": "flossisboss16",
+          "authorProfile": "https://www.reddit.com/user/flossisboss16",
+          "commentId": "t1_n32hqj2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n32hqj2/",
+          "publishingDate": "2025-07-14T13:00:42+00:00",
+          "commentBody": "You have given me a laugh at least!",
+          "upvotes": 9,
+          "dislikes": 9,
+          "downvotes": 10
+        },
+        {
+          "authorId": "t2_1fczx4qa9i",
+          "author": "Character_Affect3842",
+          "authorProfile": "https://www.reddit.com/user/Character_Affect3842",
+          "commentId": "t1_n32jkjv",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n32jkjv/",
+          "publishingDate": "2025-07-14T13:11:16+00:00",
+          "commentBody": "Exactly this",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_atsnj",
+      "author": "Selfuntitled",
+      "authorProfile": "https://www.reddit.com/user/Selfuntitled",
+      "commentId": "t1_n329uvv",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n329uvv/",
+      "publishingDate": "2025-07-14T12:12:06+00:00",
+      "commentBody": "Just insult the agent and say I need to open a case. That generally works. Use profanity as well Lmao ...",
+      "upvotes": 18,
+      "dislikes": 18,
+      "downvotes": 19,
+      "replies": [
+        {
+          "authorId": "t2_1fczx4qa9i",
+          "author": "Character_Affect3842",
+          "authorProfile": "https://www.reddit.com/user/Character_Affect3842",
+          "commentId": "t1_n32jhib",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n32jhib/",
+          "publishingDate": "2025-07-14T13:10:47+00:00",
+          "commentBody": "Use profanity as well",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        },
+        {
+          "authorId": "t2_14yhb0",
+          "author": "BeingHuman30",
+          "authorProfile": "https://www.reddit.com/user/BeingHuman30",
+          "commentId": "t1_n33frpi",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n33frpi/",
+          "publishingDate": "2025-07-14T15:52:59+00:00",
+          "commentBody": "Lmao ...",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1fczx4qa9i",
+      "author": "Character_Affect3842",
+      "authorProfile": "https://www.reddit.com/user/Character_Affect3842",
+      "commentId": "t1_n32i4rg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n32i4rg/",
+      "publishingDate": "2025-07-14T13:03:00+00:00",
+      "commentBody": "That's the trick, you don't, so we can claim 50% case volume reduction from AI. What we did is remove the \"Open a new Case\" button from the UI, he, he, he. Thank our CEO overlord for the big fuck you to all Standard customers, instead of calling support useless. You want it back? Have you considered Premier? He, he, he The create case button is even gone for premier success customers- can confirm. Ridiculous",
+      "upvotes": 11,
+      "dislikes": 11,
+      "downvotes": 12,
+      "replies": [
+        {
+          "authorId": "t2_5l8g83s2",
+          "author": "Acceptable_Effect_55",
+          "authorProfile": "https://www.reddit.com/user/Acceptable_Effect_55",
+          "commentId": "t1_n34xxea",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n34xxea/",
+          "publishingDate": "2025-07-14T20:06:28+00:00",
+          "commentBody": "The create case button is even gone for premier success customers- can confirm. Ridiculous",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_4szo1mo7",
+      "author": "dkinthehouse",
+      "authorProfile": "https://www.reddit.com/user/dkinthehouse",
+      "commentId": "t1_n32b625",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n32b625/",
+      "publishingDate": "2025-07-14T12:20:39+00:00",
+      "commentBody": "I just type “Need to speak with an agent” type my description of the problem, then it opens a case for me. I don’t have time for the back and forth with an AI agent. Sadly you still do need time for back and forth with a level 1 agent what are you talking about? are you saying I’d still be wasting time talking to an actual human being who’s a lower level support rep? As long as I can get in touch with a human being, I’m alright. 🤷🏽‍♂️ A few months ago it took 7 days of asynchronous emails and phone calls before I got the case escalated to technical support to actually pinpoint what I’d been doing wrong",
+      "upvotes": 11,
+      "dislikes": 11,
+      "downvotes": 12,
+      "replies": [
+        {
+          "authorId": "t2_x52u2",
+          "author": "readeral",
+          "authorProfile": "https://www.reddit.com/user/readeral",
+          "commentId": "t1_n35d009",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n35d009/",
+          "publishingDate": "2025-07-14T21:17:06+00:00",
+          "commentBody": "Sadly you still do need time for back and forth with a level 1 agent what are you talking about? are you saying I’d still be wasting time talking to an actual human being who’s a lower level support rep? As long as I can get in touch with a human being, I’m alright. 🤷🏽‍♂️ A few months ago it took 7 days of asynchronous emails and phone calls before I got the case escalated to technical support to actually pinpoint what I’d been doing wrong",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_4szo1mo7",
+          "author": "dkinthehouse",
+          "authorProfile": "https://www.reddit.com/user/dkinthehouse",
+          "commentId": "t1_n35kz0w",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n35kz0w/",
+          "publishingDate": "2025-07-14T21:56:14+00:00",
+          "commentBody": "what are you talking about? are you saying I’d still be wasting time talking to an actual human being who’s a lower level support rep? As long as I can get in touch with a human being, I’m alright. 🤷🏽‍♂️ A few months ago it took 7 days of asynchronous emails and phone calls before I got the case escalated to technical support to actually pinpoint what I’d been doing wrong",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_x52u2",
+          "author": "readeral",
+          "authorProfile": "https://www.reddit.com/user/readeral",
+          "commentId": "t1_n35vc59",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n35vc59/",
+          "publishingDate": "2025-07-14T22:50:50+00:00",
+          "commentBody": "A few months ago it took 7 days of asynchronous emails and phone calls before I got the case escalated to technical support to actually pinpoint what I’d been doing wrong",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_8po9a",
+      "author": "depillinn",
+      "authorProfile": "https://www.reddit.com/user/depillinn",
+      "commentId": "t1_n32b1ou",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n32b1ou/",
+      "publishingDate": "2025-07-14T12:19:52+00:00",
+      "commentBody": "Well I have been waiting for a resolution from Salesforce Case now since April, and it's stuck in \"Approval\" ( Billing issue ). According to Benioff 50% of the work is being done by AI, you would believe that maybe it wouldn't take so long to get a simple approval through with all of this free time because of AI ?",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5
+    },
+    {
+      "authorId": "t2_htgao",
+      "author": "Pheo340",
+      "authorProfile": "https://www.reddit.com/user/Pheo340",
+      "commentId": "t1_n33kvwz",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n33kvwz/",
+      "publishingDate": "2025-07-14T16:17:04+00:00",
+      "commentBody": "Bypass agentforce by going directly to https://help.salesforce.com/s/cases Sadly the \"Create a case\" button doesn't seem to be on this screen any more either, the only option I see is to chat to bl**dy agentforce Very interesting as I still have the Create a Case button. Do you know which support plan your org has?",
+      "upvotes": 4,
+      "dislikes": 4,
+      "downvotes": 5,
+      "replies": [
+        {
+          "authorId": "t2_9tz72f7y",
+          "author": "Equivalent-Fun-9013",
+          "authorProfile": "https://www.reddit.com/user/Equivalent-Fun-9013",
+          "commentId": "t1_n4v0nb8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n4v0nb8/",
+          "publishingDate": "2025-07-24T07:40:40+00:00",
+          "commentBody": "Sadly the \"Create a case\" button doesn't seem to be on this screen any more either, the only option I see is to chat to bl**dy agentforce Very interesting as I still have the Create a Case button. Do you know which support plan your org has?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_htgao",
+          "author": "Pheo340",
+          "authorProfile": "https://www.reddit.com/user/Pheo340",
+          "commentId": "t1_n4wrfmo",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n4wrfmo/",
+          "publishingDate": "2025-07-24T14:51:26+00:00",
+          "commentBody": "Very interesting as I still have the Create a Case button. Do you know which support plan your org has?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_140u5u",
+      "author": "thenibblonian",
+      "authorProfile": "https://www.reddit.com/user/thenibblonian",
+      "commentId": "t1_n3450h1",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n3450h1/",
+      "publishingDate": "2025-07-14T17:49:06+00:00",
+      "commentBody": "What in the actual hell is this... 1- I doubt anyone would want to buy Agentforce after going through this experience. 2- How is Agentforce so bad? To elaborate: it can't get basic answers right, it has problems detecting whether you are logged in or not, and it makes it very inefficient to create a case. Salesforce, please, give us back a simple Create Case button. We don't need AI to ask for the exact same form questions.",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4
+    },
+    {
+      "authorId": "t2_vlxte733",
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_n3280cu",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n3280cu/",
+      "publishingDate": "2025-07-14T11:59:44+00:00",
+      "commentBody": "Can you specify exactly where you're going to request support? This is peak 2025 Salesforce If you go to help.salesforce.com and click your profile picture you can go to My Cases and there used to be a button you could click to create a case. I just went to the page and that button showed for a second but then it got covered up with an Agentforce window! But when you type a message into Agentforce and click send the message disappears and it just doesn't do anything WOW that is not great, I'll have to test it myself soon.",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7,
+      "replies": [
+        {
+          "authorId": "t2_6xbjzcee",
+          "author": "flossisboss16",
+          "authorProfile": "https://www.reddit.com/user/flossisboss16",
+          "commentId": "t1_n329nxs",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n329nxs/",
+          "publishingDate": "2025-07-14T12:10:50+00:00",
+          "commentBody": "If you go to help.salesforce.com and click your profile picture you can go to My Cases and there used to be a button you could click to create a case. I just went to the page and that button showed for a second but then it got covered up with an Agentforce window! But when you type a message into Agentforce and click send the message disappears and it just doesn't do anything WOW that is not great, I'll have to test it myself soon.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_n33bb2q",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n33bb2q/",
+          "publishingDate": "2025-07-14T15:32:04+00:00",
+          "commentBody": "WOW that is not great, I'll have to test it myself soon.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_1h4vz102bw",
+      "author": "Low-Ambassador-208",
+      "authorProfile": "https://www.reddit.com/user/Low-Ambassador-208",
+      "commentId": "t1_n328nqi",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n328nqi/",
+      "publishingDate": "2025-07-14T12:04:08+00:00",
+      "commentBody": "yeah, you kind of have to force it to suggest something related, than start from there, it's useless and ridiculous. We raised this point when our salesforce account manager tried to sell us AI",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_4ddcgsza",
+      "author": "FrostGiant_1",
+      "authorProfile": "https://www.reddit.com/user/FrostGiant_1",
+      "commentId": "t1_n33s61a",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n33s61a/",
+      "publishingDate": "2025-07-14T16:51:10+00:00",
+      "commentBody": "Happened to me today, I just wrote in \"Please open Salesforce Support Case\". Don't put in \"Please open Case\" because it'll think the Case object in your specific org and ask questions about that.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_d9sheqqe",
+      "author": "datapharmer",
+      "authorProfile": "https://www.reddit.com/user/datapharmer",
+      "commentId": "t1_n32e5tz",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n32e5tz/",
+      "publishingDate": "2025-07-14T12:39:31+00:00",
+      "commentBody": "Yeah doesn’t help when the agent just doesn’t respond though which is like 90% of the time for me. AI now solves 60% of all cases but 90% of those is probably “case closed no response from customer” after they gave up because the chatbot didn’t work.",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4
+    },
+    {
+      "authorId": "t2_pwrhoxapc",
+      "author": "adamerstelle",
+      "authorProfile": "https://www.reddit.com/user/adamerstelle",
+      "commentId": "t1_n32nh5p",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n32nh5p/",
+      "publishingDate": "2025-07-14T13:33:08+00:00",
+      "commentBody": "The \"create a case\" button links to this url: https://help.salesforce.com/s/case-submission Maybe you can directly go there? It redirects unfortunately, you can't escape Agentforce!",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_6xbjzcee",
+          "author": "flossisboss16",
+          "authorProfile": "https://www.reddit.com/user/flossisboss16",
+          "commentId": "t1_n32r0uf",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n32r0uf/",
+          "publishingDate": "2025-07-14T13:52:22+00:00",
+          "commentBody": "It redirects unfortunately, you can't escape Agentforce!",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_3cgg40nm",
+      "author": "HelpfulImportance",
+      "authorProfile": "https://www.reddit.com/user/HelpfulImportance",
+      "commentId": "t1_n3393zp",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n3393zp/",
+      "publishingDate": "2025-07-14T15:21:19+00:00",
+      "commentBody": "Yep, terrible experience much like where much of Salesforce is going.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_o5m5i",
+      "author": "stonediggity",
+      "authorProfile": "https://www.reddit.com/user/stonediggity",
+      "commentId": "t1_n36vaoy",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n36vaoy/",
+      "publishingDate": "2025-07-15T02:14:20+00:00",
+      "commentBody": "Agentforce is trash",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_9tz72f7y",
+      "author": "Equivalent-Fun-9013",
+      "authorProfile": "https://www.reddit.com/user/Equivalent-Fun-9013",
+      "commentId": "t1_n4v2pws",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n4v2pws/",
+      "publishingDate": "2025-07-24T08:00:05+00:00",
+      "commentBody": "I found a bit of a hack to get the old form back. Create your case with basic details using the enforced Agentforce flow (I hate this, it doesn't let you format your message with line breaks or anything, and misses half the options to specify a sandbox or add collaborators) Once created, you can click \"Clone\" on that case, and this presents you with the proper create-case form you used to use. Once you create your new case, you can Close the Agentforce-created one.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_5067re7y",
+      "author": "junglekitkat",
+      "authorProfile": "https://www.reddit.com/user/junglekitkat",
+      "commentId": "t1_n32ns9w",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n32ns9w/",
+      "publishingDate": "2025-07-14T13:34:50+00:00",
+      "commentBody": "I have the same issue if I use my work provided laptop, but if I switch to my personal I can use the chat to create a case. So might be worth trying a different computer and seeing if it's still being blocked. I got it to work on my mobile! Must be something in our browser settings blocking it. Thanks very much",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_6xbjzcee",
+          "author": "flossisboss16",
+          "authorProfile": "https://www.reddit.com/user/flossisboss16",
+          "commentId": "t1_n32ryti",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n32ryti/",
+          "publishingDate": "2025-07-14T13:57:16+00:00",
+          "commentBody": "I got it to work on my mobile! Must be something in our browser settings blocking it. Thanks very much",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_mfskn",
+      "author": "-EVildoer",
+      "authorProfile": "https://www.reddit.com/user/-EVildoer",
+      "commentId": "t1_n334687",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n334687/",
+      "publishingDate": "2025-07-14T14:57:32+00:00",
+      "commentBody": "I have yet to encounter a scenario where Agentforce successfully deflected by support request. It seems to never have the answer. Strange...",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_55usswn0",
+      "author": "isShark",
+      "authorProfile": "https://www.reddit.com/user/isShark",
+      "commentId": "t1_n364voj",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n364voj/",
+      "publishingDate": "2025-07-14T23:42:17+00:00",
+      "commentBody": "I just did a case today. It was pretty easy. This is my issue and I want to talk to someone, and it connected me to a rep right away. Transferring chat, Agentforce has left the conversation, someone joined.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_1556gxyh",
+      "author": "ceceseesall",
+      "authorProfile": "https://www.reddit.com/user/ceceseesall",
+      "commentId": "t1_n3jrf5n",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n3jrf5n/",
+      "publishingDate": "2025-07-17T00:52:36+00:00",
+      "commentBody": "What’s crazy is I literally raised a support issue that an Agent should have resolved fairly quickly based on the knowledge articles available. However the agent ended up routing me to a human who took a few extra questions to just confirm the steps advised in the help doc. No waiting, but the agent definitely behaved more like a chat bot. \n- niche omniscript permission issue\n- premier support customer (no create a case button available)\n- human CS ended up sending me a knowledge article that had references to the error I provided I’m slightly indifferent to their desire to implement the process, but I don’t like MB’s thought train of replacing level 1 support with agents. If anything, agents should be used to support managerial tasks that take up too much time that can free up a manager to either be a good effective mentor or end up being DQ’d.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_iwrxnfwe",
+      "author": "Quirky-Hovercraft471",
+      "authorProfile": "https://www.reddit.com/user/Quirky-Hovercraft471",
+      "commentId": "t1_n568ztu",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n568ztu/",
+      "publishingDate": "2025-07-25T22:59:57+00:00",
+      "commentBody": "Absolutely awful. One of the worst tech experiences I've ever had. Did they hire some Microsoft engineers or something?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_1u34ezbz0k",
+      "author": "whazzuup91",
+      "authorProfile": "https://www.reddit.com/user/whazzuup91",
+      "commentId": "t1_naeoyxb",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/naeoyxb/",
+      "publishingDate": "2025-08-24T13:12:57+00:00",
+      "commentBody": "dude, I just used this. I think it's funny how its slower than actually just creating a case. All it does is ask the same questions , but one at a time so its way slower.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_cngk2qt71",
+      "author": "AccomplishedPop3001",
+      "authorProfile": "https://www.reddit.com/user/AccomplishedPop3001",
+      "commentId": "t1_nb0z1nl",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/nb0z1nl/",
+      "publishingDate": "2025-08-27T21:57:00+00:00",
+      "commentBody": "Absolutely awful experience today - no raise an important security case button - Went through the one question at a time and then it basically said it was too busy and could not create a case.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_13pgsf",
+      "author": "elmasbo",
+      "authorProfile": "https://www.reddit.com/user/elmasbo",
+      "commentId": "t1_n36xyex",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lzkenc/using_agentforce_to_raise_a_case_with_salesforce/n36xyex/",
+      "publishingDate": "2025-07-15T02:30:19+00:00",
+      "commentBody": "Last week I created a Case after a chat with Agentforce. Initially, I had a hard time too, I was not able to type in the Agentforce, I just forget how I managed to solve it.\nThen the related articled suggested based on my inquiry were super correct, some I missed before reaching it. Unfortunately, none worked. \nFinally I proceed to create a case, Agentforce asked me some data before doing it, I replied I was on GMT 0 Eastern Time and the case was created on GMT -7 Los Angeles. \nOk I guess 😂",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": 0
+    }
+  ]
+}

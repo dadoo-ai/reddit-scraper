@@ -1,0 +1,506 @@
+{
+  "info": {
+    "authorId": "t2_vlxte733",
+    "author": "Interesting_Button60",
+    "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1i1zxaf",
+    "postLabel": "apps/products",
+    "publishingDate": "2025-01-15T15:30:02+00:00",
+    "postTitle": "If I Had To Sell Agentforce - Here Is How I Would Do It",
+    "postMessage": "This is a sort-of follow up to my last post covering a failed Agentforce pitch by Salesforce to my client last week. Nothing quite like advice no one asked for but I hope it helps. Pre-Pitch-Prep Research: Go on the prospects website and see if they use a chat bot. What does the chat bot currently provide? Which services is it there to handle? How easy is it to use? Time how quickly it takes a real human that can actually provide help to arrive. No chat bot? Call their support line, time how long it takes to hear from someone. This is the 'Pain' you are solving - how fast a client can actually get real help. Don't Start With That Demo Your team forcing you to show that mystery 2 minute video that the client is not allowed to record? Save it for the end. Explain Agentforce in 5 words: \"Agentforce is an AI chatbot.\" You don't need to explain LLMs and any other technical concept. Most people get it. \"This is our on-platform Chat GPT - it uses your Salesforce data and any other sources of data you choose to provide it to help your clients.\" Use Your Research Remember that prep work you did? Tell the client how slow their current support is, and how dumb their current chat bot is (if it is a poor service). \"The reality is, with some effort on your end using Agentforce will provide a clear and consistent voice for your business. And your clients will not have to wait xx amount of time like I had to when I tried your current chat bot.\" Service agent in use currently? Say: \"Our research shows that many customer requests could be deflected by a AI chatbot that has access to your CRM and company documentation.\" Sales qualification agent in use currently? Say: \"Agentforce has the capability to more effectively qualify your potential clients, and more importantly, can save you time from having to review and disqualify folks who are not a fit for your services.\" Make The Client Pitch Themselves Don't do 90% of the talking. Simply ask: \"We here at Salesforce are making a big push for Agentforce, but I am curious, is this something your team has been discussing internally?\" If they are not interested, do you really think 15% discounts with minimum order quantities will help? No, they wont, don't fool yourself. If they are interested, give them homework: \"ROI is an important element of any technology investment. If I explained the pricing structure of Agentforce do you think you could preform an analysis of how much value the tool could bring with your current inbound client communication volume?\" Show What Is Possible If by now the client is actually receptive, ask them if they want to see that demo video. When it finishes, confirm it was actually relevant to them. When they ask you how much implementation is typically costing try to actually be honest. Only you guys know whats been going on, most of us SI have no clue. Be prepared before your pitch to answer the question truthfully. You can say something like: \"Like all things in Salesforce, if you want to create ultra custom solutions there are efforts in configuration that are needed and that can scale costs. Agentforce does have some pre-built solutions for simple service and sales applications, so getting started with a simple Agent is not a massive undertaking.\" Encourage Starting Small Even if your quota is on the line, since this is a very new product, encourage small steps. You owe it to your client to put their interests first. You will be rewarded for the honest approach. Your integrity matters, even in Q4. Good luck to all you AEs in the last 2.5 weeks of this FY.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/",
+    "commentCount": 42,
+    "upvoteCount": 88,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_9nty9",
+      "author": "Snipesticker",
+      "authorProfile": "https://www.reddit.com/user/Snipesticker",
+      "commentId": "t1_m7alb2k",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7alb2k/",
+      "publishingDate": "2025-01-15T16:30:47+00:00",
+      "commentBody": "Note: It is not „on platform Chat GPT.“\nAgentforce uses Chat GPT (exclusively for the reasoning engine) and allows the use of other models or to „bring your own model“ for subsequent tasks. This is exactly what I mean by not getting in the weeds of the technical side in an initial pitch. BUT - the AEs should have this knowledge so glad you are educating all of us. We all have a lot to learn! I guess another way to word it could be “…think of it as an on-platform ChatGPT trained on your Salesforce data”? It is not running a llm on the Salesforce platform. It uses external llms. It is not trained on your data, either. It uses a model that gets grounded via retrieval augmented generation to avoid having to train a model every time your data changes. Nobody is saying it is running an llm on SF. You’re getting caught up in the technical details. The idea is to paint a picture of the functionality using familiar terms. But saying “trained on your salesforce data” is just wrong though and can paint the wrong image. Agentforce can use data cloud to get context on your data, and because zero trust policy is such a big deal, saying that it’s trained of your data can raise serious concerns for anyone worried about their data potentially being exposed. This was how it was pitched to our company initially and we almost passed because our AE and SE couldn't explain it correctly. Our CISO was not impressed. It’s not trained on your data From Google:\n“Yes, you can train Agentforce on your Salesforce organization data; Agentforce is specifically designed to leverage existing Salesforce data to create autonomous AI agents that can interact with customers and employees based on your company’s information stored within your Salesforce CRM, making it a key feature of the platform.” That's the suggestion and direction I'm giving.",
+      "upvotes": 15,
+      "dislikes": 15,
+      "downvotes": 16,
+      "replies": [
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_m7am2om",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7am2om/",
+          "publishingDate": "2025-01-15T16:34:32+00:00",
+          "commentBody": "This is exactly what I mean by not getting in the weeds of the technical side in an initial pitch. BUT - the AEs should have this knowledge so glad you are educating all of us. We all have a lot to learn!",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        },
+        {
+          "authorId": "t2_fwha77t3",
+          "author": "Faster_than_FTL",
+          "authorProfile": "https://www.reddit.com/user/Faster_than_FTL",
+          "commentId": "t1_m7av0v9",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7av0v9/",
+          "publishingDate": "2025-01-15T17:18:05+00:00",
+          "commentBody": "I guess another way to word it could be “…think of it as an on-platform ChatGPT trained on your Salesforce data”? It is not running a llm on the Salesforce platform. It uses external llms. It is not trained on your data, either. It uses a model that gets grounded via retrieval augmented generation to avoid having to train a model every time your data changes. Nobody is saying it is running an llm on SF. You’re getting caught up in the technical details. The idea is to paint a picture of the functionality using familiar terms. But saying “trained on your salesforce data” is just wrong though and can paint the wrong image. Agentforce can use data cloud to get context on your data, and because zero trust policy is such a big deal, saying that it’s trained of your data can raise serious concerns for anyone worried about their data potentially being exposed. This was how it was pitched to our company initially and we almost passed because our AE and SE couldn't explain it correctly. Our CISO was not impressed. It’s not trained on your data From Google:\n“Yes, you can train Agentforce on your Salesforce organization data; Agentforce is specifically designed to leverage existing Salesforce data to create autonomous AI agents that can interact with customers and employees based on your company’s information stored within your Salesforce CRM, making it a key feature of the platform.” That's the suggestion and direction I'm giving.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_9nty9",
+          "author": "Snipesticker",
+          "authorProfile": "https://www.reddit.com/user/Snipesticker",
+          "commentId": "t1_m7bp2l8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7bp2l8/",
+          "publishingDate": "2025-01-15T19:41:16+00:00",
+          "commentBody": "It is not running a llm on the Salesforce platform. It uses external llms. It is not trained on your data, either. It uses a model that gets grounded via retrieval augmented generation to avoid having to train a model every time your data changes. Nobody is saying it is running an llm on SF. You’re getting caught up in the technical details. The idea is to paint a picture of the functionality using familiar terms. But saying “trained on your salesforce data” is just wrong though and can paint the wrong image. Agentforce can use data cloud to get context on your data, and because zero trust policy is such a big deal, saying that it’s trained of your data can raise serious concerns for anyone worried about their data potentially being exposed. This was how it was pitched to our company initially and we almost passed because our AE and SE couldn't explain it correctly. Our CISO was not impressed.",
+          "upvotes": 8,
+          "dislikes": 8,
+          "downvotes": 9
+        },
+        {
+          "authorId": "t2_fwha77t3",
+          "author": "Faster_than_FTL",
+          "authorProfile": "https://www.reddit.com/user/Faster_than_FTL",
+          "commentId": "t1_m7bsrz9",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7bsrz9/",
+          "publishingDate": "2025-01-15T19:58:51+00:00",
+          "commentBody": "Nobody is saying it is running an llm on SF. You’re getting caught up in the technical details. The idea is to paint a picture of the functionality using familiar terms. But saying “trained on your salesforce data” is just wrong though and can paint the wrong image. Agentforce can use data cloud to get context on your data, and because zero trust policy is such a big deal, saying that it’s trained of your data can raise serious concerns for anyone worried about their data potentially being exposed. This was how it was pitched to our company initially and we almost passed because our AE and SE couldn't explain it correctly. Our CISO was not impressed.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_ah0xgbky",
+          "author": "EducationalAd237",
+          "authorProfile": "https://www.reddit.com/user/EducationalAd237",
+          "commentId": "t1_m7d2hfs",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7d2hfs/",
+          "publishingDate": "2025-01-15T23:43:22+00:00",
+          "commentBody": "But saying “trained on your salesforce data” is just wrong though and can paint the wrong image. Agentforce can use data cloud to get context on your data, and because zero trust policy is such a big deal, saying that it’s trained of your data can raise serious concerns for anyone worried about their data potentially being exposed. This was how it was pitched to our company initially and we almost passed because our AE and SE couldn't explain it correctly. Our CISO was not impressed.",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_kkpna",
+          "author": "xsamwellx",
+          "authorProfile": "https://www.reddit.com/user/xsamwellx",
+          "commentId": "t1_m7lf7p4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7lf7p4/",
+          "publishingDate": "2025-01-17T07:30:21+00:00",
+          "commentBody": "This was how it was pitched to our company initially and we almost passed because our AE and SE couldn't explain it correctly. Our CISO was not impressed.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_egxc1",
+          "author": "firestormodk",
+          "authorProfile": "https://www.reddit.com/user/firestormodk",
+          "commentId": "t1_m7bnk2u",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7bnk2u/",
+          "publishingDate": "2025-01-15T19:33:58+00:00",
+          "commentBody": "It’s not trained on your data From Google:\n“Yes, you can train Agentforce on your Salesforce organization data; Agentforce is specifically designed to leverage existing Salesforce data to create autonomous AI agents that can interact with customers and employees based on your company’s information stored within your Salesforce CRM, making it a key feature of the platform.”",
+          "upvotes": 5,
+          "dislikes": 5,
+          "downvotes": 6
+        },
+        {
+          "authorId": "t2_fwha77t3",
+          "author": "Faster_than_FTL",
+          "authorProfile": "https://www.reddit.com/user/Faster_than_FTL",
+          "commentId": "t1_m7bsg1r",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7bsg1r/",
+          "publishingDate": "2025-01-15T19:57:16+00:00",
+          "commentBody": "From Google:\n“Yes, you can train Agentforce on your Salesforce organization data; Agentforce is specifically designed to leverage existing Salesforce data to create autonomous AI agents that can interact with customers and employees based on your company’s information stored within your Salesforce CRM, making it a key feature of the platform.”",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": null
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_m7b5o42",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7b5o42/",
+          "publishingDate": "2025-01-15T18:08:50+00:00",
+          "commentBody": "That's the suggestion and direction I'm giving.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_3d62ckf9",
+      "author": "dyx03",
+      "authorProfile": "https://www.reddit.com/user/dyx03",
+      "commentId": "t1_m7b6lnc",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7b6lnc/",
+      "publishingDate": "2025-01-15T18:13:17+00:00",
+      "commentBody": "Soft agree. One thing, Agentforce is not a chatbot. The Service Agent is, the SDR Agent isn't, neither is the Sales Coach. And the development goal is for it to be omni-channel, so your statement would be correct in regard to what the ASA is today, but neglect the future state. Another thing - as an SI, you should be more informed about implementation efforts and costs than Salesforce are. That's part of why you're there. If you have no clue, then I would challenge why you were there in the first place? As with any sales presentation, the participants should either add value on a content level, or be there to cover eventualities, like specific questions and topics like this one. It doesn't matter if it's AF specifically. You have the experience, you should be able to make best guesses even for a new technology. And you should have spent the effort educating yourself via Trailhead to build your understanding - again, otherwise - why were you there? I'm not sure I remember from your last post if it was the customer that pulled you in. But that doesn't change anything, as they would have pulled you in to provide an informed opinion about the implementation effort. As far as the rest goes - that's pretty much basic sales, and it's also how Salesforce approaches selling, at least by the book. As with any job, having to prioritize things in your daily life might mean you're not always able to deliver your best. My dozen or so clients have no interest in the technology, so I've not invested time yet outside of dreamforce so yes I am definitely under skilled in the tool. Thanks for the educational elements, good insight!",
+      "upvotes": 8,
+      "dislikes": 8,
+      "downvotes": 9,
+      "replies": [
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_m7b7fwy",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7b7fwy/",
+          "publishingDate": "2025-01-15T18:17:18+00:00",
+          "commentBody": "My dozen or so clients have no interest in the technology, so I've not invested time yet outside of dreamforce so yes I am definitely under skilled in the tool. Thanks for the educational elements, good insight!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_14hq3e2mh7",
+      "author": "MaintenanceStatus329",
+      "authorProfile": "https://www.reddit.com/user/MaintenanceStatus329",
+      "commentId": "t1_m7ekaov",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7ekaov/",
+      "publishingDate": "2025-01-16T05:09:49+00:00",
+      "commentBody": "Id be careful telling the customer how bad their current chatbot or phone support is, this can sometimes have the opposite impact of what you intended Honestly, I completely disagree with you. Especially when worded politely, this is the only honest approach. We have a product that does X, I saw how you're doing X and here is where it's lacking. That's just sales 101.",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_m7fe05h",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7fe05h/",
+          "publishingDate": "2025-01-16T09:56:20+00:00",
+          "commentBody": "Honestly, I completely disagree with you. Especially when worded politely, this is the only honest approach. We have a product that does X, I saw how you're doing X and here is where it's lacking. That's just sales 101.",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        }
+      ]
+    },
+    {
+      "authorId": "t2_3fq300ik",
+      "author": "Longjumping-Poet4322",
+      "authorProfile": "https://www.reddit.com/user/Longjumping-Poet4322",
+      "commentId": "t1_m7bfpr4",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7bfpr4/",
+      "publishingDate": "2025-01-15T18:56:33+00:00",
+      "commentBody": "I can’t imagine selling that product… that must suck so much and feel so forced on the AEs and SEs I know my group will never buy this garbage. And from a procurement standpoint, I would never put my name on something that feels like a gamble and  feels so flaky and mysterious. But yes sorry… and to directly answer your post, OP - your improved sales tactics would definitely be an improvement. At least get to know your customers and how they specifically interact with their own leads or current customers before pushing these “turn off your recording” video sessions. Absolutely a better sales pitch.",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6
+    },
+    {
+      "authorId": "t2_534m2302",
+      "author": "motonahi",
+      "authorProfile": "https://www.reddit.com/user/motonahi",
+      "commentId": "t1_m7ah1kt",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7ah1kt/",
+      "publishingDate": "2025-01-15T16:09:38+00:00",
+      "commentBody": "I've seen portions of this method...😂 Schruted Schrute was a good salesman. This is also basically the Sandler method mixed with good-ol-wisdom. Agree!",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_m7ahtkl",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7ahtkl/",
+          "publishingDate": "2025-01-15T16:13:32+00:00",
+          "commentBody": "Schrute was a good salesman. This is also basically the Sandler method mixed with good-ol-wisdom. Agree!",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_534m2302",
+          "author": "motonahi",
+          "authorProfile": "https://www.reddit.com/user/motonahi",
+          "commentId": "t1_m7bks8d",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7bks8d/",
+          "publishingDate": "2025-01-15T19:20:46+00:00",
+          "commentBody": "Agree!",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_p1qt5lhe4",
+      "author": "Reasonable-Bit560",
+      "authorProfile": "https://www.reddit.com/user/Reasonable-Bit560",
+      "commentId": "t1_m7awct0",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7awct0/",
+      "publishingDate": "2025-01-15T17:24:31+00:00",
+      "commentBody": "I just got rejected for a job there and must admit I lol'd at what would seem to be basics of how to present it. You loled at what part sorry? That was unclear. Specifically how unprepared the SF AE was. Didn't even do basic workflow identification or specific use case prep, but yet is explaining LLMs when nobody really gives a shit. Can't believe I got rejected for the same role only to hear stuff like this. Anyways. Oh, well in any role anywhere there are people who interview better than they work. Perhaps you work better than you interview. Yes and yes. It's kinda classic though. A lot of SF reps or folks at places like this hit the lottery by getting in at a certain time with great products in an economy that was growing. Here's some that have worked for the past 10-12 years who've never really built the skills to sell through challenging times.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_m7b2ojx",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7b2ojx/",
+          "publishingDate": "2025-01-15T17:54:33+00:00",
+          "commentBody": "You loled at what part sorry? That was unclear. Specifically how unprepared the SF AE was. Didn't even do basic workflow identification or specific use case prep, but yet is explaining LLMs when nobody really gives a shit. Can't believe I got rejected for the same role only to hear stuff like this. Anyways. Oh, well in any role anywhere there are people who interview better than they work. Perhaps you work better than you interview. Yes and yes. It's kinda classic though. A lot of SF reps or folks at places like this hit the lottery by getting in at a certain time with great products in an economy that was growing. Here's some that have worked for the past 10-12 years who've never really built the skills to sell through challenging times.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_p1qt5lhe4",
+          "author": "Reasonable-Bit560",
+          "authorProfile": "https://www.reddit.com/user/Reasonable-Bit560",
+          "commentId": "t1_m7e6mz5",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7e6mz5/",
+          "publishingDate": "2025-01-16T03:35:03+00:00",
+          "commentBody": "That was unclear. Specifically how unprepared the SF AE was. Didn't even do basic workflow identification or specific use case prep, but yet is explaining LLMs when nobody really gives a shit. Can't believe I got rejected for the same role only to hear stuff like this. Anyways. Oh, well in any role anywhere there are people who interview better than they work. Perhaps you work better than you interview. Yes and yes. It's kinda classic though. A lot of SF reps or folks at places like this hit the lottery by getting in at a certain time with great products in an economy that was growing. Here's some that have worked for the past 10-12 years who've never really built the skills to sell through challenging times.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_m7fe7ut",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7fe7ut/",
+          "publishingDate": "2025-01-16T09:58:35+00:00",
+          "commentBody": "Oh, well in any role anywhere there are people who interview better than they work. Perhaps you work better than you interview. Yes and yes. It's kinda classic though. A lot of SF reps or folks at places like this hit the lottery by getting in at a certain time with great products in an economy that was growing. Here's some that have worked for the past 10-12 years who've never really built the skills to sell through challenging times.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_p1qt5lhe4",
+          "author": "Reasonable-Bit560",
+          "authorProfile": "https://www.reddit.com/user/Reasonable-Bit560",
+          "commentId": "t1_m7fgp2j",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7fgp2j/",
+          "publishingDate": "2025-01-16T10:24:42+00:00",
+          "commentBody": "Yes and yes. It's kinda classic though. A lot of SF reps or folks at places like this hit the lottery by getting in at a certain time with great products in an economy that was growing. Here's some that have worked for the past 10-12 years who've never really built the skills to sell through challenging times.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_kb213",
+      "author": "Clovadaddy",
+      "authorProfile": "https://www.reddit.com/user/Clovadaddy",
+      "commentId": "t1_m7bl7pp",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7bl7pp/",
+      "publishingDate": "2025-01-15T19:22:49+00:00",
+      "commentBody": "Nice follow up and good advice. Thanks pal!",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_m7bsrfc",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7bsrfc/",
+          "publishingDate": "2025-01-15T19:58:46+00:00",
+          "commentBody": "Thanks pal!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_h6qjy5t1s",
+      "author": "ThePresalesDad",
+      "authorProfile": "https://www.reddit.com/user/ThePresalesDad",
+      "commentId": "t1_m7efylu",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7efylu/",
+      "publishingDate": "2025-01-16T04:37:36+00:00",
+      "commentBody": "You just gave a crash course on how to be a good SE 😂 I mean I have been selling for a decade, have lots of practice. This is a basic approach to the motions of a pitch.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_m7fe3o7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7fe3o7/",
+          "publishingDate": "2025-01-16T09:57:21+00:00",
+          "commentBody": "I mean I have been selling for a decade, have lots of practice. This is a basic approach to the motions of a pitch.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_hbv1ht2o",
+      "author": "linuxrocks1",
+      "authorProfile": "https://www.reddit.com/user/linuxrocks1",
+      "commentId": "t1_m7hw43i",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7hw43i/",
+      "publishingDate": "2025-01-16T18:57:11+00:00",
+      "commentBody": "Aren't AgentForce agents more than chatbots? I thought, they were executing workflows, not just chatbots. Yeah they can be told when to trigger flows and can interpolate input variables - is my current level of knowledge based on trailhead stuff I did at Dreamforce. Not just triggering flows, but writing workflows in pure agentic form is what I was thinking. Does that match what you are seeing with customers?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_m7hyy5t",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7hyy5t/",
+          "publishingDate": "2025-01-16T19:10:52+00:00",
+          "commentBody": "Yeah they can be told when to trigger flows and can interpolate input variables - is my current level of knowledge based on trailhead stuff I did at Dreamforce. Not just triggering flows, but writing workflows in pure agentic form is what I was thinking. Does that match what you are seeing with customers?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_hbv1ht2o",
+          "author": "linuxrocks1",
+          "authorProfile": "https://www.reddit.com/user/linuxrocks1",
+          "commentId": "t1_m7nva02",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7nva02/",
+          "publishingDate": "2025-01-17T17:44:14+00:00",
+          "commentBody": "Not just triggering flows, but writing workflows in pure agentic form is what I was thinking. Does that match what you are seeing with customers?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_164gjl",
+      "author": "Woody781",
+      "authorProfile": "https://www.reddit.com/user/Woody781",
+      "commentId": "t1_mkzh89x",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/mkzh89x/",
+      "publishingDate": "2025-04-02T06:31:43+00:00",
+      "commentBody": "“explain the pricing structure “ 😆😆😆 we’re no closer to a real answer on that 2 months in. $2 per conversation mumble mumble mumble",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_e75trw080",
+      "author": "Far-Judgment-5591",
+      "authorProfile": "https://www.reddit.com/user/Far-Judgment-5591",
+      "commentId": "t1_m7afjsd",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7afjsd/",
+      "publishingDate": "2025-01-15T16:02:03+00:00",
+      "commentBody": "Agreed",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_pmdszyc",
+      "author": "FivePoopMacaroni",
+      "authorProfile": "https://www.reddit.com/user/FivePoopMacaroni",
+      "commentId": "t1_m7ac29x",
+      "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7ac29x/",
+      "publishingDate": "2025-01-15T15:44:40+00:00",
+      "commentBody": "Lol integrity? Integrity would be not being willing to sell a product that is obviously barely a prototype designed to capitalize on the AI hype cycle. I ain't saying quit your job over it but no need to pretend it's anything other than selling nonsense to companies with more dollars than sense. I am glad I do not need to sell it. But comparing the advice I gave to the pitch I witnessed, at least it is an honest take. These folk's jobs depend on pushing the product. A lot of them are important to the ecosystem, and support a hell of a lot of us having jobs. This is my attempt to give some honest advice about how I would do it. I heard my last post was passed around internally on their teams. Since that post was more critique, I thought I would give one that is more coaching. Barely a prototype - that is not accurate. I've used flow prompts, prompt builder, etc... in my own org and it works as described. Is it better than other products or other approaches??? That's the real question you should be asking As a customer who is actually using Agentforce at scale, you could not be more wrong. Does it have limitations? Sure. Is it 100%? No. But it is pretty dang good and definitely not a prototype. It’s probably the most complete new product Salesforce has ever launched. Now this is a fresh take! Lovely to see some positivity. Can you tell us what usecase you are using it for? Can you tell us how big of an effort it was to get it up and running? We are using it for some pretty complicated product troubleshooting, viewing and updating appts with tech, and a couple of other use cases. In full transparency, most of these (but definitely not all) are in pilot. Results have been pretty positive and we keep seeing more and more potential. We have tied in flows and some Apex that does external callouts. We’ve also integrated with existing Einstein Bots and linked it to human agent queues when it needs escalation. All seems to work pretty well. A lot of the beauty is really just the speed at which you can build these things. The agents have been pretty straight forward to set up. It’s taking longer for us primarily because we’ve had to do quite a bit of validation and testing. That and we’ve had to update some legacy processes. It’s sort of a long story but most of the effort isn’t related to Agentforce. There are some nuisances to it all. We’ve been waiting for the testing center to be released (I think it finally was tonight actually) because testing (as with any gen AI) is pretty intense. Also, we see some “weirdness” whenever we adjust instructions and it can be tricky to track down why it’s doing what it’s doing. The Agent Builder gives some good tools to try and explain why responses are given, but it still doesn’t always make sense. Sounds pretty intensive Also similar to my experiences with AI. Last year I led an interesting outbound calling agent setup. We fed numbers into a agent that I grounded to have a clear instruction to do cold outreach and book calls after folks were slightly warmed by email. The transcript of the call was passed to chat ChatGPT asking a series of questions to assess level of interest and notify a human. In every test, it did a phenomenal job. The voice was convincing and the bot delivered effectively. But when you listened to it's live calls, it was clunky and nonhuman. We scraped the initiative after like 1k calls.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": null,
+      "replies": [
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_m7actqr",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7actqr/",
+          "publishingDate": "2025-01-15T15:48:26+00:00",
+          "commentBody": "I am glad I do not need to sell it. But comparing the advice I gave to the pitch I witnessed, at least it is an honest take. These folk's jobs depend on pushing the product. A lot of them are important to the ecosystem, and support a hell of a lot of us having jobs. This is my attempt to give some honest advice about how I would do it. I heard my last post was passed around internally on their teams. Since that post was more critique, I thought I would give one that is more coaching.",
+          "upvotes": 12,
+          "dislikes": 12,
+          "downvotes": 13
+        },
+        {
+          "authorId": "t2_qfstvwm",
+          "author": "nebben123",
+          "authorProfile": "https://www.reddit.com/user/nebben123",
+          "commentId": "t1_m7akfh9",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7akfh9/",
+          "publishingDate": "2025-01-15T16:26:29+00:00",
+          "commentBody": "Barely a prototype - that is not accurate. I've used flow prompts, prompt builder, etc... in my own org and it works as described. Is it better than other products or other approaches??? That's the real question you should be asking",
+          "upvotes": 7,
+          "dislikes": 7,
+          "downvotes": 8
+        },
+        {
+          "authorId": "t2_4rgra8cu",
+          "author": "nopnam",
+          "authorProfile": "https://www.reddit.com/user/nopnam",
+          "commentId": "t1_m7aluuc",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7aluuc/",
+          "publishingDate": "2025-01-15T16:33:28+00:00",
+          "commentBody": "As a customer who is actually using Agentforce at scale, you could not be more wrong. Does it have limitations? Sure. Is it 100%? No. But it is pretty dang good and definitely not a prototype. It’s probably the most complete new product Salesforce has ever launched. Now this is a fresh take! Lovely to see some positivity. Can you tell us what usecase you are using it for? Can you tell us how big of an effort it was to get it up and running? We are using it for some pretty complicated product troubleshooting, viewing and updating appts with tech, and a couple of other use cases. In full transparency, most of these (but definitely not all) are in pilot. Results have been pretty positive and we keep seeing more and more potential. We have tied in flows and some Apex that does external callouts. We’ve also integrated with existing Einstein Bots and linked it to human agent queues when it needs escalation. All seems to work pretty well. A lot of the beauty is really just the speed at which you can build these things. The agents have been pretty straight forward to set up. It’s taking longer for us primarily because we’ve had to do quite a bit of validation and testing. That and we’ve had to update some legacy processes. It’s sort of a long story but most of the effort isn’t related to Agentforce. There are some nuisances to it all. We’ve been waiting for the testing center to be released (I think it finally was tonight actually) because testing (as with any gen AI) is pretty intense. Also, we see some “weirdness” whenever we adjust instructions and it can be tricky to track down why it’s doing what it’s doing. The Agent Builder gives some good tools to try and explain why responses are given, but it still doesn’t always make sense. Sounds pretty intensive Also similar to my experiences with AI. Last year I led an interesting outbound calling agent setup. We fed numbers into a agent that I grounded to have a clear instruction to do cold outreach and book calls after folks were slightly warmed by email. The transcript of the call was passed to chat ChatGPT asking a series of questions to assess level of interest and notify a human. In every test, it did a phenomenal job. The voice was convincing and the bot delivered effectively. But when you listened to it's live calls, it was clunky and nonhuman. We scraped the initiative after like 1k calls.",
+          "upvotes": 9,
+          "dislikes": 9,
+          "downvotes": 10
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_m7am9vm",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7am9vm/",
+          "publishingDate": "2025-01-15T16:35:30+00:00",
+          "commentBody": "Now this is a fresh take! Lovely to see some positivity. Can you tell us what usecase you are using it for? Can you tell us how big of an effort it was to get it up and running? We are using it for some pretty complicated product troubleshooting, viewing and updating appts with tech, and a couple of other use cases. In full transparency, most of these (but definitely not all) are in pilot. Results have been pretty positive and we keep seeing more and more potential. We have tied in flows and some Apex that does external callouts. We’ve also integrated with existing Einstein Bots and linked it to human agent queues when it needs escalation. All seems to work pretty well. A lot of the beauty is really just the speed at which you can build these things. The agents have been pretty straight forward to set up. It’s taking longer for us primarily because we’ve had to do quite a bit of validation and testing. That and we’ve had to update some legacy processes. It’s sort of a long story but most of the effort isn’t related to Agentforce. There are some nuisances to it all. We’ve been waiting for the testing center to be released (I think it finally was tonight actually) because testing (as with any gen AI) is pretty intense. Also, we see some “weirdness” whenever we adjust instructions and it can be tricky to track down why it’s doing what it’s doing. The Agent Builder gives some good tools to try and explain why responses are given, but it still doesn’t always make sense. Sounds pretty intensive Also similar to my experiences with AI. Last year I led an interesting outbound calling agent setup. We fed numbers into a agent that I grounded to have a clear instruction to do cold outreach and book calls after folks were slightly warmed by email. The transcript of the call was passed to chat ChatGPT asking a series of questions to assess level of interest and notify a human. In every test, it did a phenomenal job. The voice was convincing and the bot delivered effectively. But when you listened to it's live calls, it was clunky and nonhuman. We scraped the initiative after like 1k calls.",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_4rgra8cu",
+          "author": "nopnam",
+          "authorProfile": "https://www.reddit.com/user/nopnam",
+          "commentId": "t1_m7dqmi2",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7dqmi2/",
+          "publishingDate": "2025-01-16T01:59:45+00:00",
+          "commentBody": "We are using it for some pretty complicated product troubleshooting, viewing and updating appts with tech, and a couple of other use cases. In full transparency, most of these (but definitely not all) are in pilot. Results have been pretty positive and we keep seeing more and more potential. We have tied in flows and some Apex that does external callouts. We’ve also integrated with existing Einstein Bots and linked it to human agent queues when it needs escalation. All seems to work pretty well. A lot of the beauty is really just the speed at which you can build these things. The agents have been pretty straight forward to set up. It’s taking longer for us primarily because we’ve had to do quite a bit of validation and testing. That and we’ve had to update some legacy processes. It’s sort of a long story but most of the effort isn’t related to Agentforce. There are some nuisances to it all. We’ve been waiting for the testing center to be released (I think it finally was tonight actually) because testing (as with any gen AI) is pretty intense. Also, we see some “weirdness” whenever we adjust instructions and it can be tricky to track down why it’s doing what it’s doing. The Agent Builder gives some good tools to try and explain why responses are given, but it still doesn’t always make sense. Sounds pretty intensive Also similar to my experiences with AI. Last year I led an interesting outbound calling agent setup. We fed numbers into a agent that I grounded to have a clear instruction to do cold outreach and book calls after folks were slightly warmed by email. The transcript of the call was passed to chat ChatGPT asking a series of questions to assess level of interest and notify a human. In every test, it did a phenomenal job. The voice was convincing and the bot delivered effectively. But when you listened to it's live calls, it was clunky and nonhuman. We scraped the initiative after like 1k calls.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_m7dss9v",
+          "link": "https://www.reddit.com/r/salesforce/comments/1i1zxaf/if_i_had_to_sell_agentforce_here_is_how_i_would/m7dss9v/",
+          "publishingDate": "2025-01-16T02:12:14+00:00",
+          "commentBody": "Sounds pretty intensive Also similar to my experiences with AI. Last year I led an interesting outbound calling agent setup. We fed numbers into a agent that I grounded to have a clear instruction to do cold outreach and book calls after folks were slightly warmed by email. The transcript of the call was passed to chat ChatGPT asking a series of questions to assess level of interest and notify a human. In every test, it did a phenomenal job. The voice was convincing and the bot delivered effectively. But when you listened to it's live calls, it was clunky and nonhuman. We scraped the initiative after like 1k calls.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    }
+  ]
+}

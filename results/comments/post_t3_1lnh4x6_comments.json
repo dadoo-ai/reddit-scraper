@@ -1,0 +1,256 @@
+{
+  "info": {
+    "authorId": "t2_1950m7ek2p",
+    "author": "bad_labs_writer",
+    "authorProfile": "https://www.reddit.com/user/bad_labs_writer",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1lnh4x6",
+    "postLabel": null,
+    "publishingDate": "2025-06-29T15:16:12+00:00",
+    "postTitle": "Agentforce pricing",
+    "postMessage": "We're implementing Agentforce and super excited about launching it coming up, but I'm really curious about how the costs are going to shake out. It's hard to predict how many people will be using it (it will be open to the whole company) and how many conversations/actions we'll be using. Has anyone implemented AF and had any pricing surprises?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/",
+    "commentCount": 21,
+    "upvoteCount": 12,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_1ropfa9h4r",
+      "author": "Fearless_Parsley6541",
+      "authorProfile": "https://www.reddit.com/user/Fearless_Parsley6541",
+      "commentId": "t1_n0f8y7f",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0f8y7f/",
+      "publishingDate": "2025-06-29T15:42:55+00:00",
+      "commentBody": "We tried it as a POC. In the end, the open source stuff was just as easy, integrated better, no platform limits, and no need to mess with Data Cloud. Open source was much much cheaper.  If you're all-in on Salesforce, maybe it makes sense. But right now, there are open source agent frameworks that are just better if you have a broad estate. Overall, though, it's good tech. Good luck with your implementation. Edit... Salesforce we're very negotiable on price.  Finops on datacloud and agentforce by asdociation is not that mature... but neither is everyone elses agentic stuff. Care to share a few of the open source ones you looked at and what you went with? We are using 3 for different areas of the business. Trying not to commit too much. Crewai for some of the rpa type work. Autogen for the standard workloads. All work pretty well with langfuse.  Beyond that, standard mcp is proving to be excellent. We communicate to the salesforce org over API. The key is that we are already multi stack, with sufficient experience at devx to spin up quickly. Without the pre-existing infrastructure, I would really consider the cloud provider saas agents. Bedrock agents, for example. If agentforce were cheaper and not reliant on datacloud, I would probably use it for sf use cases. What open source agent frameworks do you recommend.. Open source will not survive for long in a vendor centric ecosystem. Open source seems to be a short term strategy but definitely not long term. Have to disagree. Open source backed by a vendor seems to work. Kubernetes, kafka and hundreds of others. We use managed offerings. Even in a vendor centriv world, the agentic world is new, and sf wanted long-term expensive contracts without having a competitive advantage. I'm trying not to make big bets right now. One of 2 underlying techs backed by vendors should work but not the complete Agentic AI solution. Licensing, support become issues in long run. agreed. The other point is governance, security, and overall management. People will keep adding vendor after vendor and then wonder why their systems are hard to operate and even harder to hire people to manage",
+      "upvotes": 21,
+      "dislikes": 21,
+      "downvotes": 22,
+      "replies": [
+        {
+          "authorId": "t2_5cgaq",
+          "author": "flysaway",
+          "authorProfile": "https://www.reddit.com/user/flysaway",
+          "commentId": "t1_n0fdo1v",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0fdo1v/",
+          "publishingDate": "2025-06-29T16:07:54+00:00",
+          "commentBody": "Care to share a few of the open source ones you looked at and what you went with? We are using 3 for different areas of the business. Trying not to commit too much. Crewai for some of the rpa type work. Autogen for the standard workloads. All work pretty well with langfuse.  Beyond that, standard mcp is proving to be excellent. We communicate to the salesforce org over API. The key is that we are already multi stack, with sufficient experience at devx to spin up quickly. Without the pre-existing infrastructure, I would really consider the cloud provider saas agents. Bedrock agents, for example. If agentforce were cheaper and not reliant on datacloud, I would probably use it for sf use cases.",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        },
+        {
+          "authorId": "t2_1ropfa9h4r",
+          "author": "Fearless_Parsley6541",
+          "authorProfile": "https://www.reddit.com/user/Fearless_Parsley6541",
+          "commentId": "t1_n0io4tk",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0io4tk/",
+          "publishingDate": "2025-06-30T03:23:38+00:00",
+          "commentBody": "We are using 3 for different areas of the business. Trying not to commit too much. Crewai for some of the rpa type work. Autogen for the standard workloads. All work pretty well with langfuse.  Beyond that, standard mcp is proving to be excellent. We communicate to the salesforce org over API. The key is that we are already multi stack, with sufficient experience at devx to spin up quickly. Without the pre-existing infrastructure, I would really consider the cloud provider saas agents. Bedrock agents, for example. If agentforce were cheaper and not reliant on datacloud, I would probably use it for sf use cases.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_38lo5",
+          "author": "manoffewwords",
+          "authorProfile": "https://www.reddit.com/user/manoffewwords",
+          "commentId": "t1_n0fdri7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0fdri7/",
+          "publishingDate": "2025-06-29T16:08:24+00:00",
+          "commentBody": "What open source agent frameworks do you recommend..",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_r5c11u15",
+          "author": "Canonicalrd",
+          "authorProfile": "https://www.reddit.com/user/Canonicalrd",
+          "commentId": "t1_n0fu53v",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0fu53v/",
+          "publishingDate": "2025-06-29T17:33:50+00:00",
+          "commentBody": "Open source will not survive for long in a vendor centric ecosystem. Open source seems to be a short term strategy but definitely not long term. Have to disagree. Open source backed by a vendor seems to work. Kubernetes, kafka and hundreds of others. We use managed offerings. Even in a vendor centriv world, the agentic world is new, and sf wanted long-term expensive contracts without having a competitive advantage. I'm trying not to make big bets right now. One of 2 underlying techs backed by vendors should work but not the complete Agentic AI solution. Licensing, support become issues in long run. agreed. The other point is governance, security, and overall management. People will keep adding vendor after vendor and then wonder why their systems are hard to operate and even harder to hire people to manage",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        },
+        {
+          "authorId": "t2_1ropfa9h4r",
+          "author": "Fearless_Parsley6541",
+          "authorProfile": "https://www.reddit.com/user/Fearless_Parsley6541",
+          "commentId": "t1_n0ioxdt",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0ioxdt/",
+          "publishingDate": "2025-06-30T03:29:20+00:00",
+          "commentBody": "Have to disagree. Open source backed by a vendor seems to work. Kubernetes, kafka and hundreds of others. We use managed offerings. Even in a vendor centriv world, the agentic world is new, and sf wanted long-term expensive contracts without having a competitive advantage. I'm trying not to make big bets right now. One of 2 underlying techs backed by vendors should work but not the complete Agentic AI solution. Licensing, support become issues in long run.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_r5c11u15",
+          "author": "Canonicalrd",
+          "authorProfile": "https://www.reddit.com/user/Canonicalrd",
+          "commentId": "t1_n0iq547",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0iq547/",
+          "publishingDate": "2025-06-30T03:38:02+00:00",
+          "commentBody": "One of 2 underlying techs backed by vendors should work but not the complete Agentic AI solution. Licensing, support become issues in long run.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_bmnc1",
+          "author": "TheBarrelofMonkeys",
+          "authorProfile": "https://www.reddit.com/user/TheBarrelofMonkeys",
+          "commentId": "t1_n0t0hl6",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0t0hl6/",
+          "publishingDate": "2025-07-01T18:37:53+00:00",
+          "commentBody": "agreed. The other point is governance, security, and overall management. People will keep adding vendor after vendor and then wonder why their systems are hard to operate and even harder to hire people to manage",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_yu9il",
+      "author": "kamroot",
+      "authorProfile": "https://www.reddit.com/user/kamroot",
+      "commentId": "t1_n0hp026",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0hp026/",
+      "publishingDate": "2025-06-29T23:39:05+00:00",
+      "commentBody": "A little bit orthogonal, but what use cases are you guys using Agentforce for?",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7
+    },
+    {
+      "authorId": "t2_n0jlc",
+      "author": "beniferlopez",
+      "authorProfile": "https://www.reddit.com/user/beniferlopez",
+      "commentId": "t1_n0fihwo",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0fihwo/",
+      "publishingDate": "2025-06-29T16:33:34+00:00",
+      "commentBody": "The new Agentforce for Service or Agentforce for Sales is priced per seat with unmetered consumption. Edit: to clarify, the unmetered consumption is only for employee agents and internal use. ASA and SDR type agents will consume flex credits and they remain metered consumption. This is a game changer for pricing Can you talk about the use cases a little?",
+      "upvotes": 19,
+      "dislikes": 19,
+      "downvotes": 20,
+      "replies": [
+        {
+          "authorId": "t2_bffv8z7e3",
+          "author": "ReelNerdyinFl",
+          "authorProfile": "https://www.reddit.com/user/ReelNerdyinFl",
+          "commentId": "t1_n0fvfr1",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0fvfr1/",
+          "publishingDate": "2025-06-29T17:40:26+00:00",
+          "commentBody": "This is a game changer for pricing Can you talk about the use cases a little?",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_1hz3fyn3",
+          "author": "assflange",
+          "authorProfile": "https://www.reddit.com/user/assflange",
+          "commentId": "t1_n0gn6sp",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0gn6sp/",
+          "publishingDate": "2025-06-29T20:07:27+00:00",
+          "commentBody": "Can you talk about the use cases a little?",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_3m9g0pwf",
+      "author": "Das_water_boi",
+      "authorProfile": "https://www.reddit.com/user/Das_water_boi",
+      "commentId": "t1_n0gpvjn",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0gpvjn/",
+      "publishingDate": "2025-06-29T20:21:36+00:00",
+      "commentBody": "The pricing is pretty aggressive right now with some of the best promos available as there has been a sort of relaunch this year. If you’re considering it, talk to your AE and jump on the POC promo and then lock in entry point pricing. From what I understand they are starting to have Salesforce engineers help with initial implementation to make sure companies “get it right” and get the best experience and buy in. Seems like the company really believes in what they are trying to sell. I’ve had a much better experience than when we were trying to implement a MSFT solution. I’ve seen some voice agent demos and it’s pretty amazing. I’m hopeful companies I call often for customer service will implement it, especially because it can be 24/7 useful support.",
+      "upvotes": 6,
+      "dislikes": 6,
+      "downvotes": 7
+    },
+    {
+      "authorId": "t2_45r85k1c",
+      "author": "The-McDuck",
+      "authorProfile": "https://www.reddit.com/user/The-McDuck",
+      "commentId": "t1_n0gbu9b",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0gbu9b/",
+      "publishingDate": "2025-06-29T19:06:22+00:00",
+      "commentBody": "Any legit company will not use open source. Data being sent ethical ai concerns It depends but you’re right. The concerns are exposing IP and customer data to vendors for training of the next iteration of publicly available models. Data being sent is only an issue if you're calling someone else's LLM instance via an API. If you're going the open source route why wouldn't you run your own instance of whatever model(s) you're using? many large enterprises use hugging face.",
+      "upvotes": 7,
+      "dislikes": 7,
+      "downvotes": 8,
+      "replies": [
+        {
+          "authorId": "t2_n0jlc",
+          "author": "beniferlopez",
+          "authorProfile": "https://www.reddit.com/user/beniferlopez",
+          "commentId": "t1_n0ghprn",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0ghprn/",
+          "publishingDate": "2025-06-29T19:38:04+00:00",
+          "commentBody": "It depends but you’re right. The concerns are exposing IP and customer data to vendors for training of the next iteration of publicly available models.",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        },
+        {
+          "authorId": "t2_gw5fj",
+          "author": "merithynos",
+          "authorProfile": "https://www.reddit.com/user/merithynos",
+          "commentId": "t1_n0l6hhq",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0l6hhq/",
+          "publishingDate": "2025-06-30T15:02:24+00:00",
+          "commentBody": "Data being sent is only an issue if you're calling someone else's LLM instance via an API. If you're going the open source route why wouldn't you run your own instance of whatever model(s) you're using?",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_1kb6rrz5cn",
+          "author": "TowerOutrageous5939",
+          "authorProfile": "https://www.reddit.com/user/TowerOutrageous5939",
+          "commentId": "t1_n0i1wzj",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0i1wzj/",
+          "publishingDate": "2025-06-30T00:59:14+00:00",
+          "commentBody": "many large enterprises use hugging face.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_hw2up",
+      "author": "ryfi1",
+      "authorProfile": "https://www.reddit.com/user/ryfi1",
+      "commentId": "t1_n0ja8bf",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0ja8bf/",
+      "publishingDate": "2025-06-30T06:24:55+00:00",
+      "commentBody": "Be prepared to deal with Flexi Credits, Data Cloud credits (even if you don’t use that cloud) and Einstein Credits to try and work out the cost. Feels like playing a Mobile game with their gems, diamonds and coins trying to confuse you into spending more money Totally agree with that 😃.",
+      "upvotes": 3,
+      "dislikes": 3,
+      "downvotes": 4,
+      "replies": [
+        {
+          "authorId": "t2_agyv0h6pa",
+          "author": "Recent_Rub_8125",
+          "authorProfile": "https://www.reddit.com/user/Recent_Rub_8125",
+          "commentId": "t1_n0xckq8",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lnh4x6/agentforce_pricing/n0xckq8/",
+          "publishingDate": "2025-07-02T11:42:12+00:00",
+          "commentBody": "Totally agree with that 😃.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    }
+  ]
+}

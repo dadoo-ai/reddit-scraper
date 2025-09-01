@@ -1,0 +1,132 @@
+{
+  "info": {
+    "authorId": "t2_2z9p0xff",
+    "author": "MonayZ",
+    "authorProfile": "https://www.reddit.com/user/MonayZ",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1n2zktr",
+    "postLabel": null,
+    "publishingDate": "2025-08-29T06:04:58+00:00",
+    "postTitle": "I setup an Agentforce chatbot for our users. What now?",
+    "postMessage": "I just finished setting up a chatbot using agentforce for our internal users and I am thinking of ways to improve it but cant think of any. Looking for suggestions on what can I do/add to improve our agentforce chatbot.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1n2zktr/i_setup_an_agentforce_chatbot_for_our_users_what/",
+    "commentCount": 9,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_vlxte733",
+      "author": "Interesting_Button60",
+      "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+      "commentId": "t1_nb9xu69",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n2zktr/i_setup_an_agentforce_chatbot_for_our_users_what/nb9xu69/",
+      "publishingDate": "2025-08-29T07:18:36+00:00",
+      "commentBody": "I mean you haven't told us: What the purpose of, who the intended users are and what they do. You haven't told us what feedback they've been giving you. So how can we at all provide input?",
+      "upvotes": 11,
+      "dislikes": 11,
+      "downvotes": 12
+    },
+    {
+      "authorId": "t2_iaviqce30",
+      "author": "LividToe560",
+      "authorProfile": "https://www.reddit.com/user/LividToe560",
+      "commentId": "t1_nb9xx20",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n2zktr/i_setup_an_agentforce_chatbot_for_our_users_what/nb9xx20/",
+      "publishingDate": "2025-08-29T07:19:21+00:00",
+      "commentBody": "How would anyone be able to give you advice based on this post? We don't work at your company",
+      "upvotes": 9,
+      "dislikes": 9,
+      "downvotes": 10
+    },
+    {
+      "authorId": "t2_3211qrc8",
+      "author": "goebbs",
+      "authorProfile": "https://www.reddit.com/user/goebbs",
+      "commentId": "t1_nba3msg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n2zktr/i_setup_an_agentforce_chatbot_for_our_users_what/nba3msg/",
+      "publishingDate": "2025-08-29T08:14:05+00:00",
+      "commentBody": "All these people criticising you for not providing any requirements, use-cases, context, or desired business outcomes... Don't they get it? That's not the way you're supposed to approach Agentforce. Buy it first. Lots of it. That's customer success already. Ok, Mark. 😂",
+      "upvotes": 7,
+      "dislikes": 7,
+      "downvotes": 8,
+      "replies": [
+        {
+          "authorId": "t2_7g62wj6r",
+          "author": "Historical-Piece7771",
+          "authorProfile": "https://www.reddit.com/user/Historical-Piece7771",
+          "commentId": "t1_nbalu4l",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n2zktr/i_setup_an_agentforce_chatbot_for_our_users_what/nbalu4l/",
+          "publishingDate": "2025-08-29T10:57:22+00:00",
+          "commentBody": "Ok, Mark. 😂",
+          "upvotes": 6,
+          "dislikes": 6,
+          "downvotes": 7
+        }
+      ]
+    },
+    {
+      "authorId": "t2_7g4t0yxxc",
+      "author": "MindCompetitive6475",
+      "authorProfile": "https://www.reddit.com/user/MindCompetitive6475",
+      "commentId": "t1_nbafiho",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n2zktr/i_setup_an_agentforce_chatbot_for_our_users_what/nbafiho/",
+      "publishingDate": "2025-08-29T10:05:30+00:00",
+      "commentBody": "Not sure if you are doing this already but the knowledge search action seems to be a hit. Put all your internal documentation in a library and then users can search it. It's good for new employees who have questions about process and procedures.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_7g62wj6r",
+      "author": "Historical-Piece7771",
+      "authorProfile": "https://www.reddit.com/user/Historical-Piece7771",
+      "commentId": "t1_nbam3xg",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n2zktr/i_setup_an_agentforce_chatbot_for_our_users_what/nbam3xg/",
+      "publishingDate": "2025-08-29T10:59:22+00:00",
+      "commentBody": "Get feedback from users and compare to their messaging sessions for insights on iterative improvements.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2
+    },
+    {
+      "authorId": "t2_1tqht7ykug",
+      "author": "East-Description-736",
+      "authorProfile": "https://www.reddit.com/user/East-Description-736",
+      "commentId": "t1_nbaqotf",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n2zktr/i_setup_an_agentforce_chatbot_for_our_users_what/nbaqotf/",
+      "publishingDate": "2025-08-29T11:32:13+00:00",
+      "commentBody": "Nice work getting your Agentforce chatbot up and running! Once the basics are in place, the real value comes from continuous improvement and aligning it with how your users actually work. A few suggestions: Analyze Usage & Feedback Review transcripts and usage analytics to see where users drop off, rephrase questions, or get stuck. That will highlight gaps in intent coverage. Expand Knowledge Coverage Add FAQs, process guides, and quick links to the most common internal requests (password reset, policy lookups, troubleshooting steps, etc.). Integrate with your Salesforce data where possible so the bot can surface real-time answers instead of just static responses. Add Escalation Paths Ensure a smooth handoff to a live agent or support channel if the chatbot can’t resolve an issue. A seamless transition builds user trust. Personalize the Experience Use user context (role, department, or profile) to tailor answers. For example, HR-related queries for HR staff vs. Sales queries for Sales teams. Automate Routine Actions Go beyond Q&A by connecting to flows: updating a record, creating a ticket, or checking status. This moves the chatbot from an info source to a productivity tool. Regular Iteration Treat it as a product: gather monthly feedback, review logs, and continuously add new intents or flows.",
+      "upvotes": null,
+      "dislikes": null,
+      "downvotes": 0,
+      "replies": [
+        {
+          "authorId": "t2_vlxte733",
+          "author": "Interesting_Button60",
+          "authorProfile": "https://www.reddit.com/user/Interesting_Button60",
+          "commentId": "t1_nbbmaol",
+          "link": "https://www.reddit.com/r/salesforce/comments/1n2zktr/i_setup_an_agentforce_chatbot_for_our_users_what/nbbmaol/",
+          "publishingDate": "2025-08-29T14:29:14+00:00",
+          "commentBody": "",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_rw0hn",
+      "author": "Waitin4Godot",
+      "authorProfile": "https://www.reddit.com/user/Waitin4Godot",
+      "commentId": "t1_nbas43a",
+      "link": "https://www.reddit.com/r/salesforce/comments/1n2zktr/i_setup_an_agentforce_chatbot_for_our_users_what/nbas43a/",
+      "publishingDate": "2025-08-29T11:42:11+00:00",
+      "commentBody": "Ask the Agentforce bot how you can improve it.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

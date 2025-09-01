@@ -1,10 +1,9 @@
 from __future__ import annotations
 
 import ast
-import os
-import re
 import time
 import random
+import logging
 from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Dict, Any, Optional, Tuple
@@ -13,6 +12,17 @@ import numpy as np
 import pandas as pd
 from dotenv import load_dotenv
 from openai import OpenAI
+
+# Configuration du logger
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(),
+        logging.FileHandler('csv_user_analyzer.log', encoding='utf-8')
+    ]
+)
+logger = logging.getLogger(__name__)
 
 
 # ---------------- Config ----------------
@@ -98,44 +108,69 @@ class CSVUserAnalyzer:
         self.client = OpenAI()  # OPENAI_API_KEY requis
         self.df: Optional[pd.DataFrame] = None
         self.agg: Optional[pd.DataFrame] = None
+        logger.info(f"CSVUserAnalyzer initialisé avec model={self.cfg.model}, max_retries={self.cfg.max_retries}")
 
     # ---------- Public API ----------
 
     def load(self, csv_path: str | Path) -> "CSVUserAnalyzer":
+        logger.info(f"Chargement du CSV: {csv_path}")
         df = pd.read_csv(csv_path, on_bad_lines="skip", encoding="utf-8", engine="python")
+        logger.info(f"CSV chargé: {len(df)} lignes, {len(df.columns)} colonnes")
         df.columns = [str(c).strip() for c in df.columns]
+        logger.debug(f"Colonnes détectées: {list(df.columns)}")
 
         # Sanitize simple pour evidence_quotes mal typées (évite SyntaxWarning avec ast)
         if "evidence_quotes" in df.columns:
             mask_bad = df["evidence_quotes"].astype(str).str.match(r"^\s*[\d\.\,]+\s*$", na=False)
             if mask_bad.any():
+                logger.warning(f"Correction de {mask_bad.sum()} lignes avec evidence_quotes mal formatées")
                 df.loc[mask_bad, "evidence_quotes"] = ""
 
         self.df = self._normalize_columns(df)
+        logger.debug("Normalisation des colonnes terminée")
         self._ensure_expected_columns(self.df)
+        logger.debug("Vérification des colonnes attendues terminée")
         self._coerce_types(self.df)
+        logger.debug("Coercition des types terminée")
 
         # garder uniquement les lignes avec user non vide
+        initial_count = len(self.df)
         self.df = self.df[~self.df["user"].isna() & (self.df["user"].astype(str).str.strip() != "")]
+        final_count = len(self.df)
+        if initial_count != final_count:
+            logger.warning(f"Suppression de {initial_count - final_count} lignes avec user vide")
+        
         self.df = self.df.copy()
+        unique_users = self.df["user"].nunique()
+        logger.info(f"Données chargées: {final_count} lignes, {unique_users} utilisateurs uniques")
         return self
 
     def aggregate(self) -> pd.DataFrame:
         if self.df is None:
             raise RuntimeError("Aucun dataframe chargé. Appelle .load(csv_path) d'abord.")
 
+        logger.info("Début de l'agrégation par utilisateur")
         rows: List[Dict[str, Any]] = []
+        total_users = self.df["user"].nunique()
+        processed_users = 0
 
         for user, g in self.df.groupby("user", dropna=True):
+            processed_users += 1
+            logger.debug(f"Traitement utilisateur {processed_users}/{total_users}: {user} ({len(g)} commentaires)")
+            
+            if processed_users % 10 == 0:
+                logger.info(f"Progression: {processed_users}/{total_users} utilisateurs traités")
             author_id = self._first_non_null(g, "author_id")
             author_profile = self._first_non_null(g, "author_profile")
             role_inferred = self._infer_role_group(g)
 
             # Matière à analyser : JUSTIFICATIONS (et non les commentaires)
             justifs_src = self._gather_justifications(g)
+            logger.debug(f"Utilisateur {user}: {len(justifs_src)} justifications trouvées")
 
             if not justifs_src:
                 # Pas de matière → neutre
+                logger.debug(f"Utilisateur {user}: Aucune justification, attribution de sentiment neutre")
                 total_comments = self._compute_total_comments(g)
                 rows.append({
                     "user": user,
@@ -151,7 +186,9 @@ class CSVUserAnalyzer:
                 continue
 
             # Passage LLM basé sur justifications (2 scores + texte)
+            logger.debug(f"Utilisateur {user}: Analyse LLM en cours...")
             sent_sf, sent_af, justifs_llm, quotes_llm = self._analyze_user_from_justifs(user, justifs_src)
+            logger.debug(f"Utilisateur {user}: Analyse terminée - SF:{sent_sf:.2f}, AF:{sent_af:.2f}")
 
             total_comments = self._compute_total_comments(g)
             rows.append({
@@ -166,19 +203,23 @@ class CSVUserAnalyzer:
                 "total_comments": total_comments,
             })
 
+        logger.info(f"Agrégation terminée: {processed_users} utilisateurs traités")
         self.agg = (
             pd.DataFrame(rows)
             .sort_values(["role_inferred", "sentiment_agentforce"], ascending=[True, False])
             .reset_index(drop=True)
         )
+        logger.info(f"DataFrame final créé: {len(self.agg)} lignes")
         return self.agg
 
     def save(self, out_csv: str | Path) -> Path:
         if self.agg is None:
             raise RuntimeError("Rien à sauvegarder. Appelle .aggregate() d'abord.")
         out = Path(out_csv)
+        logger.info(f"Sauvegarde vers: {out}")
         out.parent.mkdir(parents=True, exist_ok=True)
         self.agg.to_csv(out, index=False)
+        logger.info(f"Fichier CSV sauvegardé: {out} ({len(self.agg)} lignes)")
         return out
 
     # ---------- Internals ----------
@@ -331,6 +372,7 @@ class CSVUserAnalyzer:
 
     def _analyze_user_from_justifs(self, user: str, justifs: List[str]) -> Tuple[float, float, str, List[str]]:
         cfg = self.cfg
+        logger.debug(f"Analyse LLM pour {user}: {len(justifs)} justifications")
 
         # Construit un prompt compact avec les justifs
         blocks = [f"[{i+1}] {j}" for i, j in enumerate(justifs)]
@@ -347,22 +389,31 @@ Justifications ({len(blocks)} items):
 """
 
         # Try Responses API + json_schema
+        logger.debug(f"Tentative Responses API pour {user}")
         attempts, backoff = 0, cfg.backoff_initial
         while True:
             attempts += 1
             try:
-                return self._call_openai_json_schema(user_prompt, USER_JSON_SCHEMA)
+                result = self._call_openai_json_schema(user_prompt, USER_JSON_SCHEMA)
+                logger.debug(f"Succès Responses API pour {user} (tentative {attempts})")
+                return result
             except TypeError as e:
                 if "response_format" in str(e):
+                    logger.debug(f"Responses API non supportée pour {user}, passage au fallback")
                     break
-            except Exception:
-                pass
+                logger.warning(f"TypeError pour {user} (tentative {attempts}): {e}")
+            except Exception as e:
+                logger.warning(f"Erreur Responses API pour {user} (tentative {attempts}): {e}")
             if attempts > cfg.max_retries:
+                logger.warning(f"Échec Responses API pour {user} après {attempts} tentatives")
                 break
-            time.sleep(backoff + random.uniform(0, 0.2))
+            sleep_time = backoff + random.uniform(0, 0.2)
+            logger.debug(f"Retry dans {sleep_time:.2f}s pour {user}")
+            time.sleep(sleep_time)
             backoff *= 1.6
 
         # Fallback Chat Completions (json_object)
+        logger.debug(f"Tentative Chat Completions pour {user}")
         attempts, backoff = 0, cfg.backoff_initial
         while True:
             attempts += 1
@@ -374,14 +425,20 @@ Justifications ({len(blocks)} items):
                 quotes = [q.strip() for q in (data.get("evidence_quotes") or []) if q and q.strip()]
                 quotes = [self._trim_to_words(q, 20) for q in quotes]
                 quotes = self._dedup_keep_order(quotes)[: self.cfg.max_quotes]
+                logger.debug(f"Succès Chat Completions pour {user} (tentative {attempts})")
                 return sent_sf, sent_af, justifs_text, quotes
-            except Exception:
+            except Exception as e:
+                logger.warning(f"Erreur Chat Completions pour {user} (tentative {attempts}): {e}")
                 if attempts > cfg.max_retries:
+                    logger.error(f"Échec Chat Completions pour {user} après {attempts} tentatives")
                     break
-                time.sleep(backoff + random.uniform(0, 0.2))
+                sleep_time = backoff + random.uniform(0, 0.2)
+                logger.debug(f"Retry dans {sleep_time:.2f}s pour {user}")
+                time.sleep(sleep_time)
                 backoff *= 1.6
 
         # Fallback final
+        logger.error(f"Échec complet de l'analyse LLM pour {user}, utilisation des valeurs par défaut")
         return 0.0, 0.0, "Model error; defaulting to neutral.", []
 
     # ----- OpenAI helpers -----
@@ -471,8 +528,10 @@ Justifications ({len(blocks)} items):
 
 # --------- Exemple d'utilisation ---------
 if __name__ == "__main__":
+    logger.info("Démarrage du script CSVUserAnalyzer")
     analyzer = CSVUserAnalyzer()
     analyzer.load("results/analyze/posts/posts_aggregated.csv")
     analyzer.aggregate()
     analyzer.save("results/analyze/posts/user_aggregated.csv")
+    logger.info("Script terminé avec succès")
     print("OK")

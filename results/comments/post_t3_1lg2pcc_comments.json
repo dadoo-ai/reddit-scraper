@@ -1,0 +1,84 @@
+{
+  "info": {
+    "authorId": "t2_8f9zjok7",
+    "author": "Bitter-Lead-3358",
+    "authorProfile": "https://www.reddit.com/user/Bitter-Lead-3358",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1lg2pcc",
+    "postLabel": "certification question",
+    "publishingDate": "2025-06-20T12:26:06+00:00",
+    "postTitle": "Agentforce specialist certification",
+    "postMessage": "Hello!\nI’m going to get this cert and actively preparing for it. I use focus on force and I notice that there are no multiple choice questions as I had when prepared to the admin exam. So will the real exam look like this?\nAlso, could you please share your experience with this exam? How hard was it?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1lg2pcc/agentforce_specialist_certification/",
+    "commentCount": 5,
+    "upvoteCount": 3,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_dqlgwho36",
+      "author": "KitKath_1337",
+      "authorProfile": "https://www.reddit.com/user/KitKath_1337",
+      "commentId": "t1_mz3mewj",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lg2pcc/agentforce_specialist_certification/mz3mewj/",
+      "publishingDate": "2025-06-22T04:11:18+00:00",
+      "commentBody": "I recommend going through the Trailhead learning paths. They are free, include hands-on practice, and the Superbadge from the relevant trail really helps with both passing the exam and gaining practical skills. For practice tests, I suggest checking out the ones on Udemy. They are very helpful!",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3
+    },
+    {
+      "authorId": "t2_3m0wvih9",
+      "author": "I_Made_A_Boom_Boom",
+      "authorProfile": "https://www.reddit.com/user/I_Made_A_Boom_Boom",
+      "commentId": "t1_mzr1845",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lg2pcc/agentforce_specialist_certification/mzr1845/",
+      "publishingDate": "2025-06-25T19:15:14+00:00",
+      "commentBody": "I took the certification exam last month, and all the questions had multiple choice answers - 3 choices and only 1 was correct. I did use the FoF study guide and practice tests. I also completed every trailhead module/trailmix that I could find including both Agentblazer levels that are currently available. Have you signed up for any Agentforce Now workshops?  Those helped solidify my knowledge.  And, I did both Guided/Scheduled and Self-Study workshops available thru the Salesforce Developers site. A lot of the questions on the test are scenario-based.  It helped having all that hands-on practice to decipher what the question is really asking for.  Don't rush through.  Carefully read those scenario questions. Good luck! Thank you!",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_8f9zjok7",
+          "author": "Bitter-Lead-3358",
+          "authorProfile": "https://www.reddit.com/user/Bitter-Lead-3358",
+          "commentId": "t1_mzr9pkt",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lg2pcc/agentforce_specialist_certification/mzr9pkt/",
+          "publishingDate": "2025-06-25T19:56:04+00:00",
+          "commentBody": "Thank you!",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_124ffgn",
+      "author": "DeadMoneyDrew",
+      "authorProfile": "https://www.reddit.com/user/DeadMoneyDrew",
+      "commentId": "t1_myszk8q",
+      "link": "https://www.reddit.com/r/salesforce/comments/1lg2pcc/agentforce_specialist_certification/myszk8q/",
+      "publishingDate": "2025-06-20T13:00:45+00:00",
+      "commentBody": "It will be a multiple choice exam. Focus on Force usually has practice exams, so are you saying they don't have practice and sales for this? I mean all questions in this practice exam on FoF have just three options to choose and only one is correct. When I was training to the different exam, the questions could have 3-5 options with 1-3 correct answers. That’s the difference \nBut if the real exam has multiple choice questions, I’ll be mentally prepared for it:)",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_8f9zjok7",
+          "author": "Bitter-Lead-3358",
+          "authorProfile": "https://www.reddit.com/user/Bitter-Lead-3358",
+          "commentId": "t1_myt5va9",
+          "link": "https://www.reddit.com/r/salesforce/comments/1lg2pcc/agentforce_specialist_certification/myt5va9/",
+          "publishingDate": "2025-06-20T13:36:35+00:00",
+          "commentBody": "I mean all questions in this practice exam on FoF have just three options to choose and only one is correct. When I was training to the different exam, the questions could have 3-5 options with 1-3 correct answers. That’s the difference \nBut if the real exam has multiple choice questions, I’ll be mentally prepared for it:)",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        }
+      ]
+    }
+  ]
+}

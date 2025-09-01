@@ -1,0 +1,44 @@
+{
+  "info": {
+    "authorId": "t2_j9dslwzg",
+    "author": "ThwmasFysekis",
+    "authorProfile": "https://www.reddit.com/user/ThwmasFysekis",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1l7ur17",
+    "postLabel": null,
+    "publishingDate": "2025-06-10T09:56:21+00:00",
+    "postTitle": "Agentforce File Managemnt",
+    "postMessage": "Hello guys, So I am tryiing to make a simple system with agentfroce, where ypou insert your name, email, lastname, phone number. After that, I want the user to upload a PDF file with his ID and store it to contact. The issue is, I created the flow and inserted it into the agentforce actions and when I tried to test it I get: ''It looks like there was an issue with the file upload. The document type might not match the expected type, or the document ID might be incorrect. Please double-check the file and try uploading it again. If the problem persists, you might want to contact support for further assistance.'' I checked all the permissions, any idea why this is happening? The 2 flows that I am using, pretty simple: This is a Auto-Launched Flow. This flow is triggered automatically and creates a new Contact record in Salesforce. It takes four input variables - Email, First Name, Last Name, and Phone Number. The flow does not require any record changes to meet its criteria and does not publish a segment. It interacts with the Contact object, creating a new record with the provided input values. Several objects and their fields worth mentioning. Below are the details (the format is given as: object_name - field_name: interaction) * ['Contact', 'Email'] * ['Contact', 'FirstName'] * ['Contact', 'LastName'] * ['Contact', 'MobilePhone'] ----- This is a Auto-Launched Flow. Upon initiation, this auto-launched flow creates a ContentDocumentLink record. It takes two input variables: 'inpContactID' for the contact's ID and 'InpContDocumentID' for the content document's ID. The flow then creates a new ContentDocumentLink record with the provided IDs, setting the ShareType to 'V' (viewer) and Visibility to 'AllUsers'. No subflows are involved. Several objects and their fields worth mentioning. Below are the details (the format is given as: object_name - field_name: interaction) * ContentDocumentLink - ContentDocumentId : The flow uses this field to associate the content document with the link. * ContentDocumentLink - LinkedEntityId : The flow uses this field to associate the contact with the link. * ContentDocumentLink - ShareType : The flow sets this field to 'V' to give the contact viewer access. Thanks in advanced.",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1l7ur17/agentforce_file_managemnt/",
+    "commentCount": 2,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_5ok9q",
+      "author": "TheCannings",
+      "authorProfile": "https://www.reddit.com/user/TheCannings",
+      "commentId": "t1_mwzztmc",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l7ur17/agentforce_file_managemnt/mwzztmc/",
+      "publishingDate": "2025-06-10T11:40:26+00:00",
+      "commentBody": "Have you checked the file type you’re uploading in the file upload and download security settings in setup?",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_e0bjwdmpt",
+      "author": "NervousAd1125",
+      "authorProfile": "https://www.reddit.com/user/NervousAd1125",
+      "commentId": "t1_my901xf",
+      "link": "https://www.reddit.com/r/salesforce/comments/1l7ur17/agentforce_file_managemnt/my901xf/",
+      "publishingDate": "2025-06-17T12:08:31+00:00",
+      "commentBody": "You're on the right track with the flows, but file uploads via Agentforce (Experience Cloud) can be deceptively complex due to permissions, content versioning, and sharing settings. If you're running into persistent issues like this, it might be best to bring in a Salesforce consulting firm that can quickly identify the root cause and set it up properly.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    }
+  ]
+}

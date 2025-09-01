@@ -1,0 +1,280 @@
+{
+  "info": {
+    "authorId": "t2_1mjxbtl3",
+    "author": "proofofclaim",
+    "authorProfile": "https://www.reddit.com/user/proofofclaim",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1izh1mk",
+    "postLabel": null,
+    "publishingDate": "2025-02-27T14:29:39+00:00",
+    "postTitle": "Is Agentforce a workflow or is it really agentic?",
+    "postMessage": "Given that many companies are misusing the term \"agentic\" and applying it to systems that are really just an LLM connected to pre-defined actions, is Agentforce truly agentic, or is it a workflow system? This youtube video does a decent job of explaining the differences: https://www.youtube.com/watch?v=GYFTQU2iV4A",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/",
+    "commentCount": 21,
+    "upvoteCount": 1,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_lesfnndh",
+      "author": "AccountNumeroThree",
+      "authorProfile": "https://www.reddit.com/user/AccountNumeroThree",
+      "commentId": "t1_mf2sf5q",
+      "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf2sf5q/",
+      "publishingDate": "2025-02-27T14:49:00+00:00",
+      "commentBody": "Is \"agentic\" anything more than a marketing term? It doesn't mean anything. +1 I'm new to the industry, but I am with this Guy lmao Agentic simply means the AI operates independently without constant supervision. So basically you ask the AI to complete a task or multi step process and it figures out what flows to launch, what API’s to call, what objects to update. I think from a technical perspective, external facing applications are more Agentic than internal ones given they are essentially acting as representatives on behalf of the org. And is assessing the results and trying something else on failure part of that definition? No, I wouldn’t consider that part of the definition. Testing and oversight can be done either by the agent itself or by a human, similar to a traditional supervisor and employee relationship. The key point is the autonomy of the LLM and its ability to handle complex jobs that go beyond traditional rules based logic. For example, a customer asks a question about a product issue. The agent knows to create a case and respond with a grounded response from the knowledge base. It realizes an answer does not exist already in the knowledge base, so it both redirects to a human servicer and also alerts marketing of a possible new blog post. Yes. Failure conditions are actually the #1 trigger of conditional reasoning and enabling their \"agency\". Most agents will try the simplest solution first. And when that fails, they'll try something else. They can attempt multiple steps until their context memory is exhausted (~150,000 words) or the process times out. They can also query if another agent is more qualified for the task and call transfer_agent (from the OpenAI swarm framework). In terms of how Salesforce uses the term \"agentic\", it is entirely marketing. In terms of what real AI companies refer to as agentic, it means the ability for an AI bot to 'do something' for you. Like, telling ChatGPT to \"Order the cheapest iphone pro max available at any retailer right now\" and the 'Agent' browses the web, parses the order form, and places the order on your behalf. Companies like Perplexity have the ability to do what I just described, those are real agentic AIs. Salesforce just calls everything 'Agentic' because that's the next phase of AI and it's a hot buzzword right now.",
+      "upvotes": 20,
+      "dislikes": 20,
+      "downvotes": 21,
+      "replies": [
+        {
+          "authorId": null,
+          "author": null,
+          "authorProfile": null,
+          "commentId": "t1_mf31g3x",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf31g3x/",
+          "publishingDate": "2025-02-27T15:35:32+00:00",
+          "commentBody": "+1 I'm new to the industry, but I am with this Guy lmao",
+          "upvotes": 4,
+          "dislikes": 4,
+          "downvotes": 5
+        },
+        {
+          "authorId": "t2_90k0i3hb",
+          "author": "Apart-Tie-9938",
+          "authorProfile": "https://www.reddit.com/user/Apart-Tie-9938",
+          "commentId": "t1_mf36vla",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf36vla/",
+          "publishingDate": "2025-02-27T16:01:35+00:00",
+          "commentBody": "Agentic simply means the AI operates independently without constant supervision. So basically you ask the AI to complete a task or multi step process and it figures out what flows to launch, what API’s to call, what objects to update. I think from a technical perspective, external facing applications are more Agentic than internal ones given they are essentially acting as representatives on behalf of the org. And is assessing the results and trying something else on failure part of that definition? No, I wouldn’t consider that part of the definition. Testing and oversight can be done either by the agent itself or by a human, similar to a traditional supervisor and employee relationship. The key point is the autonomy of the LLM and its ability to handle complex jobs that go beyond traditional rules based logic. For example, a customer asks a question about a product issue. The agent knows to create a case and respond with a grounded response from the knowledge base. It realizes an answer does not exist already in the knowledge base, so it both redirects to a human servicer and also alerts marketing of a possible new blog post. Yes. Failure conditions are actually the #1 trigger of conditional reasoning and enabling their \"agency\". Most agents will try the simplest solution first. And when that fails, they'll try something else. They can attempt multiple steps until their context memory is exhausted (~150,000 words) or the process times out. They can also query if another agent is more qualified for the task and call transfer_agent (from the OpenAI swarm framework).",
+          "upvotes": 3,
+          "dislikes": 3,
+          "downvotes": 4
+        },
+        {
+          "authorId": "t2_a5ppscaq",
+          "author": "Jwzbb",
+          "authorProfile": "https://www.reddit.com/user/Jwzbb",
+          "commentId": "t1_mf3pra4",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf3pra4/",
+          "publishingDate": "2025-02-27T17:30:39+00:00",
+          "commentBody": "And is assessing the results and trying something else on failure part of that definition? No, I wouldn’t consider that part of the definition. Testing and oversight can be done either by the agent itself or by a human, similar to a traditional supervisor and employee relationship. The key point is the autonomy of the LLM and its ability to handle complex jobs that go beyond traditional rules based logic. For example, a customer asks a question about a product issue. The agent knows to create a case and respond with a grounded response from the knowledge base. It realizes an answer does not exist already in the knowledge base, so it both redirects to a human servicer and also alerts marketing of a possible new blog post. Yes. Failure conditions are actually the #1 trigger of conditional reasoning and enabling their \"agency\". Most agents will try the simplest solution first. And when that fails, they'll try something else. They can attempt multiple steps until their context memory is exhausted (~150,000 words) or the process times out. They can also query if another agent is more qualified for the task and call transfer_agent (from the OpenAI swarm framework).",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_90k0i3hb",
+          "author": "Apart-Tie-9938",
+          "authorProfile": "https://www.reddit.com/user/Apart-Tie-9938",
+          "commentId": "t1_mf42eyd",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf42eyd/",
+          "publishingDate": "2025-02-27T18:30:14+00:00",
+          "commentBody": "No, I wouldn’t consider that part of the definition. Testing and oversight can be done either by the agent itself or by a human, similar to a traditional supervisor and employee relationship. The key point is the autonomy of the LLM and its ability to handle complex jobs that go beyond traditional rules based logic. For example, a customer asks a question about a product issue. The agent knows to create a case and respond with a grounded response from the knowledge base. It realizes an answer does not exist already in the knowledge base, so it both redirects to a human servicer and also alerts marketing of a possible new blog post.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_be595",
+          "author": "MatchaGaucho",
+          "authorProfile": "https://www.reddit.com/user/MatchaGaucho",
+          "commentId": "t1_mf45d4u",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf45d4u/",
+          "publishingDate": "2025-02-27T18:44:10+00:00",
+          "commentBody": "Yes. Failure conditions are actually the #1 trigger of conditional reasoning and enabling their \"agency\". Most agents will try the simplest solution first. And when that fails, they'll try something else. They can attempt multiple steps until their context memory is exhausted (~150,000 words) or the process times out. They can also query if another agent is more qualified for the task and call transfer_agent (from the OpenAI swarm framework).",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_ah9bj",
+          "author": "_BreakingGood_",
+          "authorProfile": "https://www.reddit.com/user/_BreakingGood_",
+          "commentId": "t1_mfbg5n7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mfbg5n7/",
+          "publishingDate": "2025-02-28T20:53:38+00:00",
+          "commentBody": "In terms of how Salesforce uses the term \"agentic\", it is entirely marketing. In terms of what real AI companies refer to as agentic, it means the ability for an AI bot to 'do something' for you. Like, telling ChatGPT to \"Order the cheapest iphone pro max available at any retailer right now\" and the 'Agent' browses the web, parses the order form, and places the order on your behalf. Companies like Perplexity have the ability to do what I just described, those are real agentic AIs. Salesforce just calls everything 'Agentic' because that's the next phase of AI and it's a hot buzzword right now.",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        }
+      ]
+    },
+    {
+      "authorId": "t2_be595",
+      "author": "MatchaGaucho",
+      "authorProfile": "https://www.reddit.com/user/MatchaGaucho",
+      "commentId": "t1_mf2s8dz",
+      "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf2s8dz/",
+      "publishingDate": "2025-02-27T14:48:00+00:00",
+      "commentBody": "Once an AI is invoking a flow, Apex, or any deterministic code, it's basically an AI workflow. To truly call something an Agent, it needs access to primitive APIs and functions, and allowed to invoke those primitives on its own. The key enabler is in few-shot prompting and dialogue design on how to use those primitives.",
+      "upvotes": 8,
+      "dislikes": 8,
+      "downvotes": 9
+    },
+    {
+      "authorId": "t2_88snh0ik",
+      "author": "This_Wolverine4691",
+      "authorProfile": "https://www.reddit.com/user/This_Wolverine4691",
+      "commentId": "t1_mf30pyr",
+      "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf30pyr/",
+      "publishingDate": "2025-02-27T15:31:58+00:00",
+      "commentBody": "Something can be “agentic” just like tuna can be “sushi-grade.”",
+      "upvotes": 5,
+      "dislikes": 5,
+      "downvotes": 6
+    },
+    {
+      "authorId": "t2_e76wlyy",
+      "author": "anoble562",
+      "authorProfile": "https://www.reddit.com/user/anoble562",
+      "commentId": "t1_mf2u7ri",
+      "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf2u7ri/",
+      "publishingDate": "2025-02-27T14:58:32+00:00",
+      "commentBody": "Depends on what you’re doing. If it needs to do anything aside from pull and structure information from a connected data library (which is simply an abstraction of your existing data), like answer a question with knowledge article content, it can mostly do that on its own. Anything beyond that typically requires some kind of flow, Apex, etc and detailed instructions on how to leverage the information returned from those processes",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1
+    },
+    {
+      "authorId": "t2_kb213",
+      "author": "Clovadaddy",
+      "authorProfile": "https://www.reddit.com/user/Clovadaddy",
+      "commentId": "t1_mf6p8lj",
+      "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf6p8lj/",
+      "publishingDate": "2025-02-28T02:38:15+00:00",
+      "commentBody": "Maybe the question is does it use reasoning? Easy answer: no. No AI can do formal reasoning. It's just statistical inference. True, but if you think about it, humans face similar constraints and rely on external tools to perform formal reasoning just like AI models do. What is this false equivalence between non thinking machines and humans that I keep seeing? Are you that down on your own species? It's really creepy. This isn't really an opinion, though. I'm not sure what you're on about. It does sound like someone's a little insecure about their perceived superiority being challenged. Nah mate, you are denigrating the human race. Why? The human brain has trillions of neural pathways, no machine can compete. Your attitude will get us replaced quicker for no good reason.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_1mjxbtl3",
+          "author": "proofofclaim",
+          "authorProfile": "https://www.reddit.com/user/proofofclaim",
+          "commentId": "t1_mf6waan",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf6waan/",
+          "publishingDate": "2025-02-28T03:20:12+00:00",
+          "commentBody": "Easy answer: no. No AI can do formal reasoning. It's just statistical inference. True, but if you think about it, humans face similar constraints and rely on external tools to perform formal reasoning just like AI models do. What is this false equivalence between non thinking machines and humans that I keep seeing? Are you that down on your own species? It's really creepy. This isn't really an opinion, though. I'm not sure what you're on about. It does sound like someone's a little insecure about their perceived superiority being challenged. Nah mate, you are denigrating the human race. Why? The human brain has trillions of neural pathways, no machine can compete. Your attitude will get us replaced quicker for no good reason.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_6y17z",
+          "author": "cheffromspace",
+          "authorProfile": "https://www.reddit.com/user/cheffromspace",
+          "commentId": "t1_mf8j5ac",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf8j5ac/",
+          "publishingDate": "2025-02-28T11:49:14+00:00",
+          "commentBody": "True, but if you think about it, humans face similar constraints and rely on external tools to perform formal reasoning just like AI models do. What is this false equivalence between non thinking machines and humans that I keep seeing? Are you that down on your own species? It's really creepy. This isn't really an opinion, though. I'm not sure what you're on about. It does sound like someone's a little insecure about their perceived superiority being challenged. Nah mate, you are denigrating the human race. Why? The human brain has trillions of neural pathways, no machine can compete. Your attitude will get us replaced quicker for no good reason.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1mjxbtl3",
+          "author": "proofofclaim",
+          "authorProfile": "https://www.reddit.com/user/proofofclaim",
+          "commentId": "t1_mf8qlkr",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf8qlkr/",
+          "publishingDate": "2025-02-28T12:45:01+00:00",
+          "commentBody": "What is this false equivalence between non thinking machines and humans that I keep seeing? Are you that down on your own species? It's really creepy. This isn't really an opinion, though. I'm not sure what you're on about. It does sound like someone's a little insecure about their perceived superiority being challenged. Nah mate, you are denigrating the human race. Why? The human brain has trillions of neural pathways, no machine can compete. Your attitude will get us replaced quicker for no good reason.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_6y17z",
+          "author": "cheffromspace",
+          "authorProfile": "https://www.reddit.com/user/cheffromspace",
+          "commentId": "t1_mf8vl2z",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf8vl2z/",
+          "publishingDate": "2025-02-28T13:17:33+00:00",
+          "commentBody": "This isn't really an opinion, though. I'm not sure what you're on about. It does sound like someone's a little insecure about their perceived superiority being challenged. Nah mate, you are denigrating the human race. Why? The human brain has trillions of neural pathways, no machine can compete. Your attitude will get us replaced quicker for no good reason.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1mjxbtl3",
+          "author": "proofofclaim",
+          "authorProfile": "https://www.reddit.com/user/proofofclaim",
+          "commentId": "t1_mfg8ytf",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mfg8ytf/",
+          "publishingDate": "2025-03-01T16:18:53+00:00",
+          "commentBody": "Nah mate, you are denigrating the human race. Why? The human brain has trillions of neural pathways, no machine can compete. Your attitude will get us replaced quicker for no good reason.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_pragk",
+      "author": "ennuiandarson",
+      "authorProfile": "https://www.reddit.com/user/ennuiandarson",
+      "commentId": "t1_mtjyimb",
+      "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mtjyimb/",
+      "publishingDate": "2025-05-21T22:15:48+00:00",
+      "commentBody": "Yes, Agentforce is actually agentic. It has active APIs pulling content from a variety of systems (whatever you connect it to), can launch the same multi-step processes, cadences, and approvals that humans do. You can MAKE it dumb if you want to use it to just pull from your knowledgebase, but the whole point is generating answers and initiating workflows for complicated, multi-step problems. That said, you'll likely need MuleSoft and/or Data Cloud to really make it \"sing\". But the AI isn’t driving, right? Its a workflow where one or more steps can be an LLM. For it to be agentic it would mean there is an AI that you give your goal to and it autonomously reasons about how to achieve it. Yes, the AI is driving — within your parameters.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_1mjxbtl3",
+          "author": "proofofclaim",
+          "authorProfile": "https://www.reddit.com/user/proofofclaim",
+          "commentId": "t1_mtn46zt",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mtn46zt/",
+          "publishingDate": "2025-05-22T12:09:53+00:00",
+          "commentBody": "But the AI isn’t driving, right? Its a workflow where one or more steps can be an LLM. For it to be agentic it would mean there is an AI that you give your goal to and it autonomously reasons about how to achieve it. Yes, the AI is driving — within your parameters.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_pragk",
+          "author": "ennuiandarson",
+          "authorProfile": "https://www.reddit.com/user/ennuiandarson",
+          "commentId": "t1_my6rhp7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/my6rhp7/",
+          "publishingDate": "2025-06-17T01:29:27+00:00",
+          "commentBody": "Yes, the AI is driving — within your parameters.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_oped9tgzu",
+      "author": "kuldiph",
+      "authorProfile": "https://www.reddit.com/user/kuldiph",
+      "commentId": "t1_mf3jgvt",
+      "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf3jgvt/",
+      "publishingDate": "2025-02-27T17:01:12+00:00",
+      "commentBody": "Great question to post. And love your YouTube channel. Congrats on getting ~90K subscribers with 100 videos. I wish you talked about Salesforce platforms more. I cannot find a recent video of yours that speaks to Agentforce. Not my video. I included it as a good explainer of the topic in question. Curious how it applies to Agentforce.",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_1mjxbtl3",
+          "author": "proofofclaim",
+          "authorProfile": "https://www.reddit.com/user/proofofclaim",
+          "commentId": "t1_mf3sdz7",
+          "link": "https://www.reddit.com/r/salesforce/comments/1izh1mk/is_agentforce_a_workflow_or_is_it_really_agentic/mf3sdz7/",
+          "publishingDate": "2025-02-27T17:42:57+00:00",
+          "commentBody": "Not my video. I included it as a good explainer of the topic in question. Curious how it applies to Agentforce.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    }
+  ]
+}

@@ -313,7 +313,7 @@ class CommentAnalyzer:
 
 
 
-    def aggregate_by_user(self, results: Dict[str, Dict[str, Any]], post_link: str | None = None) -> pd.DataFrame:
+    def aggregate_by_user(self, results: Dict[str, Dict[str, Any]], post_link: str | None = None, post_title: str | None = None) -> pd.DataFrame:
         print("[INFO] Aggregating per user…")
         by_user: Dict[str, List[Dict[str, Any]]] = {}
         meta: Dict[str, Tuple[str, str]] = {}
@@ -366,7 +366,6 @@ class CommentAnalyzer:
 
             rows.append({
                 "user": user,
-                "author_id": author_id,
                 "author_profile": author_profile,
                 "role_inferred": role_inferred,              # CHANGED: peut valoir "user"
                 "sentiment_agentforce": round(sentiment, 3),
@@ -379,7 +378,9 @@ class CommentAnalyzer:
             ["role_inferred", "sentiment_agentforce"], ascending=[True, False]
         )
 
-        # ➜ Ajoute la colonne en tête SANS impacter l’analyse
+        # ➜ Ajoute les colonnes en tête SANS impacter l'analyse
+        if post_title is not None:
+            df.insert(0, "post_title", post_title)
         if post_link is not None:
             df.insert(0, "post_link", post_link)
 

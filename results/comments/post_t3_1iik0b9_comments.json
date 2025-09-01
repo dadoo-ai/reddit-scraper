@@ -1,0 +1,218 @@
+{
+  "info": {
+    "authorId": "t2_mrsvyv50",
+    "author": "cnnrobrn",
+    "authorProfile": "https://www.reddit.com/user/cnnrobrn",
+    "subreddit": "r/salesforce",
+    "postId": "t3_1iik0b9",
+    "postLabel": null,
+    "publishingDate": "2025-02-05T20:31:04+00:00",
+    "postTitle": "Agentforce for Data Quality",
+    "postMessage": "I'm experimenting with using AI agents to query data and surface items for data quality resolution based on user requests. The thinking is that this would help save time associated with data quality requests or issues. I've been building using Azure functions and OpenAI's Azure Tool calling, but I'm starting to think that the most recent agentforce workflows could handle this in a similar way. Has anyone used agentforce to help with data quality at scale? How was it?",
+    "postLink": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/",
+    "commentCount": 16,
+    "upvoteCount": 0,
+    "attachmentType": null,
+    "attachmentLink": null
+  },
+  "comments": [
+    {
+      "authorId": "t2_1hnh19g7ee",
+      "author": "blacktiger3654",
+      "authorProfile": "https://www.reddit.com/user/blacktiger3654",
+      "commentId": "t1_mb7twpq",
+      "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mb7twpq/",
+      "publishingDate": "2025-02-06T01:39:26+00:00",
+      "commentBody": "What does Data Quality mean here? Accuracy, Validity, and Consistency +Completeness, timeliness, freshness, reliability(outliers detections)…both metadata(design time) and data (run time) We know the data quality matters. This should be a platform product/feature, from salesforce agentforce or  tableau Do you think it's realistic to wait for Salesforce to do it or have you seen success with 3rd party platforms like data groomr/collibra?",
+      "upvotes": 2,
+      "dislikes": 2,
+      "downvotes": 3,
+      "replies": [
+        {
+          "authorId": "t2_mrsvyv50",
+          "author": "cnnrobrn",
+          "authorProfile": "https://www.reddit.com/user/cnnrobrn",
+          "commentId": "t1_mb8q9lc",
+          "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mb8q9lc/",
+          "publishingDate": "2025-02-06T04:50:54+00:00",
+          "commentBody": "Accuracy, Validity, and Consistency +Completeness, timeliness, freshness, reliability(outliers detections)…both metadata(design time) and data (run time) We know the data quality matters. This should be a platform product/feature, from salesforce agentforce or  tableau Do you think it's realistic to wait for Salesforce to do it or have you seen success with 3rd party platforms like data groomr/collibra?",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        },
+        {
+          "authorId": "t2_1hnh19g7ee",
+          "author": "blacktiger3654",
+          "authorProfile": "https://www.reddit.com/user/blacktiger3654",
+          "commentId": "t1_mb8srkj",
+          "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mb8srkj/",
+          "publishingDate": "2025-02-06T05:08:38+00:00",
+          "commentBody": "+Completeness, timeliness, freshness, reliability(outliers detections)…both metadata(design time) and data (run time) We know the data quality matters. This should be a platform product/feature, from salesforce agentforce or  tableau Do you think it's realistic to wait for Salesforce to do it or have you seen success with 3rd party platforms like data groomr/collibra?",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_1hnh19g7ee",
+          "author": "blacktiger3654",
+          "authorProfile": "https://www.reddit.com/user/blacktiger3654",
+          "commentId": "t1_mb8t59e",
+          "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mb8t59e/",
+          "publishingDate": "2025-02-06T05:11:24+00:00",
+          "commentBody": "We know the data quality matters. This should be a platform product/feature, from salesforce agentforce or  tableau Do you think it's realistic to wait for Salesforce to do it or have you seen success with 3rd party platforms like data groomr/collibra?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_mrsvyv50",
+          "author": "cnnrobrn",
+          "authorProfile": "https://www.reddit.com/user/cnnrobrn",
+          "commentId": "t1_mb8vtqu",
+          "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mb8vtqu/",
+          "publishingDate": "2025-02-06T05:31:14+00:00",
+          "commentBody": "Do you think it's realistic to wait for Salesforce to do it or have you seen success with 3rd party platforms like data groomr/collibra?",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        }
+      ]
+    },
+    {
+      "authorId": "t2_24dxkt4i",
+      "author": "girlgonevegan",
+      "authorProfile": "https://www.reddit.com/user/girlgonevegan",
+      "commentId": "t1_mb87r4g",
+      "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mb87r4g/",
+      "publishingDate": "2025-02-06T02:56:00+00:00",
+      "commentBody": "What would be the advantage over recurring waterfall enrichment or ingestion/normalization automation? I not really looking for something that does everything for me. I’m more so trying to cut down the speed at which data discrepancies can be resolved. Something that is fed a problem and returns similar records with suggested resolution. Sounds like the data architecture is accidental (not strategic), and you are looking for a shortcut that will appease end users.",
+      "upvotes": 1,
+      "dislikes": 1,
+      "downvotes": 2,
+      "replies": [
+        {
+          "authorId": "t2_mrsvyv50",
+          "author": "cnnrobrn",
+          "authorProfile": "https://www.reddit.com/user/cnnrobrn",
+          "commentId": "t1_mb8nyrv",
+          "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mb8nyrv/",
+          "publishingDate": "2025-02-06T04:35:21+00:00",
+          "commentBody": "I not really looking for something that does everything for me. I’m more so trying to cut down the speed at which data discrepancies can be resolved. Something that is fed a problem and returns similar records with suggested resolution. Sounds like the data architecture is accidental (not strategic), and you are looking for a shortcut that will appease end users.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_24dxkt4i",
+          "author": "girlgonevegan",
+          "authorProfile": "https://www.reddit.com/user/girlgonevegan",
+          "commentId": "t1_mb9voxa",
+          "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mb9voxa/",
+          "publishingDate": "2025-02-06T11:11:40+00:00",
+          "commentBody": "Sounds like the data architecture is accidental (not strategic), and you are looking for a shortcut that will appease end users.",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    },
+    {
+      "authorId": "t2_mrsvyv50",
+      "author": "cnnrobrn",
+      "authorProfile": "https://www.reddit.com/user/cnnrobrn",
+      "commentId": "t1_mb895sl",
+      "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mb895sl/",
+      "publishingDate": "2025-02-06T03:04:01+00:00",
+      "commentBody": "We get a lot of ad hoc user queries or legacy data that has been shoehorned in. We are constantly updating/changing the system which has resulted in data quality updates being needed. We are relatively mature and have several inbound data sources, but still find changing data or operations impact the quality of our Salesforce data. Sounds more like a delivery/freshness/governance/process/tech debt salad of issues. I don’t think the agent is going to save you with something like this. Maybe a new question: Am I the only one spending 50+% of my time analyzing data and how we use, clean, and maintain it? no - 1. most of analysts spend half of time on data curation. 2. the another half is try to explain why the data is right or not right. Thank you! To your second point, if the people who are using the data don't think it's right, then I'm not sure that the data is providing value. What processes and documentation exist to track data provenance and lineage? What is the state of data governance? These are usually at the very root of the problem you are describing. As painful as it is to address, trying to throw a quick short-term solution at this is a lot like providing Tums for Appendicitis. It’s not going to solve the problem, and your stakeholders are going to be back complaining of pain. Do you see stakeholders reading data lineage and governance documentation? All day every day 😂",
+      "upvotes": 0,
+      "dislikes": 0,
+      "downvotes": 1,
+      "replies": [
+        {
+          "authorId": "t2_24dxkt4i",
+          "author": "girlgonevegan",
+          "authorProfile": "https://www.reddit.com/user/girlgonevegan",
+          "commentId": "t1_mb8gxii",
+          "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mb8gxii/",
+          "publishingDate": "2025-02-06T03:50:12+00:00",
+          "commentBody": "Sounds more like a delivery/freshness/governance/process/tech debt salad of issues. I don’t think the agent is going to save you with something like this.",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_mrsvyv50",
+          "author": "cnnrobrn",
+          "authorProfile": "https://www.reddit.com/user/cnnrobrn",
+          "commentId": "t1_mb8ndoo",
+          "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mb8ndoo/",
+          "publishingDate": "2025-02-06T04:31:29+00:00",
+          "commentBody": "Maybe a new question: Am I the only one spending 50+% of my time analyzing data and how we use, clean, and maintain it? no - 1. most of analysts spend half of time on data curation. 2. the another half is try to explain why the data is right or not right. Thank you! To your second point, if the people who are using the data don't think it's right, then I'm not sure that the data is providing value. What processes and documentation exist to track data provenance and lineage? What is the state of data governance? These are usually at the very root of the problem you are describing. As painful as it is to address, trying to throw a quick short-term solution at this is a lot like providing Tums for Appendicitis. It’s not going to solve the problem, and your stakeholders are going to be back complaining of pain. Do you see stakeholders reading data lineage and governance documentation? All day every day 😂",
+          "upvotes": 0,
+          "dislikes": 0,
+          "downvotes": 1
+        },
+        {
+          "authorId": "t2_1hnh19g7ee",
+          "author": "blacktiger3654",
+          "authorProfile": "https://www.reddit.com/user/blacktiger3654",
+          "commentId": "t1_mb8qqyn",
+          "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mb8qqyn/",
+          "publishingDate": "2025-02-06T04:54:16+00:00",
+          "commentBody": "no - 1. most of analysts spend half of time on data curation. 2. the another half is try to explain why the data is right or not right. Thank you! To your second point, if the people who are using the data don't think it's right, then I'm not sure that the data is providing value. What processes and documentation exist to track data provenance and lineage? What is the state of data governance? These are usually at the very root of the problem you are describing. As painful as it is to address, trying to throw a quick short-term solution at this is a lot like providing Tums for Appendicitis. It’s not going to solve the problem, and your stakeholders are going to be back complaining of pain. Do you see stakeholders reading data lineage and governance documentation? All day every day 😂",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_mrsvyv50",
+          "author": "cnnrobrn",
+          "authorProfile": "https://www.reddit.com/user/cnnrobrn",
+          "commentId": "t1_mb8w73i",
+          "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mb8w73i/",
+          "publishingDate": "2025-02-06T05:34:04+00:00",
+          "commentBody": "Thank you! To your second point, if the people who are using the data don't think it's right, then I'm not sure that the data is providing value. What processes and documentation exist to track data provenance and lineage? What is the state of data governance? These are usually at the very root of the problem you are describing. As painful as it is to address, trying to throw a quick short-term solution at this is a lot like providing Tums for Appendicitis. It’s not going to solve the problem, and your stakeholders are going to be back complaining of pain. Do you see stakeholders reading data lineage and governance documentation? All day every day 😂",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_24dxkt4i",
+          "author": "girlgonevegan",
+          "authorProfile": "https://www.reddit.com/user/girlgonevegan",
+          "commentId": "t1_mb9wmcj",
+          "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mb9wmcj/",
+          "publishingDate": "2025-02-06T11:20:10+00:00",
+          "commentBody": "What processes and documentation exist to track data provenance and lineage? What is the state of data governance? These are usually at the very root of the problem you are describing. As painful as it is to address, trying to throw a quick short-term solution at this is a lot like providing Tums for Appendicitis. It’s not going to solve the problem, and your stakeholders are going to be back complaining of pain. Do you see stakeholders reading data lineage and governance documentation? All day every day 😂",
+          "upvotes": 1,
+          "dislikes": 1,
+          "downvotes": 2
+        },
+        {
+          "authorId": "t2_mrsvyv50",
+          "author": "cnnrobrn",
+          "authorProfile": "https://www.reddit.com/user/cnnrobrn",
+          "commentId": "t1_mbdghoc",
+          "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mbdghoc/",
+          "publishingDate": "2025-02-06T22:14:33+00:00",
+          "commentBody": "Do you see stakeholders reading data lineage and governance documentation? All day every day 😂",
+          "upvotes": null,
+          "dislikes": null,
+          "downvotes": 0
+        },
+        {
+          "authorId": "t2_24dxkt4i",
+          "author": "girlgonevegan",
+          "authorProfile": "https://www.reddit.com/user/girlgonevegan",
+          "commentId": "t1_mbeim2y",
+          "link": "https://www.reddit.com/r/salesforce/comments/1iik0b9/agentforce_for_data_quality/mbeim2y/",
+          "publishingDate": "2025-02-07T01:36:27+00:00",
+          "commentBody": "All day every day 😂",
+          "upvotes": 2,
+          "dislikes": 2,
+          "downvotes": 3
+        }
+      ]
+    }
+  ]
+}
