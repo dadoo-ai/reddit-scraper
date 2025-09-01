@@ -1,0 +1,37 @@
+[
+  {
+    "id": "1ic1lc3mko",
+    "url": "https://www.reddit.com/user/psk1408/",
+    "username": "psk1408",
+    "userIcon": "https://i.redd.it/snoovatar/avatars/cca48863-cae0-439f-9d91-1dab765f3a30-headshot.png",
+    "avatarImage": "https://i.redd.it/snoovatar/avatars/cca48863-cae0-439f-9d91-1dab765f3a30.png",
+    "postKarma": 1,
+    "commentKarma": 1,
+    "verified": true,
+    "description": "",
+    "over18": false,
+    "isMod": false,
+    "acceptFollowers": true,
+    "createdAt": "2025-02-01T02:16:03.000Z",
+    "scrapedAt": "2025-08-31T23:18:12.173Z",
+    "dataType": "user"
+  },
+  {
+    "id": "t1_mj97hue",
+    "parsedId": "mj97hue",
+    "url": "https://www.reddit.com/r/u_salesforce/comments/1jgnqq6/hey_reddit_ask_us_anything_about_agentforce_at/mj97hue/",
+    "postId": "t3_1jgnqq6",
+    "parentId": "t3_1jgnqq6",
+    "username": "psk1408",
+    "userId": "t2_1ic1lc3mko",
+    "category": "u_salesforce",
+    "communityName": "u/salesforce",
+    "body": "Can you explain the dependency on data cloud with using Agentforce and Einstein suite of products.",
+    "createdAt": "2025-03-23T03:23:55.000Z",
+    "scrapedAt": "2025-08-31T23:18:13.205Z",
+    "upVotes": 2,
+    "numberOfreplies": 0,
+    "html": "&lt;div class=\"md\"&gt;&lt;p&gt;Can you explain the dependency on data cloud with using Agentforce and Einstein suite of products.&lt;/p&gt;\n&lt;/div&gt;",
+    "dataType": "comment"
+  }
+]
