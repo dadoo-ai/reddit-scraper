@@ -243,76 +243,7 @@ class CommentAnalyzer:
         print("[INFO] Analysis done.")
         return out
 
-    # def aggregate_by_user(self, results: Dict[str, Dict[str, Any]]) -> pd.DataFrame:
-    #     print("[INFO] Aggregating per user…")
-    #     by_user: Dict[str, List[Dict[str, Any]]] = {}
-    #     meta: Dict[str, Tuple[str, str]] = {}
-
-    #     for _, payload in results.items():
-    #         c: FlatComment = payload["comment"]
-    #         a: Dict[str, Any] = payload["analysis"]
-    #         by_user.setdefault(c.author, []).append(a)
-    #         if c.author not in meta:
-    #             meta[c.author] = (c.author_id, c.author_profile)
-
-    #     rows = []
-    #     for user, analyses in by_user.items():
-    #         # CHANGED: rôles cibles = employee / partner
-    #         role_scores = {"employee": 0.0, "partner": 0.0}  # CHANGED
-    #         role_counts = {"employee": 0, "partner": 0}      # CHANGED
-    #         STRONG = {"self_identified", "profile_flair"}
-
-    #         for a in analyses:
-    #             r = a.get("role", "user")                   # CHANGED
-    #             src = a.get("role_source", "none")
-    #             cconf = float(a.get("role_confidence", 0.0))
-    #             if r in role_scores and src in STRONG and cconf >= 0.6:
-    #                 role_scores[r] += cconf
-    #                 role_counts[r] += 1
-
-    #         # CHANGED: par défaut "user"
-    #         role_inferred = "user"                          # CHANGED
-    #         if any(role_counts.values()):
-    #             best = max(role_scores, key=lambda k: role_scores[k])
-    #             # garde les mêmes seuils d’inférence “forte”
-    #             if role_counts[best] >= 2 or role_scores[best] >= 1.5:
-    #                 role_inferred = best
-
-    #         # Sentiment (inchangé)
-    #         num = den = 0.0
-    #         quotes, justifs = [], []
-    #         for a in analyses:
-    #             w = max(0.05, float(a.get("agentforce_confidence", 0.0)))
-    #             num += float(a.get("agentforce_sentiment", 0.0)) * w
-    #             den += w
-    #             quotes += a.get("evidence_quotes", []) or []
-    #             if a.get("justification"):
-    #                 justifs.append(a["justification"])
-    #         sentiment = (num / den) if den > 0 else 0.0
-
-    #         quotes = list(dict.fromkeys(quotes))[:3]
-    #         justifs = list(dict.fromkeys(justifs))[:3]
-    #         author_id, author_profile = meta[user]
-
-    #         rows.append({
-    #             "user": user,
-    #             "author_id": author_id,
-    #             "author_profile": author_profile,
-    #             "role_inferred": role_inferred,              # CHANGED: peut valoir "user"
-    #             "sentiment_agentforce": round(sentiment, 3),
-    #             "justifications": " | ".join(justifs),
-    #             "evidence_quotes": " | ".join(quotes),
-    #             "n_comments": len(analyses),
-    #         })
-
-    #     df = pd.DataFrame(rows).sort_values(
-    #         ["role_inferred", "sentiment_agentforce"], ascending=[True, False]
-    #     )
-    #     print(f"[INFO] Aggregation complete. n_users={len(df)}")
-    #     return df
-
-
-
+    
     def aggregate_by_user(self, results: Dict[str, Dict[str, Any]], post_link: str | None = None, post_title: str | None = None) -> pd.DataFrame:
         print("[INFO] Aggregating per user…")
         by_user: Dict[str, List[Dict[str, Any]]] = {}
